@@ -1,0 +1,37 @@
+backend:
+  name: github
+  repo: ozanferhatsen/ozanferhatsen-com-tr
+  branch: cms-deneme
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+locale: "tr"
+
+collections:
+  - name: "makaleler"
+    label: "Makaleler"
+    folder: "content/makaleler"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Başlık", name: "title", widget: "string" }
+      - { label: "Yayın Tarihi", name: "date", widget: "datetime" }
+      - { label: "Son Güncelleme", name: "updated", widget: "datetime", required: false }
+      - label: "Çalışma Alanı"
+        name: "category"
+        widget: "select"
+        options:
+          - "İmar Hukuku"
+          - "Kentsel Dönüşüm"
+          - "İnşaat Hukuku"
+          - "Gayrimenkul Hukuku"
+          - "Kira Hukuku"
+          - "Yabancılar Hukuku"
+          - "Bilişim Hukuku"
+          - "Kişisel Veri Hukuku"
+      - { label: "Kısa Özet", name: "description", widget: "text" }
+      - { label: "Kapak Görseli", name: "image", widget: "image", required: false }
+      - { label: "SEO Başlığı", name: "seo_title", widget: "string" }
+      - { label: "Meta Açıklaması", name: "seo_description", widget: "text" }
+      - { label: "Makale", name: "body", widget: "markdown" }
