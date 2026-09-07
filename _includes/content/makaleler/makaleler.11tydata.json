@@ -1,4 +1,0 @@
-{
-  "layout": "article.njk",
-  "permalink": "/makaleler/{{ page.fileSlug }}/index.html"
-}
