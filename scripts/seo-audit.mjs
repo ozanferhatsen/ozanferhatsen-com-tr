@@ -6,7 +6,6 @@ const articleDir = path.join(root, 'content', 'makaleler');
 const files = fs.readdirSync(articleDir).filter((name) => name.endsWith('.md'));
 const slugSet = new Set(files.map((name) => name.replace(/\.md$/, '')));
 const requiredFields = ['title', 'date', 'updated', 'category', 'seo_title', 'description'];
-const competitorDomains = ['lexpera.com.tr'];
 const officialDomains = [
   'mevzuat.gov.tr',
   'resmigazete.gov.tr',
@@ -18,6 +17,11 @@ const officialDomains = [
   'tkgm.gov.tr',
   'csb.gov.tr',
   'adalet.gov.tr'
+];
+const trustedResearchDomains = [
+  'lexpera.com.tr',
+  'kazanci.com.tr',
+  'kazancihukuk.com'
 ];
 const now = new Date();
 const oneDayMs = 24 * 60 * 60 * 1000;
@@ -74,6 +78,10 @@ function hostOf(url) {
   try { return new URL(url).hostname.replace(/^www\./, ''); } catch { return ''; }
 }
 
+function isTrustedSource(host) {
+  return [...officialDomains, ...trustedResearchDomains].some((d) => host === d || host.endsWith(`.${d}`));
+}
+
 let errors = 0;
 let warnings = 0;
 
@@ -127,11 +135,8 @@ for (const name of files) {
     const url = m[0].replace(/[.,;]+$/, '');
     const host = hostOf(url);
     if (!host) continue;
-    if (competitorDomains.some((d) => host === d || host.endsWith(`.${d}`))) {
-      console.error(`ERROR ${name}: competitor/legal database link found -> ${url}`);
-      errors++;
-    } else if (!officialDomains.some((d) => host === d || host.endsWith(`.${d}`))) {
-      console.warn(`WARN  ${name}: non-official external source -> ${url}`);
+    if (!isTrustedSource(host)) {
+      console.warn(`WARN  ${name}: external source requires editorial review -> ${url}`);
       warnings++;
     }
   }
