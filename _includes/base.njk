@@ -23,28 +23,74 @@
 <body>
 <header class="site-header">
   <div class="wrap nav">
-    <a class="brand" href="/"><span class="brand-main">Av. Ozan Ferhat Şen</span><span class="brand-sub">Hukuk Departmanı</span></a>
-    <nav class="nav-links" id="menu">
-      <a href="/imar-hukuku/">İmar</a>
-      <a href="/kentsel-donusum-hukuku/">Kentsel Dönüşüm</a>
-      <a href="/insaat-hukuku/">İnşaat</a>
-      <a href="/gayrimenkul-hukuku/">Gayrimenkul</a>
-      <a href="/kira-hukuku/">Kira</a>
-      <a href="/#makaleler">Makaleler</a>
+    <a class="brand" href="/">
+      <span class="brand-main">Ozan Ferhat Şen</span>
+      <span class="brand-sub">Hukuk Departmanı</span>
+    </a>
+
+    <nav class="nav-links" id="menu" aria-label="Ana menü">
+      <details class="nav-dropdown">
+        <summary>Çalışma Alanları</summary>
+        <div class="mega-menu">
+          <div class="mega-column">
+            <div class="mega-label">Gayrimenkul &amp; Yapı</div>
+            <a href="/imar-hukuku/">İmar Hukuku</a>
+            <a href="/kentsel-donusum-hukuku/">Kentsel Dönüşüm</a>
+            <a href="/insaat-hukuku/">İnşaat Hukuku</a>
+            <a href="/gayrimenkul-hukuku/">Gayrimenkul Hukuku</a>
+            <a href="/kira-hukuku/">Kira Hukuku</a>
+          </div>
+          <div class="mega-column">
+            <div class="mega-label">Dijital &amp; Diğer</div>
+            <a href="/bilisim-hukuku/">Bilişim Hukuku</a>
+            <a href="/kisisel-veri-hukuku/">Kişisel Veri Hukuku</a>
+            <a href="/yabancilar-hukuku/">Yabancılar Hukuku</a>
+          </div>
+        </div>
+      </details>
+      <a href="/makaleler/">Makaleler</a>
       <a href="/hakkimda/">Hakkımda</a>
+      <a class="international-link" href="/en/">International <span>EN</span></a>
     </nav>
+
     <a class="nav-cta" href="/iletisim/">İletişim</a>
-    <button class="menu-btn" aria-label="Menüyü aç" data-menu>☰</button>
+    <button class="menu-btn" aria-label="Menüyü aç" aria-controls="menu" aria-expanded="false" data-menu>☰</button>
   </div>
 </header>
+
 <main>{{ content | safe }}</main>
+
 <footer class="footer">
   <div class="wrap footer-grid">
-    <div><div class="brand-main">Av. Ozan Ferhat Şen</div><div class="brand-sub">Hukuk Departmanı</div><p>İmar, kentsel dönüşüm, inşaat ve gayrimenkul hukukunda hukuki değerlendirme ve sözleşme incelemesi.</p></div>
-    <div><h4>Çalışma alanları</h4><p><a href="/imar-hukuku/">İmar Hukuku</a></p><p><a href="/kentsel-donusum-hukuku/">Kentsel Dönüşüm</a></p><p><a href="/insaat-hukuku/">İnşaat Hukuku</a></p><p><a href="/gayrimenkul-hukuku/">Gayrimenkul Hukuku</a></p></div>
-    <div><h4>İletişim</h4><p><a href="tel:{{ site.phoneHref }}">{{ site.phone }}</a></p><p><a href="{{ site.whatsapp }}">WhatsApp</a></p><p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p><p>{{ site.address }}</p></div>
+    <div>
+      <div class="brand-main">Av. Ozan Ferhat Şen</div>
+      <div class="brand-sub">Hukuk Departmanı</div>
+      <p>İmar, kentsel dönüşüm, inşaat ve gayrimenkul hukukunda hukuki değerlendirme ve sözleşme incelemesi.</p>
+    </div>
+    <div>
+      <h4>Çalışma alanları</h4>
+      <p><a href="/imar-hukuku/">İmar Hukuku</a></p>
+      <p><a href="/kentsel-donusum-hukuku/">Kentsel Dönüşüm</a></p>
+      <p><a href="/insaat-hukuku/">İnşaat Hukuku</a></p>
+      <p><a href="/gayrimenkul-hukuku/">Gayrimenkul Hukuku</a></p>
+      <p><a href="/kira-hukuku/">Kira Hukuku</a></p>
+      <p><a href="/bilisim-hukuku/">Bilişim Hukuku</a></p>
+      <p><a href="/kisisel-veri-hukuku/">Kişisel Veri Hukuku</a></p>
+      <p><a href="/yabancilar-hukuku/">Yabancılar Hukuku</a></p>
+    </div>
+    <div>
+      <h4>İletişim</h4>
+      <p><a href="tel:{{ site.phoneHref }}">{{ site.phone }}</a></p>
+      <p><a href="{{ site.whatsapp }}">WhatsApp</a></p>
+      <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      <p>{{ site.address }}</p>
+      <p><a href="/en/">International Clients</a></p>
+    </div>
   </div>
-  <div class="wrap bottom"><span>© 2026 Av. Ozan Ferhat Şen</span><span><a href="/gizlilik/">Gizlilik</a> · <a href="/kvkk/">KVKK</a> · <a href="/sitemap.xml">Site Haritası</a></span></div>
+  <div class="wrap bottom">
+    <span>© 2026 Av. Ozan Ferhat Şen</span>
+    <span><a href="/gizlilik/">Gizlilik</a> · <a href="/kvkk/">KVKK</a> · <a href="/sitemap.xml">Site Haritası</a></span>
+  </div>
 </footer>
 <script src="/assets/site.js"></script>
 </body>
