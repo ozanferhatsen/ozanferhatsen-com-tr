@@ -3,18 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ title or site.name }}</title>
+  <title>{{ seo_title or title or site.name }}</title>
   <meta name="description" content="{{ description or site.description }}">
   <meta name="robots" content="{{ robots or 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1' }}">
   <link rel="canonical" href="{{ canonical or (site.url + page.url) }}">
   <meta property="og:locale" content="tr_TR">
   <meta property="og:type" content="{{ og_type or 'website' }}">
   <meta property="og:site_name" content="{{ site.name }} | {{ site.brand }}">
-  <meta property="og:title" content="{{ title or site.name }}">
+  <meta property="og:title" content="{{ seo_title or title or site.name }}">
   <meta property="og:description" content="{{ description or site.description }}">
   <meta property="og:url" content="{{ canonical or (site.url + page.url) }}">
   {% if image %}<meta property="og:image" content="{{ site.url }}{{ image }}">{% endif %}
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ seo_title or title or site.name }}">
+  <meta name="twitter:description" content="{{ description or site.description }}">
   <link rel="stylesheet" href="/assets/styles.css">
   {% if schema %}<script type="application/ld+json">{{ schema | safe }}</script>{% endif %}
 </head>
