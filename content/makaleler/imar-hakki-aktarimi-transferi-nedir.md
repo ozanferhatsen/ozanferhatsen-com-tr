@@ -2,7 +2,7 @@
 title: İmar Hakkı Aktarımı (Transferi) Nedir? Nasıl Uygulanır?
 slug: imar-hakki-aktarimi-transferi-nedir
 date: 2025-03-10T09:00:00+03:00
-updated: 2025-03-10T09:00:00+03:00
+updated: 2025-12-13T09:00:00+03:00
 category: İmar Hukuku
 keyword: İmar Hakkı
 summary: Bir parselde kullanılamayan yapılaşma hakkı, belirli şartlarla başka
@@ -21,7 +21,7 @@ description: İmar hakkı aktarımı (transferi) nedir? Verici ve alıcı parsel
 
 ## Bu sisteme neden ihtiyaç var?
 
-Bazı taşınmazların tamamı veya büyük kısmı yol, park, okul, sağlık tesisi gibi kamu hizmet alanlarında kalır. Arazi ve arsa düzenlemesiyle çözüm üretilemeyebilir; ikinci kez DOP kesintisi mümkün olmayabilir veya parsel tek başına uygulama kabiliyetini kaybedebilir.
+Bazı taşınmazların tamamı veya büyük kısmı yol, park, okul, sağlık tesisi gibi kamu hizmet alanlarında kalır. Arazi ve arsa düzenlemesiyle çözüm üretilemeyebilir; [ikinci kez DOP kesintisi](/makaleler/ikinci-kez-dop-kesilebilir-mi/) mümkün olmayabilir veya parsel tek başına uygulama kabiliyetini kaybedebilir.
 
 Bu durumlarda malik bir yandan tapuda özel mülkiyet sahibi görünürken diğer yandan yapılaşma hakkını fiilen kullanamaz. İmar hakkı transferi, kamu alanının kamuya kazandırılması ile özel mülkiyetteki ekonomik hakkın tamamen yok olmaması arasında bir denge aracı olarak kullanılır.
 
@@ -33,7 +33,7 @@ Köktürklerin daha eski doktrinel anlatımında imar hakkı aktarımı; yapı h
 
 ## Hangi durumlarda uygulanabilir?
 
-2025 Yönetmelik değişikliği çeşitli durumları sayar. Bunlar arasında, arazi ve arsa düzenlemesine rağmen kamu eline geçirilemeyen umumi ve kamu hizmet alanları; parselasyon sonrasında plan değişikliğiyle kamu hizmet alanına ayrılan ve ikinci kez DOP kesilememesi nedeniyle kamuya geçirilemeyen yerler; bazı 15. madde uygulamaları sonrası özel mülkiyette kalan kamu hizmet alanları ve tek başına düzenleme kabiliyeti kalmayan parseller bulunur.
+2025 Yönetmelik değişikliği çeşitli durumları sayar. Bunlar arasında, arazi ve arsa düzenlemesine rağmen kamu eline geçirilemeyen umumi ve kamu hizmet alanları; [parselasyon](/makaleler/parselasyon-plani-iptal-edilirse-tapular-ne-olur/) sonrasında plan değişikliğiyle kamu hizmet alanına ayrılan ve ikinci kez DOP kesilememesi nedeniyle kamuya geçirilemeyen yerler; bazı 15. madde uygulamaları sonrası özel mülkiyette kalan kamu hizmet alanları ve tek başına düzenleme kabiliyeti kalmayan parseller bulunur.
 
 Aktarım otomatik değildir. Uygulama imar planı veya plan hükmü, teknik rapor, yetkili idare kararı ve değerleme süreci gerekir.
 
@@ -57,7 +57,7 @@ Aktarım sonucunda verici parseldeki mülkiyet ve üzerindeki muhdesatın ilgili
 
 ## Kök parsel ve eski terklerle ilişkisi nedir?
 
-İmar hakkı transferi, “kök parsel” kavramıyla aynı şey değildir. Eski parsel geçmişi, daha önceki kesintiler ve kamuya bırakılan alanlar verici parselin hukuki durumunu açıklamada önemli olabilir; fakat aktarım hakkı doğrudan “kök parsel bulunduğu” için doğmaz.
+[**Kök parsel**](/makaleler/kok-parsel-nedir-emsal-imar-hakki/) kavramı ile imar hakkı transferi aynı şey değildir. [Eski parsel geçmişi ve kamuya bırakılan alanlar](/makaleler/yol-terki-eski-terkler-imar-hakki-dop/) verici parselin hukuki durumunu açıklamada önemli olabilir; fakat aktarım hakkı doğrudan “kök parsel bulunduğu” için doğmaz.
 
 Aktarımın dayanağı güncel plan kararı ve mevzuattaki şartlardır. Bu ayrım, eski terk veya kök parsel üzerinden “otomatik bonus emsal” beklentisinin önüne geçer.
 
@@ -82,7 +82,7 @@ Güncel yönetmelik, alıcı ve verici parsel maliklerinin muvafakatına dayalı
 **Kaynakça ve hukuki dayanak**
 
 * Erol Köktürk & Erdal Köktürk, *Arsa Düzenlemeleri*
-* 3194 sayılı İmar Kanunu; 5.12.2024 tarihli 7534 sayılı Kanunla getirilen imar hakkı aktarımı hükümleri.
-* Arazi ve Arsa Düzenlemeleri Hakkında Yönetmelik; 11.09.2025 ve 13.12.2025 değişiklikleri, m.38/A ve devamı.
+* [3194 sayılı İmar Kanunu](https://www.mevzuat.gov.tr/mevzuatmetin/1.5.3194.pdf); 5.12.2024 tarihli 7534 sayılı Kanunla getirilen imar hakkı aktarımı hükümleri.
+* Arazi ve Arsa Düzenlemeleri Hakkında Yönetmelik; [11.09.2025](https://www.resmigazete.gov.tr/11.09.2025) ve [13.12.2025](https://www.resmigazete.gov.tr/13.12.2025) değişiklikleri, m.38/A ve devamı.
 
 *Not:* İmar hukukunda sonuç, yalnızca kanun maddesine değil; yürürlükteki 1/1000 ölçekli uygulama imar planına, plan notlarına, parselasyon geçmişine ve somut idari işleme göre değişebilir.
