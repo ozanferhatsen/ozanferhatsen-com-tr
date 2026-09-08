@@ -19,6 +19,8 @@ const officialDomains = [
   'csb.gov.tr',
   'adalet.gov.tr'
 ];
+const now = new Date();
+const oneDayMs = 24 * 60 * 60 * 1000;
 
 const monthMap = {
   ocak: 1, şubat: 2, mart: 3, nisan: 4, mayıs: 5, haziran: 6,
@@ -104,7 +106,9 @@ for (const name of files) {
 
   if (modified) {
     for (const found of extractFullDates(body)) {
-      if (found.date.getTime() > modified.getTime() + 24 * 60 * 60 * 1000) {
+      const isPastOrCurrentDate = found.date.getTime() <= now.getTime() + oneDayMs;
+      const isLaterThanModified = found.date.getTime() > modified.getTime() + oneDayMs;
+      if (isPastOrCurrentDate && isLaterThanModified) {
         console.error(`ERROR ${name}: content cites ${found.raw}, later than updated=${data.updated}`);
         errors++;
       }
