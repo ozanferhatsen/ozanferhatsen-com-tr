@@ -1,15 +1,18 @@
 ---
-title: "İmar Hakkı Aktarımı (Transferi) Nedir? Nasıl Uygulanır?"
-slug: "imar-hakki-aktarimi-transferi-nedir"
-date: "2025-03-10T09:00:00+03:00"
-updated: "2025-03-10T09:00:00+03:00"
-category: "İmar Hukuku"
-keyword: "İmar Hakkı"
-summary: "Bir parselde kullanılamayan yapılaşma hakkı, belirli şartlarla başka bir parsele taşınabilir. Fakat bu, “metrekareyi başka yere götürmek” kadar basit değildir; değerleme ve plan kararı birlikte gerekir."
-seo_title: "İmar Hakkı Aktarımı (Transferi) Nedir? Nasıl Uygulanır?"
-description: "İmar hakkı aktarımı (transferi) nedir? Verici ve alıcı parsel, değerleme, malik muvafakati ve alıcı parseldeki %30 artış sınırı nasıl uygulanır?"
+title: İmar Hakkı Aktarımı (Transferi) Nedir? Nasıl Uygulanır?
+slug: imar-hakki-aktarimi-transferi-nedir
+date: 2025-03-10T09:00:00+03:00
+updated: 2025-03-10T09:00:00+03:00
+category: İmar Hukuku
+keyword: İmar Hakkı
+summary: Bir parselde kullanılamayan yapılaşma hakkı, belirli şartlarla başka
+  bir parsele taşınabilir. Fakat bu, “metrekareyi başka yere götürmek” kadar
+  basit değildir; değerleme ve plan kararı birlikte gerekir.
+seo_title: İmar Hakkı Aktarımı (Transferi) Nedir? Nasıl Uygulanır?
+description: İmar hakkı aktarımı (transferi) nedir? Verici ve alıcı parsel,
+  değerleme, malik muvafakati ve alıcı parseldeki %30 artış sınırı nasıl
+  uygulanır?
 ---
-
 ## Kısa cevap
 
 **Kısa cevap:** İmar hakkı transferi, kamu hizmet alanında kaldığı için özel mülkiyete konu yapılaşma hakkını kullanamayan bir parseldeki emsale esas inşaat hakkının, uygulama imar planı kararıyla başka bir parsel veya parsellere taşınmasıdır.
@@ -78,8 +81,8 @@ Güncel yönetmelik, alıcı ve verici parsel maliklerinin muvafakatına dayalı
 
 **Kaynakça ve hukuki dayanak**
 
-- Erol Köktürk & Erdal Köktürk, *Arsa Düzenlemeleri*, “İmar Hakkı Aktarımı” ve “Bazı Parsellerin Belediyeye Bedelsiz Terki Karşılığında Emsalin Artırılması” bölümleri.
-- 3194 sayılı İmar Kanunu; 5.12.2024 tarihli 7534 sayılı Kanunla getirilen imar hakkı aktarımı hükümleri.
-- Arazi ve Arsa Düzenlemeleri Hakkında Yönetmelik; 11.09.2025 ve 13.12.2025 değişiklikleri, m.38/A ve devamı.
+* Erol Köktürk & Erdal Köktürk, *Arsa Düzenlemeleri*
+* 3194 sayılı İmar Kanunu; 5.12.2024 tarihli 7534 sayılı Kanunla getirilen imar hakkı aktarımı hükümleri.
+* Arazi ve Arsa Düzenlemeleri Hakkında Yönetmelik; 11.09.2025 ve 13.12.2025 değişiklikleri, m.38/A ve devamı.
 
 *Not:* İmar hukukunda sonuç, yalnızca kanun maddesine değil; yürürlükteki 1/1000 ölçekli uygulama imar planına, plan notlarına, parselasyon geçmişine ve somut idari işleme göre değişebilir.
