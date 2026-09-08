@@ -1,0 +1,28 @@
+{
+  "ncmec-dijital-delil": {
+    "title": "NCMEC, Müstehcenlik ve Dijital Delil Dosyası",
+    "url": "/bilisim-hukuku/#ncmec-dijital-delil-dosyasi",
+    "items": [
+      {
+        "order": 1,
+        "title": "NCMEC Raporu Nedir? Türkiye'de NCMEC Bildirimi Sonrası Soruşturma Nasıl İlerler?",
+        "url": "/makaleler/ncmec-raporu-nedir-turkiyede-sorusturma/"
+      },
+      {
+        "order": 2,
+        "title": "NCMEC Raporu Tek Başına Mahkûmiyet İçin Yeterli midir?",
+        "url": "/makaleler/ncmec-raporu-tek-basina-mahkumiyet-yeterli-mi/"
+      },
+      {
+        "order": 3,
+        "title": "Müstehcenlik Suçu ve TCK 226: İndirme, Bulundurma, Paylaşma ve Dijital İçerikler",
+        "url": "/makaleler/mustehcenlik-sucu-tck-226-dijital-icerikler/"
+      },
+      {
+        "order": 4,
+        "title": "Telefonda veya Bilgisayarda Müstehcen Görüntü Bulunması Suç İçin Yeterli midir?",
+        "url": "/makaleler/telefonda-bilgisayarda-mustehcen-goruntu-bulunmasi-yeterli-mi/"
+      }
+    ]
+  }
+}
