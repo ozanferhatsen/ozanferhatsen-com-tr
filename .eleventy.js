@@ -40,6 +40,12 @@ export default function (eleventyConfig) {
     items.filter((item) => item.data && item.data.category === category)
   );
 
+  eleventyConfig.addFilter("relatedByCategory", (items = [], category, currentUrl, count = 3) =>
+    items
+      .filter((item) => item.data && item.data.category === category && item.url !== currentUrl)
+      .slice(0, count)
+  );
+
   eleventyConfig.addFilter("categoryUrl", (category) => categoryUrls[category] || "/makaleler/");
 
   eleventyConfig.addFilter("limit", (items = [], count = 6) => items.slice(0, count));
