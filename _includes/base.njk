@@ -29,8 +29,7 @@
   <div class="wrap nav">
     <a class="brand" href="{% if lang == 'en' %}/en/{% else %}/{% endif %}">
       <span class="brand-main">Ozan Ferhat Şen</span>
-      <span class="brand-sub">{% if lang == 'en' %}Attorney at Law{% else %}Hukuk Departmanı{% endif %}</span>
-    </a>
+      {% if lang == 'en' %}<span class="brand-sub">Attorney at Law</span>{% endif %}
 
     {% if lang == 'en' %}
     <nav class="nav-links" id="menu" aria-label="Main navigation">
