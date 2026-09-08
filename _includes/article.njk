@@ -2,11 +2,8 @@
 layout: base.njk
 og_type: article
 ---
-{% set articleTitle = seo_title or title %}
 {% set canonicalUrl = site.url + page.url %}
-{% set articleSchema %}{"@context":"https://schema.org","@type":"Article","headline":{{ title | json }},"description":{{ (description or summary) | json }},"mainEntityOfPage":{"@type":"WebPage","@id":{{ canonicalUrl | json }}},"author":{"@type":"Person","name":"Ozan Ferhat Şen","url":"https://ozanferhatsen.com.tr/hakkimda/"},"publisher":{"@type":"Person","name":"Ozan Ferhat Şen","url":"https://ozanferhatsen.com.tr/"},"datePublished":{{ date | isoDate | json }},"dateModified":{{ (updated or date) | isoDate | json }}{% if image %},"image":{{ (site.url + image) | json }}{% endif %},"inLanguage":"tr-TR","articleSection":{{ category | json }}}{% endset %}
-{% set breadcrumbSchema %}{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Ana Sayfa","item":"https://ozanferhatsen.com.tr/"},{"@type":"ListItem","position":2,"name":{{ category | json }},"item":"https://ozanferhatsen.com.tr/"},{"@type":"ListItem","position":3,"name":{{ title | json }},"item":{{ canonicalUrl | json }}}]}{% endset %}
-{% set schema %}[{{ articleSchema | safe }},{{ breadcrumbSchema | safe }}]{% endset %}
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":{{ title | json }},"description":{{ (description or summary) | json }},"mainEntityOfPage":{"@type":"WebPage","@id":{{ canonicalUrl | json }}},"author":{"@type":"Person","name":"Ozan Ferhat Şen","url":"https://ozanferhatsen.com.tr/hakkimda/"},"publisher":{"@type":"Person","name":"Ozan Ferhat Şen","url":"https://ozanferhatsen.com.tr/"},"datePublished":{{ date | isoDate | json }},"dateModified":{{ (updated or date) | isoDate | json }},"inLanguage":"tr-TR","articleSection":{{ category | json }}{% if image %},"image":{{ (site.url + image) | json }}{% endif %}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Ana Sayfa","item":"https://ozanferhatsen.com.tr/"},{"@type":"ListItem","position":2,"name":{{ category | json }},"item":"https://ozanferhatsen.com.tr/"},{"@type":"ListItem","position":3,"name":{{ title | json }},"item":{{ canonicalUrl | json }}}]}]}</script>
 <section class="article-header">
   <div class="wrap">
     <div class="breadcrumbs"><a href="/">Ana Sayfa</a> / {{ category }} / {{ title }}</div>
