@@ -2,7 +2,7 @@
 title: "NCMEC Raporu Tek Başına Mahkûmiyet İçin Yeterli midir?"
 slug: "ncmec-raporu-tek-basina-mahkumiyet-yeterli-mi"
 date: "2026-09-08T20:59:00+03:00"
-updated: "2026-09-08T21:00:00+03:00"
+updated: "2026-09-08T22:33:00+03:00"
 category: "Bilişim Hukuku"
 category_url: "/bilisim-hukuku/"
 keyword: "NCMEC Delil Değeri"
@@ -50,22 +50,13 @@ Bu farklılık ceza dosyasında doğrudan önemlidir. Çünkü bir rapor;
 
 Dolayısıyla raporun ispat değerini değerlendirmeden önce **raporun tamamının görülmesi** gerekir.
 
-## Rapordaki hesap ile sanık arasındaki bağlantı nasıl kurulur?
+## Hesap bilgisi ile gerçek kullanıcı arasındaki bağ
 
-Bir e-posta adresinin, kullanıcı adının veya sosyal medya hesabının belirli bir kişiye ait görünmesi tek başına bütün soruları çözmez.
+Bir e-posta adresinin, kullanıcı adının veya sosyal medya hesabının belirli bir kişiye ait görünmesi tek başına bütün soruları çözmez. Ceza sorumluluğu bakımından asıl mesele, isnat edilen işlemi olay tarihinde kimin gerçekleştirdiğidir.
 
-Hesabın fiilen kim tarafından kullanıldığını değerlendirmek için örneğin;
+Bu nedenle hesabın açılış ve kurtarma bilgileri, oturum açma kayıtları, IP ve tarih-saat verileri, bağlı telefon numarası veya cihaz bilgileri ve şüphelinin telefon ya da bilgisayarındaki uygulama oturumları birlikte anlam kazanır.
 
-- hesap açılış ve kurtarma bilgileri,
-- oturum açma kayıtları,
-- IP ve tarih-saat verileri,
-- telefon numarası veya bağlı cihaz bilgileri,
-- cihazlarda bulunan oturum ve uygulama kayıtları,
-- diğer hesaplarla bağlantılar
-
-önem taşıyabilir.
-
-Buradaki hukuki sorun, hesabın “kimin adına olduğu” ile sınırlı değildir. **İsnat edilen işlemi suç tarihinde kimin gerçekleştirdiği** belirlenmelidir.
+Bir hesabın isim, e-posta veya telefon numarası bakımından belirli kişiyle güçlü biçimde ilişkilendirilmesi önemli bir delildir. Ancak **hesabın kimin adına açıldığı ile belirli anda hesabı kimin kullandığı aynı soru değildir.** Platform kayıtları başka teknik verilerle doğrulandıkça ispat zinciri güçlenir.
 
 ## IP adresi raporu kişiye bağlamak için yeterli midir?
 
@@ -77,11 +68,11 @@ Murat Volkan Dülger'in aktardığı Yargıtay uygulamasında, IP üzerinden ula
 
 Bu nedenle NCMEC dosyasında yalnız **“bu IP bu abonenin”** sonucuyla yetinmek, fail tespiti bakımından eksik kalabilir. Özellikle CGNAT kullanılan bağlantılarda kaynak port ve doğru zaman verisinin bulunması ayrıca önem kazanır.
 
-IP ve CGNAT meselesi, bu serinin devamında ayrı bir makalede ayrıntılı olarak ele alınacaktır.
+Bu teknik mesele [IP adresi ve fail tespiti](/makaleler/ip-adresi-tek-basina-sucun-failini-gosterir-mi/) ile [CGNAT ve kaynak port](/makaleler/cgnat-kaynak-port-kaydi-nedir-fail-tespiti/) bölümlerinde ayrıntılı olarak ele alınmaktadır.
 
-## Rapordaki görüntü ile cihazdaki görüntü aynı mı?
+## Rapordaki görüntü ile cihazdaki görüntünün eşleşmesi
 
-NCMEC dosyalarında en kritik sorulardan biri budur.
+NCMEC dosyalarında en kritik noktalardan biri, bildirime konu materyal ile ele geçirilen cihazda bulunan materyal arasında gerçekten teknik eşleşme olup olmadığıdır.
 
 Dülger'in aktardığı **Yargıtay 4. Ceza Dairesinin 24.12.2020 tarihli, E.2020/14214, K.2020/21479 sayılı kararında**, NCMEC raporunda yer alan görüntüler ile sanığa ait hard diskte tespit edilen görüntülerin aynı olup olmadığının bilirkişi aracılığıyla belirlenmesi gerektiği vurgulanmıştır.
 
@@ -90,46 +81,35 @@ Bu yaklaşım önemli bir ayrımı gösterir:
 **“Raporda bir görüntü var”** başka şeydir.  
 **“Aynı görüntünün sanığın cihazında bulunduğu teknik olarak gösterildi”** başka şeydir.
 
-Eşleşme; dosyanın kendisi, hash değeri, dosya yapısı veya bilirkişinin denetlenebilir başka teknik bulguları üzerinden kurulabilir. Hangi yöntemin yeterli olacağı somut dosyaya bağlıdır.
+Karşılaştırma yalnız dosya adının benzemesine bırakılmamalıdır. Dosyanın kendisi, hash değeri, dosya yapısı ve bilirkişinin denetlenebilir diğer teknik bulguları aynı materyalin söz konusu olup olmadığını ortaya koyabilir.
 
-## Hash eşleşmesi neyi ispatlar, neyi ispatlamaz?
+Teknik eşleşme dosyanın kimliğini güçlendirir. Fakat bu sonuç tek başına dosyayı kimin indirdiğini, bulundurduğunu veya paylaştığını göstermez. **Dosyanın kimliği ile failin kimliği ayrı ispat başlıklarıdır.**
+
+## Hash eşleşmesinin sınırı
 
 Hash değeri bir dijital dosyanın teknik parmak izi gibi kullanılabilir. Aynı hash değerine sahip iki dosyanın aynı veri içeriğine sahip olduğu yönünde çok güçlü teknik sonuç verir.
 
-Fakat hash eşleşmesi tek başına **o dosyayı kimin indirdiğini, gördüğünü veya paylaştığını** söylemez.
+Bununla birlikte hash eşleşmesi tek başına dosyanın hangi kullanıcı tarafından ne zaman edinildiğini açıklamaz. Cihazı kimlerin kullandığı, dosyanın hangi uygulama üzerinden geldiği, otomatik senkronizasyonla oluşup oluşmadığı, silinip silinmediği, kullanıcı tarafından taşınıp taşınmadığı veya başkasına gönderilip gönderilmediği ayrıca değerlendirilebilir.
 
-Örneğin bir dosyanın sanığın cihazında aynı hash ile bulunması dosya eşleşmesini kuvvetle ortaya koyabilir. Fakat ceza sorumluluğu bakımından ayrıca;
+Bu nedenle hash, delil zincirinin önemli bir halkasıdır; bütün zincirin kendisi değildir.
 
-- cihazı kimlerin kullandığı,
-- dosyanın ne zaman ve hangi uygulama üzerinden geldiği,
-- dosyanın otomatik senkronizasyonla oluşup oluşmadığı,
-- silinip silinmediği,
-- kullanıcı tarafından açılıp taşınıp taşınmadığı,
-- başkasına gönderilip gönderilmediği
+## Cihazda eşleşen içerik bulunmaması
 
-gibi sorular gündeme gelebilir.
+Cihaz incelemesinde rapora konu materyalin bulunmaması önemli bir olgudur, ancak otomatik beraat formülü değildir. Bir platform raporu geçmişte gerçekleşmiş bir yükleme veya paylaşımı gösterebilir; dosya daha sonra silinmiş, cihaz değiştirilmiş veya işlem başka bir cihaz üzerinden gerçekleştirilmiş olabilir.
 
-Dijital delilde bu nedenle **dosyanın kimliği** ile **failin kimliği** birbirinden ayrılmalıdır.
-
-## Cihazda hiç eşleşen içerik bulunmaması ne anlama gelir?
-
-Bu durum da otomatik bir beraat formülü değildir. Fakat delil değerlendirmesinde önemli bir olgudur.
-
-Bir rapor, geçmişte gerçekleşmiş bir yükleme veya paylaşımı gösterebilir; dosyanın daha sonra cihazdan silinmiş olması mümkündür. Öte yandan cihaz incelemesinde rapora konu materyalle hiçbir teknik bağlantı kurulamaması, özellikle başka güçlü deliller de yoksa raporun kişiyle bağlantısının ayrıca sorgulanmasını gerektirir.
+Buna karşılık rapora konu materyalle şüphelinin cihazları arasında hiçbir teknik bağ kurulamaması ve hesap/IP bağlantısının da zayıf olması hâlinde ispat zinciri ayrıca sorgulanmalıdır.
 
 Dülger'in aktardığı kararlar, IP ile ulaşılan şüphelinin cihazlarında suç konusu içerik bulunup bulunmadığının ve içeriklerin nasıl elde edildiğinin araştırılmasının önemini ortaya koymaktadır.
 
-Burada doğru soru “cihaz temiz çıktı mı?” değil, **“rapordaki olay ile cihaz ve kullanıcı arasındaki bağlantıyı gösteren ne var?”** sorusudur.
+Burada doğru yaklaşım yalnız “cihaz temiz çıktı” veya “rapor var” ikiliğine sıkışmak değil, **rapordaki olayın bu kişi tarafından gerçekleştirildiğini hangi bağımsız delillerin doğruladığını** incelemektir.
 
-## Otomatik indirme veya bulut senkronizasyonu savunması tek başına yeterli midir?
-
-Hayır. Aynı şekilde bu ihtimalin hiç araştırılmaması da doğru değildir.
+## Otomatik indirme veya bulut senkronizasyonu
 
 Mesajlaşma uygulamalarının otomatik medya indirme özellikleri, fotoğraf yedekleme servisleri veya cihazlar arası bulut senkronizasyonu nedeniyle bir dosya kullanıcının elle “kaydet” komutu vermeden cihazda bulunabilir.
 
-Ancak bunun somut dosyada gerçekleşip gerçekleşmediği teknik verilerle incelenmelidir. Uygulama ayarları, dosya yolu, senkronizasyon kayıtları, oluşturma zamanları ve başka dijital bulgular bu değerlendirmede önem taşıyabilir.
+Bunun somut dosyada gerçekleşip gerçekleşmediği teknik verilerle incelenmelidir. Uygulama ayarları, dosya yolu, senkronizasyon kayıtları, oluşturma zamanları ve başka dijital bulgular bu değerlendirmede önem taşıyabilir.
 
-Bu nedenle **“otomatik indi”** cümlesi de **“dosya cihazda bulundu, bilinçli olarak saklandı”** cümlesi de teknik incelemeden bağımsız kesin sonuç değildir.
+Dolayısıyla **“otomatik indi”** açıklaması da **“dosya cihazda bulundu, bilinçli olarak saklandı”** sonucu da teknik incelemeden bağımsız kesin kabul edilmemelidir.
 
 ## Dijital incelemenin güvenilirliği de delil değerlendirmesinin parçasıdır
 
@@ -137,13 +117,13 @@ Cihazdan elde edilen bulguların güvenilir biçimde değerlendirilebilmesi içi
 
 İsmail Akkaya'nın çalışmasında dijital delilin klasik delilden farklı özellikleri, adli bilişim metodolojisi ve CMK m.134 kapsamındaki arama-kopyalama-el koyma işlemleri ayrıntılı biçimde ele alınmaktadır. İmaj alma, kopya üzerinde inceleme ve veri bütünlüğünün korunması bu nedenle yalnız teknik ayrıntı değil, delilin güvenilirliğiyle ilgili hukuki meselelerdir.
 
-Bir bilirkişi raporunda yalnız “X adet dosya bulundu” yazması her zaman bütün soruları cevaplamaz. Dosyaların nerede ve nasıl bulunduğu, rapordaki materyalle eşleşip eşleşmediği ve incelemenin yeniden denetlenebilir olup olmadığı da önemlidir.
+Bir bilirkişi raporunda yalnız “X adet dosya bulundu” yazması her zaman yeterli değildir. Dosyaların nerede ve nasıl bulunduğu, rapordaki materyalle eşleşip eşleşmediği ve incelemenin yeniden denetlenebilir olup olmadığı da önemlidir.
 
-## NCMEC raporu hangi durumda güçlü bir delil zincirinin parçası hâline gelir?
+## Güçlü bir delil zinciri nasıl oluşur?
 
-Tek bir formül yoktur. Ancak örneğin şu verilerin birbirini doğrulaması delil zincirini belirgin biçimde güçlendirebilir:
+Tek bir formül yoktur. Ancak şu verilerin birbirini doğrulaması delil zincirini belirgin biçimde güçlendirebilir:
 
-1. NCMEC raporunda belirli hesap ve dosya bilgileri bulunması,
+1. NCMEC raporunda belirli hesap ve dosya bilgilerinin bulunması,
 2. platform kayıtlarının aynı hesabı ve tarihleri doğrulaması,
 3. IP/port verilerinin ilgili internet bağlantısıyla eşleşmesi,
 4. hesabın şüpheli tarafından kullanıldığını gösteren cihaz kayıtlarının bulunması,
@@ -156,26 +136,6 @@ Tersine, bu halkaların bir veya birkaçında ciddi boşluk bulunması ispat de�
 
 NCMEC raporu hafife alınacak bir belge değildir. Fakat **raporun ciddi olması ile raporun tek başına mahkûmiyet için yeterli olması aynı önerme değildir.**
 
-Ceza dosyasındaki asıl soru, raporun içeriğinin sanığın belirli bir eylemi gerçekleştirdiğini başka delillerle birlikte ne ölçüde ortaya koyduğudur.
-
-Bu nedenle NCMEC dosyalarında rapor, hesap verileri, IP ve port kayıtları, cihaz incelemesi, dosya eşleşmesi, hash değerleri ve bilirkişi raporu birbirinden kopuk okunmamalıdır.
+Ceza dosyasındaki asıl mesele, raporun içeriğinin sanığın belirli bir eylemi gerçekleştirdiğini başka delillerle birlikte ne ölçüde ortaya koyduğudur. Hesap verileri, IP ve port kayıtları, cihaz incelemesi, dosya eşleşmesi, hash değerleri ve bilirkişi raporu bu nedenle birbirinden kopuk okunmamalıdır.
 
 Serinin bir sonraki bölümünde, bu raporların Türkiye'de en sık bağlandığı suç tiplerinden biri olan [TCK m.226 kapsamındaki müstehcenlik suçunun dijital içerikler bakımından nasıl uygulandığını](/makaleler/mustehcenlik-sucu-tck-226-dijital-icerikler/) ele alıyoruz.
-
-## Sık sorulan sorular
-
-### NCMEC raporu delil midir?
-
-Ceza soruşturmasında delil veya araştırma başlangıç verisi olarak dosyaya girebilir. Ancak delil değeri raporun içeriğine ve diğer bulgularla nasıl doğrulandığına göre değişir.
-
-### Raporda benim IP adresim varsa mahkûmiyet çıkar mı?
-
-IP adresi tek başına kişinin suçu işlediğini otomatik olarak göstermez. IP tahsisi, zaman ve port verileri, bağlantıyı kullanan kişiler ve cihaz incelemesi birlikte değerlendirilebilir.
-
-### NCMEC raporundaki dosya telefonda bulunmadıysa dosya kapanır mı?
-
-Otomatik olarak değil. Ancak rapor ile şüpheli arasındaki bağlantının hangi başka delillerle kurulduğu önem kazanır. Cihaz incelemesinde eşleşen içerik bulunmaması somut olayın tamamıyla birlikte değerlendirilir.
-
-### Bilirkişi raporunda yalnız dosya sayısının yazması yeterli midir?
-
-Her dosyada aynı cevap verilemez. NCMEC raporundaki materyalle eşleşme tartışmalıysa, hangi dosyanın nerede bulunduğunu ve karşılaştırmanın hangi teknik yöntemle yapıldığını gösterebilen denetlenebilir bir inceleme önemlidir.
