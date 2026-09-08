@@ -1,3 +1,5 @@
+import nunjucks from "nunjucks";
+
 const categoryUrls = {
   "İmar Hukuku": "/imar-hukuku/",
   "Kentsel Dönüşüm": "/kentsel-donusum-hukuku/",
@@ -34,15 +36,12 @@ export default function (eleventyConfig) {
     return date.toISOString();
   });
 
-  // Nunjucks escapes primitive strings in HTML. Returning a boxed String keeps
-  // JSON-LD syntactically valid while the replacements below prevent script
-  // context breakouts if future content ever contains these characters.
   eleventyConfig.addFilter("json", (value) => {
     const serialized = JSON.stringify(value)
       .replace(/</g, "\\u003c")
       .replace(/>/g, "\\u003e")
       .replace(/&/g, "\\u0026");
-    return new String(serialized);
+    return nunjucks.runtime.markSafe(serialized);
   });
 
   eleventyConfig.addFilter("byCategory", (items = [], category) =>
