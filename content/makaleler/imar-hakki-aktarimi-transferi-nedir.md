@@ -2,7 +2,7 @@
 title: İmar Hakkı Aktarımı (Transferi) Nedir? Nasıl Uygulanır?
 slug: imar-hakki-aktarimi-transferi-nedir
 date: 2025-03-10T09:00:00+03:00
-updated: 2025-03-10T09:00:00+03:00
+updated: 2026-09-09T00:00:00+03:00
 category: İmar Hukuku
 keyword: İmar Hakkı
 summary: Bir parselde kullanılamayan yapılaşma hakkı, belirli şartlarla başka
@@ -21,7 +21,7 @@ description: İmar hakkı aktarımı (transferi) nedir? Verici ve alıcı parsel
 
 ## Bu sisteme neden ihtiyaç var?
 
-Bazı taşınmazların tamamı veya büyük kısmı yol, park, okul, sağlık tesisi gibi kamu hizmet alanlarında kalır. Arazi ve arsa düzenlemesiyle çözüm üretilemeyebilir; ikinci kez DOP kesintisi mümkün olmayabilir veya parsel tek başına uygulama kabiliyetini kaybedebilir.
+Bazı taşınmazların tamamı veya büyük kısmı yol, park, okul, sağlık tesisi gibi kamu hizmet alanlarında kalır. Arazi ve arsa düzenlemesiyle çözüm üretilemeyebilir; [ikinci kez DOP kesintisi](/makaleler/ikinci-kez-dop-kesilebilir-mi/) mümkün olmayabilir veya parsel tek başına uygulama kabiliyetini kaybedebilir.
 
 Bu durumlarda malik bir yandan tapuda özel mülkiyet sahibi görünürken diğer yandan yapılaşma hakkını fiilen kullanamaz. İmar hakkı transferi, kamu alanının kamuya kazandırılması ile özel mülkiyetteki ekonomik hakkın tamamen yok olmaması arasında bir denge aracı olarak kullanılır.
 
@@ -33,7 +33,7 @@ Köktürklerin daha eski doktrinel anlatımında imar hakkı aktarımı; yapı h
 
 ## Hangi durumlarda uygulanabilir?
 
-2025 Yönetmelik değişikliği çeşitli durumları sayar. Bunlar arasında, arazi ve arsa düzenlemesine rağmen kamu eline geçirilemeyen umumi ve kamu hizmet alanları; parselasyon sonrasında plan değişikliğiyle kamu hizmet alanına ayrılan ve ikinci kez DOP kesilememesi nedeniyle kamuya geçirilemeyen yerler; bazı 15. madde uygulamaları sonrası özel mülkiyette kalan kamu hizmet alanları ve tek başına düzenleme kabiliyeti kalmayan parseller bulunur.
+2025 Yönetmelik değişikliği çeşitli durumları sayar. Bunlar arasında, arazi ve arsa düzenlemesine rağmen kamu eline geçirilemeyen umumi ve kamu hizmet alanları; [parselasyon](/makaleler/parselasyon-plani-iptal-edilirse-tapular-ne-olur/) sonrasında plan değişikliğiyle kamu hizmet alanına ayrılan ve ikinci kez DOP kesilememesi nedeniyle kamuya geçirilemeyen yerler; bazı 15. madde uygulamaları sonrası özel mülkiyette kalan kamu hizmet alanları ve tek başına düzenleme kabiliyeti kalmayan parseller bulunur.
 
 Aktarım otomatik değildir. Uygulama imar planı veya plan hükmü, teknik rapor, yetkili idare kararı ve değerleme süreci gerekir.
 
@@ -57,7 +57,7 @@ Aktarım sonucunda verici parseldeki mülkiyet ve üzerindeki muhdesatın ilgili
 
 ## Kök parsel ve eski terklerle ilişkisi nedir?
 
-İmar hakkı transferi, “kök parsel” kavramıyla aynı şey değildir. Eski parsel geçmişi, daha önceki kesintiler ve kamuya bırakılan alanlar verici parselin hukuki durumunu açıklamada önemli olabilir; fakat aktarım hakkı doğrudan “kök parsel bulunduğu” için doğmaz.
+İmar hakkı transferi, [“kök parsel”](/makaleler/kok-parsel-nedir-emsal-imar-hakki/) kavramıyla aynı şey değildir. [Eski parsel geçmişi ve daha önceki terkler](/makaleler/yol-terki-eski-terkler-imar-hakki-dop/) verici parselin hukuki durumunu açıklamada önemli olabilir; fakat aktarım hakkı doğrudan “kök parsel bulunduğu” için doğmaz.
 
 Aktarımın dayanağı güncel plan kararı ve mevzuattaki şartlardır. Bu ayrım, eski terk veya kök parsel üzerinden “otomatik bonus emsal” beklentisinin önüne geçer.
 
