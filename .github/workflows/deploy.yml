@@ -27,6 +27,11 @@ jobs:
           node-version: 20
       - name: Install dependencies
         run: npm install
+      - name: Rebuild homepage hero image
+        run: |
+          cat hero-final-src/part*.b64 | tr -d '\n' | base64 --decode > assets/hero-office.webp
+          test -s assets/hero-office.webp
+          test "$(wc -c < assets/hero-office.webp)" -eq 81822
       - name: Build site
         run: npm run build
       - name: Configure Pages
