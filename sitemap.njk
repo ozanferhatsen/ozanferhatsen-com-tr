@@ -4,18 +4,13 @@ eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>{{ site.url }}/</loc></url>
-  <url><loc>{{ site.url }}/imar-hukuku/</loc></url>
-  <url><loc>{{ site.url }}/kentsel-donusum-hukuku/</loc></url>
-  <url><loc>{{ site.url }}/insaat-hukuku/</loc></url>
-  <url><loc>{{ site.url }}/gayrimenkul-hukuku/</loc></url>
-  <url><loc>{{ site.url }}/kira-hukuku/</loc></url>
-  <url><loc>{{ site.url }}/bilisim-hukuku/</loc></url>
-  <url><loc>{{ site.url }}/kisisel-veri-hukuku/</loc></url>
-  <url><loc>{{ site.url }}/yabancilar-hukuku/</loc></url>
-  <url><loc>{{ site.url }}/makaleler/</loc></url>
-  <url><loc>{{ site.url }}/hakkimda/</loc></url>
-  <url><loc>{{ site.url }}/iletisim/</loc></url>
-  <url><loc>{{ site.url }}/en/</loc></url>
-  {% for article in collections.makaleler %}<url><loc>{{ site.url }}{{ article.url }}</loc>{% if article.data.updated or article.data.date %}<lastmod>{{ (article.data.updated or article.data.date) | isoDate }}</lastmod>{% endif %}</url>{% endfor %}
+{% for item in collections.all %}
+  {% if item.url and item.url != '/404.html' and item.url != '/sitemap.xml' and not item.data.draft and item.data.robots != 'noindex,follow' and item.data.robots != 'noindex,nofollow' %}
+  {% set lastModified = item.inputPath | gitUpdated(item.data.updated or item.data.date) %}
+  <url>
+    <loc>{{ site.url }}{{ item.url }}</loc>{% if lastModified %}
+    <lastmod>{{ lastModified | isoDate }}</lastmod>{% endif %}
+  </url>
+  {% endif %}
+{% endfor %}
 </urlset>
