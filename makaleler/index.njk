@@ -1,0 +1,7 @@
+---
+layout: base.njk
+title: "Hukuki Makaleler | İmar, Kentsel Dönüşüm, İnşaat ve Gayrimenkul"
+description: "Av. Ozan Ferhat Şen'in imar hukuku, kentsel dönüşüm, inşaat hukuku, gayrimenkul hukuku ve kira hukuku makaleleri."
+---
+<section class="page-hero"><div class="wrap"><div class="breadcrumbs"><a href="/">Ana Sayfa</a> / Makaleler</div><div class="eyebrow">Makaleler</div><h1>İmar, kentsel dönüşüm, inşaat ve gayrimenkul hukuku rehberleri</h1><p class="page-lead">Mevzuat, içtihat ve uygulamadaki risk noktalarını tek bir sorudan başlayarak sistematik biçimde ele alan hukuki yazılar.</p></div></section>
+<section class="section"><div class="wrap"><div class="article-grid">{% for article in collections.makaleler %}<a class="article-card" href="{{ article.url }}"><div class="tag">{{ article.data.category }}{% if article.data.keyword %} · {{ article.data.keyword }}{% endif %}</div><div class="card-date">{{ article.data.date | dateTR }}</div><h3>{{ article.data.title }}</h3><p>{{ article.data.summary }}</p><span class="arrow">Makaleyi oku →</span></a>{% endfor %}</div></div></section>
