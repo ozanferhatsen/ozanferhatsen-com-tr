@@ -32,23 +32,24 @@ og_type: article
 @media(max-width:950px){.series-sidebox{position:static;top:auto}.series-pager{grid-template-columns:1fr}.series-pager .next:only-child,.series-pager .prev:only-child{grid-column:auto}.series-pager .next{order:1}.series-pager .prev{order:2}}
 @media(max-width:620px){.series-kicker{font-size:10px}.series-pager{margin-top:40px}.series-pager a{min-height:112px;padding:17px}.series-pager .series-pager-title,.series-pager .next .series-pager-title{font-size:20px}}
 </style>
-{% set canonicalUrl = site.url + page.url %}
+{% set canonicalUrl = canonical or (site.url + page.url) %}
+{% set resolvedCategoryUrl = category_url or (category | categoryUrl) %}
 {% if series_id and series[series_id] %}
   {% set currentSeries = series[series_id] %}
   {% if series_order > 1 %}{% set seriesPrev = currentSeries.items[series_order - 2] %}{% endif %}
   {% if series_order < currentSeries.items.length %}{% set seriesNext = currentSeries.items[series_order] %}{% endif %}
 {% endif %}
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":{{ title | json }},"description":{{ (description or summary) | json }},"mainEntityOfPage":{"@type":"WebPage","@id":{{ canonicalUrl | json }}},"author":{"@type":"Person","name":"Ozan Ferhat Şen","url":"https://ozanferhatsen.com.tr/hakkimda/"},"publisher":{"@type":"Person","name":"Ozan Ferhat Şen","url":"https://ozanferhatsen.com.tr/"},"datePublished":{{ date | isoDate | json }},"dateModified":{{ (updated or date) | isoDate | json }},"inLanguage":"tr-TR","articleSection":{{ category | json }}{% if currentSeries %},"isPartOf":{"@type":"CollectionPage","name":{{ currentSeries.title | json }},"url":{{ (site.url + currentSeries.url) | json }}}{% endif %}{% if image %},"image":{{ (site.url + image) | json }}{% endif %}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Ana Sayfa","item":"https://ozanferhatsen.com.tr/"},{"@type":"ListItem","position":2,"name":{{ category | json }},"item":{{ (site.url + (category_url or '/')) | json }}},{"@type":"ListItem","position":3,"name":{{ title | json }},"item":{{ canonicalUrl | json }}}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":{{ (canonicalUrl + '#article') | json }},"headline":{{ title | json }},"description":{{ (description or summary) | json }},"mainEntityOfPage":{"@type":"WebPage","@id":{{ canonicalUrl | json }}},"author":{"@id":"https://ozanferhatsen.com.tr/#ozan-ferhat-sen"},"publisher":{"@id":"https://ozanferhatsen.com.tr/#hukuk-departmani"},"isPartOf":{"@id":"https://ozanferhatsen.com.tr/#website"},"datePublished":{{ date | isoDate | json }},"dateModified":{{ (updated or date) | isoDate | json }},"inLanguage":"tr-TR","articleSection":{{ category | json }}{% if currentSeries %},"isPartOf":{"@type":"CollectionPage","name":{{ currentSeries.title | json }},"url":{{ (site.url + currentSeries.url) | json }}}{% endif %}{% if image %},"image":{{ (site.url + image) | json }}{% endif %}},{"@type":"BreadcrumbList","@id":{{ (canonicalUrl + '#breadcrumb') | json }},"itemListElement":[{"@type":"ListItem","position":1,"name":"Ana Sayfa","item":"https://ozanferhatsen.com.tr/"},{"@type":"ListItem","position":2,"name":{{ category | json }},"item":{{ (site.url + resolvedCategoryUrl) | json }}},{"@type":"ListItem","position":3,"name":{{ title | json }},"item":{{ canonicalUrl | json }}}]}]}</script>
 <section class="article-header">
   <div class="wrap">
-    <div class="breadcrumbs"><a href="/">Ana Sayfa</a> / {% if category_url %}<a href="{{ category_url }}">{{ category }}</a>{% else %}{{ category }}{% endif %} / {{ title }}</div>
+    <div class="breadcrumbs"><a href="/">Ana Sayfa</a> / <a href="{{ resolvedCategoryUrl }}">{{ category }}</a> / {{ title }}</div>
     {% if currentSeries %}
     <div class="series-kicker"><a href="{{ currentSeries.url }}">{{ currentSeries.title }}</a><span class="series-divider">/</span><span class="series-order">Bölüm {{ series_order }}</span></div>
     {% endif %}
     <div class="tag">{{ category }}{% if keyword %} · {{ keyword }}{% endif %}</div>
     <h1>{{ title }}</h1>
     <p class="article-summary">{{ summary }}</p>
-    <div class="article-meta">Yayın tarihi: {{ date | dateTR }}{% if updated %} · Son güncelleme: {{ updated | dateTR }}{% endif %} · Av. Ozan Ferhat Şen</div>
+    <div class="article-meta">Yayın tarihi: {{ date | dateTR }} · Son güncelleme: {{ (updated or date) | dateTR }} · Av. Ozan Ferhat Şen</div>
   </div>
 </section>
 <section class="wrap article-layout">
@@ -100,7 +101,7 @@ og_type: article
       </ol>
     </div>
     {% endif %}
-    <div class="sidebox"><h3>İlgili çalışma alanı</h3><p>{% if category_url %}<a href="{{ category_url }}">{{ category }}</a>{% else %}{{ category }}{% endif %}</p></div>
+    <div class="sidebox"><h3>İlgili çalışma alanı</h3><p><a href="{{ resolvedCategoryUrl }}">{{ category }}</a></p></div>
     <div class="sidebox"><h3>Hızlı iletişim</h3><p><a href="{{ site.whatsapp }}">WhatsApp</a><br><a href="tel:{{ site.phoneHref }}">{{ site.phone }}</a></p></div>
     <div class="sidebox"><h3>Bilgilendirme</h3><p class="legal-note">Bu içerik genel hukuki bilgilendirme amacı taşır. Somut olayın belgeleri ve özel koşulları ayrıca değerlendirilmelidir.</p></div>
   </aside>
