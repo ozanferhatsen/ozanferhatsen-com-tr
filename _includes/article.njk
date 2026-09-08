@@ -29,16 +29,8 @@ og_type: article
 .series-pager .next:only-child{grid-column:2/3}
 .cyber-note{margin:34px 0;padding:20px 22px;border:1px solid var(--line);background:#f1ece6;font:15px/1.65 Arial,sans-serif}
 .cyber-note strong{font-family:Georgia,"Times New Roman",serif;font-size:18px;font-weight:400}
-.reader-questions{margin-top:58px;padding-top:32px;border-top:2px solid var(--ink)}
-.reader-questions .reader-kicker{font:700 10px/1.4 Arial,sans-serif;text-transform:uppercase;letter-spacing:.14em;color:var(--accent);margin-bottom:10px}
-.reader-questions>h2{margin:0 0 10px;font-size:34px;line-height:1.18}
-.reader-questions .reader-intro{margin:0 0 28px;color:var(--muted);font:15px/1.65 Arial,sans-serif;max-width:760px}
-.reader-question{padding:24px 0;border-top:1px solid var(--line)}
-.reader-question h3{font-size:25px;line-height:1.25;margin:0 0 12px}
-.reader-question p{margin:0 0 12px}
-.reader-question p:last-child{margin-bottom:0}
 @media(max-width:950px){.series-sidebox{position:static;top:auto}.series-pager{grid-template-columns:1fr}.series-pager .next:only-child,.series-pager .prev:only-child{grid-column:auto}.series-pager .next{order:1}.series-pager .prev{order:2}}
-@media(max-width:620px){.series-kicker{font-size:10px}.series-pager{margin-top:40px}.series-pager a{min-height:112px;padding:17px}.series-pager .series-pager-title,.series-pager .next .series-pager-title{font-size:20px}.reader-questions{margin-top:46px}.reader-questions>h2{font-size:29px}.reader-question h3{font-size:22px}}
+@media(max-width:620px){.series-kicker{font-size:10px}.series-pager{margin-top:40px}.series-pager a{min-height:112px;padding:17px}.series-pager .series-pager-title,.series-pager .next .series-pager-title{font-size:20px}}
 </style>
 {% set canonicalUrl = site.url + page.url %}
 {% if series_id and series[series_id] %}
@@ -46,7 +38,6 @@ og_type: article
   {% if series_order > 1 %}{% set seriesPrev = currentSeries.items[series_order - 2] %}{% endif %}
   {% if series_order < currentSeries.items.length %}{% set seriesNext = currentSeries.items[series_order] %}{% endif %}
 {% endif %}
-{% if articleFaqs and slug and articleFaqs[slug] %}{% set currentReaderQuestions = articleFaqs[slug] %}{% endif %}
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":{{ title | json }},"description":{{ (description or summary) | json }},"mainEntityOfPage":{"@type":"WebPage","@id":{{ canonicalUrl | json }}},"author":{"@type":"Person","name":"Ozan Ferhat Şen","url":"https://ozanferhatsen.com.tr/hakkimda/"},"publisher":{"@type":"Person","name":"Ozan Ferhat Şen","url":"https://ozanferhatsen.com.tr/"},"datePublished":{{ date | isoDate | json }},"dateModified":{{ (updated or date) | isoDate | json }},"inLanguage":"tr-TR","articleSection":{{ category | json }}{% if currentSeries %},"isPartOf":{"@type":"CollectionPage","name":{{ currentSeries.title | json }},"url":{{ (site.url + currentSeries.url) | json }}}{% endif %}{% if image %},"image":{{ (site.url + image) | json }}{% endif %}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Ana Sayfa","item":"https://ozanferhatsen.com.tr/"},{"@type":"ListItem","position":2,"name":{{ category | json }},"item":{{ (site.url + (category_url or '/')) | json }}},{"@type":"ListItem","position":3,"name":{{ title | json }},"item":{{ canonicalUrl | json }}}]}]}</script>
 <section class="article-header">
   <div class="wrap">
@@ -64,20 +55,6 @@ og_type: article
   <article class="article-body">
     {% if image %}<p><img src="{{ image }}" alt="{{ image_alt or title }}" loading="eager" decoding="async" style="width:100%;height:auto"></p>{% endif %}
     {{ content | safe }}
-
-    {% if currentReaderQuestions %}
-    <section class="reader-questions" id="okuyucu-sorulari" aria-labelledby="okuyucu-sorulari-baslik">
-      <div class="reader-kicker">Gerçek hayatta en çok sorulanlar</div>
-      <h2 id="okuyucu-sorulari-baslik">Bu başlıkta en sık sorulan somut sorular</h2>
-      <p class="reader-intro">Aşağıdaki sorular, ana hukuki çerçeveyi tekrar etmek yerine uygulamada en sık tereddüt yaratan noktaları kısa ve doğrudan biçimde tamamlar.</p>
-      {% for item in currentReaderQuestions %}
-      <div class="reader-question">
-        <h3>{{ item.question }}</h3>
-        {{ item.answer | safe }}
-      </div>
-      {% endfor %}
-    </section>
-    {% endif %}
 
     {% if sources %}
     <section class="author-box"><h2>Kaynaklar ve hukuki dayanak</h2><ul>{% for source in sources %}<li>{% if source.url %}<a href="{{ source.url }}" rel="noopener">{{ source.name }}</a>{% else %}{{ source.name }}{% endif %}</li>{% endfor %}</ul></section>
