@@ -1,0 +1,84 @@
+{
+  "categories": {
+    "İmar Hukuku": [
+      {
+        "name": "3194 sayılı İmar Kanunu — Mevzuat Bilgi Sistemi",
+        "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.3194.pdf"
+      },
+      {
+        "name": "Arazi ve Arsa Düzenlemeleri Yönetmeliği 11.09.2025 değişikliği — Resmî Gazete",
+        "url": "https://www.resmigazete.gov.tr/eskiler/2025/09/20250911-1.htm"
+      }
+    ],
+    "Kentsel Dönüşüm": [
+      {
+        "name": "6306 sayılı Kanun — Mevzuat Bilgi Sistemi",
+        "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6306.pdf"
+      }
+    ],
+    "İnşaat Hukuku": [
+      {
+        "name": "6098 sayılı Türk Borçlar Kanunu — Mevzuat Bilgi Sistemi",
+        "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6098.pdf"
+      }
+    ],
+    "Gayrimenkul Hukuku": [
+      {
+        "name": "4721 sayılı Türk Medenî Kanunu — Mevzuat Bilgi Sistemi",
+        "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.4721.pdf"
+      },
+      {
+        "name": "6098 sayılı Türk Borçlar Kanunu — Mevzuat Bilgi Sistemi",
+        "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6098.pdf"
+      }
+    ],
+    "Kira Hukuku": [
+      {
+        "name": "6098 sayılı Türk Borçlar Kanunu — Mevzuat Bilgi Sistemi",
+        "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6098.pdf"
+      },
+      {
+        "name": "Yargıtay Karar Arama — Yargıtay Başkanlığı",
+        "url": "https://karararama.yargitay.gov.tr/"
+      }
+    ],
+    "Bilişim Hukuku": [
+      {
+        "name": "5271 sayılı Ceza Muhakemesi Kanunu — Mevzuat Bilgi Sistemi",
+        "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.5271.pdf"
+      },
+      {
+        "name": "5237 sayılı Türk Ceza Kanunu — Mevzuat Bilgi Sistemi",
+        "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.5237.pdf"
+      }
+    ],
+    "Yabancılar Hukuku": [
+      {
+        "name": "6458 sayılı Yabancılar ve Uluslararası Koruma Kanunu — Mevzuat Bilgi Sistemi",
+        "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6458.pdf"
+      }
+    ]
+  },
+  "articles": {
+    "imar-hakki-aktarimi-transferi-nedir": [
+      {
+        "name": "7534 sayılı Kanun — 12.12.2024 tarihli Resmî Gazete",
+        "url": "https://www.resmigazete.gov.tr/eskiler/2024/12/20241212-1.htm"
+      },
+      {
+        "name": "İmar hakkı aktarımı hükümlerini getiren 11.09.2025 değişikliği — Resmî Gazete",
+        "url": "https://www.resmigazete.gov.tr/eskiler/2025/09/20250911-1.htm"
+      },
+      {
+        "name": "38/B maddesindeki düzeltmeyi içeren 13.12.2025 değişikliği — Resmî Gazete",
+        "url": "https://www.resmigazete.gov.tr/eskiler/2025/12/20251213-1.htm"
+      }
+    ],
+    "parselasyon-plani-iptal-edilirse-tapular-ne-olur": [
+      {
+        "name": "2577 sayılı İdari Yargılama Usulü Kanunu — Mevzuat Bilgi Sistemi",
+        "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.2577.pdf"
+      }
+    ]
+  }
+}
