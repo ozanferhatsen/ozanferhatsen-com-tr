@@ -2,18 +2,29 @@
 title: "Kentsel Dönüşümde Müteahhit Seçerken Nelere Dikkat Edilmeli? 20 Kritik Soru"
 slug: "kentsel-donusum-muteahhit-secerken-nelere-dikkat-edilmeli"
 date: "2025-03-17T09:00:00+03:00"
-updated: "2025-03-17T09:00:00+03:00"
+updated: "2026-09-09T02:32:00+03:00"
 category: "Kentsel Dönüşüm"
+category_url: "/kentsel-donusum-hukuku/"
 keyword: "Müteahhit"
 summary: "Teklifte kaç metrekare verildiğinden önce, o teklifin gerçekten yerine getirilip getirilemeyeceğini sorun."
-seo_title: "Kentsel Dönüşümde Müteahhit Seçerken Nelere Dikkat Edilmeli? 20 Kritik Soru"
-description: "Kentsel dönüşümde müteahhit seçerken nelere dikkat edilmeli? Yetki belgesi, mali yeterlilik, banka teminatı, tapu devri ve teslim için 20 soru."
+seo_title: "Kentsel Dönüşümde Müteahhit Seçimi | 20 Kritik Soru"
+description: "Kentsel dönüşümde müteahhit seçerken yetki belgesi, mali yeterlilik, finansman, banka teminatı, tapu devri, teknik şartname ve teslim için 20 soru."
+sources:
+  - name: "Yapı Müteahhitlerinin Sınıflandırılması ve Kayıtlarının Tutulması Hakkında Yönetmelik."
+    url: "https://www.resmigazete.gov.tr/eskiler/2019/03/20190302-2.htm"
+  - name: "6306 Sayılı Kanunun Uygulama Yönetmeliği ve güncel değişiklikler."
+    url: "https://www.lexpera.com.tr/mevzuat/yonetmelikler/6306-sayili-kanunun-uygulama-yonetmeligi"
+  - name: "Türkiye Ticaret Sicili Gazetesi."
+    url: "https://www.ticaretsicil.gov.tr/"
+  - name: "Şenol Saltık, Tüm Yönleriyle Kentsel Dönüşüm."
 ---
 
 Kentsel dönüşümde müteahhit seçerken ilk konuşulan konu çoğu zaman kaç metrekare verileceği, kira bedeli veya dairenin hangi katta olacağıdır.
 
 **Oysa daha önemli bir soru vardır: İnşaat yarıda kalırsa ne olacak?**  
 Milyonlarca lira değerindeki bir taşınmaz söz konusuysa, teklif kadar o teklifin gerçekleştirilebilme ihtimali de araştırılmalıdır.
+
+Bu yazı artık [Bağdat Caddesi Kentsel Dönüşüm Dosyası'nın](/makaleler/bagdat-caddesi-kentsel-donusum-rehberi/) müteahhit seçimi ayağına bağlanmıştır. Önce dosyanın genel risk haritasını, ardından [kentsel dönüşüm sözleşmesinin 15 kontrol noktasını](/makaleler/bagdat-caddesi-kentsel-donusum-sozlesmesi/) okumak; bu 20 sorunun neden sorulduğunu daha görünür hale getirir.
 
 ## Kentsel dönüşümde müteahhit seçerken nelere dikkat edilmeli?
 
@@ -57,7 +68,7 @@ Senet ile banka teminat mektubu aynı güvence değildir. Teminat mektubunun han
 
 ## 10. 6306 sayılı Kanun kapsamındaki zorunlu teminat nasıl sağlanacak?
 
-Riskli yapıların bulunduğu parsellerde 6306 sayılı Kanun ve Uygulama Yönetmeliği kapsamında müteahhidin idareye sunmak zorunda olduğu teminat ile maliklerin sözleşmeyle ayrıca isteyebileceği banka teminat mektubu aynı şey değildir. Bu iki güvence birbirine karıştırılmamalıdır.
+Riskli yapıların bulunduğu parsellerde 6306 sayılı Kanun ve Uygulama Yönetmeliği kapsamında, özel kişilerce yürütülen uygulamalarda yapı müteahhidinin ruhsat öncesinde İdareye vermesi gereken teminat güncel düzenlemede yapı yaklaşık maliyet bedelinin **%6'sıdır**. Bu teminat ile maliklerin sözleşmeyle ayrıca isteyebileceği banka teminat mektubu aynı şey değildir. Lehtar, kullanım amacı ve paraya çevrilme mekanizması farklı olabileceğinden iki güvence birbirine karıştırılmamalıdır.
 
 ## 11. Arsa paylarının müteahhide devrini neden ve ne zaman istiyorsunuz?
 
@@ -101,24 +112,22 @@ Fesih sebepleri, verilen vekaletlerin akıbeti, devredilmiş tapular, teminatın
 
 **Müteahhit seçerken yalnızca “ne veriyor?” sorusunu değil, “veremezse elimde ne kalıyor?” sorusunu da sorun.**
 
+## Bu yazı Bağdat Caddesi dosyasında nerede duruyor?
+
+Bu 20 soru bir müteahhit ön elemesidir. Teklif seçildikten sonra mesele sözleşmeye döner. [Bağdat Caddesi kentsel dönüşüm sözleşmesi incelemesi](/makaleler/bagdat-caddesi-kentsel-donusum-sozlesmesi/) aynı riskleri sözleşmenin tarafı, proje eki, metrekare, tapu devri, teminat, teknik şartname, gecikme ve fesih hükümlerine dönüştürür.
+
+Böylece üç metin aynı dosyanın farklı seviyelerini oluşturur: ana rehber “hangi riskler var?” sorusuna, bu yazı “hangi müteahhidi seçmeliyim?” sorusuna, sözleşme yazısı ise “seçtiğim müteahhitle hangi koşullarda imzalamalıyım?” sorusuna cevap verir.
+
 ## Sık sorulan sorular
 
-Kentsel dönüşümde müteahhit seçerken ilk neye bakılmalı?
+### Kentsel dönüşümde müteahhit seçerken ilk neye bakılmalı?
 
 Teklif oranından önce sözleşmenin hangi şirketle imzalanacağı, yetki belgesi, tamamlanmış işler, mali kapasite ve teminat birlikte kontrol edilmelidir.
 
-Banka teminat mektubu neden önemlidir?
+### Banka teminat mektubu neden önemlidir?
 
 Müteahhidin yükümlülüklerini yerine getirememesi riskine karşı maliklerin elindeki güvencelerden biri olabilir; tutarı ve paraya çevrilme koşulları sözleşmede açıkça düzenlenmelidir.
 
-Müteahhitlik yetki belgesi tek başına yeterli midir?
+### Müteahhitlik yetki belgesi tek başına yeterli midir?
 
 Hayır. Yetki belgesi temel bir kontrol noktasıdır ancak firmanın finansmanı, iş yükü, referansları, teknik şartnamesi ve sözleşme güvenceleri de incelenmelidir.
-
-**Başlıca kaynaklar**  
-• Yapı Müteahhitlerinin Sınıflandırılması ve Kayıtlarının Tutulması Hakkında Yönetmelik.  
-• 6306 sayılı Kanunun Uygulama Yönetmeliği.  
-• Türkiye Ticaret Sicili Gazetesi ve ilgili kamu sicilleri.  
-  
-[Türkiye Ticaret Sicili Gazetesi](https://www.ticaretsicil.gov.tr/)  
-[Yapı Müteahhitleri Yönetmeliği - Resmî Gazete](https://www.resmigazete.gov.tr/02.03.2019)
