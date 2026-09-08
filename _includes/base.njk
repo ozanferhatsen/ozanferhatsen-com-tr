@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title or site.name }}</title>
+  <meta name="description" content="{{ description or site.description }}">
+  <meta name="robots" content="{{ robots or 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1' }}">
+  <link rel="canonical" href="{{ canonical or (site.url + page.url) }}">
+  <meta property="og:locale" content="tr_TR">
+  <meta property="og:type" content="{{ og_type or 'website' }}">
+  <meta property="og:site_name" content="{{ site.name }} | {{ site.brand }}">
+  <meta property="og:title" content="{{ title or site.name }}">
+  <meta property="og:description" content="{{ description or site.description }}">
+  <meta property="og:url" content="{{ canonical or (site.url + page.url) }}">
+  {% if image %}<meta property="og:image" content="{{ site.url }}{{ image }}">{% endif %}
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="/assets/styles.css">
+  {% if schema %}<script type="application/ld+json">{{ schema | safe }}</script>{% endif %}
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="/"><span class="brand-main">Av. Ozan Ferhat Şen</span><span class="brand-sub">Hukuk Departmanı</span></a>
+    <nav class="nav-links" id="menu">
+      <a href="/imar-hukuku/">İmar</a>
+      <a href="/kentsel-donusum-hukuku/">Kentsel Dönüşüm</a>
+      <a href="/insaat-hukuku/">İnşaat</a>
+      <a href="/gayrimenkul-hukuku/">Gayrimenkul</a>
+      <a href="/kira-hukuku/">Kira</a>
+      <a href="/#makaleler">Makaleler</a>
+      <a href="/hakkimda/">Hakkımda</a>
+    </nav>
+    <a class="nav-cta" href="/iletisim/">İletişim</a>
+    <button class="menu-btn" aria-label="Menüyü aç" data-menu>☰</button>
+  </div>
+</header>
+<main>{{ content | safe }}</main>
+<footer class="footer">
+  <div class="wrap footer-grid">
+    <div><div class="brand-main">Av. Ozan Ferhat Şen</div><div class="brand-sub">Hukuk Departmanı</div><p>İmar, kentsel dönüşüm, inşaat ve gayrimenkul hukukunda hukuki değerlendirme ve sözleşme incelemesi.</p></div>
+    <div><h4>Çalışma alanları</h4><p><a href="/imar-hukuku/">İmar Hukuku</a></p><p><a href="/kentsel-donusum-hukuku/">Kentsel Dönüşüm</a></p><p><a href="/insaat-hukuku/">İnşaat Hukuku</a></p><p><a href="/gayrimenkul-hukuku/">Gayrimenkul Hukuku</a></p></div>
+    <div><h4>İletişim</h4><p><a href="tel:{{ site.phoneHref }}">{{ site.phone }}</a></p><p><a href="{{ site.whatsapp }}">WhatsApp</a></p><p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p><p>{{ site.address }}</p></div>
+  </div>
+  <div class="wrap bottom"><span>© 2026 Av. Ozan Ferhat Şen</span><span><a href="/gizlilik/">Gizlilik</a> · <a href="/kvkk/">KVKK</a> · <a href="/sitemap.xml">Site Haritası</a></span></div>
+</footer>
+<script src="/assets/site.js"></script>
+</body>
+</html>
