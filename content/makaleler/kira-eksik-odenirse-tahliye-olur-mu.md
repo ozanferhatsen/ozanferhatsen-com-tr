@@ -2,7 +2,7 @@
 title: "Kira Eksik Ödenirse Tahliye Olur mu?"
 slug: "kira-eksik-odenirse-tahliye-olur-mu"
 date: "2025-03-24T09:00:00+03:00"
-updated: "2025-03-24T09:00:00+03:00"
+updated: "2026-09-09T00:00:00+03:00"
 category: "Kira Hukuku"
 keyword: "Tahliye"
 summary: "Yargıtay’ın meşhur 35 kuruş kararı, “küçük borç önemli değildir” düşüncesinin temerrüt hukukunda neden tehlikeli olabileceğini gösteriyor."
