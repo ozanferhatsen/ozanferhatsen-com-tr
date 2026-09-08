@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const b=document.querySelector('[data-menu]');const m=document.getElementById('menu');if(!b||!m)return;b.addEventListener('click',()=>m.classList.toggle('open'));});
