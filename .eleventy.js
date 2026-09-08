@@ -34,7 +34,16 @@ export default function (eleventyConfig) {
     return date.toISOString();
   });
 
-  eleventyConfig.addFilter("json", (value) => JSON.stringify(value));
+  // Nunjucks escapes primitive strings in HTML. Returning a boxed String keeps
+  // JSON-LD syntactically valid while the replacements below prevent script
+  // context breakouts if future content ever contains these characters.
+  eleventyConfig.addFilter("json", (value) => {
+    const serialized = JSON.stringify(value)
+      .replace(/</g, "\\u003c")
+      .replace(/>/g, "\\u003e")
+      .replace(/&/g, "\\u0026");
+    return new String(serialized);
+  });
 
   eleventyConfig.addFilter("byCategory", (items = [], category) =>
     items.filter((item) => item.data && item.data.category === category)
