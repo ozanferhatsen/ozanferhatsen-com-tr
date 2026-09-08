@@ -22,6 +22,26 @@
         "order": 4,
         "title": "Telefonda veya Bilgisayarda Müstehcen Görüntü Bulunması Suç İçin Yeterli midir?",
         "url": "/makaleler/telefonda-bilgisayarda-mustehcen-goruntu-bulunmasi-yeterli-mi/"
+      },
+      {
+        "order": 5,
+        "title": "IP Adresi Tek Başına Suçun Failini Gösterir mi?",
+        "url": "/makaleler/ip-adresi-tek-basina-sucun-failini-gosterir-mi/"
+      },
+      {
+        "order": 6,
+        "title": "CGNAT ve Kaynak Port Kaydı Nedir? Ceza Soruşturmasında Fail Tespiti",
+        "url": "/makaleler/cgnat-kaynak-port-kaydi-nedir-fail-tespiti/"
+      },
+      {
+        "order": 7,
+        "title": "CMK 134: Bilgisayar ve Telefonda Arama, Kopyalama ve El Koyma Şartları",
+        "url": "/makaleler/cmk-134-bilgisayar-telefon-arama-kopyalama-el-koyma/"
+      },
+      {
+        "order": 8,
+        "title": "Hukuka Aykırı Dijital Delil: Telefon ve Bilgisayar İncelemesi Mahkûmiyete Esas Alınabilir mi?",
+        "url": "/makaleler/hukuka-aykiri-dijital-delil-telefon-bilgisayar-incelemesi/"
       }
     ]
   }
