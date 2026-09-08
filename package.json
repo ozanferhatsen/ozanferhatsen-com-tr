@@ -1,9 +1,11 @@
 {
   "scripts": {
     "audit:seo": "node scripts/seo-audit.mjs",
-    "build": "npm run audit:seo && eleventy"
+    "optimize:assets": "node scripts/optimize-assets.mjs",
+    "build": "npm run audit:seo && npm run optimize:assets && eleventy"
   },
   "dependencies": {
-    "@11ty/eleventy": "^3.1.2"
+    "@11ty/eleventy": "^3.1.2",
+    "sharp": "^0.34.3"
   }
 }
