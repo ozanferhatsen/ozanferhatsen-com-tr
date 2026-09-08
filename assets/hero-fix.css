@@ -1,7 +1,7 @@
 .hero-artwork{position:relative;background:#efe6dc;border-bottom:1px solid var(--line);overflow:hidden}
 .hero-artwork picture,.hero-artwork img{display:block;width:100%}
 .hero-artwork img{height:auto;aspect-ratio:1672/941;object-fit:contain}
-.hero-wall-copy{position:absolute;z-index:2;left:clamp(34px,4.6vw,82px);top:50%;transform:translateY(-50%);width:min(520px,37vw);color:#191714}
+.hero-wall-copy{position:absolute;z-index:2;left:clamp(34px,4.6vw,82px);top:44%;transform:translateY(-50%);width:min(520px,37vw);color:#191714}
 .hero-wall-copy .hero-name{font:700 12px/1.25 Arial,sans-serif;letter-spacing:.18em;margin-bottom:34px;color:#27231f}
 .hero-wall-copy .hero-name span{display:block;font-size:10px;letter-spacing:.24em;font-weight:500;margin-top:6px;color:#716a63}
 .hero-wall-copy .eyebrow{font-size:10px;line-height:1.4;letter-spacing:.16em;margin-bottom:16px;color:#7a2030}
