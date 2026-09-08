@@ -1,0 +1,16 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>{{ site.url }}/</loc></url>
+  <url><loc>{{ site.url }}/imar-hukuku/</loc></url>
+  <url><loc>{{ site.url }}/kentsel-donusum-hukuku/</loc></url>
+  <url><loc>{{ site.url }}/insaat-hukuku/</loc></url>
+  <url><loc>{{ site.url }}/gayrimenkul-hukuku/</loc></url>
+  <url><loc>{{ site.url }}/kira-hukuku/</loc></url>
+  <url><loc>{{ site.url }}/hakkimda/</loc></url>
+  <url><loc>{{ site.url }}/iletisim/</loc></url>
+  {% for article in collections.makaleler %}<url><loc>{{ site.url }}{{ article.url }}</loc>{% if article.data.updated or article.data.date %}<lastmod>{{ (article.data.updated or article.data.date) | isoDate }}</lastmod>{% endif %}</url>{% endfor %}
+</urlset>
