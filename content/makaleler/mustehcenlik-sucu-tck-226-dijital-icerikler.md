@@ -2,13 +2,13 @@
 title: "Müstehcenlik Suçu ve TCK 226: İndirme, Bulundurma, Paylaşma ve Dijital İçerikler"
 slug: "mustehcenlik-sucu-tck-226-dijital-icerikler"
 date: "2026-09-08T20:58:00+03:00"
-updated: "2026-09-08T21:00:00+03:00"
+updated: "2026-09-08T22:34:00+03:00"
 category: "Bilişim Hukuku"
 category_url: "/bilisim-hukuku/"
 keyword: "TCK 226"
 summary: "TCK 226 tek bir fiili değil, farklı içerik ve davranışlara bağlanan birden fazla müstehcenlik suçunu düzenler. Dijital ortamda indirme, bulundurma, paylaşma, yayınlama ve otomatik kaydetme aynı hukuki sonucu doğurmaz."
 seo_title: "Müstehcenlik Suçu (TCK 226): Dijital İçerikler ve Ceza"
-description: "TCK 226 müstehcenlik suçu dijital ortamda nasıl uygulanır? İndirme, bulundurma, paylaşma, yayınlama ve çocukların kullanıldığı içerikler."
+description: "TCK 226 müstehcenlik suçu dijital ortamda nasıl uygulanır? İzleme, beğeni, indirme, bulundurma, paylaşma, yayınlama ve çocukların kullanıldığı içerikler."
 series_id: "ncmec-dijital-delil"
 series_order: 3
 series_prev_title: "NCMEC Raporu Tek Başına Mahkûmiyet İçin Yeterli midir?"
@@ -26,12 +26,9 @@ sources:
 
 “Müstehcenlik suçu” denildiğinde tek bir suç tipi varmış gibi konuşmak yanıltıcıdır. **TCK m.226, içeriğin niteliğine ve yapılan fiile göre farklı suçlar düzenler.**
 
-Bu nedenle dijital bir dosyada yalnız “müstehcen görüntü bulundu” demek yeterli hukuki nitelendirme değildir. Önce şu iki soru cevaplanmalıdır:
+Bu nedenle dijital bir dosyada yalnız “müstehcen görüntü bulundu” demek yeterli hukuki nitelendirme değildir. Önce içeriğin TCK m.226'nın hangi fıkrası kapsamına girdiği, ardından kişinin bu içerikle ilgili hangi fiili gerçekleştirdiği belirlenmelidir.
 
-1. İçerik TCK m.226'nın hangi fıkrası kapsamındadır?
-2. Kişinin içerikle ilgili fiili nedir: üretme, indirme sonucunda bulundurma, depolama, çoğaltma, paylaşma, yayınlama veya başkasının kullanımına sunma mı?
-
-Özellikle NCMEC ve dijital cihaz incelemelerinden doğan dosyalarda bu ayrım kritik önemdedir.
+Üretme, depolama, bulundurma, çoğaltma, başkasının kullanımına sunma ve yayınlama birbirinden farklıdır. Dijital ortamda gündelik dilde kullanılan “izledim”, “beğendim”, “bana geldi”, “indirdim” veya “gönderdim” ifadeleri de ancak gerçekte hangi teknik ve iradi davranışın gerçekleştiği ortaya konulduğunda hukuki anlam kazanır.
 
 ## TCK 226'nın yapısı neden önemlidir?
 
@@ -71,7 +68,17 @@ TCK m.226/5, üçüncü ve dördüncü fıkralardaki içeriklerin basın ve yay�
 
 Bu yapı, “bir dosyayı telefonda tutmak” ile “dosyayı çevrimiçi yayınlamak veya başkasının kullanımına sunmak” arasında neden hukuken önemli fark bulunduğunu gösterir.
 
-## Müstehcen içerik indirmek suç mudur?
+## İzleme, beğeni ve diğer platform etkileşimleri
+
+TCK m.226'da **“izlemek”** veya **“beğeni vermek”** bağımsız suç fiilleri olarak sayılmamıştır. Bu nedenle bir içeriğin ekranda görülmesi ya da bir sosyal medya içeriğine “like” verilmesi, kanunda ayrıca düzenlenen bulundurma, depolama, başkasının kullanımına sunma veya yayınlama fiilleriyle otomatik olarak eşitlenemez.
+
+Bununla birlikte dijital etkileşimler tamamen önemsiz de değildir. Bir beğeni, kaydetme, takip etme veya benzeri platform kaydı somut olayda kişinin belirli hesap veya içerikle iradi ilişki kurduğunu gösteren yardımcı bir delil olarak değerlendirilebilir. Burada hukuki sonuç, platformdaki butonun adından değil, o etkileşimin teknik olarak ne yaptığı ve dosyadaki diğer delillerle birlikte ne gösterdiğinden çıkarılır.
+
+Aynı nedenle bir platformun hesabı belirli bir etkileşim örüntüsü nedeniyle kapatması da Türk ceza hukuku bakımından otomatik suç sonucu doğurmaz. **Platform yaptırımı, NCMEC/CyberTipline bildirimi ve TCK m.226 kapsamında ceza sorumluluğu üç ayrı katmandır.**
+
+Gündelik dilde “sadece izledim” denilen durumda da aynı yöntem izlenir. Dosyanın ayrıca indirilip indirilmediği, cihazda tutulup tutulmadığı, tekrar erişim, taşıma veya paylaşma kayıtları ve içeriğin niteliği değerlendirilir. Ceza hukuku bakımından belirleyici olan, kullanılan kelime değil gerçekleşen fiildir.
+
+## Müstehcen içerik indirmek nasıl değerlendirilir?
 
 **“İndirmek” kelimesi TCK m.226'da bağımsız bir suç adı olarak yer almaz.** Hukuki sonuç, indirilen içeriğin niteliğine ve indirme sonrasında hangi fiilin gerçekleştiğine göre belirlenir.
 
@@ -79,11 +86,15 @@ Bu yapı, “bir dosyayı telefonda tutmak” ile “dosyayı çevrimiçi yayın
 
 Aynı dosya daha sonra başka kişilere gönderilmişse “başkalarının kullanımına sunma” veya olayın niteliğine göre yayınlama ile ilgili hükümler ayrıca tartışılabilir.
 
-Buna karşılık her yetişkin içerikli görüntünün sırf özel bir cihazda bulunması, TCK m.226 bakımından otomatik olarak aynı suçu oluşturmaz. Kanun, içerik ve fiil ayrımı yapmaktadır.
+Buna karşılık her yetişkin içerikli görüntünün sırf özel bir cihazda bulunması, TCK m.226 bakımından otomatik olarak aynı suçu oluşturmaz. Kanun içerik ve fiil ayrımı yapmaktadır.
 
-Bu nedenle Google'da sık görülen **“porno indirmek suç mu?”** sorusunun tek kelimelik doğru cevabı yoktur. Hangi içeriğin, hangi şekilde edinildiği ve sonrasında ne yapıldığı belirleyicidir.
+## Dosya sayısı tek başına belirleyici değildir
 
-## Telefona otomatik inen görüntü ile bilinçli olarak kaydedilen dosya aynı mıdır?
+TCK m.226 bakımından suçun oluşması için her durumda mutlaka belirli sayıda görüntü bulunmasını öngören genel bir alt sınır yoktur. Bu nedenle **tek bir dosya da**, içeriğin niteliği ve kişinin gerçekleştirdiği fiil ilgili suç tipinin unsurlarını karşılıyorsa hukuken önem taşıyabilir.
+
+Dosya sayısı olayın bütününde kastın, kullanım biçiminin veya fiilin yoğunluğunun değerlendirilmesinde anlamlı olabilir. Fakat “yalnız bir görüntü var, o hâlde suç oluşmaz” şeklinde genel bir kural kurulamaz. Önce içerik, sonra fiil, ardından fail bağlantısı incelenmelidir.
+
+## Telefona otomatik inen görüntü ile bilinçli olarak kaydedilen dosya aynı değildir
 
 Ceza sorumluluğu bakımından kişinin içerikle kurduğu iradi ilişki önemlidir.
 
@@ -91,27 +102,19 @@ Mesajlaşma uygulamalarında medya dosyaları otomatik indirilebilir. Bulut yede
 
 Bu ihtimaller **“dosya bulundu, o hâlde kişi mutlaka bilinçli şekilde sakladı”** sonucunun her zaman otomatik kurulamayacağını gösterir.
 
-Fakat bunun tersi de geçerlidir. “Otomatik indi” şeklindeki bir açıklama, sırf ileri sürülmekle teknik gerçek hâline gelmez.
+Fakat bunun tersi de geçerlidir. “Otomatik indi” şeklindeki bir açıklama, sırf ileri sürülmekle teknik gerçek hâline gelmez. Dosyanın bulunduğu klasör, uygulama ayarları, oluşturma ve değiştirme zamanları, görüntünün açılıp açılmadığına ilişkin teknik izler, başka klasöre taşınıp taşınmadığı ve sonradan paylaşılıp paylaşılmadığı somut olayda önem taşıyabilir.
 
-Dosyanın bulunduğu klasör, uygulama ayarları, oluşturma ve değiştirme zamanları, görüntünün açılıp açılmadığına ilişkin teknik izler, başka klasöre taşınıp taşınmadığı ve sonradan paylaşılıp paylaşılmadığı somut olayda önem taşıyabilir.
+## Kullanıcıya gelen dosya ile kullanıcının gönderdiği dosya arasındaki fark
 
-## WhatsApp, Telegram veya başka bir gruptan gelen görüntü ne olur?
+Bir içeriğin kullanıcıya gönderilmesi ile kullanıcının aynı içeriği başka bir kişiye göndermesi aynı davranış değildir.
 
-Bir mesajlaşma grubunda suç konusu bir içeriğin gönderilmesiyle o içeriğin bütün grup üyelerine ulaşması mümkün olabilir. Ancak ceza sorumluluğunun bireyselliği gereği, **her üyenin fiili ve içerikle ilişkisi ayrı değerlendirilmelidir.**
+İlk durumda dosyanın otomatik indirilmesi, kullanıcının içeriğin niteliğini bilip bilmediği ve dosya üzerinde sonradan ne yaptığı araştırılabilir. İkinci durumda ise aktif gönderim, başkasının kullanımına sunma veya olayın özelliklerine göre yayınlama fiilleri gündeme gelebilir.
 
-Şu sorular önem kazanabilir:
+Bu nedenle mesajlaşma kayıtlarında yalnız dosyanın varlığı değil, gönderen ve alıcı hesaplar, zaman damgaları, iletme kayıtları ve dosyanın cihazdaki konumu birlikte okunmalıdır. **“Telefonumda vardı” ile “ben gönderdim” aynı ispat cümlesi değildir.**
 
-- Dosya cihaza otomatik mi kaydedildi?
-- Kullanıcı dosyayı açtı mı?
-- Dosya cihazda ne kadar süre kaldı?
-- Başka klasöre taşındı mı?
-- Başka kişilere iletildi mi?
-- Kullanıcı gruba ne zaman katıldı ve içerik ne zaman gönderildi?
-- İçeriğin niteliği kullanıcı tarafından bilinebilecek durumda mıydı?
+Bir grup sohbetinde suç konusu bir içeriğin gönderilmesiyle dosyanın bütün grup üyelerine ulaşması mümkün olabilir. Ancak ceza sorumluluğunun bireyselliği gereği her üyenin fiili ve içerikle ilişkisi ayrı değerlendirilmelidir.
 
-Bu soruların hiçbiri tek başına sihirli bir beraat veya mahkûmiyet ölçütü değildir. Fakat dijital delilin doğru yorumlanması için önemlidir.
-
-## Paylaşmak ile bulundurmak arasındaki fark nedir?
+## Paylaşmak ile bulundurmak arasındaki fark
 
 TCK m.226'da “bulundurma”, “depolama”, “başkalarının kullanımına sunma” ve “yayınlama” gibi fiillerin ayrı ayrı sayılması tesadüf değildir.
 
@@ -125,11 +128,9 @@ Bir dosyanın yalnız cihazda bulunması ile;
 
 aynı fiil değildir.
 
-Bu ayrım hem uygulanacak fıkranın hem de suçun sübutuna ilişkin delillerin değişmesine yol açabilir.
+Bu ayrım hem uygulanacak fıkranın hem de suçun sübutuna ilişkin delillerin değişmesine yol açabilir. Paylaşım iddiasında gönderim kaydı, alıcı hesabı, platform logları veya mesajlaşma verileri gibi ek deliller önem kazanabilir.
 
-Örneğin paylaşım iddiasında yalnız dosyanın cihazda bulunması değil, gönderim kaydı, alıcı hesabı, platform logları veya mesajlaşma verileri gibi ek deliller önem kazanabilir.
-
-## Çocukların kullanıldığı içeriklerde neden özel bir rejim var?
+## Çocukların kullanıldığı içeriklerde özel rejim
 
 Gülden Atilla Öztürk'ün çalışmasında ayrıntılı biçimde açıklandığı üzere, çocukların müstehcen ürünlerin üretiminde kullanılması yalnız genel ahlak bağlamında değil, çocuğun cinsel sömürüden korunması bakımından da değerlendirilir.
 
@@ -139,7 +140,7 @@ Güncel kanun metninde koruma yalnız gerçek çocuk görüntüsüyle sınırlı
 
 Bu nedenle bir NCMEC bildiriminin Türk hukukundaki karşılığı belirlenirken, platformun kullandığı kategoriyle yetinilmeyip görüntünün TCK m.226/3 kapsamındaki hukuki niteliği ayrıca incelenmelidir.
 
-## Bir görüntünün müstehcen olup olmadığı nasıl belirlenir?
+## İçeriğin hukuki niteliğinin belirlenmesi
 
 “Müstehcenlik” bütünüyle teknik bir dosya formatı değildir. İçeriğin niteliğinin hukuki olarak değerlendirilmesi gerekir.
 
@@ -151,7 +152,7 @@ Bu nedenle bilirkişinin görevi ile mahkemenin hukuki nitelendirme görevi birb
 
 ## NCMEC raporu ile TCK 226 arasındaki ilişki
 
-NCMEC/CyberTipline sistemi, ABD hukukundaki raporlama kategorileri üzerinden çalışır. Türk soruşturmasında ise isnat edilen fiilin TCK m.226'nın hangi fıkrasına girdiği ayrıca belirlenmelidir.
+NCMEC/CyberTipline sistemi ABD hukukundaki raporlama kategorileri üzerinden çalışır. Türk soruşturmasında ise isnat edilen fiilin TCK m.226'nın hangi fıkrasına girdiği ayrıca belirlenmelidir.
 
 Bu nedenle;
 
@@ -165,30 +166,12 @@ Ayrıca [NCMEC raporunun tek başına mahkûmiyet için yeterli olup olmadığı
 
 TCK m.226 bakımından dijital dosyalarda en sık yapılan hata, **içerik ile fiili birbirine karıştırmaktır.**
 
-Önce içeriğin hangi hukuki kategoriye girdiği belirlenmelidir. Ardından kişinin bu içerikle ne yaptığı araştırılmalıdır: üretmiş mi, depolamış mı, bulundurmuş mu, paylaşmış mı, yayınlamış mı?
+Önce içeriğin hangi hukuki kategoriye girdiği belirlenmelidir. Ardından kişinin bu içerikle ne yaptığı araştırılmalıdır: üretmiş mi, depolamış mı, bulundurmuş mu, paylaşmış mı, yayınlamış mı? İzleme veya beğeni gibi platform etkileşimlerinin önemi de ancak bu fiil ve delil zinciri içinde belirlenebilir.
 
-Son aşamada ise bu fiilin sanık tarafından işlendiğinin dijital delillerle ne ölçüde ortaya konulduğu değerlendirilir.
+Son aşamada bu fiilin sanık tarafından işlendiğinin dijital delillerle ne ölçüde ortaya konulduğu değerlendirilir.
 
-Bu nedenle sağlıklı bir TCK 226 incelemesi üç basamaklıdır:
+Sağlıklı inceleme üç basamaklıdır:
 
 **İçerik → fiil → fail bağlantısı.**
 
-Serinin sonraki bölümünde bu zincirin en sık tartışılan sorusuna geçiyoruz: [Telefonda veya bilgisayarda müstehcen görüntü bulunması tek başına suç için yeterli midir?](/makaleler/telefonda-bilgisayarda-mustehcen-goruntu-bulunmasi-yeterli-mi/)
-
-## Sık sorulan sorular
-
-### Telefonda yetişkinlere ait pornografik görüntü bulundurmak otomatik olarak suç mudur?
-
-TCK m.226 bütün müstehcen içerikleri salt özel bulundurma nedeniyle aynı biçimde cezalandırmaz. İçeriğin m.226/3 veya m.226/4 gibi bulundurmayı ayrıca suç sayan kategorilere girip girmediği ve kişinin fiili değerlendirilmelidir.
-
-### Çocukların kullanıldığı müstehcen görüntüyü bulundurmanın cezası nedir?
-
-TCK m.226/3'ün ikinci cümlesi kapsamındaki ürünleri bulunduran kişi bakımından kanunda iki yıldan beş yıla kadar hapis ve beşbin güne kadar adli para cezası öngörülmektedir. Somut olayda hangi hükmün uygulanacağı içerik ve fiilin özelliklerine göre belirlenir.
-
-### Bir görüntüyü bir kişiye göndermek “bulundurma” ile aynı mıdır?
-
-Hayır. Gönderme veya erişime açma, olayın niteliğine göre “başkalarının kullanımına sunma” veya yayınlama hükümleri bakımından ayrıca değerlendirilebilir.
-
-### Dosya otomatik indirildiyse suç oluşmaz mı?
-
-Otomatik indirme ihtimali kişinin içerikle iradi bağlantısının değerlendirilmesinde önemli olabilir; fakat tek başına kesin sonuç değildir. Teknik kayıtlar ve kişinin sonraki davranışlarıyla birlikte değerlendirilir.
+Serinin sonraki bölümünde bu zincirin cihaz üzerindeki görünümüne geçiyoruz: [Telefonda veya bilgisayarda müstehcen görüntü bulunması tek başına suç için yeterli midir?](/makaleler/telefonda-bilgisayarda-mustehcen-goruntu-bulunmasi-yeterli-mi/)
