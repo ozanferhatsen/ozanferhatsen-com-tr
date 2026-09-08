@@ -2,8 +2,9 @@
   "type": "module",
   "scripts": {
     "audit:seo": "node scripts/seo-audit.mjs",
+    "audit:output": "node scripts/audit-output.mjs",
     "optimize:assets": "node scripts/optimize-assets.mjs",
-    "build": "npm run audit:seo && npm run optimize:assets && eleventy"
+    "build": "npm run audit:seo && npm run optimize:assets && eleventy && npm run audit:output"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.1.2",
