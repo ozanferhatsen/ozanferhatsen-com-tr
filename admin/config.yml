@@ -7,7 +7,6 @@ backend:
 
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
-
 locale: "tr"
 
 collections:
@@ -15,12 +14,13 @@ collections:
     label: "Makaleler"
     folder: "content/makaleler"
     create: true
-    slug: "{{slug}}"
+    slug: "{{fields.slug}}"
+    summary: "{{title}} — {{category}}"
     fields:
       - { label: "Başlık", name: "title", widget: "string" }
+      - { label: "URL", name: "slug", widget: "string", hint: "Küçük harf, Türkçe karakter kullanmadan: kok-parsel-nedir" }
       - { label: "Yayın Tarihi", name: "date", widget: "datetime" }
       - { label: "Son Güncelleme", name: "updated", widget: "datetime", required: false }
-
       - label: "Çalışma Alanı"
         name: "category"
         widget: "select"
@@ -33,10 +33,17 @@ collections:
           - "Bilişim Hukuku"
           - "Kişisel Veri Hukuku"
           - "Yabancılar Hukuku"
-
       - { label: "Kısa Anahtar Kelime", name: "keyword", widget: "string", required: false }
       - { label: "Özet", name: "summary", widget: "text" }
       - { label: "Kapak Görseli", name: "image", widget: "image", required: false }
+      - { label: "Görsel Alt Metni", name: "image_alt", widget: "string", required: false }
       - { label: "SEO Başlığı", name: "seo_title", widget: "string", required: false }
       - { label: "Meta Açıklaması", name: "description", widget: "text", required: false }
+      - label: "Kaynaklar"
+        name: "sources"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Kaynak Adı", name: "name", widget: "string" }
+          - { label: "Bağlantı", name: "url", widget: "string", required: false }
       - { label: "Makale Metni", name: "body", widget: "markdown" }
