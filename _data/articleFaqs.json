@@ -1,0 +1,146 @@
+{
+  "ncmec-raporu-nedir-turkiyede-sorusturma": [
+    {
+      "question": "Hesabım çocuk güvenliği nedeniyle kapatıldıysa NCMEC'e bildirilmiş miyim?",
+      "answer": "<p><strong>Hesabın kapatılması tek başına NCMEC/CyberTipline bildirimi yapıldığını göstermez.</strong> Bir platform hesabı kendi topluluk kuralları, otomatik güvenlik sistemleri veya başka kullanım koşulları nedeniyle sınırlandırabilir ya da kapatabilir. Platformun kendi hesabı kapatma kararı ile NCMEC'e yapılan bildirim hukuken ve teknik olarak aynı işlem değildir.</p><p>Bununla birlikte aynı tespit iki ayrı sonucu birden doğurmuş olabilir: platform kendi kurallarına göre hesabı kapatırken, bildirim yükümlülüğü doğuran bir durum görmüşse ayrıca CyberTipline raporu da oluşturulmuş olabilir. Bu nedenle yalnız “hesabım kapandı” bilgisinden ne kesin olarak NCMEC raporu vardır ne de kesin olarak yoktur sonucu çıkarılabilir.</p>"
+    },
+    {
+      "question": "NCMEC'e bildirildiğimi nasıl öğrenebilirim?",
+      "answer": "<p>Platformun kullanıcıya gönderdiği “çocuk güvenliği”, “cinsel istismar” veya benzeri ihlal bildirimi çoğu zaman tek başına bir CyberTipline raporunun düzenlenip düzenlenmediğini göstermez. Kullanıcıya verilen hesap kapatma gerekçesi ile NCMEC'e gönderilen raporun içeriği aynı belge değildir.</p><p>Bir NCMEC raporu Türkiye'de ceza soruşturmasına intikal etmişse, soruşturma dosyasının erişilebilir hâle geldiği aşamada raporun veya rapora dayanan kolluk/savcılık yazışmalarının dosyada görülmesi mümkün olabilir. Ancak soruşturmanın gizliliği ve dosyaya erişim kuralları nedeniyle “NCMEC'e bildirildim mi?” sorusunun her olayda platform ekranından veya kamuya açık bir sorgudan öğrenilebilen tek bir cevabı yoktur.</p>"
+    },
+    {
+      "question": "NCMEC bildirimi yapıldıktan ne kadar sonra Türkiye'de soruşturma başlayabilir?",
+      "answer": "<p><strong>Bunun için sabit bir gün, ay veya yıl süresi yoktur.</strong> Platformun raporu hazırlaması, NCMEC'in değerlendirmesi ve yönlendirmesi, ülke ve kişi tespiti, ilgili teknik kayıtların istenmesi ve Türk makamlarının işlem yapması farklı zaman alabilir.</p><p>Bu nedenle “üç ay geçti, artık soruşturma olmaz” veya “hesap dün kapandı, yarın mutlaka polis gelir” gibi kesin zaman formülleri güvenilir değildir. Somut dosyada raporun tarihi, hangi ülkeye yönlendirildiği, kullanıcı ve IP bilgisinin yeterliliği ile soruşturma makamlarının yaptığı işlemler belirleyicidir.</p>"
+    },
+    {
+      "question": "Her NCMEC raporu Türkiye'de soruşturmaya dönüşür mü?",
+      "answer": "<p>Hayır. CyberTipline raporlarının içerdiği bilgi miktarı ve işlem yapılabilirliği aynı değildir. Bazı raporlar belirli hesap, IP, zaman ve materyal bilgileriyle daha güçlü bir başlangıç verisi taşırken bazı raporlar kişi veya yer tespiti bakımından daha sınırlı olabilir.</p><p>Bir raporun Türk makamlarına ulaşması da otomatik olarak dava açılacağı anlamına gelmez. Önce rapordaki olayın Türkiye ile bağlantısı, gerçek kişiyle ilişkilendirilebilmesi ve Türk hukuku bakımından suç oluşturup oluşturmadığı araştırılır. Raporun soruşturma başlatması ile iddianame düzenlenmesi arasında ayrıca delil toplama ve hukuki değerlendirme aşaması vardır.</p>"
+    }
+  ],
+  "ncmec-raporu-tek-basina-mahkumiyet-yeterli-mi": [
+    {
+      "question": "NCMEC raporunda IP adresimin bulunması mahkûmiyet için yeterli midir?",
+      "answer": "<p><strong>Tek başına IP adresi, rapordaki fiili belirli kişinin gerçekleştirdiğini otomatik olarak ispatlamaz.</strong> IP verisi çoğu zaman belirli tarih ve saatte kullanılan internet bağlantısına ulaşmayı sağlar. Abonelik sahibinin kim olduğu ile bağlantıyı olay anında kullanan kişinin kim olduğu ayrı sorulardır.</p><p>Bu nedenle dinamik IP, CGNAT ve kaynak port bilgileri, hesap kayıtları, cihazdaki oturumlar ve rapora konu içerikle cihaz arasında teknik bağlantı bulunup bulunmadığı birlikte değerlendirilir. Bu konunun teknik tarafı [IP adresi ve fail tespiti](/makaleler/ip-adresi-tek-basina-sucun-failini-gosterir-mi/) bölümünde ayrıca ele alınmıştır.</p>"
+    },
+    {
+      "question": "NCMEC raporundaki görüntü cihazımda bulunmadıysa ne olur?",
+      "answer": "<p>Bu durum önemli olabilir ancak tek başına otomatik beraat sonucu doğurmaz. Bir platform raporu geçmişte gerçekleşen yükleme, gönderme veya başka bir çevrimiçi işlemi kaydetmiş olabilir; dosya daha sonra silinmiş, cihaz değiştirilmiş veya olay başka bir cihaz üzerinden gerçekleşmiş olabilir.</p><p>Buna karşılık rapora konu materyalle şüphelinin cihazları arasında hiçbir teknik bağ kurulamaması ve hesap/IP bağlantısının da zayıf olması, ispat zincirinin ayrıca sorgulanmasını gerektirir. Doğru soru “cihazda dosya var mı?” kadar, <strong>rapordaki olayın bu kişi tarafından gerçekleştirildiğini hangi bağımsız deliller doğruluyor?</strong> sorusudur.</p>"
+    },
+    {
+      "question": "NCMEC raporundaki dosya ile cihazdaki dosyanın aynı olduğu nasıl anlaşılır?",
+      "answer": "<p>Karşılaştırma yalnız dosya adının benzemesine dayanmamalıdır. Dosyanın kendisi, hash değeri ve bilirkişinin denetlenebilir başka teknik bulguları aynı materyalin söz konusu olup olmadığını belirlemede kullanılabilir.</p><p>Murat Volkan Dülger'in aktardığı Yargıtay uygulamasında da NCMEC raporundaki görüntüler ile ele geçirilen cihazdaki görüntülerin aynı olup olmadığının bilirkişi incelemesiyle belirlenmesinin önemi vurgulanmaktadır. Teknik eşleşme dosyanın kimliğini güçlendirir; fakat dosyayı kimin indirdiği, bulundurduğu veya paylaştığı yine ayrıca değerlendirilir.</p>"
+    },
+    {
+      "question": "Sadece platformun verdiği hesap bilgileriyle mahkûmiyet kurulabilir mi?",
+      "answer": "<p>Bir hesabın e-posta adresi, telefon numarası veya görünen kullanıcı adı belirli kişiyle güçlü biçimde ilişkilendirilebilir; ancak ceza sorumluluğunda asıl mesele isnat edilen işlemi olay tarihinde kimin yaptığıdır. Hesabın kimin adına açıldığı ile hesabı belirli anda kimin kullandığı her zaman aynı soru değildir.</p><p>Oturum açma kayıtları, IP ve zaman bilgileri, bağlı cihazlar, kurtarma bilgileri, şüphelinin cihazındaki uygulama oturumu ve bildirime konu dosyayla teknik bağlantı bu nedenle önem kazanır. Deliller birbirini doğruladıkça zincir güçlenir; tek bir hesap bilgisinin ispat değeri ise somut dosyanın bütününde değerlendirilir.</p>"
+    }
+  ],
+  "mustehcenlik-sucu-tck-226-dijital-icerikler": [
+    {
+      "question": "Bir görüntüyü sadece izlemek TCK 226 kapsamında suç mudur?",
+      "answer": "<p>TCK m.226'da “izlemek” sözcüğü bağımsız bir suç fiili olarak sayılmamıştır. Bu nedenle yalnız bir içeriğin ekranda görülmesi ile kanunda ayrıca düzenlenen bulundurma, depolama, başkasının kullanımına sunma veya yayınlama fiilleri birbirine eşitlenmemelidir.</p><p>Ancak dijital ortamda “sadece izledim” ifadesinin teknik karşılığı araştırılabilir. Dosyanın ayrıca indirilip indirilmediği, cihazda bilinçli biçimde tutulup tutulmadığı, tekrar erişim, taşıma veya paylaşma kayıtları ve içeriğin niteliği önemlidir. Başka deyişle hukuki değerlendirme, kullanıcının günlük dilde kullandığı “izledim” sözcüğünden değil, gerçekte hangi fiillerin gerçekleştiğinden yapılır.</p>"
+    },
+    {
+      "question": "Beğeni vermek, like atmak veya başka bir etkileşimde bulunmak müstehcenlik suçu oluşturur mu?",
+      "answer": "<p><strong>“Beğeni” veya “like” TCK m.226'da bağımsız bir suç fiili olarak sayılmamıştır.</strong> Bununla birlikte etkileşimin somut platformda ne yaptığı ve dosyadaki diğer delillerle birlikte ne gösterdiği önem taşıyabilir. Beğeni kaydı, örneğin kişinin belirli içeriği gördüğüne veya hesapla iradi ilişki kurduğuna dair değerlendirmede delil niteliği kazanabilir.</p><p>Platformun hesabı bu nedenle kapatması da Türk ceza hukuku bakımından otomatik suç sonucu doğurmaz. Platform yaptırımı, NCMEC/CyberTipline bildirimi ve TCK m.226 kapsamında ceza sorumluluğu üç ayrı değerlendirme katmanıdır.</p>"
+    },
+    {
+      "question": "Bana gönderilen görüntü ile benim başkasına gönderdiğim görüntü hukuken aynı mıdır?",
+      "answer": "<p>Hayır. Bir içeriğin kullanıcıya gönderilmesi ile kullanıcının aynı içeriği başkasına göndermesi aynı davranış değildir. İlk durumda dosyanın otomatik indirilmesi, kişinin içeriği bilip bilmediği ve sonradan ne yaptığı araştırılabilir. İkinci durumda ise aktif gönderim veya başkasının kullanımına sunma iddiası gündeme gelebilir.</p><p>Bu nedenle mesajlaşma kayıtlarında yalnız dosyanın varlığı değil, gönderen ve alıcı hesaplar, zaman damgaları, iletme kayıtları ve dosyanın cihazdaki konumu birlikte okunmalıdır. “Telefonumda vardı” ile “ben gönderdim” arasındaki fark, TCK m.226'nın fiil ayrımı bakımından doğrudan önemlidir.</p>"
+    },
+    {
+      "question": "Tek bir görüntü TCK 226 kapsamında suç oluşturabilir mi?",
+      "answer": "<p>Kanunda suçun oluşması için mutlaka belirli sayıda görüntü bulunması gerektiğine ilişkin genel bir alt sınır yoktur. Bu nedenle <strong>tek bir dosya da</strong>, içeriğin niteliği ve kişinin gerçekleştirdiği fiil kanundaki suç tipinin unsurlarını karşılıyorsa hukuken önem taşıyabilir.</p><p>Dosya sayısı elbette olayın niteliği, kastın değerlendirilmesi ve somut delil tablosu bakımından anlamlı olabilir; fakat “yalnız bir görüntü var, o hâlde suç olmaz” biçiminde genel bir kural kurulamaz. Önce görüntünün TCK m.226'nın hangi fıkrası kapsamında olduğu ve kişiyle hangi fiil üzerinden ilişkilendirildiği belirlenmelidir.</p>"
+    }
+  ],
+  "telefonda-bilgisayarda-mustehcen-goruntu-bulunmasi-yeterli-mi": [
+    {
+      "question": "WhatsApp veya Telegram'ın otomatik indirdiği görüntülerden sorumlu olunur mu?",
+      "answer": "<p>Otomatik indirme ihtimali, kişinin dosyayla bilinçli ve iradi bağlantısının değerlendirilmesinde önemlidir. Bir grup veya mesajlaşma uygulamasının medya dosyasını kullanıcı ayrıca “kaydet” demeden cihaza indirmesi teknik olarak mümkündür. Bu nedenle dosyanın cihazda bulunması ile bilinçli biçimde edinilip saklanması aynı kabul edilmemelidir.</p><p>Ancak “otomatik indi” açıklaması da tek başına sonucu belirlemez. Uygulama ayarları, dosya yolu, oluşturma zamanı, dosyanın açılması, başka klasöre taşınması, silinmesi veya paylaşılması gibi teknik veriler bu ihtimali doğrulayabilir ya da zayıflatabilir.</p>"
+    },
+    {
+      "question": "Google Photos, Google Drive veya iCloud senkronizasyonuyla gelen dosya nasıl değerlendirilir?",
+      "answer": "<p>Bulut senkronizasyonu aynı dosyanın kullanıcının yeni bir işlem yapmasına gerek kalmadan başka cihazlarda görünmesine yol açabilir. Bu nedenle bir dosyanın telefonda bulunması, onun mutlaka o telefondan indirildiğini veya o cihazın kullanıcısı tarafından ilk kez edinildiğini göstermez.</p><p>Hangi hesabın senkronize edildiği, dosyanın buluttaki geçmişi, cihazlara ne zaman geldiği, klasör yolu ve kullanıcının dosya üzerinde daha sonra yaptığı işlemler incelenebilir. Bulut senkronizasyonu somut teknik verilerle destekleniyorsa önemli bir açıklamadır; yalnız soyut ihtimal olarak ileri sürülmesi ise tek başına yeterli değildir.</p>"
+    },
+    {
+      "question": "Dosyayı hiç açmadıysam yine de telefonda bulunması önemli midir?",
+      "answer": "<p>Evet, dosyanın cihazda bulunması yine de teknik bir olgudur; ancak hiç açılmamış olması kişinin dosyayı bilip bilmediği ve bilinçli biçimde bulundurup bulundurmadığı tartışmasında önem taşıyabilir. “Açılmadı” sonucu da cihaz ve uygulama türüne göre hangi teknik kayıtlardan çıkarıldığı açıklanmalıdır.</p><p>Öte yandan dosyanın özel bir klasöre taşınması, yeniden adlandırılması, başka kişiye gönderilmesi veya uzun süre bilinçli şekilde saklanması gibi başka bulgular varsa, yalnız “açılma kaydı yok” denmesi bütün dosyayı açıklamaz. Dijital delil tek bir metadata alanından değil, olayın bütün teknik izlerinden okunmalıdır.</p>"
+    },
+    {
+      "question": "Telefon veya bilgisayar ortak kullanılıyorsa görüntü kime ait sayılır?",
+      "answer": "<p>Bir cihazın mülkiyeti veya kimin adına satın alındığı, cihazdaki her işlemin aynı kişi tarafından yapıldığını tek başına göstermez. Aile bilgisayarı, ortak tablet veya işyeri cihazı gibi birden fazla kişinin erişebildiği sistemlerde fail bağlantısı ayrıca kurulmalıdır.</p><p>Kullanıcı profilleri, uygulama hesapları, oturum zamanları, parola ve biyometrik erişim, bağlı telefon numaraları ve olay anındaki kullanım verileri bu ayrımda önem kazanabilir. Buna karşılık “herkes kullanıyordu” şeklindeki soyut savunma da kendiliğinden yeterli değildir; ortak kullanım ihtimalinin somut kayıtlarla uyumlu olup olmadığı değerlendirilir.</p>"
+    }
+  ],
+  "ip-adresi-tek-basina-sucun-failini-gosterir-mi": [
+    {
+      "question": "İnternetimi başka biri kullandıysa IP adresi nedeniyle ben mi sorumlu olurum?",
+      "answer": "<p><strong>İnternet aboneliğinin sizin adınıza olması, bağlantı üzerinden gerçekleşen her işlemin otomatik olarak sizin tarafınızdan yapıldığını göstermez.</strong> IP kaydı önce bağlantıya ulaşır; failin kim olduğu ise hesap, cihaz ve olay zamanındaki kullanım verileriyle ayrıca araştırılır.</p><p>Aynı evdeki kişiler, misafirler veya işyeri kullanıcıları aynı internet bağlantısını kullanabilir. Ancak “başkası kullanmış olabilir” ihtimali de tek başına sonuç doğurmaz. Olayla ilişkili hesabın hangi cihazda açık olduğu, giriş kayıtları, cihaz incelemesi ve diğer dijital izler bu iddianın gerçekçi olup olmadığını gösterebilir.</p>"
+    },
+    {
+      "question": "Wi-Fi şifresini bilen başka bir kişinin yaptığı işlem bana yüklenebilir mi?",
+      "answer": "<p>Teknik olarak aynı kablosuz ağa erişen başka kişi aynı genel IP üzerinden internete çıkabilir. Bu nedenle yalnız modem veya abonelik kaydı fail tespiti için her dosyada yeterli değildir. Kablosuz ağın kimlerce kullanılabildiği ve olay zamanındaki cihaz bağlantıları ayrıca önem kazanabilir.</p><p>Bununla birlikte güvenli bir ağda yalnız belirli kişilerin erişimi bulunması, ilgili hesabın da şüphelinin cihazında açık olması ve başka delillerin aynı kişiyi göstermesi hâlinde IP kaydı daha güçlü bir zincirin parçasına dönüşebilir. Fail tespiti, tek başına Wi-Fi şifresinin varlığına değil delillerin birlikte değerlendirilmesine dayanır.</p>"
+    },
+    {
+      "question": "IP adresinin benim aboneliğime ait olması işlemi benim yaptığımı ispatlar mı?",
+      "answer": "<p>Genellikle ulaşılan ilk sonuç, belirli tarih ve saatte internet bağlantısının sizin aboneliğinizle ilişkilendirilmesidir. Bu sonuç önemli olmakla birlikte “işlemi siz yaptınız” cümlesiyle aynı değildir.</p><p>Hesabın kime ait olduğu, hangi cihazdan giriş yapıldığı, olay zamanında bağlantıyı kimin kullandığı ve işlemle ilişkili başka dijital izlerin bulunup bulunmadığı araştırılır. Özellikle NCMEC veya sosyal medya dosyalarında IP, hesap ve cihaz verileri birbirini doğruladığında ispat gücü artar.</p>"
+    },
+    {
+      "question": "Hesabım ele geçirildiyse veya çalındıysa IP kaydı nasıl değerlendirilir?",
+      "answer": "<p>Hesabın ele geçirildiği iddiası, olay tarihindeki oturum kayıtlarıyla sınanabilir. Farklı cihazlardan girişler, alışılmadık konumlar, güvenlik uyarıları, şifre değişiklikleri, kurtarma e-postası veya telefon numarası değişiklikleri ve olay sonrası hesap geri alma işlemleri bu konuda önem taşıyabilir.</p><p>Bir işlem şüphelinin internet bağlantısından gerçekleşmiş görünüyorsa “hesabım çalındı” iddiasının teknik verilerle nasıl bağdaştığı ayrıca araştırılır. Tersine, olay anında hesabın başka cihaz ve IP'lerden kullanıldığını gösteren güvenilir kayıtlar varsa bu da fail bağlantısının değerlendirilmesini etkiler.</p>"
+    }
+  ],
+  "cgnat-kaynak-port-kaydi-nedir-fail-tespiti": [
+    {
+      "question": "Aynı IP adresini aynı anda birden fazla kişi kullanabilir mi?",
+      "answer": "<p>Evet. CGNAT altyapısında aynı genel IP adresi aynı anda çok sayıda abone tarafından kullanılabilir. Ev veya işyeri ağında da birden fazla cihaz tek genel IP üzerinden internete çıkar. Bu nedenle “aynı IP” ifadesi her zaman tek bir kişi veya tek bir cihaz anlamına gelmez.</p><p>CGNAT ortamında farklı abonelerin bağlantılarını ayırmak için kaynak port ve doğru tarih-saat bilgisi önem kazanır. Abone tespit edildikten sonra da gerçek kullanıcının kim olduğu hesap ve cihaz kayıtlarıyla ayrıca değerlendirilir.</p>"
+    },
+    {
+      "question": "Kaynak port bilgisi olmadan kişi tespit edilebilir mi?",
+      "answer": "<p>Bağlantının CGNAT kullanıp kullanmadığına göre cevap değişir. Aynı genel IP olay anında yalnız tek aboneye tahsis edilmişse IP ve doğru zaman bilgisi yeterli olabilir. Fakat aynı IP'nin CGNAT üzerinden çok sayıda abone tarafından eşzamanlı kullanıldığı durumda kaynak port belirli aboneliği ayırmak için kritik hâle gelebilir.</p><p>Port bilgisinin eksik olması dosyanın otomatik olarak sonuçsuz kalacağı anlamına gelmez. Hesap, cihaz, telefon numarası veya başka oturum kayıtları aynı kişiyi bağımsız biçimde gösterebilir. Eksikliğin önemi, fail bağlantısının başka hangi delillere dayandığına göre değerlendirilir.</p>"
+    },
+    {
+      "question": "CGNAT kaydı yanlış, eksik veya birbiriyle çelişkiliyse ne olur?",
+      "answer": "<p>Platform kaydı ile servis sağlayıcı cevabı aynı IP, kaynak port, tarih, saat ve zaman dilimi bakımından karşılaştırılmalıdır. Bu veriler birbirini tutmuyorsa abone eşleştirmesinin hangi ham kayıtlara dayanılarak yapıldığı açıklanmalıdır.</p><p>Kaynak portun hesaba katılmaması, saat dilimi dönüşümünün yanlış yapılması veya aynı IP'nin aynı zaman aralığında birden fazla aboneyle ilişkilendirilebilmesi teknik inceleme gerektirebilir. Böyle bir tutarsızlık otomatik bir hukuki sonuç değil, <strong>fail tespitinin güvenilirliğini doğrudan etkileyen inceleme konusu</strong>dur.</p>"
+    },
+    {
+      "question": "Tarih ve saat bilgisi neden saniye hassasiyetinde önemli olabilir?",
+      "answer": "<p>Dinamik IP ve özellikle CGNAT sistemlerinde IP ve port tahsisleri kısa zaman aralıklarında değişebilir. Aynı genel IP ve hatta aynı port farklı zamanlarda farklı bağlantılarla ilişkilendirilebilir. Bu yüzden platform kaydındaki olay zamanı ile servis sağlayıcının logu mümkün olduğunca aynı hassasiyetle karşılaştırılmalıdır.</p><p>UTC ile Türkiye saati arasındaki dönüşüm, saniye bilgisinin eksikliği veya kayıtların farklı zaman standartlarında tutulması yanlış abone eşleştirmesine yol açabilir. “IP ve port tuttu” sonucunun güvenilirliği, zaman verisinin doğru okunmasına bağlıdır.</p>"
+    }
+  ],
+  "cmk-134-bilgisayar-telefon-arama-kopyalama-el-koyma": [
+    {
+      "question": "NCMEC raporu varsa polis eve arama için mutlaka gelir mi?",
+      "answer": "<p>Hayır. <strong>NCMEC/CyberTipline raporunun varlığı tek başına konutta arama veya dijital cihaza el koyma yetkisi vermez.</strong> Rapor soruşturma başlangıç verisi olabilir; bundan sonra Türk ceza muhakemesindeki koruma tedbirlerinin kendi şartları ve karar usulleri uygulanır.</p><p>Konut araması ile bilgisayar veya dijital veride arama da aynı koruma tedbiri değildir. Somut dosyada suç şüphesinin niteliği, aranan delil ve hâkim/savcı kararlarının kapsamı değerlendirilir. Bu nedenle “NCMEC raporu geldi, otomatik olarak eve gelirler” şeklinde genel bir kural yoktur.</p>"
+    },
+    {
+      "question": "Telefonuma veya bilgisayarıma mutlaka el konulur mu?",
+      "answer": "<p>Hayır. CMK m.134 arama, kopyalama ve el koymayı birbirinden ayırır. Kanun, belirli şartlarda cihaz alınmadan sistemdeki verilerin tamamının veya bir kısmının kopyalanmasına da imkân tanır.</p><p>El koymanın gerekli olup olmadığı, şifrenin çözülememesi, gizlenmiş verilere ulaşılamaması, işlemin uzun sürecek olması ve yerinde kopyalamanın mümkün olup olmaması gibi somut nedenlerle değerlendirilir. Cihazın fiziksel olarak alınması rutin ve sınırsız bir sonuç olarak kabul edilmemelidir.</p>"
+    },
+    {
+      "question": "Şifreyi vermemek veya şifrenin çözülememesi ne sonuç doğurur?",
+      "answer": "<p>CMK m.134'ün yürürlükteki düzenlemesinde şifrenin çözülememesi veya gizlenmiş bilgilere ulaşılamaması, cihazlara el koyulabilmesine ilişkin sebepler arasında yer alır. Bu nedenle teknik erişimin sağlanamaması, cihazın inceleme için geçici olarak muhafaza altına alınmasına yol açabilir.</p><p>Bununla birlikte “şifreyi vermedi, bu nedenle ayrıca suç işlemiştir” veya “şifreyi vermediği için isnat sabittir” şeklinde otomatik bir sonuç kurulamaz. Şifre açıklama meselesi, kişinin kendisini suçlayıcı beyanda bulunmaya zorlanmaması ilkesi ve somut koruma tedbirinin şartlarıyla birlikte ayrıca değerlendirilmelidir.</p>"
+    },
+    {
+      "question": "İmaj veya gerekli kopya alındıktan sonra cihaz ne zaman iade edilmelidir?",
+      "answer": "<p>8 Eylül 2026 itibarıyla yürürlükte bulunan CMK m.134, şifrenin çözülmesi ve gerekli kopyaların alınması hâlinde el konulan cihazların gecikme olmaksızın iadesini öngörmektedir. Bu nedenle delil için gerekli verinin elde edilmesinden sonra cihazın uzun süre tutulmasının sebebi ayrıca sorgulanabilir.</p><p>Somut olayda incelemenin tamamlanıp tamamlanmadığı, başka bir el koyma sebebinin bulunup bulunmadığı ve tedbirin ölçülülüğü önemlidir. Ayrıca AYM'nin 2026 tarihli iptal kararının yürürlüğe giriş tarihi nedeniyle CMK m.134'ün güncel durumu dosya tarihinde ayrıca kontrol edilmelidir.</p>"
+    }
+  ],
+  "hukuka-aykiri-dijital-delil-telefon-bilgisayar-incelemesi": [
+    {
+      "question": "Telefon hukuka aykırı şekilde incelendiyse içindeki veriler mahkûmiyette kullanılabilir mi?",
+      "answer": "<p>Anayasa m.38/6 ve CMK m.217/2 uyarınca hukuka aykırı biçimde elde edilen bulguların hükme esas alınması mümkün değildir. Ancak önce gerçekten hangi işlemin hukuka aykırı olduğu ve tartışılan verinin o işlem sonucunda elde edilip edilmediği somutlaştırılmalıdır.</p><p>Bir cihazın hukuka aykırı incelendiğinin kabul edilmesi, dosyadaki başka ve bağımsız biçimde hukuka uygun elde edilmiş bütün delillerin otomatik olarak yok sayılacağı anlamına gelmez. Mahkeme, her delilin kaynağını ve elde edilme biçimini ayrı değerlendirmek zorundadır.</p>"
+    },
+    {
+      "question": "Usulsüz arama veya el koyma bütün ceza dosyasını otomatik olarak geçersiz yapar mı?",
+      "answer": "<p>Hayır. “Dosya tamamen düşer” şeklinde mekanik bir sonuç kurulamaz. Tartışma, hangi delilin hangi işlemle elde edildiği ve aykırılığın hangi hukuki güvenceyi ihlal ettiği üzerinden yürütülür.</p><p>Örneğin belirli dijital veri hukuka aykırı arama sonucu elde edilmişse o verinin kullanılabilirliği ayrı değerlendirilir. Buna karşılık aynı olayı bağımsız biçimde gösteren, hukuka uygun elde edilmiş başka deliller bulunabilir. Bu nedenle hukuka aykırılık itirazı somut delil ve işlem zinciri üzerinden kurulmalıdır.</p>"
+    },
+    {
+      "question": "İmaj veya hash alınmaması dijital delili otomatik olarak hukuka aykırı yapar mı?",
+      "answer": "<p>Hayır. İmaj ve hash özellikle dijital verinin bütünlüğü ve incelemenin sonradan denetlenebilirliği açısından çok önemlidir; fakat hash kaydının bulunmaması ile delilin otomatik olarak hukuka aykırı olması aynı şey değildir.</p><p>Orijinal veriden nasıl kopya alındığı, hangi araçla inceleme yapıldığı, inceleme kopyasının bütünlüğünün nasıl korunduğu ve bilirkişi raporunun yeniden denetlenebilir olup olmadığı birlikte incelenmelidir. Eksiklik bazen teknik güvenilirliği, bazen usule uygunluğu, bazen de her ikisini etkileyebilir.</p>"
+    },
+    {
+      "question": "Dijital incelemedeki usulsüzlük nasıl ileri sürülür?",
+      "answer": "<p>Genel olarak itirazın soyut biçimde “telefon usulsüz incelendi” demesi yerine, <strong>hangi cihazda hangi işlemin hangi karar veya tutanağa aykırı yapıldığını</strong> göstermesi gerekir. Arama ve el koyma kararı, uygulama tutanakları, yedekleme/kopya kayıtları, imaj-hash bilgileri ve bilirkişi raporu birlikte karşılaştırılır.</p><p>İncelemenin hukuki dayanağı tartışılıyorsa yasak delil hükümleri; teknik yöntemi tartışılıyorsa bilirkişi raporuna itiraz, ek inceleme veya yeniden bilirkişi değerlendirmesi gündeme gelebilir. Hangi usul yolunun kullanılacağı dosyanın bulunduğu aşamaya göre değişir.</p>"
+    }
+  ]
+}
