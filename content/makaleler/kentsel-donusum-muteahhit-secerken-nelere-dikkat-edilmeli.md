@@ -121,4 +121,4 @@ Hayır. Yetki belgesi temel bir kontrol noktasıdır ancak firmanın finansmanı
 • Türkiye Ticaret Sicili Gazetesi ve ilgili kamu sicilleri.  
   
 [Türkiye Ticaret Sicili Gazetesi](https://www.ticaretsicil.gov.tr/)  
-[Yapı Müteahhitleri Yönetmeliği - konsolide metin](https://www.lexpera.com.tr/mevzuat/yonetmelikler/yapi-muteahhitlerinin-siniflandirilmasi-ve-kayitlarinin-tutulmasi-hakkinda-yonetmelik)
+[Yapı Müteahhitleri Yönetmeliği - Resmî Gazete](https://www.resmigazete.gov.tr/02.03.2019)
