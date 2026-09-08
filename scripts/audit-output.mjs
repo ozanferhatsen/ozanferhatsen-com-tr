@@ -75,7 +75,7 @@ for (const file of files.filter((f) => f.endsWith('.html'))) {
     fail(`${route}: internal SEO copy leaked into rendered page`);
   }
 
-  if (route.startsWith('/makaleler/')) {
+  if (route.startsWith('/makaleler/') && route !== '/makaleler/') {
     if (!html.includes('"@type":"Article"')) fail(`${route}: Article structured data missing`);
     if (!html.includes('"datePublished"')) fail(`${route}: datePublished missing from Article schema`);
     if (!html.includes('"dateModified"')) fail(`${route}: dateModified missing from Article schema`);
