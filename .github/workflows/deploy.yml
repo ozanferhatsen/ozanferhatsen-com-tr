@@ -30,6 +30,8 @@ jobs:
           node-version: 24
       - name: Install dependencies
         run: npm install
+      - name: Dependency security audit
+        run: npm audit --audit-level=high
       - name: Verify homepage hero image
         run: |
           test -s assets/hero-office-family.png
