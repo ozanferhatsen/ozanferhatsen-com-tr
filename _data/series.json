@@ -42,6 +42,26 @@
         "order": 8,
         "title": "Hukuka Aykırı Dijital Delil: Telefon ve Bilgisayar İncelemesi Mahkûmiyete Esas Alınabilir mi?",
         "url": "/makaleler/hukuka-aykiri-dijital-delil-telefon-bilgisayar-incelemesi/"
+      },
+      {
+        "order": 9,
+        "title": "Adli İmaj ve Hash Değeri Nedir? Dijital Delilin Değiştirilmediği Nasıl Anlaşılır?",
+        "url": "/makaleler/adli-imaj-hash-degeri-nedir-dijital-delil-degistirildi-mi/"
+      },
+      {
+        "order": 10,
+        "title": "Bilgisayar veya Telefona Ne Zaman El Konulabilir? İmaj Alındıktan Sonra Cihaz İade Edilmeli midir?",
+        "url": "/makaleler/bilgisayar-telefon-el-koyma-imaj-sonrasi-cihaz-iadesi/"
+      },
+      {
+        "order": 11,
+        "title": "Adli Bilişim Bilirkişi Raporuna Nasıl İtiraz Edilir? Eksik İnceleme, Hash, İmaj ve Delil Bütünlüğü",
+        "url": "/makaleler/adli-bilisim-bilirkisi-raporuna-itiraz-hash-imaj-delil-butunlugu/"
+      },
+      {
+        "order": 12,
+        "title": "Silinmiş Dosya ve Mesajlar Ceza Davasında Dijital Delil Olabilir mi?",
+        "url": "/makaleler/silinmis-dosya-mesajlar-dijital-delil-ceza-davasi/"
       }
     ]
   }
