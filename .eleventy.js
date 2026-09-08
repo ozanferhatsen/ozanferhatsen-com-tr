@@ -1,3 +1,47 @@
+import { execFileSync } from "node:child_process";
+
+const gitUpdatedCache = new Map();
+
+function validDate(value) {
+  if (!value) return null;
+  const date = new Date(value);
+  return Number.isNaN(date.getTime()) ? null : date;
+}
+
+function gitUpdated(inputPath, fallback) {
+  const normalizedPath = String(inputPath || "")
+    .replace(/^\.\//, "")
+    .replace(/\\/g, "/");
+
+  if (gitUpdatedCache.has(normalizedPath)) {
+    const cached = gitUpdatedCache.get(normalizedPath);
+    const fallbackDate = validDate(fallback);
+    const cachedDate = validDate(cached);
+    if (fallbackDate && (!cachedDate || fallbackDate > cachedDate)) return fallback;
+    return cached || fallback || "";
+  }
+
+  let gitValue = "";
+  if (normalizedPath) {
+    try {
+      gitValue = execFileSync(
+        "git",
+        ["log", "-1", "--format=%cI", "--", normalizedPath],
+        { encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] }
+      ).trim();
+    } catch {
+      gitValue = "";
+    }
+  }
+
+  gitUpdatedCache.set(normalizedPath, gitValue);
+
+  const gitDate = validDate(gitValue);
+  const fallbackDate = validDate(fallback);
+  if (gitDate && fallbackDate) return gitDate > fallbackDate ? gitValue : fallback;
+  return gitValue || fallback || "";
+}
+
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("assets");
@@ -23,6 +67,7 @@ export default function (eleventyConfig) {
     return date.toISOString();
   });
 
+  eleventyConfig.addFilter("gitUpdated", gitUpdated);
   eleventyConfig.addFilter("json", (value) => JSON.stringify(value));
 
   eleventyConfig.addFilter("byCategory", (items = [], category) =>
