@@ -29,26 +29,32 @@ og_type: article
 .series-pager .next:only-child{grid-column:2/3}
 .cyber-note{margin:34px 0;padding:20px 22px;border:1px solid var(--line);background:#f1ece6;font:15px/1.65 Arial,sans-serif}
 .cyber-note strong{font-family:Georgia,"Times New Roman",serif;font-size:18px;font-weight:400}
+.related-reading{margin-top:34px}
+.related-reading ul{margin:12px 0 0;padding-left:20px}
+.related-reading li{margin:8px 0}
+.related-reading a{text-decoration-thickness:1px;text-underline-offset:3px}
 @media(max-width:950px){.series-sidebox{position:static;top:auto}.series-pager{grid-template-columns:1fr}.series-pager .next:only-child,.series-pager .prev:only-child{grid-column:auto}.series-pager .next{order:1}.series-pager .prev{order:2}}
 @media(max-width:620px){.series-kicker{font-size:10px}.series-pager{margin-top:40px}.series-pager a{min-height:112px;padding:17px}.series-pager .series-pager-title,.series-pager .next .series-pager-title{font-size:20px}}
 </style>
-{% set canonicalUrl = site.url + page.url %}
+{% set canonicalUrl = canonical or (site.url + page.url) %}
+{% set resolvedCategoryUrl = category_url or (category | categoryUrl) %}
+{% set relatedArticles = collections.makaleler | relatedByCategory(category, page.url, 3) %}
 {% if series_id and series[series_id] %}
   {% set currentSeries = series[series_id] %}
   {% if series_order > 1 %}{% set seriesPrev = currentSeries.items[series_order - 2] %}{% endif %}
   {% if series_order < currentSeries.items.length %}{% set seriesNext = currentSeries.items[series_order] %}{% endif %}
 {% endif %}
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":{{ title | json }},"description":{{ (description or summary) | json }},"mainEntityOfPage":{"@type":"WebPage","@id":{{ canonicalUrl | json }}},"author":{"@type":"Person","name":"Ozan Ferhat Şen","url":"https://ozanferhatsen.com.tr/hakkimda/"},"publisher":{"@type":"Person","name":"Ozan Ferhat Şen","url":"https://ozanferhatsen.com.tr/"},"datePublished":{{ date | isoDate | json }},"dateModified":{{ (updated or date) | isoDate | json }},"inLanguage":"tr-TR","articleSection":{{ category | json }}{% if currentSeries %},"isPartOf":{"@type":"CollectionPage","name":{{ currentSeries.title | json }},"url":{{ (site.url + currentSeries.url) | json }}}{% endif %}{% if image %},"image":{{ (site.url + image) | json }}{% endif %}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Ana Sayfa","item":"https://ozanferhatsen.com.tr/"},{"@type":"ListItem","position":2,"name":{{ category | json }},"item":{{ (site.url + (category_url or '/')) | json }}},{"@type":"ListItem","position":3,"name":{{ title | json }},"item":{{ canonicalUrl | json }}}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":{{ (canonicalUrl + '#article') | json }},"headline":{{ title | json }},"description":{{ (description or summary) | json }},"mainEntityOfPage":{"@type":"WebPage","@id":{{ canonicalUrl | json }}},"author":{"@id":"https://ozanferhatsen.com.tr/#ozan-ferhat-sen"},"publisher":{"@id":"https://ozanferhatsen.com.tr/#hukuk-departmani"},"isPartOf":[{"@id":"https://ozanferhatsen.com.tr/#website"}{% if currentSeries %},{"@type":"CollectionPage","name":{{ currentSeries.title | json }},"url":{{ (site.url + currentSeries.url) | json }}}{% endif %}],"datePublished":{{ date | isoDate | json }},"dateModified":{{ (updated or date) | isoDate | json }},"inLanguage":"tr-TR","articleSection":{{ category | json }}{% if image %},"image":{{ (site.url + image) | json }}{% endif %}},{"@type":"BreadcrumbList","@id":{{ (canonicalUrl + '#breadcrumb') | json }},"itemListElement":[{"@type":"ListItem","position":1,"name":"Ana Sayfa","item":"https://ozanferhatsen.com.tr/"},{"@type":"ListItem","position":2,"name":{{ category | json }},"item":{{ (site.url + resolvedCategoryUrl) | json }}},{"@type":"ListItem","position":3,"name":{{ title | json }},"item":{{ canonicalUrl | json }}}]}]}</script>
 <section class="article-header">
   <div class="wrap">
-    <div class="breadcrumbs"><a href="/">Ana Sayfa</a> / {% if category_url %}<a href="{{ category_url }}">{{ category }}</a>{% else %}{{ category }}{% endif %} / {{ title }}</div>
+    <div class="breadcrumbs"><a href="/">Ana Sayfa</a> / <a href="{{ resolvedCategoryUrl }}">{{ category }}</a> / {{ title }}</div>
     {% if currentSeries %}
     <div class="series-kicker"><a href="{{ currentSeries.url }}">{{ currentSeries.title }}</a><span class="series-divider">/</span><span class="series-order">Bölüm {{ series_order }}</span></div>
     {% endif %}
     <div class="tag">{{ category }}{% if keyword %} · {{ keyword }}{% endif %}</div>
     <h1>{{ title }}</h1>
     <p class="article-summary">{{ summary }}</p>
-    <div class="article-meta">Yayın tarihi: {{ date | dateTR }}{% if updated %} · Son güncelleme: {{ updated | dateTR }}{% endif %} · Av. Ozan Ferhat Şen</div>
+    <div class="article-meta">Yayın tarihi: {{ date | dateTR }} · Son güncelleme: {{ (updated or date) | dateTR }} · Av. Ozan Ferhat Şen</div>
   </div>
 </section>
 <section class="wrap article-layout">
@@ -58,6 +64,10 @@ og_type: article
 
     {% if sources %}
     <section class="author-box"><h2>Kaynaklar ve hukuki dayanak</h2><ul>{% for source in sources %}<li>{% if source.url %}<a href="{{ source.url }}" rel="noopener">{{ source.name }}</a>{% else %}{{ source.name }}{% endif %}</li>{% endfor %}</ul></section>
+    {% endif %}
+
+    {% if relatedArticles.length %}
+    <section class="author-box related-reading" aria-label="İlgili makaleler"><h2>İlgili makaleler</h2><ul>{% for article in relatedArticles %}<li><a href="{{ article.url }}">{{ article.data.title }}</a></li>{% endfor %}</ul></section>
     {% endif %}
 
     {% if currentSeries and (seriesPrev or seriesNext) %}
@@ -100,7 +110,7 @@ og_type: article
       </ol>
     </div>
     {% endif %}
-    <div class="sidebox"><h3>İlgili çalışma alanı</h3><p>{% if category_url %}<a href="{{ category_url }}">{{ category }}</a>{% else %}{{ category }}{% endif %}</p></div>
+    <div class="sidebox"><h3>İlgili çalışma alanı</h3><p><a href="{{ resolvedCategoryUrl }}">{{ category }}</a></p></div>
     <div class="sidebox"><h3>Hızlı iletişim</h3><p><a href="{{ site.whatsapp }}">WhatsApp</a><br><a href="tel:{{ site.phoneHref }}">{{ site.phone }}</a></p></div>
     <div class="sidebox"><h3>Bilgilendirme</h3><p class="legal-note">Bu içerik genel hukuki bilgilendirme amacı taşır. Somut olayın belgeleri ve özel koşulları ayrıca değerlendirilmelidir.</p></div>
   </aside>

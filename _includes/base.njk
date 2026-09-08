@@ -23,6 +23,7 @@
   <link rel="stylesheet" href="/assets/styles.css">
   <link rel="stylesheet" href="/assets/hero-fix.css">
   {% if schema %}<script type="application/ld+json">{{ schema | safe }}</script>{% endif %}
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://ozanferhatsen.com.tr/#ozan-ferhat-sen","name":"Ozan Ferhat Şen","url":"https://ozanferhatsen.com.tr/hakkimda/","jobTitle":"Avukat","alumniOf":[{"@type":"CollegeOrUniversity","name":"Dicle Üniversitesi Hukuk Fakültesi"},{"@type":"CollegeOrUniversity","name":"İstanbul Üniversitesi Sosyal Bilimler Enstitüsü"}]},{"@type":"LegalService","@id":"https://ozanferhatsen.com.tr/#hukuk-departmani","name":"Av. Ozan Ferhat Şen | Hukuk Departmanı","url":"https://ozanferhatsen.com.tr/","telephone":{{ site.phoneHref | json }},"email":{{ site.email | json }},"founder":{"@id":"https://ozanferhatsen.com.tr/#ozan-ferhat-sen"},"address":{"@type":"PostalAddress","streetAddress":{{ site.address | json }},"addressLocality":{{ site.district | json }},"addressRegion":{{ site.city | json }},"addressCountry":"TR"},"areaServed":"Türkiye","knowsAbout":["İmar Hukuku","Kentsel Dönüşüm Hukuku","İnşaat Hukuku","Gayrimenkul Hukuku","Kira Hukuku","Bilişim Hukuku"]},{"@type":"WebSite","@id":"https://ozanferhatsen.com.tr/#website","name":"Av. Ozan Ferhat Şen | Hukuk Departmanı","url":"https://ozanferhatsen.com.tr/","publisher":{"@id":"https://ozanferhatsen.com.tr/#hukuk-departmani"},"inLanguage":["tr-TR","en"]}]}</script>
 </head>
 <body>
 <header class="site-header">
@@ -68,7 +69,6 @@
           <div class="mega-column">
             <div class="mega-label">Dijital</div>
             <a href="/bilisim-hukuku/">Bilişim Hukuku</a>
-            <a href="/kisisel-veri-hukuku/">Kişisel Veri Hukuku</a>
           </div>
         </div>
       </details>
@@ -97,10 +97,10 @@
 <footer class="footer">
   <div class="wrap footer-grid">
     <div><div class="brand-main">Av. Ozan Ferhat Şen</div><p>İmar, kentsel dönüşüm, inşaat ve gayrimenkul hukukunda hukuki değerlendirme ve sözleşme incelemesi.</p></div>
-    <div><h4>Çalışma alanları</h4><p><a href="/imar-hukuku/">İmar Hukuku</a></p><p><a href="/kentsel-donusum-hukuku/">Kentsel Dönüşüm</a></p><p><a href="/insaat-hukuku/">İnşaat Hukuku</a></p><p><a href="/gayrimenkul-hukuku/">Gayrimenkul Hukuku</a></p><p><a href="/kira-hukuku/">Kira Hukuku</a></p><p><a href="/bilisim-hukuku/">Bilişim Hukuku</a></p><p><a href="/kisisel-veri-hukuku/">Kişisel Veri Hukuku</a></p></div>
+    <div><h4>Çalışma alanları</h4><p><a href="/imar-hukuku/">İmar Hukuku</a></p><p><a href="/kentsel-donusum-hukuku/">Kentsel Dönüşüm</a></p><p><a href="/insaat-hukuku/">İnşaat Hukuku</a></p><p><a href="/gayrimenkul-hukuku/">Gayrimenkul Hukuku</a></p><p><a href="/kira-hukuku/">Kira Hukuku</a></p><p><a href="/bilisim-hukuku/">Bilişim Hukuku</a></p></div>
     <div><h4>İletişim</h4><p><a href="tel:{{ site.phoneHref }}">{{ site.phone }}</a></p><p><a href="{{ site.whatsapp }}">WhatsApp</a></p><p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p><p>{{ site.address }}</p><p><a href="/en/">English</a></p></div>
   </div>
-  <div class="wrap bottom"><span>© 2026 Av. Ozan Ferhat Şen</span><span><a href="/gizlilik/">Gizlilik</a> · <a href="/kvkk/">KVKK</a> · <a href="/sitemap.xml">Site Haritası</a></span></div>
+  <div class="wrap bottom"><span>© 2026 Av. Ozan Ferhat Şen</span><span><a href="/gizlilik/">Gizlilik</a> · <a href="/sitemap.xml">Site Haritası</a></span></div>
 </footer>
 {% endif %}
 <script src="/assets/site.js"></script>

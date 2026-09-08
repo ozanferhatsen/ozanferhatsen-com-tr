@@ -1,3 +1,14 @@
+const categoryUrls = {
+  "İmar Hukuku": "/imar-hukuku/",
+  "Kentsel Dönüşüm": "/kentsel-donusum-hukuku/",
+  "Kentsel Dönüşüm Hukuku": "/kentsel-donusum-hukuku/",
+  "İnşaat Hukuku": "/insaat-hukuku/",
+  "Gayrimenkul Hukuku": "/gayrimenkul-hukuku/",
+  "Kira Hukuku": "/kira-hukuku/",
+  "Bilişim Hukuku": "/bilisim-hukuku/",
+  "Yabancılar Hukuku": "/yabancilar-hukuku/"
+};
+
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("assets");
@@ -28,6 +39,14 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("byCategory", (items = [], category) =>
     items.filter((item) => item.data && item.data.category === category)
   );
+
+  eleventyConfig.addFilter("relatedByCategory", (items = [], category, currentUrl, count = 3) =>
+    items
+      .filter((item) => item.data && item.data.category === category && item.url !== currentUrl)
+      .slice(0, count)
+  );
+
+  eleventyConfig.addFilter("categoryUrl", (category) => categoryUrls[category] || "/makaleler/");
 
   eleventyConfig.addFilter("limit", (items = [], count = 6) => items.slice(0, count));
 

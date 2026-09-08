@@ -2,7 +2,7 @@
 title: "Kira Eksik Ödenirse Tahliye Olur mu?"
 slug: "kira-eksik-odenirse-tahliye-olur-mu"
 date: "2025-03-24T09:00:00+03:00"
-updated: "2025-03-24T09:00:00+03:00"
+updated: "2025-07-02T09:00:00+03:00"
 category: "Kira Hukuku"
 keyword: "Tahliye"
 summary: "Yargıtay’ın meşhur 35 kuruş kararı, “küçük borç önemli değildir” düşüncesinin temerrüt hukukunda neden tehlikeli olabileceğini gösteriyor."
@@ -89,4 +89,4 @@ Hayır. Temerrüt nedeniyle tahliye ile iki haklı ihtar farklı hukuki mekanizm
 
 - Yargıtay 6. Hukuk Dairesi, E. 2015/6655, K. 2015/10585, 01.12.2015.
 - Yargıtay Hukuk Genel Kurulu, E. 2024/785, K. 2025/426, 02.07.2025.
-- 6098 sayılı Türk Borçlar Kanunu m.315 ve m.352.
+- [6098 sayılı Türk Borçlar Kanunu m.315 ve m.352](https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6098.pdf).
