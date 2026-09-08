@@ -2,13 +2,13 @@
 title: "NCMEC Raporu Nedir? Türkiye'de NCMEC Bildirimi Sonrası Soruşturma Nasıl İlerler?"
 slug: "ncmec-raporu-nedir-turkiyede-sorusturma"
 date: "2026-09-08T21:00:00+03:00"
-updated: "2026-09-08T21:00:00+03:00"
+updated: "2026-09-08T22:32:00+03:00"
 category: "Bilişim Hukuku"
 category_url: "/bilisim-hukuku/"
 keyword: "NCMEC Raporu"
 summary: "NCMEC/CyberTipline bildirimi bir mahkûmiyet kararı değil, çoğu dosyada soruşturmayı başlatan veya yönlendiren bir bilgi paketidir. Raporun içeriği, hesap ve IP verileri ile cihaz incelemesinin birbirini doğrulayıp doğrulamadığı ayrıca araştırılmalıdır."
 seo_title: "NCMEC Raporu Nedir? Türkiye'de Soruşturma Süreci"
-description: "NCMEC raporu nedir, CyberTipline bildirimi nasıl oluşur ve Türkiye'de soruşturma nasıl ilerler? IP, hesap verisi, cihaz incelemesi ve dijital deliller."
+description: "NCMEC raporu nedir, CyberTipline bildirimi nasıl oluşur ve Türkiye'de soruşturma nasıl ilerler? Hesap kapatılması, IP, cihaz incelemesi ve dijital deliller."
 series_id: "ncmec-dijital-delil"
 series_order: 1
 series_next_title: "NCMEC Raporu Tek Başına Mahkûmiyet İçin Yeterli midir?"
@@ -25,7 +25,7 @@ sources:
 
 Türkiye bakımından önemli nokta şudur: **NCMEC raporu bir mahkeme kararı, iddianame veya suçun işlendiğini kesin olarak saptayan bir bilirkişi raporu değildir.** Buna karşılık hesap bilgileri, IP kayıtları, tarih-saat verileri ve bildirime konu dosyalar gibi bilgiler içerdiğinde ciddi bir soruşturma başlangıç verisi olabilir.
 
-Bu nedenle bir NCMEC dosyasında ilk soru yalnızca “rapor var mı?” değildir. Asıl sorular; **raporda ne bulunduğu, bildirimin hangi platformdan geldiği, hangi kullanıcı hesabıyla ilişkilendirildiği ve bu verilerin Türkiye'de elde edilen diğer delillerle doğrulanıp doğrulanmadığıdır.**
+Bu nedenle bir NCMEC dosyasında ilk mesele yalnızca raporun varlığı değildir. Asıl değerlendirme; **raporda ne bulunduğu, bildirimin hangi platformdan geldiği, hangi kullanıcı hesabıyla ilişkilendirildiği ve bu verilerin Türkiye'de elde edilen diğer delillerle doğrulanıp doğrulanmadığı** üzerinden yapılır.
 
 ## CyberTipline bildirimi nasıl oluşur?
 
@@ -45,6 +45,24 @@ bulunabilir. Bunların tamamının her raporda bulunması zorunlu değildir.
 
 NCMEC'in 2025 CyberTipline verileri de raporların niteliğinin değişebildiğini gösterir. NCMEC, kolluğun işlem yapmasına elverişli bilgi içeren raporları “referral”, yeterli yer veya kullanıcı bilgisi bulunmayan bazı raporları ise “informational” olarak ayırmaktadır. Dolayısıyla **“NCMEC raporu” tek tip ve her dosyada aynı ispat gücüne sahip bir belge değildir.**
 
+## Platform hesabının kapatılması ile NCMEC bildirimi aynı işlem değildir
+
+Bir sosyal medya, mesajlaşma veya bulut hesabının “çocuk güvenliği”, “cinsel istismar” ya da benzeri bir politika gerekçesiyle sınırlandırılması veya kapatılması, tek başına NCMEC/CyberTipline bildirimi yapıldığını göstermez.
+
+Platformlar hesapları kendi topluluk kuralları, otomatik güvenlik sistemleri veya kullanım koşulları kapsamında kapatabilir. Buna karşılık NCMEC bildirimi ayrı bir raporlama sürecidir. Aynı olay iki sonucu birden doğurabilir: platform kendi kuralları kapsamında hesabı kapatırken, bildirim yükümlülüğü doğuran bir tespit varsa ayrıca CyberTipline raporu da oluşturulmuş olabilir.
+
+Bu nedenle **hesabın kapatılması ile NCMEC'e bildirim yapılması arasında otomatik bir eşitlik kurulamaz.** Hesabın kapatılması, tek başına rapor bulunduğunu da bulunmadığını da kesin olarak göstermez.
+
+Aynı ayrım “hesabım kapandı, demek ki soruşturma başlatıldı” düşüncesi bakımından da geçerlidir. Platform yaptırımı, NCMEC bildirimi ve Türk makamlarınca yürütülen ceza soruşturması üç farklı aşamadır.
+
+## NCMEC bildiriminin yapılıp yapılmadığı nasıl anlaşılabilir?
+
+Kullanıcıya gösterilen platform ihlal ekranı veya gönderilen hesap kapatma e-postası çoğu zaman CyberTipline raporunun düzenlenip düzenlenmediğini açıklamaz. Kullanıcıya verilen politika ihlali bildirimi ile NCMEC'e gönderilen rapor aynı belge değildir.
+
+Bir NCMEC raporu Türkiye'de ceza soruşturmasına intikal etmişse, dosyaya erişimin mümkün olduğu aşamada raporun kendisi veya rapora dayanan kolluk ve savcılık yazışmaları soruşturma evrakı içinde görülebilir. Bununla birlikte soruşturmanın gizliliği ve dosyaya erişim kuralları nedeniyle, kişinin yalnız platform ekranından veya kamuya açık tek bir sorgudan NCMEC'e bildirilip bildirilmediğini kesin biçimde öğrenebildiği genel bir sistem yoktur.
+
+Bu durum, hesap kapatma gerekçesinin hukuki sonuçlarını yorumlarken platformun kullandığı kısa açıklamalardan daha fazlasına bakılması gerektiğini gösterir.
+
 ## NCMEC raporları neden Türkiye'deki soruşturmalarda karşımıza çıkıyor?
 
 Çevrimiçi platformların kullanıcıları ülke sınırlarıyla sınırlı değildir. NCMEC'in 2025 verilerine göre CyberTipline raporlarının büyük çoğunluğu ABD dışındaki olaylarla ilişkilendirilmiş; NCMEC ayrıca 170 ülke ve bölgede kolluk birimleriyle bağlantı kurduğunu ve bazı ülkelerde Interpol'ün rapor bilgilerinin iletilmesine yardımcı olduğunu açıklamıştır.
@@ -55,11 +73,19 @@ Murat Volkan Dülger'in aktardığı uygulamada da NCMEC tarafından hazırlanan
 
 Başka bir ifadeyle **ABD'de oluşturulan bir bildirim, Türkiye'deki soruşturmanın başlangıcı olabilir; Türkiye'deki ceza sorumluluğunun son sözü değildir.**
 
+## Bildirim ile Türkiye'deki soruşturma arasında sabit bir süre yoktur
+
+CyberTipline bildiriminin yapılması ile Türkiye'de kişinin ifadeye çağrılması, arama yapılması veya başka bir soruşturma işleminin gerçekleşmesi arasında herkese uygulanabilecek sabit bir gün, ay ya da yıl süresi yoktur.
+
+Platformun raporu hazırlaması, NCMEC'in raporu değerlendirmesi ve yönlendirmesi, ülke ve kişi tespiti, teknik kayıtların istenmesi ve Türk makamlarının işlem yapması farklı zaman alabilir. Bu nedenle yalnız zamanın geçmesine dayanılarak “artık soruşturma olmaz” veya hesabın yeni kapanmasına dayanılarak “hemen soruşturma başlar” şeklinde kesin sonuç kurulamaz.
+
+Rapordaki kullanıcı ve yer bilgisinin yeterliliği de bu süreçte önemlidir. İşlem yapılabilir nitelikte ayrıntılı bir rapor ile kişi veya ülke bağlantısı son derece sınırlı bir rapor aynı şekilde ilerlemeyebilir. Her CyberTipline raporunun Türkiye'de otomatik olarak soruşturmaya veya sonrasında davaya dönüşmemesinin nedenlerinden biri de budur.
+
 ## Türkiye'de NCMEC bildirimi sonrası hangi işlemler yapılabilir?
 
 Somut dosyaya göre süreç değişmekle birlikte soruşturmanın merkezinde genellikle bildirimin gerçek kişiyle ilişkilendirilmesi vardır.
 
-Savcılık ve kolluk bakımından şu sorular önem kazanır:
+Savcılık ve kolluk bakımından şu noktalar önem kazanır:
 
 1. Bildirim hangi platform ve hangi hesaba ilişkindir?
 2. Raporda hangi tarih ve saat bilgileri bulunmaktadır?
@@ -70,7 +96,7 @@ Savcılık ve kolluk bakımından şu sorular önem kazanır:
 7. Rapordaki dosya ile cihazda bulunan dosyanın aynı olduğu teknik olarak gösterilebilmiş midir?
 8. İçeriğin nasıl edinildiği, saklandığı veya paylaşıldığı anlaşılabiliyor mu?
 
-Bu soruların cevapları, yalnız NCMEC raporundan değil; internet servis sağlayıcısı kayıtları, platform verileri, cihaz incelemesi, bilirkişi raporu ve dosyadaki diğer delillerden gelebilir.
+Bu konuların cevapları yalnız NCMEC raporundan değil; internet servis sağlayıcısı kayıtları, platform verileri, cihaz incelemesi, bilirkişi raporu ve dosyadaki diğer delillerden gelebilir.
 
 ## IP adresi neden tek başına yeterli bir cevap değildir?
 
@@ -86,7 +112,7 @@ Bu nedenle NCMEC dosyalarında **“IP benim üzerime kayıtlı, öyleyse dosya 
 
 Bir platform, belirli bir hesaptan veya bağlantıdan şüpheli içerik bildirimi yapmış olabilir. Ancak dosyanın gerçek kişiyle bağlantısının kurulmasında telefon, bilgisayar, harici disk veya bulut hesabı incelemeleri önemli hâle gelebilir.
 
-Burada yalnız “cihazda dosya çıktı mı?” sorusu da yeterli değildir. Dosyanın;
+Burada yalnız “cihazda dosya çıktı mı?” tespiti de bütün resmi göstermez. Dosyanın;
 
 - nerede bulunduğu,
 - ne zaman oluşturulduğu veya kaydedildiği,
@@ -107,12 +133,12 @@ Ancak NCMEC'in kullandığı raporlama kategorileri ile Türk Ceza Kanunu'ndaki 
 
 Türk makamlarının içeriğin niteliğini, isnat edilen fiili ve kişinin içerikle bağlantısını Türk hukukuna göre değerlendirmesi gerekir.
 
-Bu nedenle serinin devamında iki soruyu ayrı ayrı ele alıyoruz:
+Bu nedenle serinin devamında iki meseleyi ayrı ayrı ele alıyoruz:
 
-- [NCMEC raporu tek başına mahkûmiyet için yeterli midir?](/makaleler/ncmec-raporu-tek-basina-mahkumiyet-yeterli-mi/)
-- [Müstehcenlik suçu TCK m.226 kapsamında dijital içerikler nasıl değerlendirilir?](/makaleler/mustehcenlik-sucu-tck-226-dijital-icerikler/)
+- [NCMEC raporunun mahkûmiyet bakımından delil değeri](/makaleler/ncmec-raporu-tek-basina-mahkumiyet-yeterli-mi/)
+- [TCK m.226 kapsamında dijital içeriklerin hukuki niteliği](/makaleler/mustehcenlik-sucu-tck-226-dijital-icerikler/)
 
-## Bir NCMEC dosyasında ilk incelenmesi gereken belgeler nelerdir?
+## Bir NCMEC dosyasında ilk incelenmesi gereken belgeler
 
 Dosyanın hukuki değerlendirilmesine başlanırken yalnız fezleke veya ifade tutanağına bakılması eksik kalabilir. Mümkün olduğu ölçüde şu kayıtların birlikte incelenmesi önemlidir:
 
@@ -131,24 +157,6 @@ Bu belgeler arasında bağlantı kurulmadan yalnız bir rapor numarası üzerind
 
 NCMEC raporu, özellikle çocukların çevrimiçi cinsel istismarına ilişkin dijital dosyalarda önemli bir soruşturma başlangıç noktasıdır. Fakat raporun hukuki değeri, başlığından değil **içeriğinden ve başka delillerle kurduğu bağlantıdan** doğar.
 
-Rapor hangi hesaba ilişkin? IP kaydı doğru zamanla eşleşiyor mu? Hesabı kim kullanmış? Bildirilen materyal cihazda bulundu mu? Bulunduysa rapordaki materyalle aynı mı? İçeriğin edinilme ve saklanma biçimi ne?
+Platformun hesabı kapatması, CyberTipline raporunun varlığı ve Türkiye'de soruşturma yürütülmesi birbirinden ayrı aşamalardır. Bir dosya Türk makamlarına ulaştığında ise raporun hangi hesaba ilişkin olduğu, IP kaydının doğru zamanla eşleşip eşleşmediği, hesabı kimin kullandığı, bildirilen materyalin cihazda bulunup bulunmadığı ve içerikle kişi arasında nasıl bir fiil bağlantısı kurulduğu önem kazanır.
 
-Bir NCMEC soruşturmasının asıl hukuki haritası bu sorular cevaplandığında ortaya çıkar.
-
-## Sık sorulan sorular
-
-### NCMEC bir mahkeme veya kolluk birimi midir?
-
-NCMEC mahkeme değildir. CyberTipline üzerinden aldığı bildirimleri inceleyerek uygun kolluk makamlarının kullanımına sunan ABD merkezli bir kuruluştur. Raporun Türk ceza yargılamasındaki değeri, Türk hukukunun delil kurallarına göre değerlendirilir.
-
-### NCMEC raporu gelirse mutlaka dava açılır mı?
-
-Hayır. Bir rapor soruşturma başlatabilir veya mevcut soruşturmaya veri sağlayabilir. Savcılık, toplanan delillerin durumuna göre kovuşturmaya yer olmadığına karar verebileceği gibi iddianame de düzenleyebilir.
-
-### NCMEC raporunda IP adresi varsa bu kişi tespit edilmiş sayılır mı?
-
-Tek başına değil. IP'nin hangi bağlantıya tahsis edildiği, tarih-saat verisi, CGNAT ve port kayıtları ile bağlantıyı fiilen kimin kullandığı ayrıca araştırılabilir.
-
-### NCMEC raporundaki görüntünün telefonda bulunması şart mıdır?
-
-Her dosyanın delil yapısı farklıdır. Bununla birlikte rapordaki materyal ile şüpheliye ait cihazlarda bulunan materyalin karşılaştırılması, fail ve fiil bağlantısının kurulması bakımından önemli olabilir.
+Bir NCMEC soruşturmasının asıl hukuki haritası bu bağlantılar birlikte incelendiğinde ortaya çıkar.
