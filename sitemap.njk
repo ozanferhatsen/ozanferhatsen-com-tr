@@ -11,11 +11,22 @@ eleventyExcludeFromCollections: true
   <url><loc>{{ site.url }}/gayrimenkul-hukuku/</loc></url>
   <url><loc>{{ site.url }}/kira-hukuku/</loc></url>
   <url><loc>{{ site.url }}/bilisim-hukuku/</loc></url>
-  <url><loc>{{ site.url }}/kisisel-veri-hukuku/</loc></url>
+  <url><loc>{{ site.url }}/bilisim-hukuku/ncmec-dijital-delil-sik-sorulan-sorular/</loc></url>
   <url><loc>{{ site.url }}/yabancilar-hukuku/</loc></url>
   <url><loc>{{ site.url }}/makaleler/</loc></url>
   <url><loc>{{ site.url }}/hakkimda/</loc></url>
   <url><loc>{{ site.url }}/iletisim/</loc></url>
   <url><loc>{{ site.url }}/en/</loc></url>
-  {% for article in collections.makaleler %}<url><loc>{{ site.url }}{{ article.url }}</loc>{% if article.data.updated or article.data.date %}<lastmod>{{ (article.data.updated or article.data.date) | isoDate }}</lastmod>{% endif %}</url>{% endfor %}
+  <url><loc>{{ site.url }}/en/about/</loc></url>
+  <url><loc>{{ site.url }}/en/real-estate-law-turkey/</loc></url>
+  <url><loc>{{ site.url }}/en/zoning-planning-law-turkey/</loc></url>
+  <url><loc>{{ site.url }}/en/urban-transformation-law-turkey/</loc></url>
+  <url><loc>{{ site.url }}/en/construction-law-turkey/</loc></url>
+  <url><loc>{{ site.url }}/en/buying-property-in-turkey-foreigners/</loc></url>
+  <url><loc>{{ site.url }}/en/buying-property-turkey-remotely-power-of-attorney/</loc></url>
+  <url><loc>{{ site.url }}/en/check-title-deed-turkey-before-buying/</loc></url>
+  <url><loc>{{ site.url }}/en/off-plan-property-turkey-risks/</loc></url>
+  <url><loc>{{ site.url }}/en/turkish-land-registry-appointment-foreign-buyers/</loc></url>
+  <url><loc>{{ site.url }}/en/use-foreign-documents-in-turkey-apostille-translation-notary/</loc></url>
+  {% for article in collections.makaleler %}<url><loc>{{ site.url }}{{ article.url }}</loc><lastmod>{{ (article.data.updated or article.data.date) | isoDate }}</lastmod></url>{% endfor %}
 </urlset>
