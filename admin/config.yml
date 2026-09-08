@@ -19,8 +19,8 @@ collections:
     fields:
       - { label: "Başlık", name: "title", widget: "string" }
       - { label: "URL", name: "slug", widget: "string", hint: "Küçük harf, Türkçe karakter kullanmadan: kok-parsel-nedir" }
-      - { label: "Yayın Tarihi", name: "date", widget: "datetime" }
-      - { label: "Son Güncelleme", name: "updated", widget: "datetime", required: false }
+      - { label: "Yayın Tarihi", name: "date", widget: "datetime", hint: "İlk yayın tarihidir; sonradan değiştirmeyin." }
+      - { label: "Son Güncelleme", name: "updated", widget: "datetime", required: false, hint: "İçerik esaslı olarak güncellendiğinde değiştirin. Boş veya eski kalırsa sitede Git commit tarihi esas alınır." }
       - label: "Çalışma Alanı"
         name: "category"
         widget: "select"
@@ -31,7 +31,6 @@ collections:
           - "Gayrimenkul Hukuku"
           - "Kira Hukuku"
           - "Bilişim Hukuku"
-          - "Kişisel Veri Hukuku"
           - "Yabancılar Hukuku"
       - { label: "Kısa Anahtar Kelime", name: "keyword", widget: "string", required: false }
       - { label: "Özet", name: "summary", widget: "text" }
@@ -43,6 +42,7 @@ collections:
         name: "sources"
         widget: "list"
         required: false
+        hint: "Mümkün olduğunda Resmî Gazete, mevzuat.gov.tr, Yargıtay, AYM, Danıştay ve diğer resmî kaynakları kullanın."
         fields:
           - { label: "Kaynak Adı", name: "name", widget: "string" }
           - { label: "Bağlantı", name: "url", widget: "string", required: false }
