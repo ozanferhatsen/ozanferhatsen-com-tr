@@ -30,6 +30,7 @@
     <a class="brand" href="{% if lang == 'en' %}/en/{% else %}/{% endif %}">
       <span class="brand-main">Ozan Ferhat Şen</span>
       {% if lang == 'en' %}<span class="brand-sub">Attorney at Law</span>{% endif %}
+    </a>
 
     {% if lang == 'en' %}
     <nav class="nav-links" id="menu" aria-label="Main navigation">
@@ -101,7 +102,7 @@
 {% else %}
 <footer class="footer">
   <div class="wrap footer-grid">
-    <div><div class="brand-main">Av. Ozan Ferhat Şen</div><div class="brand-sub">Hukuk Departmanı</div><p>İmar, kentsel dönüşüm, inşaat ve gayrimenkul hukukunda hukuki değerlendirme ve sözleşme incelemesi.</p></div>
+    <div><div class="brand-main">Av. Ozan Ferhat Şen</div><p>İmar, kentsel dönüşüm, inşaat ve gayrimenkul hukukunda hukuki değerlendirme ve sözleşme incelemesi.</p></div>
     <div><h4>Çalışma alanları</h4><p><a href="/imar-hukuku/">İmar Hukuku</a></p><p><a href="/kentsel-donusum-hukuku/">Kentsel Dönüşüm</a></p><p><a href="/insaat-hukuku/">İnşaat Hukuku</a></p><p><a href="/gayrimenkul-hukuku/">Gayrimenkul Hukuku</a></p><p><a href="/kira-hukuku/">Kira Hukuku</a></p><p><a href="/bilisim-hukuku/">Bilişim Hukuku</a></p><p><a href="/kisisel-veri-hukuku/">Kişisel Veri Hukuku</a></p><p><a href="/yabancilar-hukuku/">Yabancılar Hukuku</a></p></div>
     <div><h4>İletişim</h4><p><a href="tel:{{ site.phoneHref }}">{{ site.phone }}</a></p><p><a href="{{ site.whatsapp }}">WhatsApp</a></p><p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p><p>{{ site.address }}</p><p><a href="/en/">English</a></p></div>
   </div>
