@@ -69,5 +69,21 @@
         "url": "/makaleler/yurt-disi-sosyal-medya-platform-ip-hesap-bilgileri-temini/"
       }
     ]
+  },
+  "bagdat-caddesi-kentsel-donusum": {
+    "title": "Bağdat Caddesi Kentsel Dönüşüm Dosyası",
+    "url": "/kentsel-donusum-hukuku/#bagdat-caddesi-dosyasi",
+    "items": [
+      {
+        "order": 1,
+        "title": "Bağdat Caddesi Kentsel Dönüşüm Rehberi: Sözleşmeden Teslime 13 Kritik Başlık",
+        "url": "/makaleler/bagdat-caddesi-kentsel-donusum-rehberi/"
+      },
+      {
+        "order": 2,
+        "title": "Bağdat Caddesi'nde Kentsel Dönüşüm Sözleşmesi: İmzadan Önce Kontrol Edilecek 15 Madde",
+        "url": "/makaleler/bagdat-caddesi-kentsel-donusum-sozlesmesi/"
+      }
+    ]
   }
 }
