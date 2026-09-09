@@ -2,7 +2,7 @@
 title: "Bağdat Caddesi'nde Kentsel Dönüşüm Sözleşmesi: İmzadan Önce Kontrol Edilecek 15 Madde"
 slug: "bagdat-caddesi-kentsel-donusum-sozlesmesi"
 date: "2026-09-09T02:24:00+03:00"
-updated: "2026-09-09T03:36:00+03:00"
+updated: "2026-09-10T09:00:00+03:00"
 category: "Kentsel Dönüşüm"
 category_url: "/kentsel-donusum-hukuku/"
 keyword: "Kentsel Dönüşüm Sözleşmesi"
@@ -58,7 +58,7 @@ Saltık'ın da işaret ettiği gibi, uygulama projesi henüz kesinleşmemişse b
 
 Burada amaç ruhsat makamının gelecekte yapacağı teknik değerlendirmeyi sözleşmeyle bertaraf etmek değildir. Ama müteahhide “proje istediğim gibi değişebilir” sonucu doğuracak sınırsız bir alan bırakmamak gerekir.
 
-Parselin geçmişinden kaynaklanan bir imar hakkı sorunu varsa sözleşme diliyle kapatılamaz. Örneğin [kök parsel](/makaleler/kok-parsel-nedir-emsal-imar-hakki/) veya [eski yol terkleri](/makaleler/yol-terki-eski-terkler-imar-hakki-dop/) bakımından ayrı bir hukuki inceleme gerekebilir.
+Parselin geçmişinden kaynaklanan bir imar hakkı sorunu varsa sözleşme diliyle kapatılamaz. Örneğin [kök parsel](/makaleler/kok-parsel-nedir-emsal-imar-hakki/), uygulamada **“kök tapu”** diye anılan eski tapu/parsel geçmişi veya [eski yol terkleri](/makaleler/yol-terki-eski-terkler-imar-hakki-dop/) bakımından ayrı bir hukuki inceleme gerekebilir.
 
 ## 3. Hangi malike hangi bağımsız bölüm verileceği isim isim yazıyor mu?
 
