@@ -2,7 +2,7 @@
 title: "Yol Terki İmar Hakkını Nasıl Etkiler? Eski Terkler ve DOP"
 slug: "yol-terki-eski-terkler-imar-hakki-dop"
 date: "2025-02-24T09:00:00+03:00"
-updated: "2025-02-24T09:00:00+03:00"
+updated: "2026-09-10T09:00:00+03:00"
 category: "İmar Hukuku"
 keyword: "Yol Terki"
 summary: "Eski yol terki, bugünkü tapu alanınızı küçültmüş olabilir. Bu geçmiş bazen yeni DOP hesabını etkiler; fakat tek başına otomatik emsal artışı yaratmaz."
@@ -42,7 +42,7 @@ Aktarım, “eski terk edilen alanı geri vermek” değildir. Verici parselde k
 
 Taşınmazınız geçmişte 1.000 m² iken 300 m²'si yol için kamuya geçmiş ve bugün 700 m² kalmış olsun. Yıllar sonra yeni bir 18. madde uygulaması yapıldığında iki ayrı soru vardır: Birincisi, geçmişteki 300 m²'nin yeni DOP hesabında ne ölçüde dikkate alınacağıdır. İkincisi, bugünkü 700 m²'nin yapılaşma hakkının hangi emsal üzerinden belirleneceğidir.
 
-İlk soru parselasyon ve DOP hukukuna; ikinci soru imar planına aittir. Bu ikisini tek bir “kök parsel hakkı” başlığı altında toplamak çoğu yanlış hesabın başlangıcıdır.
+İlk soru parselasyon ve DOP hukukuna; ikinci soru imar planına aittir. Bu ikisini tek bir “kök parsel hakkı” başlığı altında toplamak çoğu yanlış hesabın başlangıcıdır. Uygulamada veya emlak ilanlarında **“kök tapu”** diye anılan eski tapu/parsel geçmişi de aynı nedenle otomatik bir emsal veya inşaat hakkı olarak okunmamalıdır.
 
 ## Belediyede hangi belgeleri isteyin?
 
