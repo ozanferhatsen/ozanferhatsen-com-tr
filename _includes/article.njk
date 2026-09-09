@@ -66,7 +66,7 @@ og_type: article
     {{ content | safe }}
 
     {% if sources %}
-    <section class="author-box"><h2>Kaynaklar ve hukuki dayanak</h2><ul>{% for source in sources %}<li>{% if source.url %}<a href="{{ source.url }}" rel="noopener">{{ source.name }}</a>{% else %}{{ source.name }}{% endif %}</li>{% endfor %}</ul></section>
+    <section class="author-box"><h2>Kaynaklar ve hukuki dayanak</h2><ul>{% for source in sources %}<li>{% if source.url %}<a href="{{ source.url }}" rel="noopener">{{ source.name | sourceAttribution }}</a>{% else %}{{ source.name | sourceAttribution }}{% endif %}</li>{% endfor %}</ul></section>
     {% endif %}
 
     {% if relatedArticles.length %}
