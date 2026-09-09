@@ -3,87 +3,38 @@
     "title": "NCMEC, Müstehcenlik ve Dijital Delil Dosyası",
     "url": "/bilisim-hukuku/#ncmec-dijital-delil-dosyasi",
     "items": [
-      {
-        "order": 1,
-        "title": "NCMEC Raporu Nedir? Türkiye'de NCMEC Bildirimi Sonrası Soruşturma Nasıl İlerler?",
-        "url": "/makaleler/ncmec-raporu-nedir-turkiyede-sorusturma/"
-      },
-      {
-        "order": 2,
-        "title": "NCMEC Raporu Tek Başına Mahkûmiyet İçin Yeterli midir?",
-        "url": "/makaleler/ncmec-raporu-tek-basina-mahkumiyet-yeterli-mi/"
-      },
-      {
-        "order": 3,
-        "title": "Müstehcenlik Suçu ve TCK 226: İndirme, Bulundurma, Paylaşma ve Dijital İçerikler",
-        "url": "/makaleler/mustehcenlik-sucu-tck-226-dijital-icerikler/"
-      },
-      {
-        "order": 4,
-        "title": "Telefonda veya Bilgisayarda Müstehcen Görüntü Bulunması Suç İçin Yeterli midir?",
-        "url": "/makaleler/telefonda-bilgisayarda-mustehcen-goruntu-bulunmasi-yeterli-mi/"
-      },
-      {
-        "order": 5,
-        "title": "IP Adresi Tek Başına Suçun Failini Gösterir mi?",
-        "url": "/makaleler/ip-adresi-tek-basina-sucun-failini-gosterir-mi/"
-      },
-      {
-        "order": 6,
-        "title": "CGNAT ve Kaynak Port Kaydı Nedir? Ceza Soruşturmasında Fail Tespiti",
-        "url": "/makaleler/cgnat-kaynak-port-kaydi-nedir-fail-tespiti/"
-      },
-      {
-        "order": 7,
-        "title": "CMK 134: Bilgisayar ve Telefonda Arama, Kopyalama ve El Koyma Şartları",
-        "url": "/makaleler/cmk-134-bilgisayar-telefon-arama-kopyalama-el-koyma/"
-      },
-      {
-        "order": 8,
-        "title": "Hukuka Aykırı Dijital Delil: Telefon ve Bilgisayar İncelemesi Mahkûmiyete Esas Alınabilir mi?",
-        "url": "/makaleler/hukuka-aykiri-dijital-delil-telefon-bilgisayar-incelemesi/"
-      },
-      {
-        "order": 9,
-        "title": "Adli İmaj ve Hash Değeri Nedir? Dijital Delilin Değiştirilmediği Nasıl Anlaşılır?",
-        "url": "/makaleler/adli-imaj-hash-degeri-nedir-dijital-delil-degistirildi-mi/"
-      },
-      {
-        "order": 10,
-        "title": "Bilgisayar veya Telefona Ne Zaman El Konulabilir? İmaj Alındıktan Sonra Cihaz İade Edilmeli midir?",
-        "url": "/makaleler/bilgisayar-telefon-el-koyma-imaj-sonrasi-cihaz-iadesi/"
-      },
-      {
-        "order": 11,
-        "title": "Adli Bilişim Bilirkişi Raporuna Nasıl İtiraz Edilir? Eksik İnceleme, Hash, İmaj ve Delil Bütünlüğü",
-        "url": "/makaleler/adli-bilisim-bilirkisi-raporuna-itiraz-hash-imaj-delil-butunlugu/"
-      },
-      {
-        "order": 12,
-        "title": "Silinmiş Dosya ve Mesajlar Ceza Davasında Dijital Delil Olabilir mi?",
-        "url": "/makaleler/silinmis-dosya-mesajlar-dijital-delil-ceza-davasi/"
-      },
-      {
-        "order": 13,
-        "title": "Yurt Dışındaki Sosyal Medya ve İnternet Platformlarından IP ve Hesap Bilgileri Nasıl Temin Edilir?",
-        "url": "/makaleler/yurt-disi-sosyal-medya-platform-ip-hesap-bilgileri-temini/"
-      }
+      {"order":1,"title":"NCMEC Raporu Nedir? Türkiye'de NCMEC Bildirimi Sonrası Soruşturma Nasıl İlerler?","url":"/makaleler/ncmec-raporu-nedir-turkiyede-sorusturma/"},
+      {"order":2,"title":"NCMEC Raporu Tek Başına Mahkûmiyet İçin Yeterli midir?","url":"/makaleler/ncmec-raporu-tek-basina-mahkumiyet-yeterli-mi/"},
+      {"order":3,"title":"Müstehcenlik Suçu ve TCK 226: İndirme, Bulundurma, Paylaşma ve Dijital İçerikler","url":"/makaleler/mustehcenlik-sucu-tck-226-dijital-icerikler/"},
+      {"order":4,"title":"Telefonda veya Bilgisayarda Müstehcen Görüntü Bulunması Suç İçin Yeterli midir?","url":"/makaleler/telefonda-bilgisayarda-mustehcen-goruntu-bulunmasi-yeterli-mi/"},
+      {"order":5,"title":"IP Adresi Tek Başına Suçun Failini Gösterir mi?","url":"/makaleler/ip-adresi-tek-basina-sucun-failini-gosterir-mi/"},
+      {"order":6,"title":"CGNAT ve Kaynak Port Kaydı Nedir? Ceza Soruşturmasında Fail Tespiti","url":"/makaleler/cgnat-kaynak-port-kaydi-nedir-fail-tespiti/"},
+      {"order":7,"title":"CMK 134: Bilgisayar ve Telefonda Arama, Kopyalama ve El Koyma Şartları","url":"/makaleler/cmk-134-bilgisayar-telefon-arama-kopyalama-el-koyma/"},
+      {"order":8,"title":"Hukuka Aykırı Dijital Delil: Telefon ve Bilgisayar İncelemesi Mahkûmiyete Esas Alınabilir mi?","url":"/makaleler/hukuka-aykiri-dijital-delil-telefon-bilgisayar-incelemesi/"},
+      {"order":9,"title":"Adli İmaj ve Hash Değeri Nedir? Dijital Delilin Değiştirilmediği Nasıl Anlaşılır?","url":"/makaleler/adli-imaj-hash-degeri-nedir-dijital-delil-degistirildi-mi/"},
+      {"order":10,"title":"Bilgisayar veya Telefona Ne Zaman El Konulabilir? İmaj Alındıktan Sonra Cihaz İade Edilmeli midir?","url":"/makaleler/bilgisayar-telefon-el-koyma-imaj-sonrasi-cihaz-iadesi/"},
+      {"order":11,"title":"Adli Bilişim Bilirkişi Raporuna Nasıl İtiraz Edilir? Eksik İnceleme, Hash, İmaj ve Delil Bütünlüğü","url":"/makaleler/adli-bilisim-bilirkisi-raporuna-itiraz-hash-imaj-delil-butunlugu/"},
+      {"order":12,"title":"Silinmiş Dosya ve Mesajlar Ceza Davasında Dijital Delil Olabilir mi?","url":"/makaleler/silinmis-dosya-mesajlar-dijital-delil-ceza-davasi/"},
+      {"order":13,"title":"Yurt Dışındaki Sosyal Medya ve İnternet Platformlarından IP ve Hesap Bilgileri Nasıl Temin Edilir?","url":"/makaleler/yurt-disi-sosyal-medya-platform-ip-hesap-bilgileri-temini/"}
     ]
   },
   "bagdat-caddesi-kentsel-donusum": {
     "title": "Bağdat Caddesi Kentsel Dönüşüm Dosyası",
     "url": "/kentsel-donusum-hukuku/#bagdat-caddesi-dosyasi",
     "items": [
-      {
-        "order": 1,
-        "title": "Bağdat Caddesi Kentsel Dönüşüm Rehberi: Sözleşmeden Teslime 13 Kritik Başlık",
-        "url": "/makaleler/bagdat-caddesi-kentsel-donusum-rehberi/"
-      },
-      {
-        "order": 2,
-        "title": "Bağdat Caddesi'nde Kentsel Dönüşüm Sözleşmesi: İmzadan Önce Kontrol Edilecek 15 Madde",
-        "url": "/makaleler/bagdat-caddesi-kentsel-donusum-sozlesmesi/"
-      }
+      {"order":1,"title":"Bağdat Caddesi Kentsel Dönüşüm Rehberi: Sözleşmeden Teslime 13 Kritik Başlık","url":"/makaleler/bagdat-caddesi-kentsel-donusum-rehberi/"},
+      {"order":2,"title":"Bağdat Caddesi'nde Kentsel Dönüşüm Sözleşmesi: İmzadan Önce Kontrol Edilecek 15 Madde","url":"/makaleler/bagdat-caddesi-kentsel-donusum-sozlesmesi/"},
+      {"order":3,"title":"Kentsel Dönüşümde Şerefiye: Kat, Cephe ve Deniz Manzarası Nasıl Korunur?","status":"planned"},
+      {"order":4,"title":"Eski Dairem 160 m²: Kentsel Dönüşümde Daire Küçülebilir mi?","url":"/makaleler/kentsel-donusumda-daire-kuculur-mu-metrekare/"},
+      {"order":5,"title":"Kentsel Dönüşümden Önce Arsa Payı Kontrolü ve Arsa Payı Düzeltme Davası","url":"/makaleler/kentsel-donusum-arsa-payi-duzeltme-davasi/"},
+      {"order":6,"title":"Kentsel Dönüşümde Müteahhide Tapu Ne Zaman Devredilmeli?","status":"planned"},
+      {"order":7,"title":"Kentsel Dönüşümde Banka Teminat Mektubu Nasıl Olmalı?","status":"planned"},
+      {"order":8,"title":"Kentsel Dönüşüm Teknik Şartnamesi: ‘1. Sınıf Malzeme’ Neden Yetmez?","url":"/makaleler/kentsel-donusum-teknik-sartname-birinci-sinif-malzeme/"},
+      {"order":9,"title":"Kentsel Dönüşümde Müteahhit Teklifleri Nasıl Karşılaştırılır?","url":"/makaleler/kentsel-donusum-muteahhit-teklifleri-karsilastirma/"},
+      {"order":10,"title":"Kentsel Dönüşümde Müteahhidin Finansal Gücü Nasıl Araştırılır?","url":"/makaleler/kentsel-donusum-muteahhit-finansal-gucu/"},
+      {"order":11,"title":"Kentsel Dönüşümde Otopark, Depo, Balkon ve Teras Hakkı Nasıl Korunur?","status":"planned"},
+      {"order":12,"title":"Kentsel Dönüşümde Teslim Gecikirse: Kira, Gecikme Tazminatı ve Cezai Şart","url":"/makaleler/kentsel-donusum-teslim-gecikmesi-kira-cezai-sart/"},
+      {"order":13,"title":"Kentsel Dönüşümde Bir Malik İmzalamazsa Ne Olur? Salt Çoğunluk ve Pay Satışı","url":"/makaleler/kentsel-donusum-bir-malik-imzalamazsa-pay-satisi/"}
     ]
   }
 }
