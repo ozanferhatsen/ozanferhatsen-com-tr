@@ -2,7 +2,7 @@
 title: İmar Hakkı Aktarımı (Transferi) Nedir? Nasıl Uygulanır?
 slug: imar-hakki-aktarimi-transferi-nedir
 date: 2025-03-10T09:00:00+03:00
-updated: 2025-12-13T09:00:00+03:00
+updated: 2026-09-10T09:00:00+03:00
 category: İmar Hukuku
 keyword: İmar Hakkı
 summary: Bir parselde kullanılamayan yapılaşma hakkı, belirli şartlarla başka
@@ -57,9 +57,9 @@ Aktarım sonucunda verici parseldeki mülkiyet ve üzerindeki muhdesatın ilgili
 
 ## Kök parsel ve eski terklerle ilişkisi nedir?
 
-[**Kök parsel**](/makaleler/kok-parsel-nedir-emsal-imar-hakki/) kavramı ile imar hakkı transferi aynı şey değildir. [Eski parsel geçmişi ve kamuya bırakılan alanlar](/makaleler/yol-terki-eski-terkler-imar-hakki-dop/) verici parselin hukuki durumunu açıklamada önemli olabilir; fakat aktarım hakkı doğrudan “kök parsel bulunduğu” için doğmaz.
+[**Kök parsel**](/makaleler/kok-parsel-nedir-emsal-imar-hakki/) kavramı ile imar hakkı transferi aynı şey değildir. Uygulamada ve bazı emlak ilanlarında **“kök tapu”** diye anılan eski tapu/parsel geçmişi de tek başına imar hakkı aktarımı doğurmaz. [Eski parsel geçmişi ve kamuya bırakılan alanlar](/makaleler/yol-terki-eski-terkler-imar-hakki-dop/) verici parselin hukuki durumunu açıklamada önemli olabilir; fakat aktarım hakkı doğrudan “kök parsel bulunduğu” için doğmaz.
 
-Aktarımın dayanağı güncel plan kararı ve mevzuattaki şartlardır. Bu ayrım, eski terk veya kök parsel üzerinden “otomatik bonus emsal” beklentisinin önüne geçer.
+Aktarımın dayanağı güncel plan kararı ve mevzuattaki şartlardır. Bu ayrım, eski terk, kök tapu veya kök parsel üzerinden “otomatik bonus emsal” beklentisinin önüne geçer.
 
 ## Sonuç
 
