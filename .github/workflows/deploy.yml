@@ -32,12 +32,10 @@ jobs:
         run: npm install
       - name: Dependency security audit
         run: npm audit --audit-level=high
-      - name: Verify homepage hero images
+      - name: Verify homepage hero source
         run: |
           test -s assets/hero-office-family.png
           file assets/hero-office-family.png
-          test -s assets/hero-office-desktop.webp
-          file assets/hero-office-desktop.webp
       - name: Build site and run SEO audit
         run: npm run build
       - name: Configure Pages
