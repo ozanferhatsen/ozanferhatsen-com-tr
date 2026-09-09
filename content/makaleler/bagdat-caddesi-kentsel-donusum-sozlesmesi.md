@@ -2,7 +2,7 @@
 title: "Bağdat Caddesi'nde Kentsel Dönüşüm Sözleşmesi: İmzadan Önce Kontrol Edilecek 15 Madde"
 slug: "bagdat-caddesi-kentsel-donusum-sozlesmesi"
 date: "2026-09-09T02:24:00+03:00"
-updated: "2026-09-09T02:24:00+03:00"
+updated: "2026-09-09T03:36:00+03:00"
 category: "Kentsel Dönüşüm"
 category_url: "/kentsel-donusum-hukuku/"
 keyword: "Kentsel Dönüşüm Sözleşmesi"
@@ -18,8 +18,8 @@ sources:
     url: "https://www.resmigazete.gov.tr/eskiler/2026/02/20260204-5.htm"
   - name: "Kentsel Dönüşüm Başkanlığı, 6306 sayılı Kanun uygulama süreçleri."
     url: "https://www.kdb.gov.tr/Mevzuat?uniq=c6db6650-9348-42dd-bffe-6ab4977787cf"
-  - name: "Şenol Saltık, Tüm Yönleriyle Kentsel Dönüşüm."
-  - name: "Filiz Berberoğlu, Kat Karşılığı İnşaat Sözleşmeleri."
+  - name: "Av. Şenol Saltık, Tüm Yönleriyle Kentsel Dönüşüm."
+  - name: "Hâkim Filiz Berberoğlu Yenipınar, Kat Karşılığı İnşaat Sözleşmeleri."
 ---
 
 [Bağdat Caddesi kentsel dönüşüm rehberinin ilk bölümünde](/makaleler/bagdat-caddesi-kentsel-donusum-rehberi/) dosyayı imar, sözleşme, değer ve malik kararları olmak üzere dört katmana ayırdık. İkinci bölümde artık sözleşmenin içine giriyoruz.
@@ -32,7 +32,7 @@ Tek bir “en önemli madde” yoktur. Kentsel dönüşüm sözleşmesi, birbiri
 
 Bu nedenle sözleşme imzalanmadan önce en az **15 başlık birbirini doğrulayacak şekilde** kontrol edilmelidir.
 
-Saltık'ın kentsel dönüşüm sözleşmelerine ilişkin bölümünde; sözleşmenin hukuki niteliği, imar ve avan proje, inşaat ruhsatı ve süresi, mücbir sebep, bağımsız bölüm listesi, teminat ve cezai şart gibi konular ayrı ayrı ele alınmaktadır. Berberoğlu'nun kat karşılığı inşaat sözleşmelerine ilişkin çalışması da geçerli şekilden teslim ve feshe kadar aynı sözleşme zincirinin ne kadar çok aşamadan oluştuğunu gösterir.
+Av. Şenol Saltık'ın kentsel dönüşüm sözleşmelerine ilişkin bölümünde; sözleşmenin hukuki niteliği, imar ve avan proje, inşaat ruhsatı ve süresi, mücbir sebep, bağımsız bölüm listesi, teminat ve cezai şart gibi konular ayrı ayrı ele alınmaktadır. Hâkim Filiz Berberoğlu Yenipınar'ın kat karşılığı inşaat sözleşmelerine ilişkin çalışması da geçerli şekilden teslim ve feshe kadar aynı sözleşme zincirinin ne kadar çok aşamadan oluştuğunu gösterir.
 
 Aşağıdaki kontrol listesi bu iki akademik/pratik omurgayı, güncel 6306 uygulamasıyla birlikte malik açısından okunabilir bir sözleşme denetimine dönüştürür.
 
@@ -101,7 +101,7 @@ Bu nedenle sözleşmede “eşdeğer bağımsız bölüm” gibi genel ifadeler 
 
 Bağdat Caddesi dosyasında bu konu özellikle önemlidir çünkü kat, cephe, görüş açıklığı, otopark ve teras gibi unsurlar m² hesabının dışında ciddi değer farkı yaratabilir.
 
-Şerefiye, kat, cephe ve manzara konusunu serinin bir sonraki bağımsız incelemesinde ayrıntılı olarak ele alacağız.
+Bu değer katmanını [**şerefiye, kat, cephe ve deniz manzarası** incelemesinde](/makaleler/kentsel-donusum-serefiye-kat-cephe-deniz-manzarasi/) ayrı bir bölüm olarak derinleştiriyoruz.
 
 ## 6. Ruhsat, işe başlama ve teslim için ayrı tarihler var mı?
 
@@ -127,7 +127,7 @@ Teknik şartname, sözleşmenin dekor eki değildir. Yüklenicinin nasıl bir ya
 
 Aynı şekilde ortak alanlar, otopark, asansör, cephe sistemi, ısı ve su yalıtımı, mekanik/elektrik altyapısı, doğrama, zemin ve ıslak hacim standartları gibi kalemler yalnız daire içi malzemeler kadar önemlidir.
 
-Teknik şartname ileride ayrı bir makalenin konusu olacak; çünkü “birinci sınıf malzeme” ifadesinin neden hukuki güvence olmadığı tek başına geniş bir meseledir.
+Bu başlığın uygulama ayrıntıları için [**Kentsel Dönüşüm Teknik Şartnamesi: “1. Sınıf Malzeme” Neden Yetmez?**](/makaleler/kentsel-donusum-teknik-sartname-birinci-sinif-malzeme/) bölümüne geçilebilir.
 
 ## 8. Tapu devri hangi inşaat seviyelerine bağlı?
 
@@ -143,7 +143,7 @@ Sözleşme şu üç soruya açık cevap vermelidir:
 
 Ayrıca müteahhidin kendisine bırakılan bağımsız bölümleri üçüncü kişilere satma veya bunlar üzerinde sınırlı ayni hak kurma yetkisi de maliklerin güvenliğiyle birlikte düşünülmelidir.
 
-**Tapu devri takvimi, finansman modeliyle birlikte okunmalıdır.** Müteahhidin projeyi tamamlamak için erken satışa ihtiyaç duyması ekonomik bir gerçek olabilir; fakat bu ihtiyaç bütün finansman riskinin maliklere aktarılmasını zorunlu kılmaz.
+**Tapu devri takvimi, finansman modeliyle birlikte okunmalıdır.** Müteahhidin projeyi tamamlamak için erken satışa ihtiyaç duyması ekonomik bir gerçek olabilir; fakat bu ihtiyaç bütün finansman riskinin maliklere aktarılmasını zorunlu kılmaz. Ayrıntılı model için [**müteahhide tapunun ne zaman devredilmesi gerektiğine**](/makaleler/kentsel-donusum-muteahhide-tapu-ne-zaman-devredilmeli/) ilişkin bölüme bakılabilir.
 
 ## 9. Vekaletname sözleşmenin gerektirdiğinden daha geniş mi?
 
@@ -176,7 +176,7 @@ Malik lehine banka teminatı isteniyorsa şu unsurlar ayrıca değerlendirilmeli
 - ilk talepte ödeme veya başka bir koşul var mı,
 - kısmi paraya çevirme mümkün mü.
 
-“Teminat mektubu verilecektir” cümlesi, teminat mektubunun kendisini görmeden yeterli güvence değildir.
+“Teminat mektubu verilecektir” cümlesi, teminat mektubunun kendisini görmeden yeterli güvence değildir. Teminat ilişkisinin yapısını ve mektup metnini [**banka teminat mektubu bölümünde**](/makaleler/kentsel-donusum-banka-teminat-mektubu/) ayrıca inceliyoruz.
 
 ## 11. Kira, gecikme tazminatı ve cezai şart nasıl çalışıyor?
 
@@ -191,7 +191,7 @@ Sözleşmede en azından şu noktalar açık olmalıdır:
 - cezai şart günlük/aylık mı yoksa maktu mu,
 - iskan gecikmesi ile fiili teslim gecikmesi aynı mı değerlendirilir.
 
-Berberoğlu'nun aktardığı yargı uygulaması da teslim ve gecikme ihtilaflarında sözleşmedeki tarih, ek süre ve kira/ceza hükümlerinin belirleyici olduğunu gösterir.
+Berberoğlu'nun aktardığı yargı uygulaması da teslim ve gecikme ihtilaflarında sözleşmedeki tarih, ek süre ve kira/ceza hükümlerinin belirleyici olduğunu gösterir. Bu konunun tamamı [**teslim gecikmesi, kira ve cezai şart**](/makaleler/kentsel-donusum-teslim-gecikmesi-kira-cezai-sart/) bölümünde ayrı bir risk başlığı olarak ele alınmıştır.
 
 ## 12. Ek para talebinin sınırları yazılı mı?
 
@@ -288,9 +288,9 @@ Bir sözleşmenin ana metni iyi, ekleri zayıfsa dosya yine zayıftır. Çünkü
 1. [**Bağdat Caddesi Kentsel Dönüşüm Rehberi: Sözleşmeden Teslime 13 Kritik Başlık**](/makaleler/bagdat-caddesi-kentsel-donusum-rehberi/) dosyanın tamamının risk haritasını çıkarır.
 2. **Bu yazı** o haritayı sözleşmenin 15 kontrol noktasına çevirir.
 
-Bundan sonraki incelemeler tek tek en pahalı başlıklara inecek: şerefiye ve manzara, metrekare, arsa payı, tapu devri, banka teminatı, teknik şartname, müteahhit teklifleri ve finansal güç, otopark/depo/balkon, teslim gecikmesi ve malik kararları.
+Bundan sonraki 11 bölüm bu sözleşmedeki ana riskleri tek tek büyütür: [şerefiye ve manzara](/makaleler/kentsel-donusum-serefiye-kat-cephe-deniz-manzarasi/), [metrekare](/makaleler/kentsel-donusumda-daire-kuculur-mu-metrekare/), [arsa payı](/makaleler/kentsel-donusum-arsa-payi-duzeltme-davasi/), [tapu devri](/makaleler/kentsel-donusum-muteahhide-tapu-ne-zaman-devredilmeli/), [banka teminatı](/makaleler/kentsel-donusum-banka-teminat-mektubu/), [teknik şartname](/makaleler/kentsel-donusum-teknik-sartname-birinci-sinif-malzeme/), [müteahhit teklifleri](/makaleler/kentsel-donusum-muteahhit-teklifleri-karsilastirma/), [finansal güç](/makaleler/kentsel-donusum-muteahhit-finansal-gucu/), [otopark-depo-balkon-teras](/makaleler/kentsel-donusum-otopark-depo-balkon-teras-hakki/), [teslim gecikmesi](/makaleler/kentsel-donusum-teslim-gecikmesi-kira-cezai-sart/) ve [malik kararları/pay satışı](/makaleler/kentsel-donusum-bir-malik-imzalamazsa-pay-satisi/).
 
-Bu yapı bilinçli: Her yazı kendi arama niyetine cevap verirken, birlikte okunduğunda tek bir kentsel dönüşüm sözleşme dosyası oluşturacak.
+Bu yapı bilinçli: Her yazı kendi arama niyetine cevap verirken, birlikte okunduğunda tek bir kentsel dönüşüm sözleşme dosyası oluşturur.
 
 ## Sık sorulan sorular
 

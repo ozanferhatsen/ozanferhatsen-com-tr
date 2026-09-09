@@ -11,6 +11,18 @@ const categoryUrls = {
   "Yabancılar Hukuku": "/yabancilar-hukuku/"
 };
 
+const sourceAttributions = [
+  [/^Şenol Saltık,/, "Av. Şenol Saltık,"],
+  [/^Filiz Berberoğlu,/, "Hâkim Filiz Berberoğlu Yenipınar,"],
+  [/^Filiz Berberoğlu Yenipınar,/, "Hâkim Filiz Berberoğlu Yenipınar,"],
+  [/^Nergis Durmazgezer,/, "Av. Nergiz Durmazgezer,"],
+  [/^Nergiz Durmazgezer,/, "Av. Nergiz Durmazgezer,"],
+  [/^Erol Köktürk,/, "Prof. Dr. Erol Köktürk,"],
+  [/^Ahmet Büyükduman,/, "Dr. Ahmet Büyükduman,"],
+  [/^Oğuz Sancakdar,/, "Prof. Dr. Oğuz Sancakdar,"],
+  [/^Ali Rıza İlgezdi,/, "Av. Ali Rıza İlgezdi,"]
+];
+
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("assets");
@@ -42,6 +54,14 @@ export default function (eleventyConfig) {
       .replace(/>/g, "\\u003e")
       .replace(/&/g, "\\u0026");
     return nunjucks.runtime.markSafe(serialized);
+  });
+
+  eleventyConfig.addFilter("sourceAttribution", (value) => {
+    if (!value) return "";
+    for (const [pattern, replacement] of sourceAttributions) {
+      if (pattern.test(value)) return value.replace(pattern, replacement);
+    }
+    return value;
   });
 
   eleventyConfig.addFilter("byCategory", (items = [], category) =>
