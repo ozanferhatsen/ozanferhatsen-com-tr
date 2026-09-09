@@ -2,12 +2,12 @@
 title: "Parselasyon Planı İptal Edilirse Tapular Ne Olur?"
 slug: "parselasyon-plani-iptal-edilirse-tapular-ne-olur"
 date: "2025-03-03T09:00:00+03:00"
-updated: "2025-03-03T09:00:00+03:00"
+updated: "2026-09-10T09:00:00+03:00"
 category: "İmar Hukuku"
 keyword: "Parselasyon"
 summary: "Mahkeme parselasyonu iptal ettiğinde tapu sicili bir düğmeye basılmış gibi geri sarmaz. İdarenin yargı kararını uygulayan geri dönüş işlemlerini yapması gerekir."
 seo_title: "Parselasyon Planı İptal Edilirse Tapular Ne Olur?"
-description: "Mahkeme parselasyon planını iptal ederse tapular otomatik eski hale döner mi? Kök parsel, düzenleme öncesi durum ve yeni parselasyon süreci."
+description: "Mahkeme parselasyon planını iptal ederse tapular otomatik eski hale döner mi? Kök parsel, kök tapu, düzenleme öncesi durum ve yeni parselasyon süreci."
 ---
 
 ## Kısa cevap
@@ -21,6 +21,8 @@ description: "Mahkeme parselasyon planını iptal ederse tapular otomatik eski h
 Ancak idari yargıdaki iptal kararı ile tapu sicilindeki teknik düzeltme aynı işlem değildir. Yargı kararının idare tarafından uygulanması, yeni tescil belgelerinin hazırlanması ve tapu müdürlüğüne gönderilmesi gerekir.
 
 ## Kök parsele mi dönülür, düzenleme öncesine mi?
+
+Günlük dilde ve emlak piyasasında bu mesele bazen **“kök tapuya dönüş”** şeklinde de ifade edilir. Ancak imar hukuku bakımından “kök tapu” denilen eski kayıt ile hukuken dönülmesi gereken durum her zaman aynı şey değildir; hangi parselasyon işleminin iptal edildiği ve ondan önceki geçerli durum ayrıca belirlenir.
 
 Köktürklerin bu konuda yaptığı ayrım özellikle önemlidir. Yazarlara göre mevzuatta kullanılan “kök parsele dönüş” ifadesi her durumda isabetli değildir; doğru kavram **“düzenleme öncesi duruma dönüş”** olmalıdır.
 
