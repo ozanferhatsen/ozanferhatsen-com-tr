@@ -2,7 +2,7 @@
 title: "Kentsel Dönüşümden Önce Arsa Payı Kontrolü ve Arsa Payı Düzeltme Davası"
 slug: "kentsel-donusum-arsa-payi-duzeltme-davasi"
 date: "2026-09-09T03:10:00+03:00"
-updated: "2026-09-09T03:10:00+03:00"
+updated: "2026-09-09T03:34:00+03:00"
 category: "Kentsel Dönüşüm"
 category_url: "/kentsel-donusum-hukuku/"
 keyword: "Arsa Payı Düzeltme Davası"
@@ -18,7 +18,7 @@ sources:
     url: "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.6306.pdf"
   - name: "Kentsel Dönüşüm Başkanlığı, salt çoğunluk ve satış uygulama bilgileri."
     url: "https://www.kdb.gov.tr/Mevzuat?uniq=c6db6650-9348-42dd-bffe-6ab4977787cf"
-  - name: "Nergis Durmazgezer, Kat Mülkiyeti Kanunu Kapsamında Arsa Payı ve Kentsel Dönüşüm Sürecine Yansımaları."
+  - name: "Av. Nergiz Durmazgezer, Kat Mülkiyeti Kanunu Kapsamında Arsa Payı ve Kentsel Dönüşüm Sürecine Yansımaları."
 ---
 
 [Bir önceki bölümde](/makaleler/kentsel-donusumda-daire-kuculur-mu-metrekare/) yeni dairenin metrekaresinin neden tek başına yeterli bir hak tarifi olmadığını gördük. Şimdi aynı bağımsız bölümün tapudaki başka bir bileşenine geçiyoruz: **arsa payı**.
@@ -29,7 +29,7 @@ Bağdat Caddesi gibi aynı binada kat, cephe, manzara ve kullanım niteliği ned
 
 Çünkü Kat Mülkiyeti Kanunu sisteminde arsa payı, bağımsız bölümün yalnız metrekaresine göre değil, **kat mülkiyetinin kurulduğu tarihteki değeriyle oranlı** biçimde belirlenmesi gereken bir paydır.
 
-Nergis Durmazgezer'in arsa payı ve kentsel dönüşüm üzerine çalışması bu noktayı özellikle sistematik hale getirir: arsa payının bağımsız bölüm değerinden kopması, yalnız tapudaki teknik bir oran problemi değildir; yönetim, ortak haklar ve özellikle dönüşüm aşamasındaki paylaşım ve karar süreçlerinde sonuç doğurabilir.
+Av. Nergiz Durmazgezer'in arsa payı ve kentsel dönüşüm üzerine çalışması bu noktayı özellikle sistematik hale getirir: arsa payının bağımsız bölüm değerinden kopması, yalnız tapudaki teknik bir oran problemi değildir; yönetim, ortak haklar ve özellikle dönüşüm aşamasındaki paylaşım ve karar süreçlerinde sonuç doğurabilir.
 
 Bu nedenle dönüşüm dosyasında “tapu böyle, artık yapacak bir şey yok” yaklaşımıyla ilerlemek doğru değildir.
 
@@ -48,7 +48,7 @@ aynı ekonomik değeri taşımayabilir.
 
 Arsa payı belirlenirken temel ölçüt bağımsız bölümün değeri olduğundan, yalnız m² üzerinden mekanik bir dağılım yapılmış olması baştan sorun yaratabilir.
 
-Bu, serinin üçüncü bölümünde ayrıca ele alacağımız şerefiye meselesiyle de kesişir. Fakat iki kavram aynı değildir: şerefiye bir değer farkını anlatırken, **arsa payı tapuda kayıtlı ayni hak oranıdır.**
+Bu, [serinin üçüncü bölümündeki şerefiye incelemesiyle](/makaleler/kentsel-donusum-serefiye-kat-cephe-deniz-manzarasi/) de kesişir. Fakat iki kavram aynı değildir: şerefiye bir değer farkını anlatırken, **arsa payı tapuda kayıtlı ayni hak oranıdır.**
 
 ## 2. Eski tapudaki arsa payı neden yanlış olabilir?
 
@@ -145,7 +145,7 @@ Arsa payı şüphesi varsa dosya şu sırayla ilerlemelidir:
 
 Metrekare ve arsa payı bize **malikin yeni projede ne alacağını** anlatır. Fakat bir sonraki soru, malikin mevcut taşınmaz hakkını müteahhide **ne zaman ve hangi güvence karşılığında devredeceğidir.**
 
-Serinin altıncı bölümü bu nedenle kademeli tapu devrine ayrılmıştır. O bölüm yayımlandığında arsa payı tablosundan tapu devri takvimine doğrudan geçeceğiz.
+Bu nedenle dosyanın altıncı bölümü [**kademeli tapu devrine**](/makaleler/kentsel-donusum-muteahhide-tapu-ne-zaman-devredilmeli/) ayrılmıştır. Arsa payının ne olduğunu belirledikten sonra artık bu hakkın hangi aşamada yükleniciye bırakılacağını incelemek gerekir.
 
 ## Sık sorulan sorular
 
