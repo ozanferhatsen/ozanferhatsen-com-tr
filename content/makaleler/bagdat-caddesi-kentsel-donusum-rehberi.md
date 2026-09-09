@@ -2,7 +2,7 @@
 title: "Bağdat Caddesi Kentsel Dönüşüm Rehberi: Sözleşmeden Teslime 13 Kritik Başlık"
 slug: "bagdat-caddesi-kentsel-donusum-rehberi"
 date: "2026-09-09T02:18:00+03:00"
-updated: "2026-09-09T02:18:00+03:00"
+updated: "2026-09-10T09:00:00+03:00"
 category: "Kentsel Dönüşüm"
 category_url: "/kentsel-donusum-hukuku/"
 keyword: "Bağdat Caddesi Kentsel Dönüşüm"
@@ -45,7 +45,7 @@ Eski binadaki dairenin büyüklüğü, yeni binada aynı büyüklüğün otomati
 
 Bu nedenle ilk dosyada en azından tapu kayıtları, mevcut onaylı proje, güncel imar durumu ve müteahhidin önerdiği avan proje birlikte görülmelidir.
 
-Özellikle parsel geçmişinde eski terkler, kök parsel veya yapılaşma hakkını etkileyebilecek başka bir işlem varsa, sözleşmeye geçmeden önce bunların ayrı incelenmesi gerekir. Bu konular için [kök parsel ve emsal ilişkisine ilişkin incelemeye](/makaleler/kok-parsel-nedir-emsal-imar-hakki/) ve [eski yol terklerinin imar hakkına etkisine](/makaleler/yol-terki-eski-terkler-imar-hakki-dop/) ayrıca bakılabilir.
+Özellikle parsel geçmişinde eski terkler, **kök parsel veya uygulamada “kök tapu” diye anılan eski tapu/parsel geçmişi** ya da yapılaşma hakkını etkileyebilecek başka bir işlem varsa, sözleşmeye geçmeden önce bunların ayrı incelenmesi gerekir. Bu konular için [kök parsel ve emsal ilişkisine ilişkin incelemeye](/makaleler/kok-parsel-nedir-emsal-imar-hakki/) ve [eski yol terklerinin imar hakkına etkisine](/makaleler/yol-terki-eski-terkler-imar-hakki-dop/) ayrıca bakılabilir.
 
 ## 2. 6306 kapsamındaki malik kararı ile yüklenici sözleşmesini birbirine karıştırmayın
 
