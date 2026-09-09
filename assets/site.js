@@ -15,27 +15,18 @@ document.addEventListener('DOMContentLoaded',()=>{
     });
   }
 
-  const updates=[...document.querySelectorAll('[data-legal-updates] .legal-update-card')];
-  const dots=[...document.querySelectorAll('.legal-updates-dots span')];
+  const updates=document.querySelectorAll('[data-legal-update]');
   if(updates.length>1){
     let current=0;
-    const show=index=>{
-      updates.forEach((item,i)=>item.classList.toggle('is-active',i===index));
-      dots.forEach((dot,i)=>dot.classList.toggle('is-active',i===index));
-    };
-    const mq=window.matchMedia('(max-width:760px)');
-    let timer=null;
-    const start=()=>{
-      if(timer) clearInterval(timer);
-      if(mq.matches){
-        timer=setInterval(()=>{
-          current=(current+1)%updates.length;
-          show(current);
-        },6500);
+    const rotate=()=>{
+      if(window.matchMedia('(max-width:760px)').matches){
+        updates.forEach((item,index)=>item.classList.toggle('is-active',index===current));
+        current=(current+1)%updates.length;
+      }else{
+        updates.forEach(item=>item.classList.add('is-active'));
       }
     };
-    show(0);
-    start();
-    mq.addEventListener?.('change',start);
+    rotate();
+    setInterval(rotate,6500);
   }
 });
