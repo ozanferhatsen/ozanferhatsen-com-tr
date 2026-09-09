@@ -7,13 +7,13 @@ alternate_en: "https://ozanferhatsen.com.tr/en/about/"
 ---
 <style>
 .about-profile-grid{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:56px;align-items:start}
-.about-profile-photo{width:100%;max-width:240px;justify-self:end;margin:4px 0 0}
+.about-photo-stack{display:grid;gap:24px;justify-items:end}
+.about-profile-photo,.about-math-photo{width:100%;max-width:240px;margin:0}
 .about-profile-photo img,.about-math-photo img{display:block;width:100%;height:auto;border:1px solid var(--line)}
-.about-math-grid{display:grid;grid-template-columns:minmax(0,1fr) 430px;gap:52px;align-items:start;margin-top:34px;padding-top:38px;border-top:1px solid var(--line)}
-.about-math-photo{width:100%;max-width:420px;justify-self:end;margin:0}
 .about-photo-caption{margin-top:8px;font-size:11px;line-height:1.45;color:var(--muted)}
 .about-links-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:46px}
-@media(max-width:760px){.about-profile-grid,.about-math-grid{grid-template-columns:1fr;gap:28px}.about-profile-photo{max-width:210px;justify-self:start}.about-math-photo{max-width:420px;justify-self:start}.about-math-grid{margin-top:30px;padding-top:30px}.about-links-grid{grid-template-columns:1fr}}
+@media(max-width:760px){.about-profile-grid{grid-template-columns:1fr;gap:28px}.about-photo-stack{justify-items:start;grid-template-columns:repeat(2,minmax(0,210px));gap:18px}.about-profile-photo,.about-math-photo{max-width:210px}.about-links-grid{grid-template-columns:1fr}}
+@media(max-width:480px){.about-photo-stack{grid-template-columns:1fr}}
 </style>
 <section class="page-hero"><div class="wrap"><div class="breadcrumbs"><a href="/">Ana Sayfa</a> / Hakkımda</div><div class="eyebrow">Hakkımda</div><h1>Ozan Ferhat Şen</h1><p class="page-lead">Gayrimenkul, inşaat ve imar hukuku odağında mesleki çalışma ve akademik derinleşme</p></div></section>
 <section class="section">
@@ -24,21 +24,18 @@ alternate_en: "https://ozanferhatsen.com.tr/en/about/"
         <p>2010 yılında Dicle Üniversitesi Hukuk Fakültesi’nde hukuk eğitimine başlayan Ozan Ferhat Şen, mesleki yaşamında inşaat ve gayrimenkul hukukuna ilişkin dosyaların giderek ağırlık kazanması üzerine, bu alandaki bilgi ve deneyimini akademik olarak derinleştirmek amacıyla İstanbul Üniversitesi Sosyal Bilimler Enstitüsü bünyesindeki Gayrimenkul ve İnşaat Hukuku Yüksek Lisans Programına devam etmiştir.</p>
         <p>Mesleki çalışmalarında özellikle gayrimenkul, inşaat, imar ve bunlarla bağlantılı hukuki uyuşmazlıklar üzerine yoğunlaşan Şen’in hukuk dışındaki başlıca çalışma alanı matematik öğretimidir.</p>
         <p>Matematiğe olan ilgisini yalnızca kişisel bir uğraş olarak sürdürmeyen Şen, bu alanda eğitim ve içerik üretimi çalışmalarına da devam etmektedir. Nesin Matematik Köyü’nde misafir eğitmen olarak ders vermiş; matematik eğitimi alanındaki çalışmalarını Matematik Departmanı çatısı altında sürdürmektedir.</p>
-      </article>
-      <figure class="about-profile-photo">
-        <img src="/assets/ozan-ferhat-sen-portre.webp" alt="Avukat portre fotoğrafı" width="360" height="480" loading="eager" decoding="async">
-      </figure>
-    </div>
-
-    <div class="about-math-grid">
-      <article class="prose">
         <p>Matematiksel çalışma pratiğiyle gelişen analitik yaklaşım, karmaşık hukuki meseleleri parçalara ayırarak değerlendirme biçiminin de önemli bir parçasını oluşturmaktadır.</p>
         <p>Ozan Ferhat Şen evli ve bir kız babasıdır.</p>
       </article>
-      <figure class="about-math-photo">
-        <img src="/assets/ozan-ferhat-sen-matematik-koyu.webp" alt="Matematik tahtası yanında eğitmen" width="520" height="387" loading="lazy" decoding="async">
-        <figcaption class="about-photo-caption">Nesin Matematik Köyü</figcaption>
-      </figure>
+      <div class="about-photo-stack" aria-label="Ozan Ferhat Şen fotoğrafları">
+        <figure class="about-profile-photo">
+          <img src="/assets/ozan-ferhat-sen-portre.webp" alt="Avukat portre fotoğrafı" width="360" height="480" loading="eager" decoding="async">
+        </figure>
+        <figure class="about-math-photo">
+          <img src="/assets/ozan-ferhat-sen-matematik-koyu.webp" alt="Matematik tahtası yanında eğitmen" width="520" height="387" loading="eager" decoding="async">
+          <figcaption class="about-photo-caption">Nesin Matematik Köyü</figcaption>
+        </figure>
+      </div>
     </div>
 
     <div class="about-links-grid">
