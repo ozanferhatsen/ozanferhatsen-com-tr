@@ -24,15 +24,15 @@
     "items": [
       {"order":1,"title":"Bağdat Caddesi Kentsel Dönüşüm Rehberi: Sözleşmeden Teslime 13 Kritik Başlık","url":"/makaleler/bagdat-caddesi-kentsel-donusum-rehberi/"},
       {"order":2,"title":"Bağdat Caddesi'nde Kentsel Dönüşüm Sözleşmesi: İmzadan Önce Kontrol Edilecek 15 Madde","url":"/makaleler/bagdat-caddesi-kentsel-donusum-sozlesmesi/"},
-      {"order":3,"title":"Kentsel Dönüşümde Şerefiye: Kat, Cephe ve Deniz Manzarası Nasıl Korunur?","status":"planned"},
+      {"order":3,"title":"Kentsel Dönüşümde Şerefiye: Kat, Cephe ve Deniz Manzarası Nasıl Korunur?","url":"/makaleler/kentsel-donusum-serefiye-kat-cephe-deniz-manzarasi/"},
       {"order":4,"title":"Eski Dairem 160 m²: Kentsel Dönüşümde Daire Küçülebilir mi?","url":"/makaleler/kentsel-donusumda-daire-kuculur-mu-metrekare/"},
       {"order":5,"title":"Kentsel Dönüşümden Önce Arsa Payı Kontrolü ve Arsa Payı Düzeltme Davası","url":"/makaleler/kentsel-donusum-arsa-payi-duzeltme-davasi/"},
-      {"order":6,"title":"Kentsel Dönüşümde Müteahhide Tapu Ne Zaman Devredilmeli?","status":"planned"},
-      {"order":7,"title":"Kentsel Dönüşümde Banka Teminat Mektubu Nasıl Olmalı?","status":"planned"},
+      {"order":6,"title":"Kentsel Dönüşümde Müteahhide Tapu Ne Zaman Devredilmeli?","url":"/makaleler/kentsel-donusum-muteahhide-tapu-ne-zaman-devredilmeli/"},
+      {"order":7,"title":"Kentsel Dönüşümde Banka Teminat Mektubu Nasıl Olmalı?","url":"/makaleler/kentsel-donusum-banka-teminat-mektubu/"},
       {"order":8,"title":"Kentsel Dönüşüm Teknik Şartnamesi: ‘1. Sınıf Malzeme’ Neden Yetmez?","url":"/makaleler/kentsel-donusum-teknik-sartname-birinci-sinif-malzeme/"},
       {"order":9,"title":"Kentsel Dönüşümde Müteahhit Teklifleri Nasıl Karşılaştırılır?","url":"/makaleler/kentsel-donusum-muteahhit-teklifleri-karsilastirma/"},
       {"order":10,"title":"Kentsel Dönüşümde Müteahhidin Finansal Gücü Nasıl Araştırılır?","url":"/makaleler/kentsel-donusum-muteahhit-finansal-gucu/"},
-      {"order":11,"title":"Kentsel Dönüşümde Otopark, Depo, Balkon ve Teras Hakkı Nasıl Korunur?","status":"planned"},
+      {"order":11,"title":"Kentsel Dönüşümde Otopark, Depo, Balkon ve Teras Hakkı Nasıl Korunur?","url":"/makaleler/kentsel-donusum-otopark-depo-balkon-teras-hakki/"},
       {"order":12,"title":"Kentsel Dönüşümde Teslim Gecikirse: Kira, Gecikme Tazminatı ve Cezai Şart","url":"/makaleler/kentsel-donusum-teslim-gecikmesi-kira-cezai-sart/"},
       {"order":13,"title":"Kentsel Dönüşümde Bir Malik İmzalamazsa Ne Olur? Salt Çoğunluk ve Pay Satışı","url":"/makaleler/kentsel-donusum-bir-malik-imzalamazsa-pay-satisi/"}
     ]
