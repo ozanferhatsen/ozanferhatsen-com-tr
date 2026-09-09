@@ -2,17 +2,19 @@
 title: "Kök Parsel Nedir? Emsal ve İmar Hakkını Nasıl Etkiler?"
 slug: "kok-parsel-nedir-emsal-imar-hakki"
 date: "2025-02-03T09:00:00+03:00"
-updated: "2025-02-03T09:00:00+03:00"
+updated: "2026-09-10T09:00:00+03:00"
 category: "İmar Hukuku"
 keyword: "Kök Parsel"
 summary: "Kök parsel, tek başına “fazladan emsal” değildir. Önce hangi eski parselden geldiğinizi, sonra hangi imar işleminin bugünkü hakkınızı etkilediğini bulmak gerekir."
-seo_title: "Kök Parsel Nedir? Emsal ve İmar Hakkını Nasıl Etkiler?"
-description: "Kök parsel nedir? Kök parsele dönüş, eski terkler, DOP ve emsal hesabı bugünkü imar hakkını nasıl etkiler? Hangi belgeler kontrol edilmelidir?"
+seo_title: "Kök Parsel (Kök Tapu) Nedir? Emsal ve İmar Hakkı"
+description: "Kök parsel nedir? Uygulamada kök tapu denilen eski parsel geçmişi, kök parsele dönüş, eski terkler, DOP ve emsal hesabını nasıl etkiler?"
 ---
 
 ## Kısa cevap: Kök parsel nedir?
 
 **Kısa cevap:** Kök parsel, bugünkü imar parselinin gerisindeki eski mülkiyet geometrisini anlatmak için kullanılan bir kavramdır. Fakat bu kavramın hukuki sonucu her dosyada aynı değildir. Kimi dosyada iptal edilen bir parselasyonun geri alınması, kimi dosyada geçmiş yol ve park terklerinin hesabı, kimi dosyada ise özel bir plan hükmü bakımından önem kazanır.
+
+Uygulamada ve özellikle emlak ilanlarında aynı geçmişi anlatmak için **“kök tapu”** ifadesiyle de karşılaşılabilir. Ancak “kök tapu” ile “kök parsel” teknik olarak her durumda aynı kavram değildir. İmar uygulaması, parselasyon ve düzenleme geçmişi bakımından hukuken hangi eski parselin esas alınacağı ayrıca belirlenmelidir.
 
 Bugün tapuda 500 m² görünen bir parsel, geçmişte 900 m²'lik bir kadastral parselin yol terki, ifraz, tevhit veya 18. madde uygulaması sonrasında kalan kısmı olabilir. Bu durumda “eski parsel neydi?” sorusu yalnız tarih merakı değildir. Önceki kesintilerin yeni bir DOP hesabında dikkate alınıp alınmayacağı, iptal edilen bir parselasyonun nasıl geri alınacağı veya yerel planın geçmiş alanı hesaba katıp katmadığı bu geçmişe bağlı olabilir.
 
@@ -23,6 +25,14 @@ Yanlış olan, buradan otomatik bir sonuç çıkarmaktır: **“Kök parsel bulu
 Taşınmazın bugünkü tapu alanı ile geçmişteki alanı arasındaki farkın birçok sebebi olabilir. Yol veya park için terk yapılmış olabilir; birden fazla parsel birleştirilmiş, tek parsel bölünmüş veya 3194 sayılı İmar Kanunu'nun 18. maddesine göre arazi ve arsa düzenlemesi yapılmış olabilir.
 
 Bu nedenle yalnız güncel tapu kaydına bakmak çoğu zaman eksik bir fotoğraftır. İmar hukukunda doğru okuma için kadastro geçmişi, eski ve yeni ada-parsel numaraları, parselasyon planları, dağıtım cetvelleri ve belediye encümen kararları birlikte incelenmelidir.
+
+## “Kök tapu” ile kök parsel aynı şey midir?
+
+Günlük kullanımda ve bazı emlak ilanlarında **“kök tapu”**, taşınmazın bugünkü tapusundan önceki eski tapu veya parsel geçmişini anlatmak için kullanılabilir. Bu kullanım, özellikle kentsel dönüşümde “eski büyük parselden gelen bir hak var mı?” sorusuyla birlikte karşımıza çıkar.
+
+Fakat imar hukukunda belirleyici olan etiket değil, işlem zinciridir. Eski tapu kaydının bulunması veya bir taşınmazın halk arasında “kök tapulu” diye anılması tek başına ek emsal, ilave inşaat alanı veya imar hakkı doğurmaz. Eski parselin hangi işlemle küçüldüğü, terk veya DOP bulunup bulunmadığı ve yürürlükteki planın bu geçmişe hangi sonucu bağladığı incelenmelidir.
+
+Bu nedenle “kök tapu avantajı” şeklindeki bir ifade duyulduğunda, hukuki olarak **hangi kök parselin, hangi plan hükmü veya imar uygulaması nedeniyle avantaj sağladığı** sorulmalıdır.
 
 ## “Kök parsele dönüş” ile “düzenleme öncesine dönüş” aynı şey mi?
 
@@ -70,6 +80,10 @@ Bu nedenle kök parsel dosyalarında üç ayrı soruyu birbirinden ayırmak gere
 Kök parsel ile kadastral parsel aynı şey midir?
 
 Her dosyada aynı anlamda kullanılmaz. Kök parsel, bugünkü imar parselinin gerisindeki eski mülkiyet geometrisini anlatan pratik bir kavramdır; hangi tarihli parselin hukuken esas alınacağı işlem geçmişine göre belirlenir.
+
+Kök tapu nedir, kök tapulu ev ne demektir?
+
+“Kök tapu” günlük kullanımda çoğu zaman taşınmazın eski tapu veya parsel geçmişini anlatmak için kullanılan bir ifadedir. Ancak kök tapu denilmesi tek başına ek emsal veya imar hakkı bulunduğunu göstermez; hukuki sonuç parselasyon, terk, DOP ve yürürlükteki plan hükümlerine göre belirlenir.
 
 Kök parsel bulunması emsali otomatik artırır mı?
 
