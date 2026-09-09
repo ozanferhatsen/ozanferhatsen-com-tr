@@ -13,7 +13,7 @@
 .hero-motto-block{margin-top:24px;padding-top:16px;border-top:1px solid rgba(25,23,20,.26);width:min(390px,100%)}
 .hero-motto-latin{font:600 11px/1.35 Arial,sans-serif;letter-spacing:.16em;color:#2b2723}
 .hero-motto-tr{margin-top:5px;font:14px/1.45 Georgia,"Times New Roman",serif;color:#625b55}
-.legal-updates{position:absolute;z-index:3;right:clamp(28px,3.8vw,70px);top:50%;transform:translateY(-50%);width:min(450px,31vw);padding:24px 26px 20px;background:rgba(19,20,20,.58);border:1px solid rgba(255,255,255,.16);box-shadow:0 22px 70px rgba(0,0,0,.14);backdrop-filter:blur(5px);color:#f3eee8}
+.legal-updates{position:absolute;z-index:3;right:clamp(28px,3.8vw,70px);top:50%;transform:translateY(-50%);width:min(450px,31vw);padding:24px 26px 20px;background:rgba(19,20,20,.38);border:1px solid rgba(255,255,255,.18);box-shadow:0 18px 58px rgba(0,0,0,.10);backdrop-filter:blur(2px);color:#f3eee8}
 .legal-updates-head{display:flex;gap:18px;align-items:flex-start;justify-content:space-between;padding-bottom:14px;border-bottom:1px solid rgba(255,255,255,.14)}
 .legal-updates-head .eyebrow{margin-bottom:8px;color:#c8a87b}
 .legal-updates-head h2{margin:0;max-width:300px;font:400 clamp(18px,1.45vw,24px)/1.2 Georgia,"Times New Roman",serif}
