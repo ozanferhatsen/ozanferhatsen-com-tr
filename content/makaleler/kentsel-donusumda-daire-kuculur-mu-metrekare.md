@@ -2,7 +2,7 @@
 title: "Eski Dairem 160 m²: Kentsel Dönüşümde Daire Küçülebilir mi?"
 slug: "kentsel-donusumda-daire-kuculur-mu-metrekare"
 date: "2026-09-09T03:05:00+03:00"
-updated: "2026-09-09T03:05:00+03:00"
+updated: "2026-09-09T03:35:00+03:00"
 category: "Kentsel Dönüşüm"
 category_url: "/kentsel-donusum-hukuku/"
 keyword: "Kentsel Dönüşümde Metrekare"
@@ -18,7 +18,7 @@ sources:
   - name: "Filiz Berberoğlu, Kat Karşılığı İnşaat Sözleşmeleri."
 ---
 
-[Bağdat Caddesi kentsel dönüşüm dosyasının ana rehberinde](/makaleler/bagdat-caddesi-kentsel-donusum-rehberi/) yeni bağımsız bölümün yalnız yüzölçümünden ibaret olmadığını söyledik. Serinin üçüncü bölümünde kat, cephe ve manzara gibi değer unsurları ayrıca ele alınacak. Bu bölümde ise daha çıplak ve ölçülebilir bir soruya geçiyoruz: **Eski daire 160 m² ise yeni daire de 160 m² olmak zorunda mıdır?**
+[Bağdat Caddesi kentsel dönüşüm dosyasının ana rehberinde](/makaleler/bagdat-caddesi-kentsel-donusum-rehberi/) yeni bağımsız bölümün yalnız yüzölçümünden ibaret olmadığını söyledik. [Bir önceki bölümde](/makaleler/kentsel-donusum-serefiye-kat-cephe-deniz-manzarasi/) kat, cephe ve manzara gibi değer unsurlarını ayırdık. Bu bölümde ise daha çıplak ve ölçülebilir bir soruya geçiyoruz: **Eski daire 160 m² ise yeni daire de 160 m² olmak zorunda mıdır?**
 
 ## Kısa cevap: Eski dairenin metrekaresi otomatik olarak korunur mu?
 
