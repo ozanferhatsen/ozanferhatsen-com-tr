@@ -4,7 +4,7 @@
 .precedent-library-head h1{font-size:clamp(42px,4.4vw,58px)}
 .precedent-library-head p{max-width:620px;font-size:14px;line-height:1.6}
 
-.precedent-filterbar{position:sticky;top:76px;z-index:40;display:flex;gap:8px;overflow-x:auto;padding:12px 0;margin:0 0 28px;background:rgba(251,250,248,.96);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid rgba(24,23,21,.08);box-shadow:0 8px 18px rgba(24,23,21,.025);scrollbar-width:thin;-webkit-overflow-scrolling:touch}
+.precedent-filterbar{position:sticky;top:76px;z-index:40;display:flex;gap:8px;overflow-x:auto;padding:12px 0;margin:0 0 28px;background:#e9e2db;border-bottom:1px solid rgba(24,23,21,.08);box-shadow:0 8px 18px rgba(24,23,21,.025);scrollbar-width:thin;-webkit-overflow-scrolling:touch}
 .precedent-filter{display:inline-flex;align-items:center;min-height:34px;padding:7px 14px;border:1px solid #e1ddd7;border-radius:8px;background:#f2f1ef;font-size:12px;font-weight:500;line-height:1.2;color:#595650;white-space:nowrap;transition:background .16s ease,border-color .16s ease,color .16s ease}
 .precedent-filter:hover,.precedent-filter:focus-visible{background:#ebe8e4;border-color:#d3cec7;color:var(--ink)}
 .precedent-filter.is-active{background:#e7e3de;border-color:#cec8c1;color:var(--ink);font-weight:600}
