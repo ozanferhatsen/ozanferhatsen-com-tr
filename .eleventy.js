@@ -7,8 +7,7 @@ const categoryUrls = {
   "İnşaat Hukuku": "/insaat-hukuku/",
   "Gayrimenkul Hukuku": "/gayrimenkul-hukuku/",
   "Kira Hukuku": "/kira-hukuku/",
-  "Bilişim Hukuku": "/bilisim-hukuku/",
-  "Yabancılar Hukuku": "/yabancilar-hukuku/"
+  "Bilişim Hukuku": "/bilisim-hukuku/"
 };
 
 const sourceAttributions = [
