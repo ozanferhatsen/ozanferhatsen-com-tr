@@ -78,6 +78,10 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addFilter("limit", (items = [], count = 6) => items.slice(0, count));
 
+  eleventyConfig.addFilter("sortByDate", (items = []) =>
+    [...items].sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0))
+  );
+
   eleventyConfig.addCollection("makaleler", (collectionApi) =>
     collectionApi
       .getFilteredByGlob("./content/makaleler/*.md")
