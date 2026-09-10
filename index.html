@@ -94,16 +94,15 @@ image: "/assets/hero-office-family.webp"
       <a class="area-card" href="/insaat-hukuku/"><div class="tag">03</div><h3>İnşaat Hukuku</h3><p>Kat karşılığı inşaat, yüklenici borçları, teslim, eksik ve ayıplı iş</p><span class="arrow">İnşaat dosyasına gir →</span></a>
       <a class="area-card" href="/gayrimenkul-hukuku/"><div class="tag">04</div><h3>Gayrimenkul Hukuku</h3><p>Tapu, taşınmaz sözleşmeleri, satış vaadi ve mülkiyet riskleri</p><span class="arrow">Gayrimenkul dosyasına gir →</span></a>
       <a class="area-card" href="/kira-hukuku/"><div class="tag">05</div><h3>Kira Hukuku</h3><p>Temerrüt, tahliye, iki haklı ihtar ve kira ilişkisinin sona ermesi</p><span class="arrow">Kira dosyasına gir →</span></a>
-      <a class="area-card" href="/bilisim-hukuku/"><div class="tag">06</div><h3>Bilişim Hukuku</h3><p>Dijital delil, internet kaynaklı uyuşmazlıklar ve seçilmiş bilişim meseleleri</p><span class="arrow">Bilişim dosyasına gir →</span></a>
-      <a class="area-card" href="/yabancilar-hukuku/"><div class="tag">07</div><h3>Yabancılar Hukuku</h3><p>Taşınmaz ve şirket bağlantılı seçilmiş yabancılar hukuku meseleleri</p><span class="arrow">Seçili içerikler →</span></a>
+      <a class="area-card" href="/yabancilar-hukuku/"><div class="tag">06</div><h3>Yabancılar Hukuku</h3><p>Taşınmaz ve şirket bağlantılı seçilmiş yabancılar hukuku meseleleri</p><span class="arrow">Seçili içerikler →</span></a>
     </div>
   </div>
 </section>
 <section class="section soft" id="makaleler">
   <div class="wrap">
     <div class="section-head"><div><div class="eyebrow">Hukuki rehberler</div><h2>Bir soruyu sadece cevaplamak değil, risk haritasını çıkarmak</h2></div><p>Makaleler mevzuat, içtihat ve uygulama riskini aynı sayfada buluşturacak biçimde konu kümelerine bağlanır.</p></div>
-    {% if collections.makaleler.length %}
-    <div class="article-grid">{% for article in collections.makaleler | limit(6) %}<a class="article-card" href="{{ article.url }}"><div class="tag">{{ article.data.category }}{% if article.data.keyword %} · {{ article.data.keyword }}{% endif %}</div><div class="card-date">{{ article.data.date | dateTR }}</div><h3>{{ article.data.title }}</h3><p>{{ article.data.summary }}</p><span class="arrow">Makaleyi oku →</span></a>{% endfor %}</div>
+    {% if collections.vitrinMakaleler.length %}
+    <div class="article-grid">{% for article in collections.vitrinMakaleler | limit(6) %}<a class="article-card" href="{{ article.url }}"><div class="tag">{{ article.data.category }}{% if article.data.keyword %} · {{ article.data.keyword }}{% endif %}</div><div class="card-date">{{ article.data.date | dateTR }}</div><h3>{{ article.data.title }}</h3><p>{{ article.data.summary }}</p><span class="arrow">Makaleyi oku →</span></a>{% endfor %}</div>
     {% else %}<p>Makale arşivi hazırlanıyor.</p>{% endif %}
   </div>
 </section>
