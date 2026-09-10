@@ -32,7 +32,6 @@ collections:
           - "Kira Hukuku"
           - "Bilişim Hukuku"
           - "Kişisel Veri Hukuku"
-          - "Yabancılar Hukuku"
       - { label: "Kısa Anahtar Kelime", name: "keyword", widget: "string", required: false }
       - { label: "Özet", name: "summary", widget: "text" }
       - { label: "Kapak Görseli", name: "image", widget: "image", required: false }
