@@ -143,7 +143,7 @@ Müteahhit sözleşmesinde en azından şu başlıkların açık biçimde kurulm
 
 Özellikle sözleşmenin “Yarısı Bizden kapsamında devlet desteği alınacaktır” şeklinde tek cümlelik bir hüküm içermesi yeterli değildir. Hibe ve kredi ödemelerinin hakediş sistemiyle ilişkisi sözleşmede çalışır hale getirilmelidir.
 
-Bu konuda [kentsel dönüşümde müteahhit seçimi](/makaleler/kentsel-donusum-muteahhit-secerken-nelere-dikkat-edilmeli/) ve [kentsel dönüşüm sözleşmesindeki kritik hükümler](/makaleler/kentsel-donusum-sozlesmesinde-dikkat-edilmesi-gerekenler/) ayrıca önem taşır.
+Bu konuda [kentsel dönüşümde müteahhit seçimi](/makaleler/kentsel-donusum-muteahhit-secerken-nelere-dikkat-edilmeli/) ve [kentsel dönüşüm sözleşmesindeki kritik hükümler](/kentsel-donusum-hukuku/) ayrıca önem taşır.
 
 ## 10. Yarısı Bizden desteği müteahhit teminatının yerine geçer mi?
 
