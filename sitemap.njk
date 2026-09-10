@@ -15,20 +15,9 @@ excludeFromSitemap: true
   <url><loc>{{ site.url }}/yabancilar-hukuku/</loc></url>
   <url><loc>{{ site.url }}/makaleler/</loc></url>
   <url><loc>{{ site.url }}/ictihat/</loc></url>
-  <url><loc>{{ site.url }}/ictihat/yargitay-ibbgk-2024-1-2025-2-arsa-payi-ucuncu-kisi-iyiniyet/</loc></url>
-  <url><loc>{{ site.url }}/ictihat/yargitay-6-hukuk-dairesi-2025-2041-2026-1191-ucuncu-kisi-tapu/</loc></url>
-  <url><loc>{{ site.url }}/ictihat/yargitay-3-hukuk-dairesi-2026-3039-fazla-odenen-kira-bedeli/</loc></url>
-  <url><loc>{{ site.url }}/ictihat/yargitay-hukuk-genel-kurulu-2019-13-470-2022-66-konut-acik-ayip-ihbari/</loc></url>
-  <url><loc>{{ site.url }}/ictihat/yargitay-hukuk-genel-kurulu-2019-13-825-2022-135-sosyal-donati-eksik-ifa/</loc></url>
-  <url><loc>{{ site.url }}/ictihat/yargitay-hukuk-genel-kurulu-2021-14-7-729-2022-165-harici-tasinmaz-satisi-tescil/</loc></url>
-  <url><loc>{{ site.url }}/ictihat/yargitay-hukuk-genel-kurulu-2018-402-2022-391-ucuncu-kisi-iyiniyet-tapu-iptali/</loc></url>
-  <url><loc>{{ site.url }}/ictihat/yargitay-hukuk-genel-kurulu-2019-3-751-2022-590-gec-teslim-cezai-sart/</loc></url>
-  <url><loc>{{ site.url }}/ictihat/yargitay-hukuk-genel-kurulu-2019-1-830-2022-653-vekil-hilesi-tapu-iptali/</loc></url>
-  <url><loc>{{ site.url }}/ictihat/yargitay-hukuk-genel-kurulu-2022-468-2022-700-yargi-yeri-belirlenmesi-direnme/</loc></url>
-  <url><loc>{{ site.url }}/ictihat/aym-2020-38004-kamulastirmasiz-el-atma-imar-plani/</loc></url>
-  <url><loc>{{ site.url }}/ictihat/aym-2021-16186-imar-plani-kullanim-degisikligi/</loc></url>
-  <url><loc>{{ site.url }}/ictihat/aym-2020-19019-kamulastirmasiz-el-atma/</loc></url>
-  <url><loc>{{ site.url }}/ictihat/aym-2020-22992-tazminat-deger-kaybi/</loc></url>
+  {% for category in ictihatlar.categories %}
+    {% for karar in category.items %}<url><loc>{{ site.url }}{{ karar.url }}</loc></url>{% endfor %}
+  {% endfor %}
   <url><loc>{{ site.url }}/hukuki-gelismeler/</loc></url>
   <url><loc>{{ site.url }}/hakkimda/</loc></url>
   <url><loc>{{ site.url }}/iletisim/</loc></url>
