@@ -17,7 +17,7 @@ page_css: "/assets/ictihat.css"
     </div>
 
     <nav class="precedent-filterbar" aria-label="İçtihat konu başlıkları">
-      <a class="precedent-filter is-active" href="#ictihat-katalogu">Tümü</a>
+      <a class="precedent-filter is-active" href="#ictihat-katalogu" aria-current="location">Tümü</a>
       {% for category in ictihatlar.categories %}
         <a class="precedent-filter" href="#{{ category.id }}">{{ category.label }}</a>
       {% endfor %}
@@ -68,3 +68,68 @@ page_css: "/assets/ictihat.css"
     </div>
   </div>
 </section>
+
+<script>
+(function () {
+  const nav = document.querySelector('.precedent-filterbar');
+  if (!nav) return;
+
+  const links = Array.from(nav.querySelectorAll('.precedent-filter'));
+  const sections = Array.from(document.querySelectorAll('.precedent-category'));
+  let activeId = '';
+  let ticking = false;
+
+  function stickyOffset() {
+    return window.matchMedia('(max-width: 760px)').matches ? 122 : 146;
+  }
+
+  function activate(id) {
+    if (id === activeId) return;
+    activeId = id;
+
+    links.forEach(function (link) {
+      const isActive = link.getAttribute('href') === '#' + id;
+      link.classList.toggle('is-active', isActive);
+      if (isActive) {
+        link.setAttribute('aria-current', 'location');
+        if (nav.scrollWidth > nav.clientWidth) {
+          nav.scrollTo({ left: Math.max(0, link.offsetLeft - 14), behavior: 'smooth' });
+        }
+      } else {
+        link.removeAttribute('aria-current');
+      }
+    });
+  }
+
+  function updateActiveSection() {
+    const trigger = stickyOffset() + 8;
+    let current = 'ictihat-katalogu';
+
+    sections.forEach(function (section) {
+      if (section.getBoundingClientRect().top <= trigger) current = section.id;
+    });
+
+    activate(current);
+  }
+
+  function requestUpdate() {
+    if (ticking) return;
+    ticking = true;
+    window.requestAnimationFrame(function () {
+      updateActiveSection();
+      ticking = false;
+    });
+  }
+
+  links.forEach(function (link) {
+    link.addEventListener('click', function () {
+      const target = link.getAttribute('href');
+      if (target && target.charAt(0) === '#') activate(target.slice(1));
+    });
+  });
+
+  window.addEventListener('scroll', requestUpdate, { passive: true });
+  window.addEventListener('resize', requestUpdate);
+  updateActiveSection();
+})();
+</script>
