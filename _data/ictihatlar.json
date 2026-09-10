@@ -1,0 +1,140 @@
+{
+  "categories": [
+    {
+      "id": "insaat-hukuku",
+      "label": "İnşaat Hukuku",
+      "items": [
+        {
+          "court": "Yargıtay İçtihatları Birleştirme Büyük Genel Kurulu",
+          "meta": "Yargıtay İBBGK · E. 2024/1 · K. 2025/2 · 16.05.2025",
+          "title": "Arsa payı karşılığı inşaatta üçüncü kişinin iyiniyeti",
+          "summary": "Sözleşmenin geçersizliği veya geriye etkili feshi, yükleniciden iyiniyetle ayni hak edinen üçüncü kişinin hakkını kendiliğinden ortadan kaldırmaz.",
+          "tags": ["Arsa payı", "İyiniyet", "Fesih"],
+          "url": "/ictihat/yargitay-ibbgk-2024-1-2025-2-arsa-payi-ucuncu-kisi-iyiniyet/"
+        },
+        {
+          "court": "Yargıtay 6. Hukuk Dairesi",
+          "meta": "Yargıtay 6. Hukuk Dairesi · E. 2025/2041 · K. 2026/1191 · 01.04.2026",
+          "title": "İBK sonrası müteahhitten taşınmaz alan üçüncü kişinin tapusu",
+          "summary": "İyiniyet savunması incelenmeden eski ‘avans tapu’ yaklaşımıyla verilen tapu iptal kararı bozuldu.",
+          "tags": ["Müteahhit", "Üçüncü kişi", "Tapu iptali"],
+          "url": "/ictihat/yargitay-6-hukuk-dairesi-2025-2041-2026-1191-ucuncu-kisi-tapu/"
+        },
+        {
+          "court": "Yargıtay Hukuk Genel Kurulu",
+          "meta": "Yargıtay Hukuk Genel Kurulu · E. 2019/13-470 · K. 2022/66 · 27.01.2022",
+          "title": "Konut satışında açık ayıp ihbarının somutlaştırılması",
+          "summary": "Teslim tutanağındaki genel ihtirazî kayıt yeterli görülmedi; alıcının tespit ettiği açık ayıpları tek tek açıklaması gerektiği kabul edildi.",
+          "tags": ["Açık ayıp", "Ayıp ihbarı", "Konut satışı"],
+          "url": "/ictihat/yargitay-hukuk-genel-kurulu-2019-13-470-2022-66-konut-acik-ayip-ihbari/"
+        },
+        {
+          "court": "Yargıtay Hukuk Genel Kurulu",
+          "meta": "Yargıtay Hukuk Genel Kurulu · E. 2019/(13)3-825 · K. 2022/135 · 15.02.2022",
+          "title": "Sosyal donatı eksikliklerinde eksik ifa ve on yıllık zamanaşımı",
+          "summary": "Taahhüt edilen sosyal donatıların eksik bırakılması eksik ifa sayıldı; talebin ayıp ihbarına bağlı olmaksızın on yıllık genel zamanaşımına tabi olduğu kabul edildi.",
+          "tags": ["Eksik ifa", "Sosyal donatı", "Zamanaşımı"],
+          "url": "/ictihat/yargitay-hukuk-genel-kurulu-2019-13-825-2022-135-sosyal-donati-eksik-ifa/"
+        },
+        {
+          "court": "Yargıtay Hukuk Genel Kurulu",
+          "meta": "Yargıtay Hukuk Genel Kurulu · E. 2019/3-751 · K. 2022/590 · 21.04.2022",
+          "title": "Geç teslimde cezai şart ve ihtirazî kayıt",
+          "summary": "Tapu devrinin boş teslim için kararlaştırılan tarihten önce yapılması nedeniyle devir sırasında ihtirazî kayıt aranmadı; teslimin süresinde yapıldığını ispat yükünün davalılarda olduğu kabul edildi.",
+          "tags": ["Geç teslim", "Cezai şart", "İhtirazî kayıt"],
+          "url": "/ictihat/yargitay-hukuk-genel-kurulu-2019-3-751-2022-590-gec-teslim-cezai-sart/"
+        }
+      ]
+    },
+    {
+      "id": "gayrimenkul-tasinmaz-hukuku",
+      "label": "Gayrimenkul & Taşınmaz Hukuku",
+      "items": [
+        {
+          "court": "Yargıtay Hukuk Genel Kurulu",
+          "meta": "Yargıtay Hukuk Genel Kurulu · E. 2021/(14)7-729 · K. 2022/165 · 22.02.2022",
+          "title": "Belediye ihalesi sonrası harici satışta tescil hakkı",
+          "summary": "İhale bedeli ödenip bağımsız bölüm alıcıya teslim edilmişse, alıcı ihale alıcısının belediyeye karşı şahsi haklarının halefi olarak tescil talep edebilir.",
+          "tags": ["Harici satış", "Tescil", "Belediye ihalesi"],
+          "url": "/ictihat/yargitay-hukuk-genel-kurulu-2021-14-7-729-2022-165-harici-tasinmaz-satisi-tescil/"
+        },
+        {
+          "court": "Yargıtay Hukuk Genel Kurulu",
+          "meta": "Yargıtay Hukuk Genel Kurulu · E. 2018/402 · K. 2022/391 · 29.03.2022",
+          "title": "Harici satışta üçüncü kişinin iyiniyeti ve tapu iptali",
+          "summary": "Taşınmazı hiç görmeden satın aldığını belirten kayıt malikinin somut olayda iyiniyetli üçüncü kişi sayılamayacağı kabul edildi.",
+          "tags": ["Harici satış", "İyiniyet", "Tapu iptali"],
+          "url": "/ictihat/yargitay-hukuk-genel-kurulu-2018-402-2022-391-ucuncu-kisi-iyiniyet-tapu-iptali/"
+        },
+        {
+          "court": "Yargıtay Hukuk Genel Kurulu",
+          "meta": "Yargıtay Hukuk Genel Kurulu · E. 2019/1-830 · K. 2022/653 · 17.05.2022",
+          "title": "Vekilin hilesiyle taşınmaz devri ve tapu iptali",
+          "summary": "Alıcı şirket vekilinin hilesi karşı tarafın hilesi sayıldı; aldatma kanıtlandığından direnme kararı değişik gerekçeyle onandı.",
+          "tags": ["Hile", "Vekâlet", "Tapu iptali"],
+          "url": "/ictihat/yargitay-hukuk-genel-kurulu-2019-1-830-2022-653-vekil-hilesi-tapu-iptali/"
+        },
+        {
+          "court": "Yargıtay Hukuk Genel Kurulu",
+          "meta": "Yargıtay Hukuk Genel Kurulu · E. 2022/468 · K. 2022/700 · 18.05.2022",
+          "title": "Yargı yeri belirleme kararına direnilemez",
+          "summary": "Yargıtayca verilen yargı yeri belirleme kararı bağlayıcıdır; yargı yeri olarak belirlenen mahkemenin bu karara direnmesi usul ve yasaya aykırıdır.",
+          "tags": ["Devre mülk", "Yargı yeri", "Usul"],
+          "url": "/ictihat/yargitay-hukuk-genel-kurulu-2022-468-2022-700-yargi-yeri-belirlenmesi-direnme/"
+        }
+      ]
+    },
+    {
+      "id": "imar-mulkiyet-hukuku",
+      "label": "İmar & Mülkiyet Hukuku",
+      "items": [
+        {
+          "court": "Anayasa Mahkemesi",
+          "meta": "Anayasa Mahkemesi · B. No: 2020/38004 · 03.09.2026",
+          "title": "Kamulaştırmasız el atma sonrası imar planı değişikliği",
+          "summary": "Kamulaştırmasız el atılan taşınmazın kullanım amacının sonradan imar planıyla değiştirilmesi ve iade isteminin reddedilmesi mülkiyet hakkını ihlal etti.",
+          "tags": ["Kamulaştırmasız el atma", "İmar planı", "Mülkiyet hakkı"],
+          "url": "/ictihat/aym-2020-38004-kamulastirmasiz-el-atma-imar-plani/"
+        },
+        {
+          "court": "Anayasa Mahkemesi",
+          "meta": "Anayasa Mahkemesi · B. No: 2021/16186 · 24.07.2026",
+          "title": "İmar planında kullanım değişikliği",
+          "summary": "Taşınmazın imar planında kullanım amacının değiştirilmesine ilişkin yargı süreci özel hayata saygı hakkı yönünden incelendi ve ihlal kararı verildi.",
+          "tags": ["İmar planı", "Kullanım değişikliği", "Özel hayat"],
+          "url": "/ictihat/aym-2021-16186-imar-plani-kullanim-degisikligi/"
+        },
+        {
+          "court": "Anayasa Mahkemesi",
+          "meta": "Anayasa Mahkemesi · B. No: 2020/19019 · 04.03.2026",
+          "title": "Kamulaştırmasız el atmaya dayalı tazminat davası",
+          "summary": "Önceki maliklerin ferağ verdiği sonucunun somut belge ve gerekçeyle açıklanmaması mülkiyet hakkının usule ilişkin güvencelerini ihlal etti.",
+          "tags": ["Kamulaştırmasız el atma", "Tazminat", "Mülkiyet hakkı"],
+          "url": "/ictihat/aym-2020-19019-kamulastirmasiz-el-atma/"
+        },
+        {
+          "court": "Anayasa Mahkemesi",
+          "meta": "Anayasa Mahkemesi · B. No: 2020/22992 · 03.12.2025",
+          "title": "Tazminatın enflasyon karşısında değer kaybı",
+          "summary": "Kamulaştırmasız el atma karşılığında hükmedilen tazminatın enflasyon karşısında önemli ölçüde değer kaybetmesi mülkiyet hakkını ihlal etti.",
+          "tags": ["Tazminat", "Değer kaybı", "Mülkiyet hakkı"],
+          "url": "/ictihat/aym-2020-22992-tazminat-deger-kaybi/"
+        }
+      ]
+    },
+    {
+      "id": "kira-hukuku",
+      "label": "Kira Hukuku",
+      "items": [
+        {
+          "court": "Yargıtay 3. Hukuk Dairesi",
+          "meta": "Yargıtay 3. Hukuk Dairesi · E. 2026/3039 · K. 2026/2767 · 05.05.2026",
+          "title": "Fazla ödenen kira bedelinin iadesi",
+          "summary": "Talebin ‘istirdat’ olarak adlandırılması mahkemeyi bağlamaz; hukuki nitelendirme hâkimce yapılarak fazla ödemenin iadesi genel hükümler çerçevesinde incelenmelidir.",
+          "tags": ["Kira bedeli", "İade", "Hukuki tavsif"],
+          "url": "/ictihat/yargitay-3-hukuk-dairesi-2026-3039-fazla-odenen-kira-bedeli/"
+        }
+      ]
+    }
+  ]
+}
