@@ -19,7 +19,8 @@
 .precedent-count{display:inline-flex;align-items:center;padding:3px 9px;border:0;border-radius:999px;background:#efedeb;font-size:11px;line-height:1.2;color:#6f6a64;white-space:nowrap}
 
 .precedent-list{display:grid}
-.precedent-row{display:grid;grid-template-columns:42px minmax(0,1fr) minmax(250px,.48fr) 126px;align-items:center;gap:16px;padding:13px 0;border-bottom:1px solid #e6e2dd}
+.precedent-row{display:grid;grid-template-columns:42px minmax(0,1fr) minmax(250px,.48fr) 126px;align-items:center;gap:16px;padding:13px 0;border-bottom:0}
+.precedent-row:not(:last-child){border-bottom:1px solid rgba(66,60,55,.10)}
 .precedent-row-icon{display:flex;align-items:center;justify-content:center;color:#716d68}
 .precedent-row-icon svg{width:20px;height:20px}
 .precedent-row-content{min-width:0}
