@@ -30,59 +30,17 @@ image: "/assets/hero-office-family.webp"
       </div>
       <a href="/hukuki-gelismeler/">Tümünü gör →</a>
     </div>
+    {% set latestLegalUpdates = hukukiGelismeler | sortByDate | limit(10) %}
     <div class="legal-updates-list" data-legal-updates aria-live="polite">
-      <a class="legal-update-card is-active" data-legal-update href="/hukuki-gelismeler/#dask-satis-2026">
-        <div class="legal-update-meta"><time datetime="2026-09-05">Yayım: 05 Eylül 2026</time><span>Gayrimenkul Hukuku</span></div>
-        <h3>DASK’ta satışta yeni poliçe dönemi</h3>
-        <p>Satıcının poliçesi tapu tesciliyle sona eriyor; alıcının satıştan önce kendi adına geçerli ZDS poliçesi bulunması gerekiyor.</p>
+      {% for update in latestLegalUpdates %}
+      <a class="legal-update-card{% if loop.first %} is-active{% endif %}" data-legal-update href="/hukuki-gelismeler/#{{ update.id }}">
+        <div class="legal-update-meta"><time datetime="{{ update.date }}">Yayım: {{ update.date | dateTR }}</time><span>{{ update.category }}</span></div>
+        <h3>{{ update.homeTitle or update.title }}</h3>
+        <p>{{ update.homeSummary or update.summary }}</p>
       </a>
-      <a class="legal-update-card" data-legal-update href="/hukuki-gelismeler/#fatih-yenileme-alani-2026">
-        <div class="legal-update-meta"><time datetime="2026-09-05">Yayım: 05 Eylül 2026</time><span>İmar Hukuku</span></div>
-        <h3>Fatih’te 2013 tarihli yenileme alanı kararı kaldırıldı</h3>
-        <p>2013/4599 sayılı yenileme alanı kararı, 11727 sayılı Cumhurbaşkanı Kararıyla yürürlükten kaldırıldı.</p>
-      </a>
-      <a class="legal-update-card" data-legal-update href="/hukuki-gelismeler/#kat-mulkiyeti-arabuluculuk-2026">
-        <div class="legal-update-meta"><time datetime="2026-09-04">Yayım: 04 Eylül 2026</time><span>Kat Mülkiyeti</span></div>
-        <h3>2023 öncesi kat mülkiyeti davalarında arabuluculuk şart değil</h3>
-        <p>Yargıtay, 1 Eylül 2023’ten önce açılmış davanın arabulucuya gidilmediği gerekçesiyle reddedilemeyeceğine karar verdi.</p>
-      </a>
-      <a class="legal-update-card" data-legal-update href="/hukuki-gelismeler/#aym-kamulastirmasiz-el-atma-plan-2026">
-        <div class="legal-update-meta"><time datetime="2026-09-03">Yayım: 03 Eylül 2026</time><span>Mülkiyet / İmar Hukuku</span></div>
-        <h3>AYM’den kamulaştırmasız el atma sonrası plan değişikliğinde ihlal kararı</h3>
-        <p>Kamulaştırmasız el atılan taşınmazın kullanımının sonradan planla değiştirilmesi ve iade talebinin reddi mülkiyet hakkını ihlal etti.</p>
-      </a>
-      <a class="legal-update-card" data-legal-update href="/hukuki-gelismeler/">
-        <div class="legal-update-meta"><time datetime="2026-08-31">Yayım: 31 Ağustos 2026</time><span>Gayrimenkul Hukuku</span></div>
-        <h3>Bazı turizm tesislerinde kat mülkiyeti bakımından istisna getirildi</h3>
-        <p>Belirli turizm tesislerinde kat mülkiyeti ve kat irtifakı bakımından uygulamayı etkileyen yeni bir istisna düzenlendi.</p>
-      </a>
-      <a class="legal-update-card" data-legal-update href="/ictihat/yargitay-3-hukuk-dairesi-2026-3039-fazla-odenen-kira-bedeli/">
-        <div class="legal-update-meta"><time datetime="2026-08-19">Yayım: 19 Ağustos 2026</time><span>Kira Hukuku</span></div>
-        <h3>Yargıtay’dan fazla ödenen kira bedelinin iadesine ilişkin karar</h3>
-        <p>Talebin yanlış hukuki adlandırılması, fazla ödenen kira bedelinin iadesi isteminin esasının incelenmesine engel değil.</p>
-      </a>
-      <a class="legal-update-card" data-legal-update href="/hukuki-gelismeler/">
-        <div class="legal-update-meta"><time datetime="2026-08-18">Yayım: 18 Ağustos 2026</time><span>Kira Hukuku</span></div>
-        <h3>Taşınmaz devrinden önce peşin alınan kira bedelinin iadesi</h3>
-        <p>Yeni malik dönemine rastlayan peşin kira bedelinin eski malik bakımından sonuçlarına ilişkin Yargıtay kararı yayımlandı.</p>
-      </a>
-      <a class="legal-update-card" data-legal-update href="/hukuki-gelismeler/">
-        <div class="legal-update-meta"><time datetime="2026-08-07">Yayım: 07 Ağustos 2026</time><span>Mülkiyet Hukuku</span></div>
-        <h3>AYM’den kamulaştırmasız el atma alacağının icrasına ilişkin iptal kararı</h3>
-        <p>İdarenin teminatsız biçimde icranın geri bırakılmasını istemesine imkân veren düzenleme iptal edildi.</p>
-      </a>
-      <a class="legal-update-card" data-legal-update href="/hukuki-gelismeler/">
-        <div class="legal-update-meta"><time datetime="2026-07-31">Yayım: 31 Temmuz 2026</time><span>Ortaklığın Giderilmesi</span></div>
-        <h3>Mirasçılar arasında ilk artırma kuralı getirildi</h3>
-        <p>Belirli koşullarda ortaklığın giderilmesi satışlarında ilk artırma yalnız malik mirasçılar arasında yapılacak.</p>
-      </a>
-      <a class="legal-update-card" data-legal-update href="/ictihat/aym-2021-16186-imar-plani-kullanim-degisikligi/">
-        <div class="legal-update-meta"><time datetime="2026-07-24">Yayım: 24 Temmuz 2026</time><span>İmar Hukuku</span></div>
-        <h3>AYM’den imar planında kullanım değişikliğine ilişkin karar</h3>
-        <p>Taşınmazın plan kararlarıyla kullanım biçiminin değiştirilmesine ilişkin uyuşmazlıkta hak ihlali değerlendirmesi yapıldı.</p>
-      </a>
+      {% endfor %}
     </div>
-    <div class="legal-updates-dots" aria-hidden="true"><span class="is-active"></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="legal-updates-dots" aria-hidden="true">{% for update in latestLegalUpdates %}<span{% if loop.first %} class="is-active"{% endif %}></span>{% endfor %}</div>
   </aside>
 </section>
 <section class="section dark" id="alanlar">
