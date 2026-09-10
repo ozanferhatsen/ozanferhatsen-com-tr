@@ -1,9 +1,63 @@
 ---
 layout: base.njk
-title: "İmar Hukuku Avukatı | DOP, Parselasyon ve Kök Parsel"
+title: "İmar Hukuku | DOP, Parselasyon ve Kök Parsel | Ozan Ferhat Şen"
 description: "İmar hukuku; DOP, parselasyon, kök parsel, eski terkler, imar planları ve yapılaşma hakkı üzerine hukuki değerlendirmeler."
 alternate_tr: "https://ozanferhatsen.com.tr/imar-hukuku/"
 alternate_en: "https://ozanferhatsen.com.tr/en/zoning-planning-law-turkey/"
 ---
-<section class="page-hero"><div class="wrap"><div class="breadcrumbs"><a href="/">Ana Sayfa</a> / İmar Hukuku</div><div class="eyebrow">İmar Hukuku</div><h1>İmar planı, parsel ve yapılaşma kararlarının hukuki analizi</h1><p class="page-lead">Bir taşınmazın bugünkü hukuki ve ekonomik değeri yalnızca tapu kaydından değil; imar planından, parselasyon geçmişinden, eski terklerden, DOP uygulamalarından ve yapılaşma koşullarından birlikte okunur.</p></div></section>
-<section class="section"><div class="wrap content-grid"><article class="prose"><h2>İmar hukukunda en sık karşılaşılan riskler</h2><p>Parselasyon işlemleri, düzenleme ortaklık payı, kök parsel tartışmaları, daha önce kamuya terk edilmiş alanların yeni uygulamadaki etkisi ve imar hakkının nasıl hesaplandığı, taşınmazın kullanılabilir alanını ve değerini doğrudan etkileyebilir.</p><h2>DOP ve parselasyon</h2><p>DOP hesabının hangi düzenleme alanı üzerinden yapıldığı, daha önceki terklerin dikkate alınıp alınmadığı ve iptal edilmiş bir parselasyonun sonrasında hangi hukuki duruma dönüleceği ayrı ayrı incelenmelidir.</p><h2>Kök parsel ve eski terkler</h2><p>Özellikle eski tarihli imar uygulamalarında bugünkü parselin geçmişini görmek gerekir. Kök parsel, terk ve tahsis zinciri okunmadan yalnızca mevcut tapu yüzölçümünden hareket etmek yanıltıcı olabilir.</p><h2>İmar planı ve yapılaşma hakkı</h2><p>Plan notları, fonksiyon değişiklikleri, emsal ve yapılaşma kararları birlikte değerlendirilir. İdari işlemin hukuka uygunluğu ile taşınmazın fiilen nasıl kullanılabileceği aynı sorunun iki farklı yüzüdür.</p><div class="cta-box"><h2>İmar dosyanız belge üzerinden değerlendirilsin</h2><p>Tapu, çap, imar durumu, parselasyon cetveli veya belediye işlemleri varsa birlikte incelenebilir.</p><a class="btn primary" href="/iletisim/">İletişim</a></div></article><aside class="sidebar"><div class="sidebox"><h3>İlgili başlıklar</h3><ul class="list-clean"><li>DOP</li><li>Parselasyon</li><li>Kök Parsel</li><li>Eski Terkler</li><li>İmar Hakkı</li></ul></div><div class="sidebox"><h3>İlgili makaleler</h3>{% set posts = collections.makaleler | byCategory('İmar Hukuku') %}<ul class="list-clean">{% for post in posts | limit(8) %}<li><a href="{{ post.url }}">{{ post.data.title }}</a></li>{% endfor %}</ul></div></aside></div></section>
+<section class="page-hero">
+  <div class="wrap">
+    <div class="breadcrumbs"><a href="/">Ana Sayfa</a> / İmar Hukuku</div>
+    <div class="eyebrow">İmar Hukuku</div>
+    <h1>İmar planı, parsel ve yapılaşma kararlarının hukuki analizi</h1>
+    <p class="page-lead">Bir taşınmazın imar hukuku bakımından değerlendirilmesi yalnız mevcut tapu ve imar durumuna bakılarak yapılamaz. Plan kararları, parselasyon geçmişi, DOP, eski terkler, kök parsel ve yapılaşma hakkı birlikte okunmalıdır.</p>
+  </div>
+</section>
+
+{% set posts = collections.makaleler | byCategory('İmar Hukuku') %}
+<section class="section" id="imar-makaleleri">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">İmar Hukuku Makaleleri</div>
+        <h2>Dosyanın merkezindeki sorundan başlayın</h2>
+      </div>
+      <p>DOP, parselasyon, kök parsel, eski terkler ve imar hakkına ilişkin ayrıntılı incelemeler aşağıda doğrudan ilgili hukuki soruna göre sıralanır.</p>
+    </div>
+    {% if posts.length %}
+    <div class="article-grid">
+      {% for post in posts %}
+      <a class="article-card" href="{{ post.url }}">
+        <div class="tag">{{ post.data.keyword or 'İmar Hukuku' }}</div>
+        {% if post.data.date %}<div class="card-date">{{ post.data.date | dateTR }}</div>{% endif %}
+        <h3>{{ post.data.title }}</h3>
+        <p>{{ post.data.summary }}</p>
+        <span class="arrow">Makaleyi oku →</span>
+      </a>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p>İmar hukuku makaleleri hazırlanıyor.</p>
+    {% endif %}
+  </div>
+</section>
+
+<section class="section soft">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Başlıca İnceleme Eksenleri</div>
+        <h2>İmar dosyasında tek bir belgeye bakmak çoğu zaman yetmez</h2>
+      </div>
+      <p>Bir parselin bugünkü hukuki durumunu anlamak için uygulamanın hangi parselden başladığı, hangi kesintilerin daha önce yapıldığı, plan ve parselasyon kararlarının nasıl değiştiği ve yapılaşma hakkının hangi veriler üzerinden hesaplandığı birlikte değerlendirilir.</p>
+    </div>
+    <div class="grid4">
+      <a class="area-card" href="/makaleler/ikinci-kez-dop-kesilebilir-mi/"><div class="tag">DOP</div><h3>Düzenleme Ortaklık Payı</h3><p>İkinci kez DOP, önceki kesintilerin etkisi ve düzenleme alanındaki hesabın hukuki sınırları.</p><span class="arrow">DOP incelemesine git →</span></a>
+      <a class="area-card" href="/makaleler/parselasyon-plani-iptal-edilirse-tapular-ne-olur/"><div class="tag">Parselasyon</div><h3>Parselasyon İşlemleri</h3><p>Parselasyon planının iptali sonrasında tapu kayıtlarının ve imar uygulamasının hukuki durumu.</p><span class="arrow">Parselasyon incelemesine git →</span></a>
+      <a class="area-card" href="/makaleler/kok-parsel-nedir-emsal-imar-hakki/"><div class="tag">Kök Parsel</div><h3>Kök Parsel ve Emsal</h3><p>Bugünkü parselin geçmişi ile kök parselin yapılaşma hakkı ve emsal hesabındaki etkisi.</p><span class="arrow">Kök parsel incelemesine git →</span></a>
+      <a class="area-card" href="/makaleler/yol-terki-eski-terkler-imar-hakki-dop/"><div class="tag">Eski Terkler</div><h3>Yol Terki ve Önceki Terkler</h3><p>Geçmişte kamuya terk edilen alanların yeni imar uygulaması, DOP ve yapılaşma hakkına etkisi.</p><span class="arrow">Eski terkler incelemesine git →</span></a>
+      <a class="area-card" href="/makaleler/belediyeye-terk-edilen-yer-sonradan-imara-acilirsa/"><div class="tag">Mülkiyet</div><h3>Terk Edilen Alan Yeniden İmara Açılırsa</h3><p>Kamuya terk edilmiş bir alanın plan değişikliğiyle yeniden özel kullanıma açılmasının mülkiyet hukuku sonuçları.</p><span class="arrow">İncelemeye git →</span></a>
+      <a class="area-card" href="/makaleler/imar-hakki-aktarimi-transferi-nedir/"><div class="tag">İmar Hakkı</div><h3>İmar Hakkının Aktarılması</h3><p>Yapılaşma hakkının aktarımı, gönderen ve alan parseller ile uygulamanın hukuki çerçevesi.</p><span class="arrow">İmar hakkı incelemesine git →</span></a>
+    </div>
+  </div>
+</section>
