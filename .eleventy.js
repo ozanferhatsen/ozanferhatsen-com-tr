@@ -85,6 +85,13 @@ export default function (eleventyConfig) {
       .sort((a, b) => new Date(b.data.date || 0) - new Date(a.data.date || 0))
   );
 
+  eleventyConfig.addCollection("vitrinMakaleler", (collectionApi) =>
+    collectionApi
+      .getFilteredByGlob("./content/makaleler/*.md")
+      .filter((item) => !item.data.draft && item.data.category !== "Bilişim Hukuku")
+      .sort((a, b) => new Date(b.data.date || 0) - new Date(a.data.date || 0))
+  );
+
   return {
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
