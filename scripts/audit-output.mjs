@@ -5,7 +5,15 @@ const root = process.cwd();
 const outputRoot = path.join(root, '_site');
 const siteOrigin = 'https://ozanferhatsen.com.tr';
 const ignoredPrefixes = ['/admin/'];
-const allowedNoindexRoutes = new Set(['/404.html', '/gizlilik/']);
+const allowedNoindexRoutes = new Set([
+  '/404.html',
+  '/gizlilik/',
+  '/ictihat/yargitay-hukuk-genel-kurulu-2017-4-1337-2022-17-belediye-ihalesi-menfi-zarar/',
+  '/ictihat/yargitay-hukuk-genel-kurulu-2017-3-2681-2021-18-belediye-satisi-muhdesat-menfi-zarar/',
+  '/ictihat/yargitay-hukuk-genel-kurulu-2017-13-1980-2021-19-ifaya-ekli-cezai-sart-ihtirazi-kayit/',
+  '/ictihat/yargitay-hukuk-genel-kurulu-2017-13-692-2020-97-gizli-ayip-ihbari-saticinin-bilgisi/',
+  '/ictihat/yargitay-hukuk-genel-kurulu-2017-13-1981-2021-30-harici-satis-rayic-bedeli-durustluk-kurali/'
+]);
 const maxReferencedImageBytes = 500 * 1024;
 const files = [];
 
@@ -132,8 +140,10 @@ for (const file of files.filter((f) => f.endsWith('.html'))) {
   }
 
   if (canonical) {
-    if (canonicals.has(canonical)) fail(`${route}: duplicate canonical also used by ${canonicals.get(canonical)} -> ${canonical}`);
-    else canonicals.set(canonical, route);
+    if (!hasNoindex) {
+      if (canonicals.has(canonical)) fail(`${route}: duplicate canonical also used by ${canonicals.get(canonical)} -> ${canonical}`);
+      else canonicals.set(canonical, route);
+    }
 
     try {
       const canonicalUrl = new URL(canonical);
