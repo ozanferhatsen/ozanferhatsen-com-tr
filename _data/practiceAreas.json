@@ -1,0 +1,309 @@
+{
+  "imar": {
+    "name": "İmar Hukuku",
+    "slug": "imar-hukuku",
+    "url": "/imar-hukuku/",
+    "navGroup": "property",
+    "seoTitle": "İmar Hukuku | DOP, Parselasyon, Kök Parsel ve İmar Planları",
+    "description": "İmar planı, parselasyon, DOP, kök parsel, eski terkler ve yapılaşma hakkının taşınmaz üzerindeki hukuki etkileri.",
+    "alternateTr": "https://ozanferhatsen.com.tr/imar-hukuku/",
+    "alternateEn": "https://ozanferhatsen.com.tr/en/zoning-planning-law-turkey/",
+    "enName": "Zoning & Planning Law",
+    "h1": "İmar planı, parsel ve yapılaşma kararlarının hukuki analizi",
+    "intro": "Bir taşınmazın imar hukuku bakımından değerlendirilmesi yalnız mevcut tapu ve imar durumuna bakılarak yapılamaz. Plan kararları, parselasyon geçmişi, DOP, eski terkler, kök parsel ve yapılaşma hakkı birlikte okunmalıdır.",
+    "riskMapTitle": "İmar hukukunda hak kaybı hangi aşamada doğar?",
+    "riskMapIntro": "İmar dosyasında risk çoğu zaman tek bir kararda değil, plan ile parselasyon geçmişi arasındaki bağlantıda ortaya çıkar. İlk kontrol, işlemin hangi aşamasında mülkiyet veya yapılaşma hakkının etkilenebileceğini göstermelidir.",
+    "risks": [
+      {"title": "Plan kararı değiştiğinde", "text": "Kullanım kararı, yoğunluk, yapılaşma koşulları veya plan notu değişikliği taşınmazın fiilî ve ekonomik kullanımını doğrudan etkileyebilir."},
+      {"title": "Parselasyon hesabı yapılırken", "text": "DOP, tahsis, dağıtım ve düzenleme sınırı birlikte incelenmeden yalnız kesinti oranına bakmak işlemin bütününü göstermeyebilir."},
+      {"title": "Parselin geçmişi okunmadığında", "text": "Kök parsel, eski yol ve kamu terkleri ile önceki ifraz veya tevhit işlemleri bugünkü hesabın başlangıç noktasını değiştirebilir."},
+      {"title": "Yapılaşma hakkı varsayımla hesaplandığında", "text": "Mevcut plan, parselasyon geçmişi ve varsa hak aktarımı birlikte değerlendirilmeden emsal veya inşaat hakkı konusunda kesin sonuca varılamaz."}
+    ],
+    "problems": [
+      {
+        "title": "Parselasyon işleminde hak kaybı nerede doğar?",
+        "text": "Parselasyon yalnız yeni parsel numarası üreten teknik bir işlem değildir. Düzenleme alanının sınırı, DOP hesabı, tahsis ve dağıtım biçimi taşınmazın yüzölçümünü, konumunu ve kullanım değerini etkileyebilir.",
+        "points": ["DOP oranı ve önceki kesintilerin etkisi", "Tahsis ve dağıtım cetvellerinin parsel bazında karşılaştırılması", "Parselasyonun iptali hâlinde tapu ve uygulama zincirinin sonucu"]
+      },
+      {
+        "title": "Eski terkler ve kök parsel hesabı neden önemlidir?",
+        "text": "Bugünkü parsel çoğu zaman tek başına başlangıç noktası değildir. Daha önce yola veya kamu hizmetine terk edilen alanlar ile kök parsel geçmişi, yeni düzenlemede hangi alanın ve hangi hakkın esas alınacağını etkileyebilir.",
+        "points": ["Eski yol ve kamu terklerinin kaynağının belirlenmesi", "Kök parsel ile güncel parsel arasındaki işlem zinciri", "İkinci kez DOP ve yapılaşma hakkı hesabının birlikte değerlendirilmesi"]
+      },
+      {
+        "title": "İmar planı yapılaşma hakkınızı gerçekten ne ölçüde belirler?",
+        "text": "Plan kararı yapılaşmanın temel çerçevesini kurar; ancak uygulamadaki sonuç plan notları, parselasyon, çekme mesafeleri, kullanım kararları ve taşınmazın geçmiş işlemleriyle birlikte ortaya çıkar.",
+        "points": ["Plan ve plan notlarının birlikte okunması", "Plan değişikliğinin mülkiyet ve kullanım üzerindeki etkisi", "İmar hakkı aktarımı veya benzeri araçların somut parsele uygulanabilirliği"]
+      }
+    ],
+    "ctaTitle": "İmar dosyanız belge üzerinden değerlendirilsin",
+    "ctaText": "İmar durumu, tapu ve kadastro kayıtları, parselasyon cetvelleri, plan notları, eski terk belgeleri ve ilgili belediye kararları birlikte incelenebilir.",
+    "topics": [
+      {"label": "DOP ve ikinci kez kesinti", "url": "/makaleler/ikinci-kez-dop-kesilebilir-mi/"},
+      {"label": "Parselasyon planının iptali", "url": "/makaleler/parselasyon-plani-iptal-edilirse-tapular-ne-olur/"},
+      {"label": "Kök parsel ve emsal", "url": "/makaleler/kok-parsel-nedir-emsal-imar-hakki/"},
+      {"label": "Eski yol ve kamu terkleri", "url": "/makaleler/yol-terki-eski-terkler-imar-hakki-dop/"},
+      {"label": "Belediyeye terk edilen alan", "url": "/makaleler/belediyeye-terk-edilen-yer-sonradan-imara-acilirsa/"},
+      {"label": "İmar hakkı aktarımı", "url": "/makaleler/imar-hakki-aktarimi-transferi-nedir/"}
+    ],
+    "category": "İmar Hukuku",
+    "homeSummary": "DOP, parselasyon, kök parsel, eski terkler, imar planı ve yapılaşma hakkı",
+    "homeArrow": "İmar dosyasına gir →"
+  },
+  "kentsel": {
+    "name": "Kentsel Dönüşüm",
+    "slug": "kentsel-donusum-hukuku",
+    "url": "/kentsel-donusum-hukuku/",
+    "navGroup": "property",
+    "seoTitle": "Kentsel Dönüşüm Hukuku | Sözleşme, Müteahhit, Teminat ve Tapu Devri",
+    "description": "Kentsel dönüşümde müteahhit seçimi, sözleşme, bağımsız bölüm paylaşımı, teminat, tapu devri ve malik kararlarındaki hukuki riskler.",
+    "alternateTr": "https://ozanferhatsen.com.tr/kentsel-donusum-hukuku/",
+    "alternateEn": "https://ozanferhatsen.com.tr/en/urban-transformation-law-turkey/",
+    "enName": "Urban Transformation",
+    "h1": "Kentsel dönüşümde sözleşme, müteahhit ve malik kararlarının risk analizi",
+    "intro": "Dönüşüm sürecindeki en pahalı hatalar çoğu zaman inşaat başladıktan sonra değil; teklifler karşılaştırılırken, yeni bağımsız bölümler tanımlanırken, sözleşme imzalanırken ve tapu devri planlanırken yapılır. Bu aşamalar tek dosya içinde birlikte değerlendirilmelidir.",
+    "riskMapTitle": "Kentsel dönüşümde risk hangi aşamada doğar?",
+    "riskMapIntro": "Dönüşüm dosyası yalnız müteahhit yüzdesinden ibaret değildir. Maliklerin ne alacağı, müteahhidin bunu hangi finansman ve teminat yapısıyla üreteceği ve iş aksadığında sözleşmenin nasıl çalışacağı aynı risk haritasında görülmelidir.",
+    "risks": [
+      {"title": "Teklifler karşılaştırılırken", "text": "Yüksek paylaşım oranı veya güçlü görünen proje sunumu; finansman, teslim süresi, teknik kalite ve teminat zayıfsa tek başına güvenli teklif anlamına gelmez."},
+      {"title": "Bağımsız bölüm tanımlanırken", "text": "Metrekare, şerefiye, kat, cephe, eklenti ve ortak alan hakları açık kurulmadığında ekonomik değer sözleşme imzasından önce kaybedilebilir."},
+      {"title": "Tapu devri ve teminat planlanırken", "text": "Arsa payının ne zaman devredileceği ile teminatın tutarı, süresi ve paraya çevrilme koşulları birlikte kurgulanmalıdır."},
+      {"title": "Teslim ve malik kararları yürütülürken", "text": "Gecikme yaptırımları, kira, cezai şart ve malik kararlarının usulü proje ilerledikçe geri dönüşü daha zor hâle gelen sonuçlar doğurabilir."}
+    ],
+    "problems": [
+      {
+        "title": "Müteahhit seçimi yalnızca fiyat karşılaştırması değildir",
+        "text": "Teklifteki oran veya ilave bedel, projenin tamamlanabilirliğini tek başına göstermez. Müteahhidin mali yapısı, devam eden işleri, finansman modeli, teminat kapasitesi ve taahhüt ettiği teknik standart aynı tabloda karşılaştırılmalıdır.",
+        "points": ["Tekliflerin aynı metrekare ve bağımsız bölüm varsayımıyla karşılaştırılması", "Mali yeterlilik ve devam eden proje yükünün incelenmesi", "Teminat, teslim süresi ve teknik şartnamenin teklif hesabına dâhil edilmesi"]
+      },
+      {
+        "title": "Sözleşmede risk nerede birikir?",
+        "text": "Risk çoğu zaman tek bir ağır hükümde değil; birbirine bağlı küçük maddelerde birikir. Bağımsız bölüm tanımı, teknik şartname, tapu devri, teminat, teslim tarihi ve gecikme yaptırımları birlikte okunmadığında sözleşmenin gerçek dengesi görülmez.",
+        "points": ["Net/brüt alan, şerefiye ve eklentilerin açık tanımı", "Tapu devri ile ilerleme seviyesinin birbirine bağlanması", "Teminatın süre, tutar ve nakde çevrilme mekanizmasının kurulması"]
+      },
+      {
+        "title": "Malik kararları ve tapu devri ne zaman geri dönüşü zorlaştırır?",
+        "text": "Karar alma usulündeki hata ile erken veya kontrolsüz tapu devri farklı hukuki sorunlardır; ancak aynı projede birbirini büyütebilir. İmza, bildirim, pay satışı ve devir adımları işlem sırası üzerinden değerlendirilmelidir.",
+        "points": ["Malik kararının gerekli çoğunluk ve bildirim usulü", "İmzalamayan malik bakımından izlenecek sürecin ayrıştırılması", "Tapu devrinin inşaat ilerlemesi ve teminatlarla eşleştirilmesi"]
+      }
+    ],
+    "ctaTitle": "Kentsel dönüşüm dosyanız belge üzerinden değerlendirilsin",
+    "ctaText": "Teklif, sözleşme taslağı, teknik şartname, bağımsız bölüm paylaşımı, tapu kayıtları ve teminat belgeleri birlikte incelenebilir.",
+    "topics": [
+      {"label": "Müteahhit seçimi", "url": "/makaleler/kentsel-donusum-muteahhit-secerken-nelere-dikkat-edilmeli/"},
+      {"label": "Dönüşüm sözleşmesi", "url": "/makaleler/bagdat-caddesi-kentsel-donusum-sozlesmesi/"},
+      {"label": "Şerefiye ve bağımsız bölüm değeri", "url": "/makaleler/kentsel-donusum-serefiye-kat-cephe-deniz-manzarasi/"},
+      {"label": "Metrekare ve küçülme riski", "url": "/makaleler/kentsel-donusumda-daire-kuculur-mu-metrekare/"},
+      {"label": "Arsa payı", "url": "/makaleler/kentsel-donusum-arsa-payi-duzeltme-davasi/"},
+      {"label": "Müteahhide tapu devri", "url": "/makaleler/kentsel-donusum-muteahhide-tapu-ne-zaman-devredilmeli/"},
+      {"label": "Banka teminat mektubu", "url": "/makaleler/kentsel-donusum-banka-teminat-mektubu/"}
+    ],
+    "category": "Kentsel Dönüşüm",
+    "homeSummary": "Müteahhit seçimi, teminat, tapu devri, malik kararları ve dönüşüm sözleşmeleri",
+    "homeArrow": "Dönüşüm dosyasına gir →"
+  },
+  "insaat": {
+    "name": "İnşaat Hukuku",
+    "slug": "insaat-hukuku",
+    "url": "/insaat-hukuku/",
+    "navGroup": "property",
+    "seoTitle": "İnşaat Hukuku | Sözleşme, Ayıp, Teslim, Teminat ve Fesih",
+    "description": "İnşaat sözleşmeleri, kat karşılığı inşaat, teslim, eksik ve ayıplı iş, teminat, fesih ve tapu devrindeki hukuki riskler.",
+    "alternateTr": "https://ozanferhatsen.com.tr/insaat-hukuku/",
+    "alternateEn": "https://ozanferhatsen.com.tr/en/construction-law-turkey/",
+    "enName": "Construction Law",
+    "h1": "İnşaat sözleşmesinde teslim, ayıp ve teminat riskini baştan kurmak",
+    "intro": "İnşaat uyuşmazlığında sonucu yalnız yapılan iş değil; sözleşmenin ne vaat ettiği, teknik şartnamenin neyi tanımladığı, teslimin nasıl belgelendiği ve yüklenicinin hangi güvenceyi verdiği belirler. Tapu devri ve fesih ihtimali de bu belge zincirinden ayrı okunmamalıdır.",
+    "riskMapTitle": "İnşaat uyuşmazlığında sonucu hangi belgeler belirler?",
+    "riskMapIntro": "İnşaat dosyasında uyuşmazlığın adı kadar ispat yapısı önemlidir. Sözleşme, proje, teknik şartname, hakediş veya ilerleme kayıtları, teslim belgeleri ve ihtarlar aynı zaman çizgisinde incelenmelidir.",
+    "risks": [
+      {"title": "Sözleşme ile teknik şartname ayrıştığında", "text": "İşin kapsamı, malzeme standardı veya bağımsız bölüm özellikleri farklı belgelerde farklı kurulmuşsa hangi taahhüdün esas alınacağı tartışma konusu olabilir."},
+      {"title": "İlerleme ve teslim kaydı tutulmadığında", "text": "İşin hangi tarihte hangi seviyede olduğu belgelendirilmiyorsa temerrüt, gecikme ve teslim iddialarının ispatı zorlaşır."},
+      {"title": "Eksik iş ile ayıp birbirine karıştırıldığında", "text": "Hiç yapılmayan iş ile sözleşmeye aykırı yapılan iş farklı talep, süre ve ispat tartışmaları doğurabilir."},
+      {"title": "Tapu devri teminattan koparıldığında", "text": "Arsa payı devri, inşaat ilerlemesi ve teminat mekanizması birbirinden bağımsız bırakıldığında risk taraflar arasında dengesiz dağılabilir."}
+    ],
+    "problems": [
+      {
+        "title": "Sözleşmede risk hangi yükümlülükler üzerinde birikir?",
+        "text": "Kat karşılığı veya diğer inşaat sözleşmelerinde yalnız paylaşım oranına bakmak yeterli değildir. İşin kapsamı, ruhsat ve proje sorumlulukları, teslim, tapu devri, teminat ve gecikme yaptırımları birbirini tamamlayan hükümler olarak kurulmalıdır.",
+        "points": ["Arsa sahibi ve yüklenici borçlarının somutlaştırılması", "Teknik şartname ile sözleşme hükümlerinin uyumu", "Teslim, gecikme, teminat ve tapu devri sırasının kurulması"]
+      },
+      {
+        "title": "Eksik veya ayıplı iş teslimden sonra nasıl ispatlanır?",
+        "text": "Teslimden sonra ortaya çıkan uyuşmazlıkta proje, sözleşme ve teknik şartname ile fiilî durum karşılaştırılır. Eksik iş, açık veya gizli ayıp, ihbar ve kabul kayıtları aynı olayın farklı hukuki katmanlarıdır.",
+        "points": ["Sözleşmede vaat edilen işin belirlenmesi", "Teslim ve inceleme kayıtlarının zamanlaması", "Ayıp, eksik iş ve değer kaybının ayrı ayrı değerlendirilmesi"]
+      },
+      {
+        "title": "Fesih, tapu devri ve üçüncü kişi işlemleri neden birlikte değerlendirilir?",
+        "text": "Sözleşmenin sona ermesi yalnız taraflar arasındaki borç ilişkisini etkilemeyebilir. Daha önce yapılan tapu devirleri ve yükleniciden hak edinen üçüncü kişilerin durumu, fesih stratejisinin baştan değerlendirilmesini gerektirir.",
+        "points": ["Fesih sebebi ve sözleşmenin ifa seviyesi", "Yükleniciye yapılan tapu devirlerinin kapsamı", "Üçüncü kişilerin edinimleri ve tapu sicili bağlantısı"]
+      }
+    ],
+    "ctaTitle": "İnşaat uyuşmazlığınız belge üzerinden değerlendirilsin",
+    "ctaText": "Sözleşme, teknik şartname, proje ve ruhsat belgeleri, teslim veya tespit kayıtları, ihtarlar, teminatlar ve tapu kayıtları birlikte incelenebilir.",
+    "topics": [
+      {"label": "Kat karşılığı inşaat ve fesih", "url": "/makaleler/kat-karsiligi-insaat-fesih-muteahhitten-ev-alan-tapu-iptali-ibk-2025-2/"},
+      {"label": "Teknik şartname", "url": null},
+      {"label": "Eksik iş ve gizli ayıp", "url": "/ictihat/yargitay-hukuk-genel-kurulu-2021-539-2022-1267-eksik-is-gizli-ayip/"},
+      {"label": "Ayıp ihbarı ve eksik ifa", "url": "/ictihat/yargitay-hukuk-genel-kurulu-2019-349-2022-806-eksik-ifa-ayip-ihbari/"},
+      {"label": "Teslim gecikmesi ve cezai şart", "url": "/ictihat/yargitay-hukuk-genel-kurulu-2019-3-751-2022-590-gec-teslim-cezai-sart/"},
+      {"label": "Teminat ve tapu devri", "url": null},
+      {"label": "Üçüncü kişi işlemleri", "url": "/ictihat/yargitay-6-hukuk-dairesi-2025-2041-2026-1191-ucuncu-kisi-tapu/"}
+    ],
+    "category": "İnşaat Hukuku",
+    "homeSummary": "Kat karşılığı inşaat, yüklenici borçları, teslim, eksik ve ayıplı iş",
+    "homeArrow": "İnşaat dosyasına gir →"
+  },
+  "gayrimenkul": {
+    "name": "Gayrimenkul Hukuku",
+    "slug": "gayrimenkul-hukuku",
+    "url": "/gayrimenkul-hukuku/",
+    "navGroup": "property",
+    "seoTitle": "Gayrimenkul Hukuku | Tapu, Taşınmaz Sözleşmeleri ve Mülkiyet",
+    "description": "Tapu kayıtları, taşınmaz sözleşmeleri, satış ve tescil, mülkiyet, ayıp ve proje bağlantılı gayrimenkul hukuku riskleri.",
+    "alternateTr": "https://ozanferhatsen.com.tr/gayrimenkul-hukuku/",
+    "alternateEn": "https://ozanferhatsen.com.tr/en/real-estate-law-turkey/",
+    "enName": "Real Estate Law",
+    "h1": "Taşınmaz işleminde tapu, sözleşme ve mülkiyet riskini birlikte görmek",
+    "intro": "Taşınmazın tapu kaydı önemli başlangıç noktasıdır; ancak işlem güvenliği yalnız sicilde görünen bilgiyle kurulmaz. Sözleşmenin şekli, ödeme ve devir zinciri, imar veya proje bağlantısı ve üçüncü kişi işlemleri birlikte değerlendirilmelidir.",
+    "riskMapTitle": "Taşınmaz işleminde hukuki risk nerede saklıdır?",
+    "riskMapIntro": "Taşınmaz dosyasında görünürde basit bir satış veya devir, farklı hukukî katmanlar taşıyabilir. Tapu kaydı, sözleşme, fiilî durum ve işlem geçmişi arasındaki uyumsuzluklar ilk aşamada görünür hâle getirilmelidir.",
+    "risks": [
+      {"title": "Tapu kaydı tek başına okunduğunda", "text": "Şerh, beyan, takyidat ve tescil bilgisi önemlidir; fakat harici anlaşmalar, vekâlet ilişkileri veya önceki işlemler dosyanın sonucunu ayrıca etkileyebilir."},
+      {"title": "Sözleşmenin şekli gözden kaçtığında", "text": "Taşınmaz işlemlerinde sözleşmenin türü ve şekli, tarafların hangi talebi ileri sürebileceğini ve hangi sonucun mümkün olduğunu belirleyebilir."},
+      {"title": "Ödeme ile devir zinciri uyuşmadığında", "text": "Bedelin ödenme biçimi, tapudaki devir ve tarafların gerçek iradesi birbirinden kopuksa ispat ve iade talepleri karmaşıklaşabilir."},
+      {"title": "Taşınmaz bir projeye bağlı olduğunda", "text": "Teslim, sosyal donatı, imar, yüklenici veya dönüşüm bağlantısı varsa yalnız tapuyu değil projenin sözleşmesel ve teknik altyapısını da incelemek gerekir."}
+    ],
+    "problems": [
+      {
+        "title": "Tapu kaydı hangi durumda mülkiyet hakkını tek başına açıklamaz?",
+        "text": "Sicil, mülkiyet uyuşmazlığının merkezindedir; ancak tescilin hangi işleme dayandığı, üçüncü kişinin konumu, vekâlet veya irade sakatlığı iddiaları ve önceki sözleşmeler tapu kaydının hukuki sonucunu değiştirebilir.",
+        "points": ["Tescilin dayanağı ve işlem zinciri", "Şerh, beyan ve takyidatların etkisi", "Üçüncü kişinin iyiniyeti ve tapu siciline güven tartışması"]
+      },
+      {
+        "title": "Sözleşmenin şekli ve ödeme düzeni sonucu nasıl değiştirir?",
+        "text": "Satış, satış vaadi veya harici anlaşma aynı hukuki sonucu doğurmaz. Şekil şartı, ifa edilen edimler, bedelin ödenmesi ve tarafların davranışları hangi talebin ileri sürülebileceğini etkiler.",
+        "points": ["Sözleşme türü ve geçerlilik şartı", "Ödeme belgeleri ile tapu işleminin eşleştirilmesi", "Tescil, bedel iadesi veya tazminat taleplerinin ayrıştırılması"]
+      },
+      {
+        "title": "Proje, imar ve teslim riski taşınmaz değerini nasıl etkiler?",
+        "text": "Projeden veya tamamlanmamış yapıdan alınan taşınmazlarda mülkiyet kaydı ile vaat edilen ekonomik değer aynı şey değildir. İmar durumu, proje kapsamı, teslim, ortak alanlar ve ayıp iddiaları birlikte incelenmelidir.",
+        "points": ["Proje ve tanıtım belgelerindeki vaatlerin kapsamı", "Teslim edilen bağımsız bölüm ile ortak alanların karşılaştırılması", "İmar ve yapılaşma riskinin sözleşmesel sonuca etkisi"]
+      }
+    ],
+    "ctaTitle": "Gayrimenkul dosyanız belge üzerinden değerlendirilsin",
+    "ctaText": "Tapu ve takyidat kayıtları, sözleşmeler, ödeme belgeleri, vekâlet veya devir belgeleri ve varsa proje ya da imar evrakı birlikte incelenebilir.",
+    "topics": [
+      {"label": "Tapu kaydı ve tescil", "url": "/makaleler/yargitay-hukuk-genel-kurulu-kararlari-tasinmaz-satisindan-dogan-uyusmazliklar/"},
+      {"label": "Harici taşınmaz satışı", "url": "/ictihat/yargitay-hukuk-genel-kurulu-2021-14-7-729-2022-165-harici-tasinmaz-satisi-tescil/"},
+      {"label": "Vekil hilesi ve tapu iptali", "url": "/ictihat/yargitay-hukuk-genel-kurulu-2019-1-830-2022-653-vekil-hilesi-tapu-iptali/"},
+      {"label": "Üçüncü kişinin iyiniyeti", "url": "/ictihat/yargitay-hukuk-genel-kurulu-2018-402-2022-391-ucuncu-kisi-iyiniyet-tapu-iptali/"},
+      {"label": "Eksik ifa ve ayıp", "url": "/ictihat/yargitay-hukuk-genel-kurulu-2019-349-2022-806-eksik-ifa-ayip-ihbari/"},
+      {"label": "Taşınmaz satışında içtihat haritası", "url": "/makaleler/yargitay-hukuk-genel-kurulu-kararlari-tasinmaz-satisindan-dogan-uyusmazliklar/"},
+      {"label": "Proje ve imar bağlantısı", "url": "/imar-hukuku/"}
+    ],
+    "category": "Gayrimenkul Hukuku",
+    "homeSummary": "Tapu, taşınmaz sözleşmeleri, satış vaadi ve mülkiyet riskleri",
+    "homeArrow": "Gayrimenkul dosyasına gir →"
+  },
+  "kira": {
+    "name": "Kira Hukuku",
+    "slug": "kira-hukuku",
+    "url": "/kira-hukuku/",
+    "navGroup": "property",
+    "seoTitle": "Kira Hukuku | Tahliye, Temerrüt, İhtar ve Kira Uyuşmazlıkları",
+    "description": "Kira sözleşmeleri, tahliye, temerrüt, eksik veya geç ödeme, ihtar, kira dönemi, tespit ve bildirim süreçlerindeki hukuki riskler.",
+    "alternateTr": "https://ozanferhatsen.com.tr/kira-hukuku/",
+    "h1": "Kira uyuşmazlığında süre, ödeme ve bildirimi aynı zaman çizgisinde okumak",
+    "intro": "Kira uyuşmazlığında küçük görünen tarih farkları sonucu değiştirebilir. Sözleşme türü, kira dönemi, ödeme kayıtları, ihtarlar ve tebligatlar tek bir zaman çizelgesi üzerinde değerlendirilmelidir.",
+    "riskMapTitle": "Kira uyuşmazlığında süre ve belge neden belirleyicidir?",
+    "riskMapIntro": "Tahliye veya alacak talebi yalnız olayın ne olduğuna değil, hangi tarihte ve hangi belgeyle ispatlandığına da bağlıdır. Önce sözleşme ilişkisi ve taraf sıfatları, sonra ödeme ve bildirim zinciri kurulmalıdır.",
+    "risks": [
+      {"title": "Ödeme tarihi veya tutarı tartışmalıysa", "text": "Eksik, geç veya açıklamasız ödeme; temerrüt, alacak ve tahliye değerlendirmesinde farklı sonuçlar doğurabilir."},
+      {"title": "İhtar yanlış kurulmuşsa", "text": "İhtarın içeriği, tebliği ve verilen süre; izlenen hukuki yolun devam edip edemeyeceğini etkileyebilir."},
+      {"title": "Kira dönemi yanlış hesaplanmışsa", "text": "Özellikle iki haklı ihtar ve bazı sona erme sebeplerinde hangi kira döneminin esas alınacağı belirleyicidir."},
+      {"title": "Taraf sıfatı veya kira türü gözden kaçmışsa", "text": "Kiraya verenin kim olduğu ve sözleşmenin konut, çatılı işyeri veya başka bir kira türüne girip girmediği uygulanacak hükümleri değiştirebilir."}
+    ],
+    "problems": [
+      {
+        "title": "Eksik veya geç ödeme tahliye sonucunu ne zaman etkiler?",
+        "text": "Her eksik ya da geç ödeme aynı hukuki sonucu doğurmaz. Borcun miktarı, muacceliyet, ödeme tarihi, ihtarın içeriği ve sonradan yapılan ödemenin zamanı birlikte değerlendirilmelidir.",
+        "points": ["Sözleşmedeki ödeme günü ile fiilî ödemenin karşılaştırılması", "Eksik kalan miktarın ve ödeme açıklamasının belirlenmesi", "İhtar veya takip sonrasında yapılan ödemenin etkisi"]
+      },
+      {
+        "title": "Tahliye sürecinde süre ve belge hatası sonucu nasıl değiştirir?",
+        "text": "Tahliye sebebi doğru olsa bile yanlış süre, eksik bildirim veya hatalı tebligat süreci etkileyebilir. Her tahliye yolu kendi tarih ve belge dizisi üzerinden kurulmalıdır.",
+        "points": ["Tahliye sebebine göre başlangıç ve son tarihlerin belirlenmesi", "İhtar ve tebligat kayıtlarının kontrolü", "Kira dönemi ile dava veya takip zamanının eşleştirilmesi"]
+      },
+      {
+        "title": "Sözleşmenin türü ve taraf sıfatı hangi talepleri belirler?",
+        "text": "Kira ilişkisinde malik olmak ile kiraya veren olmak her zaman aynı sıfat değildir. Kiralananın kullanım amacı ve sözleşmenin türü de uygulanacak özel hükümlerin kapsamını etkileyebilir.",
+        "points": ["Kiraya veren ve malik sıfatlarının ayrıştırılması", "Konut, çatılı işyeri ve genel kira hükümlerinin tespiti", "Sözleşme hükümleri ile emredici kuralların birlikte okunması"]
+      }
+    ],
+    "ctaTitle": "Kira dosyanız belge üzerinden değerlendirilsin",
+    "ctaText": "Kira sözleşmesi, ödeme ve banka kayıtları, ihtarlar, tebligatlar, takip veya dava evrakı ve ilgili yazışmalar birlikte incelenebilir.",
+    "topics": [
+      {"label": "Temerrüt ve ödeme zamanı", "url": null},
+      {"label": "Eksik kira ödemesi", "url": "/makaleler/kira-eksik-odenirse-tahliye-olur-mu/"},
+      {"label": "Fazla ödenen kira bedeli", "url": "/ictihat/yargitay-3-hukuk-dairesi-2026-3039-fazla-odenen-kira-bedeli/"},
+      {"label": "İki haklı ihtar", "url": null},
+      {"label": "İhtiyaç nedeniyle tahliye", "url": null},
+      {"label": "Kira tespiti ve uyarlama", "url": null},
+      {"label": "Bildirim ve tebligat", "url": null}
+    ],
+    "category": "Kira Hukuku",
+    "homeSummary": "Temerrüt, tahliye, iki haklı ihtar ve kira ilişkisinin sona ermesi",
+    "homeArrow": "Kira dosyasına gir →"
+  },
+  "bilisim": {
+    "name": "Bilişim Hukuku",
+    "slug": "bilisim-hukuku",
+    "url": "/bilisim-hukuku/",
+    "navGroup": "digital",
+    "seoTitle": "Bilişim Hukuku | Dijital Delil, IP, CGNAT, CMK 134 ve NCMEC",
+    "description": "NCMEC/CyberTipline, IP ve CGNAT kayıtları, CMK 134, adli imaj, hash, bilirkişi raporları ve dijital delilin hukuki değerlendirilmesi.",
+    "alternateTr": "https://ozanferhatsen.com.tr/bilisim-hukuku/",
+    "h1": "Dijital dosyada teknik kayıt ile hukuki sonucu birbirinden ayırmak",
+    "intro": "Dijital dosyada bir kaydın bulunması ile o kaydın belirli bir kişiye hukuken bağlanması aynı mesele değildir. Platform bildirimi, IP ve CGNAT verileri, cihaz incelemesi, adli imaj, hash ve bilirkişi raporları teknik anlamları korunarak birlikte değerlendirilmelidir.",
+    "riskMapTitle": "Dijital dosyada teknik kayıt ile hukuki sonuç nasıl ayrılır?",
+    "riskMapIntro": "Dijital delilin gücü yalnız kaydın varlığına değil; nasıl elde edildiğine, hangi cihaz veya hesapla bağlantı kurduğuna, veri bütünlüğüne ve zaman kayıtlarının birbiriyle uyumuna bağlıdır.",
+    "risks": [
+      {"title": "Platform kaydı doğrudan kişiye bağlandığında", "text": "Hesap, bildirim veya içerik kaydı tek başına gerçek kullanıcıyı göstermeyebilir; hesap sahipliği ile fiilî kullanım ayrıştırılmalıdır."},
+      {"title": "IP adresi tek başına fail sayıldığında", "text": "Abonelik bilgisi, ortak ağ, CGNAT ve kaynak port kayıtları değerlendirilmeden IP kaydından kişisel kullanım sonucu çıkarılması eksik olabilir."},
+      {"title": "Cihaz incelemesinin yöntemi belirsiz olduğunda", "text": "Arama, kopyalama, el koyma, imaj alma ve hash doğrulaması aynı işlem değildir; hukuka uygunluk ve veri bütünlüğü ayrı ayrı sınanır."},
+      {"title": "Silinmiş veya yurt dışı veri bağlamdan koparıldığında", "text": "Kurtarılan dosyanın konumu, metadata ve platformdan gelen kayıtların kapsamı bilinmeden delilin neyi gösterdiği doğru değerlendirilemeyebilir."}
+    ],
+    "problems": [
+      {
+        "title": "Bir dijital kayıt kişiyi ne zaman gerçekten dosyaya bağlar?",
+        "text": "Hesap adı, e-posta, telefon numarası veya IP kaydı farklı seviyelerde bağlantı kurar. Fail tespiti için zaman, cihaz, ağ ve kullanıcı davranışı verilerinin birbirini destekleyip desteklemediği incelenmelidir.",
+        "points": ["Hesap bilgisi ile gerçek kullanıcı arasındaki bağ", "IP, CGNAT, kaynak port ve zaman kayıtlarının eşleştirilmesi", "Cihaz ve dosya konumunun kullanıcı faaliyetiyle ilişkilendirilmesi"]
+      },
+      {
+        "title": "Telefon ve bilgisayar incelemesinde delil güvenilirliği nerede sınanır?",
+        "text": "Dijital verinin içeriği kadar elde edilme ve korunma yöntemi de önemlidir. CMK 134 kapsamındaki işlem, adli imaj, hash değeri ve inceleme zinciri hukuka uygunluk ile veri bütünlüğü bakımından birlikte değerlendirilmelidir.",
+        "points": ["Arama, kopyalama ve el koyma işlemlerinin dayanağı", "İmaj alma ve hash doğrulamasının kayıt altına alınması", "İnceleme raporunun kaynak veriyle denetlenebilir olması"]
+      },
+      {
+        "title": "Platform bildirimi ve bilirkişi raporu hangi noktada yetersiz kalabilir?",
+        "text": "NCMEC/CyberTipline bildirimi veya bilirkişi raporu önemli delil kaynakları olabilir; ancak bunların neyi doğrudan gösterdiği ve hangi ek bağlantılara ihtiyaç duyduğu somut dosyada ayrıştırılmalıdır.",
+        "points": ["Platform verisinin içerik, trafik ve hesap bilgisi olarak ayrılması", "Bilirkişi raporundaki teknik kabul ve eksik incelemelerin denetlenmesi", "Silinmiş veri veya yurt dışı kaydın bağlam ve bütünlük kontrolü"]
+      }
+    ],
+    "ctaTitle": "Bilişim dosyanız belge üzerinden değerlendirilsin",
+    "ctaText": "Soruşturma evrakı, NCMEC veya platform kayıtları, IP/CGNAT verileri, imaj ve hash tutanakları, bilirkişi raporları ve ilgili dijital sözleşmeler birlikte incelenebilir.",
+    "topics": [
+      {"label": "NCMEC ve CyberTipline", "url": "/makaleler/ncmec-raporu-nedir-turkiyede-sorusturma/"},
+      {"label": "IP, CGNAT ve kaynak port", "url": "/makaleler/cgnat-kaynak-port-kaydi-nedir-fail-tespiti/"},
+      {"label": "CMK 134", "url": "/makaleler/cmk-134-bilgisayar-telefon-arama-kopyalama-el-koyma/"},
+      {"label": "Adli imaj ve hash", "url": "/makaleler/adli-imaj-hash-degeri-nedir-dijital-delil-degistirildi-mi/"},
+      {"label": "Bilirkişi raporuna itiraz", "url": "/makaleler/adli-bilisim-bilirkisi-raporuna-itiraz-hash-imaj-delil-butunlugu/"},
+      {"label": "Silinmiş dosya ve mesajlar", "url": "/makaleler/silinmis-dosya-mesajlar-dijital-delil-ceza-davasi/"},
+      {"label": "Yurt dışı platform kayıtları", "url": "/makaleler/yurt-disi-sosyal-medya-platform-ip-hesap-bilgileri-temini/"}
+    ],
+    "category": "Bilişim Hukuku",
+    "homeSummary": "Dijital delil, NCMEC, IP/CGNAT, adli imaj, hash ve teknik kayıtların hukuki analizi",
+    "homeArrow": "Bilişim dosyasına gir →"
+  }
+}

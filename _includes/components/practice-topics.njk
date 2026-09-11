@@ -1,0 +1,17 @@
+<section class="section practice-topics-section" aria-labelledby="{{ practiceKey }}-ilgili-basliklar">
+  <div class="wrap">
+    <div class="practice-section-title">
+      <div class="eyebrow">İlgili Başlıklar</div>
+      <h2 id="{{ practiceKey }}-ilgili-basliklar">{{ area.name }} içinde sık kesişen konular</h2>
+    </div>
+    <div class="topic-list">
+      {% for topic in area.topics %}
+        {% if topic.url %}
+        <a class="topic-chip" href="{{ topic.url }}">{{ topic.label }}</a>
+        {% else %}
+        <span class="topic-chip">{{ topic.label }}</span>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>

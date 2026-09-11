@@ -1,9 +1,5 @@
 ---
 layout: base.njk
-title: "İnşaat Hukuku Avukatı | Sözleşme, Ayıp ve Teminat"
-description: "İnşaat hukuku; kat karşılığı inşaat sözleşmeleri, yüklenici borçları, teslim, eksik ve ayıplı iş, teminat ve tapu devri üzerine hukuki değerlendirmeler."
-alternate_tr: "https://ozanferhatsen.com.tr/insaat-hukuku/"
-alternate_en: "https://ozanferhatsen.com.tr/en/construction-law-turkey/"
+practiceKey: insaat
 ---
-<section class="page-hero"><div class="wrap"><div class="breadcrumbs"><a href="/">Ana Sayfa</a> / İnşaat Hukuku</div><div class="eyebrow">İnşaat Hukuku</div><h1>İnşaat projelerinde sözleşme ve risk yönetimi</h1><p class="page-lead">İnşaat uyuşmazlıklarında asıl mücadele çoğu zaman sözleşmenin ne dediği, işin nasıl teslim edildiği ve yüklenicinin hangi güvenceleri verdiği üzerinden yürür.</p></div></section>
-<section class="section"><div class="wrap content-grid"><article class="prose"><h2>Kat karşılığı inşaat sözleşmeleri</h2><p>Arsa sahibinin tapu devri yükümlülüğü ile yüklenicinin inşaat ve teslim borcu arasında kurulacak denge, projenin en önemli güvenlik mekanizmalarındandır.</p><h2>Eksik iş ve ayıplı iş</h2><p>Teslim edilen yapının sözleşme ve teknik şartnameye uygunluğu, eksik iş ile ayıplı iş ayrımı ve bunlara bağlanan talepler ayrı hukuki sonuçlar doğurabilir.</p><h2>Teminat ve gecikme</h2><p>Teminatın türü, kapsamı, süresi ve hangi koşulda kullanılabileceği kadar gecikme halinde uygulanacak yaptırımlar da sözleşmede açık kurulmalıdır.</p><div class="cta-box"><h2>Sözleşmeyi imzalamadan önce zayıf noktaları görün</h2><p>Kat karşılığı inşaat sözleşmesi, teknik şartname, teminat ve tapu devri planı birlikte değerlendirilebilir.</p><a class="btn primary" href="/iletisim/">İletişim</a></div></article><aside class="sidebar"><div class="sidebox"><h3>İlgili başlıklar</h3><ul class="list-clean"><li>Kat karşılığı inşaat</li><li>Teknik şartname</li><li>Eksik iş</li><li>Ayıplı iş</li><li>Teminat</li></ul></div><div class="sidebox"><h3>İlgili makaleler</h3>{% set posts = collections.makaleler | byCategory('İnşaat Hukuku') %}<ul class="list-clean">{% for post in posts | limit(8) %}<li><a href="{{ post.url }}">{{ post.data.title }}</a></li>{% endfor %}</ul></div></aside></div></section>
+{% include "practice-area.njk" %}

@@ -1,0 +1,62 @@
+.practice-hero{padding:84px 0 72px;border-bottom:1px solid var(--line);background:linear-gradient(180deg,var(--surface),var(--bg))}
+.practice-hero .breadcrumbs{margin-bottom:34px;font-size:12px;color:var(--muted)}
+.practice-hero .breadcrumbs a{border-bottom:1px solid transparent}.practice-hero .breadcrumbs a:hover{border-bottom-color:var(--muted)}
+.practice-label{display:grid;gap:5px;margin-bottom:17px}
+.practice-name{font-family:'Cormorant Garamond',Georgia,serif;font-size:25px;line-height:1.05;font-weight:600}
+.practice-hero h1{max-width:1040px;margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(48px,6vw,76px);line-height:.98;letter-spacing:-.035em;font-weight:500}
+.practice-hero .page-lead{max-width:820px;margin:24px 0 0;font-size:18px;line-height:1.65;color:var(--muted)}
+.practice-risk-map .section-head{align-items:start}
+.risk-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.risk-card{padding:20px 6px 0 0;border-top:1px solid var(--ink)}
+.risk-index,.problem-number{font-size:11px;line-height:1.4;letter-spacing:.14em;color:var(--accent);font-weight:600}
+.risk-card h3{margin:15px 0 10px;font-family:'Cormorant Garamond',Georgia,serif;font-size:29px;line-height:1.08;font-weight:600}
+.risk-card p{margin:0;color:var(--muted);font-size:14px;line-height:1.62}
+.practice-problems>.wrap>.eyebrow{margin-bottom:18px}
+.problem-list{border-top:1px solid var(--line)}
+.problem-block{display:grid;grid-template-columns:150px minmax(0,1fr);gap:48px;padding:44px 0;border-bottom:1px solid var(--line)}
+.problem-number{padding-top:8px;color:var(--muted)}
+.problem-body h2{max-width:900px;margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(36px,4.2vw,56px);line-height:1.02;letter-spacing:-.026em;font-weight:500}
+.problem-body>p{max-width:820px;margin:18px 0 0;color:var(--muted);font-size:16px;line-height:1.68}
+.problem-points{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;list-style:none;padding:0;margin:28px 0 0}
+.problem-points li{padding:15px 16px;border:1px solid var(--line);background:rgba(255,255,255,.28);font-size:13px;line-height:1.55}
+.practice-cta-section{padding:74px 0}
+.practice-cta{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:50px;align-items:end;padding:40px;background:var(--dark);color:#f5f1eb}
+.practice-cta .eyebrow{color:#c8a87b}
+.practice-cta h2{max-width:820px;margin:9px 0 0;font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(36px,4.5vw,58px);line-height:1.02;letter-spacing:-.026em;font-weight:500}
+.practice-cta p{max-width:800px;margin:18px 0 0;color:#beb7af}
+.practice-cta .btn.primary{border-color:#f5f1eb;background:#f5f1eb;color:var(--dark);white-space:nowrap}
+.practice-topics-section{padding-top:20px}
+.practice-section-title{max-width:840px;margin-bottom:27px}
+.practice-section-title h2{margin:8px 0 0;font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(34px,4vw,50px);line-height:1.03;letter-spacing:-.025em;font-weight:500}
+.topic-list{display:flex;gap:10px;flex-wrap:wrap}
+.topic-chip{display:inline-flex;align-items:center;min-height:42px;padding:9px 14px;border:1px solid var(--line);background:rgba(255,255,255,.28);font-size:13px}
+a.topic-chip:hover{border-color:var(--ink);background:rgba(255,255,255,.55)}
+.practice-articles .article-card{min-height:300px}
+.section.dark.practice-areas .grid4{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:1000px){
+  .risk-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .problem-block{grid-template-columns:100px minmax(0,1fr);gap:32px}
+  .problem-points{grid-template-columns:1fr}
+  .section.dark.practice-areas .grid4{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:760px){
+  .practice-hero{padding:56px 0 50px}
+  .practice-hero .breadcrumbs{margin-bottom:26px}
+  .practice-name{font-size:22px}
+  .practice-hero h1{font-size:clamp(40px,12vw,52px)}
+  .practice-hero .page-lead{font-size:16px;margin-top:20px}
+  .risk-grid{grid-template-columns:1fr;gap:26px}
+  .risk-card h3{font-size:27px}
+  .problem-block{grid-template-columns:1fr;gap:13px;padding:34px 0}
+  .problem-number{padding-top:0}
+  .problem-body h2{font-size:38px}
+  .problem-body>p{font-size:15px}
+  .problem-points{margin-top:22px}
+  .practice-cta-section{padding:54px 0}
+  .practice-cta{grid-template-columns:1fr;gap:28px;padding:28px}
+  .practice-cta h2{font-size:40px}
+  .practice-topics-section{padding-top:8px}
+  .topic-list{display:grid;grid-template-columns:1fr}
+  .topic-chip{width:100%}
+  .section.dark.practice-areas .grid4{grid-template-columns:1fr}
+}

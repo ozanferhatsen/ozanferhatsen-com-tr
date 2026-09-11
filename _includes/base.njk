@@ -1,85 +1,48 @@
+{% set currentPractice = false %}
+{% if practiceKey and practiceAreas[practiceKey] %}
+  {% set currentPractice = practiceAreas[practiceKey] %}
+{% endif %}
+{% set resolvedTitle = seo_title or title or site.name %}
+{% set resolvedDescription = description or site.description %}
+{% set resolvedAlternateTr = alternate_tr %}
+{% set resolvedAlternateEn = alternate_en %}
+{% if currentPractice %}
+  {% set resolvedTitle = currentPractice.seoTitle %}
+  {% set resolvedDescription = currentPractice.description %}
+  {% set resolvedAlternateTr = currentPractice.alternateTr %}
+  {% set resolvedAlternateEn = currentPractice.alternateEn %}
+{% endif %}
 <!doctype html>
 <html lang="{{ lang or 'tr' }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ seo_title or title or site.name }}</title>
-  <meta name="description" content="{{ description or site.description }}">
+  <title>{{ resolvedTitle }}</title>
+  <meta name="description" content="{{ resolvedDescription }}">
   <meta name="robots" content="{{ robots or 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1' }}">
   <link rel="canonical" href="{{ canonical or (site.url + page.url) }}">
-  {% if alternate_tr %}<link rel="alternate" hreflang="tr" href="{{ alternate_tr }}">{% endif %}
-  {% if alternate_en %}<link rel="alternate" hreflang="en" href="{{ alternate_en }}">{% endif %}
-  {% if alternate_tr or alternate_en %}<link rel="alternate" hreflang="x-default" href="{{ alternate_en or alternate_tr }}">{% endif %}
+  {% if resolvedAlternateTr %}<link rel="alternate" hreflang="tr" href="{{ resolvedAlternateTr }}">{% endif %}
+  {% if resolvedAlternateEn %}<link rel="alternate" hreflang="en" href="{{ resolvedAlternateEn }}">{% endif %}
+  {% if resolvedAlternateTr or resolvedAlternateEn %}<link rel="alternate" hreflang="x-default" href="{{ resolvedAlternateEn or resolvedAlternateTr }}">{% endif %}
   {% if lang == 'en' %}<meta property="og:locale" content="en_US">{% else %}<meta property="og:locale" content="tr_TR">{% endif %}
   <meta property="og:type" content="{{ og_type or 'website' }}">
   <meta property="og:site_name" content="{{ site.name }} | {{ site.brand }}">
-  <meta property="og:title" content="{{ seo_title or title or site.name }}">
-  <meta property="og:description" content="{{ description or site.description }}">
+  <meta property="og:title" content="{{ resolvedTitle }}">
+  <meta property="og:description" content="{{ resolvedDescription }}">
   <meta property="og:url" content="{{ canonical or (site.url + page.url) }}">
   {% if image %}<meta property="og:image" content="{{ site.url }}{{ image }}">{% endif %}
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{{ seo_title or title or site.name }}">
-  <meta name="twitter:description" content="{{ description or site.description }}">
+  <meta name="twitter:title" content="{{ resolvedTitle }}">
+  <meta name="twitter:description" content="{{ resolvedDescription }}">
   <link rel="stylesheet" href="/assets/styles.css">
   <link rel="stylesheet" href="/assets/hero-fix.css">
+  {% if currentPractice %}<link rel="stylesheet" href="/assets/practice-areas.css">{% endif %}
   {% if page_css %}<link rel="stylesheet" href="{{ page_css }}">{% endif %}
   {% if schema %}<script type="application/ld+json">{{ schema | safe }}</script>{% endif %}
-  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://ozanferhatsen.com.tr/#ozan-ferhat-sen","name":"Ozan Ferhat Şen","url":"https://ozanferhatsen.com.tr/hakkimda/","jobTitle":"Avukat","alumniOf":[{"@type":"CollegeOrUniversity","name":"Dicle Üniversitesi Hukuk Fakültesi"},{"@type":"CollegeOrUniversity","name":"İstanbul Üniversitesi Sosyal Bilimler Enstitüsü"}]},{"@type":"LegalService","@id":"https://ozanferhatsen.com.tr/#hukuk-departmani","name":"Av. Ozan Ferhat Şen | Hukuk Departmanı","url":"https://ozanferhatsen.com.tr/","telephone":{{ site.phoneHref | json }},"email":{{ site.email | json }},"founder":{"@id":"https://ozanferhatsen.com.tr/#ozan-ferhat-sen"},"address":{"@type":"PostalAddress","streetAddress":{{ site.address | json }},"addressLocality":{{ site.district | json }},"addressRegion":{{ site.city | json }},"addressCountry":"TR"},"areaServed":"Türkiye","knowsAbout":["İmar Hukuku","Kentsel Dönüşüm Hukuku","İnşaat Hukuku","Gayrimenkul Hukuku","Kira Hukuku"]},{"@type":"WebSite","@id":"https://ozanferhatsen.com.tr/#website","name":"Av. Ozan Ferhat Şen | Hukuk Departmanı","url":"https://ozanferhatsen.com.tr/","publisher":{"@id":"https://ozanferhatsen.com.tr/#hukuk-departmani"},"inLanguage":["tr-TR","en"]}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://ozanferhatsen.com.tr/#ozan-ferhat-sen","name":"Ozan Ferhat Şen","url":"https://ozanferhatsen.com.tr/hakkimda/","jobTitle":"Avukat","alumniOf":[{"@type":"CollegeOrUniversity","name":"Dicle Üniversitesi Hukuk Fakültesi"},{"@type":"CollegeOrUniversity","name":"İstanbul Üniversitesi Sosyal Bilimler Enstitüsü"}]},{"@type":"LegalService","@id":"https://ozanferhatsen.com.tr/#hukuk-departmani","name":"Av. Ozan Ferhat Şen | Hukuk Departmanı","url":"https://ozanferhatsen.com.tr/","telephone":{{ site.phoneHref | json }},"email":{{ site.email | json }},"founder":{"@id":"https://ozanferhatsen.com.tr/#ozan-ferhat-sen"},"address":{"@type":"PostalAddress","streetAddress":{{ site.address | json }},"addressLocality":{{ site.district | json }},"addressRegion":{{ site.city | json }},"addressCountry":"TR"},"areaServed":"Türkiye","knowsAbout":[{% for key, area in practiceAreas %}{{ area.name | json }}{% if not loop.last %},{% endif %}{% endfor %}]},{"@type":"WebSite","@id":"https://ozanferhatsen.com.tr/#website","name":"Av. Ozan Ferhat Şen | Hukuk Departmanı","url":"https://ozanferhatsen.com.tr/","publisher":{"@id":"https://ozanferhatsen.com.tr/#hukuk-departmani"},"inLanguage":["tr-TR","en"]}]}</script>
 </head>
 <body>
-<header class="site-header">
-  <div class="wrap nav">
-    {% if lang == 'en' %}
-    <nav class="nav-links" id="menu" aria-label="Main navigation">
-      <details class="nav-dropdown">
-        <summary>Practice Areas</summary>
-        <div class="mega-menu">
-          <div class="mega-column">
-            <div class="mega-label">Property &amp; Development</div>
-            <a href="/en/real-estate-law-turkey/">Real Estate Law</a>
-            <a href="/en/zoning-planning-law-turkey/">Zoning &amp; Planning Law</a>
-            <a href="/en/urban-transformation-law-turkey/">Urban Transformation</a>
-            <a href="/en/construction-law-turkey/">Construction Law</a>
-          </div>
-          <div class="mega-column">
-            <div class="mega-label">International Clients</div>
-            <a href="/en/#guides">Practical Guides</a>
-            <a href="/en/about/">About Ozan Ferhat Şen</a>
-            <a href="/">Türkçe</a>
-          </div>
-        </div>
-      </details>
-      <a href="/en/#guides">Guides</a>
-      <a href="/en/about/">About</a>
-      <a href="/">Türkçe <span>TR</span></a>
-    </nav>
-    <a class="nav-cta" href="https://wa.me/905543398209">Contact in English</a>
-    {% else %}
-    <a class="home-link" href="/" aria-label="Ana sayfaya dön">← Ana Sayfa</a>
-    <nav class="nav-links" id="menu" aria-label="Ana menü">
-      <details class="nav-dropdown">
-        <summary>Çalışma Alanları</summary>
-        <div class="mega-menu">
-          <div class="mega-column">
-            <div class="mega-label">Gayrimenkul &amp; Yapı</div>
-            <a href="/imar-hukuku/">İmar Hukuku</a>
-            <a href="/kentsel-donusum-hukuku/">Kentsel Dönüşüm</a>
-            <a href="/insaat-hukuku/">İnşaat Hukuku</a>
-            <a href="/gayrimenkul-hukuku/">Gayrimenkul Hukuku</a>
-            <a href="/kira-hukuku/">Kira Hukuku</a>
-          </div>
-        </div>
-      </details>
-      <a href="/makaleler/">Makaleler</a>
-      <a href="/ictihat/">İçtihatlar</a>
-      <a href="/hakkimda/">Hakkımda</a>
-      <a class="international-link" href="/en/">International <span>EN</span></a>
-    </nav>
-    <a class="nav-cta" href="/iletisim/">İletişim</a>
-    {% endif %}
-    <button class="menu-btn" aria-label="{% if lang == 'en' %}Open menu{% else %}Menüyü aç{% endif %}" aria-controls="menu" aria-expanded="false" data-menu>☰</button>
-  </div>
-</header>
+{% include "components/site-header.njk" %}
 
 {% set tasinmazHgkUrls = [
   '/ictihat/yargitay-hukuk-genel-kurulu-2019-13-470-2022-66-konut-acik-ayip-ihbari/',
@@ -115,30 +78,7 @@
   {% endif %}
 </main>
 
-{% if lang == 'en' %}
-<footer class="footer">
-  <div class="wrap footer-grid">
-    <div><div class="brand-main">Ozan Ferhat Şen, Attorney at Law</div><div class="brand-sub">Real Estate · Zoning · Construction · Urban Transformation</div><p>Legal assessment and transaction support for property owners, buyers and investors dealing with Turkish real estate, zoning, construction and urban transformation matters.</p></div>
-    <div><h4>Practice Areas</h4><p><a href="/en/real-estate-law-turkey/">Real Estate Law</a></p><p><a href="/en/zoning-planning-law-turkey/">Zoning &amp; Planning Law</a></p><p><a href="/en/urban-transformation-law-turkey/">Urban Transformation</a></p><p><a href="/en/construction-law-turkey/">Construction Law</a></p><p><a href="/en/#guides">Practical Guides</a></p></div>
-    <div><h4>Contact in English</h4><p><a href="https://wa.me/905543398209">WhatsApp: +90 554 339 82 09</a></p><p><a href="tel:+905543398209">Phone: +90 554 339 82 09</a></p><p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p><p>{{ site.address }}</p><p><a href="/">Türkçe site</a></p></div>
-  </div>
-  <div class="wrap bottom"><span>© 2026 Ozan Ferhat Şen, Attorney at Law</span><span><a href="/gizlilik/">Privacy</a> · <a href="/sitemap.xml">Sitemap</a></span></div>
-</footer>
-{% else %}
-<footer class="footer">
-  <div class="wrap footer-grid">
-    <div>
-      <div class="brand-main">Av. Ozan Ferhat Şen</div>
-      <p>İmar, kentsel dönüşüm, inşaat ve gayrimenkul hukukunda sözleşme inceleme ve hukuki danışmanlık hizmetleri.</p>
-      <p><a href="/hakkimda/">Hakkımda →</a></p>
-    </div>
-    <div><h4>Çalışma alanları</h4><p><a href="/imar-hukuku/">İmar Hukuku</a></p><p><a href="/kentsel-donusum-hukuku/">Kentsel Dönüşüm</a></p><p><a href="/insaat-hukuku/">İnşaat Hukuku</a></p><p><a href="/gayrimenkul-hukuku/">Gayrimenkul Hukuku</a></p><p><a href="/kira-hukuku/">Kira Hukuku</a></p></div>
-    <div><h4>İçerikler</h4><p><a href="/makaleler/">Makaleler</a></p><p><a href="/ictihat/">İçtihatlar</a></p><p><a href="/hukuki-gelismeler/">Hukuki Gelişmeler</a></p></div>
-    <div><h4>İletişim</h4><p><a href="tel:{{ site.phoneHref }}">{{ site.phone }}</a></p><p><a href="{{ site.whatsapp }}">WhatsApp</a></p><p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p><p>{{ site.address }}</p></div>
-  </div>
-  <div class="wrap bottom"><span>© 2026 Av. Ozan Ferhat Şen</span><span><a href="/en/">International / English</a> · <a href="/gizlilik/">Gizlilik</a> · <a href="/sitemap.xml">Site Haritası</a></span></div>
-</footer>
-{% endif %}
+{% include "components/site-footer.njk" %}
 <script src="/assets/site.js"></script>
 </body>
 </html>

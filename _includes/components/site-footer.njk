@@ -1,0 +1,59 @@
+{% if lang == 'en' %}
+<footer class="footer">
+  <div class="wrap footer-grid">
+    <div>
+      <div class="brand-main">Ozan Ferhat Şen, Attorney at Law</div>
+      <div class="brand-sub">Real Estate · Zoning · Construction · Urban Transformation</div>
+      <p>Legal assessment and transaction support for property owners, buyers and investors dealing with Turkish real estate, zoning, construction and urban transformation matters.</p>
+    </div>
+    <div>
+      <h4>Practice Areas</h4>
+      {% for key, area in practiceAreas %}
+        {% if area.enName and area.alternateEn %}
+        <p><a href="{{ area.alternateEn | replace(site.url, '') }}">{{ area.enName }}</a></p>
+        {% endif %}
+      {% endfor %}
+      <p><a href="/en/#guides">Practical Guides</a></p>
+    </div>
+    <div>
+      <h4>Contact in English</h4>
+      <p><a href="https://wa.me/905543398209">WhatsApp: +90 554 339 82 09</a></p>
+      <p><a href="tel:+905543398209">Phone: +90 554 339 82 09</a></p>
+      <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      <p>{{ site.address }}</p>
+      <p><a href="/">Türkçe site</a></p>
+    </div>
+  </div>
+  <div class="wrap bottom"><span>© 2026 Ozan Ferhat Şen, Attorney at Law</span><span><a href="/gizlilik/">Privacy</a> · <a href="/sitemap.xml">Sitemap</a></span></div>
+</footer>
+{% else %}
+<footer class="footer">
+  <div class="wrap footer-grid">
+    <div>
+      <div class="brand-main">Av. Ozan Ferhat Şen</div>
+      <p>İmar, kentsel dönüşüm, inşaat ve gayrimenkul hukukunda sözleşme inceleme ve hukuki danışmanlık hizmetleri.</p>
+      <p><a href="/hakkimda/">Hakkımda →</a></p>
+    </div>
+    <div>
+      <h4>Çalışma alanları</h4>
+      {% for key, area in practiceAreas %}
+      <p><a href="{{ area.url }}">{{ area.name }}</a></p>
+      {% endfor %}
+    </div>
+    <div>
+      <h4>İçerikler</h4>
+      <p><a href="/makaleler/">Makaleler</a></p>
+      <p><a href="/ictihat/">İçtihatlar</a></p>
+      <p><a href="/hukuki-gelismeler/">Hukuki Gelişmeler</a></p>
+    </div>
+    <div>
+      <h4>İletişim</h4>
+      <p><a href="tel:{{ site.phoneHref }}">{{ site.phone }}</a></p>
+      <p><a href="{{ site.whatsapp }}">WhatsApp</a></p>
+      <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      <p>{{ site.address }}</p>
+    </div>
+  </div>
+  <div class="wrap bottom"><span>© 2026 Av. Ozan Ferhat Şen</span><span><a href="/en/">International / English</a> · <a href="/gizlilik/">Gizlilik</a> · <a href="/sitemap.xml">Site Haritası</a></span></div>
+</footer>
+{% endif %}

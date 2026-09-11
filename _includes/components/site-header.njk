@@ -1,0 +1,62 @@
+<header class="site-header">
+  <div class="wrap nav">
+    {% if lang == 'en' %}
+    <nav class="nav-links" id="menu" aria-label="Main navigation">
+      <details class="nav-dropdown">
+        <summary>Practice Areas</summary>
+        <div class="mega-menu">
+          <div class="mega-column">
+            <div class="mega-label">Property &amp; Development</div>
+            {% for key, area in practiceAreas %}
+              {% if area.enName and area.alternateEn %}
+              <a href="{{ area.alternateEn | replace(site.url, '') }}">{{ area.enName }}</a>
+              {% endif %}
+            {% endfor %}
+          </div>
+          <div class="mega-column">
+            <div class="mega-label">International Clients</div>
+            <a href="/en/#guides">Practical Guides</a>
+            <a href="/en/about/">About Ozan Ferhat Şen</a>
+            <a href="/">Türkçe</a>
+          </div>
+        </div>
+      </details>
+      <a href="/en/#guides">Guides</a>
+      <a href="/en/about/">About</a>
+      <a href="/">Türkçe <span>TR</span></a>
+    </nav>
+    <a class="nav-cta" href="https://wa.me/905543398209">Contact in English</a>
+    {% else %}
+    <a class="home-link" href="/" aria-label="Ana sayfaya dön">← Ana Sayfa</a>
+    <nav class="nav-links" id="menu" aria-label="Ana menü">
+      <details class="nav-dropdown">
+        <summary>Çalışma Alanları</summary>
+        <div class="mega-menu">
+          <div class="mega-column">
+            <div class="mega-label">Gayrimenkul &amp; Yapı</div>
+            {% for key, area in practiceAreas %}
+              {% if area.navGroup == 'property' %}
+              <a href="{{ area.url }}">{{ area.name }}</a>
+              {% endif %}
+            {% endfor %}
+          </div>
+          <div class="mega-column">
+            <div class="mega-label">Dijital Dosyalar</div>
+            {% for key, area in practiceAreas %}
+              {% if area.navGroup == 'digital' %}
+              <a href="{{ area.url }}">{{ area.name }}</a>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </details>
+      <a href="/makaleler/">Makaleler</a>
+      <a href="/ictihat/">İçtihatlar</a>
+      <a href="/hakkimda/">Hakkımda</a>
+      <a class="international-link" href="/en/">International <span>EN</span></a>
+    </nav>
+    <a class="nav-cta" href="/iletisim/">İletişim</a>
+    {% endif %}
+    <button class="menu-btn" aria-label="{% if lang == 'en' %}Open menu{% else %}Menüyü aç{% endif %}" aria-controls="menu" aria-expanded="false" data-menu>☰</button>
+  </div>
+</header>

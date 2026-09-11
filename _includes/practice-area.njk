@@ -1,0 +1,59 @@
+{% set area = practiceAreas[practiceKey] %}
+<section class="practice-hero">
+  <div class="wrap">
+    <div class="breadcrumbs"><a href="/">Ana Sayfa</a> / {{ area.name }}</div>
+    <div class="practice-label">
+      <span class="eyebrow">Çalışma Alanı</span>
+      <span class="practice-name">{{ area.name }}</span>
+    </div>
+    <h1>{{ area.h1 }}</h1>
+    <p class="page-lead">{{ area.intro }}</p>
+  </div>
+</section>
+
+<section class="section practice-risk-map">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Risk Haritası</div>
+        <h2>{{ area.riskMapTitle }}</h2>
+      </div>
+      <p>{{ area.riskMapIntro }}</p>
+    </div>
+    <div class="risk-grid">
+      {% for risk in area.risks %}
+      <article class="risk-card">
+        <div class="risk-index">0{{ loop.index }}</div>
+        <h3>{{ risk.title }}</h3>
+        <p>{{ risk.text }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section soft practice-problems">
+  <div class="wrap">
+    <div class="eyebrow">Üç Kritik Problem Kümesi</div>
+    <div class="problem-list">
+      {% for problem in area.problems %}
+      <article class="problem-block">
+        <div class="problem-number">0{{ loop.index }}</div>
+        <div class="problem-body">
+          <h2>{{ problem.title }}</h2>
+          <p>{{ problem.text }}</p>
+          <ul class="problem-points">
+            {% for point in problem.points %}
+            <li>{{ point }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% include "components/practice-cta.njk" %}
+{% include "components/practice-topics.njk" %}
+{% include "components/practice-articles.njk" %}
