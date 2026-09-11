@@ -10,7 +10,7 @@
       </div>
       <p>Somut alt sorunları belge, içtihat ve uygulama riski üzerinden ayrıntılı ele alan içerikler.</p>
     </div>
-    <div class="article-grid">
+    <div class="article-grid{% if relatedPosts.length < 3 %} article-grid-sparse{% endif %}">
       {% for post in relatedPosts %}
       <a class="article-card" href="{{ post.url }}">
         <div class="tag">{{ post.data.keyword or area.name }}</div>

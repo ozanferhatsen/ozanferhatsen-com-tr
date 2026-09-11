@@ -32,6 +32,8 @@
 .topic-chip{display:inline-flex;align-items:center;min-height:42px;padding:9px 14px;border:1px solid var(--line);background:rgba(255,255,255,.28);font-size:13px}
 a.topic-chip:hover{border-color:var(--ink);background:rgba(255,255,255,.55)}
 .practice-articles .article-card{min-height:300px}
+.practice-articles .article-grid-sparse{grid-template-columns:repeat(2,minmax(0,1fr));max-width:800px}
+.practice-articles .article-grid-sparse .article-card:only-child{grid-column:1/-1}
 .section.dark.practice-areas .grid4{grid-template-columns:repeat(3,minmax(0,1fr))}
 @media(max-width:1000px){
   .risk-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
@@ -58,5 +60,6 @@ a.topic-chip:hover{border-color:var(--ink);background:rgba(255,255,255,.55)}
   .practice-topics-section{padding-top:8px}
   .topic-list{display:grid;grid-template-columns:1fr}
   .topic-chip{width:100%}
+  .practice-articles .article-grid-sparse{grid-template-columns:1fr;max-width:none}
   .section.dark.practice-areas .grid4{grid-template-columns:1fr}
 }
