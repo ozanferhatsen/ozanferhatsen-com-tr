@@ -81,7 +81,39 @@
   </div>
 </header>
 
-<main>{{ content | safe }}</main>
+{% set tasinmazHgkUrls = [
+  '/ictihat/yargitay-hukuk-genel-kurulu-2019-13-470-2022-66-konut-acik-ayip-ihbari/',
+  '/ictihat/yargitay-hukuk-genel-kurulu-2019-13-825-2022-135-sosyal-donati-eksik-ifa/',
+  '/ictihat/yargitay-hukuk-genel-kurulu-2021-14-7-729-2022-165-harici-tasinmaz-satisi-tescil/',
+  '/ictihat/yargitay-hukuk-genel-kurulu-2018-402-2022-391-ucuncu-kisi-iyiniyet-tapu-iptali/',
+  '/ictihat/yargitay-hukuk-genel-kurulu-2019-3-751-2022-590-gec-teslim-cezai-sart/',
+  '/ictihat/yargitay-hukuk-genel-kurulu-2020-13-3-253-2022-624-kismi-dava-kesin-hukum/',
+  '/ictihat/yargitay-hukuk-genel-kurulu-2019-1-830-2022-653-vekil-hilesi-tapu-iptali/',
+  '/ictihat/yargitay-hukuk-genel-kurulu-2022-468-2022-700-yargi-yeri-belirlenmesi-direnme/',
+  '/ictihat/yargitay-hukuk-genel-kurulu-2019-349-2022-806-eksik-ifa-ayip-ihbari/',
+  '/ictihat/yargitay-hukuk-genel-kurulu-2020-13-3-305-2022-926-sosyal-donati-eksik-ifa/',
+  '/ictihat/yargitay-hukuk-genel-kurulu-2021-111-2022-959-sosyal-donati-eksik-ifa/',
+  '/ictihat/yargitay-hukuk-genel-kurulu-2020-246-2022-1033-ihtiyari-dava-arkadasligi/',
+  '/ictihat/yargitay-hukuk-genel-kurulu-2021-539-2022-1267-eksik-is-gizli-ayip/',
+  '/ictihat/yargitay-hukuk-genel-kurulu-2021-252-2022-1566-sebepsiz-zenginlesme-tasinmaz-satisi/',
+  '/ictihat/yargitay-hukuk-genel-kurulu-2021-965-2022-1567-maden-sahasi-kdv-ihtirazi-kayit/',
+  '/ictihat/yargitay-hukuk-genel-kurulu-2021-13-3-563-2022-1659-ihale-menfi-zarar/',
+  '/ictihat/yargitay-hukuk-genel-kurulu-2017-1031-2021-710-belediye-satisi-muhdesat-tazminat/',
+  '/ictihat/yargitay-hukuk-genel-kurulu-2017-13-3-2245-2021-880-ifaya-ekli-cezai-sart-ihtirazi-kayit/',
+  '/ictihat/yargitay-hukuk-genel-kurulu-2017-580-2020-97-gizli-ayip-saticinin-bilgisi/',
+  '/ictihat/yargitay-hukuk-genel-kurulu-2017-2618-2020-184-harici-satis-rayic-tmk-2/'
+] %}
+<main>
+  {{ content | safe }}
+  {% if page.url in tasinmazHgkUrls %}
+  <section class="section soft" aria-label="İlgili kapsamlı analiz">
+    <div class="wrap">
+      <div class="eyebrow">İlgili kapsamlı analiz</div>
+      <p style="max-width:900px;margin:10px 0 0"><a href="/makaleler/yargitay-hukuk-genel-kurulu-kararlari-tasinmaz-satisindan-dogan-uyusmazliklar/"><strong>Hukuk Genel Kurulu kararları ışığında taşınmaz satışından doğan uyuşmazlıklar →</strong></a></p>
+    </div>
+  </section>
+  {% endif %}
+</main>
 
 {% if lang == 'en' %}
 <footer class="footer">
