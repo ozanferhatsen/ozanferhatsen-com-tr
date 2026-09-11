@@ -65,6 +65,10 @@ og_type: article
     {% if image %}<p><img src="{{ image }}" alt="{{ image_alt or title }}" loading="eager" decoding="async" style="width:100%;height:auto"></p>{% endif %}
     {{ content | safe }}
 
+    {% if page.url == '/makaleler/yargitay-hukuk-genel-kurulu-kararlari-tasinmaz-satisindan-dogan-uyusmazliklar/' %}
+      {% include "hgk-tasinmaz-final-redaksiyon.njk" %}
+    {% endif %}
+
     {% if sources %}
     <section class="author-box"><h2>Kaynaklar ve hukuki dayanak</h2><ul>{% for source in sources %}<li>{% if source.url %}<a href="{{ source.url }}" rel="noopener">{{ source.name | sourceAttribution }}</a>{% else %}{{ source.name | sourceAttribution }}{% endif %}</li>{% endfor %}</ul></section>
     {% endif %}
