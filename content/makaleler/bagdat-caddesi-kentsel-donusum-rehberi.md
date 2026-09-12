@@ -2,7 +2,7 @@
 title: "Bağdat Caddesi Kentsel Dönüşüm Rehberi: Sözleşmeden Teslime 13 Kritik Başlık"
 slug: "bagdat-caddesi-kentsel-donusum-rehberi"
 date: "2026-09-09T02:18:00+03:00"
-updated: "2026-09-10T09:00:00+03:00"
+updated: "2026-09-12T14:24:00+03:00"
 category: "Kentsel Dönüşüm"
 category_url: "/kentsel-donusum-hukuku/"
 keyword: "Bağdat Caddesi Kentsel Dönüşüm"
@@ -169,6 +169,8 @@ Aksi halde teslim geciktiğinde herkes aynı cümleyi farklı okuyabilir.
 
 ## 13. Sözleşme, işler iyi giderken değil kötü giderse değer kazanır
 
+Taraflar iyi niyetliyken ayrıntılı bir sözleşmeye zaman ve para ayırmak bazen gereksiz bir masraf gibi görünebilir. **Oysa sözleşmenin gerçek değeri, iyi niyetin tek başına yetmediği gün ortaya çıkar.**
+
 Bir sözleşmenin gerçek stres testi şudur: Müteahhit finansman sıkıntısına düşerse, işi durdurursa, ruhsatı zamanında alamazsa veya inşaat yarım kalırsa maliklerin elinde ne vardır?
 
 Bu sorunun cevabı sözleşmede önceden kurulmalıdır:
@@ -201,13 +203,15 @@ Sözleşme taslağını tek başına okumak yerine mümkün olduğunca aşağıd
 
 Bu belgeler birbirinden kopuk hazırlanırsa çelişkiler başlar. Sözleşme bir yerde 150 m², liste başka yerde 145 m², avan proje farklı kat, teknik şartname farklı otopark düzeni söylüyorsa sorun daha temel atılmadan doğmuştur.
 
-## Bağdat Caddesi'nde kentsel dönüşüm sözleşmesi neden serinin ikinci adımıdır?
+## Sonuç
 
-Bu rehber dosyanın haritasını çıkarıyor. Bir sonraki bölümde artık doğrudan sözleşmenin içine gireceğiz:
+Bağdat Caddesi'nde kentsel dönüşümde amaç yalnızca daha yeni bir binaya geçmek değildir. Malikin bugün sahip olduğu hukuki ve ekonomik değerin; imar hakkından bağımsız bölümün konumuna, tapu devrinden teminata ve teslim koşullarına kadar yeni projede korunması gerekir.
+
+Bu rehber, dosyaya hangi başlıklardan bakılması gerektiğini gösteren ana çerçevedir. Somut sözleşme taslağını imzadan önce madde madde kontrol etmek isteyenler için bir sonraki okuma:
 
 [**Bağdat Caddesi'nde Kentsel Dönüşüm Sözleşmesi: İmzadan Önce Kontrol Edilecek 15 Madde →**](/makaleler/bagdat-caddesi-kentsel-donusum-sozlesmesi/)
 
-Orada bu 13 başlığı sözleşme maddelerine dönüştüreceğiz: taraflar, proje ekleri, metrekare, şerefiye, tapu devri, teminat, teknik şartname, süre, kira, cezai şart, mücbir sebep, teslim ve fesih.
+Belirli bir risk başlığına doğrudan geçmek isteyenler ayrıca [şerefiye, kat, cephe ve deniz manzarası](/makaleler/kentsel-donusum-serefiye-kat-cephe-deniz-manzarasi/), [müteahhide tapunun ne zaman devredileceği](/makaleler/kentsel-donusum-muteahhide-tapu-ne-zaman-devredilmeli/) ve [banka teminat mektubu](/makaleler/kentsel-donusum-banka-teminat-mektubu/) incelemelerine bakabilir.
 
 ## Sık sorulan sorular
 
