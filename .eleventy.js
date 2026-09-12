@@ -38,6 +38,18 @@ function visibleWordCount(value = "") {
   return text.split(" ").filter(Boolean).length;
 }
 
+function dateKey(value) {
+  if (!value) return "";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return String(value);
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Europe/Istanbul",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).format(date);
+}
+
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("assets");
@@ -62,6 +74,8 @@ export default function (eleventyConfig) {
     if (Number.isNaN(date.getTime())) return value;
     return date.toISOString();
   });
+
+  eleventyConfig.addFilter("sameDate", (value, other) => dateKey(value) === dateKey(other));
 
   eleventyConfig.addFilter("json", (value) => {
     const serialized = JSON.stringify(value)
