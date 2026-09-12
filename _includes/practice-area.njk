@@ -37,16 +37,29 @@
     <div class="eyebrow">Üç Kritik Problem Kümesi</div>
     <div class="problem-list">
       {% for problem in area.problems %}
+      {% set problemIndex = loop.index %}
       <article class="problem-block">
         <div class="problem-number">0{{ loop.index }}</div>
         <div class="problem-body">
           <h2>{{ problem.title }}</h2>
           <p>{{ problem.text }}</p>
-          <ul class="problem-points">
+          <div class="problem-points">
             {% for point in problem.points %}
-            <li>{{ point }}</li>
+              {% if accordionExplanations[practiceKey] and accordionExplanations[practiceKey][point] %}
+              <details class="problem-accordion" name="problem-{{ practiceKey }}-{{ problemIndex }}">
+                <summary>
+                  <span>{{ point }}</span>
+                  <span class="accordion-mark" aria-hidden="true"></span>
+                </summary>
+                <div class="accordion-content">
+                  <p>{{ accordionExplanations[practiceKey][point] }}</p>
+                </div>
+              </details>
+              {% else %}
+              <div class="problem-point-static">{{ point }}</div>
+              {% endif %}
             {% endfor %}
-          </ul>
+          </div>
         </div>
       </article>
       {% endfor %}
