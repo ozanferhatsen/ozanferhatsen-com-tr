@@ -17,8 +17,21 @@
 .problem-number{padding-top:8px;color:var(--muted)}
 .problem-body h2{max-width:900px;margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(36px,4.2vw,56px);line-height:1.02;letter-spacing:-.026em;font-weight:500}
 .problem-body>p{max-width:820px;margin:18px 0 0;color:var(--muted);font-size:16px;line-height:1.68}
-.problem-points{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;list-style:none;padding:0;margin:28px 0 0}
-.problem-points li{padding:15px 16px;border:1px solid var(--line);background:rgba(255,255,255,.28);font-size:13px;line-height:1.55}
+.problem-points{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:28px 0 0}
+.problem-point-static,.problem-accordion{border:1px solid var(--line);background:rgba(255,255,255,.28);font-size:13px;line-height:1.55}
+.problem-point-static{padding:15px 16px}
+.problem-accordion{min-width:0}
+.problem-accordion summary{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;padding:15px 16px;cursor:pointer;list-style:none;-webkit-tap-highlight-color:transparent}
+.problem-accordion summary::-webkit-details-marker{display:none}
+.problem-accordion summary::marker{display:none;content:""}
+.problem-accordion summary:hover{background:rgba(255,255,255,.32)}
+.problem-accordion summary:focus-visible{outline:2px solid var(--ink);outline-offset:-2px}
+.accordion-mark{position:relative;flex:0 0 14px;width:14px;height:14px;margin-top:3px}
+.accordion-mark::before,.accordion-mark::after{content:"";position:absolute;left:0;top:6px;width:14px;height:1px;background:currentColor;transition:transform .18s ease}
+.accordion-mark::after{transform:rotate(90deg)}
+.problem-accordion[open] .accordion-mark::after{transform:rotate(0deg)}
+.accordion-content{padding:0 16px 17px;border-top:1px solid var(--line)}
+.accordion-content p{margin:14px 0 0;color:var(--muted);font-size:13px;line-height:1.65}
 .practice-cta-section{padding:74px 0}
 .practice-cta{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:50px;align-items:end;padding:40px;background:var(--dark);color:#f5f1eb}
 .practice-cta .eyebrow{color:#c8a87b}
@@ -54,6 +67,8 @@ a.topic-chip:hover{border-color:var(--ink);background:rgba(255,255,255,.55)}
   .problem-body h2{font-size:38px}
   .problem-body>p{font-size:15px}
   .problem-points{margin-top:22px}
+  .problem-accordion summary,.problem-point-static{padding:16px}
+  .accordion-content{padding:0 16px 17px}
   .practice-cta-section{padding:54px 0}
   .practice-cta{grid-template-columns:1fr;gap:28px;padding:28px}
   .practice-cta h2{font-size:40px}
