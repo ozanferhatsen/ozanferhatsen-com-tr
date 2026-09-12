@@ -18,6 +18,25 @@
       {"order":13,"title":"Yurt Dışındaki Sosyal Medya ve İnternet Platformlarından IP ve Hesap Bilgileri Nasıl Temin Edilir?","url":"/makaleler/yurt-disi-sosyal-medya-platform-ip-hesap-bilgileri-temini/"}
     ]
   },
+  "kentsel-donusum-riskli-yapi-idari-surec": {
+    "title": "Kentsel Dönüşüm Hukuku: Riskli Yapı ve İdari Süreç",
+    "url": "/kentsel-donusum-hukuku/",
+    "items": [
+      {"order":1,"title":"Riskli Yapı Tespiti Nasıl Yapılır? Başvuru, Lisanslı Kuruluş, Karot ve Teknik İnceleme","url":"/makaleler/riskli-yapi-tespiti-nasil-yapilir/"},
+      {"order":2,"title":"Riskli Yapı Tespitine İtiraz ve İptal Davası"},
+      {"order":3,"title":"6306 Kapsamında Tebligat ve Bildirim Usulleri"},
+      {"order":4,"title":"Tapudaki Riskli Yapı Belirtmesi: Konulması, Etkisi ve Terkini"},
+      {"order":5,"title":"Riskli Yapı Tespiti Kesinleşmeden Malik Kararı veya Müteahhit Sözleşmesi Yapılabilir mi?"},
+      {"order":6,"title":"Riskli Yapının Tahliyesi ve Yıkımı: Süreler, Yetkili İdare ve Kolluk"},
+      {"order":7,"title":"Özel Statülü Yapılarda Dönüşüm: Ağır Hasarlı Yapılar ve Kültür Varlıkları"},
+      {"order":8,"title":"Aynı Parselde Birden Fazla Bina veya Site Bloğu Varsa Kentsel Dönüşüm"},
+      {"order":9,"title":"Kentsel Dönüşümde İdari Yetki Haritası: Başkanlık, Belediye, Vali ve Kaymakam"},
+      {"order":10,"title":"Riskli Yapı, Riskli Alan ve Rezerv Yapı Alanı Arasındaki Farklar"},
+      {"order":11,"title":"Riskli Alan ve Rezerv Yapı Alanı İlanı ile İmar Planlarının Yargısal Denetimi"},
+      {"order":12,"title":"6306, 5366 ve Belediye Kanunu m.73 Kapsamındaki Dönüşüm Rejimleri"},
+      {"order":13,"title":"Afet Bölgesinde Kentsel Dönüşüm ve 7471 Sayılı Kanun"}
+    ]
+  },
   "bagdat-caddesi-kentsel-donusum": {
     "title": "Bağdat Caddesi Kentsel Dönüşüm Dosyası",
     "url": "/kentsel-donusum-hukuku/#bagdat-caddesi-dosyasi",
