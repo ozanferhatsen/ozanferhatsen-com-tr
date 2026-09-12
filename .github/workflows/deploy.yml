@@ -36,28 +36,6 @@ jobs:
         run: |
           test -s assets/hero-office-family.png
           file assets/hero-office-family.png
-      - name: Report article reading times
-        run: |
-          npx eleventy
-          node --input-type=module <<'NODE'
-          import fs from 'node:fs';
-          import path from 'node:path';
-
-          const root = '_site/makaleler';
-          const rows = [];
-          for (const slug of fs.readdirSync(root)) {
-            const file = path.join(root, slug, 'index.html');
-            if (!fs.existsSync(file)) continue;
-            const html = fs.readFileSync(file, 'utf8');
-            const title = html.match(/<h1>([\s\S]*?)<\/h1>/i)?.[1]?.replace(/<[^>]+>/g, '').trim();
-            const words = html.match(/class="article-meta" data-word-count="(\d+)"/)?.[1];
-            const minutes = html.match(/class="article-meta"[^>]*>(\d+) dk okuma/)?.[1];
-            if (title && words && minutes) rows.push({ title, words: Number(words), minutes: Number(minutes) });
-          }
-          rows.sort((a, b) => b.words - a.words);
-          console.log(`READING_TIME_REPORT_COUNT=${rows.length}`);
-          for (const row of rows) console.log(`${row.words}\t${row.minutes} dk\t${row.title}`);
-          NODE
       - name: Build site and run SEO audit
         run: npm run build
       - name: Configure Pages
