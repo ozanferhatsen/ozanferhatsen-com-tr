@@ -59,7 +59,7 @@ og_type: article
     <div class="tag">{{ category }}{% if keyword %} · {{ keyword }}{% endif %}</div>
     <h1>{{ title }}</h1>
     <p class="article-summary">{{ summary }}</p>
-    <div class="article-meta" data-word-count="{{ articleWordCount }}">{{ articleReadingTime }} dk okuma · Yayın tarihi: {{ date | dateTR }}{% if updated and ((updated | isoDate) != (date | isoDate)) %} · Son güncelleme: {{ updated | dateTR }}{% endif %} · Av. Ozan Ferhat Şen</div>
+    <div class="article-meta" data-word-count="{{ articleWordCount }}">{{ articleReadingTime }} dk okuma · Yayın tarihi: {{ date | dateTR }}{% if updated %}{% if not (updated | sameDate(date)) %} · Son güncelleme: {{ updated | dateTR }}{% endif %}{% endif %} · Av. Ozan Ferhat Şen</div>
   </div>
 </section>
 <section class="wrap article-layout">
