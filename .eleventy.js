@@ -22,6 +22,22 @@ const sourceAttributions = [
   [/^Ali Rıza İlgezdi,/, "Av. Ali Rıza İlgezdi,"]
 ];
 
+const READING_WORDS_PER_MINUTE = 180;
+
+function visibleWordCount(value = "") {
+  const text = String(value)
+    .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, " ")
+    .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, " ")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;|&#160;/gi, " ")
+    .replace(/&[a-zA-Z0-9#]+;/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  if (!text) return 0;
+  return text.split(" ").filter(Boolean).length;
+}
+
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("assets");
@@ -61,6 +77,13 @@ export default function (eleventyConfig) {
       if (pattern.test(value)) return value.replace(pattern, replacement);
     }
     return value;
+  });
+
+  eleventyConfig.addFilter("wordCount", (value) => visibleWordCount(value));
+
+  eleventyConfig.addFilter("readingTime", (value) => {
+    const words = visibleWordCount(value);
+    return Math.max(1, Math.round(words / READING_WORDS_PER_MINUTE));
   });
 
   eleventyConfig.addFilter("byCategory", (items = [], category) =>
