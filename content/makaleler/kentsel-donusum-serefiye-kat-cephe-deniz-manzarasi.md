@@ -2,7 +2,7 @@
 title: "Kentsel Dönüşümde Şerefiye: Kat, Cephe ve Deniz Manzarası Nasıl Korunur?"
 slug: "kentsel-donusum-serefiye-kat-cephe-deniz-manzarasi"
 date: "2026-09-09T03:28:00+03:00"
-updated: "2026-09-09T03:28:00+03:00"
+updated: "2026-09-12T14:06:00+03:00"
 category: "Kentsel Dönüşüm"
 category_url: "/kentsel-donusum-hukuku/"
 keyword: "Kentsel Dönüşüm Şerefiye"
@@ -16,8 +16,12 @@ sources:
     url: "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.6098.pdf"
   - name: "634 sayılı Kat Mülkiyeti Kanunu."
     url: "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.634.pdf"
+  - name: "Tapu ve Kadastro Genel Müdürlüğü, 2021/4 Kat Mülkiyeti / Kat İrtifakı Genelgesi."
+    url: "https://www.tkgm.gov.tr/sites/default/files/2024-06/2021-4-Kat%20M%C3%BClkiyeti%20Kat%20%C4%B0rtifak%C4%B1-4.pdf"
   - name: "Prof. Dr. Erol Köktürk, ‘Satışların Karşılaştırılması (Emsal Karşılaştırma) Yöntemi: Kuram ve Uygulama Örneği’."
   - name: "Dr. Ahmet Büyükduman, ‘Bilgi Teknolojileri Ekseninde Konut Değerlemesi Kuram ve Uygulaması’."
+  - name: "Gayrimenkul değerleme raporlarında kat, cephe ve manzara kriterlerinin şerefiye analizinde kullanıldığı güncel uygulama örnekleri."
+    url: "https://kap.org.tr/en/api/file/download/4028328d9cc9d32c019d2f7e4b3a7fbb"
 ---
 
 [Bir önceki bölümde](/makaleler/bagdat-caddesi-kentsel-donusum-sozlesmesi/) kentsel dönüşüm sözleşmesini taraf, proje eki, metrekare, tapu devri, teminat ve teslim hükümleri üzerinden okuduk. Şimdi sözleşmenin en kolay rakama indirgenen ama en zor ölçülen kısmına geçiyoruz: **değer**.
@@ -73,6 +77,16 @@ Bağdat Caddesi ve çevresindeki yüksek değerli konutlarda, metrekare başına
 Bu nedenle maliklerin şu soruyu yalnız “kaç metrekare alıyorum?” diye kurması eksik kalır:
 
 **Eski bağımsız bölümümün projedeki değer konumu neydi ve yeni projede bana verilen bağımsız bölüm bu değeri hangi ölçüde koruyor?**
+
+> ### Somut karşılaştırma: Aynı m², farklı değer konumu
+>
+> Bağdat Caddesi üzerinde aynı binada, aynı katta ve aynı büyüklükte iki daire düşünün. Birinci daire cadde cephesinde ve daha açık görüşlü; ikinci daire arka cephede ve görüşü daha sınırlı olsun. Ya da iki daire aynı büyüklükte olsun; birinin deniz görüşü bulunurken diğerinin bulunmasın.
+>
+> Bu örnekte **“ikisi de 140 m², öyleyse eşdeğerdir”** sonucu kurulamaz. Değerleme uygulamasında kat, cephe ve manzara gibi özellikler bağımsız bölümün değer analizinde ayrı kriterler olarak kullanılabilmektedir. Bu nedenle dönüşüm paylaşımında yalnız alanı eşitlemek, eski bağımsız bölümler arasındaki ekonomik değer sırasını bozabilir.
+>
+> Burada belirli bir “cadde cephesi +%X” veya “deniz manzarası +%Y” oranı vermek doğru değildir. Böyle sabit bir oranı destekleyen genel bir mevzuat kuralı veya elimizde Bağdat Caddesi'nin tamamına uygulanabilecek güvenilir tek oranlı veri seti yoktur. Fark, somut proje ve karşılaştırılabilir piyasa verileri üzerinden değerlenmelidir.
+>
+> **Arsa payı bakımından bağlantı da buradadır:** Kat Mülkiyeti Kanunu sisteminde arsa payı, bağımsız bölümün konum ve büyüklüğüne göre hesaplanan değeriyle orantılı kurulmalıdır. Dolayısıyla cephe, kat veya manzara “arsa payına ayrıca eklenen puanlar” değildir; bağımsız bölümün değerini etkiledikleri ölçüde arsa payı hesabının değer unsuruna yansırlar. Sonradan ortaya çıkan değer artışı veya azalışı ise mevcut arsa payını kendiliğinden değiştirmez.
 
 ## 4. Deniz manzarası sözleşmeyle gerçekten korunabilir mi?
 
