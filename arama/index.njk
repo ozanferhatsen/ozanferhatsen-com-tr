@@ -63,5 +63,26 @@ excludeFromSearch: true
   </div>
 </section>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const app = document.querySelector('[data-search-app]');
+    if (!app) return;
+
+    const tipsBox = app.querySelector('.search-tips-box');
+    const form = app.querySelector('[data-search-form]');
+    const examples = app.querySelector('[data-search-examples]');
+
+    function closeSearchTips() {
+      if (tipsBox) tipsBox.removeAttribute('open');
+    }
+
+    if (form) form.addEventListener('submit', closeSearchTips);
+    if (examples) {
+      examples.addEventListener('click', function (event) {
+        if (event.target.closest('[data-search-example]')) closeSearchTips();
+      });
+    }
+  });
+</script>
 <script src="https://cdn.jsdelivr.net/npm/minisearch@7.2.0/dist/umd/index.min.js" defer></script>
 <script src="/assets/search.js" defer></script>
