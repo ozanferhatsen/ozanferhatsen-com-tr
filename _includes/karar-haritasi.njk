@@ -64,11 +64,11 @@ og_type: article
       <h1>{{ title }}</h1>
       {% if summary %}<p class="analysis-summary">{{ summary }}</p>{% endif %}
       <dl class="analysis-meta">
-        <div><dt>İncelenen karar</dt><dd>{{ decision_count }} HGK kararı</dd></div>
+        <div><dt>İncelenen karar</dt><dd>{{ decision_count }} {{ decision_label or 'HGK kararı' }}</dd></div>
         <div><dt>Dönem</dt><dd>{{ decision_period }}</dd></div>
         <div><dt>İnceleme yöntemi</dt><dd>{{ analysis_method }}</dd></div>
       </dl>
-      <p class="analysis-method-note"><strong>Bu çalışma, münferit karar özeti niteliğinde değildir.</strong> Hukuk Genel Kurulu kararlarında aynı hukuki sorunun farklı uyuşmazlık tiplerinde nasıl ele alındığını ortaya koymak amacıyla kararlar birlikte değerlendirilmiştir.</p>
+      <p class="analysis-method-note"><strong>Bu çalışma, münferit karar özeti niteliğinde değildir.</strong> {{ method_note or 'Hukuk Genel Kurulu kararlarında aynı hukuki sorunun farklı uyuşmazlık tiplerinde nasıl ele alındığını ortaya koymak amacıyla kararlar birlikte değerlendirilmiştir.' }}</p>
     </header>
 
     <article class="analysis-body">
