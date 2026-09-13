@@ -14,8 +14,8 @@ series_order: 7
 sources:
   - name: "6306 sayılı Afet Riski Altındaki Alanların Dönüştürülmesi Hakkında Kanun."
     url: "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.6306.pdf"
-  - name: "6306 Sayılı Kanunun Uygulama Yönetmeliği ve güncel değişiklikler."
-    url: "https://www.resmigazete.gov.tr/eskiler/2026/02/20260204-5.htm"
+  - name: "6306 Sayılı Kanunun Uygulama Yönetmeliğinin yürürlükteki metni; özellikle m.13/9."
+    url: "https://www.mevzuat.gov.tr/MevzuatMetin/yonetmelik/7.5.16849.pdf"
   - name: "Fikret Çelik, Banka Teminat Mektupları ve Milletlerarası Banka Teminat Mektuplarına Uygulanacak Hukukun Tespiti."
   - name: "Av. Şenol Saltık, Tüm Yönleriyle Kentsel Dönüşüm."
 ---

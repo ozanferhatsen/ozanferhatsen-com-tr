@@ -121,7 +121,7 @@ düşünülmelidir.
 
 Depo için de alan, konum, bağımsız bölümle hukuki bağlantı ve teslim standardı netleştirilmelidir.
 
-Otopark, depo, balkon ve terasın **ekonomik değer ve şerefiye etkisi** serinin ilerleyen ayrı bölümünde ele alınacaktır. Burada yalnız teknik teslim standardını kuruyoruz.
+Otopark, depo, balkon ve terasın **ekonomik değer ve şerefiye etkisi** [ayrı bölümde](/makaleler/kentsel-donusum-otopark-depo-balkon-teras-hakki/) incelenmektedir. Burada yalnız teknik teslim standardını kuruyoruz.
 
 ## 6. Balkon ve terasta yalnız m² yetmez
 

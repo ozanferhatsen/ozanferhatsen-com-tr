@@ -14,8 +14,10 @@ series_order: 1
 sources:
   - name: "6306 sayılı Afet Riski Altındaki Alanların Dönüştürülmesi Hakkında Kanun."
     url: "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.6306.pdf"
-  - name: "6306 Sayılı Kanunun Uygulama Yönetmeliği ve 4 Şubat 2026 tarihli değişiklikler."
-    url: "https://www.resmigazete.gov.tr/eskiler/2026/02/20260204-5.htm"
+  - name: "6306 Sayılı Kanunun Uygulama Yönetmeliğinin yürürlükteki metni; özellikle m.7-10 ve Ek-2."
+    url: "https://www.mevzuat.gov.tr/MevzuatMetin/yonetmelik/7.5.16849.pdf"
+  - name: "4 Şubat 2026 tarihli ve 33158 sayılı Resmî Gazete'de yayımlanan Yönetmelik değişikliği."
+    url: "https://www.resmigazete.gov.tr/eskiler/2026/02/20260204-3.htm"
   - name: "Kentsel Dönüşüm Başkanlığı, Bilgi Merkezi: Riskli Yapı Süreci."
     url: "https://kdb.gov.tr/Mevzuat?uniq=c6db6650-9348-42dd-bffe-6ab4977787cf"
   - name: "Kentsel Dönüşüm Başkanlığı, Riskli Yapıların Tespit Edilmesine İlişkin Esaslar (RYTEİE-2019) eğitim materyalleri."
@@ -203,7 +205,7 @@ Malik bir mühendislik şirketiyle sözleşme yaparak teknik hizmet satın alır
 
 Uygun bulunan tespitten sonra ilgili taşınmazın tapu kaydına riskli yapı belirtmesi yapılması için tapu müdürlüğüne bildirim gönderilir ve Kanunda öngörülen bildirim-itiraz süreci başlar.
 
-Bu sonraki aşama, serinin ikinci bölümünde ayrıca incelenecektir: **riskli yapı tespitine itiraz, teknik heyet incelemesi ve iptal davası.**
+Bu sonraki aşama serinin ikinci bölümündedir: [riskli yapı tespitine itiraz, teknik heyet incelemesi ve iptal davası](/makaleler/riskli-yapi-tespitine-itiraz-iptal-davasi/).
 
 ## 12. Riskli yapı tespit raporunda ilk hukuki kontrolde nelere bakılmalı?
 

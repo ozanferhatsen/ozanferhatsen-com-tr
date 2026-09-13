@@ -61,7 +61,7 @@ Sözleşmede gecikme için aylık belirli bir bedel öngörülmüş olması ile 
 
 Bu nedenle aynı gecikme dönemi için hem sözleşmesel ceza hem de ayrıca kira kaybı talep edilmesi halinde, **çifte karşılamaya yol açılıp açılmadığı** ve tarafların neyi güvence altına almak istediği ayrıca incelenmelidir.
 
-Kira kaybı ve gecikme döneminin hesabını [Geç Teslimde Kira Kaybı ve Gecikme Tazminatı Nasıl Hesaplanır?](/makaleler/gec-teslimde-kira-kaybi-ve-gecikme-tazminati-nasil-hesaplanir/) başlıklı yazıda ayrıca ele aldık.
+Kira kaybı ve gecikme döneminin hesabını [Geç Teslimde Kira Kaybı ve Gecikme Tazminatı Nasıl Hesaplanır?](/makaleler/gec-teslim-kira-kaybi-gecikme-tazminati/) başlıklı yazıda ayrıca ele aldık.
 
 ## 5. Cezai şart istenebilmesi için zarar doğmuş olması şart mıdır?
 
@@ -99,7 +99,7 @@ Gecikmeye bağlı cezai şartlarda başlangıç ve bitiş tarihi önemlidir.
 
 Başlangıç için, sözleşmeye göre teslim edilmesi gereken tarih belirlenmelidir. Bitiş tarihi ise sözleşmenin teslim tanımına ve somut olaya göre değişebilir. Fiili teslim, anahtar teslimi, yapı kullanma izin belgesi veya sözleşmenin sona erdirildiği tarih farklı olaylarda farklı sonuçlar doğurabilir.
 
-Özellikle teslim iskâna bağlanmışsa, iskân alınmadan yapılan fiili teslimin cezai şart dönemini sona erdirip erdirmediği ayrıca değerlendirilmelidir. Bu ayrımı [İskân Alınmadan İnşaat Teslim Edilmiş Sayılır mı?](/makaleler/iskan-alinmadan-insaat-teslim-edilmis-sayilir/) başlıklı yazıda ayrıntılı olarak ele aldık.
+Özellikle teslim iskâna bağlanmışsa, iskân alınmadan yapılan fiili teslimin cezai şart dönemini sona erdirip erdirmediği ayrıca değerlendirilmelidir. Bu ayrımı [İskân Alınmadan İnşaat Teslim Edilmiş Sayılır mı?](/makaleler/iskan-alinmadan-insaat-teslim-edilmis-sayilir-mi/) başlıklı yazıda ayrıntılı olarak ele aldık.
 
 ## 10. Cezai şart uyuşmazlığında hangi belgeler incelenmelidir?
 

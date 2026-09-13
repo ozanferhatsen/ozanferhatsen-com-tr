@@ -55,52 +55,52 @@
     "slug": "kentsel-donusum-hukuku",
     "url": "/kentsel-donusum-hukuku/",
     "navGroup": "property",
-    "seoTitle": "Kentsel Dönüşüm Hukuku | Sözleşme, Müteahhit, Teminat ve Tapu Devri",
-    "description": "Kentsel dönüşümde müteahhit seçimi, sözleşme, bağımsız bölüm paylaşımı, teminat, tapu devri ve malik kararlarındaki hukuki riskler.",
+    "seoTitle": "Kentsel Dönüşüm Hukuku | 6306, Malik Kararı ve Pay Satışı",
+    "description": "Kentsel dönüşüm hukukunun riskli yapı tespiti, itiraz, tebligat, malik toplantısı, pay satışı, sözleşme, tapu ve dava aşamalarını birleştiren 2026 rehberi.",
     "alternateTr": "https://ozanferhatsen.com.tr/kentsel-donusum-hukuku/",
     "alternateEn": "https://ozanferhatsen.com.tr/en/urban-transformation-law-turkey/",
     "enName": "Urban Transformation",
-    "h1": "Kentsel dönüşümde sözleşme, müteahhit ve malik kararlarının risk analizi",
-    "intro": "Dönüşüm sürecindeki en pahalı hatalar çoğu zaman inşaat başladıktan sonra değil; teklifler karşılaştırılırken, yeni bağımsız bölümler tanımlanırken, sözleşme imzalanırken ve tapu devri planlanırken yapılır. Bu aşamalar tek dosya içinde birlikte değerlendirilmelidir.",
-    "riskMapTitle": "Kentsel dönüşümde risk hangi aşamada doğar?",
-    "riskMapIntro": "Dönüşüm dosyası yalnız müteahhit yüzdesinden ibaret değildir. Maliklerin ne alacağı, müteahhidin bunu hangi finansman ve teminat yapısıyla üreteceği ve iş aksadığında sözleşmenin nasıl çalışacağı aynı risk haritasında görülmelidir.",
+    "h1": "Kentsel dönüşüm hukukunun baştan sona işlem ve dava haritası",
+    "intro": "Riskli yapı tespitinden tebligat ve yıkıma; malik toplantısından pay satışına; yüklenici sözleşmesinden tapu, ayni haklar ve yargısal denetime uzanan bütün süreç, birbirini izleyen hukuk kitabı bölümleri olarak burada toplanmaktadır.",
+    "riskMapTitle": "Kentsel dönüşüm dosyası hangi hukuk katmanlarından oluşur?",
+    "riskMapIntro": "6306 dosyası tek bir müteahhit sözleşmesi değildir. Teknik tespit, idari bildirim, malik iradesi, zorunlu pay satışı, özel hukuk sözleşmeleri ve yargısal koruma aynı zaman çizelgesinde okunmalıdır.",
     "risks": [
-      {"title": "Teklifler karşılaştırılırken", "text": "Yüksek paylaşım oranı veya güçlü görünen proje sunumu; finansman, teslim süresi, teknik kalite ve teminat zayıfsa tek başına güvenli teklif anlamına gelmez."},
-      {"title": "Bağımsız bölüm tanımlanırken", "text": "Metrekare, şerefiye, kat, cephe, eklenti ve ortak alan hakları açık kurulmadığında ekonomik değer sözleşme imzasından önce kaybedilebilir."},
-      {"title": "Tapu devri ve teminat planlanırken", "text": "Arsa payının ne zaman devredileceği ile teminatın tutarı, süresi ve paraya çevrilme koşulları birlikte kurgulanmalıdır."},
-      {"title": "Teslim ve malik kararları yürütülürken", "text": "Gecikme yaptırımları, kira, cezai şart ve malik kararlarının usulü proje ilerledikçe geri dönüşü daha zor hâle gelen sonuçlar doğurabilir."}
+      {"title": "Riskli yapı statüsü doğarken", "text": "Teknik rapor, ilan, 15 günlük itiraz ve 30 günlük dava süresi doğru ayrılmazsa tahliye ve yıkım geri dönülmez aşamaya ulaşabilir."},
+      {"title": "Malikler karar alırken", "text": "2026 sonrası Ek-12 çağrısı, toplantı nisabı, pay salt çoğunluğu ve ortak karar tutanağı pay satışının hukuki temelini oluşturur."},
+      {"title": "Azınlık payı satılırken", "text": "Teklif, değerleme, açık artırma ve tapu işlemi birbirinden ayrı denetlenir; çoğunluk azınlığı kendiliğinden sözleşme tarafı yapmaz."},
+      {"title": "Proje ve sözleşme yürürken", "text": "Resmî şekil, şerefiye, tapu devri, kamu ve özel teminatlar, teknik şartname, teslim ile fesih tek bir güvence sistemi olarak kurulmalıdır."}
     ],
     "problems": [
       {
-        "title": "Müteahhit seçimi yalnızca fiyat karşılaştırması değildir",
-        "text": "Teklifteki oran veya ilave bedel, projenin tamamlanabilirliğini tek başına göstermez. Müteahhidin mali yapısı, devam eden işleri, finansman modeli, teminat kapasitesi ve taahhüt ettiği teknik standart aynı tabloda karşılaştırılmalıdır.",
-        "points": ["Tekliflerin aynı metrekare ve bağımsız bölüm varsayımıyla karşılaştırılması", "Mali yeterlilik ve devam eden proje yükünün incelenmesi", "Teminat, teslim süresi ve teknik şartnamenin teklif hesabına dâhil edilmesi"]
+        "title": "İdari işlem zinciri nerede kesinleşir?",
+        "text": "Riskli yapı raporu, muhtarlık ilanı, teknik heyet itirazı, tapu belirtmesi, tahliye ve yıkım farklı işlemlerdir. Süre ve yetkili makam her işlem için ayrı belirlenmelidir.",
+        "points": ["Riskli yapı raporunun teknik ve idari denetimi", "İlan, e-Devlet ve elektronik tebligat tarihlerinin ayrılması", "Tahliye-yıkım ile yürütmenin durdurulması ilişkisinin kurulması"]
       },
       {
-        "title": "Sözleşmede risk nerede birikir?",
-        "text": "Risk çoğu zaman tek bir ağır hükümde değil; birbirine bağlı küçük maddelerde birikir. Bağımsız bölüm tanımı, teknik şartname, tapu devri, teminat, teslim tarihi ve gecikme yaptırımları birlikte okunmadığında sözleşmenin gerçek dengesi görülmez.",
-        "points": ["Net/brüt alan, şerefiye ve eklentilerin açık tanımı", "Tapu devri ile ilerleme seviyesinin birbirine bağlanması", "Teminatın süre, tutar ve nakde çevrilme mekanizmasının kurulması"]
+        "title": "Çoğunluk kararı azınlığın mülkiyetine nasıl etki eder?",
+        "text": "Salt çoğunluk karar alma kilidini çözer; fakat usulsüz toplantıyı, farklı teklifi veya dengesiz paylaşımı hukuka uygun hâle getirmez. Pay satışı ayrı bildirim, değerleme ve ihale güvencelerine tabidir.",
+        "points": ["Ek-12 çağrısı ile toplantı ve karar nisabının hesabı", "Azınlığa çoğunlukla aynı teklifin sunulması", "Rayiç değer, ihale ve tapu sonucunun ayrı denetimi"]
       },
       {
-        "title": "Malik kararları ve tapu devri ne zaman geri dönüşü zorlaştırır?",
-        "text": "Karar alma usulündeki hata ile erken veya kontrolsüz tapu devri farklı hukuki sorunlardır; ancak aynı projede birbirini büyütebilir. İmza, bildirim, pay satışı ve devir adımları işlem sırası üzerinden değerlendirilmelidir.",
-        "points": ["Malik kararının gerekli çoğunluk ve bildirim usulü", "İmzalamayan malik bakımından izlenecek sürecin ayrıştırılması", "Tapu devrinin inşaat ilerlemesi ve teminatlarla eşleştirilmesi"]
+        "title": "Sözleşme ve tapu riski nasıl dengelenir?",
+        "text": "Ön protokolün şekli, yüklenici seçimi, bağımsız bölüm dağılımı, kamu teminatı, banka garantisi, kademeli tapu devri ve teslim yaptırımları aynı proje modeline bağlanmalıdır.",
+        "points": ["Resmî sözleşme ile karar tutanağının ayrılması", "Şerefiye, metrekare ve ayni hakların yeni projeye taşınması", "Teminat, ilerleme, tapu devri ve idari fesih sırasının kurulması"]
       }
     ],
     "ctaTitle": "Kentsel dönüşüm dosyanız belge üzerinden değerlendirilsin",
-    "ctaText": "Teklif, sözleşme taslağı, teknik şartname, bağımsız bölüm paylaşımı, tapu kayıtları ve teminat belgeleri birlikte incelenebilir.",
+    "ctaText": "Riskli yapı raporu, tebligat ve toplantı evrakı, değerleme/pay satışı dosyası, sözleşme, proje, tapu ve teminat belgeleri aynı zaman çizelgesinde incelenebilir.",
     "topics": [
-      {"label": "Müteahhit seçimi", "url": "/makaleler/kentsel-donusum-muteahhit-secerken-nelere-dikkat-edilmeli/"},
-      {"label": "Dönüşüm sözleşmesi", "url": "/makaleler/bagdat-caddesi-kentsel-donusum-sozlesmesi/"},
-      {"label": "Şerefiye ve bağımsız bölüm değeri", "url": "/makaleler/kentsel-donusum-serefiye-kat-cephe-deniz-manzarasi/"},
-      {"label": "Metrekare ve küçülme riski", "url": "/makaleler/kentsel-donusumda-daire-kuculur-mu-metrekare/"},
-      {"label": "Arsa payı", "url": "/makaleler/kentsel-donusum-arsa-payi-duzeltme-davasi/"},
-      {"label": "Müteahhide tapu devri", "url": "/makaleler/kentsel-donusum-muteahhide-tapu-ne-zaman-devredilmeli/"},
-      {"label": "Banka teminat mektubu", "url": "/makaleler/kentsel-donusum-banka-teminat-mektubu/"}
+      {"label": "Riskli yapı tespiti", "url": "/makaleler/riskli-yapi-tespiti-nasil-yapilir/"},
+      {"label": "İtiraz ve iptal davası", "url": "/makaleler/riskli-yapi-tespitine-itiraz-iptal-davasi/"},
+      {"label": "Malik toplantısı", "url": "/makaleler/kentsel-donusum-malik-toplantisi-cagri-ek-12/"},
+      {"label": "Pay satışı", "url": "/makaleler/kentsel-donusum-bir-malik-imzalamazsa-pay-satisi/"},
+      {"label": "Sözleşme ve yüklenici", "url": "/makaleler/bagdat-caddesi-kentsel-donusum-sozlesmesi/"},
+      {"label": "Tapu ve ayni haklar", "url": "/makaleler/riskli-yapi-yikim-sonrasi-kat-mulkiyeti-ayni-haklar/"},
+      {"label": "Riskli alan ve rezerv alan", "url": "/makaleler/riskli-yapi-riskli-alan-rezerv-yapi-alani-farklari/"}
     ],
     "category": "Kentsel Dönüşüm",
-    "homeSummary": "Müteahhit seçimi, teminat, tapu devri, malik kararları ve dönüşüm sözleşmeleri",
-    "homeArrow": "Dönüşüm dosyasına gir →"
+    "homeSummary": "Riskli yapı, malik toplantısı, pay satışı, sözleşme, tapu ve dönüşüm davaları",
+    "homeArrow": "Kentsel dönüşüm kitabına gir →"
   },
   "insaat": {
     "name": "İnşaat Hukuku",

@@ -80,7 +80,7 @@ Taraflar sözleşmede yüklenicinin yapıyı **iskan alınmış şekilde teslim 
 
 Buna karşılık fiili teslim ile yapı kullanma izin belgesinin alınma tarihinin farklı olduğu uyuşmazlıklarda, hangi tarihin hangi hukuki sonuç bakımından esas alınacağı ayrıca değerlendirilmelidir.
 
-Bu nedenle iskân meselesini [İskân Alınmadan İnşaat Teslim Edilmiş Sayılır mı?](/makaleler/iskan-alinmadan-insaat-teslim-edilmis-sayilir/) başlıklı ayrı yazıda ayrıntılı olarak ele alacağız.
+Bu nedenle iskân meselesini [İskân Alınmadan İnşaat Teslim Edilmiş Sayılır mı?](/makaleler/iskan-alinmadan-insaat-teslim-edilmis-sayilir-mi/) başlıklı ayrı yazıda ayrıntılı olarak ele aldık.
 
 ## 7. Teslim tarihi neden kira kaybı ve gecikme tazminatı bakımından önemlidir?
 

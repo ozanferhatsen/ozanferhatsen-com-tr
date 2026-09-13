@@ -13,7 +13,7 @@ sources:
   - name: "Yapı Müteahhitlerinin Sınıflandırılması ve Kayıtlarının Tutulması Hakkında Yönetmelik."
     url: "https://www.resmigazete.gov.tr/eskiler/2019/03/20190302-2.htm"
   - name: "6306 Sayılı Kanunun Uygulama Yönetmeliği ve güncel değişiklikler."
-    url: "https://www.lexpera.com.tr/mevzuat/yonetmelikler/6306-sayili-kanunun-uygulama-yonetmeligi"
+    url: "https://www.mevzuat.gov.tr/MevzuatMetin/yonetmelik/7.5.16849.pdf"
   - name: "Türkiye Ticaret Sicili Gazetesi."
     url: "https://www.ticaretsicil.gov.tr/"
   - name: "Şenol Saltık, Tüm Yönleriyle Kentsel Dönüşüm."

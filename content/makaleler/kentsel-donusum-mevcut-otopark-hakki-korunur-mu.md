@@ -10,6 +10,7 @@ summary: "Mevcut binada otopark bulunması, yeni projede aynı sayıda otoparkı
 seo_title: "Kentsel Dönüşümde Otopark Hakkı Korunur mu?"
 description: "Kentsel dönüşümde mevcut otopark kaybolabilir mi? Müteahhit daha az otopark yapabilir mi? Otopark Yönetmeliği, sözleşme ve malik hakları birlikte inceleniyor."
 series_id: "bagdat-caddesi-kentsel-donusum"
+series_order: 12
 sources:
   - name: "Otopark Yönetmeliği."
   - name: "634 sayılı Kat Mülkiyeti Kanunu."

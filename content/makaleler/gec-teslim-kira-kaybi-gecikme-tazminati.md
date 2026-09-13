@@ -46,7 +46,7 @@ Bu nedenle “iskan alınmadıkça gecikme devam eder” veya “anahtar verildi
 
 Sözleşmede teslim iskâna bağlanmışsa, fiili kullanımın başlaması yüklenicinin tüm teslim borçlarını yerine getirdiği anlamına gelmeyebilir. Buna karşılık sözleşmede teslim iskâna bağlanmamışsa, fiili teslim ile iskân yükümlülüğünün ayrı değerlendirilmesi gerekebilir.
 
-Bu ayrımı [İskân Alınmadan İnşaat Teslim Edilmiş Sayılır mı?](/makaleler/iskan-alinmadan-insaat-teslim-edilmis-sayilir/) başlıklı yazıda ayrıca inceliyoruz.
+Bu ayrımı [İskân Alınmadan İnşaat Teslim Edilmiş Sayılır mı?](/makaleler/iskan-alinmadan-insaat-teslim-edilmis-sayilir-mi/) başlıklı yazıda ayrıca inceliyoruz.
 
 ## 3. Kira kaybı nedir?
 

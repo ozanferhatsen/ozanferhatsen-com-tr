@@ -16,8 +16,8 @@ sources:
     url: "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.6098.pdf"
   - name: "6306 sayılı Afet Riski Altındaki Alanların Dönüştürülmesi Hakkında Kanun."
     url: "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.6306.pdf"
-  - name: "6306 Sayılı Kanunun Uygulama Yönetmeliği ve 4 Şubat 2026 tarihli değişiklikler."
-    url: "https://www.resmigazete.gov.tr/eskiler/2026/02/20260204-5.htm"
+  - name: "6306 Sayılı Kanunun Uygulama Yönetmeliğinin yürürlükteki metni; özellikle m.13/10."
+    url: "https://www.mevzuat.gov.tr/MevzuatMetin/yonetmelik/7.5.16849.pdf"
   - name: "Av. Şenol Saltık, Tüm Yönleriyle Kentsel Dönüşüm."
   - name: "Hâkim Filiz Berberoğlu Yenipınar, Kat Karşılığı İnşaat Sözleşmeleri."
 ---

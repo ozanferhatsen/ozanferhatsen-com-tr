@@ -113,7 +113,7 @@ Bu soru, teslim ile iskân arasındaki ayrım nedeniyle ayrıca önemlidir. Söz
 
 Dolayısıyla gecikme süresinin hangi tarihte sona erdiği belirlenirken sözleşmenin teslim tanımı esas alınmalı; bunun yanında iskânsız kullanımın kamu hukuku bakımından doğurabileceği sorunlar ayrıca değerlendirilmelidir.
 
-Bu ayrımı [İskân Alınmadan İnşaat Teslim Edilmiş Sayılır mı?](/makaleler/iskan-alinmadan-insaat-teslim-edilmis-sayilir/) başlıklı yazıda ayrıntılı biçimde ele aldık.
+Bu ayrımı [İskân Alınmadan İnşaat Teslim Edilmiş Sayılır mı?](/makaleler/iskan-alinmadan-insaat-teslim-edilmis-sayilir-mi/) başlıklı yazıda ayrıntılı biçimde ele aldık.
 
 ## Sonuç
 

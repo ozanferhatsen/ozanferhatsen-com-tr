@@ -129,7 +129,7 @@ Teklifte “teminat verilecektir” yazıyorsa şu sorular ayrıştırılmalıd�
 - malik doğrudan yararlanabiliyor mu,
 - işin hangi aşamasına kadar devam ediyor?
 
-Teminat başlığı serinin ayrı bölümünde daha derin incelenecektir. Teklif karşılaştırmasında ise amaç, **güvencenin gerçekten malik lehine bir ekonomik değeri olup olmadığını** görmek.
+[Banka teminat mektubunun şartları](/makaleler/kentsel-donusum-banka-teminat-mektubu/) ve [bina tamamlama sigortasıyla diğer teminat araçları](/makaleler/kentsel-donusum-bina-tamamlama-sigortasi-teminatlar/) ayrı bölümlerde incelenmektedir. Teklif karşılaştırmasında ise amaç, **güvencenin gerçekten malik lehine bir ekonomik değeri olup olmadığını** görmektir.
 
 ## 8. Kira ödemesi yüksek olan teklif her zaman daha iyi değildir
 

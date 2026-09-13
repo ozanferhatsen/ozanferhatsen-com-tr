@@ -10,7 +10,7 @@ summary: "Kentsel dönüşüm sözleşmesinde teslim tarihi kadar, gecikmenin so
 seo_title: "Kentsel Dönüşümde Gecikme, Kira ve Cezai Şart"
 description: "Kentsel dönüşümde teslim gecikirse müteahhit ne öder? Kira, gecikme tazminatı, cezai şart, mücbir sebep ve teslim tarihinin nasıl düzenleneceği."
 series_id: "bagdat-caddesi-kentsel-donusum"
-series_order: 12
+series_order: 13
 sources:
   - name: "6098 sayılı Türk Borçlar Kanunu."
     url: "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.6098.pdf"

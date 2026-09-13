@@ -15,16 +15,15 @@ sources:
   - name: "6306 sayılı Afet Riski Altındaki Alanların Dönüştürülmesi Hakkında Kanun."
     url: "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.6306.pdf"
   - name: "6306 Sayılı Kanunun Uygulama Yönetmeliği; özellikle m.7, m.9 ve m.10."
-    url: "https://www.mevzuat.gov.tr/"
+    url: "https://www.mevzuat.gov.tr/MevzuatMetin/yonetmelik/7.5.16849.pdf"
   - name: "Kentsel Dönüşüm Başkanlığı, Bilgi Merkezi: Riskli Yapı Süreci."
     url: "https://www.kdb.gov.tr/Mevzuat?uniq=c6db6650-9348-42dd-bffe-6ab4977787cf"
   - name: "2577 sayılı İdari Yargılama Usulü Kanunu; özellikle m.7, m.11 ve m.27."
-    url: "https://www.mevzuat.gov.tr/"
+    url: "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2577.pdf"
   - name: "Nijat Amiraslanlı, Kentsel Dönüşüm Kapsamında Afet Riski Altındaki Yapıların Tespiti ve Tespitte İtiraz, Türkiye Adalet Akademisi Dergisi."
     url: "https://taad.taa.gov.tr/yuklenenler/dosyalar/dergiler/taad/taad-53/65363c11-a5b8-4215-aa5e-578b6cec504d-taad-53-kapakli.pdf"
-  - name: "İstanbul Bölge İdare Mahkemesi 4. İdari Dava Dairesi, 30.12.2016, E.2016/123, K.2016/100; riskli yapı tespitine karşı idari itirazın seçimlik niteliğine ilişkin karar."
   - name: "Danıştay 6. Dairesi, 11.02.2020, E.2019/8494, K.2020/1287; riskli yapı tespitine itirazın dava süresine etkisine ilişkin karar."
-  - name: "Danıştay 4. Dairesi, E.2023/11571, K.2024/2018; riskli yapı tespitine yapılan itirazın teknik heyetçe incelenmesi ve sonraki işlemler."
+    url: "https://www.ictihat.gen.tr/danistay-6-daire-esas-no-2019-8494-karar-no-2020-1287/"
   - name: "Av. Şenol Saltık, Tüm Yönleriyle Kentsel Dönüşüm."
   - name: "Prof. Dr. Oğuz Sancakdar, kentsel dönüşüm ve riskli yapı uygulamalarına ilişkin çalışma."
 ---
@@ -80,7 +79,7 @@ Malikin riskli yapı tespitine karşı kullanacağı 15 günlük özel itiraz s�
 
 Dolayısıyla süre hesabında yalnız e-Devlet bildiriminin görüldüğü tarih, apartman kapısına asılan tutanağın fark edildiği tarih veya malikin fiilen haberdar olduğu gün üzerinden hareket edilmemelidir. Dosyada öncelikle **muhtarlık ilanının başlangıç ve bitiş tarihleri** tespit edilmelidir.
 
-Tebligat ve ilan rejiminin ayrıntıları serinin bir sonraki bölümünde ayrıca ele alınacaktır. Buradaki önemli nokta, itiraz süresinin başlangıcının riskli yapı dosyasının teknik içeriğinden bağımsız bir usul sorunu olduğudur.
+[Tebligat ve ilan rejiminin ayrıntıları](/makaleler/6306-tebligat-bildirim-usulleri/) serinin üçüncü bölümünde ele alınmaktadır. Buradaki önemli nokta, itiraz süresinin başlangıcının riskli yapı dosyasının teknik içeriğinden bağımsız bir usul sorunu olduğudur.
 
 ## 3. Kimler riskli yapı tespitine itiraz edebilir?
 
@@ -101,11 +100,7 @@ Riskli yapı tespitine karşı dilekçe;
 
 verilir.
 
-İtirazın yanlış idari birime verilmesi basit bir ayrıntı olarak görülmemelidir. Bununla birlikte yargı uygulaması, somut olayın özelliklerine göre idare içinde yanlış birime verilen başvurunun tamamen yok sayılmasına da her zaman aynı sonucu bağlamamaktadır.
-
-Danıştay 4. Dairesinin E.2023/11571, K.2024/2018 sayılı kararına konu olayda malik, süresi içinde itiraz etmiş fakat dilekçesini ilgili İl Müdürlüğü yerine Tapu Müdürlüğüne vermiştir. Bölge idare mahkemesi, bu başvurunun teknik heyetçe incelenmeden riskli yapı tespitinin kesinleştirilmesini hukuka uygun bulmamış; sonrasında yapının yıkılmış olması ise teknik incelemenin fiilen yapılabilmesi bakımından ayrıca sorun yaratmıştır.
-
-Bu kararın pratik değeri şudur: **süre kadar başvurunun idareye ulaştığını gösteren kayıt da korunmalıdır.** Dilekçe kayıt numarası, evrak tarihi ve başvurulan birim dosyanın ayrılmaz parçasıdır.
+İtirazın yanlış idari birime verilmesi basit bir ayrıntı olarak görülmemelidir. İdare içinde yanlış birime verilen başvurunun aktarılması ve süreyi koruyup korumadığı somut evrak kayıtlarına göre tartışılabilir; buna güvenerek yetkisiz birime başvurmak güvenli değildir. **Süre kadar başvurunun doğru idareye ulaştığını gösteren kayıt da korunmalıdır.** Dilekçe kayıt numarası, evrak tarihi ve başvurulan birim dosyanın ayrılmaz parçasıdır.
 
 ## 5. İtiraz dilekçesi yalnız “binamız sağlamdır” dememelidir
 
@@ -212,9 +207,7 @@ Burada önemli olan şudur: **itirazın reddedilmesi yalnızca bir dilekçenin r
 
 Mevzuat, riskli yapı tespitine karşı maliklerin 15 gün içinde **“itiraz edebileceğini”** söyler. Düzenleme, idari itirazı açıkça bir dava şartı olarak kurmaz.
 
-Bu nedenle öğretide ve yargı kararlarında, malikin teknik heyet itirazını kullanmadan da riskli yapı tespitine karşı doğrudan iptal davası açabileceği kabul edilmiştir.
-
-İstanbul Bölge İdare Mahkemesi 4. İdari Dava Dairesinin 30.12.2016 tarihli E.2016/123, K.2016/100 sayılı kararında da, Yönetmelikteki itirazın **seçimlik bir hak** olduğu ve doğrudan dava açılabileceği yönünde değerlendirme yapılmıştır.
+Bu nedenle düzenlemedeki “itiraz edebilir” ifadesi ve genel idari yargı sistemi çerçevesinde, teknik heyet başvurusunun tüketilmesinin iptal davası için zorunlu ön koşul olmadığı kabul edilmektedir. Somut dava süresi yine tebliğ ve varsa başvurunun İYUK m.11 etkisi üzerinden hesaplanmalıdır.
 
 Bununla birlikte, idari itiraz yolunu kullanmanın önemli bir avantajı vardır: konu mahkemeye gitmeden önce teknik uzmanlardan oluşan heyetin önüne taşınır ve raporun teknik bütünlüğü idari aşamada yeniden denetlenir.
 
@@ -271,9 +264,7 @@ Burada ayrı bir “yürütmeyi durdurma davası” yoktur. Yürütmenin durduru
 
 İYUK m.27 çerçevesinde mahkeme; idari işlemin uygulanması halinde telafisi güç veya imkânsız zararların doğması ve işlemin açıkça hukuka aykırı olması şartlarını birlikte değerlendirir.
 
-Riskli yapı dosyasında yürütmenin durdurulmasının pratik önemi açıktır: yapı yıkıldıktan sonra teknik uyuşmazlığın aynı maddi durum üzerinden yeniden incelenmesi son derece güç, bazı durumlarda imkânsız hale gelebilir.
-
-Danıştay 4. Dairesinin E.2023/11571, K.2024/2018 sayılı kararına konu olayda da, riskli yapı itirazının teknik heyetçe incelenmesi gerektiğine ilişkin yargı kararı verilmeden önce yapının yıkılmış olması nedeniyle sonradan aynı bina üzerinde teknik heyet incelemesi yapılamaması önemli bir fiili sonuç olarak ortaya çıkmıştır.
+Riskli yapı dosyasında yürütmenin durdurulmasının pratik önemi açıktır: yapı yıkıldıktan sonra teknik uyuşmazlığın aynı maddi durum üzerinden yeniden incelenmesi son derece güç, bazı durumlarda imkânsız hale gelebilir. Bu geri dönülmezlik, yakın yıkım takvimi ve teknik aykırılık belgeleriyle somutlaştırılmalıdır.
 
 ## 16. Yürütmenin durdurulması talebinde hangi hususlar önemlidir?
 

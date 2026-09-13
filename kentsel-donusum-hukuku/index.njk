@@ -2,4 +2,115 @@
 layout: base.njk
 practiceKey: kentsel
 ---
-{% include "practice-area.njk" %}
+{% set area = practiceAreas[practiceKey] %}
+{% set book = kentselDonusumKitabi %}
+{% set kentselPosts = collections.makaleler | byCategory(area.category) %}
+{% set bagdatSeries = series["bagdat-caddesi-kentsel-donusum"] %}
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","@id":"https://ozanferhatsen.com.tr/kentsel-donusum-hukuku/#collection","name":{{ book.title | json }},"description":{{ area.description | json }},"url":"https://ozanferhatsen.com.tr/kentsel-donusum-hukuku/","inLanguage":"tr-TR","isPartOf":{"@id":"https://ozanferhatsen.com.tr/#website"},"about":["6306 sayılı Kanun","riskli yapı","malik kararları","pay satışı","kentsel dönüşüm sözleşmeleri"]}</script>
+
+<section class="practice-hero kd-hero">
+  <div class="wrap">
+    <div class="breadcrumbs"><a href="/">Ana Sayfa</a> / {{ area.name }}</div>
+    <div class="practice-label">
+      <span class="eyebrow">Çalışma Alanı · Çevrimiçi Kitap</span>
+      <span class="practice-name">{{ book.title }}</span>
+    </div>
+    <h1>{{ area.h1 }}</h1>
+    <p class="page-lead">{{ area.intro }}</p>
+    <div class="kd-edition-row" aria-label="Yayın bilgileri">
+      <span>{{ book.edition }}</span>
+      <span>{{ kentselPosts.length }} yayımlanmış makale</span>
+      <span>{{ book.parts.length }} ana kısım</span>
+      <span>6 sıralı okuma dizisi</span>
+    </div>
+  </div>
+</section>
+
+<section class="section kd-start" aria-labelledby="kd-baslangic">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Kitabın Kullanımı</div>
+        <h2 id="kd-baslangic">Dosyanız hangi aşamadaysa oradan başlayın</h2>
+      </div>
+      <p>Bölümler, aynı dönüşüm dosyasının birbirini etkileyen idari işlemlerini, malik kararlarını ve özel hukuk ilişkilerini birlikte izler. Baştan sona okuyabilir veya somut işlemin bulunduğu kısma geçebilirsiniz.</p>
+    </div>
+    <nav class="kd-route" aria-label="Kentsel dönüşüm sürecinin hızlı rotası">
+      <a href="#kisim-i"><span>A</span><strong>Tespit</strong><small>Riskli yapı ve idari başlangıç</small></a>
+      <a href="#kisim-ii"><span>B</span><strong>Karar</strong><small>Toplantı, çağrı ve çoğunluk</small></a>
+      <a href="#kisim-iii"><span>C</span><strong>Pay satışı</strong><small>Teklif, değerleme ve ihale</small></a>
+      <a href="#kisim-v"><span>D</span><strong>Sözleşme</strong><small>Yüklenici, güvence ve tapu</small></a>
+      <a href="#kisim-vi"><span>E</span><strong>Yeni yapı</strong><small>Haklar, proje ve teslim</small></a>
+      <a href="#kisim-viii"><span>F</span><strong>Yargı</strong><small>Dava, süre ve geçici koruma</small></a>
+    </nav>
+  </div>
+</section>
+
+<section class="section soft kd-toc" aria-labelledby="kd-icindekiler">
+  <div class="wrap">
+    <div class="practice-section-title">
+      <div class="eyebrow">İçindekiler</div>
+      <h2 id="kd-icindekiler">Kentsel dönüşüm hukukunun sekiz kısmı</h2>
+    </div>
+    <ol class="kd-toc-grid">
+      {% for part in book.parts %}
+      <li>
+        <a href="#{{ part.id }}">
+          <span class="kd-roman">Kısım {{ part.roman }}</span>
+          <strong>{{ part.title }}</strong>
+          <small>{{ part.chapters.length }} bölüm</small>
+        </a>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+
+<div class="kd-book" aria-label="Kentsel Dönüşüm Hukuku kitabının bölümleri">
+  {% for part in book.parts %}
+  <section class="section kd-part{% if loop.index is even %} soft{% endif %}" id="{{ part.id }}" aria-labelledby="{{ part.id }}-baslik">
+    <div class="wrap">
+      <header class="kd-part-head">
+        <div class="kd-part-number">{{ part.roman }}</div>
+        <div>
+          <div class="eyebrow">Kısım {{ part.roman }}</div>
+          <h2 id="{{ part.id }}-baslik">{{ part.title }}</h2>
+          <p>{{ part.description }}</p>
+        </div>
+      </header>
+      <ol class="kd-chapter-list">
+        {% for chapter in part.chapters %}
+        <li>
+          <a href="{{ chapter.url }}">
+            <span class="kd-chapter-no">{% if loop.index < 10 %}0{% endif %}{{ loop.index }}</span>
+            <span class="kd-chapter-copy"><strong>{{ chapter.title }}</strong><small>{{ chapter.note }}</small></span>
+            <span class="kd-chapter-arrow" aria-hidden="true">→</span>
+          </a>
+        </li>
+        {% endfor %}
+      </ol>
+    </div>
+  </section>
+  {% endfor %}
+</div>
+
+<section class="section dark kd-dossier" id="bagdat-caddesi-dosyasi" aria-labelledby="bagdat-dosyasi-baslik">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Uygulama Dosyası</div>
+        <h2 id="bagdat-dosyasi-baslik">Bağdat Caddesi Kentsel Dönüşüm Dosyası</h2>
+      </div>
+      <p>Ana kitabın sözleşme ve uygulama ilkelerini Bağdat Caddesi'ndeki parsel, şerefiye, otopark, yüklenici ve teslim sorunları üzerinde izleyen bölgesel alt dosya.</p>
+    </div>
+    <ol class="kd-dossier-list">
+      {% for item in bagdatSeries.items %}
+      <li><a href="{{ item.url }}"><span>{% if item.order < 10 %}0{% endif %}{{ item.order }}</span><strong>{{ item.title }}</strong><b aria-hidden="true">→</b></a></li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+
+{% include "components/practice-cta.njk" %}
+{% include "components/practice-articles.njk" %}

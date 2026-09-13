@@ -48,11 +48,57 @@ a.topic-chip:hover{border-color:var(--ink);background:rgba(255,255,255,.55)}
 .practice-articles .article-grid-sparse{grid-template-columns:repeat(2,minmax(0,1fr));max-width:800px}
 .practice-articles .article-grid-sparse .article-card:only-child{grid-column:1/-1}
 .section.dark.practice-areas .grid4{grid-template-columns:repeat(3,minmax(0,1fr))}
+.kd-hero{padding-bottom:58px}
+.kd-edition-row{display:flex;flex-wrap:wrap;gap:9px;margin-top:30px}
+.kd-edition-row span{display:inline-flex;align-items:center;min-height:34px;padding:7px 11px;border:1px solid var(--line);background:rgba(255,255,255,.32);font-size:11px;line-height:1.3;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.kd-start .section-head h2,.kd-dossier .section-head h2{max-width:760px}
+.kd-route{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));border-top:1px solid var(--ink);border-bottom:1px solid var(--line)}
+.kd-route a{display:flex;min-width:0;min-height:150px;padding:18px 16px 17px;border-right:1px solid var(--line);flex-direction:column;text-decoration:none;transition:background .18s ease}
+.kd-route a:last-child{border-right:0}
+.kd-route a:hover{background:rgba(255,255,255,.55)}
+.kd-route span{font:700 10px/1.3 Arial,sans-serif;letter-spacing:.13em;color:var(--accent)}
+.kd-route strong{margin-top:24px;font-family:'Cormorant Garamond',Georgia,serif;font-size:27px;line-height:1.05;font-weight:600}
+.kd-route small{margin-top:8px;color:var(--muted);font:12px/1.45 Arial,sans-serif}
+.kd-toc-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:0;padding:0;list-style:none}
+.kd-toc-grid li{min-width:0}
+.kd-toc-grid a{display:flex;min-height:190px;padding:20px;border:1px solid var(--line);background:rgba(255,255,255,.34);flex-direction:column;text-decoration:none}
+.kd-toc-grid a:hover{border-color:var(--ink);background:rgba(255,255,255,.62)}
+.kd-toc-grid .kd-roman{font:700 10px/1.3 Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+.kd-toc-grid strong{margin-top:24px;font-family:'Cormorant Garamond',Georgia,serif;font-size:27px;line-height:1.08;font-weight:600}
+.kd-toc-grid small{margin-top:auto;padding-top:18px;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.08em}
+.kd-part{scroll-margin-top:80px}
+.kd-part-head{display:grid;grid-template-columns:150px minmax(0,1fr);gap:44px;align-items:start;margin-bottom:34px}
+.kd-part-number{font-family:'Cormorant Garamond',Georgia,serif;font-size:100px;line-height:.75;font-weight:400;color:var(--line)}
+.kd-part-head h2{max-width:880px;margin:7px 0 0;font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(38px,4.5vw,60px);line-height:1;letter-spacing:-.028em;font-weight:500}
+.kd-part-head p{max-width:820px;margin:18px 0 0;color:var(--muted);font-size:16px;line-height:1.65}
+.kd-chapter-list{margin:0 0 0 194px;padding:0;list-style:none;border-top:1px solid var(--ink)}
+.kd-chapter-list li{margin:0;border-bottom:1px solid var(--line)}
+.kd-chapter-list a{display:grid;grid-template-columns:46px minmax(0,1fr) 30px;gap:18px;align-items:center;min-height:92px;padding:16px 0;text-decoration:none}
+.kd-chapter-list a:hover .kd-chapter-copy strong{color:var(--accent)}
+.kd-chapter-no{font:700 10px/1.3 Arial,sans-serif;letter-spacing:.11em;color:var(--muted)}
+.kd-chapter-copy{display:flex;min-width:0;flex-direction:column;gap:5px}
+.kd-chapter-copy strong{font-family:'Cormorant Garamond',Georgia,serif;font-size:25px;line-height:1.1;font-weight:600;transition:color .18s ease}
+.kd-chapter-copy small{color:var(--muted);font:12px/1.45 Arial,sans-serif}
+.kd-chapter-arrow{font-size:20px;text-align:right;color:var(--accent)}
+.kd-dossier .section-head{border-bottom-color:rgba(255,255,255,.2)}
+.kd-dossier-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 34px;margin:0;padding:0;list-style:none;border-top:1px solid rgba(255,255,255,.22)}
+.kd-dossier-list li{border-bottom:1px solid rgba(255,255,255,.16)}
+.kd-dossier-list a{display:grid;grid-template-columns:34px minmax(0,1fr) 24px;gap:12px;align-items:center;min-height:80px;padding:13px 0;text-decoration:none;color:#f5f1eb}
+.kd-dossier-list span{font:700 10px/1.3 Arial,sans-serif;letter-spacing:.1em;color:#c8a87b}
+.kd-dossier-list strong{font-family:'Cormorant Garamond',Georgia,serif;font-size:21px;line-height:1.15;font-weight:500}
+.kd-dossier-list b{font:400 17px/1 Arial,sans-serif;color:#c8a87b;text-align:right}
 @media(max-width:1000px){
   .risk-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
   .problem-block{grid-template-columns:100px minmax(0,1fr);gap:32px}
   .problem-points{grid-template-columns:1fr}
   .section.dark.practice-areas .grid4{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .kd-route{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .kd-route a:nth-child(3){border-right:0}
+  .kd-route a:nth-child(-n+3){border-bottom:1px solid var(--line)}
+  .kd-toc-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .kd-part-head{grid-template-columns:100px minmax(0,1fr);gap:30px}
+  .kd-part-number{font-size:78px}
+  .kd-chapter-list{margin-left:130px}
 }
 @media(max-width:760px){
   .practice-hero{padding:56px 0 50px}
@@ -77,4 +123,23 @@ a.topic-chip:hover{border-color:var(--ink);background:rgba(255,255,255,.55)}
   .topic-chip{width:100%}
   .practice-articles .article-grid-sparse{grid-template-columns:1fr;max-width:none}
   .section.dark.practice-areas .grid4{grid-template-columns:1fr}
+  .kd-edition-row{margin-top:24px}
+  .kd-edition-row span{font-size:10px}
+  .kd-route{grid-template-columns:1fr}
+  .kd-route a{min-height:0;border-right:0;border-bottom:1px solid var(--line);padding:16px}
+  .kd-route a:nth-child(-n+3){border-bottom:1px solid var(--line)}
+  .kd-route a:last-child{border-bottom:0}
+  .kd-route strong{margin-top:12px;font-size:25px}
+  .kd-toc-grid{grid-template-columns:1fr}
+  .kd-toc-grid a{min-height:145px}
+  .kd-toc-grid strong{font-size:25px}
+  .kd-part-head{grid-template-columns:1fr;gap:13px;margin-bottom:26px}
+  .kd-part-number{font-size:64px;line-height:.75}
+  .kd-part-head h2{font-size:39px}
+  .kd-part-head p{font-size:15px}
+  .kd-chapter-list{margin-left:0}
+  .kd-chapter-list a{grid-template-columns:34px minmax(0,1fr) 20px;gap:10px;min-height:86px}
+  .kd-chapter-copy strong{font-size:22px}
+  .kd-dossier-list{grid-template-columns:1fr}
+  .kd-dossier-list strong{font-size:20px}
 }
