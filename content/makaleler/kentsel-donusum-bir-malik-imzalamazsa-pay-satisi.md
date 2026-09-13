@@ -2,30 +2,30 @@
 title: "Kentsel Dönüşümde Bir Malik İmzalamazsa Ne Olur? Salt Çoğunluk ve Pay Satışı"
 slug: "kentsel-donusum-bir-malik-imzalamazsa-pay-satisi"
 date: "2026-09-09T03:35:00+03:00"
-updated: "2026-09-09T03:35:00+03:00"
+updated: "2026-09-12T20:35:00+03:00"
 category: "Kentsel Dönüşüm"
 category_url: "/kentsel-donusum-hukuku/"
 keyword: "Kentsel Dönüşüm Pay Satışı"
 summary: "6306 kapsamındaki riskli yapıda oybirliği sağlanamazsa süreç kendiliğinden durmaz. Güncel rejimde hisseleri oranında salt çoğunlukla karar, bildirim ve anlaşmayan malikin payının satışı için özel usul vardır."
 seo_title: "Kentsel Dönüşümde Bir Malik İmzalamazsa Ne Olur?"
 description: "Riskli yapıda bir malik sözleşmeyi imzalamazsa ne olur? Salt çoğunluk kararı, 15 günlük bildirim, anlaşmayan malik ve arsa payı satış süreci."
-series_id: "bagdat-caddesi-kentsel-donusum"
-series_order: 13
+series_id: "kentsel-donusum-malik-kararlari-pay-satisi"
+series_order: 4
 sources:
   - name: "6306 sayılı Afet Riski Altındaki Alanların Dönüştürülmesi Hakkında Kanun."
     url: "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.6306.pdf"
-  - name: "6306 Sayılı Kanunun Uygulama Yönetmeliği ve 4 Şubat 2026 tarihli değişiklikler."
-    url: "https://www.resmigazete.gov.tr/eskiler/2026/02/20260204-5.htm"
+  - name: "6306 Sayılı Kanunun Uygulama Yönetmeliği; özellikle m.15 ve m.15/A."
+    url: "https://www.mevzuat.gov.tr/MevzuatMetin/yonetmelik/7.5.16849.pdf"
+  - name: "4 Şubat 2026 tarihli ve 33158 sayılı Resmî Gazete'de yayımlanan Yönetmelik değişikliği."
+    url: "https://www.resmigazete.gov.tr/eskiler/2026/02/20260204-3.htm"
   - name: "Kentsel Dönüşüm Başkanlığı, Bilgi Merkezi: salt çoğunluk, bildirim ve pay satışı."
     url: "https://www.kdb.gov.tr/Mevzuat?uniq=c6db6650-9348-42dd-bffe-6ab4977787cf"
   - name: "Şenol Saltık, Tüm Yönleriyle Kentsel Dönüşüm; tarihsel ve doktriner açıklamalar."
 ---
 
-[Bir önceki bölümde](/makaleler/kentsel-donusum-teslim-gecikmesi-kira-cezai-sart/) sözleşmenin teslim ve gecikme hükümlerini tamamladık. Dosyanın son sorusu artık sözleşmenin içeriği değil, **apartmanın o sözleşme etrafında nasıl karar alacağıdır.**
+[Önceki bölümde](/makaleler/kentsel-donusum-vekalet-miras-elbirligi-vesayet/) malik iradesinin vekâlet, miras ve vesayet hâllerinde kim tarafından açıklanacağını inceledik. Şimdi irade birliği sağlanamadığında 6306'nın kurduğu pay satışı mekanizmasına geçiyoruz.
 
-Bağdat Caddesi'ndeki dönüşüm toplantılarının en gergin cümlesi genellikle şudur: “Bir kişi imzalamıyor, bütün bina bekleyecek mi?”
-
-6306 kapsamındaki riskli yapılarda cevap otomatik olarak “evet” değildir.
+Riskli yapı toplantılarının en gergin cümlesi genellikle şudur: “Bir kişi imzalamıyor, bütün bina bekleyecek mi?” 6306 kapsamındaki cevap otomatik olarak “evet” değildir; fakat “çoğunluk imzaladı, tapu hemen gider” de değildir.
 
 ## Kısa cevap: Bir malik kentsel dönüşüm sözleşmesini imzalamazsa süreç durur mu?
 
@@ -45,13 +45,11 @@ Salt çoğunluğun sağlanması kötü hazırlanmış bir sözleşmeyi iyi hale 
 
 Bu nedenle pay satışı aşamasına gelmeden önce [sözleşmenin 15 temel kontrolü](/makaleler/bagdat-caddesi-kentsel-donusum-sozlesmesi/), [teklif karşılaştırması](/makaleler/kentsel-donusum-muteahhit-teklifleri-karsilastirma/) ve [müteahhidin finansal gücü](/makaleler/kentsel-donusum-muteahhit-finansal-gucu/) mümkün olduğunca olgunlaştırılmalıdır.
 
-## 2. Güncel çoğunluk nedir?
+## 2. Güncel çoğunluk ve toplantı şartı
 
-Kentsel Dönüşüm Başkanlığının güncel Bilgi Merkezinde, riskli yapının bulunduğu parselde yeni uygulamalara ilişkin toplantının hisseleri oranında paydaşların **en az salt çoğunluğu** ile yapılacağı ve kararın da yine en az salt çoğunluk ile alınacağı açıklanmaktadır.
+Güncel kural **hisseleri oranında paydaşların salt çoğunluğudur**. Eski kaynaklardaki üçte iki oranı, 7 Kasım 2023 tarihli 7471 sayılı Kanun değişikliğinden önceki rejime aittir.
 
-Bu nedenle bugün eski kaynaklarda sık görülen **üçte iki çoğunluk** bilgisiyle hareket edilmemelidir.
-
-6306 sayılı Kanun 2023'te önemli değişiklikler geçirdi; uygulama usulü de sonrasında değiştirildi. Eski kitap ve kararlar doktriner veya tarihsel açıdan değerli olmakla birlikte, güncel çoğunluk hesabında yürürlükteki Kanun, Yönetmelik ve Kentsel Dönüşüm Başkanlığının güncel uygulama açıklamaları esas alınmalıdır.
+4 Şubat 2026 değişikliği riskli yapı parselleri için toplantı aşamasını da açıkça düzenledi. Maliklerden birinin istemiyle bütün malikler toplantıya çağrılır; toplantı toplam payların en az salt çoğunluğuyla yapılır ve karar yine toplam payların en az salt çoğunluğuyla alınarak imzalı tutanağa bağlanır.
 
 ## 3. Salt çoğunluk kişi sayısı mı, arsa payı mı?
 
@@ -65,20 +63,9 @@ Bu nokta [arsa payı ve arsa payı düzeltme bölümünün](/makaleler/kentsel-d
 
 ## 4. Toplantı nasıl yapılmalı?
 
-Kentsel Dönüşüm Başkanlığının güncel açıklamasına göre riskli yapı tespiti kesinleştikten sonra, yapının yıkılmış olması şartı aranmaksızın maliklerden birinin istemiyle yeni uygulamaya ilişkin karar alınmak üzere toplantı yapılabilir.
+Yapının yıkılmış olması karar ve satış için şart değildir. Toplantı yeri ve zamanı; Ek-12 formunun muhtarlıkta veya bina ayaktaysa bina kapısında/duyuru panosunda 15 gün ilanı ya da noter bildirimiyle duyurulur. İlan yönteminde son gün bütün paydaşlara tebliğ tarihi sayılır.
 
-Toplantı ve karar süreci sonradan satış talebinin dayanağı olacağı için:
-
-- çağrının usulü,
-- toplantıya katılım,
-- pay oranları,
-- teklifin içeriği,
-- oylama sonucu,
-- tutanak ve imzalar
-
-belgelenmelidir.
-
-“Toplandık, çoğunluk kabul etti” şeklindeki dağınık bir süreç ileride ciddi usul tartışmasına dönüşebilir.
+Çağrı belgesi ile toplantı tutanağı 2026 sonrası satış başvurusunun zorunlu ekleridir. Katılım, temsil, pay hesabı, sunulan sözleşmenin sürümü, her oy ve imza denetlenebilir olmalıdır. [Ek-12, nisap ve toplantı ispatı](/makaleler/kentsel-donusum-malik-toplantisi-cagri-ek-12/) ayrı bölümde adım adım açıklanmaktadır.
 
 ## 5. Çoğunluğun aldığı karar ne kadar ayrıntılı olmalı?
 
@@ -99,53 +86,53 @@ Kararın dayandığı anlaşma şartları görünür olmalıdır. Örneğin:
 
 ## 6. Anlaşmayan malike bildirim nasıl yapılır?
 
-Kentsel Dönüşüm Başkanlığının güncel Bilgi Merkezinde, salt çoğunlukla alınan karar ve anlaşma şartlarını içeren teklifin veya bu teklifin görülüp incelenebileceği yerin anlaşmayan maliklere **noter vasıtasıyla veya ilgili muhtarlıkta on beş gün süreyle ilan** yoluyla bildirilebileceği açıklanmaktadır.
+Çoğunluğun kararı ve anlaşma şartlarını içeren teklif veya teklifin incelenebileceği yer karara katılmayana bildirilir:
 
-Tapuya elektronik posta adresi bildirenlere elektronik posta üzerinden de bildirim öngörülmektedir.
+- tapuya elektronik tebligat adresi bildiren kişiye bu adres üzerinden,
+- bildirmeyene noter vasıtasıyla veya riskli yapıda Ek-8 formunun muhtarlıkta 15 gün ilanıyla.
 
-Buradaki 15 günlük mekanizma basit bir nezaket süresi değildir. Pay satışı sürecine geçişin temel usul aşamalarındandır.
+Elektronik bildirim, adrese ulaştığı tarihi izleyen beşinci günün sonunda; muhtarlık ilanı son gün yapılmış sayılır. “Elektronik posta” ile “elektronik tebligat adresi” aynı değildir. Sıradan e-posta veya mesajlaşma uygulaması kanuni yöntemin yerine geçmez.
 
-## 7. Malik teklifin bir kısmını kabul edip bir kısmına şerh koyabilir mi?
+İlan yönteminde teklif muhtarlığa teslim edilir veya karara katılmayanın görebileceği il içindeki adres açıkça belirtilir. Bildirimde 15 gün içinde inceleme/kabul olmazsa payın satılacağı ve satışın sonraki aşamaları yazılmalıdır.
 
-Güncel Kentsel Dönüşüm Başkanlığı açıklamasında, anlaşma iradesi gösteren malikin süre içinde salt çoğunluğun kararı doğrultusunda yapılan sözleşme ve evrakların tamamını **şartsız ve şerhsiz** imzalaması gerektiği belirtilmektedir.
+## 7. Teklif kısmen kabul edilebilir mi?
 
-Dolayısıyla “imzalıyorum ama şu maddeyi kabul etmiyorum” yaklaşımının 6306 kapsamındaki anlaşma değerlendirmesinde sonuç doğurabileceği dikkate alınmalıdır.
+Karara katılma, çoğunluğun kabul ettiği aynı teklif üzerinde irade uyuşmasını gerektirir. Esaslı hükme çekince koymak kabul değil yeni öneri sayılabilir. Yönetmelik, ihaleyi kazanan kişinin sözleşme ve diğer belgeleri **şartsız ve şerhsiz** imzalamasını açıkça ister.
 
-Bu, malikin hukuki itiraz haklarının hiçbir zaman bulunmadığı anlamına gelmez. Sadece 6306 uygulamasındaki **anlaşma iradesinin nasıl değerlendirildiğine** ilişkin özel mekanizmadır.
+Bu, malikin hukuka aykırılığa karşı bütün dava hakkından peşinen vazgeçtiği anlamına gelmez. Fakat satıştan çıkmak amacıyla imza atarken hangi hakkın saklı tutulabileceği dikkatle kurulmalıdır. [İhtirazi kayıt ve delil tespiti](/makaleler/kentsel-donusum-ihtirazi-kayit-delil-tespiti/) bölümünde bu ayrım incelenmektedir.
 
 ## 8. On beş günlük sürede teklif kabul edilmezse ne olur?
 
-Güncel uygulama açıklamasına göre, bildirimin yapıldığı veya yapılmış sayıldığı tarihten itibaren teklifin incelenmemesi ya da aynı süre içinde kabul edilmemesi halinde karara katılmayan maliklerin arsa payları **açık artırma usulüyle satış** sürecine konu olabilir.
+Pay kendiliğinden devrolmaz. Çoğunluk; toplantı çağrısı, toplantı tutanağı, çoğunluk karar/sözleşme/vekâlet belgeleri, teklif tebliği ve hissesi satılacak her malik için SPK yetkili kuruluş değerleme raporuyla Müdürlüğe veya yetki devri yapılmış İdareye yazılı başvurur.
 
-Ancak satış kendiliğinden gerçekleşmez. Salt çoğunlukla karar alan maliklerin gerekli belgelerle satış talebinde bulunması gerekir.
+Yetkili birim il ve tarihteki güncel yetki devri kararından kontrol edilmelidir; bütün İstanbul dosyalarının değişmez biçimde ilçe belediyesine ait olduğu genellenemez. Yapının yıkılması satışın ön koşulu değildir.
 
-Kentsel Dönüşüm Başkanlığı, İstanbul'da satış talebinin **ilçe belediyelerine**, diğer illerde ise Kentsel Dönüşüm Müdürlüklerine yapılacağını açıklamaktadır.
+Başvurudan önce teklif tebliği ve satış talebi tamamlanmadan, çoğunluk kararına dayanılarak yapı ruhsatı başvurusu yapılamaz. Yetkili birim çoğunluk ve bildirimleri ön inceleyip talep üzerine ruhsat makamına yazı gönderir. Bu sıra [satış dosyası ve ruhsat bölümünde](/makaleler/kentsel-donusum-pay-satisi-dosya-denetimi-ruhsat/) ayrıntılıdır.
 
 ## 9. Payın fiyatını apartman mı belirler?
 
-Hayır.
+Hayır. Yetkili birim bünyesindeki en az üç kişilik Bedel Tespiti Komisyonu ve Satış Komisyonu süreci yürütür. Komisyon, maliklerin sunduğu SPK yetkili kuruluş raporunu da gözeterek rayiç değeri tespit eder. İhale bu değerden aşağı başlayamaz.
 
-Satış sürecinde satılacak arsa payının rayiç değerinin belirlenmesi için ilgili idare bünyesinde bedel tespiti mekanizması vardır. Kentsel Dönüşüm Başkanlığının açıklamasına göre Bedel Tespiti Komisyonu ve Satış Komisyonu oluşturulur.
+Raporun güncelliği, imar hakkı ve emsalleri yargısal denetime açıktır. [Pay satışında değerleme](/makaleler/kentsel-donusum-pay-satisi-degerleme-rayic-bedel/) ayrı teknik bölümdür.
 
-Bu nedenle “çoğunluk istediği fiyattan azınlığın payını alır” şeklinde anlatım doğru değildir.
+## 10. Satış başvurusundan sonra tapuda ne olur?
 
-Rayiç değer tespiti, satış sürecinin ayrı ve hukuken önem taşıyan aşamasıdır.
+Müdürlük/İdare, satılacak payın beyanlar hanesine 6306 satışına tabi olduğu ve satılamayacağı veya devri gerektiren benzer işleme konu edilemeyeceği yönünde belirtme ister. Bu kayıt, süreç başladıktan sonra üçüncü kişiye devirle usulü etkisizleştirmeyi önler.
 
-## 10. Satış talebi verilince malik payını başkasına satabilir mi?
+Payda ipotek, haciz, ihtiyati haciz veya intifa bulunması satışı engellemez. Haklar satış bedeli üzerine geçer, hesap bloke edilir ve hak sahibi/ilgili icra makamı bilgilendirilir. Ayrıntı [takyidatlı pay satışında](/makaleler/ipotekli-hacizli-intifali-pay-satisi/) açıklanmıştır.
 
-Satış süreci belirli bir aşamaya geldiğinde tapu kaydına 6306 kapsamında satış işlemine tabi olduğuna ve satışa veya taşınmazın devrini gerektiren benzeri işleme tabi tutulamayacağına ilişkin belirtme konulması istenebilir.
+## 11. İlk ve sonraki satışlara kim katılır?
 
-Bu nedenle pay satışı dosyası başladıktan sonra “başkasına devrederim, süreç biter” şeklinde basit bir kaçış planına güvenilmemelidir.
+İlk satışa yalnız salt çoğunlukla anlaşan paydaşlar katılabilir. Müteahhit ancak kendisi de malikse bu sıfatla ilk satışa katılabilir. Tek katılımcı bulunması ihaleyi geçersiz kılmaz; rayiçten az olmayan teklifi kabul edilebilir.
 
-Somut tapu kaydı ve satış aşaması ayrıca incelenmelidir.
+İlk satışta pay alınmazsa çoğunluğun talebiyle sonraki satış yapılır. 4 Şubat 2026 sonrasında Ek-13 formu yetkili birimin yayın araçları ve ilan panosunda 15 gün ilan edilir; bütün maliklere e-Devlet üzerinden bildirilir. Bu satışlara anlaşan paydaşlarla birlikte üçüncü kişiler de katılabilir. Üçüncü kişi:
 
-## 11. Müteahhit açık artırmaya katılabilir mi?
+- çoğunluk kararını ve sözleşmeyi kabul edeceğini yazılı beyan eder,
+- rayiç değerin yüzde 10'u kadar nakit teminat yatırır.
 
-6306 uygulamasında satışa kimlerin ve hangi aşamada katılabileceği Kanun ve Yönetmelikteki özel kurallara tabidir. Kentsel Dönüşüm Başkanlığının güncel açıklamaları, anlaşan maliklerin ve şartları oluştuğunda ilgili müteahhidin konumunu ayrıca düzenlemektedir.
+İhaleyi kazanan, yedi gün içinde bedeli vadeli hesaba yatırır ve sözleşme/diğer belgeleri şartsız ve şerhsiz imzalar. Aksi hâlde sıradaki teklif sahibine geçilir; üçüncü kişinin teminatı Başkanlığa gelir kaydedilebilir.
 
-Bu ayrıntı dosyanın türüne, satışın ilk veya sonraki aşama olmasına ve müteahhidin hukuki konumuna göre değişebildiği için, somut satış ilanı ve yürürlükteki Yönetmelik üzerinden kontrol edilmelidir.
-
-Burada güvenli genel kural şudur: **Pay satışı normal bir emlak açık artırması değildir; 6306'nın özel prosedürüdür.**
+Tescil sonrası satış pay malikine bildirilir. Satışın iptali hâlindeki resen geri tescil, kanuni ipotek ve eksik değer istisnası [tapu sonuçları bölümünde](/makaleler/kentsel-donusum-pay-satisi-iptali-tapu/) incelenmektedir.
 
 ## 12. Bir malik haklı nedenle karşı çıkıyorsa ne olacak?
 
