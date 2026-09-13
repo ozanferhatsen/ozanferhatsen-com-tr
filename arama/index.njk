@@ -1,0 +1,55 @@
+---
+layout: base.njk
+title: "Hukuk Arama"
+seo_title: "Hukuk Arama | Ozan Ferhat Şen"
+description: "Makaleler, içtihatlar ve Karar Haritaları içinde hukuki sorun, kavram veya karar arayın."
+robots: "noindex,follow"
+page_css: "/assets/search.css"
+excludeFromSearch: true
+---
+<section class="section search-page">
+  <div class="wrap">
+    <div class="search-shell" data-search-app>
+      <div class="search-intro">
+        <div class="eyebrow">Site içi hukuk araması</div>
+        <h1>Bir hukuki sorun, karar veya kavram arayın.</h1>
+        <p>Makaleler, yayımlanmış içtihatlar ve Karar Haritaları birlikte taranır. Türkçe karakter kullanılmayan ve küçük yazım hataları içeren sorgular da toleranslı biçimde değerlendirilir.</p>
+      </div>
+
+      <form class="search-form" role="search" data-search-form>
+        <label class="sr-only" for="site-search-input">Site içinde ara</label>
+        <input
+          class="search-input"
+          id="site-search-input"
+          type="search"
+          name="q"
+          placeholder="Örn. arsa payı hukuki yarar"
+          autocomplete="off"
+          spellcheck="false"
+          data-search-input
+        >
+        <button class="search-submit" type="submit">Ara</button>
+      </form>
+
+      <div class="search-status" role="status" aria-live="polite" data-search-status></div>
+
+      <div class="search-filters" aria-label="Sonuç türünü filtrele" data-search-filters></div>
+
+      <div class="search-results" data-search-results>
+        <div class="search-empty">Arama hazırlanıyor…</div>
+      </div>
+
+      <div class="search-examples" data-search-examples aria-label="Örnek aramalar">
+        <button type="button" class="search-example" data-search-example="arsa payı hukuki yarar">Arsa payı hukuki yarar</button>
+        <button type="button" class="search-example" data-search-example="kentsel dönüşüm">Kentsel dönüşüm</button>
+        <button type="button" class="search-example" data-search-example="müteahhit temerrüdü">Müteahhit temerrüdü</button>
+        <button type="button" class="search-example" data-search-example="tapu iptali tescil">Tapu iptali ve tescil</button>
+      </div>
+
+      <p class="search-note">Bu arama katmanı site içeriğini bulmaya yöneliktir; hukuki değerlendirme veya kişisel hukuki tavsiye üretmez.</p>
+    </div>
+  </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/minisearch@7.2.0/dist/umd/index.min.js" defer></script>
+<script src="/assets/search.js" defer></script>
