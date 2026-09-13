@@ -50,15 +50,18 @@ og_type: article
       <h1>{{ title }}</h1>
       {% if summary %}<p class="analysis-summary">{{ summary }}</p>{% endif %}
       <dl class="analysis-meta">
-        <div><dt>İncelenen karar</dt><dd>{{ decision_count or '24' }} HGK kararı</dd></div>
-        <div><dt>Dönem</dt><dd>{{ decision_period or '2020–2022' }}</dd></div>
-        <div><dt>İnceleme yöntemi</dt><dd>{{ analysis_method or 'Konu, uyuşmazlık ve hukuki sonuç bakımından karşılaştırmalı analiz' }}</dd></div>
+        <div><dt>İncelenen karar</dt><dd>{{ decision_count }} HGK kararı</dd></div>
+        <div><dt>Dönem</dt><dd>{{ decision_period }}</dd></div>
+        <div><dt>İnceleme yöntemi</dt><dd>{{ analysis_method }}</dd></div>
       </dl>
       <p class="analysis-method-note"><strong>Bu çalışma, münferit karar özeti niteliğinde değildir.</strong> Hukuk Genel Kurulu kararlarında aynı hukuki sorunun farklı uyuşmazlık tiplerinde nasıl ele alındığını ortaya koymak amacıyla kararlar birlikte değerlendirilmiştir.</p>
     </header>
 
     <article class="analysis-body">
       {{ content | safe }}
+      {% if page.fileSlug == 'tasinmaz-satisi' %}
+        {% include "hgk-tasinmaz-final-redaksiyon.njk" %}
+      {% endif %}
     </article>
 
     <section class="scholarly-citation" aria-labelledby="citation-title">
