@@ -18,7 +18,7 @@ canonical: "https://ozanferhatsen.com.tr/hukuki-gelismeler/"
     <div class="legal-updates-archive">
       {% for update in updates %}
       <article class="legal-update-entry" id="{{ update.id }}">
-        <div class="card-date">{{ update.date | dateTR }} · {{ update.category }}</div>
+        <div class="card-date">{{ update.date | dateTR }} · {{ update.category }}{% if update.tag %} · {{ update.tag }}{% endif %}</div>
         <h2>{{ update.title }}</h2>
         <p>{{ update.summary }}{% if update.sourceUrl %} <a class="arrow" href="{{ update.sourceUrl }}"{% if update.sourceUrl.startsWith('http') %} target="_blank" rel="noopener"{% endif %}>{{ update.sourceLabel or 'Kaynağı aç →' }}</a>{% endif %}</p>
       </article>

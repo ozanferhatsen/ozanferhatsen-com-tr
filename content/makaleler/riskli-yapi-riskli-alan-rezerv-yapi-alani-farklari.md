@@ -6,8 +6,8 @@ updated: "2026-09-12T20:10:00+03:00"
 category: "Kentsel Dönüşüm"
 category_url: "/kentsel-donusum-hukuku/"
 keyword: "riskli yapı riskli alan rezerv yapı alanı farkı"
-summary: "Riskli yapı tekil bina, riskli alan teknik risk taşıyan bölge, rezerv yapı alanı ise 6306 uygulamalarında kullanılacak alandır. Karar makamı, teknik dosya, itiraz, mülkiyet etkisi ve 2023 sonrası rezerv alan tanımı karşılaştırılmaktadır."
-seo_title: "Riskli Yapı, Riskli Alan ve Rezerv Alan Farkı"
+summary: "Riskli yapı tekil bina, riskli alan teknik risk taşıyan bölge, rezerv yapı alanı ise 6306 uygulamalarında kullanılacak alandır. Karar makamı, teknik dosya, itiraz, mülkiyet etkisi ve 2023 sonrası rezerv yapı alanı tanımı karşılaştırılmaktadır."
+seo_title: "Riskli Yapı, Riskli Alan ve Rezerv Yapı Alanı Farkı"
 description: "Riskli yapı, riskli alan ve rezerv yapı alanı nedir? Kim karar verir, hangi teknik şartlar aranır, malik ve tapu nasıl etkilenir?"
 series_id: "kentsel-donusum-alan-bazli-donusum"
 series_order: 1
@@ -49,7 +49,7 @@ Riskli yapı tespiti [lisanslı kuruluş, saha incelemesi, karot ve hesap](/maka
 
 Bu statüde temel soru, belirli taşıyıcı sistemin Riskli Yapıların Tespit Edilmesine İlişkin Esaslara göre riskli olup olmadığıdır. Mahallenin sosyal veya ekonomik yenilenme ihtiyacı, tek başına o binayı riskli yapı yapmaz.
 
-## 3. Riskli alanın iki ana maddi yolu
+## 3. Riskli alan kararının başlıca maddi dayanakları
 
 Olağan riskli alan dosyası, alanın zemin yapısı veya yapılaşması nedeniyle can ve mal kaybı riski taşıdığını gösteren teknik rapor, koordinatlı sınır haritası, uydu/ortofoto, kamu taşınmazları listesi ve koşuluna göre yerbilimsel etüt ile EK-A analizini içerir.
 
@@ -82,7 +82,7 @@ yapılabilir.
 
 Koordinatlı hâlihazır harita, uydu/ortofoto, kamu taşınmazları listesi ve alanın niteliğine göre gerekçe raporu içeren dosya üzerinden Başkanlık teklif eder; **Bakanlık belirler**. TOKİ veya İdare Başkanlıktan talepte bulunabilir.
 
-Gerçek ve özel hukuk tüzel kişileri de kendi taşınmazları için talepte bulunabilir. Bu durumda yapılaşmaya esas arsa metrekaresinin yüzde 30'unun mülkiyetinin Başkanlığa devrine muvafakat veya aynı miktarın değerinin dönüşüm projeleri özel hesabına ödenmesi gerekir. Bu yüzde 30 koşulu, Bakanlık/Başkanlığın resen belirlediği her rezerv alan için maliklere yöneltilmiş genel bir “başvuru harcı” değildir; özel kişinin kendi taşınmazı için talebine bağlıdır.
+Gerçek ve özel hukuk tüzel kişileri de kendi taşınmazları için talepte bulunabilir. Bu durumda yapılaşmaya esas arsa metrekaresinin yüzde 30'unun mülkiyetinin Başkanlığa devrine muvafakat veya aynı miktarın değerinin dönüşüm projeleri özel hesabına ödenmesi gerekir. Bu yüzde 30 koşulu, Bakanlık/Başkanlığın resen belirlediği her rezerv yapı alanı için maliklere yöneltilmiş genel bir “başvuru harcı” değildir; özel kişinin kendi taşınmazı için talebine bağlıdır.
 
 ## 7. Alan kararı içindeki her bina riskli midir?
 
@@ -100,10 +100,10 @@ Müdahalenin somut sonucu sonraki işlemle belirginleşir. Alan kararı, plan on
 
 İdare, alan ölçeğinde teknik ve sosyal bütünlük gerektiren sorunu birbirinden kopuk bina raporlarıyla; tek bina sorununu ise gerekli alan gerekçesi olmadan geniş bir sınır kararıyla çözmeye çalışırsa sebep ve ölçülülük tartışması doğar.
 
-Malik açısından da yanlış başvuru ciddi sonuç yaratır. Riskli yapıda teknik heyete 15 günlük itiraz varken riskli veya rezerv alan kararında aynı heyet yolu bulunmaz. Alan kararları ve planlar idari yargıda ayrı usulle denetlenir.
+Malik açısından da yanlış başvuru ciddi sonuç yaratır. Riskli yapıda teknik heyete 15 günlük itiraz varken riskli veya rezerv yapı alanı kararında aynı heyet yolu bulunmaz. Alan kararları ve planlar idari yargıda ayrı usulle denetlenir.
 
 ## Sonuç
 
-Riskli yapı bir bina tespitidir; riskli alan teknik ve/veya ek m.1 ölçütleriyle kurulan Cumhurbaşkanı kararıdır; rezerv yapı alanı ise 6306 uygulama amacıyla Bakanlıkça belirlenen daha geniş işlevli alandır. 2023'ten sonra rezerv alanı yalnız boş taşıma sahası saymak güncel hukuku yansıtmaz.
+Riskli yapı bir bina tespitidir; riskli alan, Kanun ve ek m.1’deki ölçütler çerçevesinde Cumhurbaşkanınca kararlaştırılan bir alan statüsüdür; rezerv yapı alanı ise 6306 uygulama amacıyla Bakanlıkça belirlenen daha geniş işlevli alandır. 2023'ten sonra rezerv alanı yalnız boş taşıma sahası saymak güncel hukuku yansıtmaz.
 
 Bir sonraki bölümde [riskli alan, rezerv yapı alanı ve bu alanlardaki imar planlarının iptal davası](/makaleler/riskli-alan-rezerv-alan-imar-plani-iptal-davasi/) ayrı ayrı incelenmektedir.

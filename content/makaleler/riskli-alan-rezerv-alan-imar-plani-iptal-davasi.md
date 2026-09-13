@@ -7,7 +7,7 @@ category: "Kentsel Dönüşüm"
 category_url: "/kentsel-donusum-hukuku/"
 keyword: "riskli alan rezerv yapı alanı iptal davası"
 summary: "Alan statüsü, 6306 imar planı, parselasyon ve tahliye uygulaması ayrı idari işlemlerdir. Görevli mahkeme, 30 günlük özel süre, askı-itiraz, sınır ve teknik rapor denetimi ile yürütmenin durdurulması incelenmektedir."
-seo_title: "Riskli ve Rezerv Alan İptal Davası | İmar Planı"
+seo_title: "Riskli ve Rezerv Yapı Alanı İptal Davası | İmar Planı"
 description: "Riskli alan ve rezerv yapı alanına nasıl dava açılır? 30 günlük süre, Danıştay/idare mahkemesi, plan askısı ve yürütmenin durdurulması."
 series_id: "kentsel-donusum-alan-bazli-donusum"
 series_order: 2
@@ -53,17 +53,17 @@ Bir işlemin iptali diğerinin hukuki dayanağını etkileyebilir; yine de dava 
 
 ## 2. Riskli alan kararında görevli mahkeme
 
-Riskli alan Cumhurbaşkanı kararıyla kurulur. 2575 sayılı Danıştay Kanunu m.24, Cumhurbaşkanı kararlarına karşı davaları ilk derece mahkemesi olarak Danıştayın görevine verir. Bu nedenle riskli alan kararına doğrudan dava, kural olarak Danıştayda açılır.
+Riskli alan statüsü Cumhurbaşkanı kararıyla belirlenir. 2575 sayılı Danıştay Kanunu m.24, Cumhurbaşkanı kararlarına karşı davaları ilk derece mahkemesi olarak Danıştayın görevine verir. Bu nedenle riskli alan kararına doğrudan dava, kural olarak Danıştayda açılır.
 
 Rezerv yapı alanı ise Bakanlıkça belirlenen somut alan işlemidir. Görev ve yetki; işlemin niteliği, kapsadığı coğrafya ve 2575/2577 hükümleri birlikte uygulanarak belirlenir. Tek taşınmaz veya tek idare mahkemesi çevresindeki Bakanlık işlemlerinde taşınmazın bulunduğu yer idare mahkemesi çoğu kez görevli-yetkili olur; birden fazla yargı çevresini ilgilendiren işlem veya ülke çapında düzenleyici işlem varsa Danıştay görevi ayrıca değerlendirilir.
 
-Mahkeme konusunda dosyayı görmeden “her rezerv alan davası Danıştayda” veya “her zaman yerel idare mahkemesinde” şeklinde kesin kalıp kullanılmamalıdır.
+Mahkeme konusunda dosyayı görmeden “her rezerv yapı alanı davası Danıştayda” veya “her zaman yerel idare mahkemesinde” şeklinde kesin kalıp kullanılmamalıdır.
 
 ## 3. Otuz günlük süre ne zaman başlar?
 
 6306 m.6/9 özel kuraldır: Kanun uyarınca tesis edilen idari işleme karşı tebliğden itibaren 30 gün. Riskli alan bakımından ek m.1/2-a daha da özelleşir; dava Resmî Gazete'deki yayım tarihinden itibaren açılabilir ve uygulama işlemi üzerine alan kararına dava açılamaz.
 
-Rezerv alan kararında tebliğ/ilan yöntemi ve malikin kararı hangi tarihte öğrendiği dosya bazında incelenir. Süre başlangıcı tartışmalıysa en geç ihtimali beklemek yerine öğrenilen/yayımlanan tarihten itibaren 30 gün içinde başvurmak güvenli yaklaşımdır.
+Rezerv Yapı Alanı kararında tebliğ/ilan yöntemi ve malikin kararı hangi tarihte öğrendiği dosya bazında incelenir. Süre başlangıcı tartışmalıysa en geç ihtimali beklemek yerine öğrenilen/yayımlanan tarihten itibaren 30 gün içinde başvurmak güvenli yaklaşımdır.
 
 İYUK m.11 başvurusu dava süresini durdurabilir; fakat yanlış makama, süreden sonra veya belirsiz taleple yapılan başvurunun koruma sağlayacağı varsayılmamalıdır. Tarih çizelgesi kurulmadan idari başvuru yapılmamalıdır.
 
@@ -89,9 +89,9 @@ Mahkeme idarenin yerine geçip yeni sınır çizmez; mevcut sınır kararının 
 
 Teknik raporun yalnız kanun cümlesini tekrarlaması, bilimsel sebep unsurunu ispatlamaz.
 
-## 6. Rezerv alan kararında denetim ölçütleri
+## 6. Rezerv Yapı Alanı kararında denetim ölçütleri
 
-Rezerv alan için riskli alandaki “can ve mal kaybı riski” zorunlu unsur değildir. Denetim, alanın 6306 uygulamalarında kullanılma amacı, koordinat ve taşınmaz verileri, planlama bütünlüğü ve mülkiyet hakkına müdahalenin ölçülülüğü üzerinde yoğunlaşır.
+Rezerv Yapı Alanı için riskli alandaki “can ve mal kaybı riski” zorunlu unsur değildir. Denetim, alanın 6306 uygulamalarında kullanılma amacı, koordinat ve taşınmaz verileri, planlama bütünlüğü ve mülkiyet hakkına müdahalenin ölçülülüğü üzerinde yoğunlaşır.
 
 2023'te “yeni yerleşim alanı” sınırlamasının kaldırılması, Bakanlığın her yerleşik alanı gerekçesiz biçimde rezerv ilan edebileceği anlamına gelmez. Yetki kamu yararı, kanunun amacı ve ölçülülük ilkeleriyle bağlıdır. Malik talebiyle özel rezerv başvurusunda yüzde 30 devir/bedel koşulu ile resen belirleme süreci de birbirine karıştırılmamalıdır.
 

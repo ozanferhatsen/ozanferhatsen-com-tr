@@ -31,7 +31,7 @@ sources:
 
 - **7269**, genel hayata etkili afetlerde tedbir, yasak bölge, hak sahipliği, borçlandırma ve afet konutu gibi genel sistemi kurar.
 - **7452**, 6 Şubat 2023 depremleri nedeniyle genel hayata etkili afet bölgesi kabul edilen yerlerde iskân alanı, planlama, acele kamulaştırma, yapım ve desteklere ilişkin özel/olağanüstü hükümler getirir.
-- **7471**, 9 Kasım 2023'te 6306'yı ülke çapında değiştiren bir değişiklik kanunudur: Kentsel Dönüşüm Başkanlığı, salt çoğunluk, ilan usulleri, rezerv alan tanımı ve başka birçok kural buradan gelir.
+- **7471**, 9 Kasım 2023'te 6306'yı ülke çapında değiştiren bir değişiklik kanunudur: Kentsel Dönüşüm Başkanlığı, salt çoğunluk, ilan usulleri, rezerv yapı alanı tanımı ve başka birçok kural buradan gelir.
 
 Bir taşınmaz deprem ilinde diye her işlem 7452'ye; 7471 ile değişmiş diye her 6306 işlemi afet hak sahipliğine tabi değildir.
 
@@ -81,7 +81,7 @@ Bu kuralların kapsamı ilgili 7452 maddesindeki afet ve destek koşullarıyla s
 - riskli yapı tespit, ilan, tahliye ve yıkım hükümlerinin yenilenmesi,
 - üçte iki yerine hisseler oranında **salt çoğunluk**,
 - rezerv yapı alanı tanımından “yeni yerleşim alanı olarak” ibaresinin çıkarılması,
-- özel kişi rezerv alan talebinde yüzde 30 devir veya bedel,
+- özel kişi rezerv yapı alanı talebinde yüzde 30 devir veya bedel,
 - planlar için 15 günlük ilan ve beş günlük itiraz değerlendirmesi,
 - pay satışının iptalinden sonraki tescil ve eksik bedel sonuçları,
 - ortaklığın giderilmesi davasının çoğunluk sürecine engel olmaması.

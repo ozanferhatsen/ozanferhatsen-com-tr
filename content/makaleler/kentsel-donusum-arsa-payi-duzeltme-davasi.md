@@ -48,7 +48,7 @@ aynı ekonomik değeri taşımayabilir.
 
 Arsa payı belirlenirken temel ölçüt bağımsız bölümün değeri olduğundan, yalnız m² üzerinden mekanik bir dağılım yapılmış olması baştan sorun yaratabilir.
 
-Bu, [serinin üçüncü bölümündeki şerefiye incelemesiyle](/makaleler/kentsel-donusum-serefiye-kat-cephe-deniz-manzarasi/) de kesişir. Fakat iki kavram aynı değildir: şerefiye bir değer farkını anlatırken, **arsa payı tapuda kayıtlı ayni hak oranıdır.**
+Bu, [serinin üçüncü bölümündeki şerefiye incelemesiyle](/makaleler/kentsel-donusum-serefiye-kat-cephe-deniz-manzarasi/) de kesişir. Fakat iki kavram aynı değildir: şerefiye bir değer farkını anlatırken, **arsa payı, bağımsız bölüme tahsis edilen ve arsa üzerindeki ortak mülkiyet payını gösteren tapu sicili unsurudur.**
 
 ## 2. Eski tapudaki arsa payı neden yanlış olabilir?
 

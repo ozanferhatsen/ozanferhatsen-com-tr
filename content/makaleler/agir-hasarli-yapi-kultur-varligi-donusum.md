@@ -80,7 +80,7 @@ Kurul; koruma, güçlendirme, söküm, yeniden yapım veya projelendirme bakım�
 
 ## 7. Sit alanı ve alan bazlı uygulamalar
 
-Riskli veya rezerv alan içinde 2863 ya da 5366 kapsamındaki bir alan varsa 6306 m.9/3 gereğince sit statüsü gözetilerek Kültür ve Turizm Bakanlığının görüşü alınır. Yönetmelik m.18/5 görüşün 30 gün içinde bildirilmesini öngörür.
+Riskli veya rezerv yapı alanı içinde 2863 ya da 5366 kapsamındaki bir alan varsa 6306 m.9/3 gereğince sit statüsü gözetilerek Kültür ve Turizm Bakanlığının görüşü alınır. Yönetmelik m.18/5 görüşün 30 gün içinde bildirilmesini öngörür.
 
 Tekil tescilli yapıdaki koruma kurulu kararı ile alan planlamasındaki Bakanlık görüşü aynı işlem değildir. Parseldeki yapının tescili, alanın sit statüsü, yenileme alanı kararı ve 6306 alan kararı ayrı katmanlar hâlinde haritalanmalıdır.
 

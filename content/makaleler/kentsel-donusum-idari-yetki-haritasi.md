@@ -139,6 +139,6 @@ Tablo bir başlangıçtır; alanın özel kanun statüsü, protokol veya yetki d
 
 ## Sonuç
 
-6306 dosyasında doğru merci kurum adından değil işlem türünden bulunur. Başkanlık uygulamanın merkezidir; Bakanlık rezerv alan ve planlarda, Cumhurbaşkanı riskli alan kararında, İdare tahliye-yıkım ve ruhsatta, mülkî amir kolluk kullanımında, Müdürlük ise itiraz ve pay satışı dosyasında öne çıkar. Dava açmadan veya başvuru yapmadan önce karar, yetki devri ve imza zinciri birlikte kontrol edilmelidir.
+6306 dosyasında doğru merci kurum adından değil işlem türünden bulunur. Başkanlık uygulamanın merkezidir; Bakanlık rezerv yapı alanı ve planlarda, Cumhurbaşkanı riskli alan kararında, İdare tahliye-yıkım ve ruhsatta, mülkî amir kolluk kullanımında, Müdürlük ise itiraz ve pay satışı dosyasında öne çıkar. Dava açmadan veya başvuru yapmadan önce karar, yetki devri ve imza zinciri birlikte kontrol edilmelidir.
 
 Bu bölümle Riskli Yapı ve İdari Süreç alt kitabı tamamlanmaktadır. Alan ölçeğindeki farklı rejimler, [riskli yapı, riskli alan ve rezerv yapı alanı arasındaki farklar](/makaleler/riskli-yapi-riskli-alan-rezerv-yapi-alani-farklari/) bölümünden itibaren incelenir.
