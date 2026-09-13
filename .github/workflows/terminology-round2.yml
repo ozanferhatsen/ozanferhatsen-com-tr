@@ -1,0 +1,299 @@
+name: Second-pass legal terminology audit
+
+on:
+  push:
+    branches: [cms-deneme]
+    paths:
+      - '.github/workflows/terminology-round2.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  audit-and-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: 24
+
+      - name: Apply second-pass legal audit
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json, re, html
+
+          root = Path('.')
+
+          # 1) Add every public/indexable precedent to the archive data source.
+          data_path = root / '_data' / 'ictihatlar.json'
+          data = json.loads(data_path.read_text(encoding='utf-8'))
+          categories = {c['id']: c for c in data['categories']}
+          listed = {item['url'] for c in data['categories'] for item in c['items']}
+
+          def strip_tags(value):
+              value = re.sub(r'<[^>]+>', ' ', value or '')
+              return re.sub(r'\s+', ' ', html.unescape(value)).strip()
+
+          def fm_value(text, key):
+              m = re.search(rf'(?m)^{re.escape(key)}:\s*["\']?(.+?)["\']?\s*$', text)
+              return m.group(1).strip().strip('"\'') if m else ''
+
+          def field(text, label):
+              m = re.search(rf'<strong>{re.escape(label)}:</strong>\s*([^<]+)', text)
+              return strip_tags(m.group(1)) if m else ''
+
+          def tag_list(title, summary):
+              t = (title + ' ' + summary).lower()
+              candidates = [
+                  ('Arsa payı', ['arsa payı']),
+                  ('Yüklenici', ['yüklenici']),
+                  ('Fesih', ['fesih']),
+                  ('Tapu iptali ve tescil', ['tapu iptali', 'tescil']),
+                  ('İyiniyet', ['iyiniyet']),
+                  ('Hile', ['hile']),
+                  ('Şekil şartı', ['şekil şart', 'resmî biçim']),
+                  ('Takas ve mahsup', ['takas', 'mahsup']),
+                  ('Ayıplı ifa', ['ayıplı', 'ayıp']),
+                  ('Kira kaybı', ['kira kaybı']),
+                  ('Nama ifa', ['nama ifa']),
+                  ('Alt yüklenici', ['alt yüklenici']),
+                  ('İtirazın kaldırılması', ['itirazın kaldırılması']),
+                  ('Yapı Kayıt Belgesi', ['yapı kayıt belgesi']),
+                  ('Miras ortaklığı', ['miras ortaklığı', 'elbirliği']),
+                  ('Tasarrufun iptali', ['tasarrufun iptali']),
+                  ('Aciz hâli', ['aciz hâli', 'aciz hali']),
+                  ('Bekletici mesele', ['bekletici mesele']),
+                  ('Paylı mülkiyet', ['paylı mülkiyet']),
+                  ('İmar ruhsatı', ['imar ruhsatı']),
+                  ('Cezai şart', ['cezai şart']),
+                  ('İpotek', ['ipotek']),
+                  ('Üçüncü kişi', ['üçüncü kişi', '3. kişi'])
+              ]
+              out = []
+              for label, needles in candidates:
+                  if any(n in t for n in needles):
+                      out.append(label)
+                  if len(out) == 4:
+                      break
+              return out or ['İnşaat sözleşmesi']
+
+          added = []
+          for path in sorted((root / 'ictihat').glob('*.njk')):
+              if path.name == 'index.njk':
+                  continue
+              text = path.read_text(encoding='utf-8')
+              permalink = fm_value(text, 'permalink')
+              if not permalink or permalink in listed:
+                  continue
+              robots = fm_value(text, 'robots').lower()
+              if 'noindex' in robots:
+                  continue
+              title_full = fm_value(text, 'title')
+              title = title_full.split('|', 1)[1].strip() if '|' in title_full else title_full
+              title = title.replace('3. Kişinin', 'Üçüncü Kişinin').replace('3. Kişi', 'Üçüncü Kişi')
+              court_m = re.search(r'<aside class="precedent-kunye">[\s\S]*?<h1>(.*?)</h1>', text)
+              court = strip_tags(court_m.group(1)) if court_m else 'Yargıtay Hukuk Genel Kurulu'
+              summary_m = re.search(r'<aside class="precedent-summary">[\s\S]*?<p>(.*?)</p>', text)
+              summary = strip_tags(summary_m.group(1)) if summary_m else fm_value(text, 'description')
+              esas = field(text, 'Esas No')
+              karar = field(text, 'Karar No')
+              tarih = field(text, 'Karar Tarihi') or field(text, 'Sonuç Tarihi')
+              if esas and karar:
+                  meta = f'{court} · E. {esas} · K. {karar}' + (f' · {tarih}' if tarih else '')
+              else:
+                  basvuru = field(text, 'Başvuru No')
+                  meta = f'{court}' + (f' · B. No: {basvuru}' if basvuru else '') + (f' · {tarih}' if tarih else '')
+
+              eyebrow_m = re.search(r'<div class="eyebrow">İçtihat\s*·\s*(.*?)</div>', text)
+              topic = strip_tags(eyebrow_m.group(1)) if eyebrow_m else ''
+              low = (topic + ' ' + title + ' ' + summary).lower()
+              if 'eser sözleşmesi' in low or 'inşaat sözleşmesi' in low:
+                  category_id = 'insaat-hukuku'
+              elif 'kira' in low:
+                  category_id = 'kira-hukuku'
+              elif 'imar' in low:
+                  category_id = 'imar-mulkiyet-hukuku'
+              else:
+                  category_id = 'gayrimenkul-tasinmaz-hukuku'
+
+              item = {
+                  'court': court,
+                  'meta': meta,
+                  'title': title,
+                  'summary': summary,
+                  'tags': tag_list(title, summary),
+                  'url': permalink
+              }
+              categories[category_id]['items'].append(item)
+              listed.add(permalink)
+              added.append((path.name, permalink, category_id))
+
+          if len(added) != 21:
+              raise SystemExit(f'Expected 21 new public precedent cards, found {len(added)}: {added}')
+          data_path.write_text(json.dumps(data, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+
+          # 2) Standardise 6306 terminology without touching URLs/slugs or precedent files.
+          textual_files = []
+          textual_files += list((root / 'content' / 'makaleler').glob('*.md'))
+          textual_files += list((root / '_data').glob('*.json'))
+          textual_files += list(root.glob('*.njk')) + list(root.glob('*.html'))
+          textual_files += list((root / '_includes').rglob('*.njk'))
+          textual_files += list((root / 'kentsel-donusum-hukuku').glob('*.njk'))
+          textual_files += list((root / 'imar-hukuku').glob('*.njk'))
+          textual_files += list((root / 'insaat-hukuku').glob('*.njk'))
+          textual_files += list((root / 'gayrimenkul-hukuku').glob('*.njk'))
+          textual_files += list((root / 'kira-hukuku').glob('*.njk'))
+          seen = set()
+          for path in textual_files:
+              if path in seen or not path.exists():
+                  continue
+              seen.add(path)
+              text = path.read_text(encoding='utf-8')
+              original = text
+              text = re.sub(r'\bRezerv Alan\b', 'Rezerv Yapı Alanı', text)
+              text = re.sub(r'\brezerv alan\b', 'rezerv yapı alanı', text)
+              # Correct two recurrent weak formulations.
+              text = text.replace('Riskli alanın iki ana maddi yolu', 'Riskli alan kararının başlıca maddi dayanakları')
+              text = text.replace('Riskli alan Cumhurbaşkanı kararıyla kurulur.', 'Riskli alan statüsü Cumhurbaşkanı kararıyla belirlenir.')
+              text = text.replace(
+                  'Riskli yapı bir bina tespitidir; riskli alan teknik ve/veya ek m.1 ölçütleriyle kurulan Cumhurbaşkanı kararıdır; rezerv yapı alanı ise 6306 uygulama amacıyla Bakanlıkça belirlenen daha geniş işlevli alandır.',
+                  "Riskli yapı bir bina tespitidir; riskli alan, Kanun ve ek m.1’deki ölçütler çerçevesinde Cumhurbaşkanınca kararlaştırılan bir alan statüsüdür; rezerv yapı alanı ise 6306 uygulama amacıyla Bakanlıkça belirlenen daha geniş işlevli alandır."
+              )
+              if text != original:
+                  path.write_text(text, encoding='utf-8')
+
+          # 3) Two-level taxonomy for legal developments: canonical branch + sub-tag.
+          updates_path = root / '_data' / 'hukukiGelismeler.json'
+          updates = json.loads(updates_path.read_text(encoding='utf-8'))
+          def classify(old, title):
+              low = title.lower()
+              if old in ('Kentsel Dönüşüm', 'Kentsel Dönüşüm Hukuku'):
+                  cat = 'Kentsel Dönüşüm Hukuku'
+              elif old in ('İmar Hukuku', 'Mülkiyet / İmar Hukuku', 'Arazi / İmar Hukuku'):
+                  cat = 'İmar Hukuku'
+              elif old == 'İnşaat Hukuku':
+                  cat = 'İnşaat Hukuku'
+              elif old == 'Kira Hukuku':
+                  cat = 'Kira Hukuku'
+              else:
+                  cat = 'Gayrimenkul Hukuku'
+
+              if 'kat mülkiyeti' in low: tag = 'Kat Mülkiyeti'
+              elif 'ortaklığın giderilmesi' in low: tag = 'Ortaklığın Giderilmesi'
+              elif 'kamulaştırmasız el atma' in low: tag = 'Kamulaştırmasız El Atma'
+              elif 'kamulaştırma' in low: tag = 'Kamulaştırma'
+              elif 'imar plan' in low or 'plan değişik' in low: tag = 'İmar Planları'
+              elif 'planlı alanlar' in low: tag = 'İmar Yönetmeliği'
+              elif 'yenileme alan' in low: tag = 'Yenileme Alanı'
+              elif 'dask' in low: tag = 'DASK'
+              elif 'kira' in low: tag = 'Kira Bedeli'
+              elif 'yarısı bizden' in low: tag = 'Yarısı Bizden'
+              elif 'arazi' in low or 'toprak' in low: tag = 'Arazi ve Toprak Koruma'
+              else: tag = 'Güncel Gelişme'
+              return cat, tag
+
+          allowed = {'Gayrimenkul Hukuku','İmar Hukuku','İnşaat Hukuku','Kentsel Dönüşüm Hukuku','Kira Hukuku'}
+          for update in updates:
+              cat, tag = classify(update.get('category',''), update.get('title',''))
+              update['category'] = cat
+              update['tag'] = tag
+          if {u['category'] for u in updates} - allowed:
+              raise SystemExit('Non-canonical legal development category remains')
+          updates_path.write_text(json.dumps(updates, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          # Render both taxonomy levels wherever legal developments are shown.
+          for path in [root / 'hukuki-gelismeler' / 'index.njk', root / 'index.html']:
+              text = path.read_text(encoding='utf-8')
+              text = text.replace('{{ update.category }}</div>', "{{ update.category }}{% if update.tag %} · {{ update.tag }}{% endif %}</div>")
+              text = text.replace('{{ update.category }}</span>', "{{ update.category }}{% if update.tag %} · {{ update.tag }}{% endif %}</span>")
+              path.write_text(text, encoding='utf-8')
+
+          # 4) Correct the legal characterisation of arsa payı in editorial content.
+          ap_path = root / 'content' / 'makaleler' / 'kentsel-donusum-arsa-payi-duzeltme-davasi.md'
+          ap = ap_path.read_text(encoding='utf-8')
+          old = '<strong>arsa payı tapuda kayıtlı ayni hak oranıdır.</strong>'
+          new = '<strong>arsa payı, bağımsız bölüme tahsis edilen ve arsa üzerindeki ortak mülkiyet payını gösteren tapu sicili unsurudur.</strong>'
+          if old not in ap:
+              raise SystemExit('Expected arsa payı formulation not found')
+          ap = ap.replace(old, new)
+          ap_path.write_text(ap, encoding='utf-8')
+
+          # 5) Replace generic homepage H1 with the site's actual legal positioning.
+          home = root / 'index.html'
+          text = home.read_text(encoding='utf-8')
+          old_h1 = '<h1 id="hero-title">Karmaşık hukuki sorunlara açık ve uygulanabilir çözümler</h1>'
+          new_h1 = '<h1 id="hero-title">İmar, Kentsel Dönüşüm, İnşaat ve Gayrimenkul Hukukunda Danışmanlık</h1>'
+          if old_h1 not in text:
+              raise SystemExit('Expected homepage H1 not found')
+          home.write_text(text.replace(old_h1, new_h1), encoding='utf-8')
+
+          # The bootstrap workflow removes itself; the substantive commit stays clean.
+          workflow = root / '.github' / 'workflows' / 'terminology-round2.yml'
+          workflow.unlink()
+          PY
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build and audit
+        run: npm run build
+
+      - name: Verify second-pass invariants
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json, re
+          data = json.loads(Path('_data/ictihatlar.json').read_text(encoding='utf-8'))
+          urls = [i['url'] for c in data['categories'] for i in c['items']]
+          if len(urls) != len(set(urls)):
+              raise SystemExit('Duplicate precedent URL in archive data')
+          public = []
+          for p in Path('ictihat').glob('*.njk'):
+              if p.name == 'index.njk': continue
+              t = p.read_text(encoding='utf-8')
+              m = re.search(r'(?m)^permalink:\s*["\']?(.+?)["\']?\s*$', t)
+              r = re.search(r'(?m)^robots:\s*["\']?(.+?)["\']?\s*$', t)
+              if m and not (r and 'noindex' in r.group(1).lower()): public.append(m.group(1).strip().strip('"\''))
+          missing = sorted(set(public) - set(urls))
+          if missing:
+              raise SystemExit(f'Public precedents missing from archive cards: {missing}')
+          rendered = Path('_site/ictihat/index.html').read_text(encoding='utf-8')
+          for url in public:
+              if f'href="{url}"' not in rendered:
+                  raise SystemExit(f'Rendered archive missing clickable card: {url}')
+          bad = []
+          for p in list(Path('content/makaleler').glob('*.md')) + list(Path('_data').glob('*.json')):
+              if re.search(r'\brezerv alan\b', p.read_text(encoding='utf-8'), re.I): bad.append(str(p))
+          if bad:
+              raise SystemExit(f'Unstandardised rezerv alan terminology remains: {bad}')
+          updates = json.loads(Path('_data/hukukiGelismeler.json').read_text(encoding='utf-8'))
+          allowed = {'Gayrimenkul Hukuku','İmar Hukuku','İnşaat Hukuku','Kentsel Dönüşüm Hukuku','Kira Hukuku'}
+          if any(u.get('category') not in allowed or not u.get('tag') for u in updates):
+              raise SystemExit('Legal developments taxonomy invariant failed')
+          ap = Path('content/makaleler/kentsel-donusum-arsa-payi-duzeltme-davasi.md').read_text(encoding='utf-8')
+          if 'arsa payı tapuda kayıtlı ayni hak oranıdır' in ap or 'bağımsız bölüme tahsis edilen ve arsa üzerindeki ortak mülkiyet payını gösteren tapu sicili unsurudur' not in ap:
+              raise SystemExit('Arsa payı definition invariant failed')
+          home = Path('_site/index.html').read_text(encoding='utf-8')
+          if 'İmar, Kentsel Dönüşüm, İnşaat ve Gayrimenkul Hukukunda Danışmanlık' not in home:
+              raise SystemExit('Homepage H1 invariant failed')
+          print(f'Archive verification: {len(public)} public/indexable precedents, all listed and clickable.')
+          print('Terminology/taxonomy invariants passed.')
+          PY
+
+      - name: Commit and push substantive changes
+        shell: bash
+        run: |
+          git config user.name "ozanferhatsen"
+          git config user.email "ozanferhatsen@gmail.com"
+          git add -A
+          git commit -m "Complete second-pass legal terminology and taxonomy audit"
+          git push origin cms-deneme
