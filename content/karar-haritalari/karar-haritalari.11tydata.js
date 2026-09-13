@@ -1,6 +1,7 @@
 export default {
   layout: "karar-haritasi.njk",
   tags: ["karar-haritasi"],
+  content_type: "karar-haritasi",
   eleventyComputed: {
     permalink: (data) => `/ictihat/karar-haritalari/${data.page.fileSlug}/index.html`,
     title: (data) => {
@@ -24,6 +25,47 @@ export default {
       : "Arsa Payı Karşılığı İnşaat | Yargıtay HGK İçtihat Haritası",
     description: (data) => data.page.fileSlug === "tasinmaz-satisi"
       ? "20 Yargıtay HGK kararıyla taşınmaz satışında harici satış, tescil, sebepsiz zenginleşme, ayıp, eksik ifa, cezai şart, rayiç bedel ve tazminat analizi."
-      : "Arsa payı karşılığı inşaat sözleşmelerinde şekil, imar engeli, nama ifa, fesih, tasfiye, üçüncü kişi iyiniyeti ve usul sorunlarını 24 HGK kararıyla karşılaştırmalı olarak inceleyen karar haritası."
+      : "Arsa payı karşılığı inşaat sözleşmelerinde şekil, imar engeli, nama ifa, fesih, tasfiye, üçüncü kişi iyiniyeti ve usul sorunlarını 24 HGK kararıyla karşılaştırmalı olarak inceleyen karar haritası.",
+    breadcrumb: (data) => [
+      { name: "Ana Sayfa", url: "/" },
+      { name: "İçtihat", url: "/ictihat/" },
+      { name: "Karar Haritaları", url: "/ictihat/karar-haritalari/" },
+      {
+        name: data.page.fileSlug === "tasinmaz-satisi"
+          ? "Taşınmaz Satışından Doğan Uyuşmazlıklar"
+          : "Arsa Payı Karşılığı İnşaat"
+      }
+    ],
+    schema: (data) => JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Ana Sayfa",
+          item: "https://ozanferhatsen.com.tr/"
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "İçtihat",
+          item: "https://ozanferhatsen.com.tr/ictihat/"
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: "Karar Haritaları",
+          item: "https://ozanferhatsen.com.tr/ictihat/karar-haritalari/"
+        },
+        {
+          "@type": "ListItem",
+          position: 4,
+          name: data.page.fileSlug === "tasinmaz-satisi"
+            ? "Taşınmaz Satışından Doğan Uyuşmazlıklar"
+            : "Arsa Payı Karşılığı İnşaat"
+        }
+      ]
+    })
   }
 };
