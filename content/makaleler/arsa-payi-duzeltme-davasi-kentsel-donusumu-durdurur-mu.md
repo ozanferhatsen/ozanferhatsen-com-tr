@@ -137,7 +137,7 @@ Arsa payı uyuşmazlıklarında yıkımın durdurulmasının istenmesinin öneml
 
 **“Bina yıkılırsa bağımsız bölüm ortadan kalkacak, kat mülkiyeti sona erecek ve arsa payı düzeltme davam da konusuz kalacak.”**
 
-Yargıtay Hukuk Genel Kurulunun **10.09.2025 tarihli, E. 2023/648, K. 2025/512 sayılı kararı** bu konuda son derece önemlidir.
+[Yargıtay Hukuk Genel Kurulunun **10.09.2025 tarihli, E. 2023/648, K. 2025/512 sayılı kararı**](/ictihat/yargitay-hukuk-genel-kurulu-2023-648-2025-512-arsa-payi-yikim-hukuki-yarar/) bu konuda son derece önemlidir.
 
 Uyuşmazlıkta arsa payı düzeltme davası yapı henüz ayaktayken açılmış, ancak yargılama devam ederken yapı yıkılmıştır.
 
