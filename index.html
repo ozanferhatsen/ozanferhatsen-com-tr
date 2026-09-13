@@ -41,7 +41,7 @@ page_css: "/assets/practice-areas.css"
       </a>
       {% endfor %}
     </div>
-    <div class="legal-updates-dots" aria-hidden="true">{% for update in latestLegalUpdates %}<span{% if loop.first %} class="is-active"{% endif %}></span>{% endfor %}</div>
+    <div class="legal-updates-dots" aria-hidden="true">{% for update in latestLegalUpdates %}<span{% if loop.first %} class="is-active{% endif %}"></span>{% endfor %}</div>
   </aside>
 </section>
 
@@ -53,12 +53,14 @@ page_css: "/assets/practice-areas.css"
     </div>
     <div class="grid4">
       {% for key, area in practiceAreas %}
+      {% if key != 'kira' %}
       <a class="area-card" href="{{ area.url }}">
         <div class="tag">0{{ loop.index }}</div>
         <h3>{{ area.name }}</h3>
         <p>{{ area.homeSummary }}</p>
         <span class="arrow">{{ area.homeArrow }}</span>
       </a>
+      {% endif %}
       {% endfor %}
     </div>
   </div>
