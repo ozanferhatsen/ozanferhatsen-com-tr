@@ -177,6 +177,9 @@ Bu sıra, “dava açılabilir mi?” sorusu ile “arsa payı gerçekten yanlı
 
 <h3>Arsa payı düzeltme davasında hangi tarih esas alınır?</h3>
 <p>Uyuşmazlığın özü, kat irtifakı veya kat mülkiyeti kurulurken bağımsız bölümlerin değerleriyle arsa payları arasında doğru oranın kurulup kurulmadığıdır. Bu nedenle değerleme incelemesi kuruluş tarihindeki özelliklere yönelmelidir; yalnız davanın görüldüğü tarihteki piyasa değerleri yeterli değildir.</p>
+
+<h3>Arsa payı düzeltme davasında zamanaşımı veya hak düşürücü süre var mıdır?</h3>
+<p>Kat Mülkiyeti Kanunu m. 3'te arsa payının düzeltilmesi talebi için özel bir zamanaşımı veya hak düşürücü süre öngörülmemiştir. Ancak yalnızca uzun zaman geçmiş olması ile somut olayın hukuki koşulları aynı şey değildir. Yargıtay uygulamasında, özellikle arsa paylarının oluşumuna katılan veya uzun süre mevcut dağılıma göre hareket eden malik bakımından Türk Medeni Kanunu m. 2 çerçevesinde hakkın kötüye kullanılması itirazı gündeme gelebilir. Ayrıca yapının yıkılması ve kat mülkiyeti ilişkisinin sona ermesi halinde, yıkımdan sonra ilk kez açılacak davanın hukuki yararı ve dayanağı ayrıca değerlendirilmelidir.</p>
 </section>
 
 ## Sonuç
