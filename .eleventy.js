@@ -132,6 +132,16 @@ export default function (eleventyConfig) {
       .sort((a, b) => new Date(b.data.date || 0) - new Date(a.data.date || 0))
   );
 
+  // Legacy precedent pages contain editorial taxonomy labels hard-coded next to the
+  // künye. Normalize only those exact labels; the court decision text itself is not
+  // altered.
+  eleventyConfig.addTransform("legalTerminology", (content, outputPath) => {
+    if (!outputPath || !outputPath.endsWith(".html")) return content;
+    return content
+      .replaceAll("İçtihat · Gayrimenkul &amp; Taşınmaz Hukuku", "İçtihat · Gayrimenkul Hukuku")
+      .replaceAll("İçtihat · İmar &amp; Mülkiyet", "İçtihat · İmar Hukuku ve Mülkiyet Hakkı");
+  });
+
   return {
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
