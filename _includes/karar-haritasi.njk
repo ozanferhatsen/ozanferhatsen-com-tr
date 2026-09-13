@@ -6,7 +6,10 @@ og_type: article
 .analysis-page{padding:64px 0 88px}
 .analysis-shell{width:min(980px,calc(100% - 40px));margin-inline:auto}
 .analysis-breadcrumbs{margin:0 0 24px;font-size:12px;line-height:1.5;color:var(--muted)}
+.analysis-breadcrumbs ol{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:0;padding:0;list-style:none}
+.analysis-breadcrumbs li{display:flex;gap:6px;align-items:center}
 .analysis-breadcrumbs a{text-decoration:underline;text-underline-offset:3px}
+.analysis-breadcrumbs .separator{color:var(--muted)}
 .analysis-masthead{padding:0 0 34px;border-bottom:1px solid var(--line)}
 .analysis-format{margin:0 0 14px;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
 .analysis-masthead h1{max-width:900px;margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(42px,6vw,72px);font-weight:500;line-height:.98;letter-spacing:-.035em}
@@ -44,7 +47,18 @@ og_type: article
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"ScholarlyArticle","headline":{{ title | json }},"description":{{ (description or summary) | json }},"url":{{ canonicalUrl | json }},"author":{"@id":"https://ozanferhatsen.com.tr/#ozan-ferhat-sen"},"datePublished":{{ date | isoDate | json }},"dateModified":{{ (updated or date) | isoDate | json }},"inLanguage":"tr-TR"}</script>
 <main class="analysis-page">
   <div class="analysis-shell">
-    <nav class="analysis-breadcrumbs" aria-label="İçerik yolu"><a href="/">Ana Sayfa</a> / <a href="/ictihat/">İçtihat</a> / <a href="/ictihat/karar-haritalari/">Karar Haritaları</a> / {{ title }}</nav>
+    {% if breadcrumb %}
+    <nav class="analysis-breadcrumbs" aria-label="İçerik yolu">
+      <ol>
+        {% for item in breadcrumb %}
+        <li>
+          {% if item.url %}<a href="{{ item.url }}">{{ item.name }}</a>{% else %}<span aria-current="page">{{ item.name }}</span>{% endif %}
+          {% if not loop.last %}<span class="separator" aria-hidden="true">/</span>{% endif %}
+        </li>
+        {% endfor %}
+      </ol>
+    </nav>
+    {% endif %}
     <header class="analysis-masthead">
       <p class="analysis-format">{{ format_label or 'HGK KARAR HARİTASI' }}</p>
       <h1>{{ title }}</h1>
