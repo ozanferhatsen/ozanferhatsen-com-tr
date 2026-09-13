@@ -47,6 +47,7 @@
   let engine = null;
   let allResults = [];
   let activeFilter = 'all';
+  let documentLookup = new Map();
 
   function foldTurkish(text) {
     return String(text || '')
@@ -110,6 +111,49 @@
     return Array.from(expanded);
   }
 
+  function normalizeQuotes(value) {
+    return String(value || '').replace(/[“”„]/g, '"');
+  }
+
+  function exactPhrases(rawQuery) {
+    const normalized = normalizeQuotes(rawQuery);
+    const phrases = [];
+    for (const match of normalized.matchAll(/"([^"]+)"/g)) {
+      const phrase = match[1].trim();
+      if (phrase) phrases.push(phrase);
+    }
+    return phrases;
+  }
+
+  function queryWithoutQuotes(rawQuery) {
+    return normalizeQuotes(rawQuery).replace(/"/g, ' ').replace(/\s+/g, ' ').trim();
+  }
+
+  function searchableDocumentText(document) {
+    if (!document) return '';
+    const legalTerms = Array.isArray(document.legal_terms)
+      ? document.legal_terms.join(' ')
+      : String(document.legal_terms || '');
+
+    return foldTurkish([
+      document.title,
+      document.summary,
+      document.category,
+      legalTerms,
+      document.text
+    ].filter(Boolean).join(' ').replace(/\s+/g, ' '));
+  }
+
+  function matchesExactPhrases(result, phrases) {
+    if (!phrases.length) return true;
+    const document = documentLookup.get(result.id);
+    if (!document) return false;
+    const haystack = searchableDocumentText(document);
+    return phrases.every(function (phrase) {
+      return haystack.includes(foldTurkish(phrase).replace(/\s+/g, ' ').trim());
+    });
+  }
+
   function mergeResultSets(sets) {
     const merged = new Map();
 
@@ -133,7 +177,8 @@
 
   function performSearch(rawQuery) {
     if (!engine) return [];
-    const query = rawQuery.trim();
+    const phrases = exactPhrases(rawQuery);
+    const query = queryWithoutQuotes(rawQuery);
     if (!query) return [];
 
     const strictResults = engine.search(query, searchOptions('AND'));
@@ -148,7 +193,10 @@
       sets.push({ results: engine.search(expanded, searchOptions('OR')), factor: 0.35 });
     });
 
-    return mergeResultSets(sets);
+    const merged = mergeResultSets(sets);
+    return phrases.length
+      ? merged.filter(function (result) { return matchesExactPhrases(result, phrases); })
+      : merged;
   }
 
   function escapeHtml(value) {
@@ -265,6 +313,7 @@
       const response = await fetch('/search-index.json', { cache: 'force-cache' });
       if (!response.ok) throw new Error('search-index.json yüklenemedi');
       const documents = await response.json();
+      documentLookup = new Map(documents.map(function (document) { return [document.id, document]; }));
 
       engine = new window.MiniSearch({
         fields: ['title', 'summary', 'legal_terms', 'category', 'text'],
