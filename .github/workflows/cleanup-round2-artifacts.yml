@@ -1,0 +1,41 @@
+name: Clean second-pass generated artifacts
+on:
+  push:
+    branches: [cms-deneme]
+    paths: ['.github/workflows/cleanup-round2-artifacts.yml']
+permissions:
+  contents: write
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with: {fetch-depth: 0}
+      - name: Remove generated files and protect repo
+        shell: bash
+        run: |
+          rm -rf _site node_modules
+          rm -f package-lock.json assets/hero-office-family.webp
+          rm -f .github/workflows/cleanup-round2-artifacts.yml
+          cat >> .gitignore <<'EOF'
+          _site/
+          node_modules/
+          package-lock.json
+          assets/hero-office-family.webp
+          EOF
+          sort -u .gitignore -o .gitignore
+      - name: Verify substantive source changes remain
+        shell: bash
+        run: |
+          grep -q 'İmar, Kentsel Dönüşüm, İnşaat ve Gayrimenkul Hukukunda Danışmanlık' index.html
+          grep -q 'bağımsız bölüme tahsis edilen ve arsa üzerindeki ortak mülkiyet payını gösteren tapu sicili unsurudur' content/makaleler/kentsel-donusum-arsa-payi-duzeltme-davasi.md
+          test ! -d _site
+          test ! -d node_modules
+      - name: Commit cleanup
+        shell: bash
+        run: |
+          git config user.name ozanferhatsen
+          git config user.email ozanferhatsen@gmail.com
+          git add -A
+          git commit -m 'Clean generated artifacts from legal audit'
+          git push origin cms-deneme
