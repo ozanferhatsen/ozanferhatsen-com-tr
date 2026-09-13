@@ -25,15 +25,48 @@ page_css: "/assets/ictihat.css"
 
     <div id="ictihat-katalogu" class="precedent-catalog">
       {% for category in ictihatlar.categories %}
+        {% set categoryCount = category.items | length %}
+        {% if category.id == "gayrimenkul-tasinmaz-hukuku" %}
+          {% set categoryCount = categoryCount + 1 %}
+        {% endif %}
         <section class="precedent-category" id="{{ category.id }}" aria-labelledby="{{ category.id }}-baslik">
           <header class="precedent-category-head">
             <div class="precedent-category-titlewrap">
               <h2 id="{{ category.id }}-baslik">{{ category.label }}</h2>
-              <span class="precedent-count">{{ category.items | length }} karar</span>
+              <span class="precedent-count">{{ categoryCount }} karar</span>
             </div>
           </header>
 
           <div class="precedent-list">
+            {% if category.id == "gayrimenkul-tasinmaz-hukuku" %}
+              <article class="precedent-row">
+                <div class="precedent-row-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M6.75 3.75h7.5l3 3v13.5H6.75z"></path>
+                    <path d="M14.25 3.75v3h3"></path>
+                    <path d="M9.5 11h5"></path>
+                    <path d="M9.5 14.5h5"></path>
+                  </svg>
+                </div>
+
+                <div class="precedent-row-content">
+                  <div class="precedent-row-meta">Yargıtay Hukuk Genel Kurulu · E. 2023/648 · K. 2025/512 · 10.09.2025</div>
+                  <a class="precedent-row-title" href="/ictihat/yargitay-hukuk-genel-kurulu-2023-648-2025-512-arsa-payi-yikim-hukuki-yarar/">Arsa payı düzeltme davasında yıkım ve hukuki yarar</a>
+                  <p class="precedent-row-summary">Dava bina ayaktayken açılmışsa, yargılama sırasında yapının yıkılması; taraflar yeni payları belirleyip yeniden kat irtifakı veya kat mülkiyeti kurmadıkça davayı kendiliğinden konusuz bırakmaz.</p>
+                </div>
+
+                <div class="precedent-tags" aria-label="Anahtar kavramlar">
+                  <span class="precedent-tag">Arsa payı</span>
+                  <span class="precedent-tag">Kentsel dönüşüm</span>
+                  <span class="precedent-tag">Hukuki yarar</span>
+                </div>
+
+                <a class="precedent-row-action" href="/ictihat/yargitay-hukuk-genel-kurulu-2023-648-2025-512-arsa-payi-yikim-hukuki-yarar/" aria-label="Arsa payı düzeltme davasında yıkım ve hukuki yarar kararını incele">
+                  Kararı incele <span aria-hidden="true">→</span>
+                </a>
+              </article>
+            {% endif %}
+
             {% for karar in category.items %}
               <article class="precedent-row">
                 <div class="precedent-row-icon" aria-hidden="true">
