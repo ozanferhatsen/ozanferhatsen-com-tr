@@ -8,6 +8,7 @@ const ignoredPrefixes = ['/admin/'];
 const allowedNoindexRoutes = new Set([
   '/404.html',
   '/gizlilik/',
+  '/arama/',
   '/ictihat/yargitay-hukuk-genel-kurulu-2017-4-1337-2022-17-belediye-ihalesi-menfi-zarar/',
   '/ictihat/yargitay-hukuk-genel-kurulu-2017-3-2681-2021-18-belediye-satisi-muhdesat-menfi-zarar/',
   '/ictihat/yargitay-hukuk-genel-kurulu-2017-13-1980-2021-19-ifaya-ekli-cezai-sart-ihtirazi-kayit/',
@@ -121,6 +122,28 @@ for (const file of files.filter((f) => f.endsWith('.html'))) {
   if (ignoredPrefixes.some((prefix) => route.startsWith(prefix))) continue;
 
   const html = fs.readFileSync(file, 'utf8');
+
+  // Meta-refresh pages are intentional compatibility redirects rather than public
+  // content pages. Validate their destination, then exclude them from normal SEO
+  // page requirements (self-canonical, schemas, description, sitemap coverage).
+  const isMetaRefreshRedirect = /<meta\b[^>]*http-equiv=["']refresh["'][^>]*>/i.test(html);
+  if (isMetaRefreshRedirect) {
+    const redirectCanonical = html.match(/<link\s+rel=["']canonical["']\s+href=["']([^"']+)["']/i)?.[1]?.trim();
+    if (!redirectCanonical) {
+      fail(`${route}: redirect page missing canonical destination`);
+      continue;
+    }
+    try {
+      const target = new URL(redirectCanonical);
+      if (target.origin !== siteOrigin) fail(`${route}: redirect canonical points outside primary origin -> ${redirectCanonical}`);
+      if (target.search || target.hash) fail(`${route}: redirect canonical must not contain query/hash -> ${redirectCanonical}`);
+      if (!urls.has(target.pathname)) fail(`${route}: redirect target does not exist in rendered output -> ${target.pathname}`);
+    } catch {
+      fail(`${route}: redirect canonical is not a valid URL -> ${redirectCanonical}`);
+    }
+    continue;
+  }
+
   const title = html.match(/<title>([\s\S]*?)<\/title>/i)?.[1]?.trim();
   const description = html.match(/<meta\s+name=["']description["']\s+content=["']([^"']*)["']/i)?.[1]?.trim();
   const canonical = html.match(/<link\s+rel=["']canonical["']\s+href=["']([^"']+)["']/i)?.[1]?.trim();
