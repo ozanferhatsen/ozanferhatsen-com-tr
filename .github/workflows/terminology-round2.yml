@@ -21,13 +21,16 @@ jobs:
           import json,re,html
           R=Path('.')
           def fm(t,k):
-              m=re.search(rf'(?m)^{re.escape(k)}:\s*["\']?(.+?)["\']?\s*$',t); return m.group(1).strip().strip('"\'') if m else ''
+              m=re.search(rf'(?m)^{re.escape(k)}:\s*["\']?(.+?)["\']?\s*$',t)
+              return m.group(1).strip().strip('"\'') if m else ''
           def clean(v): return re.sub(r'\s+',' ',html.unescape(re.sub(r'<[^>]+>',' ',v or ''))).strip()
           def fld(t,k):
-              m=re.search(rf'<strong>{re.escape(k)}:</strong>\s*([^<]+)',t); return clean(m.group(1)) if m else ''
+              m=re.search(rf'<strong>{re.escape(k)}:</strong>\s*([^<]+)',t)
+              return clean(m.group(1)) if m else ''
           def tags(title,summary):
               s=(title+' '+summary).lower(); out=[]
-              for lab,keys in [('Arsa payı',['arsa payı']),('Yüklenici',['yüklenici']),('Fesih',['fesih']),('Tapu iptali ve tescil',['tapu iptali','tescil']),('İyiniyet',['iyiniyet']),('Hile',['hile']),('Şekil şartı',['şekil şart','resmî biçim']),('Takas ve mahsup',['takas','mahsup']),('Ayıplı ifa',['ayıplı','ayıp']),('Kira kaybı',['kira kaybı']),('Nama ifa',['nama ifa']),('Alt yüklenici',['alt yüklenici']),('İtirazın kaldırılması',['itirazın kaldırılması']),('Yapı Kayıt Belgesi',['yapı kayıt belgesi']),('Miras ortaklığı',['miras ortaklığı','elbirliği']),('Tasarrufun iptali',['tasarrufun iptali']),('Aciz hâli',['aciz hâli','aciz hali']),('Bekletici mesele',['bekletici mesele']),('Paylı mülkiyet',['paylı mülkiyet']),('İmar ruhsatı',['imar ruhsatı']),('Cezai şart',['cezai şart']),('İpotek',['ipotek']),('Üçüncü kişi',['üçüncü kişi','3. kişi'])]:
+              pairs=[('Arsa payı',['arsa payı']),('Yüklenici',['yüklenici']),('Fesih',['fesih']),('Tapu iptali ve tescil',['tapu iptali','tescil']),('İyiniyet',['iyiniyet']),('Hile',['hile']),('Şekil şartı',['şekil şart','resmî biçim']),('Takas ve mahsup',['takas','mahsup']),('Ayıplı ifa',['ayıplı','ayıp']),('Kira kaybı',['kira kaybı']),('Nama ifa',['nama ifa']),('Alt yüklenici',['alt yüklenici']),('İtirazın kaldırılması',['itirazın kaldırılması']),('Yapı Kayıt Belgesi',['yapı kayıt belgesi']),('Miras ortaklığı',['miras ortaklığı','elbirliği']),('Tasarrufun iptali',['tasarrufun iptali']),('Aciz hâli',['aciz hâli','aciz hali']),('Bekletici mesele',['bekletici mesele']),('Paylı mülkiyet',['paylı mülkiyet']),('İmar ruhsatı',['imar ruhsatı']),('Cezai şart',['cezai şart']),('İpotek',['ipotek']),('Üçüncü kişi',['üçüncü kişi','3. kişi'])]
+              for lab,keys in pairs:
                   if any(k in s for k in keys): out.append(lab)
                   if len(out)==4: break
               return out or ['İnşaat sözleşmesi']
@@ -41,7 +44,9 @@ jobs:
               cm=re.search(r'<aside class="precedent-kunye">[\s\S]*?<h1>(.*?)</h1>',t); court=clean(cm.group(1)) if cm else 'Yargıtay Hukuk Genel Kurulu'
               sm=re.search(r'<aside class="precedent-summary">[\s\S]*?<p>(.*?)</p>',t); summary=clean(sm.group(1)) if sm else fm(t,'description')
               e,k=fld(t,'Esas No'),fld(t,'Karar No'); dt=fld(t,'Karar Tarihi') or fld(t,'Sonuç Tarihi')
-              meta=f'{court} · E. {e} · K. {k}'+(f' · {dt}' if dt else '') if e and k else court+(f' · B. No: {fld(t,"Başvuru No")}' if fld(t,'Başvuru No') else '')+(f' · {dt}' if dt else '')
+              if e and k: meta=f'{court} · E. {e} · K. {k}'+(f' · {dt}' if dt else '')
+              else:
+                  bn=fld(t,'Başvuru No'); meta=court+(f' · B. No: {bn}' if bn else '')+(f' · {dt}' if dt else '')
               em=re.search(r'<div class="eyebrow">İçtihat\s*·\s*(.*?)</div>',t); topic=clean(em.group(1)) if em else ''; low=(topic+' '+title+' '+summary).lower()
               cid='insaat-hukuku' if ('eser sözleşmesi' in low or 'inşaat sözleşmesi' in low) else ('kira-hukuku' if 'kira' in low else ('imar-mulkiyet-hukuku' if 'imar' in low else 'gayrimenkul-tasinmaz-hukuku'))
               cats[cid]['items'].append({'court':court,'meta':meta,'title':title,'summary':summary,'tags':tags(title,summary),'url':u}); listed.add(u); added.append(u)
@@ -52,15 +57,28 @@ jobs:
           for dn in ['kentsel-donusum-hukuku','imar-hukuku','insaat-hukuku','gayrimenkul-hukuku','kira-hukuku']: files+=list((R/dn).glob('*.njk'))
           for f in dict.fromkeys(files):
               t=f.read_text(); o=t
-              t=re.sub(r'\bRezerv Alan\b','Rezerv Yapı Alanı',t); t=re.sub(r'\brezerv alan\b','rezerv yapı alanı',t)
-              t=t.replace('Riskli alanın iki ana maddi yolu','Riskli alan kararının başlıca maddi dayanakları').replace('Riskli alan Cumhurbaşkanı kararıyla kurulur.','Riskli alan statüsü Cumhurbaşkanı kararıyla belirlenir.')
+              t=re.sub(r'\b[Rr]ezerv [Aa]lan\b',lambda m:'Rezerv Yapı Alanı' if m.group(0)[0].isupper() else 'rezerv yapı alanı',t)
+              t=t.replace('Riskli alanın iki ana maddi yolu','Riskli alan kararının başlıca maddi dayanakları')
+              t=t.replace('Riskli alan Cumhurbaşkanı kararıyla kurulur.','Riskli alan statüsü Cumhurbaşkanı kararıyla belirlenir.')
               t=t.replace('Riskli yapı bir bina tespitidir; riskli alan teknik ve/veya ek m.1 ölçütleriyle kurulan Cumhurbaşkanı kararıdır; rezerv yapı alanı ise 6306 uygulama amacıyla Bakanlıkça belirlenen daha geniş işlevli alandır.','Riskli yapı bir bina tespitidir; riskli alan, Kanun ve ek m.1’deki ölçütler çerçevesinde Cumhurbaşkanınca kararlaştırılan bir alan statüsüdür; rezerv yapı alanı ise 6306 uygulama amacıyla Bakanlıkça belirlenen daha geniş işlevli alandır.')
               if t!=o: f.write_text(t)
 
           hp=R/'_data/hukukiGelismeler.json'; us=json.loads(hp.read_text())
           def cl(old,title):
-              q=title.lower(); cat='Kentsel Dönüşüm Hukuku' if old in ('Kentsel Dönüşüm','Kentsel Dönüşüm Hukuku') else ('İmar Hukuku' if old in ('İmar Hukuku','Mülkiyet / İmar Hukuku','Arazi / İmar Hukuku') else ('İnşaat Hukuku' if old=='İnşaat Hukuku' else ('Kira Hukuku' if old=='Kira Hukuku' else 'Gayrimenkul Hukuku')))
-              tag='Kat Mülkiyeti' if 'kat mülkiyeti' in q else ('Ortaklığın Giderilmesi' if 'ortaklığın giderilmesi' in q else ('Kamulaştırmasız El Atma' if 'kamulaştırmasız el atma' in q else ('Kamulaştırma' if 'kamulaştırma' in q else ('İmar Yönetmeliği' if 'planlı alanlar' in q else ('İmar Planları' if ('imar plan' in q or 'plan değişik' in q) else ('Yenileme Alanı' if 'yenileme alan' in q else ('DASK' if 'dask' in q else ('Kira Bedeli' if 'kira' in q else ('Yarısı Bizden' if 'yarısı bizden' in q else ('Arazi ve Toprak Koruma' if ('arazi' in q or 'toprak' in q) else 'Güncel Gelişme'))))))))))
+              q=title.lower()
+              cat='Kentsel Dönüşüm Hukuku' if old in ('Kentsel Dönüşüm','Kentsel Dönüşüm Hukuku') else ('İmar Hukuku' if old in ('İmar Hukuku','Mülkiyet / İmar Hukuku','Arazi / İmar Hukuku') else ('İnşaat Hukuku' if old=='İnşaat Hukuku' else ('Kira Hukuku' if old=='Kira Hukuku' else 'Gayrimenkul Hukuku')))
+              if 'kat mülkiyeti' in q: tag='Kat Mülkiyeti'
+              elif 'ortaklığın giderilmesi' in q: tag='Ortaklığın Giderilmesi'
+              elif 'kamulaştırmasız el atma' in q: tag='Kamulaştırmasız El Atma'
+              elif 'kamulaştırma' in q: tag='Kamulaştırma'
+              elif 'planlı alanlar' in q: tag='İmar Yönetmeliği'
+              elif 'imar plan' in q or 'plan değişik' in q: tag='İmar Planları'
+              elif 'yenileme alan' in q: tag='Yenileme Alanı'
+              elif 'dask' in q: tag='DASK'
+              elif 'kira' in q: tag='Kira Bedeli'
+              elif 'yarısı bizden' in q: tag='Yarısı Bizden'
+              elif 'arazi' in q or 'toprak' in q: tag='Arazi ve Toprak Koruma'
+              else: tag='Güncel Gelişme'
               return cat,tag
           allowed={'Gayrimenkul Hukuku','İmar Hukuku','İnşaat Hukuku','Kentsel Dönüşüm Hukuku','Kira Hukuku'}
           for u in us: u['category'],u['tag']=cl(u.get('category',''),u.get('title',''))
@@ -70,7 +88,8 @@ jobs:
               t=f.read_text().replace('{{ update.category }}</div>','{{ update.category }}{% if update.tag %} · {{ update.tag }}{% endif %}</div>').replace('{{ update.category }}</span>','{{ update.category }}{% if update.tag %} · {{ update.tag }}{% endif %}</span>'); f.write_text(t)
 
           ap=R/'content/makaleler/kentsel-donusum-arsa-payi-duzeltme-davasi.md'; t=ap.read_text(); old='**arsa payı tapuda kayıtlı ayni hak oranıdır.**'; new='**arsa payı, bağımsız bölüme tahsis edilen ve arsa üzerindeki ortak mülkiyet payını gösteren tapu sicili unsurudur.**'
-          if old not in t: raise SystemExit('arsa payı phrase missing'); ap.write_text(t.replace(old,new))
+          if old not in t: raise SystemExit('arsa payı phrase missing')
+          ap.write_text(t.replace(old,new))
           home=R/'index.html'; t=home.read_text(); old='<h1 id="hero-title">Karmaşık hukuki sorunlara açık ve uygulanabilir çözümler</h1>'; new='<h1 id="hero-title">İmar, Kentsel Dönüşüm, İnşaat ve Gayrimenkul Hukukunda Danışmanlık</h1>'
           if old not in t: raise SystemExit('home h1 missing')
           home.write_text(t.replace(old,new))
@@ -95,8 +114,12 @@ jobs:
           if set(pub)-set(urls): raise SystemExit('public precedent missing archive card')
           rendered=Path('_site/ictihat/index.html').read_text()
           if any(f'href="{u}"' not in rendered for u in pub): raise SystemExit('archive card not clickable')
-          bad=[str(f) for f in list(Path('content/makaleler').glob('*.md'))+list(Path('_data').glob('*.json')) if re.search(r'\brezerv alan\b',f.read_text(),re.I)]
-          if bad: raise SystemExit(f'rezerv alan remains: {bad}')
+          bad=[]
+          for f in list(Path('content/makaleler').glob('*.md'))+list(Path('_data').glob('*.json')):
+              for line in f.read_text().splitlines():
+                  if line.startswith(('slug:','canonical:','permalink:','  - url:','    url:')): continue
+                  if re.search(r'\brezerv alan\b',line,re.I): bad.append(f'{f}: {line.strip()}')
+          if bad: raise SystemExit(f'unstandardised rezerv alan remains: {bad}')
           us=json.loads(Path('_data/hukukiGelismeler.json').read_text()); allowed={'Gayrimenkul Hukuku','İmar Hukuku','İnşaat Hukuku','Kentsel Dönüşüm Hukuku','Kira Hukuku'}
           if any(u.get('category') not in allowed or not u.get('tag') for u in us): raise SystemExit('taxonomy invariant failed')
           a=Path('content/makaleler/kentsel-donusum-arsa-payi-duzeltme-davasi.md').read_text()
