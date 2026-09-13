@@ -1,0 +1,76 @@
+---
+layout: base.njk
+og_type: article
+---
+<style>
+.analysis-page{padding:64px 0 88px}
+.analysis-shell{width:min(980px,calc(100% - 40px));margin-inline:auto}
+.analysis-breadcrumbs{margin:0 0 24px;font-size:12px;line-height:1.5;color:var(--muted)}
+.analysis-breadcrumbs a{text-decoration:underline;text-underline-offset:3px}
+.analysis-masthead{padding:0 0 34px;border-bottom:1px solid var(--line)}
+.analysis-format{margin:0 0 14px;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.analysis-masthead h1{max-width:900px;margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(42px,6vw,72px);font-weight:500;line-height:.98;letter-spacing:-.035em}
+.analysis-summary{max-width:850px;margin:22px 0 0;font-size:18px;line-height:1.7;color:var(--muted)}
+.analysis-meta{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin:30px 0 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.analysis-meta>div{padding:16px 18px 16px 0}
+.analysis-meta>div+div{padding-left:18px;border-left:1px solid var(--line)}
+.analysis-meta dt{margin:0 0 5px;font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.analysis-meta dd{margin:0;font-size:14px;line-height:1.5;color:var(--ink)}
+.analysis-method-note{margin:28px 0 0;padding:18px 0;border-bottom:1px solid var(--line);font-size:15px;line-height:1.7;color:#45413d}
+.analysis-body{max-width:900px;margin:42px auto 0}
+.analysis-body h2{margin:48px 0 16px;font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(30px,4vw,42px);line-height:1.08;font-weight:600;letter-spacing:-.02em}
+.analysis-body h3{margin:34px 0 12px;font-family:'Cormorant Garamond',Georgia,serif;font-size:27px;line-height:1.15}
+.analysis-body p,.analysis-body li{font-size:16px;line-height:1.78}
+.analysis-body a{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.analysis-body .snippet-box{margin:22px 0;padding:18px 20px;border-left:3px solid var(--accent);background:rgba(255,255,255,.34)}
+.analysis-body .toc{margin:34px 0;padding:24px;border:1px solid var(--line);background:rgba(255,255,255,.24)}
+.analysis-body .toc h2{margin:0 0 14px;font-size:28px}
+.analysis-body .toc ol{margin:0;padding-left:22px}
+.analysis-body .toc li{margin:6px 0;font-size:14px;line-height:1.55}
+.analysis-body .table-scroll{overflow-x:auto;margin:24px 0 36px;border:1px solid var(--line)}
+.analysis-body table{width:100%;min-width:760px;border-collapse:collapse;background:rgba(255,255,255,.2)}
+.analysis-body th,.analysis-body td{padding:12px 14px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left;font-size:13px;line-height:1.45}
+.analysis-body th{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.scholarly-citation{max-width:900px;margin:54px auto 0;padding:24px 0;border-top:1px solid var(--ink);border-bottom:1px solid var(--line)}
+.scholarly-citation h2{margin:0 0 10px;font-family:'Cormorant Garamond',Georgia,serif;font-size:28px;font-weight:600}
+.scholarly-citation p{margin:0;font-size:14px;line-height:1.7;color:#4f4a45}
+.analysis-sources{max-width:900px;margin:38px auto 0;padding-top:28px;border-top:1px solid var(--line)}
+.analysis-sources h2{font-family:'Cormorant Garamond',Georgia,serif;font-size:30px;margin:0 0 14px}
+.analysis-sources li{margin:8px 0;font-size:14px;line-height:1.55}
+.analysis-sources a{text-decoration:underline;text-underline-offset:3px}
+@media(max-width:720px){.analysis-page{padding:42px 0 64px}.analysis-shell{width:min(100% - 28px,980px)}.analysis-meta{grid-template-columns:1fr}.analysis-meta>div{padding:13px 0}.analysis-meta>div+div{padding-left:0;border-left:0;border-top:1px solid var(--line)}.analysis-summary{font-size:16px}.analysis-body{margin-top:32px}.analysis-body .toc{padding:18px}}
+</style>
+{% set canonicalUrl = canonical or (site.url + page.url) %}
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ScholarlyArticle","headline":{{ title | json }},"description":{{ (description or summary) | json }},"url":{{ canonicalUrl | json }},"author":{"@id":"https://ozanferhatsen.com.tr/#ozan-ferhat-sen"},"datePublished":{{ date | isoDate | json }},"dateModified":{{ (updated or date) | isoDate | json }},"inLanguage":"tr-TR"}</script>
+<main class="analysis-page">
+  <div class="analysis-shell">
+    <nav class="analysis-breadcrumbs" aria-label="İçerik yolu"><a href="/">Ana Sayfa</a> / <a href="/ictihat/">İçtihat</a> / <a href="/ictihat/karar-haritalari/">Karar Haritaları</a> / {{ title }}</nav>
+    <header class="analysis-masthead">
+      <p class="analysis-format">{{ format_label or 'HGK KARAR HARİTASI' }}</p>
+      <h1>{{ title }}</h1>
+      {% if summary %}<p class="analysis-summary">{{ summary }}</p>{% endif %}
+      <dl class="analysis-meta">
+        <div><dt>İncelenen karar</dt><dd>{{ decision_count or '24' }} HGK kararı</dd></div>
+        <div><dt>Dönem</dt><dd>{{ decision_period or '2020–2022' }}</dd></div>
+        <div><dt>İnceleme yöntemi</dt><dd>{{ analysis_method or 'Konu, uyuşmazlık ve hukuki sonuç bakımından karşılaştırmalı analiz' }}</dd></div>
+      </dl>
+      <p class="analysis-method-note"><strong>Bu çalışma, münferit karar özeti niteliğinde değildir.</strong> Hukuk Genel Kurulu kararlarında aynı hukuki sorunun farklı uyuşmazlık tiplerinde nasıl ele alındığını ortaya koymak amacıyla kararlar birlikte değerlendirilmiştir.</p>
+    </header>
+
+    <article class="analysis-body">
+      {{ content | safe }}
+    </article>
+
+    <section class="scholarly-citation" aria-labelledby="citation-title">
+      <h2 id="citation-title">Önerilen Atıf</h2>
+      <p>Şen, Ozan Ferhat, “{{ citation_title or title }}”, <em>ozanferhatsen.com.tr</em>, {{ date | dateTR }}. Kalıcı URL: {{ canonicalUrl }}</p>
+    </section>
+
+    {% if sources %}
+    <section class="analysis-sources" aria-labelledby="sources-title">
+      <h2 id="sources-title">İncelenen kararlar ve hukuki dayanak</h2>
+      <ol>{% for source in sources %}<li>{% if source.url %}<a href="{{ source.url }}">{{ source.name | sourceAttribution }}</a>{% else %}{{ source.name | sourceAttribution }}{% endif %}</li>{% endfor %}</ol>
+    </section>
+    {% endif %}
+  </div>
+</main>
