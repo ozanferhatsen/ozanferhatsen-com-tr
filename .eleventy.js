@@ -1,5 +1,9 @@
 import nunjucks from "nunjucks";
-import { addMissingSearchHeadingIds } from "./lib/legal-search-utils.js";
+import {
+  addMissingSearchHeadingIds,
+  createHeadingIdAllocator,
+  headingTextFromHtml
+} from "./lib/legal-search-utils.js";
 
 const categoryUrls = {
   "İmar Hukuku": "/imar-hukuku/",
@@ -51,6 +55,33 @@ function dateKey(value) {
   }).format(date);
 }
 
+function legalToc(value = "") {
+  const html = String(value || "");
+
+  // Elle hazırlanmış bir içindekiler bloğu varsa ikinci bir TOC üretme.
+  if (/<(?:nav|div|details)\b[^>]*class=["'][^"']*\btoc\b/i.test(html)) return [];
+
+  const allocateId = createHeadingIdAllocator();
+  const items = [];
+
+  html.replace(
+    /<h([23])\b([^>]*)>([\s\S]*?)<\/h\1>/gi,
+    (full, level, attrs, innerHtml) => {
+      const text = headingTextFromHtml(innerHtml);
+      if (!text) return full;
+
+      const idMatch = String(attrs).match(/\bid\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s>]+))/i);
+      const explicitId = idMatch ? (idMatch[1] || idMatch[2] || idMatch[3] || "") : "";
+      const id = allocateId(text, explicitId);
+
+      items.push({ level: Number(level), id, text });
+      return full;
+    }
+  );
+
+  return items;
+}
+
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("assets");
@@ -100,6 +131,8 @@ export default function (eleventyConfig) {
     const words = visibleWordCount(value);
     return Math.max(1, Math.round(words / READING_WORDS_PER_MINUTE));
   });
+
+  eleventyConfig.addFilter("legalToc", (value) => legalToc(value));
 
   eleventyConfig.addFilter("byCategory", (items = [], category) =>
     items.filter((item) => item.data && item.data.category === category)
