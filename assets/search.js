@@ -22,18 +22,11 @@
     'kamulastirma', 'arsa', 'arazi', 'pay', 'paydas', 'ifa', 'itiraz'
   ]);
 
-  const LEGAL_EXPANSIONS = {
-    'muteahhit': ['yüklenici'],
-    'muteahit': ['yüklenici', 'müteahhit'],
-    'yuklenici': ['müteahhit'],
-    'iskan': ['yapı kullanma izin belgesi'],
-    'kat karsiligi': ['arsa payı karşılığı inşaat'],
-    'arsa payi karsiligi': ['kat karşılığı inşaat'],
-    'tapu iptal': ['tapu iptali ve tescil'],
-    'kentsel donusum': ['6306 sayılı Kanun', 'riskli yapı'],
-    'arsa payi duzeltme': ['arsa payının düzeltilmesi'],
-    'arsa payi duzeltim': ['arsa payının düzeltilmesi'],
-    'insat': ['inşaat']
+  const EMPTY_ONTOLOGY = {
+    symmetric: [],
+    one_way: [],
+    abbreviations: [],
+    corrections: []
   };
 
   const SEARCH_BOOSTS = {
@@ -45,12 +38,14 @@
   };
 
   let engine = null;
+  let ontology = EMPTY_ONTOLOGY;
   let allResults = [];
   let activeFilter = 'all';
   let documentLookup = new Map();
 
   function foldTurkish(text) {
     return String(text || '')
+      .normalize('NFC')
       .toLocaleLowerCase('tr-TR')
       .replace(/ğ/g, 'g')
       .replace(/ü/g, 'u')
@@ -99,16 +94,77 @@
     };
   }
 
-  function expandedQueries(rawQuery) {
-    const foldedQuery = foldTurkish(rawQuery);
-    const expanded = new Set();
+  function escapeRegExp(value) {
+    return String(value || '').replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
 
-    Object.entries(LEGAL_EXPANSIONS).forEach(function ([needle, values]) {
-      if (!foldedQuery.includes(needle)) return;
-      values.forEach(function (value) { expanded.add(value); });
+  function containsOntologyTerm(foldedQuery, term) {
+    const needle = foldTurkish(term).replace(/\s+/g, ' ').trim();
+    if (!needle) return false;
+
+    if (/^[a-z0-9]+$/.test(needle) && needle.length <= 5) {
+      const boundary = new RegExp('(^|[^a-z0-9])' + escapeRegExp(needle) + '(?=$|[^a-z0-9])');
+      return boundary.test(foldedQuery);
+    }
+
+    return foldedQuery.includes(needle);
+  }
+
+  function addExpansion(target, query, factor) {
+    const normalized = String(query || '').trim();
+    if (!normalized) return;
+    const key = foldTurkish(normalized);
+    const previous = target.get(key);
+    if (!previous || factor > previous.factor) target.set(key, { query: normalized, factor: factor });
+  }
+
+  function expandedQueries(rawQuery) {
+    const foldedQuery = foldTurkish(rawQuery).replace(/\s+/g, ' ').trim();
+    const expanded = new Map();
+
+    (ontology.symmetric || []).forEach(function (group) {
+      const terms = Array.isArray(group.terms) ? group.terms : [];
+      const matched = terms.some(function (term) { return containsOntologyTerm(foldedQuery, term); });
+      if (!matched) return;
+      terms.forEach(function (term) {
+        if (!containsOntologyTerm(foldedQuery, term)) addExpansion(expanded, term, Number(group.factor) || 0.35);
+      });
     });
 
-    return Array.from(expanded);
+    (ontology.one_way || []).forEach(function (rule) {
+      const from = Array.isArray(rule.from) ? rule.from : [];
+      if (!from.some(function (term) { return containsOntologyTerm(foldedQuery, term); })) return;
+      (Array.isArray(rule.to) ? rule.to : []).forEach(function (term) {
+        addExpansion(expanded, term, Number(rule.factor) || 0.3);
+      });
+    });
+
+    (ontology.abbreviations || []).forEach(function (rule) {
+      const term = String(rule.term || '').trim();
+      const expansions = Array.isArray(rule.expansions) ? rule.expansions : [];
+      const factor = Number(rule.factor) || 0.35;
+
+      if (containsOntologyTerm(foldedQuery, term)) {
+        expansions.forEach(function (value) { addExpansion(expanded, value, factor); });
+      }
+
+      if (rule.reverse) {
+        const fullFormMatched = expansions.some(function (value) {
+          return containsOntologyTerm(foldedQuery, value);
+        });
+        if (fullFormMatched) addExpansion(expanded, term, factor);
+      }
+    });
+
+    (ontology.corrections || []).forEach(function (rule) {
+      const from = Array.isArray(rule.from) ? rule.from : [];
+      if (!from.some(function (term) { return containsOntologyTerm(foldedQuery, term); })) return;
+      (Array.isArray(rule.to) ? rule.to : []).forEach(function (term) {
+        addExpansion(expanded, term, Number(rule.factor) || 0.35);
+      });
+    });
+
+    return Array.from(expanded.values());
   }
 
   function normalizeQuotes(value) {
@@ -129,17 +185,135 @@
     return normalizeQuotes(rawQuery).replace(/"/g, ' ').replace(/\s+/g, ' ').trim();
   }
 
+  function normalizeDecisionRef(year, number) {
+    if (!year || !number) return null;
+    return String(year).trim() + '/' + String(number).replace(/\s+/g, '').trim();
+  }
+
+  function parseDecisionQuery(rawQuery) {
+    const raw = String(rawQuery || '').normalize('NFC');
+    const folded = foldTurkish(raw).replace(/[,:;]/g, ' ').replace(/\s+/g, ' ').trim();
+    const parsed = {
+      courtCode: null,
+      chamberCode: null,
+      esas: null,
+      karar: null,
+      unlabeledRefs: [],
+      refs: []
+    };
+
+    if (/\b(?:hgk|hukuk genel kurulu)\b/.test(folded)) parsed.courtCode = 'HGK';
+    else if (/\b(?:ibbgk|ictihatlari birlestirme buyuk genel kurulu)\b/.test(folded)) parsed.courtCode = 'İBBGK';
+    else if (/\b(?:aym|anayasa mahkemesi)\b/.test(folded)) parsed.courtCode = 'AYM';
+
+    const chamberMatch = folded.match(/(?:yargitay\s+)?(\d{1,2})\s*\.?\s*(?:hd|hukuk dairesi)\b/);
+    if (chamberMatch) parsed.chamberCode = chamberMatch[1] + '. HD';
+
+    const esasMatch = raw.match(/(?:\bEsas(?:\s+No(?:su)?)?|\bE)\s*[\.,:]?\s*(\d{4})\s*\/\s*(\d+(?:[-/]\d+)*)/iu);
+    const kararMatch = raw.match(/(?:\bKarar(?:\s+No(?:su)?)?|\bK)\s*[\.,:]?\s*(\d{4})\s*\/\s*(\d+(?:[-/]\d+)*)/iu);
+
+    if (esasMatch) parsed.esas = normalizeDecisionRef(esasMatch[1], esasMatch[2]);
+    if (kararMatch) parsed.karar = normalizeDecisionRef(kararMatch[1], kararMatch[2]);
+
+    const allRefs = [];
+    for (const match of raw.matchAll(/\b(\d{4})\s*\/\s*(\d+(?:[-/]\d+)*)\b/g)) {
+      const ref = normalizeDecisionRef(match[1], match[2]);
+      if (ref && !allRefs.includes(ref)) allRefs.push(ref);
+    }
+
+    if (!allRefs.length && (parsed.courtCode || parsed.chamberCode)) {
+      const spacedRef = folded.match(/\b(20\d{2}|19\d{2})\s+(\d{1,6})\b/);
+      if (spacedRef) allRefs.push(normalizeDecisionRef(spacedRef[1], spacedRef[2]));
+    }
+
+    parsed.refs = allRefs;
+    parsed.unlabeledRefs = allRefs.filter(function (ref) {
+      return ref !== parsed.esas && ref !== parsed.karar;
+    });
+    parsed.hasDecisionReference = Boolean(parsed.esas || parsed.karar || parsed.unlabeledRefs.length);
+    return parsed;
+  }
+
+  function foldedMetadata(document) {
+    return foldTurkish([
+      document && document.court,
+      document && document.chamber,
+      document && document.court_code,
+      document && document.court_terms
+    ].filter(Boolean).join(' '));
+  }
+
+  function documentMatchesDecisionQuery(document, parsed) {
+    if (!document || !parsed || !parsed.hasDecisionReference) return false;
+
+    if (parsed.esas && String(document.esas || '') !== parsed.esas) return false;
+    if (parsed.karar && String(document.karar || '') !== parsed.karar) return false;
+
+    if (parsed.unlabeledRefs.length) {
+      const refs = new Set([String(document.esas || ''), String(document.karar || '')].filter(Boolean));
+      if (!parsed.unlabeledRefs.every(function (ref) { return refs.has(ref); })) return false;
+    }
+
+    const metadata = foldedMetadata(document);
+    if (parsed.courtCode && !metadata.includes(foldTurkish(parsed.courtCode))) return false;
+    if (parsed.chamberCode && !metadata.includes(foldTurkish(parsed.chamberCode))) return false;
+
+    return true;
+  }
+
+  function exactDecisionResults(rawQuery) {
+    const parsed = parseDecisionQuery(rawQuery);
+    if (!parsed.hasDecisionReference) return [];
+
+    const byParent = new Map();
+    documentLookup.forEach(function (document) {
+      if (!documentMatchesDecisionQuery(document, parsed)) return;
+      const parentId = document.parentId || document.id;
+      if (byParent.has(parentId)) return;
+
+      byParent.set(parentId, {
+        id: document.id,
+        score: 25,
+        title: document.parentTitle || document.title,
+        url: document.parentUrl || document.url,
+        type: document.type,
+        category: document.category,
+        summary: document.summary,
+        parentId: parentId,
+        parentTitle: document.parentTitle,
+        sectionTitle: document.sectionTitle,
+        area: document.area,
+        court: document.court,
+        chamber: document.chamber,
+        court_code: document.court_code,
+        esas: document.esas,
+        karar: document.karar,
+        year: document.year
+      });
+    });
+
+    return Array.from(byParent.values());
+  }
+
   function searchableDocumentText(document) {
     if (!document) return '';
     const legalTerms = Array.isArray(document.legal_terms)
       ? document.legal_terms.join(' ')
       : String(document.legal_terms || '');
+    const topics = Array.isArray(document.topics)
+      ? document.topics.join(' ')
+      : String(document.topics_text || document.topics || '');
 
     return foldTurkish([
       document.title,
+      document.parentTitle,
+      document.sectionTitle,
       document.summary,
       document.category,
+      topics,
       legalTerms,
+      document.court_terms,
+      document.decision_refs,
       document.text
     ].filter(Boolean).join(' ').replace(/\s+/g, ' '));
   }
@@ -183,6 +357,11 @@
 
     const strictResults = engine.search(query, searchOptions('AND'));
     const sets = [{ results: strictResults, factor: 1 }];
+    const exactDecision = exactDecisionResults(query);
+
+    if (exactDecision.length) {
+      sets.push({ results: exactDecision, factor: 1 });
+    }
 
     if (strictResults.length < 5) {
       sets.push({ results: engine.search(query, searchOptions('OR')), factor: 0.55 });
@@ -190,7 +369,7 @@
 
     const expansions = expandedQueries(query);
     expansions.forEach(function (expanded) {
-      sets.push({ results: engine.search(expanded, searchOptions('OR')), factor: 0.35 });
+      sets.push({ results: engine.search(expanded.query, searchOptions('OR')), factor: expanded.factor });
     });
 
     const merged = mergeResultSets(sets);
@@ -301,6 +480,18 @@
     input.focus();
   });
 
+  async function loadOntology() {
+    try {
+      const response = await fetch('/assets/legal-search-ontology.json', { cache: 'force-cache' });
+      if (!response.ok) throw new Error('legal-search-ontology.json yüklenemedi');
+      const loaded = await response.json();
+      return Object.assign({}, EMPTY_ONTOLOGY, loaded || {});
+    } catch (error) {
+      console.warn('Hukuk sözlüğü yüklenemedi; temel arama ile devam ediliyor.', error);
+      return EMPTY_ONTOLOGY;
+    }
+  }
+
   async function init() {
     if (typeof window.MiniSearch === 'undefined') {
       status.textContent = 'Arama motoru yüklenemedi. Sayfayı yenileyip tekrar deneyin.';
@@ -310,14 +501,28 @@
     status.textContent = 'Arama indeksi hazırlanıyor…';
 
     try {
-      const response = await fetch('/search-index.json', { cache: 'force-cache' });
+      const responses = await Promise.all([
+        fetch('/search-index.json', { cache: 'force-cache' }),
+        loadOntology()
+      ]);
+      const response = responses[0];
+      ontology = responses[1];
+
       if (!response.ok) throw new Error('search-index.json yüklenemedi');
       const documents = await response.json();
       documentLookup = new Map(documents.map(function (document) { return [document.id, document]; }));
 
       engine = new window.MiniSearch({
-        fields: ['title', 'summary', 'legal_terms', 'category', 'text'],
-        storeFields: ['title', 'url', 'type', 'category', 'summary'],
+        fields: [
+          'title', 'summary', 'legal_terms', 'category', 'text',
+          'parentTitle', 'sectionTitle', 'topics_text', 'court_terms',
+          'decision_refs', 'esas', 'karar'
+        ],
+        storeFields: [
+          'title', 'url', 'type', 'category', 'summary', 'parentId', 'parentUrl',
+          'parentTitle', 'sectionTitle', 'sectionLevel', 'area', 'topics',
+          'court', 'chamber', 'court_code', 'esas', 'karar', 'year'
+        ],
         processTerm: processTerm,
         searchOptions: searchOptions('OR')
       });
