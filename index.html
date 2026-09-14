@@ -44,7 +44,7 @@ page_css: "/assets/practice-areas.css"
     </div>
     <div class="grid4">
       {% for key, area in practiceAreas %}
-      {% if key != 'kira' %}
+      {% if key != 'kira' and area.navGroup == 'property' %}
       <a class="area-card" href="{{ area.url }}">
         <div class="tag">0{{ loop.index }}</div>
         <h3>{{ area.name }}</h3>
