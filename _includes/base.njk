@@ -50,6 +50,7 @@
   </script>
 </head>
 <body>
+<a class="skip-link" href="#main-content">{% if lang == 'en' %}Skip to content{% else %}İçeriğe atla{% endif %}</a>
 {% include "components/site-header.njk" %}
 
 {% set tasinmazHgkUrls = [
@@ -74,7 +75,7 @@
   '/ictihat/yargitay-hukuk-genel-kurulu-2017-580-2020-97-gizli-ayip-saticinin-bilgisi/',
   '/ictihat/yargitay-hukuk-genel-kurulu-2017-2618-2020-184-harici-satis-rayic-tmk-2/'
 ] %}
-<main>
+<main id="main-content" tabindex="-1">
   {{ content | safe }}
   {% if page.url in tasinmazHgkUrls %}
   <section class="section soft" aria-label="İlgili kapsamlı analiz">
