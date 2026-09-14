@@ -120,6 +120,71 @@ export default function (eleventyConfig) {
     }).format(date);
   });
 
+  eleventyConfig.addFilter("precedentMeta", (title, data) => {
+    if (data && typeof data === "object") {
+      if (data.daire && (data.esas_no || data.karar_no)) {
+        const daireRaw = String(data.daire).trim();
+        const court = daireRaw.toLowerCase().startsWith("yargıtay")
+          ? daireRaw
+          : `Yargıtay ${daireRaw}`;
+        const idParts = [];
+        if (data.esas_no) idParts.push(`E. ${String(data.esas_no).trim()}`);
+        if (data.karar_no) idParts.push(`K. ${String(data.karar_no).trim()}`);
+        const identifier = idParts.join(" ");
+        const name = [court, identifier].filter(Boolean).join(" ");
+        return {
+          court,
+          identifier,
+          name
+        };
+      }
+      if (data.mahkeme) {
+        const court = String(data.mahkeme).trim();
+        const idParts = [];
+        if (data.esas_no) idParts.push(`E. ${String(data.esas_no).trim()}`);
+        if (data.karar_no) idParts.push(`K. ${String(data.karar_no).trim()}`);
+        const identifier = idParts.join(" ");
+        const name = [court, identifier].filter(Boolean).join(" ");
+        return {
+          court,
+          identifier,
+          name
+        };
+      }
+    }
+
+    const rawTitle = typeof title === "string" ? title.trim() : "";
+    if (!rawTitle) return { court: "", identifier: "", name: "" };
+
+    const beforePipe = rawTitle.split("|")[0].trim();
+    let court = "";
+    let identifier = "";
+
+    if (/^AYM\b/i.test(beforePipe) || /Anayasa Mahkemesi/i.test(beforePipe)) {
+      court = "Anayasa Mahkemesi";
+      const bMatch = beforePipe.match(/B\.\s*No:?\s*([0-9/]+)/i);
+      identifier = bMatch ? `B. No: ${bMatch[1]}` : "";
+    } else if (/İBBGK/i.test(beforePipe) || /İçtihatları Birleştirme/i.test(beforePipe)) {
+      court = "Yargıtay İçtihatları Birleştirme Büyük Genel Kurulu";
+      const ekMatch = beforePipe.match(/E\.\s*([0-9/()\-]+)\s*K\.\s*([0-9/()\-]+)/i);
+      identifier = ekMatch ? `E. ${ekMatch[1]} K. ${ekMatch[2]}` : "";
+    } else if (/HGK\b|Hukuk Genel Kurulu/i.test(beforePipe)) {
+      court = "Yargıtay Hukuk Genel Kurulu";
+      const ekMatch = beforePipe.match(/E\.\s*([0-9/()\-]+)\s*K\.\s*([0-9/()\-]+)/i);
+      identifier = ekMatch ? `E. ${ekMatch[1]} K. ${ekMatch[2]}` : "";
+    } else {
+      const hdMatch = beforePipe.match(/(\d+)\.\s*(?:HD|Hukuk Dairesi)/i);
+      if (hdMatch) {
+        court = `Yargıtay ${hdMatch[1]}. Hukuk Dairesi`;
+        const ekMatch = beforePipe.match(/E\.\s*([0-9/()\-]+)\s*K\.\s*([0-9/()\-]+)/i);
+        identifier = ekMatch ? `E. ${ekMatch[1]} K. ${ekMatch[2]}` : "";
+      }
+    }
+
+    const name = [court, identifier].filter(Boolean).join(" ");
+    return { court, identifier, name };
+  });
+
   eleventyConfig.addFilter("sameDate", (value, other) => dateKey(value) === dateKey(other));
 
   eleventyConfig.addFilter("json", (value) => {
