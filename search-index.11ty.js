@@ -2,6 +2,7 @@ import * as cheerio from "cheerio";
 import {
   createHeadingIdAllocator,
   headingTextFromHtml,
+  parseDecisionMetadata,
   resolveSearchArea
 } from "./lib/legal-search-utils.js";
 
@@ -51,7 +52,9 @@ function stringList(value) {
     .filter(Boolean);
 }
 
-function resolveYear(item, type) {
+function resolveYear(item, decisionMetadata) {
+  if (decisionMetadata?.decision_year) return decisionMetadata.decision_year;
+
   const explicit = item.data?.decision_year ?? item.data?.year;
   if (explicit !== undefined && explicit !== null && String(explicit).trim()) {
     const parsed = Number.parseInt(String(explicit), 10);
@@ -62,9 +65,6 @@ function resolveYear(item, type) {
   if (!sourceDate) return null;
   const date = new Date(sourceDate);
   if (Number.isNaN(date.getTime())) return null;
-
-  // Until the dedicated künye parser is introduced, this is the publication year
-  // for articles/maps and the Eleventy item year for precedents without explicit metadata.
   return date.getFullYear();
 }
 
@@ -114,11 +114,17 @@ function sectionScope($, heading) {
     $.root().get(0);
 }
 
-function commonRecordData(item, type) {
+function commonRecordData(item, type, sourceText = "") {
   const data = item.data || {};
   const parentTitle = String(data.title || "").trim();
   const legalTerms = stringList(data.legal_terms);
   const topics = stringList(data.search_topics || data.topics);
+  const decisionMetadata = parseDecisionMetadata({
+    data,
+    title: parentTitle,
+    text: sourceText,
+    type
+  });
 
   return {
     parentId: item.url,
@@ -127,11 +133,15 @@ function commonRecordData(item, type) {
     type,
     area: resolveSearchArea(item),
     topics,
-    court: data.court ? String(data.court).trim() : null,
-    chamber: data.chamber ? String(data.chamber).trim() : null,
-    esas: data.esas ? String(data.esas).trim() : null,
-    karar: data.karar ? String(data.karar).trim() : null,
-    year: resolveYear(item, type),
+    topics_text: topics.join(" "),
+    court: decisionMetadata.court,
+    chamber: decisionMetadata.chamber,
+    court_code: decisionMetadata.court_code,
+    court_terms: decisionMetadata.court_terms,
+    esas: decisionMetadata.esas,
+    karar: decisionMetadata.karar,
+    decision_refs: decisionMetadata.decision_refs,
+    year: resolveYear(item, decisionMetadata),
     category: String(data.category || ""),
     summary: String(data.summary || data.description || ""),
     legal_terms: legalTerms.join(" "),
@@ -140,7 +150,7 @@ function commonRecordData(item, type) {
 }
 
 function documentRecord(item, type, content) {
-  const common = commonRecordData(item, type);
+  const common = commonRecordData(item, type, content);
   return {
     id: item.url,
     ...common,
@@ -156,11 +166,12 @@ function documentRecord(item, type, content) {
 
 function sectionRecords(item, type) {
   const html = String(item.templateContent || "");
+  const plainText = stripHtml(html);
   const $ = cheerio.load(html, null, false);
   const headings = $("h2, h3").toArray();
-  const common = commonRecordData(item, type);
+  const common = commonRecordData(item, type, plainText);
 
-  if (!headings.length) return [documentRecord(item, type, stripHtml(html))];
+  if (!headings.length) return [documentRecord(item, type, plainText)];
 
   const allocateId = createHeadingIdAllocator();
 
