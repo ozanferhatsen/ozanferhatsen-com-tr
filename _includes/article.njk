@@ -36,14 +36,30 @@ og_type: article
 .related-reading ul{margin:12px 0 0;padding-left:20px}
 .related-reading li{margin:8px 0}
 .related-reading a{text-decoration-thickness:1px;text-underline-offset:3px}
+.article-toc{margin:0 0 30px;border:1px solid var(--line);background:rgba(255,255,255,.28)}
+.article-toc summary{display:flex;align-items:center;justify-content:space-between;min-height:48px;padding:0 16px;cursor:pointer;list-style:none;font:600 14px/1.4 Inter,Arial,sans-serif}
+.article-toc summary::-webkit-details-marker{display:none}
+.article-toc summary::marker{display:none;content:""}
+.article-toc summary::after{content:"⌄";font-size:18px;line-height:1;transition:transform .16s ease}
+.article-toc[open] summary::after{transform:rotate(180deg)}
+.article-toc nav{padding:0 16px 16px;border-top:1px solid var(--line)}
+.article-toc ol{margin:0;padding:10px 0 0;list-style:none}
+.article-toc li{margin:0}
+.article-toc li+li{border-top:1px solid rgba(216,209,201,.55)}
+.article-toc a{display:block;padding:9px 0;font-size:14px;line-height:1.4;text-decoration:none}
+.article-toc .toc-level-3 a{padding-left:16px;color:var(--muted)}
+.article-toc summary:focus-visible,.article-toc a:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.article-body h2[id],.article-body h3[id]{scroll-margin-top:84px}
 @media(max-width:950px){.series-sidebox{position:static;top:auto}.series-pager{grid-template-columns:1fr}.series-pager .next:only-child,.series-pager .prev:only-child{grid-column:auto}.series-pager .next{order:1}.series-pager .prev{order:2}}
-@media(max-width:620px){.series-kicker{font-size:10px}.series-pager{margin-top:40px}.series-pager a{min-height:112px;padding:17px}.series-pager .series-pager-title,.series-pager .next .series-pager-title{font-size:20px}}
+@media(max-width:620px){.series-kicker{font-size:10px}.series-pager{margin-top:40px}.series-pager a{min-height:112px;padding:17px}.series-pager .series-pager-title,.series-pager .next .series-pager-title{font-size:20px}.article-toc{margin-bottom:26px}.article-toc summary{padding-inline:14px}.article-toc nav{padding:0 14px 14px}.article-toc a{font-size:15px}}
+@media(prefers-reduced-motion:reduce){.article-toc summary::after{transition:none}}
 </style>
 {% set canonicalUrl = canonical or (site.url + page.url) %}
 {% set resolvedCategoryUrl = category_url or (category | categoryUrl) %}
 {% set relatedArticles = collections.makaleler | relatedByCategory(category, page.url, 3) %}
 {% set articleWordCount = content | wordCount %}
 {% set articleReadingTime = content | readingTime %}
+{% set articleToc = content | legalToc %}
 {% if series_id and series[series_id] %}
   {% set currentSeries = series[series_id] %}
   {% if series_order > 1 %}{% set seriesPrev = currentSeries.items[series_order - 2] %}{% endif %}
@@ -64,6 +80,18 @@ og_type: article
 </section>
 <section class="wrap article-layout">
   <article class="article-body">
+    {% if articleToc.length >= 3 %}
+    <details class="article-toc">
+      <summary>İçindekiler</summary>
+      <nav aria-label="Makale içindekiler">
+        <ol>
+          {% for item in articleToc %}
+          <li class="toc-level-{{ item.level }}"><a href="#{{ item.id }}">{{ item.text }}</a></li>
+          {% endfor %}
+        </ol>
+      </nav>
+    </details>
+    {% endif %}
     {% if image %}<p><img src="{{ image }}" alt="{{ image_alt or title }}" loading="eager" decoding="async" style="width:100%;height:auto"></p>{% endif %}
     {{ content | safe }}
 
