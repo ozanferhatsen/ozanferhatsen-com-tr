@@ -1,4 +1,5 @@
 import nunjucks from "nunjucks";
+import { addMissingSearchHeadingIds } from "./lib/legal-search-utils.js";
 
 const categoryUrls = {
   "İmar Hukuku": "/imar-hukuku/",
@@ -147,6 +148,13 @@ export default function (eleventyConfig) {
     return content
       .replaceAll("İçtihat · Gayrimenkul &amp; Taşınmaz Hukuku", "İçtihat · Gayrimenkul Hukuku")
       .replaceAll("İçtihat · İmar &amp; Mülkiyet", "İçtihat · İmar Hukuku ve Mülkiyet Hakkı");
+  });
+
+  // Search v2 uses the same deterministic slug allocator as the search-index build.
+  // Existing explicit IDs are preserved; only missing H2/H3 IDs are injected.
+  eleventyConfig.addTransform("searchHeadingAnchors", (content, outputPath) => {
+    if (!outputPath || !outputPath.endsWith(".html")) return content;
+    return addMissingSearchHeadingIds(content);
   });
 
   return {
