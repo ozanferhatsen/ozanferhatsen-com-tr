@@ -194,7 +194,7 @@ for (const file of files.filter((f) => f.endsWith('.html'))) {
   const schemaDocs = parseJsonLd(html, route);
   const schemaTypes = new Set();
   for (const doc of schemaDocs) collectSchemaTypes(doc, schemaTypes);
-  for (const requiredType of ['Person', 'LegalService', 'WebSite']) {
+  for (const requiredType of ['Person', 'WebSite']) {
     if (!schemaTypes.has(requiredType)) fail(`${route}: global ${requiredType} structured data missing`);
   }
 

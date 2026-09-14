@@ -87,6 +87,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("CNAME");
   eleventyConfig.addPassthroughCopy("robots.txt");
+  eleventyConfig.addPassthroughCopy("llms.txt");
 
   eleventyConfig.addFilter("dateTR", (value) => {
     if (!value) return "";
@@ -105,6 +106,18 @@ export default function (eleventyConfig) {
     const date = new Date(value);
     if (Number.isNaN(date.getTime())) return value;
     return date.toISOString();
+  });
+
+  eleventyConfig.addFilter("sitemapDate", (value) => {
+    if (!value) return "";
+    const date = new Date(value);
+    if (Number.isNaN(date.getTime())) return "";
+    return new Intl.DateTimeFormat("en-CA", {
+      timeZone: "Europe/Istanbul",
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit"
+    }).format(date);
   });
 
   eleventyConfig.addFilter("sameDate", (value, other) => dateKey(value) === dateKey(other));
@@ -178,9 +191,21 @@ export default function (eleventyConfig) {
   // altered.
   eleventyConfig.addTransform("legalTerminology", (content, outputPath) => {
     if (!outputPath || !outputPath.endsWith(".html")) return content;
-    return content
+    let result = content
       .replaceAll("İçtihat · Gayrimenkul &amp; Taşınmaz Hukuku", "İçtihat · Gayrimenkul Hukuku")
       .replaceAll("İçtihat · İmar &amp; Mülkiyet", "İçtihat · İmar Hukuku ve Mülkiyet Hakkı");
+
+    const isPrecedentDetailPage = outputPath.includes("/ictihat/") &&
+      !outputPath.endsWith("/ictihat/index.html") &&
+      !outputPath.includes("/karar-haritalari/");
+
+    if (isPrecedentDetailPage) {
+      result = result.replace(
+        /(<aside\b[^>]*class=["'][^"']*\bprecedent-summary\b[^"']*["'][^>]*>[\s\S]*?<div\b[^>]*class=["']eyebrow["']>)[\s\n]*Karar Özeti[\s\n]*(<\/div>)/gi,
+        "$1Editoryal Karar Özeti$2"
+      );
+    }
+    return result;
   });
 
   // Search v2 uses the same deterministic slug allocator as the search-index build.
