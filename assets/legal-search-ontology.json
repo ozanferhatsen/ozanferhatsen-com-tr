@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "symmetric": [
+    {
+      "terms": ["müteahhit", "yüklenici"],
+      "factor": 0.42
+    },
+    {
+      "terms": ["iskan", "yapı kullanma izin belgesi", "yapı kullanma izni"],
+      "factor": 0.42
+    },
+    {
+      "terms": ["kat karşılığı inşaat", "arsa payı karşılığı inşaat", "kat karşılığı"],
+      "factor": 0.42
+    },
+    {
+      "terms": ["arsa payı düzeltme", "arsa payının düzeltilmesi", "arsa payı düzeltim"],
+      "factor": 0.4
+    },
+    {
+      "terms": ["tapu iptali ve tescil", "tapu iptal tescil"],
+      "factor": 0.32
+    }
+  ],
+  "one_way": [
+    {
+      "from": ["tbk 113", "türk borçlar kanunu 113"],
+      "to": ["nama ifa"],
+      "factor": 0.38
+    },
+    {
+      "from": ["nama ifa"],
+      "to": ["TBK 113"],
+      "factor": 0.18
+    },
+    {
+      "from": ["6306 sayılı kanun"],
+      "to": ["kentsel dönüşüm", "riskli yapı"],
+      "factor": 0.24
+    }
+  ],
+  "abbreviations": [
+    {
+      "term": "DOP",
+      "expansions": ["düzenleme ortaklık payı"],
+      "factor": 0.48,
+      "reverse": true
+    },
+    {
+      "term": "KMK",
+      "expansions": ["Kat Mülkiyeti Kanunu"],
+      "factor": 0.42,
+      "reverse": true
+    },
+    {
+      "term": "TBK",
+      "expansions": ["Türk Borçlar Kanunu"],
+      "factor": 0.36,
+      "reverse": true
+    },
+    {
+      "term": "TMK",
+      "expansions": ["Türk Medeni Kanunu"],
+      "factor": 0.36,
+      "reverse": true
+    },
+    {
+      "term": "HMK",
+      "expansions": ["Hukuk Muhakemeleri Kanunu"],
+      "factor": 0.34,
+      "reverse": true
+    },
+    {
+      "term": "HGK",
+      "expansions": ["Hukuk Genel Kurulu", "Yargıtay Hukuk Genel Kurulu"],
+      "factor": 0.5,
+      "reverse": true
+    },
+    {
+      "term": "İBBGK",
+      "expansions": ["Yargıtay İçtihatları Birleştirme Büyük Genel Kurulu", "İçtihatları Birleştirme Büyük Genel Kurulu"],
+      "factor": 0.5,
+      "reverse": true
+    },
+    {
+      "term": "AYM",
+      "expansions": ["Anayasa Mahkemesi"],
+      "factor": 0.48,
+      "reverse": true
+    }
+  ],
+  "corrections": [
+    {
+      "from": ["muteahit", "muteahhit"],
+      "to": ["müteahhit", "yüklenici"],
+      "factor": 0.4
+    },
+    {
+      "from": ["insat"],
+      "to": ["inşaat"],
+      "factor": 0.38
+    }
+  ]
+}
