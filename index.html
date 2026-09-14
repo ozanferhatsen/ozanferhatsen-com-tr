@@ -13,35 +13,22 @@ page_css: "/assets/practice-areas.css"
     <img src="/assets/hero-office-family.webp" alt="Av. Ozan Ferhat Şen için gayrimenkul, imar ve inşaat hukuku odaklı ofis görseli" width="1672" height="941" fetchpriority="high" decoding="async">
   </picture>
   <div class="hero-wall-copy">
-    <div class="hero-name">OZAN FERHAT ŞEN <span>AVUKAT</span></div>
-    <div class="eyebrow">Gayrimenkul, İmar ve İnşaat Hukuku</div>
-    <h1 id="hero-title">İmar, Kentsel Dönüşüm, İnşaat ve Gayrimenkul Hukukunda Danışmanlık</h1>
-    <p>İmar, kentsel dönüşüm, inşaat ve gayrimenkul hukukunda işlem öncesi risk analizi, sözleşme incelemesi ve uyuşmazlık stratejisi.</p>
-    <div class="hero-wall-actions"><a class="btn primary" href="/iletisim/">İletişim</a><a class="btn" href="#alanlar">Çalışma alanları</a></div>
-    <div class="hero-motto-block" aria-label="Özlü söz">
-      <div class="hero-motto-latin">PRAEMONITUS, PRAEMUNITUS.</div>
-      <div class="hero-motto-tr">Önceden bilen, hazırlıklı olur.</div>
+    <div class="hero-brand" data-hero-brand>
+      <div class="hero-brand-name">OZAN FERHAT ŞEN</div>
+      <div class="hero-brand-specialty">Gayrimenkul, İmar ve İnşaat Hukuku</div>
+    </div>
+    <h1 id="hero-title">Gayrimenkul, İmar ve Kentsel Dönüşümde Hukuki Strateji</h1>
+    <p>İmar kararları, arsa payı ilişkileri, inşaat sözleşmeleri ve kentsel dönüşüm süreçlerinde işlem öncesi risk analizi, sözleşme denetimi ve uyuşmazlık stratejisi.</p>
+    <div class="hero-wall-actions">
+      <a class="btn primary" href="#alanlar">Çalışma Alanları</a>
+      <a class="btn" href="/ictihat/karar-haritalari/">Karar Haritaları</a>
     </div>
   </div>
-  <aside class="legal-updates" aria-labelledby="legal-updates-title">
-    <div class="legal-updates-head">
-      <div>
-        <div class="eyebrow">Hukuki Gelişmeler</div>
-        <h2 id="legal-updates-title">Ne değişti, sonucu ne?</h2>
-      </div>
-      <a href="/hukuki-gelismeler/">Tümünü gör →</a>
-    </div>
-    {% set latestLegalUpdates = hukukiGelismeler | sortByDate | limit(10) %}
-    <div class="legal-updates-list" data-legal-updates aria-live="polite">
-      {% for update in latestLegalUpdates %}
-      <a class="legal-update-card{% if loop.first %} is-active{% endif %}" data-legal-update href="/hukuki-gelismeler/#{{ update.id }}">
-        <div class="legal-update-meta"><time datetime="{{ update.date }}">Yayım: {{ update.date | dateTR }}</time><span>{{ update.category }}{% if update.tag %} · {{ update.tag }}{% endif %}</span></div>
-        <h3>{{ update.homeTitle or update.title }}</h3>
-        <p>{{ update.homeSummary or update.summary }}</p>
-      </a>
-      {% endfor %}
-    </div>
-    <div class="legal-updates-dots" aria-hidden="true">{% for update in latestLegalUpdates %}<span{% if loop.first %} class="is-active"{% endif %}></span>{% endfor %}</div>
+  <aside class="featured-study" aria-labelledby="featured-study-title">
+    <div class="featured-study-label">Öne Çıkan İnceleme</div>
+    <h2 id="featured-study-title">Arsa Payı Karşılığı İnşaat Sözleşmeleri</h2>
+    <p><strong>24 HGK kararının</strong> karşılaştırmalı analizi.</p>
+    <a href="/ictihat/karar-haritalari/arsa-payi-karsiligi-insaat/">Karar haritasını incele →</a>
   </aside>
 </section>
 

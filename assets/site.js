@@ -15,44 +15,53 @@ document.addEventListener('DOMContentLoaded',()=>{
     });
   }
 
-  const panel=document.querySelector('[data-legal-updates]');
-  const updates=[...document.querySelectorAll('[data-legal-update]')];
-  const dots=[...document.querySelectorAll('.legal-updates-dots span')];
-  if(panel&&updates.length>1){
-    let current=Math.max(0,updates.findIndex(item=>item.classList.contains('is-active')));
-    let timer=null;
-
-    const show=index=>{
-      updates.forEach((item,i)=>{
-        const active=i===index;
-        item.classList.toggle('is-active',active);
-        item.setAttribute('aria-hidden',String(!active));
-      });
-      dots.forEach((dot,i)=>dot.classList.toggle('is-active',i===index));
+  const dynamicBrand=document.querySelector('[data-dynamic-brand]');
+  const heroBrand=document.querySelector('[data-hero-brand]');
+  if(dynamicBrand&&heroBrand){
+    const setBrandVisible=visible=>{
+      dynamicBrand.classList.toggle('is-visible',visible);
+      dynamicBrand.setAttribute('aria-hidden',String(!visible));
+      dynamicBrand.tabIndex=visible?0:-1;
     };
 
-    const advance=()=>{
-      current=(current+1)%updates.length;
-      show(current);
-    };
+    setBrandVisible(false);
 
-    const start=()=>{
-      if(timer) return;
-      timer=setInterval(advance,6000);
-    };
+    if('IntersectionObserver' in window){
+      const observer=new IntersectionObserver(entries=>{
+        setBrandVisible(!entries[0].isIntersecting);
+      },{threshold:0});
+      observer.observe(heroBrand);
+    }else{
+      const updateBrand=()=>{
+        const rect=heroBrand.getBoundingClientRect();
+        setBrandVisible(rect.bottom<=0||rect.top>=window.innerHeight);
+      };
+      updateBrand();
+      window.addEventListener('scroll',updateBrand,{passive:true});
+      window.addEventListener('resize',updateBrand);
+    }
+  }
 
-    const stop=()=>{
-      if(timer){
-        clearInterval(timer);
-        timer=null;
-      }
-    };
+  const focusSearch=()=>{
+    const input=document.getElementById('site-search-input');
+    if(input){
+      input.focus();
+      return;
+    }
+    window.location.assign('/arama/?focus=1');
+  };
 
-    show(current);
-    start();
-    panel.addEventListener('mouseenter',stop);
-    panel.addEventListener('mouseleave',start);
-    panel.addEventListener('focusin',stop);
-    panel.addEventListener('focusout',start);
+  document.addEventListener('keydown',event=>{
+    if((event.metaKey||event.ctrlKey)&&!event.altKey&&event.key.toLowerCase()==='k'){
+      event.preventDefault();
+      focusSearch();
+    }
+  });
+
+  if(window.location.pathname==='/arama/'&&new URLSearchParams(window.location.search).get('focus')==='1'){
+    window.setTimeout(()=>{
+      const input=document.getElementById('site-search-input');
+      if(input) input.focus();
+    },0);
   }
 });

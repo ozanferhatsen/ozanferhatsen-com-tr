@@ -1,4 +1,5 @@
-<header class="site-header">
+{% set isHomepage = page.url == '/' %}
+<header class="site-header" data-site-header>
   <div class="wrap nav">
     {% if lang == 'en' %}
     <nav class="nav-links" id="menu" aria-label="Main navigation">
@@ -27,7 +28,7 @@
     </nav>
     <a class="nav-cta" href="https://wa.me/905543398209">Contact in English</a>
     {% else %}
-    <a class="home-link" href="/" aria-label="Ana sayfaya dön">← Ana Sayfa</a>
+    <a class="site-brand{% if isHomepage %} site-brand--dynamic{% endif %}" href="/" aria-label="Ozan Ferhat Şen ana sayfa"{% if isHomepage %} data-dynamic-brand aria-hidden="true" tabindex="-1"{% endif %}>OZAN FERHAT ŞEN</a>
     <nav class="nav-links" id="menu" aria-label="Ana menü">
       <details class="nav-dropdown">
         <summary>Çalışma Alanları</summary>
@@ -42,11 +43,21 @@
           </div>
         </div>
       </details>
-      <a href="/makaleler/">Makaleler</a>
-      <a href="/ictihat/">İçtihatlar</a>
-      <a href="/ictihat/karar-haritalari/">Karar Haritaları</a>
-      <a href="/arama/">Ara</a>
+      <details class="nav-dropdown">
+        <summary>Yayınlar</summary>
+        <div class="mega-menu mega-menu--single">
+          <div class="mega-column">
+            <div class="mega-label">Yayınlar &amp; İçtihat</div>
+            <a href="/makaleler/">Makaleler</a>
+            <a href="/ictihat/">İçtihatlar</a>
+            <a href="/ictihat/karar-haritalari/">Karar Haritaları</a>
+          </div>
+        </div>
+      </details>
       <a href="/hakkimda/">Hakkımda</a>
+      <a class="nav-search" href="/arama/" aria-label="Site içinde ara" title="Site içinde ara (⌘K / Ctrl+K)" data-search-trigger>
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="6.5"></circle><path d="M16 16l4.25 4.25"></path></svg>
+      </a>
       <a class="international-link" href="/en/">International <span>EN</span></a>
     </nav>
     <a class="nav-cta" href="/iletisim/">İletişim</a>
