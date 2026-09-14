@@ -9,7 +9,7 @@
     <div>
       <h4>Practice Areas</h4>
       {% for key, area in practiceAreas %}
-        {% if key != 'kira' and area.enName and area.alternateEn %}
+        {% if key != 'kira' and area.navGroup == 'property' and area.enName and area.alternateEn %}
         <p><a href="{{ area.alternateEn | replace(site.url, '') }}">{{ area.enName }}</a></p>
         {% endif %}
       {% endfor %}
@@ -38,7 +38,7 @@
     <div>
       <h4>Çalışma alanları</h4>
       {% for key, area in practiceAreas %}
-      {% if key != 'kira' %}
+      {% if key != 'kira' and area.navGroup == 'property' %}
       <p><a href="{{ area.url }}">{{ area.name }}</a></p>
       {% endif %}
       {% endfor %}
