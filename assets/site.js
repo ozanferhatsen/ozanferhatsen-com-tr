@@ -15,6 +15,36 @@ document.addEventListener('DOMContentLoaded',()=>{
     });
   }
 
+  const dropdowns=[...document.querySelectorAll('.nav-dropdown')];
+  if(dropdowns.length){
+    dropdowns.forEach(dropdown=>{
+      dropdown.addEventListener('toggle',()=>{
+        if(!dropdown.open) return;
+        dropdowns.forEach(other=>{
+          if(other!==dropdown) other.open=false;
+        });
+      });
+    });
+
+    document.addEventListener('click',event=>{
+      dropdowns.forEach(dropdown=>{
+        if(dropdown.open&&!dropdown.contains(event.target)) dropdown.open=false;
+      });
+    });
+
+    document.addEventListener('keydown',event=>{
+      if(event.key==='Escape'){
+        dropdowns.forEach(dropdown=>{dropdown.open=false;});
+      }
+    });
+
+    dropdowns.forEach(dropdown=>{
+      dropdown.querySelectorAll('a').forEach(link=>{
+        link.addEventListener('click',()=>{dropdown.open=false;});
+      });
+    });
+  }
+
   const dynamicBrand=document.querySelector('[data-dynamic-brand]');
   const heroBrand=document.querySelector('[data-hero-brand]');
   if(dynamicBrand&&heroBrand){
