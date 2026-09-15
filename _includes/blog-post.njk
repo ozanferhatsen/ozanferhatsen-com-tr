@@ -1,0 +1,79 @@
+---
+layout: base.njk
+og_type: article
+---
+<style>
+.blog-post-page{padding:54px 0 88px}
+.blog-post-shell{width:min(800px,calc(100% - 40px));margin-inline:auto}
+.blog-breadcrumbs{margin:0 0 24px;font-size:12px;line-height:1.5;color:var(--muted)}
+.blog-breadcrumbs ol{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:0;padding:0;list-style:none}
+.blog-breadcrumbs li{display:flex;gap:6px;align-items:center}
+.blog-breadcrumbs a{text-decoration:underline;text-underline-offset:3px}
+.blog-breadcrumbs .separator{color:var(--muted)}
+.blog-masthead{padding:0 0 30px;border-bottom:1px solid var(--line)}
+.blog-category-tag{display:inline-block;margin:0 0 14px;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.blog-masthead h1{margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(36px,5vw,56px);font-weight:600;line-height:1.08;letter-spacing:-.025em;color:var(--ink)}
+.blog-meta-bar{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin-top:18px;font-size:13px;color:var(--muted)}
+.blog-meta-bar span+span::before{content:"·";margin-right:14px;color:var(--line)}
+.blog-body{margin-top:36px;font-size:17px;line-height:1.8;color:var(--ink)}
+.blog-body h2,.blog-body h3{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;letter-spacing:-.015em;color:var(--ink)}
+.blog-body h2{font-size:clamp(26px,3vw,34px);margin:42px 0 16px;line-height:1.15}
+.blog-body h3{font-size:24px;margin:32px 0 12px;line-height:1.2}
+.blog-body p{margin:0 0 20px}
+.blog-body blockquote{margin:28px 0;padding:16px 24px;border-left:3px solid var(--accent);background:rgba(255,255,255,.35);font-style:italic;color:#3e3a35}
+.blog-body ul,.blog-body ol{margin:0 0 24px;padding-left:24px}
+.blog-body li{margin:8px 0}
+.blog-author-card{margin-top:54px;padding:28px;border:1px solid var(--line);background:rgba(255,255,255,.3);display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:center}
+.blog-author-avatar{width:64px;height:64px;border-radius:50%;object-fit:cover;border:1px solid var(--line)}
+.blog-author-info h3{margin:0 0 4px;font-family:'Cormorant Garamond',Georgia,serif;font-size:22px;font-weight:600}
+.blog-author-info p{margin:0;font-size:13px;color:var(--muted);line-height:1.5}
+.blog-post-footer{margin-top:40px;padding-top:24px;border-top:1px solid var(--line);display:flex;justify-content:space-between;align-items:center}
+.blog-back-link{font-size:13px;font-weight:600;letter-spacing:.02em;color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+@media(max-width:640px){
+  .blog-post-page{padding:36px 0 60px}
+  .blog-body{font-size:16px;line-height:1.75}
+  .blog-author-card{grid-template-columns:1fr;text-align:left}
+}
+</style>
+{% set canonicalUrl = canonical or (site.url + page.url) %}
+{% set blogWordCount = content | wordCount %}
+{% set blogReadingTime = reading_time or (content | readingTime) %}
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":{{ (canonicalUrl + '#post') | json }},"headline":{{ title | json }},"description":{{ (description or summary) | json }},"mainEntityOfPage":{"@type":"WebPage","@id":{{ canonicalUrl | json }}},"author":{"@id":"https://ozanferhatsen.com.tr/#ozan-ferhat-sen"},"publisher":{"@id":"https://ozanferhatsen.com.tr/#ozan-ferhat-sen"},"isPartOf":{"@id":"https://ozanferhatsen.com.tr/#website"},"datePublished":{{ date | isoDate | json }},"dateModified":{{ (updated or date) | isoDate | json }},"inLanguage":"tr-TR","articleSection":{{ (category or 'Hukuk Felsefesi') | json }}},{"@type":"BreadcrumbList","@id":{{ (canonicalUrl + '#breadcrumb') | json }},"itemListElement":[{"@type":"ListItem","position":1,"name":"Ana Sayfa","item":"https://ozanferhatsen.com.tr/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://ozanferhatsen.com.tr/blog/"},{"@type":"ListItem","position":3,"name":{{ title | json }},"item":{{ canonicalUrl | json }}}]}]}</script>
+<article class="blog-post-page">
+  <div class="blog-post-shell">
+    <nav class="blog-breadcrumbs" aria-label="İçerik yolu">
+      <ol>
+        <li><a href="/">Ana Sayfa</a></li>
+        <li class="separator" aria-hidden="true">/</li>
+        <li><a href="/blog/">Blog</a></li>
+        <li class="separator" aria-hidden="true">/</li>
+        <li aria-current="page">{{ title }}</li>
+      </ol>
+    </nav>
+    <header class="blog-masthead">
+      {% if category %}<div class="blog-category-tag">{{ category }}</div>{% endif %}
+      <h1>{{ title }}</h1>
+      <div class="blog-meta-bar">
+        <span>{{ date | dateTR }}</span>
+        <span>{{ blogReadingTime }} dk okuma</span>
+        <span>Av. Ozan Ferhat Şen</span>
+      </div>
+    </header>
+
+    <div class="blog-body">
+      {{ content | safe }}
+    </div>
+
+    <div class="blog-author-card">
+      <img src="/assets/ozan-ferhat-sen-portre.webp" alt="Av. Ozan Ferhat Şen" class="blog-author-avatar" width="64" height="64" loading="lazy">
+      <div class="blog-author-info">
+        <h3>Av. Ozan Ferhat Şen</h3>
+        <p>Hukuk felsefesi, adliye deneyimleri ve hukuki ontoloji üzerine kişisel denemeler.</p>
+      </div>
+    </div>
+
+    <div class="blog-post-footer">
+      <a href="/blog/" class="blog-back-link">← Tüm Blog Yazılarına Dön</a>
+    </div>
+  </div>
+</article>

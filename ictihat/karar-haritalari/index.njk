@@ -1,7 +1,7 @@
 ---
 layout: base.njk
-title: "Karar Haritaları"
-description: "Yargıtay Hukuk Genel Kurulu kararlarının tekil emsal özetleri yerine, aynı hukuki sorunu farklı uyuşmazlık tipleri içinde karşılaştırmalı olarak inceleyen karar haritaları."
+title: "İçtihat Ontolojisi"
+description: "Yargıtay Hukuk Genel Kurulu ve ilgili hukuk daireleri kararlarının tekil emsal özetleri yerine; kavramsal, mantıksal ve normatif bağlantılarını ortaya koyan karşılaştırmalı içtihat ontolojisi incelemeleri."
 permalink: "/ictihat/karar-haritalari/index.html"
 ---
 <section class="section">
@@ -9,15 +9,15 @@ permalink: "/ictihat/karar-haritalari/index.html"
     <div class="section-head">
       <div>
         <div class="eyebrow">İçtihat</div>
-        <h1>Karar Haritaları</h1>
+        <h1>İçtihat Ontolojisi</h1>
       </div>
-      <p>Yüksek yargı kararlarını tek tek özetlemek yerine; aynı hukuki sorunun farklı uyuşmazlıklarda nasıl ele alındığını, kararların nerede birleştiğini ve nerede ayrıştığını gösteren sistematik incelemeler.</p>
+      <p>Yüksek yargı kararlarını tek tek özetlemek yerine; aynı hukuki sorunun farklı uyuşmazlıklarda nasıl ele alındığını, normatif ve kavramsal ilişkilerini, kararların nerede birleşip nerede ayrıştığını gösteren sistematik ontolojik incelemeler.</p>
     </div>
 
     <div class="article-grid">
       {% for item in collections.kararHaritalari %}
       <a class="article-card" href="{{ item.url }}">
-        <div class="eyebrow">{{ item.data.format_label or 'Karar Haritası' }}</div>
+        <div class="eyebrow">{{ item.data.format_label or 'Yargıtay İçtihat Ontolojisi' }}</div>
         <h3>{{ item.data.title }}</h3>
         <p>{{ item.data.summary }}</p>
       </a>

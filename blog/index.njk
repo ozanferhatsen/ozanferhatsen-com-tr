@@ -1,0 +1,106 @@
+---
+layout: base.njk
+title: "Blog & Notlar | Av. Ozan Ferhat Şen"
+description: "Hukuk felsefesi, adliye deneyimleri, sorumluluk etiği ve hukukun antropolojik arka planı üzerine kişisel denemeler ve notlar."
+permalink: "/blog/index.html"
+---
+<style>
+.blog-hub-hero{padding:72px 0 48px;border-bottom:1px solid var(--line)}
+.blog-hub-manifesto{max-width:820px;margin-top:24px;padding:24px 28px;border-left:3px solid var(--accent);background:rgba(255,255,255,.32);font-size:17px;line-height:1.75;color:#383430;font-style:italic}
+.blog-categories-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:42px}
+.blog-cat-card{padding:20px;border:1px solid var(--line);background:rgba(255,255,255,.25);display:flex;flex-direction:column;justify-content:space-between}
+.blog-cat-card.is-active{border-color:var(--accent);background:rgba(129,49,71,.04)}
+.blog-cat-status{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+.blog-cat-card.is-muted .blog-cat-status{color:var(--muted)}
+.blog-cat-title{font-family:'Cormorant Garamond',Georgia,serif;font-size:22px;line-height:1.15;font-weight:600;margin:0 0 8px}
+.blog-cat-desc{font-size:13px;line-height:1.5;color:var(--muted);margin:0}
+.blog-posts-section{padding:64px 0 96px}
+.blog-posts-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:24px}
+.blog-entry-card{display:flex;flex-direction:column;border:1px solid var(--line);padding:28px;background:rgba(255,255,255,.35);transition:.2s ease;text-decoration:none}
+.blog-entry-card:hover{transform:translateY(-3px);background:rgba(255,255,255,.55);border-color:#b4aca2}
+.blog-entry-kicker{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
+.blog-entry-cat{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+.blog-entry-date{font-size:12px;color:var(--muted)}
+.blog-entry-card h2{font-family:'Cormorant Garamond',Georgia,serif;font-size:28px;line-height:1.15;font-weight:600;margin:0 0 14px;color:var(--ink)}
+.blog-entry-card p{font-size:14px;line-height:1.65;color:var(--muted);margin:0 0 20px;flex-grow:1}
+.blog-entry-meta{display:flex;justify-content:space-between;align-items:center;padding-top:16px;border-top:1px solid rgba(216,209,201,.65);font-size:12px;font-weight:600;color:var(--ink)}
+.blog-entry-meta .arrow{margin:0;color:var(--accent)}
+@media(max-width:960px){
+  .blog-categories-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:640px){
+  .blog-hub-hero{padding:48px 0 36px}
+  .blog-categories-grid{grid-template-columns:1fr}
+  .blog-posts-grid{grid-template-columns:1fr}
+}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Blog","@id":"https://ozanferhatsen.com.tr/blog/#blog","url":"https://ozanferhatsen.com.tr/blog/","name":"Av. Ozan Ferhat Şen | Blog & Notlar","description":"Hukuk felsefesi, adliye deneyimleri, sorumluluk etiği ve hukukun antropolojik arka planı üzerine kişisel denemeler.","publisher":{"@id":"https://ozanferhatsen.com.tr/#ozan-ferhat-sen"},"breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Ana Sayfa","item":"https://ozanferhatsen.com.tr/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://ozanferhatsen.com.tr/blog/"}]}}</script>
+
+<section class="blog-hub-hero">
+  <div class="wrap">
+    <div class="breadcrumbs"><a href="/">Ana Sayfa</a> / Blog</div>
+    <div class="section-head" style="margin-bottom:0">
+      <div>
+        <div class="eyebrow">Kişisel Denemeler &amp; Düşünceler</div>
+        <h1>Blog &amp; Notlar</h1>
+      </div>
+      <p>Dava dilekçelerinin resmiyetinden uzak; felsefe, insan doğası, adliye koridorları ve sorumluluk etiği üzerine kişisel yazılar.</p>
+    </div>
+
+    <div class="blog-hub-manifesto">
+      “Burası dava dilekçelerinin resmi soğukluğundan ve mevzuat kopyalarından uzak bir alandır. Yıllarca adliye koridorlarında, duruşma salonlarında ve sözleşme masalarında biriken deneyimlerin; hukuk felsefesi, antropoloji ve edebiyatla kesiştiği samimi, insani notlar...”
+    </div>
+
+    <div class="blog-categories-grid">
+      <div class="blog-cat-card is-active">
+        <div>
+          <div class="blog-cat-status">Yayında</div>
+          <h2 class="blog-cat-title">Hukuk Felsefesi</h2>
+          <p class="blog-cat-desc">Cezalandırma teorileri, mülkiyetin sınırları, ıslah vs. intikam ve hakkaniyet.</p>
+        </div>
+      </div>
+      <div class="blog-cat-card is-muted">
+        <div>
+          <div class="blog-cat-status">Pek Yakında</div>
+          <h2 class="blog-cat-title">Adliye Günlüğü</h2>
+          <p class="blog-cat-desc">Duruşma salonlarından insan manzaraları, usul tuzakları ve dava avukatlığı tecrübeleri.</p>
+        </div>
+      </div>
+      <div class="blog-cat-card is-muted">
+        <div>
+          <div class="blog-cat-status">Pek Yakında</div>
+          <h2 class="blog-cat-title">Hukuk &amp; Antropoloji</h2>
+          <p class="blog-cat-desc">İntikam mekanizmalarından modern devlete, tabu ve toplum sözleşmesi tahlilleri.</p>
+        </div>
+      </div>
+      <div class="blog-cat-card is-muted">
+        <div>
+          <div class="blog-cat-status">Pek Yakında</div>
+          <h2 class="blog-cat-title">Babalığa Dair</h2>
+          <p class="blog-cat-desc">Sorumluluk etiği, evlat yetiştirme ve hayatın getirdiği yüzleşmeler üzerine denemeler.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="blog-posts-section">
+  <div class="wrap">
+    <div class="blog-posts-grid">
+      {% for post in collections.blog %}
+      <a class="blog-entry-card" href="{{ post.url }}">
+        <div class="blog-entry-kicker">
+          <span class="blog-entry-cat">{{ post.data.category or 'Hukuk Felsefesi' }}</span>
+          <span class="blog-entry-date">{{ post.data.date | dateTR }}</span>
+        </div>
+        <h2>{{ post.data.title }}</h2>
+        <p>{{ post.data.summary or post.data.description }}</p>
+        <div class="blog-entry-meta">
+          <span>{{ post.data.reading_time or (post.templateContent | readingTime) }} dk okuma</span>
+          <span class="arrow">Yazıyı oku →</span>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

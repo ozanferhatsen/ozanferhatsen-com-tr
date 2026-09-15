@@ -268,6 +268,13 @@ export default function (eleventyConfig) {
       .sort((a, b) => new Date(b.data.date || 0) - new Date(a.data.date || 0))
   );
 
+  eleventyConfig.addCollection("blog", (collectionApi) =>
+    collectionApi
+      .getFilteredByGlob("./content/blog/*.md")
+      .filter((item) => !item.data.draft)
+      .sort((a, b) => new Date(b.data.date || 0) - new Date(a.data.date || 0))
+  );
+
   eleventyConfig.addCollection("vitrinMakaleler", (collectionApi) =>
     collectionApi
       .getFilteredByGlob("./content/makaleler/*.md")
