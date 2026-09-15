@@ -5,45 +5,45 @@ export default {
   eleventyComputed: {
     permalink: (data) => `/ictihat/karar-haritalari/${data.page.fileSlug}/index.html`,
     title: (data) => {
-      if (data.page.fileSlug === "arsa-payi-karsiligi-insaat") return "Arsa Payı Karşılığı İnşaat Sözleşmeleri: Yargıtay HGK İçtihat Haritası";
+      if (data.page.fileSlug === "arsa-payi-karsiligi-insaat") return "Güncel Yargıtay İçtihatları ve Doktrin Işığında Arsa Payı Karşılığı İnşaat ve Kentsel Dönüşüm Karar Haritası (2024–2026)";
       if (data.page.fileSlug === "tasinmaz-satisi") return "Taşınmaz Satışından Doğan Uyuşmazlıklar: Yargıtay HGK İçtihat Haritası";
       if (data.page.fileSlug === "kentsel-donusum-arsa-payi-duzeltme") return "Kentsel Dönüşümde Arsa Payının Düzeltilmesi: Yıkım, Hukuki Yarar ve Değerleme";
       return data.title;
     },
     slug: (data) => data.page.fileSlug,
-    format_label: (data) => data.page.fileSlug === "kentsel-donusum-arsa-payi-duzeltme" ? "YARGITAY KARAR HARİTASI" : "HGK KARAR HARİTASI",
+    format_label: (data) => data.page.fileSlug === "kentsel-donusum-arsa-payi-duzeltme" ? "YARGITAY KARAR HARİTASI" : "YARGITAY KARAR HARİTASI (2024–2026)",
     decision_count: (data) => {
       if (data.page.fileSlug === "tasinmaz-satisi") return 20;
       if (data.page.fileSlug === "kentsel-donusum-arsa-payi-duzeltme") return 3;
-      return 24;
+      return 18;
     },
-    decision_label: (data) => data.page.fileSlug === "kentsel-donusum-arsa-payi-duzeltme" ? "Yargıtay kararı" : "HGK kararı",
-    decision_period: (data) => data.page.fileSlug === "kentsel-donusum-arsa-payi-duzeltme" ? "2025–2026" : "2020–2022",
+    decision_label: (data) => data.page.fileSlug === "kentsel-donusum-arsa-payi-duzeltme" ? "Yargıtay kararı" : "Yargıtay Emsal Kararı & Doktriner Analiz",
+    decision_period: (data) => data.page.fileSlug === "tasinmaz-satisi" ? "2020–2022" : "2024–2026",
     analysis_method: (data) => data.page.fileSlug === "kentsel-donusum-arsa-payi-duzeltme"
       ? "Hukuki yarar, dava önkoşulu ve değerleme ölçütlerinin karşılaştırmalı analizi"
       : "Konu, uyuşmazlık ve hukuki sonuç bakımından karşılaştırmalı analiz",
     method_note: (data) => data.page.fileSlug === "kentsel-donusum-arsa-payi-duzeltme"
       ? "Hukuk Genel Kurulu ile Yargıtay 5. ve 6. Hukuk Dairesi kararları, arsa payı düzeltme uyuşmazlığının üç ayrı eşiğini — yıkım sonrası hukuki yarar, kat mülkiyeti/kat irtifakı önkoşulu ve değerleme ölçütleri — birlikte göstermek amacıyla karşılaştırılmıştır."
-      : null,
+      : "Bu çalışma tekil karar özeti niteliğinde değildir. Arsa Payı Karşılığı İnşaat Sözleşmesi (APKİS) ve 6306 sayılı Kentsel Dönüşüm Kanunu uyuşmazlıklarının 18 temel eksende birbiriyle ilişkisi, 2024–2026 emsal kararları ve yerel doktrin çerçevesinde haritalandırılmıştır.",
     citation_title: (data) => {
       if (data.page.fileSlug === "tasinmaz-satisi") return "Taşınmaz Satışından Doğan Uyuşmazlıklar: Yargıtay HGK İçtihat Haritası";
       if (data.page.fileSlug === "kentsel-donusum-arsa-payi-duzeltme") return "Kentsel Dönüşümde Arsa Payının Düzeltilmesi: Yıkım, Hukuki Yarar ve Değerleme";
-      return "Arsa Payı Karşılığı İnşaat Sözleşmeleri: Yargıtay HGK İçtihat Haritası";
+      return "Güncel Yargıtay İçtihatları ve Doktrin Işığında Arsa Payı Karşılığı İnşaat ve Kentsel Dönüşüm Karar Haritası (2024–2026)";
     },
     summary: (data) => {
       if (data.page.fileSlug === "tasinmaz-satisi") return "Taşınmaz satış uyuşmazlıklarında resmî şekil, harici satış, tescil, sebepsiz zenginleşme, rayiç bedel, iyiniyet, ayıp, eksik ifa, cezai şart, menfi zarar ve usul sorunlarını 20 Yargıtay Hukuk Genel Kurulu kararı üzerinden birlikte analiz eden karar haritası.";
       if (data.page.fileSlug === "kentsel-donusum-arsa-payi-duzeltme") return "Kentsel dönüşüm sürecinde arsa payı düzeltme davasında yapının yıkılmasının hukuki yarara etkisini, kat irtifakı veya kat mülkiyeti hiç kurulmamış taşınmazlardaki sınırı ve bağımsız bölüm değerlemesinde dikkate alınacak ölçütleri üç güncel Yargıtay kararı üzerinden karşılaştıran karar haritası.";
-      return "Arsa payı karşılığı inşaat sözleşmelerinde resmî şekil, imar engeli, nama ifa, fesih, tasfiye, üçüncü kişi iyiniyeti, taraf teşkili, tapu iptali ve usul sorunlarını 24 Yargıtay Hukuk Genel Kurulu kararını birlikte okuyarak haritalayan karşılaştırmalı inceleme.";
+      return "Yüklenicinin temerrüdü, %90 ifa seviyesi, geriye/ileriye etkili fesih, 3. kişilerin tapu durumu, TMK 1023 iyiniyet denetimi ve 6306 idari fesih süreçlerinin 18 eksende güncel Yargıtay kararları ve doktrin ile bütünsel incelemesi.";
     },
     seo_title: (data) => {
       if (data.page.fileSlug === "tasinmaz-satisi") return "Taşınmaz Satış Uyuşmazlıkları | Yargıtay HGK İçtihat Haritası";
       if (data.page.fileSlug === "kentsel-donusum-arsa-payi-duzeltme") return "Arsa Payı Düzeltme ve Kentsel Dönüşüm | Yargıtay Karar Haritası";
-      return "Arsa Payı Karşılığı İnşaat | Yargıtay HGK İçtihat Haritası";
+      return "Arsa Payı Karşılığı İnşaat ve Kentsel Dönüşüm Yargıtay Kararları | 2024–2026";
     },
     description: (data) => {
       if (data.page.fileSlug === "tasinmaz-satisi") return "20 Yargıtay HGK kararıyla taşınmaz satışında harici satış, tescil, sebepsiz zenginleşme, ayıp, eksik ifa, cezai şart, rayiç bedel ve tazminat analizi.";
       if (data.page.fileSlug === "kentsel-donusum-arsa-payi-duzeltme") return "Arsa payı düzeltme davasında yıkım sonrası hukuki yarar, kat irtifakı ve kat mülkiyeti önkoşulu ile bağımsız bölüm değerleme ölçütlerini üç güncel Yargıtay kararıyla inceleyen karar haritası.";
-      return "Arsa payı karşılığı inşaat sözleşmelerinde şekil, imar engeli, nama ifa, fesih, tasfiye, üçüncü kişi iyiniyeti ve usul sorunlarını 24 HGK kararıyla karşılaştırmalı olarak inceleyen karar haritası.";
+      return "Yüklenicinin temerrüdü, %90 ifa seviyesi, geriye/ileriye etkili fesih, 3. kişilerin tapu durumu, TMK 1023 iyiniyet denetimi ve 6306 idari fesih süreçlerinin 18 eksende güncel Yargıtay kararları ve doktrin ile bütünsel incelemesi.";
     },
     breadcrumb: (data) => [
       { name: "Ana Sayfa", url: "/" },
