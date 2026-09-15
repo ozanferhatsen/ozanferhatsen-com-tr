@@ -8,16 +8,27 @@ permalink: "/blog/index.html"
 .blog-hub-hero{padding:72px 0 48px;border-bottom:1px solid var(--line)}
 .blog-hub-manifesto{max-width:820px;margin-top:24px;padding:24px 28px;border-left:3px solid var(--accent);background:rgba(255,255,255,.32);font-size:17px;line-height:1.75;color:#383430;font-style:italic}
 .blog-categories-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:42px}
-.blog-cat-card{padding:20px;border:1px solid var(--line);background:rgba(255,255,255,.25);display:flex;flex-direction:column;justify-content:space-between}
+.blog-cat-card{padding:20px;border:1px solid var(--line);background:rgba(255,255,255,.25);display:flex;flex-direction:column;justify-content:space-between;text-decoration:none;transition:transform .2s ease,border-color .2s ease,background .2s ease}
+.blog-cat-card:hover{transform:translateY(-3px);background:rgba(255,255,255,.45)}
 .blog-cat-card.is-active{border-color:var(--accent);background:rgba(129,49,71,.04)}
 .blog-cat-status{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
 .blog-cat-card.is-muted .blog-cat-status{color:var(--muted)}
-.blog-cat-title{font-family:'Cormorant Garamond',Georgia,serif;font-size:22px;line-height:1.15;font-weight:600;margin:0 0 8px}
+.blog-cat-title{font-family:'Cormorant Garamond',Georgia,serif;font-size:22px;line-height:1.15;font-weight:600;margin:0 0 8px;color:var(--ink)}
 .blog-cat-desc{font-size:13px;line-height:1.5;color:var(--muted);margin:0}
+.blog-cat-jump{display:inline-flex;align-items:center;gap:4px;margin-top:14px;font-size:11px;font-weight:600;letter-spacing:.04em;color:var(--accent)}
 .blog-cat-card.is-daughter{border-color:#ff3399}
 .blog-cat-card.is-daughter:hover{border-color:#ff3399}
+.blog-cat-card.is-daughter .blog-cat-jump{color:#ff3399}
 .daughter-text{color:#ff3399;font-weight:600;font-size:16px;letter-spacing:0}
-.blog-posts-section{padding:64px 0 96px}
+
+.blog-shelves-container{padding:32px 0 96px}
+.blog-shelf{padding:48px 0;border-bottom:1px solid var(--line);scroll-margin-top:84px}
+.blog-shelf:last-child{border-bottom:0}
+.blog-shelf-header{margin-bottom:28px}
+.blog-shelf-header .eyebrow{margin-bottom:6px}
+.blog-shelf-header h2{font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(28px,3vw,38px);line-height:1.12;font-weight:600;margin:0 0 8px;letter-spacing:-.02em;color:var(--ink)}
+.blog-shelf-header p{margin:0;font-size:14px;line-height:1.6;color:var(--muted);max-width:720px}
+.blog-shelf-empty{padding:22px 24px;border:1px dashed var(--line);background:rgba(255,255,255,.18);font-size:14px;color:var(--muted);font-style:italic}
 .blog-posts-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:24px}
 .blog-entry-card{display:flex;flex-direction:column;border:1px solid var(--line);padding:28px;background:rgba(255,255,255,.35);transition:.2s ease;text-decoration:none}
 .blog-entry-card:hover{transform:translateY(-3px);background:rgba(255,255,255,.55);border-color:#b4aca2}
@@ -35,6 +46,7 @@ permalink: "/blog/index.html"
   .blog-hub-hero{padding:48px 0 36px}
   .blog-categories-grid{grid-template-columns:1fr}
   .blog-posts-grid{grid-template-columns:1fr}
+  .blog-shelf{padding:36px 0}
 }
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Blog","@id":"https://ozanferhatsen.com.tr/blog/#blog","url":"https://ozanferhatsen.com.tr/blog/","name":"Av. Ozan Ferhat Şen | Blog & Notlar","description":"Hukuk felsefesi, adliye deneyimleri, sorumluluk etiği ve hukukun antropolojik arka planı üzerine kişisel denemeler.","publisher":{"@id":"https://ozanferhatsen.com.tr/#ozan-ferhat-sen"},"breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Ana Sayfa","item":"https://ozanferhatsen.com.tr/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://ozanferhatsen.com.tr/blog/"}]}}</script>
@@ -54,55 +66,166 @@ permalink: "/blog/index.html"
     </div>
 
     <div class="blog-categories-grid">
-      <div class="blog-cat-card is-active">
+      <a class="blog-cat-card is-active" href="#hukuk-felsefesi">
         <div>
           <div class="blog-cat-status">Yayında</div>
           <h2 class="blog-cat-title">Hukuk Felsefesi</h2>
           <p class="blog-cat-desc">Cezalandırma teorileri, mülkiyetin sınırları, ıslah vs. intikam ve hakkaniyet.</p>
         </div>
-      </div>
-      <div class="blog-cat-card is-muted">
-        <div>
-          <div class="blog-cat-status">Pek Yakında</div>
-          <h2 class="blog-cat-title">Adliye Günlüğü</h2>
-          <p class="blog-cat-desc">Duruşma salonlarından insan manzaraları, usul tuzakları ve dava avukatlığı tecrübeleri.</p>
-        </div>
-      </div>
-      <div class="blog-cat-card is-muted">
-        <div>
-          <div class="blog-cat-status">Pek Yakında</div>
-          <h2 class="blog-cat-title">Hukuk &amp; Antropoloji</h2>
-          <p class="blog-cat-desc">İntikam mekanizmalarından modern devlete, tabu ve toplum sözleşmesi tahlilleri.</p>
-        </div>
-      </div>
-      <div class="blog-cat-card is-muted is-daughter">
+        <span class="blog-cat-jump">Bölüme git ↓</span>
+      </a>
+      <a class="blog-cat-card is-muted is-daughter" href="#babaliga-dair">
         <div>
           <div class="blog-cat-status">Pek Yakında</div>
           <h2 class="blog-cat-title">Babalığa Dair <span class="daughter-text">(Kız Babalığı)</span></h2>
           <p class="blog-cat-desc">Sorumluluk etiği, evlat yetiştirme ve hayatın getirdiği yüzleşmeler üzerine denemeler.</p>
         </div>
-      </div>
+        <span class="blog-cat-jump">Bölüme git ↓</span>
+      </a>
+      <a class="blog-cat-card is-muted" href="#adliye-gunlugu">
+        <div>
+          <div class="blog-cat-status">Pek Yakında</div>
+          <h2 class="blog-cat-title">Adliye Günlüğü</h2>
+          <p class="blog-cat-desc">Duruşma salonlarından insan manzaraları, usul tuzakları ve dava avukatlığı tecrübeleri.</p>
+        </div>
+        <span class="blog-cat-jump">Bölüme git ↓</span>
+      </a>
+      <a class="blog-cat-card is-muted" href="#hukuk-antropoloji">
+        <div>
+          <div class="blog-cat-status">Pek Yakında</div>
+          <h2 class="blog-cat-title">Hukuk &amp; Antropoloji</h2>
+          <p class="blog-cat-desc">İntikam mekanizmalarından modern devlete, tabu ve toplum sözleşmesi tahlilleri.</p>
+        </div>
+        <span class="blog-cat-jump">Bölüme git ↓</span>
+      </a>
     </div>
   </div>
 </section>
 
-<section class="blog-posts-section">
+<div class="blog-shelves-container">
   <div class="wrap">
-    <div class="blog-posts-grid">
-      {% for post in collections.blog %}
-      <a class="blog-entry-card" href="{{ post.url }}">
-        <div class="blog-entry-kicker">
-          <span class="blog-entry-cat">{{ post.data.category or 'Hukuk Felsefesi' }}</span>
-          <span class="blog-entry-date">{{ post.data.date | dateTR }}</span>
-        </div>
-        <h2>{{ post.data.title }}</h2>
-        <p>{{ post.data.summary or post.data.description }}</p>
-        <div class="blog-entry-meta">
-          <span>{{ post.data.reading_time or (post.templateContent | readingTime) }} dk okuma</span>
-          <span class="arrow">Yazıyı oku →</span>
-        </div>
-      </a>
-      {% endfor %}
-    </div>
+    {# 1. RAF: HUKUK FELSEFESİ #}
+    <section class="blog-shelf" id="hukuk-felsefesi">
+      <div class="blog-shelf-header">
+        <div class="eyebrow">Kategori Rafı</div>
+        <h2>⚖️ Hukuk Felsefesi</h2>
+        <p>Cezalandırma teorileri, mülkiyetin sınırları, ıslah vs. intikam ve hakkaniyet üzerine felsefi tahliller.</p>
+      </div>
+      {% set felsefePosts = collections.blog | byCategory("Hukuk Felsefesi") %}
+      {% if felsefePosts.length %}
+      <div class="blog-posts-grid">
+        {% for post in felsefePosts %}
+        <a class="blog-entry-card" href="{{ post.url }}">
+          <div class="blog-entry-kicker">
+            <span class="blog-entry-cat">{{ post.data.category or 'Hukuk Felsefesi' }}</span>
+            <span class="blog-entry-date">{{ post.data.date | dateTR }}</span>
+          </div>
+          <h2>{{ post.data.title }}</h2>
+          <p>{{ post.data.summary or post.data.description }}</p>
+          <div class="blog-entry-meta">
+            <span>{{ post.data.reading_time or (post.templateContent | readingTime) }} dk okuma</span>
+            <span class="arrow">Yazıyı oku →</span>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </section>
+
+    {# 2. RAF: BABALIĞA DAİR (KIZ BABALIĞI) #}
+    <section class="blog-shelf" id="babaliga-dair">
+      <div class="blog-shelf-header">
+        <div class="eyebrow" style="color:#ff3399">Kategori Rafı</div>
+        <h2>👶 Babalığa Dair <span class="daughter-text">(Kız Babalığı)</span></h2>
+        <p>Sorumluluk etiği, evlat yetiştirme, stoacı yüzleşmeler ve bir babanın adalet sınavı üzerine denemeler.</p>
+      </div>
+      {% set babalikPosts = collections.blog | byCategory("Babalığa Dair") %}
+      {% if babalikPosts.length %}
+      <div class="blog-posts-grid">
+        {% for post in babalikPosts %}
+        <a class="blog-entry-card" href="{{ post.url }}">
+          <div class="blog-entry-kicker">
+            <span class="blog-entry-cat">{{ post.data.category }}</span>
+            <span class="blog-entry-date">{{ post.data.date | dateTR }}</span>
+          </div>
+          <h2>{{ post.data.title }}</h2>
+          <p>{{ post.data.summary or post.data.description }}</p>
+          <div class="blog-entry-meta">
+            <span>{{ post.data.reading_time or (post.templateContent | readingTime) }} dk okuma</span>
+            <span class="arrow">Yazıyı oku →</span>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+      {% else %}
+      <div class="blog-shelf-empty">
+        Bu kategorideki ilk deneme <em>(“Bok Yiyen Kaşığını Yanında Taşır: Sorumluluk Etiği ve Bir Babanın Yüzleşmesi”)</em> pek yakında yayında olacak.
+      </div>
+      {% endif %}
+    </section>
+
+    {# 3. RAF: ADLİYE GÜNLÜĞÜ #}
+    <section class="blog-shelf" id="adliye-gunlugu">
+      <div class="blog-shelf-header">
+        <div class="eyebrow">Kategori Rafı</div>
+        <h2>📓 Adliye Günlüğü</h2>
+        <p>Duruşma salonlarından insan manzaraları, usul tuzakları ve dava avukatlığı tecrübeleri.</p>
+      </div>
+      {% set adliyePosts = collections.blog | byCategory("Adliye Günlüğü") %}
+      {% if adliyePosts.length %}
+      <div class="blog-posts-grid">
+        {% for post in adliyePosts %}
+        <a class="blog-entry-card" href="{{ post.url }}">
+          <div class="blog-entry-kicker">
+            <span class="blog-entry-cat">{{ post.data.category }}</span>
+            <span class="blog-entry-date">{{ post.data.date | dateTR }}</span>
+          </div>
+          <h2>{{ post.data.title }}</h2>
+          <p>{{ post.data.summary or post.data.description }}</p>
+          <div class="blog-entry-meta">
+            <span>{{ post.data.reading_time or (post.templateContent | readingTime) }} dk okuma</span>
+            <span class="arrow">Yazıyı oku →</span>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+      {% else %}
+      <div class="blog-shelf-empty">
+        Bu kategorideki duruşma notları ve insan manzaraları çok yakında burada yer alacak.
+      </div>
+      {% endif %}
+    </section>
+
+    {# 4. RAF: HUKUK & ANTROPOLOJİ #}
+    <section class="blog-shelf" id="hukuk-antropoloji">
+      <div class="blog-shelf-header">
+        <div class="eyebrow">Kategori Rafı</div>
+        <h2>🦴 Hukuk &amp; Antropoloji</h2>
+        <p>İntikam mekanizmalarından modern devlete, tabu ve toplum sözleşmesi tahlilleri.</p>
+      </div>
+      {% set antropolojiPosts = collections.blog | byCategory("Hukuk & Antropoloji") %}
+      {% if antropolojiPosts.length %}
+      <div class="blog-posts-grid">
+        {% for post in antropolojiPosts %}
+        <a class="blog-entry-card" href="{{ post.url }}">
+          <div class="blog-entry-kicker">
+            <span class="blog-entry-cat">{{ post.data.category }}</span>
+            <span class="blog-entry-date">{{ post.data.date | dateTR }}</span>
+          </div>
+          <h2>{{ post.data.title }}</h2>
+          <p>{{ post.data.summary or post.data.description }}</p>
+          <div class="blog-entry-meta">
+            <span>{{ post.data.reading_time or (post.templateContent | readingTime) }} dk okuma</span>
+            <span class="arrow">Yazıyı oku →</span>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+      {% else %}
+      <div class="blog-shelf-empty">
+        Bu kategorideki ilk antropolojik inceleme yazısı çok yakında burada yer alacak.
+      </div>
+      {% endif %}
+    </section>
   </div>
-</section>
+</div>
