@@ -37,6 +37,41 @@
       "from": ["6306 sayılı kanun"],
       "to": ["kentsel dönüşüm", "riskli yapı"],
       "factor": 0.24
+    },
+    {
+      "from": ["müteahhit kaçtı", "inşaat yarım kaldı", "müteahhit bıraktı", "işi bıraktı"],
+      "to": ["yüklenici temerrüdü", "sözleşmenin feshi", "tasfiye", "nama ifa"],
+      "factor": 0.45
+    },
+    {
+      "from": ["arsa sahibi tapumu vermiyor", "tapu alamıyorum", "müteahhitten ev aldım"],
+      "to": ["alacağın temliki", "şahsi hak", "TMK 1023", "üçüncü kişinin iyiniyeti", "tapu iptali ve tescil"],
+      "factor": 0.45
+    },
+    {
+      "from": ["komşum arsama girdi", "arsama tecavüz var", "sınır ihlali"],
+      "to": ["müdahalenin men'i", "el atmanın önlenmesi", "ecrimisil", "taşkın yapı"],
+      "factor": 0.45
+    },
+    {
+      "from": ["kentsel dönüşümde çoğunluk", "binayı yıkmak istiyorlar", "2/3 çoğunluk", "çoğunluk sağlandı"],
+      "to": ["6306 sayılı kanun", "riskli yapı", "hisse satışı", "salt çoğunluk"],
+      "factor": 0.45
+    },
+    {
+      "from": ["belediye arsamı kesti", "belediye yol yaptı", "arsam küçüldü"],
+      "to": ["düzenleme ortaklık payı", "DOP", "3194 sayılı Kanun madde 18", "kamulaştırmasız el atma"],
+      "factor": 0.45
+    },
+    {
+      "from": ["evimde rutubet var", "bina çatlak", "eksik malzeme", "müteahhit yapmıyor"],
+      "to": ["ayıplı ifa", "gizli ayıp", "açık ayıp", "ayıp ihbarı", "eksik iş"],
+      "factor": 0.45
+    },
+    {
+      "from": ["arsa payım az", "müteahhit arsa payını yanlış vermiş", "arsa payı yanlış"],
+      "to": ["arsa payının düzeltilmesi davası", "KMK madde 3", "kat mülkiyeti"],
+      "factor": 0.45
     }
   ],
   "abbreviations": [

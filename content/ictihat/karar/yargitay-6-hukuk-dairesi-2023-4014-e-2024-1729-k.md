@@ -1,0 +1,160 @@
+---
+layout: base.njk
+title: "Yargıtay 6. Hukuk Dairesi E. 2023/4014 K. 2024/1729 | Arsa Payı Karşılığı İnşaat Sözleşmesinin Feshi ve Tasfiyesi"
+description: "Dava, kat karşılığı inşaat sözleşmesinin feshi ve tapu iptal tescil istemidir. Yargıtay, yüklenicinin hak ediş seviyesi ve üçüncü şahıslara devredilen paylar araştırılmadığından kararı BOZMUŞTUR."
+permalink: "/ictihat/karar/yargitay-6-hukuk-dairesi-2023-4014-e-2024-1729-k/"
+robots: "noindex,follow"
+excludeFromSitemap: true
+type: "karar-corpus"
+category: "Arsa Payı Karşılığı İnşaat"
+primary_category: "ARSA_PAYI_KARSILIGI_INSAAT"
+daire: "6. Hukuk Dairesi"
+esas_no: "2023/4014"
+karar_no: "2024/1729"
+karar_tarihi: "23.05.2024"
+year: 2024
+summary: "Dava, kat karşılığı inşaat sözleşmesinin feshi ve tapu iptal tescil istemidir. Yargıtay, yüklenicinin hak ediş seviyesi ve üçüncü şahıslara devredilen paylar araştırılmadığından kararı BOZMUŞTUR."
+score: 405.0
+legal_terms: ["sözleşme iptali", "KAT_MULKIYETI", "TESCIL", "FESIH", "fiziki oran", "arsa_payi_karsiligi_insaat", "müteahhit kaçtı", "KENTSEL_DONUSUM_6306", "müteahhit inşaatı yarım bıraktı sözleşmeyi geriye etkili feshedebilir miyim", "TAPU_IPTAL_TESCIL", "inşaat yarım kaldı", "nama ifa", "6. hukuk dairesi", "ARSA_PAYI_KARSILIGI_INSAAT", "yüklenici temerrüdü", "i̇nşaat durdu arsa sahibi olarak daire tapularını nasıl geri alırım", "karar 2024/1729", "IYINIYET", "i̇nşaat gecikmesinde nama ifa ve cezai şart nasıl talep edilir", "esas 2023/4014"]
+topics: ["ARSA_PAYI_KARSILIGI_INSAAT", "KENTSEL_DONUSUM_6306", "TAPU_IPTAL_TESCIL", "FESIH", "KAT_MULKIYETI", "IYINIYET", "TESCIL"]
+halk_sorulari: ["Müteahhit inşaatı yarım bıraktı, sözleşmeyi geriye etkili feshedebilir miyim?", "İnşaat durdu arsa sahibi olarak daire tapularını nasıl geri alırım?", "İnşaat gecikmesinde nama ifa ve cezai şart nasıl talep edilir?"]
+gundelik_terimler: ["müteahhit kaçtı", "inşaat yarım kaldı", "sözleşme iptali", "yüklenici temerrüdü", "nama ifa", "fiziki oran"]
+---
+<section class="section soft precedent-detail">
+  <div class="wrap">
+    <nav class="breadcrumb" aria-label="Gezinme">
+      <a href="/">Ana Sayfa</a> &rsaquo;
+      <a href="/ictihat/">İçtihat</a> &rsaquo;
+      <span>6. Hukuk Dairesi E. 2023/4014</span>
+    </nav>
+
+    <div class="precedent-top">
+      <aside class="precedent-kunye">
+        <div class="eyebrow">İçtihat Korpusu · Arsa Payı Karşılığı İnşaat</div>
+        <h1>6. Hukuk Dairesi</h1>
+        <p>
+          <strong>Esas No:</strong> 2023/4014<br>
+          <strong>Karar No:</strong> 2024/1729<br>
+          <strong>Karar Tarihi:</strong> 23.05.2024<br>
+          <strong>İçtihat Türü:</strong> Yargıtay İlamı
+        </p>
+      </aside>
+      <aside class="precedent-summary">
+        <div class="eyebrow">Hukuki Öz ve Uyuşmazlık Konusu</div>
+        
+        
+        <p>Dava, kat karşılığı inşaat sözleşmesinin feshi ve tapu iptal tescil istemidir. Yargıtay, yüklenicinin hak ediş seviyesi ve üçüncü şahıslara devredilen paylar araştırılmadığından kararı BOZMUŞTUR.</p>
+        <div class="precedent-tags" style="margin-top: 14px;">
+          <span class="precedent-tag">müteahhit kaçtı</span><span class="precedent-tag">inşaat yarım kaldı</span><span class="precedent-tag">sözleşme iptali</span><span class="precedent-tag">yüklenici temerrüdü</span><span class="precedent-tag">nama ifa</span><span class="precedent-tag">fiziki oran</span>
+        </div>
+      </aside>
+    </div>
+
+    <!-- AI ve Arama İndeksleme Bilgilendirme Kutusu (Ayrık Tasarım) -->
+    <div style="background: #fdfbf7; border-left: 4px solid #b89c65; padding: 18px 22px; margin: 28px 0; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.04);">
+      <h3 style="margin: 0 0 8px; font-size: 15px; color: #2c2925;">Bilgilendirme ve Arama Kılavuzu</h3>
+      <p style="margin: 0 0 10px; font-size: 13px; line-height: 1.55; color: #5a554e;">
+        Bu sayfadaki özet, halk soruları ve kavramsal etiketler site içi arama motorunun erişilebilirliğini artırmak amacıyla yapay zekâ destekli olarak sınıflandırılmıştır. Hukuki uyuşmazlıklarda ve resmî işlemlerde yalnızca aşağıda tam metni sunulan resmî ilam bağlayıcıdır.
+      </p>
+      <ul style="margin: 0; padding-left: 18px; font-size: 13px; line-height: 1.5; color: #3c3833;">
+        <li><strong>Soru:</strong> Müteahhit inşaatı yarım bıraktı, sözleşmeyi geriye etkili feshedebilir miyim?</li><li><strong>Soru:</strong> İnşaat durdu arsa sahibi olarak daire tapularını nasıl geri alırım?</li><li><strong>Soru:</strong> İnşaat gecikmesinde nama ifa ve cezai şart nasıl talep edilir?</li>
+      </ul>
+    </div>
+
+    <!-- Resmî Yargıtay İlamı Metni -->
+    <article class="decision-text precedent-official-text" aria-label="Yargıtay İlamı Resmî Metni">
+      <h2>Yargıtay İlamı Resmî Metni</h2>
+      <div style="white-space: pre-wrap; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14.5px; line-height: 1.7; color: #1c1b18; background: #fff; padding: 24px; border: 1px solid #e8e5e0; border-radius: 6px;">6. Hukuk Dairesi 2023/4014 E. , 2024/1729 K.
+
+"İçtihat Metni"
+
+MAHKEMESİ :Ticaret Mahkemesi
+SAYISI : 2014/1726 E., 2022/267 K.
+HÜKÜM : Asıl ve Birleşen Davanın Reddi
+
+Taraflar arasındaki asıl davada tapu iptali ve tescil, birleşen davada sözleşmenin feshi, tapu iptali ve tescil davalarından dolayı yapılan yargılama sonunda İlk Derece Mahkemesince asıl ve birleşen davaların reddine karar verilmiştir.
+
+Kararı asıl ve birleşen davada davacı ... vekili tarafından temyiz edilmekle; kesinlik, süre, temyiz şartı ve diğer usul eksiklikleri yönünden yapılan ön inceleme sonucunda, temyiz dilekçesinin kabulüne karar verildikten ve Tetkik Hâkimi tarafından hazırlanan rapor dinlendikten sonra dosyadaki belgeler incelenip gereği düşünüldü:
+
+I. DAVA
+Asıl davada davacı vekili dava dilekçesinde özetle; Davalı ile yapılan 24/03/1994 tarihli Gayrimenkul Satış Vaadi ve Kat Karşılığı İnşaat sözleşmesi ile davacıya ait tapuda .../... Mahalle 180 pafta 2357 ada, 118 ile 151 parsellerinde kayıtlı arsalar üzerine inşaat yapması taahhüt edildiğini, davalının belirtilen arsalar üzerine imar ve projesine aykırı inşaat yaptığını katlarda 77.56 m²'lik fazlalık olduğunu ve fazlalık sebebiyle yapı kullanım izin belgesinin alınamayacağını, davalının üzerine düşen edimini gereği gibi ifa etmediğini, aykırılığın tadilat projesiyle dahi giderilemeyeceği anlaşıldığından 24/03/1994 tarihli sözleşmenin Geriye Etkili olarak feshine ve tapuda 118 ile 151 parsellerinde kayıtlı olanların iptaline ve davacı adına tesciline karar verilmesini talep etmiştir. 
+
+Birleşen davada davacı vekili dava dilekçesinde özetle; ilk davadaki iddialarını tekrarlayarak davalı kooperatif üyeleri olan davalılar adına kayıtlı olan tapu kayıtlarının iptalini ve davacı adına tescilini istemiştir. 
+
+II. CEVAP
+Asıl davada davalı vekili cevap dilekçesinde özetle; Dava hakkının zamanaşımına uğradığını, dairelerin tapularının 1998 yılında tescil edildiğini davacının 7 yıl sonra dava açtığını, iyi niyetli olmadığını, sözleşmeye konu inşaatlarında 1998 yılında bitirilip teslim edildiğini, geriye dönük fesih yapılamayacağını sözleşmenin 8. m. göre davacının sözlemenin fesih etme hakkından ve dava açma hakkından feragat ettiğinden dava açamayacağını eksik imalat olmadığını, inşaatın her aşamasında kontrol edip bilerek teslim alan davacının teslimden 8 yıl sonra dava açması dayanaktan yoksun olduğunu belirterek, davanın reddini talep etmiştir. 
+
+Birleşen davada, bir kısım davalılar vekili Av. ... cevap dilekçesinde özetle; Davacı taleplerinin zaman aşımına uğradığını, davacının ihtirazı kayıt ileri sürmeden 68 adet dairenin tapusunu ve daireleri aldığını, 60 adedini de üçüncü kişilere satıp tapularını verdiğini, verdiği tapuların iptalini istemeyip sadece kooperatif üyelerinin tapusunun iptalini istemesi MK'nın 2. maddesi uyarınca iyi niyet kaidelerine aykırı olduğunu, tapuları ve daireleri 1998 yılında alıp kendisine düşen dairelerinden 60 adedini satıp menfaat temin eden davacının kötüniyetli olarak 8 yıl sonra üyelere karşı dava açtığını, kötü niyetin korunamayacağını, inşaatı her aşamada kontrol eden davacının inşaatın büyük yapılması da lehine olup 68 dairesi için sebepsiz zenginleştiğini belirterek, davanın reddini talep etmiştir. 
+
+Birleşen davada, bir kısım davalılar vekili Av. ... cevap dilekçesinde özetle; müvekkillerinin iyiniyetle malikten halefiyet yoluyla kazandıklarını, MK'nın 1023. maddesinden yararlanan müvekkillerine geçmişe etkili dönme hakkını kullanamayacağını, eser sözleşmesinden doğan asli borcun müvekkillerinin def'i olan kooperatif tarafından ifa edildiğini, davacının inşaatı kabul edip kendisine düşen 68 adet daireden 60 adedini satıp 8 adedini aile fertleri uhdesinde muhafaza ettiğini, kooperatifin kasten sakladığı ayıplar olmadığını, ihtarazi kayıt dermeyan etmeyerek kendisine düşen daireleri alan davacının BK 'ıun 362k. maddesine göre dönme hakkının olmadığını, davacının zamanında ihbar yapmadan dairelerini alıp çoğunu sattıktan sonra kendi haleflerine dava açmadan müvekkillerine dava açması MK'nın 2/2 göre hakkın kötüye kullanılmasını teşkil edeceğini, dürüstlük ilkelerine aykırı olan taleplerinin reddine karar verilmesini talep etmiştir. 
+
+III. MAHKEME KARARI
+Mahkemece 25.11.2008 tarih, 2006/144 E. ve 2008/783 K. sayılı kararı ile ile; inşaatın ruhsata aykırı olduğu ancak inşaatın bitmiş durumda olup davacı arsa sahibi tarafından da teslim alınıp kullanılmaya başlandığı, davacının fesih istemekte iyi niyetli olmadığı gerekçesi ile asıl ve birleşen davanın reddine karar verilmiştir.
+
+A. Bozma Kararı
+1. İlk Derece Mahkemesinin yukarıda belirtilen kararına karşı süresi içinde davacı vekili temyiz isteminde bulunmuştur.
+2. Dairemizin (kapatılan 15. Hukuk Dairesi) 24.06.2010 tarih, 2009/2320 E. ve 2010/3647 K. sayılı ilamı ile, “İnşaatın projesine göre büyük yapıldığı bu haliyle iskan izni alınamadığının ihtilâfsız olduğu, ancak ... Belediye Başkanlığı'nın 17.04.2007 tarihli yazı cevabında mimari projelerin revizyonu onaylandıktan ve ilgili müdürlüklerin ilişik kesme yazılarının iletilmesinden sonra yapı kullanma izin belgesinin (iskân) düzenlenebileceğinin belirtildiği, bu durumda mahkemece davalıya iskân ruhsatı alınması için gerekli süre ve yetki verilmesi, bu süre içinde inşaat yasal hale getirilip yapı kullanma izin belgesi alındığı takdirde şimdiki gibi davanın reddine, aksi halde davanın kabulüne karar verilmesi ve her halükârda davacı arsa sahibinin yargılama giderleri ve vekâlet ücretinden sorumlu tutulmaması gerektiği gerekçesiyle kararın bozulmasına karar verilmiştir.
+
+B. İlk Derece Mahkemesince Bozmaya Uyularak Verilen Karar
+Mahkemenin yukarıda tarih ve sayısı belirtilen kararı ile, bozma ilamı uyarınca davalı asıl dosyadaki davalı yüklenici kooperatif tarafından kendisine verilen süreler içerisinde yapılan başvurular sonucu dosya içerisine Çevre ve Şehircilik İl Müdürlüğü tarafından yapı kayıt belgelerinin verildiği, ... Belediye Başkanlığı tarafından da gelen müzekkere cevapları ile bu durumun teyit edildiği, her ne kadar asıl dosyadaki davalı müteahhit tarafından ilk aşamada projeye aykırı ve iskansız yapı mevcut ise de yargılama aşamasında aykırılıkların giderildiği ve usulüne uygun olarak Yapı Kayıt Belgelerinin (iskânın) verildiği anlaşılmakla, artık taşınmazların iskanlı hale geldiği ve asıl sözleşme uyarınca projeye aykırılıkların giderildiği gerekçesiyle asıl ve birleşen davanın reddine karar verilmiştir.
+
+VI. TEMYİZ
+A. Temyiz Yoluna Başvuranlar
+İlk Derece Mahkemesinin yukarıda belirtilen kararına karşı süresi içinde asıl ve birleşen davada davacı vekili temyiz isteminde bulunmuştur.
+
+B. Temyiz Sebepleri
+Davacı temyiz dilekçesinde özetle; bilirkişi raporunun hatalı olduğunu, yapı kayıt belgesinin, iskan belgesi yerine geçmediğini ileri sürerek kararı temyiz etmiştir.
+
+C. Gerekçe
+1. Uyuşmazlık ve Hukuki Nitelendirme
+Dosya içeriğine, bozmanın mahiyeti ve kapsamına göre asıl ve birleşen davalarda taraflar arasındaki uyuşmazlık, taraflar arasında düzenlenen kat karşılığı inşaat sözleşmesinden kaynaklanan sözleşmenin feshi, tapu iptâl ve tescil talebine ilişkindir.
+
+2. İlgili Hukuk
+6098 sayılı TBK 470-486. maddeleri.
+
+3. Değerlendirme
+1. Yapı kayıt belgesi imara aykırı yapının kullanılmasına ilişkin olup, yapıyı imara uygun hale getirmemektedir. İmar Kanununun geçici 16. maddenin 10.bendinde belirtildiği üzere, yapı kayıt belgesi, yapının yeniden yapılmasına veya kentsel dönüşümüne kadar geçerlidir. Düzenlemenin amacı da, yapının yeniden yapılmasına kadar kullanımına idare tarafından imkân sağlanmasından ibarettir. Aksi takdirde, imara aykırı bir yapı yapmış olan yüklenici, yapı kayıt belgesi alındığını ileri sürerek, ediminin ifasını yapının tekrar yapılmasına kadar ertelemiş olur ki, bu durum başlı başına edimin ifa edilmediğini gösterir. Edimin ifasının, yapının tekrar yapılmasına kadar beklenmesini talep etmek de kabul edilemez bir durum olup, hakkın kötüye kullanılması niteliğindedir. Netice itibariyle, İmar Kanununa eklenen geçici 16. madde ile getirilen düzenlemenin, kat karşılığı inşaat yapım sözleşmelerinde kararlaştırılan edimlerin ifasına bir etkisinin bulunmadığı sonucuna varmak mümkündür. Tabi ki sözleşme hürriyeti gereğince, tarafların yapı kayıt belgesi alınması sonrasında kavuştukları yeni durum karşısında, karşılıklı olarak edimlerinin ifa durumunu değerlendirmeleri ve mevcut duruma göre yeni bir tavır takınmaları da imkan dahilindedir. 
+
+Mahkemece, bozma ilamına uyulan 20.02.2012 tarihli celseden sonra yükleniciye genel iskanın alınması için yetki ve süre verilmesine rağmen, ... Belediyesi’nin 19.04.2021 yazısı ile iskan başvurusunda bulunulmadığı belirtilmiştir.
+
+Yukarıdaki açıklamalar ışığında, mahkemece yapı kayıt belgesinin iskan izni yerine geçemeyeceği, bozma ilamı ile karar tarihi arasında geçen 9 yıllık sürede yüklenicinin binanın tamamına genel iskan belgesini almadığı anlaşıldığından asıl ve birleşen davaların kabulü yerine reddi yerinde olmamış, kararın bu nedenle bozulması gerekmiştir.
+
+VI. KARAR
+Açıklanan sebeple;
+Temyiz olunan Mahkeme kararının davacı yararına BOZULMASINA,
+
+Peşin alınan temyiz harcın istek hâlinde ilgilisine iadesine,
+
+Kararın tebliğinden itibaren 15 gün içerisinde karar düzeltme yolu açık olmak üzere,
+
+23.05.2024 tarihinde oy çokluğuyla karar verildi.
+
+MUHALEFET ŞERHİ
+
+Öncelikle, Yapı kayıt belgesinin hukuki mahiyeti üzerinde durmak gerekir. 3194 sayılı Kanun'a 11.05.2018 tarihinde eklenen geçici 16. maddeye göre; 
+1-Yapı kayıt belgesi alan yapılar, tıpkı ruhsatlı ve iskânlı yapılar gibi yasal hale gelmekte ve bu belge verildikten sonra, 3194 sayılı İmar Kanunu uyarınca verilen yıkım ve para cezası kararının infazı ortadan kalkmaktadır. (3194 s.K. geçici m.16/4) Öte yandan yapı kayıt belgesi alınan bir yapı sahibi hakkında imar kirliliğine neden olma suçundan dava açılamamakta, ceza soruşturması varsa takipsizlik kararı verilmekte, açılmış olan kamu davası varsa düşmekte, mahkûm olunan ceza bütün sonuçlarıyla ortadan kalkmaktadır. (11. CD. 23.12.2019.T.2018/5966; 9877)
+
+2-3194 sayılı İmar Kanunu’nun 30. maddesinde; yapının kullanılması yapı kullanma izin belgesi alınmasına bağlıdır. Aynı Kanun'un 31. maddesinde ise; kullanma izni verilmeyen veya alınamayan yapılara elektrik, su ve kanalizasyon hizmetlerinin verilmeyeceği hükme bağlanmıştır. 3194 sayılı Kanunun geçici 16/3. fıkrasında ise, yapı kullanma izin belgesi alınan yapıya kullanma yetkisi verildiği gibi bu yapılara elektrik, su ve doğalgaz bağlanacağı belirtilmiştir. 
+
+3-İşyeri açma ve çalışma ruhsatı verilebilmesi için yapı kullanma izin belgesinin ilgili idareye sunulması gerekmektedir. Çevre ve Şehircilik Bakanlığın'ca hazırlanan Yapı Kayıt Belgesi Verilmesine İlişkin Usul ve Esasalar Tebliği’nin 6. maddesinin 8. fıkrasına göre; yapı kayıt belgesi verilen yapılarda, yapı kullanma izin belgesi aranmaksızın işyeri açma ve çalışma ruhsatı verileceği düzenlenmiştir.
+
+4-İmar Kanunu’nun geçici 21. maddesine göre; yapı kayıt belgesi alınan yapılarda, ilave inşaat alanı ihdas edilmemek şartıyla, 634 sayılı Kat Mülkiyeti Kanunu'na göre güçlendirme kararı alınarak güçlendirme yapılabilecektir. 
+
+5-Yapı kayıt belgesi alan gecekondu sahipleri, Hazine ve belediye arazilerini doğrudan satın alma imkanına kavuşmuştur. O kadar ki yapı kayıt belgesi sahibinin istemesi halinde; “bağlı yetki” nedeniyle idare taşınmazı satmaktan imtina edemeyecektir. (3194 s.K. geçici m.16/6).
+
+6-Yapı ruhsatı alıp da yapı kullanma izin belgesi almamış veya yapı ruhsatı bulunmayan yapılarda, Yapı Kayıt Belgesi ile maliklerin tamamının muvafakatinin bulunması ve imar planlarında umumi hizmet alanlarına denk gelen alanların terk edilmesi halinde yapı kullanma izin belgesi aranmaksızın cins değişikliği ve kat mülkiyeti tesis edilebilecektir (3194 s.K. geçici m.16/5). Görüldüğü gibi, Kanun aslında yapı kayıt belgesini, kat mülkiyeti kurulabilmesi için gerekli olan “Yapı Kullanma İzin Belgesi” yerine kabul etmekte aynı fonksiyonu yüklemektedir. Bir başka deyişle yapı kayıt belgesi sahibi bu belgeye istinaden imara aykırı olan yapıyı-hiçbir aykırılık yokmuş gibi- hatta, imara uygun yapı yapan bir kişiden daha az harç ve vergi ödemek suretiyle kat mülkiyetine dönüştürebilmekte her bağımsız bölümü kat mülkiyeti kütüğüne kaydedebilmekte ve bu mülkiyet üzerinde bir malikin kullanabileceği tüm hakları kullanabilmektedir.
+
+7- Geçici Madde 16/10 da; yapı kayıt belgesinin, yapının yeniden yapılmasına veya kentsel dönüşüm uygulamasına kadar geçerli olacağı, bu belge ile ilgili yapıların yenilenmesi durumunda yürürlükte olan imar mevzuatı hükümlerinin uygulanacağı ve yapının depreme dayanıklılığı hususu malikin sorumluluğunda olduğu belirtilmişse de, bu ifadeler bir “kısıtlama” gibi sunulmuş ise de, aslında anılan hususlar, normal imara uygun yapılar içinde geçerli olduğundan yapı kayıt belgesinin ilgili yapıyı imar mevzuatına uygun hale getirmesi özelliğine etki etmeyecektir. 
+TMK nın 683. maddesi, mülkiyet hakkının içeriğini; malikin, hukuk düzeninin sınırları içinde, o şeyi dilediği gibi kullanma, yararlanma ve tasarrufta bulunma yetkisine sahip olmak, şeklinde belirlemiştir. 
+
+Yukarıda yapı kayıt belgesinin, sahibine tanınan haklardan bir kısmını izah ettik. Bu açıklamalardan anlaşılacağı gibi yapı kayıt belgesi sahibi; yapıyı kullanma, yararlanma ve tasarrufta bulunma hakkına sahip olduğuna göre, yapı kayıt belgesi alınan bir yapı, kural olarak İmar Kanunu’na uygun bir yapı olarak kabul edilmelidir. Aslında Kanun koyucu bazı çekincelerle açıkça adını koymamış olsa bile, yapı sahiplerine sunulan imkânlar dikkate alındığında, 3194 sayılı Kanunun Geçici 16.maddesi, “bedel karşılığı imar affı” niteliğinde bir düzenlemedir. Ancak, bir yapının yapı kullanma iznine sahip olması ile yapı kayıt belgesine sahip olması arasında piyasada bir değer düşüklüğü varsa bu değerden ve sözleşmeye göre eksik ve ayıplı işlerden yüklenici sorumlu tutulmalıdır.
+
+Somut uyuşmazlıkta bozma sonrası İlk Derece Mahkemesi kararında belirtildiği üzere davalı yüklenici tarafından yapılan başvuru üzerine Çevre ve Şehircilik İl Müdürlüğü tarafından yapı kayıt belgelerinin verildiği bu durumun ... Belediye Başkanlığı yazısından da teyit edildiği, dairemizin sayın çoğunluğu tarafından yapı kayıt belgesinin iskan yerine geçemeyeceği gerekçesiyle kararın bozulması gerektiği görüşü benimsenmiş ise de yukarıda anlatılan yasa maddelere göz önünde bulundurulduğunda yapı kayıt belgeleri iptal edilmediği sürece hukuken geçerli belgeler olup yapının yıkılmasını önleyerek iskanlı yapı gibi kullanımına olanak tanıdığından niteliği ve fonksiyonu itibariyle iskan belgesi yerine geçmektedir. Bu nedenlerle sayın çoğunluğun aksi yönündeki görüşüne katılmıyoruz. İlk Derece Mahkemesinin davanın reddine ilişkin kararının onanması gerektiği görüşündeyiz.</div>
+    </article>
+
+    <div style="margin-top: 36px; padding-top: 20px; border-top: 1px solid #e0ded9; display: flex; justify-content: space-between; align-items: center;">
+      <a href="/arama/" class="btn" style="font-size: 13px;">&larr; Site İçi Aramaya Dön</a>
+      <a href="https://karararama.yargitay.gov.tr/" target="_blank" rel="noopener" style="font-size: 13px; color: #777;">Yargıtay Resmî Karar Arama &rarr;</a>
+    </div>
+  </div>
+</section>

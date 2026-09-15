@@ -1,0 +1,135 @@
+---
+layout: base.njk
+title: "Yargıtay Hukuk Genel Kurulu E. 2023/648 K. 2025/512 | Arsa Payının Düzeltilmesinde Tüm Maliklerin Zorunlu Dava Arkadaşlığı"
+description: "Dava, arsa payının düzeltilmesi istemidir. Yargıtay Hukuk Genel Kurulu; anataşınmazdaki tüm kat maliklerinin davada taraf olmasının zorunlu olduğunu, davanın konusuz kaldığı gerekçesiyle verilen BAM direnme kararının BOZULMASINA karar vermiştir."
+permalink: "/ictihat/karar/yargitay-hukuk-genel-kurulu-2023-648-e-2025-512-k/"
+robots: "noindex,follow"
+excludeFromSitemap: true
+type: "karar-corpus"
+category: "Arsa Payının Düzeltilmesi"
+primary_category: "ARSA_PAYI_DUZELTIMI"
+daire: "Hukuk Genel Kurulu"
+esas_no: "2023/648"
+karar_no: "2025/512"
+karar_tarihi: "10.09.2025"
+year: 2025
+summary: "Dava, arsa payının düzeltilmesi istemidir. Yargıtay Hukuk Genel Kurulu; anataşınmazdaki tüm kat maliklerinin davada taraf olmasının zorunlu olduğunu, davanın konusuz kaldığı gerekçesiyle verilen BAM direnme kararının BOZULMASINA karar vermiştir."
+score: 387.5
+legal_terms: ["kentsel dönüşümde değer kaybı", "arsa payı yanlış hesaplanmış", "dairemin arsa payı metrekaresine göre az verilmiş arsa payı düzeltme davası açabilir miyim", "KAT_MULKIYETI", "arsa payı düzeltme", "arsa payı düzeltme davasında mahkeme hangi tarihli değerleri esas alır", "TESCIL", "esas 2023/648", "KENTSEL_DONUSUM_6306", "ARSA_PAYI_DUZELTIMI", "TAPU_IPTAL_TESCIL", "hukuk genel kurulu", "kentsel dönüşüm öncesi veya bina yıkıldıktan sonra arsa payı düzeltilebilir mi", "kat mülkiyeti", "KAMULASTIRMA", "KMK madde 3", "KAT_IRTIFAKI", "arsa_payi_duzeltimi", "IYINIYET", "TAHLIYE", "karar 2025/512", "arsa payım az", "HUKUKI_YARAR"]
+topics: ["ARSA_PAYI_DUZELTIMI", "KENTSEL_DONUSUM_6306", "TAPU_IPTAL_TESCIL", "HUKUKI_YARAR", "KAT_IRTIFAKI", "KAT_MULKIYETI", "TAHLIYE", "KAMULASTIRMA", "IYINIYET", "TESCIL"]
+halk_sorulari: ["Dairemin arsa payı metrekaresine göre az verilmiş, arsa payı düzeltme davası açabilir miyim?", "Kentsel dönüşüm öncesi veya bina yıkıldıktan sonra arsa payı düzeltilebilir mi?", "Arsa payı düzeltme davasında mahkeme hangi tarihli değerleri esas alır?"]
+gundelik_terimler: ["arsa payım az", "arsa payı yanlış hesaplanmış", "arsa payı düzeltme", "kat mülkiyeti", "kentsel dönüşümde değer kaybı", "KMK madde 3"]
+---
+<section class="section soft precedent-detail">
+  <div class="wrap">
+    <nav class="breadcrumb" aria-label="Gezinme">
+      <a href="/">Ana Sayfa</a> &rsaquo;
+      <a href="/ictihat/">İçtihat</a> &rsaquo;
+      <span>Hukuk Genel Kurulu E. 2023/648</span>
+    </nav>
+
+    <div class="precedent-top">
+      <aside class="precedent-kunye">
+        <div class="eyebrow">İçtihat Korpusu · Arsa Payının Düzeltilmesi</div>
+        <h1>Hukuk Genel Kurulu</h1>
+        <p>
+          <strong>Esas No:</strong> 2023/648<br>
+          <strong>Karar No:</strong> 2025/512<br>
+          <strong>Karar Tarihi:</strong> 10.09.2025<br>
+          <strong>İçtihat Türü:</strong> Yargıtay İlamı
+        </p>
+      </aside>
+      <aside class="precedent-summary">
+        <div class="eyebrow">Hukuki Öz ve Uyuşmazlık Konusu</div>
+        <p>Dava, arsa payının düzeltilmesi istemidir. Yargıtay Hukuk Genel Kurulu; anataşınmazdaki tüm kat maliklerinin davada taraf olmasının zorunlu olduğunu, davanın konusuz kaldığı gerekçesiyle verilen BAM direnme kararının BOZULMASINA karar vermiştir.</p>
+        <div class="precedent-tags" style="margin-top: 14px;">
+          <span class="precedent-tag">arsa payım az</span><span class="precedent-tag">arsa payı yanlış hesaplanmış</span><span class="precedent-tag">arsa payı düzeltme</span><span class="precedent-tag">kat mülkiyeti</span><span class="precedent-tag">kentsel dönüşümde değer kaybı</span><span class="precedent-tag">KMK madde 3</span>
+        </div>
+      </aside>
+    </div>
+
+    <!-- AI ve Arama İndeksleme Bilgilendirme Kutusu (Ayrık Tasarım) -->
+    <div style="background: #fdfbf7; border-left: 4px solid #b89c65; padding: 18px 22px; margin: 28px 0; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.04);">
+      <h3 style="margin: 0 0 8px; font-size: 15px; color: #2c2925;">Bilgilendirme ve Arama Kılavuzu</h3>
+      <p style="margin: 0 0 10px; font-size: 13px; line-height: 1.55; color: #5a554e;">
+        Bu sayfadaki özet, halk soruları ve kavramsal etiketler site içi arama motorunun erişilebilirliğini artırmak amacıyla yapay zekâ destekli olarak sınıflandırılmıştır. Hukuki uyuşmazlıklarda ve resmî işlemlerde yalnızca aşağıda tam metni sunulan resmî ilam bağlayıcıdır.
+      </p>
+      <ul style="margin: 0; padding-left: 18px; font-size: 13px; line-height: 1.5; color: #3c3833;">
+        <li><strong>Soru:</strong> Dairemin arsa payı metrekaresine göre az verilmiş, arsa payı düzeltme davası açabilir miyim?</li><li><strong>Soru:</strong> Kentsel dönüşüm öncesi veya bina yıkıldıktan sonra arsa payı düzeltilebilir mi?</li><li><strong>Soru:</strong> Arsa payı düzeltme davasında mahkeme hangi tarihli değerleri esas alır?</li>
+      </ul>
+    </div>
+
+    <!-- Resmî Yargıtay İlamı Metni -->
+    <article class="decision-text precedent-official-text" aria-label="Yargıtay İlamı Resmî Metni">
+      <h2>Yargıtay İlamı Resmî Metni</h2>
+      <div style="white-space: pre-wrap; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14.5px; line-height: 1.7; color: #1c1b18; background: #fff; padding: 24px; border: 1px solid #e8e5e0; border-radius: 6px;">Hukuk Genel Kurulu 2023/648 E. , 2025/512 K.
+
+"İçtihat Metni"MAHKEMESİ : İzmir Bölge Adliye Mahkemesi 6. Hukuk Dairesi
+SAYISI : 2022/3641 E., 2022/3736 K.
+ÖZEL DAİRE KARARI : Yargıtay 5. Hukuk Dairesinin 17.01.2022 tarihli ve 
+2021/13839 Esas, 2022/141 Karar sayılı BOZMA kararı 
+
+Taraflar arasındaki arsa payının düzeltilmesi davasından dolayı yapılan yargılama sonunda İlk Derece Mahkemesince davanın kabulüne karar verilmiştir.
+Kararın bir kısım davalılar ... ve ... vekili tarafından istinaf edilmesi üzerine, Bölge Adliye Mahkemesince ilk derece mahkemesi kararının kaldırılmasına, davanın konusuz kalması nedeniyle esas hakkında karar verilmesine yer olmadığına karar verilmiştir. 
+Bölge Adliye Mahkemesi kararı davacılar vekili, davalılar ... ve ... vekili ve davalı ... vekili tarafından temyiz edilmesi üzerine Yargıtay 5. Hukuk Dairesince yapılan inceleme sonunda bozulmuş, Bölge Adliye Mahkemesi tarafından Özel Daire bozma kararına karşı direnilmiştir.
+Direnme kararı davacılar vekili, davalı ... vekili ve katılma yolu ile bir kısım davalılar ... ve ... vekili tarafından temyiz edilmekle; kesinlik, süre, temyiz şartı ve diğer usul eksiklikleri yönünden yapılan ön inceleme sonucunda, temyiz dilekçesinin kabulüne karar verildikten sonra Tetkik Hâkimi tarafından hazırlanan gündem ve dosyadaki belgeler incelenip gereği düşünüldü:
+I. DAVA 
+Davacılar vekili dava dilekçesinde; müvekkillerinin İzmir ili Konak ilçesi ... Mahallesi 66 06... parsel sayılı taşınmazın 4 numaralı bağımsız bölümünün, davalıların ise 1, 2, 3, 5 No.lu bağımsız bölümlerin maliki olduklarını, müvekkillerine ait bağımsız bölümün, 1 ve 5 No.lu bağımsız bölümlerden m2 olarak daha büyük olduğunu, müvekkillerine ait bağımsız bölümün konumu itibariyle diğer bağımsız bölümlerden farklılık arzettiğini, buna karşın müvekkillerine ait bağımsız bölüm için düşük arsa payı tahsis edilmiş iken davalılara ait bağımsız bölümlere değerinden daha fazla arsa payı tahsis edildiğini, özellikle davalılardan 1 ve 5 No.lu bağımsız bölüme ait arsa payı ile müvekkillerine ait bağımsız bölümün arsa payları arasında Kanunun aradığı şartlar dikkate alındığında büyük oransızlık bulunduğunu, apartmanın riskli yapı olması nedeniyle 6306 sayılı Kanun kapsamında yıkılıp, yeniden inşa edileceğini ileri sürerek bağımsız bölümlerin arsa paylarının iptali ile arsa paylarının yeniden tespit edilmesine ve tapu siciline tesciline karar verilmesini talep etmiştir.
+II. CEVAP
+Davalı ... vekili ve davalı asıl ... ayrı ayrı cevap dilekçelerinde, açılan davayı kabul etmediklerini, anayapının 1967 yılında yapıldığını, yapı kullanma izin belgelerinin 1968 tarihli olduğunu, kat mülkiyetinin 51 yıl önce kurulduğunu, yarım asırdır hiçbir kat maliki tarafından arsa payının düzeltilmesi davası açılmadığını, müvekkilinin dairesinin ve diğer dairelerin cinsinin mesken niteliğinde olduğunu, müvekkiline ait dairenin bulunduğu beşinci katın, diğer dairelerden daha iyi körfez manzarasına sahip olduğunu, taşınmazda kat irtifakının 1968 yılında kurulduğunu, bilirkişilerce 50 yıl önceki fiili durumun da net olarak tespit edilmesinin mümkün olmadığını belirterek davanın reddini savunmuştur.
+III. İLK DERECE MAHKEMESİ KARARI
+İlk Derece Mahkemesinin 11.10.2018 tarihli ve 2018/132 Esas, 2018/1377 Karar sayılı kararıyla; dava konusu taşınmazın 2 72... alanlı arsada tesis edilmiş kat irtifakına göre 5 katlı 5 daireli olarak 1972 yılında inşa edildiği, binanın tamamının 10 arsa payı olarak 5 eşit parçaya bölünmek suretiyle her bir daireye 2/10'ar eşit arsa payı verildiği, bina ilk yapıldığı ve kat irtifakı kurulduğu tarihte dairelerin alanları, konumları, değerleri, mimari özellikleri, ulaşım ve taşıma imkânları, ısı, ışık, güneş, rüzgar, cephe durumları dikkate alınmadan sadece sayı hesabına göre bir paylaşım yapıldığının anlaşıldığı, zemin kat dairenin ortak olan arka bahçeyi kullanması, arkada istinat duvarına bakıyor olması ve daire alanı teras dairenin ön arka terasları kullanıyor olması, üzerinde kiremit çatı olmaması, iklim koşullarından daha çok etkilenmesi, daire alanı ve 5 kat merdivenle ulaşımı 4 No.lu bağımsız bölüm üzerinde teras alanları olmasından iklim açısından olumsuz etkilenmesi gibi faktörler dikkate alınmak suretiyle davanın kabulüne, 66 06... parsel sayılı taşınmazda; 1 numaralı bağımsız bölüm maliki ...'nin 2/10 arsa payının 9/44 olarak düzeltilmesine, 1. kat 2 numaralı bağımsız bölümü maliki ...'ın 2/10 olan arsa payının 10/44 olarak düzeltilmesine, 2. kat 3 numaralı bağımsız bölümü maliki ...'un 2/10 olan arsa payının 10/44 olarak düzeltilmesine, 3. kat 4 numaralı bağımsız bölümü malikleri ... ve ...'nun 2/10 olan arsa payının 10/44 olarak düzeltilmesine, çatı 5. kat maliki ...'ın 2/10 olan arsa payının 5/44 olarak düzeltilmesine karar verilmiştir.
+IV. İSTİNAF
+A. İstinaf Yoluna Başvuranlar
+İlk Derece Mahkemesinin yukarıda belirtilen kararına karşı süresi içinde davalı ...'tan 1 No.lu bağımsız bölümü 15.10.2018 tarihinde devralan ... ve ...'dan 5 nolu bağımsız bölümü aynı tarihte devralan ... vekili istinaf başvurusunda bulunmuştur.
+B. Gerekçe ve Sonuç
+Bölge Adliye Mahkemesinin 12.07.2021 tarihli ve 2019/912 Esas, 2021/1677 Karar sayılı kararıyla; 66 06... parsel sayılı ana taşınmazdaki binanın 21.08.2020 tarihinde yıkıldığı, Kat Mülkiyeti Kanunu'nun 47/1. maddesi gereğince anayapının tümü harap olmuşsa, ana gayrimenkul üzerindeki kat mülkiyetinin kendiliğinden sona ereceği, ana taşınmazdaki binanın yıkılması nedeniyle davanın konusuz kaldığı, davacıların dava açmakta haklı olmaları nedeniyle yargılama gideri, harç ve vekâlet ücretinden davalıların sorumlu olduğu gerekçesiyle bir kısım davalıların istinaf kanun yolu başvurusu üzerine HMK'nın 355. maddesi uyarınca resen yapılan inceleme sonucunda ilk derece mahkemesi kararının kaldırılmasına, davanın konusuz kalması nedeniyle esas hakkında karar verilmesine yer olmadığına karar verilmiştir.
+V. BOZMA VE BOZMADAN SONRAKİ YARGILAMA SÜRECİ 
+A. Bozma Kararı 
+1. Bölge Adliye Mahkemesinin yukarıda belirtilen kararına karşı süresi içinde davacılar vekili, davalılar ... ve ... vekili ile davalı ... vekili temyiz isteminde bulunmuştur.
+2. Yargıtay 5. Hukuk Dairesinin yukarıda tarih ve sayısı belirtilen kararı ile;
+''...Dosyadaki bilgi ve belgelerin incelenmesinde dava tarihi itibariyle kat irtifakı kurulu ana taşınmazda arsa paylarının iptali istemi ile dava açılmış olduğu ilk derece mahkemesince davanın kabulüne karar verildikten sonra istinaf incelemesi aşamasında dava konusu ana taşınmazın yıkıldığı bunun üzerine ilgili bölge adliye mahkemesinin yerel mahkeme hükmünü kaldırarak davanın konusuz kaldığından bahisle hakkında karar verilmesine yer olmadığına hükmettiği anlaşılmaktadır. Her ne kadar ilgili Bölge Adliye Mahkemesince davanın konusuz kaldığından bahisle hakkında yer olmadığına hükmedilmiş ise de dava konusu ana taşınmaz yıkılmış ancak taraf iradeleri ile yeniden arsa payları belirlenmek sureti ile kat irtifakı ya da kat mülkiyeti tesis edilmemiştir. Dolayısı ile bu durumda halen davacının dava açmakta hukuki yararı bulunduğu kabul edilerek, arsa paylarının belirlenmesinde esas alınacak olan bağımsız bölümlerin kat irtifakı kurulduğu tarih itibari ile değerlerini olumlu veya olumsuz etkileyen tüm unsurların incelenip irdelenmesi için bilirkişi kurulundan yeniden ek rapor alınması, arsa paylarının düzenlenmesini gerektirecek bir hususun olup olmadığının araştırılıp, sonucuna göre bir karar verilmesi gerekirken eksik inceleme yazılı olduğu şekilde karar verilmemesi bu nedenle doğru görülmemiştir..." gerekçesiyle karar bozulmuştur.
+B. Bölge Adliye Mahkemesince Verilen Direnme Kararı
+Bölge Adliye Mahkemesinin yukarıda tarih ve sayısı belirtilen kararı ile; Kat Mülkiyeti Kanunu'nun 47/1. maddesine göre anayapının tümü harap olduğundan kat mülkiyetinin kendiliğinden sona erdiği, buna ilişkin sicilin düzeltilmesinin idari bir işlem olduğu, 6306 sayılı Kanuna göre yıkılarak arsa hâline gelen taşınmazlarda, paydaşların yeniden bina yapmaya karar vermeleri hâlinde yeni yapılacak binanın nasıl yapılacağı, kat irtifakının nasıl düzenleneceği, arsa paydaşlarının kendi aralarında ve binayı yapacak yüklenici ile anlaşmalarına bağlı olduğu, aksine kabulün afet riski altındaki alanların dönüşüm sürecini de uzatacağı gerekçesiyle direnme kararı verilmiştir.
+VI. TEMYİZ
+A. Temyiz Yoluna Başvuranlar
+Bölge Adliye Mahkemesinin yukarıda belirtilen direnme kararına karşı süresi içinde davacılar vekili, davalı ... vekili ve katılma yolu ile bir kısım davalılar ... ve ... vekili temyiz isteminde bulunmuştur.
+B. Temyiz Sebepleri
+1. Davacılar vekili temyiz dilekçesinde; istinaf mahkemesi kararının yasaya ve hakkaniyete aykırı olduğunu, davalıların kötüniyetli olduklarını, gerek ilk derece gerekse istinaf mahkemesinden tedbiren yıkımın durdurulmasını talep ettiklerini ancak taleplerinin kabul görmediğini, davalıların amacının tamamen sebepsiz zenginleşmeye ve haksız çıkar elde etmeye yönelik olduğunu ileri sürerek kararın bozulmasını talep etmiştir. 
+2. Davalı ... vekili temyiz dilekçesinde; davalı müvekkil dışındaki davalıların çabaları ile dosya istinaf aşamasındayken binanın yıkıldığını, yeniden kat mülkiyeti kurulmadığını, davanın konusuz kalmadığını, istinaf mahkemesinin dosyadaki belgelere, delillere, bilirkişi raporuna göre inceleme yaparak karar vermesi gerektiğini, arsa payının düzeltilmesi davasının anayapının kat irtifakı veya kat mülkiyeti statüsünü koruduğu süre içinde açılabildiğini, işbu davanın da süresinde açıldığını ileri sürerek kararın bozulmasını talep etmiştir. 
+3. Davalılar ... ve ... vekili katılma yolu ile temyiz dilekçesinde; mahkemenin gerekçeli karar içeriğinde davacıların dava açmakta haklı olduklarına ilişkin tespitlerin bulunması ve müvekkillerinin yargılama gideri ve vekâlet ücretine mahkum edilmesi nedeniyle katılma yolu ile temyiz yoluna başvurduklarını, davacıların iyiniyetli olmadıklarını, bilirkişi raporunda müvekkillerine ait çatı katı 5 No.lu bağımsız bölüm ile zemin 1 No.lu bağımsız bölümün özelliklerinin dikkate alınmadığını, bilirkişi raporunda ekenomik değerden bahsedilmediğini, taşınmazların 1968 tarihi itibariyle imar durumlarının sorulmadığını, yönetim planının celp edilmediğini ileri sürerek kararın bozulmasını talep etmiştir. 
+C. Uyuşmazlık
+Direnme yolu ile Hukuk Genel Kurulu önüne gelen uyuşmazlık; anataşınmazdaki bağımsız bölümlerin arsa paylarının değerleri ile orantılı olarak düzeltilmesi ve tapuya tescil edilmesi istemine ilişkin eldeki davada, istinaf incelemesi aşamasında dava konusu ana taşınmazdaki binanın yıkıldığı anlaşılmakla davanın konusuz kalıp kalmadığı noktasında toplanmaktadır. 
+D. Gerekçe
+1. İlgili Hukuk
+634 sayılı Kat Mülkiyeti Kanunu'nun 3, 33... . maddeleri
+2. Değerlendirme
+1. Uyuşmazlığın çözümünde öncelikle ilgili mevzuat hükümlerinin açıklanması gerekmektedir.
+2. Kat Mülkiyeti Kanunu’nun 3. maddesinde, “Kat mülkiyeti, arsa payı ve anagayrimenkuldeki ortak yerlerle bağlantılı özel bir mülkiyettir.
+(Değişik ikinci fıkra: 14/11/2007-5711/1 md.) Kat mülkiyeti ve kat irtifakı, bu mülkiyete konu olan anagayrimenkulün bağımsız bölümlerinden her birinin konum ve büyüklüklerine göre hesaplanan değerleri ile oranlı olarak projesinde tahsis edilen arsa payının ortak mülkiyet esaslarına göre açıkça gösterilmesi suretiyle kurulur. Arsa paylarının bağımsız bölümlerin payları ile oranlı olarak tahsis edilmediği hallerde, her kat maliki veya kat irtifakı sahibi, arsa paylarının yeniden düzenlenmesi için mahkemeye başvurabilir. Bağımsız bölümlerden her birine bu fıkra uyarınca tahsis edilen arsa payı, o bölümlerin değerinde sonradan meydana gelen çoğalma veya azalma sebebiyle değiştirilemez. 44 üncü madde hükmü saklıdır.
+(Değişik üçüncü fıkra: 23/6/2009-5912/1 md.) Kat irtifakı arsa payına bağlı bir irtifak çeşidi olup, yapının tamamı için düzenlenecek yapı kullanma izin belgesine dayalı olarak, bu Kanunda gösterilen şartlar uyarınca kat mülkiyetine resen çevrilir. Bu işlem, arsa malikinin veya kat irtifakına sahip ortak maliklerden birinin istemi ile dahi gerçekleştirilebilir” hükmü yer almaktadır.
+3. Anılan maddede kat mülkiyeti veya kat irtifakının, bu mülkiyete konu olan anayapının bağımsız bölümlerinden her birine kat irtifakının kurulduğu tarihteki, doğrudan doğruya kat mülkiyetine geçilme hâlinde ise, bu tarihteki değeri ile oranlı olarak tahsis edilen arsa payının ortak mülkiyet esaslarına göre açıkça gösterilmesi suretiyle kurulacağı, arsa paylarının bağımsız bölümlerin değeri ile oranlı olarak tahsis edilmediği hâllerde, her kat maliki veya kat irtifakı sahibinin arsa payının düzenlenmesi için mahkemeye başvurabileceği hükme bağlanmıştır.
+4. Kat mülkiyeti düzeninde arsa payının belirlenmesi gerçekten önemlidir; çünkü kat maliklerince aralarında başka türlü anlaşma olmadıkça kapıcı, kaloriferci, bahçıvan ve bekçi giderleri dışında kalan tüm yönetim giderlerine katılmada arsa payı esas tutulur (md. 20). Yöneticinin atanmasında (md.34), anataşınmazın ortak yerlerinde faydalı yenilik ve eklemeler yapılmasında ve merkezi ısınmanın doğalgazlı bireysel ısınmaya dönüştürülmesinde arsa payı çoğunluğu aranmaktadır (md. 42). Anayapının kamulaştırılması durumunda bağımsız bölümlere ilişkin kamulaştırma parasının belirlenmesinde arsa payı göz önünde tutulur (md. 40). Kat malikleri anataşınmazın bütün ortak yerlerine arsa payları oranında -ortak mülkiyet hükümlerine göre- maliktirler ve kullanma hakkına sahiptirler (md. 16). Arsa payı kat mülkiyetinden ve kat irtifakından ayrı olarak devredilemez; kat mülkiyetinin ya da kat irtifakının başkasına geçmesi, ancak ona bağlı arsa payı ile birlikte mümkündür (md. 5/1). ( Mahir Ersin, Germeç: Kat Mülkiyeti Hukuku, Ankara 2020, s.81).
+5. Dosyada mevcut Konak Tapu Müdürlüğünün cevabi yazısında İzmir ili Konak ilçesi ... Mahallesi 66 06... parsel sayılı anataşınmazda 5 katlı ve 5 bağımsız bölümün tapu kayıtları gönderilmiş olup, ilgili taşınmazın yönetim planına rastlanılmadığı bildirilmiştir. Dava konusu taşınmazda 20.12.2017 tarihinde tapu kaydına riskli yapı şerhi konulmuştur.
+6. Davacılar vekili, kat irtifakı kurulu (dava tarihi itibariyle) anataşınmazda müvekkillerine ait bağımsız bölümün arsa payı ile diğer bağımsız bölümlerin arsa payları arasında Kanunun aradığı şartlar dikkate alındığında büyük oransızlık bulunduğunu ileri sürerek arsa paylarının düzeltilmek suretiyle tapu siciline tesciline karar verilmesini talep etmiş, mahallinde yapılan keşif sonrası alınan bilirkişi kurulu raporunda bağımsız bölümlerden her birinin konum ve büyüklüklerine göre hesaplanan değerleri ile orantılı olarak arsa payı tahsis edilmediği belirtilmiş, bunun üzerine ilk derece mahkemesince davanın kabulüne karar verilmiştir. Ardından istinaf incelemesi aşamasında dava konusu anataşınmazın 21.08.2020 tarihinde yıkıldığı anlaşılmakla bölge adliye mahkemesince ilk derece mahkemesi kararı kaldırılarak davanın konusuz kaldığından bahisle karar verilmesine yer olmadığına karar verildiği anlaşılmıştır.
+7. Bu noktada arsa paylarının yeniden düzenlenmesine ilişkin açılan davanın yargılaması sırasında yapının yıkılması hâlinde davanın konusuz kalıp kalmadığı hususu üzerinde durulmalıdır.
+8. Bazı hâllerde dava devam ederken dava konusu alacağın ödenmesi, menkul malın davacıya teslim edilmesi, taşınmazın tahliye edilmesi gibi bir nedenle dava konusuz kalabilir. Bu hâlde mahkeme esas hakkında karar verilmesine yer olmadığına karar verir. Ancak dava sırasında meydana gelen bir olay nedeniyle davanın konusuz kalmış sayılabilmesi için, artık her iki tarafın da davanın esası hakkında karar verilmesinde hiç bir hukuki yararının kalmamış olması gerekir. Sonradan doğan bir olay nedeniyle davanın konusuz kalmış gözükmesine rağmen, tarafların davanın esası hakkında karar verilmesindeki hukuki yararları devam ediyorsa, dava konusuz kalmaz; davaya devam edilerek, esas hakkında bir karar verilmesi gerekir (Baki Kuru, Hukuk Muhakemeleri Usulü, C. III, İstanbul 2001, s.3015-3021). 
+9. Yukarıda yapılan anlatımlar ışığında somut olay değerlendirildiğinde, yargılama sırasında dava konusu ana taşınmaz yıkılmış ancak taraf iradeleri ile yeniden arsa payları belirlenmek sureti ile kat irtifakı ya da kat mülkiyeti tesis edilmemiştir. Kaldı ki üzerindeki bina yıkılarak arsa hâline gelen taşınmazda kat malikleri arsa payı oranında ortak mülkiyet esaslarına göre malik olacaklarından davacının hâlen dava açmakta hukuki yararının devam ettiği ve davanın konusuz kalmadığının kabul edilmesi gerekmektedir.
+10. Hukuk Genel Kurulunda yapılan görüşmeler sırasında; anayapının yıkılması nedeniyle kat irtifakının kendiliğinden sona erdiği, buna ilişkin işlemlerin 6306 sayılı Kanuna göre yapılması gerektiği, aksine kabulün afet riski altındaki alanların dönüşüm sürecini de uzatacağı, bu nedenle bölge adliye mahkemesi direnme kararının onanması gerektiği görüşü ileri sürülmüş ise de, bu görüş Kurul çoğunluğu tarafından benimsenmemiştir.
+11. Hâl böyle olunca bölge adliye mahkemesince arsa paylarının belirlenmesinde esas alınacak olan bağımsız bölümlerin kat irtifakı kurulduğu tarih itibari ile değerlerini olumlu veya olumsuz etkileyen tüm unsurların incelenip irdelenmesi için bilirkişi kurulundan yeniden ek rapor alınması, arsa paylarının düzenlenmesini gerektirecek bir hususun olup olmadığının araştırılıp, sonucuna göre bir karar verilmesi gerekirken önceki kararda direnilmesi usul ve yasaya aykırıdır. 
+12. Bu nedenle direnme kararı bozulmalıdır.
+VII. KARAR
+Açıklanan sebeplerle;
+Davacılar vekili ve davalı ... vekilinin temyiz itirazlarının kabulü ile direnme kararının Özel Daire bozma kararında gösterilen nedenlerden dolayı 6100 sayılı Kanun'un 371. maddesi gereğince BOZULMASINA,
+Bozma nedenine göre davalılar ... ve ... vekilinin katılma yolu ile temyiz itirazlarının incelenmesine yer olmadığına, 
+İstek hâlinde temyiz peşin harçlarının yatıranlara geri verilmesine,
+Dosyanın 6100 sayılı Kanun'un 373. Maddesinin 2. fıkrası uyarınca kararı veren Bölge Adliye Mahkemesine gönderilmesine,
+10.09.2025 tarihinde oy çokluğuyla kesin olarak karar verildi.</div>
+    </article>
+
+    <div style="margin-top: 36px; padding-top: 20px; border-top: 1px solid #e0ded9; display: flex; justify-content: space-between; align-items: center;">
+      <a href="/arama/" class="btn" style="font-size: 13px;">&larr; Site İçi Aramaya Dön</a>
+      <a href="https://karararama.yargitay.gov.tr/" target="_blank" rel="noopener" style="font-size: 13px; color: #777;">Yargıtay Resmî Karar Arama &rarr;</a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,170 @@
+---
+layout: base.njk
+title: "Yargıtay 6. Hukuk Dairesi E. 2024/2184 K. 2025/2080 | 6306 Sayılı Kanun Kapsamında Kentsel Dönüşüm, Riskli Yapı ve Karar Çoğunluğu"
+description: "Uyuşmazlık, eser sözleşmesinden kaynaklanan alacağın tahsili istemine ilişkindir. Yargıtayca İlk Derece Mahkemesi kararı onanmıştır."
+permalink: "/ictihat/karar/yargitay-6-hukuk-dairesi-2024-2184-e-2025-2080-k/"
+robots: "noindex,follow"
+excludeFromSitemap: true
+type: "karar-corpus"
+category: "Kentsel Dönüşüm (6306)"
+primary_category: "KENTSEL_DONUSUM_6306"
+daire: "6. Hukuk Dairesi"
+esas_no: "2024/2184"
+karar_no: "2025/2080"
+karar_tarihi: "20.05.2025"
+year: 2025
+summary: "Uyuşmazlık, eser sözleşmesinden kaynaklanan alacağın tahsili istemine ilişkindir. Yargıtayca İlk Derece Mahkemesi kararı onanmıştır."
+score: 352.5
+legal_terms: ["kentsel dönüşümde anlaşmayan malikin arsa payı satışı nasıl engellenir veya iptal edilir", "kentsel dönüşümde binanın yıkılması ve tahliye kararına nasıl itiraz edilir", "6. hukuk dairesi", "müteahhitle anlaşma", "binayı yıktırmak istemeyen komşulara karşı salt çoğunlukla karar nasıl alınır", "kentsel_donusum_6306", "esas 2024/2184", "KENTSEL_DONUSUM_6306", "arsa payı satışı", "riskli yapı tespiti", "kentsel dönüşümde çoğunluk", "tahliye kararı", "binayı yıkmak istiyorlar", "karar 2025/2080", "6306 sayılı kanun"]
+topics: ["KENTSEL_DONUSUM_6306"]
+halk_sorulari: ["Kentsel dönüşümde binanın yıkılması ve tahliye kararına nasıl itiraz edilir?", "Binayı yıktırmak istemeyen komşulara karşı salt çoğunlukla karar nasıl alınır?", "Kentsel dönüşümde anlaşmayan malikin arsa payı satışı nasıl engellenir veya iptal edilir?"]
+gundelik_terimler: ["binayı yıkmak istiyorlar", "kentsel dönüşümde çoğunluk", "riskli yapı tespiti", "arsa payı satışı", "6306 sayılı kanun", "müteahhitle anlaşma", "tahliye kararı"]
+---
+<section class="section soft precedent-detail">
+  <div class="wrap">
+    <nav class="breadcrumb" aria-label="Gezinme">
+      <a href="/">Ana Sayfa</a> &rsaquo;
+      <a href="/ictihat/">İçtihat</a> &rsaquo;
+      <span>6. Hukuk Dairesi E. 2024/2184</span>
+    </nav>
+
+    <div class="precedent-top">
+      <aside class="precedent-kunye">
+        <div class="eyebrow">İçtihat Korpusu · Kentsel Dönüşüm (6306)</div>
+        <h1>6. Hukuk Dairesi</h1>
+        <p>
+          <strong>Esas No:</strong> 2024/2184<br>
+          <strong>Karar No:</strong> 2025/2080<br>
+          <strong>Karar Tarihi:</strong> 20.05.2025<br>
+          <strong>İçtihat Türü:</strong> Yargıtay İlamı
+        </p>
+      </aside>
+      <aside class="precedent-summary">
+        <div class="eyebrow">Hukuki Öz ve Uyuşmazlık Konusu</div>
+        <p>Uyuşmazlık, eser sözleşmesinden kaynaklanan alacağın tahsili istemine ilişkindir. Yargıtayca İlk Derece Mahkemesi kararı onanmıştır.</p>
+        <div class="precedent-tags" style="margin-top: 14px;">
+          <span class="precedent-tag">binayı yıkmak istiyorlar</span><span class="precedent-tag">kentsel dönüşümde çoğunluk</span><span class="precedent-tag">riskli yapı tespiti</span><span class="precedent-tag">arsa payı satışı</span><span class="precedent-tag">6306 sayılı kanun</span><span class="precedent-tag">müteahhitle anlaşma</span><span class="precedent-tag">tahliye kararı</span>
+        </div>
+      </aside>
+    </div>
+
+    <!-- AI ve Arama İndeksleme Bilgilendirme Kutusu (Ayrık Tasarım) -->
+    <div style="background: #fdfbf7; border-left: 4px solid #b89c65; padding: 18px 22px; margin: 28px 0; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.04);">
+      <h3 style="margin: 0 0 8px; font-size: 15px; color: #2c2925;">Bilgilendirme ve Arama Kılavuzu</h3>
+      <p style="margin: 0 0 10px; font-size: 13px; line-height: 1.55; color: #5a554e;">
+        Bu sayfadaki özet, halk soruları ve kavramsal etiketler site içi arama motorunun erişilebilirliğini artırmak amacıyla yapay zekâ destekli olarak sınıflandırılmıştır. Hukuki uyuşmazlıklarda ve resmî işlemlerde yalnızca aşağıda tam metni sunulan resmî ilam bağlayıcıdır.
+      </p>
+      <ul style="margin: 0; padding-left: 18px; font-size: 13px; line-height: 1.5; color: #3c3833;">
+        <li><strong>Soru:</strong> Kentsel dönüşümde binanın yıkılması ve tahliye kararına nasıl itiraz edilir?</li><li><strong>Soru:</strong> Binayı yıktırmak istemeyen komşulara karşı salt çoğunlukla karar nasıl alınır?</li><li><strong>Soru:</strong> Kentsel dönüşümde anlaşmayan malikin arsa payı satışı nasıl engellenir veya iptal edilir?</li>
+      </ul>
+    </div>
+
+    <!-- Resmî Yargıtay İlamı Metni -->
+    <article class="decision-text precedent-official-text" aria-label="Yargıtay İlamı Resmî Metni">
+      <h2>Yargıtay İlamı Resmî Metni</h2>
+      <div style="white-space: pre-wrap; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14.5px; line-height: 1.7; color: #1c1b18; background: #fff; padding: 24px; border: 1px solid #e8e5e0; border-radius: 6px;">6. Hukuk Dairesi 2024/2184 E. , 2025/2080 K.
+
+"İçtihat Metni"MAHKEMESİ : Sakarya Bölge Adliye Mahkemesi 5. Hukuk Dairesi
+SAYISI : 2024/707 E., 2024/778 K.
+İLK DERECE MAHKEMESİ : Kocaeli 2. Asliye Ticaret Mahkemesi
+SAYISI : 2021/189 E., 2023/643 K. 
+
+Bölge Adliye Mahkemesi kararı davacı vekilince duruşma istemli temyiz edilmekle; kesinlik, süre, temyiz şartı ve diğer usul eksiklikleri yönünden yapılan ön inceleme sonucunda, 20.05.2025 tarihinde duruşma yapılmasına ve duruşma gününün taraflara davetiye ile bildirilmesine karar verilmiştir.
+
+Belli edilen günde davacı vekili Avukat .... ile davalı vekili Avukat ...'in gelmiş olmalarıyla duruşmaya başlanarak hazır bulunan avukatların sözlü açıklamaları dinlenildikten sonra işin incelenerek karara bağlanması için uygun görülen saatte Tetkik Hâkimi tarafından hazırlanan rapor dinlenerek dosyadaki belgeler incelenip gereği düşünüldü:
+
+I. DAVA
+Davacı vekili dava dilekçesinde; davacı şirketin, 22.12.2007 tarihli sözleşme ile davalının maliki olduğu Kocaeli ili, 1. Kentsel Dönüşüm alanında bulunan 29122 m²'lik taşınmaz üzerinde 328 konut yapım işini hasılat paylaşım usulüne göre yapılan sözleşme ile üstlendiğini, sözleşmeye göre elde edilen gelirin idare adına açılan bir hesapta toplanacağını ve %75'i yüklenici firmaya %25'i davalı idareye ait olacak şekilde paylaştırılacağını, sözleşmenin 17.06.2008 tarihinde revize edilerek ek protokolle yeniden düzenlendiğini, yapılan ek protokolden sonra 17.11.2009 tarihinde yüklenici ile davalı idare arasında Sözleşmeye Ek Protokol No:2 ile bağımsız bölümlerin satış fiyatlarının belirlendiğini ve imza altına alındığını, yüklenici ile davalı idare arasında yapılan Sözleşmeye Ek Protokol No:1 gereğince, satışı yapılacak olan bağımsız bölümlerin idare tarafından yapılacak indiriminin en fazla, %100'ünün peşin ödenmesi halinde %10, %75'inin peşin ödenmesi halinde %7, %65'i peşin ödendiğinde %5 ve %50'si peşin ödendiğinde %3 oranında olacağını, idarenin daha fazla indirim yaparak bağımsız bölüm satma yetkisinin olmadığını, 17.11.2009 tarihinde yapılan sözleşmeye ek protokol No:2 ile, idare tarafından yapılacak indirimlerin en fazla %100'ünün peşin ödenmesi halinde %15, %75'inin peşin ödenmesi halinde %12, %65'i peşin ödendiğinde %7 ve %50'si peşin ödendiğinde %4 oranında belirlendiğini,17/11/2009 tarihine kadar yukarıda bahsi geçen oranda indirim yapabileceğini, buna rağmen davalı idarenin fahiş oranlarda indirimler yaparak müvekkilinin iflasına sebebiyet verdiğini, müvekkili tarafından yapılan hesaplamada davalı idarenin yapmış olduğu sözleşmeye aykırı indirimler sebebiyle 3-4 milyon TL civarında bir zararı bulunduğunun tespit edildiğini, müvekkilinin davalı ile yapmış olduğu sözleşme gereği işini zamanında yapmaması halinde eksik bedeller için kira ödeyeceğinin öngörüldüğünü, müvekkilinin işini zamanında gereği gibi ifa etmiş olmasına rağmen, müvekkilinden kira bedeli adı altında 3 milyon TL'ye yakın kesinti yapıldığını, davalı idarenin müvekkilinden kalan eksik işlerin tamamlanması için yaklaşık 6 milyon TL ödeme yaptığından bahisle müvekkilinden kesinti yaptığını, geçici kabulde de belirlendiği gibi projenin %95'inin tamamlanmış olduğunu ve yaklaşık %5 oranında eksik iş kaldığının tutanak altına alındığını, açıklanan nedenlerle fazlaya ilişkin hakları saklı kalmak kaydı ile, "davalı tarafından müvekkiline bilgi verilmeden kendi kamu gücünü kullanarak sözleşmeye aykırı yaptığı indirimler sebebiyle müvekkilinin uğradığı zararlar bakımından, şimdilik 1.000,00 TL, davalının haksız ve hukuka aykırı olarak müvekkilinden yaptığı kesintilerin cezai şart olarak kira alacakları için şimdilik 1.000,00 TL, davalının müvekkilinin vermiş olduğu teminat mektuplarını haksız ve hukuka aykırı olarak irat kaydetmesi sebebiyle müvekkilinin bu sebeple uğradığı faiz, masraf ve teminat mektupları bedelleri için şimdilik 1.000,00 TL, davalının haksız ve hukuka aykırı olarak kendi inisiyatifi ile belirlediği ve üçüncü kişilere ödenen ve müvekkilinden kesilen bu fahiş bedellerin hesaplanarak müvekkiline ödenmesi, bu alacaklar için şimdilik 1.000,00 TL ödenmesi hususunda hüküm kurulmasına karar verilmesini" talep etmiştir.
+
+II. CEVAP
+Davalı vekili cevap dilekçesinde; taraflar arasında konut inşaatı yapım işinin arsa karşılığı hasılat paylaşım usulü ile ihale edildiğini, sözleşmenin anahtar teslimi götürü bedel olarak yapıldığını,davacının satışa konu dairelerin indirim oranlarını belirten tüm başvuru formlarını ve gayrimenkul satış vaadi sözleşmelerini imzaladığını, 4. ada kuzey cepheye bakan dairelerin satış bedelinde personel ve grup satışına %10, peşin satışlarda %20 indirim yapılmasını talep ettiğini, müvekkili kurumun da talep doğrultusunda satış fiyatlarını revize ettiğini, yapılan indirimlerin davacının talebiyle gerçekleştirildiğini, gecikmede uygulanacak cezai şartların sözleşmede belirtilmiş olduğunu, yine kalan işlerin tamamlanması süresince geçen sürede işleyecek kira yardımlarının yüklenici nam ve hesabına ödenmesine devam edileceğinin hükme bağlandığını, müvekkili tarafından 23.11.2011 tarihli yazı ile konutların teslimine kadar her daire tipi için belirlenen kira bedellerinin yüklenici payından kesileceğinin davacıya tebliğ edildiğini, işin süresinde bitirilmediğini, dava konusu projenin ruhsat tarihinin 31.03.2009 olduğunu, 21.11.2010 tarihinde teslim edilmesi gereken işin belirlenen sürede teslim edilmediğini, 30.12.2010 tarihinden itibaren her daire için belirlenen kira bedelinin yüklenici nam ve hesabına ödenerek payından kesildiğini, kesilen kira bedelinin 1.423.746,34 TL olduğunu, davacının işi süresinde bitirmediğini, geçici kabul eksiklerini tamamlamadığını, tamamlanmayan işler için ... İnş. Firması ile elektrik tesisatına ilişkin işler için ... İletişim Firması ile sözleşme imzalandığını, bu sözleşmeler için ödenen bedellerin yüklenici hesabından kesildiğini belirterek, davanın reddine karar verilmesini talep etmiştir.
+
+III. İLK DERECE MAHKEMESİ KARARI
+İlk Derece Mahkemesinin yukarıda tarih ve sayısı belirtilen kararı ile, "davacı vekilinin sunmuş olduğu bedel artırım dilekçesi ıslah dilekçesi olarak kabul edilmiş ve HMK'nın 176/2 maddesi gereği aynı davada taraflar bir kez ıslah yoluna başvurabileceğinden, ıslah için süre talebi yerinde görülmemiş olup, davalı vekilinin ıslah dilekçesine karşı süresi içince zamanaşımı definde bulunduğu, Yargıtay 15.H.D'nin E: 2015/3148 K: 2016/2129 sayılı ilamında ''....Zamanaşımının başlangıcı da aynı Yasa'nın 128. maddesi uyarınca alacağın muaccel olduğu tarihtir. Bayındırlık İşleri Genel Şartnamesi'nin sözleşme eki olduğu kamu ihale sözleşmelerinde yüklenicinin kesin hesap alacağı, kesin kabulün yapıldığı kesin hesabın onaylandığı tarihte muaccel olacağından zamanaşımı kesin kabul tutanağı ile kesin hesabın onaylandığı tarihten başlar. Somut olayda, kesin kabul tutanağı her ne kadar 23.09.2005 tarihinden geçerli olmak üzere kabul edilmiş ise de, davalı idare tarafından kesin hesap fişi 10.01.2014 tarihinde onaylanmış, dava 30.05.2014 tarihinde 5 yıllık zamanaşımı süresi içerisinde açılmıştır. Bu durumda mahkemece davalının zamanaşımı def'inin reddedilerek işin esasının incelenmesi gerekirken...'' belirtilen gerekçe gözönüne alındığında kesin hesap tarihinin 08.09.2014 olması, Yargıtay Hukuk Genel Kurulu’nun 04.02.2009 gün ve 2009/15-22 Esas, 2009/54 Karar sayılı kararında da eser sözleşmelerinde zamanaşımının, eserin teslim edildiği tarihte başlayacağı kabul edilmiş olup, işin kesin hesabı, kesin kabulün onaylanmasından sonra yapılacağına göre, (Yargıtay 15 HD'nin E: 2008/6485 K: 2009/656 sayılı ilamı) her ne kadar yüklenicinin imzası bulunmasa da iş sahibi tarafından düzenlenen kesin hesabın onaylandığı tarihin 08.09.2014 kabul edilmesi gerektiği, bu durumda ıslah tarihine göre 5 yıllık sürenin dolduğu" gerekçesiyle davalı idarenin sözleşmeye aykırı yaptığı indirimler sebebiyle 1.000,00 TL, davalının davacıdan yaptığı kesintilerin cezai şart olarak kira alacakları için 1.000,00 TL, teminat mektubunun haksız irad kaydedilmesinden dolayı 1.000,00 TL, davalının sözleşmeye aykırı şekilde inisiyatifi ile belirlediği ve üçüncü kişilere ödenen ve davacıdan kesilen alacaklar için 1.000,00 TL olmak üzere 4.000,00 TL nin dava tarihinden itibaren işleyecek avans faiziyle birlikte davalıdan alınarak davacıya verilmesine, fazlaya ilişkin talebin zamanaşımı nedeniyle reddine karar verilmiştir.
+
+IV. İSTİNAF
+İlk Derece Mahkemesinin yukarıda belirtilen kararına karşı süresinde taraf vekillerince istinaf başvurusunda bulunulması üzerine Bölge Adliye Mahkemesinin yukarıda tarih ve sayısı belirtilen kararı ile," Davalının istinaf talepleri davanın kabul edilen 4.000,00 TL kısmına yöneliktir. İstinaf edilen değerler hüküm tarihi itibariyle HMK'nın 341/2. maddesinde yazılı 2023 yılı kesinlik sınırı olan 17.830,00 TL'nin altındadır. İlk Derece Mahkemesi tarafından davalı vekilinin istinaf yolu başvurularının kesin karara karşı yapılması sebebiyle HMK'nın 346. maddesine göre reddedilmesi gerektiği, ancak mahkemece bu yönde bir karar verilmediği, dosyanın bu hali ile Dairemize gönderildiği, kararın kesin olması halinde İlk Derece Mahkemesince bir karar verilebileceği gibi 01.06.1990 tarih 3/4 sayılı İçtihatları Birleştirme Kararı uyarınca parasal kesinlik sınırı nedeniyle temyiz edilemeyecek kararların temyizi halinde Yargıtay'ca temyiz dilekçesinin reddine karar verilebileceği gibi bu yolda Dairemizce de karar verilebileceği, kesinlik sınırının dikkate alınarak davalı vekilinin istinaf taleplerinin kesin karara ilişkin olması sebebiyle bu yönden reddine karar verilmesi gerekmiştir.
+
+Davacı vekilinin istinafı incelendiğinde;
+Davanın açıldığı tarihte alacağın miktarını yahut değerini tam ve kesin olarak belirleyebilmesinin kendisinden beklenemeyeceği veya bunun imkânsız olduğu hâllerde, alacaklı, hukuki ilişkiyi ve asgari bir miktar ya da değeri belirtmek suretiyle belirsiz alacak davası açabilir. (HMK 107/1) Kısmi davanın düzenlendiği HMK 109/1. maddeye göre talep konusunun niteliği itibarıyla bölünebilir olduğu durumlarda, sadece bir kısmı da dava yoluyla ileri sürülebilir. Somut olayda, davacı tarafça hasılat paylaşımı şeklinde yapılan sözleşmedeki davalının tasfiye kesin hesabındaki kesintilerin yerinde olmadığı iddiasına ilişkin açılan dava belirsiz alacak davası olarak açılmış ise de, uyuşmazlık sözleşme ilişkisinden kaynaklandığı ve alacak miktarı belirlenebilir olduğundan davanın belirsiz alacak davası olarak görülmesi mümkün değil ise de, hukuki niteleme hakime ait olduğundan kısmi dava olarak görüleceği kabul edilmelidir. Nitekim (Kapatılan) Yargıtay 15. Hukuk Dairesi'nin yerleşik kararları da bu yöndedir.
+
+Kısmi dava açılması halinde zamanaşımı yalnızca açılmış olan kısım için kesilir. Islahla arttırılan miktar veya ek davanın da zamanaşımı süresi içinde açılması gerekir. Dolayısıyla mahkemenin ıslahla arttırılan miktar yönünden ıslaha karşı zamanaşımı definin ıslah tarihine göre değerlendirme yapılması gerekmektedir.
+
+Bu kapsamda olmak üzere, taraflar arasında kararlaştırılan sözleşmede Yapım İşleri Genel Şartnamesi sözleşme eki olarak kabul edilmiş olmakla, kamu ihale sözleşmelerinde yüklenicinin kesin hesap alacağı kesin kabulün yapıldığı, kesin hesabın onaylandığı tarihte muaccel olacağından zamanaşımı kesin kabul tutanağı ile kesin hakedişin onaylandığı tarihten başlar. Somut olayda; işin geçici kabul onayı 18.07.2011 tarihinde yapılmıştır. Buna karşılık sözleşme konusu işle ilgili davalı iş sahibi tarafından 08.09.2014 tarihli kesin hesap tablosu düzenlenmişse de, burada davacı yüklenicinin imzası bulunmamakta ise de, davacının cevaba cevap dilekçesi ve zamanaşımına yönelik sonraki beyan dilekçelerinde kesin hesap rapor tarihini ve muacceliyet tarihini 2014 yılı olarak beyan ettiği, bu nedenle mahkemenin zamanaşımı başlangıç tarihinin belirlenmesine yönelik tespitinin yerinde olduğu, davacının ıslah tarihinin ise 20.10.2020 tarihi olduğu, davalının ıslaha karşı zamanaşımı definde bulunduğu, belirtilen nedenlerle ıslahla arttırılan alacak kısmı yönünden 5 yıllık zamanaşımı süresinin dolduğu anlaşıldığından mahkemece davacının ıslahla arttırılan kısma yönelik talebinin zamanaşımı nedeniyle reddine dair verilen kararda isabetsizlik bulunmamıştır "gerekçesiyle davacı vekilinin istinaf başvurusunun esastan reddine,davalı vekilinin istinaf başvurusunun HMK'nın 341/2, 346 ve 352/1 maddeleri gereğince reddine karar verilmiştir.
+
+V. TEMYİZ
+A. Temyiz Sebepleri
+Davacı vekili temyiz dilekçesinde,
+a. Zamanaşımı başlangıç tarihinin belirlenmesinde yanılgıya düşüldüğünü,
+
+b. İkame edilen davanın kısmi dava olarak nitelendirilmesinin hukuka aykırı olduğunu,davanın belirsiz alacak davası olarak değil kısmi dava olarak nitelendirilmesinde gerekçe sunulmadığını,
+
+c. 02.03.2023 tarihli dilekçe ile ıslah talebinde bulunmalarına rağmen süre verilmeden doğrudan hüküm kurulduğunu, 
+
+d. Usul ve yasaya aykırı olarak ıslah talebinin reddedilmesiyle müvekkili yüklenicinin hak arama özgürlüğünün ihlal edildiğini, taraflarca ileri sürülen tüm iddia ve talepler değerlendirilmeden hüküm kurulduğunu, davanın kısmen kabul kısmen reddine karar verilmesinin hukuka aykırı olup, hükmün bozulması gerektiğini beyan etmektedir.
+
+B. Değerlendirme ve Gerekçe
+Uyuşmazlık, eser sözleşmesinden kaynaklanan alacağın tahsili istemine ilişkindir.
+
+Bölge adliye mahkemelerinin nihai kararlarının bozulması 6100 sayılı Hukuk Muhakemeleri Kanunu'nun 371. maddesinde yer alan sebeplerden birinin varlığı halinde mümkündür.
+
+Temyizen incelenen karar, tarafların karşılıklı iddia ve savunmalarına, dayandıkları belgelere, uyuşmazlığa uygulanması gereken hukuk kuralları ile hukuki ilişkinin nitelendirilmesine, dava şartlarına, yargılama ve ispat kuralları ile kararda belirtilen gerekçelere ve ıslahla artırılan miktar yönünden zamanaşımının gerçekleştiğinin anlaşılmasına göre usul ve kanuna uygun olup, davacı vekilince temyiz dilekçesinde ileri sürülen nedenler kararın bozulmasını gerektirecek nitelikte görülmemiştir. 
+
+VI. KARAR
+Açıklanan sebeplerle;
+Temyiz olunan Bölge Adliye Mahkemesi kararının 6100 sayılı Hukuk Muhakemeleri Kanunu'nun 370/1. 
+maddesi hükmü uyarınca ONANMASINA,
+
+Fazla yatırılan harcın istek halinde iadesine,
+
+28.000,00TL duruşma vekâlet ücretinin davacıdan alınarak Yargıtay'daki duruşmada vekille temsil olunan davalıya verilmesine,
+
+Dosyanın İlk Derece Mahkemesine, kararın bir örneğinin Bölge Adliye Mahkemesine gönderilmesine, 20.05.2025 tarihinde oy çokluğu ile karar verildi.
+
+KARŞI OY
+
+Değerli çoğunlukla aramızdaki uyuşmazlık konusu; eser sözleşmesinden kaynaklı fazlaya ilişkin hakları saklı tutulmak kaydıyla açılan alacağın tahsiline yönelik davada, ıslah edilen kısım bakımından zamanaşımının gerçekleşip gerçekleşmeyeceğine ilişkindir.
+
+Dava açılmasının sonuçlarından en önemlisi; dava açılmasıyla birlikte zamanaşımının kesilmesidir (TBK m. 154/I-b. 2, TMK m. 714, 777/3). Kısmi veya belirsiz alacak şeklinde açılan bir davada; davacının gerçekte, biri fazlaya ilişkin hakkı saklı tutularak istediği bir miktar alacak, diğeri ise asıl alacak miktarının tespit edilmesi olmak üzere iki talebi söz konusudur. Dolayısıyla, bir davanın açılması ile birlikte bu taleplerin tümü açısından zamanaşımı kesilmiş olmaktadır.
+
+Bununla birlikte; uyuşmazlığın ıslah hukuki müessesesi ile doğrudan ilgili olması nedeniyle, Yargıtay’ın ıslahla ilgili uygulamalarına göre, alacağın ıslah edilen kısmı bakımından zamanaşımı sorununun geçmişte ne şekilde çözülmeye çalışıldığına, uygulamanın hangi aşamalardan geçtiğine değinmekte yarar vardır. 
+
+Bilindiği üzere, yürürlükten kaldırılan 1086 sayılı HUMK’ un 87. maddesinde; “... Müddei ıslah suretiyle müddeabihi tezyit edemez” hükmü yer almaktaydı. Bu yasaklama nedeniyle fazlaya ilişkin haklar saklı tutulmak kaydıyla açılan davanın yargılaması sırasında davacının tazminat veya alacak tutarının belirlenmesi halinde ancak ek dava açılmak suretiyle alacağın fazla olan kısmı istenebilmekteydi. Böyle bir durumda, doğal olarak ek dava ile talep edilen kısmın zamanaşımına uğraması ve zamanaşımı def’i ile karşılaşılması hâlinde, ek davanın zamanaşımı nedeniyle reddine karar verilmekteydi. Bu düzenleme Anayasa Mahkemesinin 20.07.1999 tarih, 1999/1E, 1999/33K sayılı kararıyla iptal edildi. İptalden sonra ek dava yerine kısmi ıslah suretiyle müddeabih artırılarak uygulamaya devam edildi. Ne var ki, ıslah ile arttırılan kısım bakımından sanki ortada bir ek dava varmış gibi zamanaşımı yönünden de iptal öncesi eski uygulamaya devam edilmiştir. Diğer bir anlatımla, “maddi tazminat isteğinin ıslah yolu ile artırılması yeni bir dava niteliğinde” kabul edilerek bu kez zamanaşımına ilişkin süreler yönünden ıslah tarihi esas alınmıştır (Örneğin; Y. 4. H.D.’nin, 09/10/2008 tarih, E: 2008/1009-K: 2008/11376, 14/12/2009 tarih, E: 2009/2469-K: 2009/14096 ve 07/03/2011 tarih, E: 2010/3617-K: 2011/2427 ... sayılı kararları).
+
+Yargıtay’ca önceki uygulamaya devam edilmekle birlikte; bir süre, önceki uygulamalardan vazgeçildiği, alacağın ıslah ile artırılması işleminin yeni bir dava niteliğinde olmadığı görüşü doğrultusunda, ıslah edilen kısım bakımından da asıl dava tarihi itibariyle zamanaşımının kesildiği kabul edilerek zamanaşımı savunmalarının (zamanaşımı def’ileri) ret edilmesi gerektiği yönünde kararlar verilmiştir (Örneğin; Yargıtay. 4. H.D.’nin,13.5.2015 t, 2014/8157e, 2015/6129k,- 26.1.2015t, 2014/3804e, 2015/896k,- 16.12.2014 t, 2014/5780e, 2014/17282k,- 15.12.2014t, 2014/2324e, 2014/17159k,-6.11.2014t, 2013/18979e, 2014/14634k,- 9.4.2013t,2013/2846e,2013/6598k, 3.4.2012t, 2011/2245e, 2012/5545k,- 28.3.2012t, 2011/1872e, 2012/5105k,- 29.2.2012t, 2010/14910e, 2012/3119k,- 7.12.2011t, 2011/13864e,2011/13114k, v.b ... sayılı kararları). Ancak, hemen belirtmek gerekir ki daha sonra, “alacağın ıslah ile arttırılması işleminin yeni bir dava niteliğinde” olmadığına ilişkin görüşten vazgeçilip tekrar eski uygulamaya dönülerek alacağın ıslahla artırılan kısmı açısından zamanaşımının işlediği benimsemiştir (Örneğin; Y. 4. H.D.’nin, 13/06/2016, E: 2016/3774-K: 2016/7793 ve 14/06/2016 tarih, E: 2015/11319-K: 2016/7830 ... sayılı kararları). 
+Yargıtay Hukuk Genel Kurulu uygulamasına gelindiğinde; bir çok kararda tam ıslah için, ilk dava açılmakla alacağın tamamı bakımından zamanaşımının kesildiği kabul edilirken aynı kararda kısmi ıslah bakımından zamanaşımının işlemeye devam edeceği belirtilmiştir (Örneğin, 16.3.2016 tarih, E: 2014/4-896E-K: 2016/332K). Şüphesiz bu apaçık bir çelişkidir.
+Görüldüğü üzere; ıslahla alacağın miktarının artırılmasına ilişkin konularda, Yargıtay’ca farklı uygulamalara gidildiği anlaşılmaktadır.
+Islah ile ilgili uygulamalardan kısaca söz ettikten sonra, bu konuya ışık tutacağına ve uygulamaya yeni bir bakış açısı getirip yeni bir yön vereceğine inandığımız, 24.05.2019 tarih, 2017/8E- 2019/3K sayılı Yargıtay İçtihadı Birleştirme Kararı’na (YİBK) değinmekte yarar vardır. Davacının, dava dilekçesinde faiz talep etmekle birlikte, ıslah dilekçesinde faiz istememesi nedeniyle ıslah edilen kısım için de faize hükmedilip hükmedilemeyeceği içtihadı birleştirmeye konu olmuş; sonuçta, “... Bir miktar para alacağının faizi ile birlikte tahsiline karar verilmesinin talep edildiği kısmî davada, dava konusu miktarın kısmî ıslahla faiz talebi belirtilmeksizin arttırılması hâlinde, arttırılan miktar bakımından dava dilekçesindeki faiz talebine bağlı olarak faize hükmedilecektir.”şeklinde içtihatların birleştirilmesine karar verilmiştir. Faizle ilgili olan bu karar, zamanaşımı konusuyla doğrudan ilgili değilse de, içtihadı birleştirme kararları; konularıyla sınırlı, sonuçlarıyla bağlayıcı, kararda belirtilen gerekçeleriyle yol gösterici nitelik taşırlar. 
+
+Bu YİBK’nda açıkça; ıslahın yeni bir dava olmadığı, dava dilekçesinde bir miktar para alacağının faiziyle birlikte istenmesi hâlinde, ıslah dilekçesinde faize yer verilmemiş olsa bile ıslahla artırılan alacak miktarı yönünde de faize hükmedileceği kararlaştırılmıştır. 
+
+Diğer yandan, ıslah edilen kısım bakımından zamanaşımı meselesi Anayasa Mahkemesine bireysel başvuru konusu olmuş, Mahkeme, kararlarında istikrarlı bir şekilde; “... Yukarıda yer verilen tespitler ışığında başvuruya konu olay değerlendirildiğinde başvurucunun ıslaha konu dava değerinin artırılan kısmı yönünden davanın zamanaşımından reddedilmesine ilişkin uygulamanın başvurucuya şahsi olarak aşırı bir külfet yüklediği, başvurucunun katlanmak zorunda kaldığı külfetin hedeflenen meşru amaçla karşılaştırıldığında orantısız olduğu, dolayısıyla müdahalenin ölçülü olmadığı sonucuna ulaşılmıştır.
+
+... Açıklanan gerekçelerle Anayasa’nın 36. maddesinde güvence altına alınan adil yargılanma hakkı kapsamındaki mahkemeye erişim hakkının ihlal edildiğine karar verilmesi gerekir” şeklinde kararlar vermiştir (12.07.2023 tarih,2019/37411Bir. Başvru ve 23.3.2023 tarih, 2019/430 Bir. Başvuru).
+
+Anayasa Mahkemesi yine 27.11.2019 tarih, 2016/9312 Bir. Başvuru kararında da açıkça; “... Somut olayda destekten yoksun kalma tazminatının ıslahla artırılan kısmının dava zamanaşımı gerekçesiyle reddedilmesinin başvurucunun mahkemeye erişim hakkına yönelik bir müdahale teşkil ettiği açıktır.” demek suretiyle hak ihlali kararı vermiştir.
+
+Bu konu Avrupa İnsan Hakları Mahkemesine (AİHM) de taşınmış, Mahkeme, özetle ; ek dava yoluyla ilk talebini arttırma hakkının olayın koşulları altında etkisiz bırakıldığını ve davacının bütün zararı bakımından tazminat talep edemediğini belirterek Sözleşmenin 6/1.maddesi gereği mahkemeye erişim hakkının ihlal edildiğine karar vermiştir. (Doğu/TÜRKİYE . B.Baş.v. no:16312/10, 27.2021trh.)
+Adalete erişim hakkı en temel haklardandır. Temel hak ve hürriyetler ancak yasayla kısıtlanabilir.
+
+Fazlaya ilişkin haklar saklı tutularak süresinde dava konusu edilen ve yargılamanın devamında alacak miktarının ıslahla artırılan kısmı için zamanaşımının geçtiğine yönelik bir yasal düzenleme de yoktur. TBK 154/2 maddesi gereği dava açılmakla zamanaşımının kesileceği hüküm altına alınmıştır. Yukarıda bahsedilen İçtihadı Birleştirme Kararında da alacak miktarının artırılmasıyla ilgili kısmi ıslahın yeni bir dava olmadığı açıkça belirtilmiş olmasına göre artık ıslahla artırılan alacak miktarı için dava açılmakla birlikte zamanaşımının kesilmediğinden bahsedilemez. Bir başka ifadeyle fazlaya ilişkin hakların saklı tutulması halinde tüm alacak (tazminat) bakımından zamanaşımı kesilmiştir.
+
+Ayrıca ıslahın; “... Tarafların yaptıkları usul işlemlerinde düşebilecekleri yanlışlıkları düzeltmeye, bırakabilecekleri eksiklikleri tamamlamaya ve böylece adaletli karar verebilmesini sağlamaya yönelik bir yol” (Prof. Dr. Ejder Yılmaz, Islah, genişletilmiş 5. baskı, s. 48). olduğunu da unutmamak gerekir.
+Yukarıda yapılan açıklamalar, Yargıtay, Anayasa Mahkemesi ve AİHM kararları, ilgili mevzuat, ıslahın tanımına ilişkin akademik görüş hep birlikte değerlendirildiğinde aşağıdaki sonuçlara ulaşmak mümkündür.
+
+1. Başlangıçta ıslah ile dava konusunun (müddeabihin) artırılması mümkün değilken, Anayasa Mahkemesinin iptal kararı ile mümkün hale gelmiştir.
+2. Islah, yeni veya ek bir dava değil, usulü bir hatanın düzeltilmesi veya eksikliğin tamamlanmasıdır.
+3. Islah ile arttırılan kısmın bir ek dava olmadığı YİBK ile kabul edilmiştir.
+4. Islah edilen kısım bakımından zamanaşımının devam edeceğine ilişkin yasal bir düzenleme yoktur.
+5. Tam ıslah yapılması halinde, yeni davanın zamanaşımına uğramayacağı kabul edilmişken, kısmi ıslahta zamanaşımının kabul edilmesi, izahı güç, çelişkili bir durumdur.
+6. Islah edilen kısma ilişkin talebin zamanaşımına uğradığı gerekçesiyle reddedilmesi, başta Anayasa’nın 36. ve Avrupa İnsan Hakları Sözleşmesinin 6/1.maddesinde belirtilen hak arama hürriyetini engellemekte, sonuçta hak ihlalleri doğurmaktadır. Uygulamanın bu şekilde devam etmesi hâlinde de yeni hak ihlallerinin doğması kaçınılmaz olacaktır.
+
+Yukarıda açıklanan sebeplerle; kısmi ıslahın, ıslah edilen miktar bakımından yeni bir dava olmadığı dikkate alınarak asıl davanın açılmasıyla zamanaşımının tüm alacak (tazminat) bakımından kesildiğinin kabul edilmesi gerekir. Bu gerekçeyle kararın bozulması düşüncesinde olduğumuzdan, sayın çoğunluğun onama görüşüne katılmıyoruz.</div>
+    </article>
+
+    <div style="margin-top: 36px; padding-top: 20px; border-top: 1px solid #e0ded9; display: flex; justify-content: space-between; align-items: center;">
+      <a href="/arama/" class="btn" style="font-size: 13px;">&larr; Site İçi Aramaya Dön</a>
+      <a href="https://karararama.yargitay.gov.tr/" target="_blank" rel="noopener" style="font-size: 13px; color: #777;">Yargıtay Resmî Karar Arama &rarr;</a>
+    </div>
+  </div>
+</section>

@@ -27,6 +27,7 @@ function documentType(item) {
   const inputPath = String(item.inputPath || "");
   const url = String(item.url || "");
 
+  if (item.data?.type === "karar-corpus" || url.startsWith("/ictihat/karar/")) return "karar-corpus";
   if (inputPath.includes("/content/karar-haritalari/")) return "karar-haritasi";
   if (inputPath.includes("/content/makaleler/")) return "makale";
 
@@ -165,6 +166,25 @@ function documentRecord(item, type, content) {
 }
 
 function sectionRecords(item, type) {
+  if (type === "karar-corpus") {
+    const data = item.data || {};
+    const common = commonRecordData(item, type, data.summary || "");
+    const legalTerms = stringList(data.legal_terms);
+    const topics = stringList(data.search_topics || data.topics);
+    const searchText = [data.summary, ...legalTerms, ...topics].filter(Boolean).join(" ");
+    return [{
+      id: item.url,
+      ...common,
+      sectionId: null,
+      sectionTitle: common.parentTitle,
+      sectionLevel: "h1",
+      url: item.url,
+      title: common.parentTitle,
+      content: data.summary || "",
+      text: searchText
+    }];
+  }
+
   const html = String(item.templateContent || "");
   const plainText = stripHtml(html);
   const $ = cheerio.load(html, null, false);

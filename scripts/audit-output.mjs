@@ -155,7 +155,8 @@ for (const file of files.filter((f) => f.endsWith('.html'))) {
   if (!robots) fail(`${route}: missing robots meta`);
 
   const hasNoindex = Boolean(robots && /(?:^|,)\s*noindex\s*(?:,|$)/i.test(robots));
-  if (hasNoindex && !allowedNoindexRoutes.has(route)) {
+  const isAllowedNoindex = allowedNoindexRoutes.has(route) || route.startsWith('/ictihat/karar/');
+  if (hasNoindex && !isAllowedNoindex) {
     fail(`${route}: unexpected noindex on public page`);
   }
   if (!hasNoindex && allowedNoindexRoutes.has(route)) {
@@ -241,7 +242,7 @@ if (fs.existsSync(sitemapPath)) {
     try {
       const url = new URL(loc);
       if (url.origin !== siteOrigin) fail(`/sitemap.xml: external URL found -> ${loc}`);
-      if (allowedNoindexRoutes.has(url.pathname)) fail(`/sitemap.xml: noindex page included -> ${loc}`);
+      if (allowedNoindexRoutes.has(url.pathname) || url.pathname.startsWith('/ictihat/karar/')) fail(`/sitemap.xml: noindex page included -> ${loc}`);
       if (!urls.has(url.pathname)) fail(`/sitemap.xml: URL does not exist in rendered output -> ${loc}`);
     } catch {
       fail(`/sitemap.xml: invalid URL -> ${loc}`);

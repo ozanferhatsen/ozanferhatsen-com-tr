@@ -1,0 +1,48 @@
+{
+  "total_corpus_civil": 832,
+  "wave1_selected_count": 100,
+  "wave1_score_range": [
+    127.0,
+    442.5
+  ],
+  "category_breakdown": {
+    "ARSA_PAYI_KARSILIGI_INSAAT": {
+      "quota": 30,
+      "selected_count": 30,
+      "available_civil": 130,
+      "highest_score": 442.5,
+      "lowest_score": 385.0
+    },
+    "YUKLENICI_PAYI_IPOTEK": {
+      "quota": 15,
+      "selected_count": 15,
+      "available_civil": 59,
+      "highest_score": 442.5,
+      "lowest_score": 350.0
+    },
+    "KENTSEL_DONUSUM_6306": {
+      "quota": 25,
+      "selected_count": 25,
+      "available_civil": 565,
+      "highest_score": 427.0,
+      "lowest_score": 302.5
+    },
+    "GAYRIMENKUL_MULKIYET": {
+      "quota": 20,
+      "selected_count": 20,
+      "available_civil": 45,
+      "highest_score": 306.5,
+      "lowest_score": 127.0
+    },
+    "ARSA_PAYI_DUZELTIMI": {
+      "quota": 10,
+      "selected_count": 10,
+      "available_civil": 33,
+      "highest_score": 387.5,
+      "lowest_score": 236.5
+    }
+  },
+  "wave2_candidate_count": 200,
+  "wave3_candidate_count": 200,
+  "status": "wave1_active_search_only"
+}

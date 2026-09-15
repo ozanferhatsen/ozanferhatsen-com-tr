@@ -1,0 +1,161 @@
+---
+layout: base.njk
+title: "Yargıtay 3. Hukuk Dairesi E. 2023/2463 K. 2024/584 | 6306 Sayılı Kanun Kapsamında Kentsel Dönüşüm, Riskli Yapı ve Karar Çoğunluğu"
+description: "Uyuşmazlık ve Hukuki Nitelendirme Uyuşmazlık, geçici su aboneliği tesisi istemine ilişkindir. Yargıtayca İlk Derece Mahkemesi kararı onanmıştır."
+permalink: "/ictihat/karar/yargitay-3-hukuk-dairesi-2023-2463-e-2024-584-k/"
+robots: "noindex,follow"
+excludeFromSitemap: true
+type: "karar-corpus"
+category: "Kentsel Dönüşüm (6306)"
+primary_category: "KENTSEL_DONUSUM_6306"
+daire: "3. Hukuk Dairesi"
+esas_no: "2023/2463"
+karar_no: "2024/584"
+karar_tarihi: "13.02.2024"
+year: 2024
+summary: "Uyuşmazlık ve Hukuki Nitelendirme Uyuşmazlık, geçici su aboneliği tesisi istemine ilişkindir. Yargıtayca İlk Derece Mahkemesi kararı onanmıştır."
+score: 317.0
+legal_terms: ["kentsel dönüşümde anlaşmayan malikin arsa payı satışı nasıl engellenir veya iptal edilir", "kentsel dönüşümde binanın yıkılması ve tahliye kararına nasıl itiraz edilir", "müteahhitle anlaşma", "karar 2024/584", "binayı yıktırmak istemeyen komşulara karşı salt çoğunlukla karar nasıl alınır", "kentsel_donusum_6306", "esas 2023/2463", "KENTSEL_DONUSUM_6306", "arsa payı satışı", "riskli yapı tespiti", "kentsel dönüşümde çoğunluk", "tahliye kararı", "3. hukuk dairesi", "binayı yıkmak istiyorlar", "6306 sayılı kanun"]
+topics: ["KENTSEL_DONUSUM_6306"]
+halk_sorulari: ["Kentsel dönüşümde binanın yıkılması ve tahliye kararına nasıl itiraz edilir?", "Binayı yıktırmak istemeyen komşulara karşı salt çoğunlukla karar nasıl alınır?", "Kentsel dönüşümde anlaşmayan malikin arsa payı satışı nasıl engellenir veya iptal edilir?"]
+gundelik_terimler: ["binayı yıkmak istiyorlar", "kentsel dönüşümde çoğunluk", "riskli yapı tespiti", "arsa payı satışı", "6306 sayılı kanun", "müteahhitle anlaşma", "tahliye kararı"]
+---
+<section class="section soft precedent-detail">
+  <div class="wrap">
+    <nav class="breadcrumb" aria-label="Gezinme">
+      <a href="/">Ana Sayfa</a> &rsaquo;
+      <a href="/ictihat/">İçtihat</a> &rsaquo;
+      <span>3. Hukuk Dairesi E. 2023/2463</span>
+    </nav>
+
+    <div class="precedent-top">
+      <aside class="precedent-kunye">
+        <div class="eyebrow">İçtihat Korpusu · Kentsel Dönüşüm (6306)</div>
+        <h1>3. Hukuk Dairesi</h1>
+        <p>
+          <strong>Esas No:</strong> 2023/2463<br>
+          <strong>Karar No:</strong> 2024/584<br>
+          <strong>Karar Tarihi:</strong> 13.02.2024<br>
+          <strong>İçtihat Türü:</strong> Yargıtay İlamı
+        </p>
+      </aside>
+      <aside class="precedent-summary">
+        <div class="eyebrow">Hukuki Öz ve Uyuşmazlık Konusu</div>
+        <p>Uyuşmazlık ve Hukuki Nitelendirme Uyuşmazlık, geçici su aboneliği tesisi istemine ilişkindir. Yargıtayca İlk Derece Mahkemesi kararı onanmıştır.</p>
+        <div class="precedent-tags" style="margin-top: 14px;">
+          <span class="precedent-tag">binayı yıkmak istiyorlar</span><span class="precedent-tag">kentsel dönüşümde çoğunluk</span><span class="precedent-tag">riskli yapı tespiti</span><span class="precedent-tag">arsa payı satışı</span><span class="precedent-tag">6306 sayılı kanun</span><span class="precedent-tag">müteahhitle anlaşma</span><span class="precedent-tag">tahliye kararı</span>
+        </div>
+      </aside>
+    </div>
+
+    <!-- AI ve Arama İndeksleme Bilgilendirme Kutusu (Ayrık Tasarım) -->
+    <div style="background: #fdfbf7; border-left: 4px solid #b89c65; padding: 18px 22px; margin: 28px 0; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.04);">
+      <h3 style="margin: 0 0 8px; font-size: 15px; color: #2c2925;">Bilgilendirme ve Arama Kılavuzu</h3>
+      <p style="margin: 0 0 10px; font-size: 13px; line-height: 1.55; color: #5a554e;">
+        Bu sayfadaki özet, halk soruları ve kavramsal etiketler site içi arama motorunun erişilebilirliğini artırmak amacıyla yapay zekâ destekli olarak sınıflandırılmıştır. Hukuki uyuşmazlıklarda ve resmî işlemlerde yalnızca aşağıda tam metni sunulan resmî ilam bağlayıcıdır.
+      </p>
+      <ul style="margin: 0; padding-left: 18px; font-size: 13px; line-height: 1.5; color: #3c3833;">
+        <li><strong>Soru:</strong> Kentsel dönüşümde binanın yıkılması ve tahliye kararına nasıl itiraz edilir?</li><li><strong>Soru:</strong> Binayı yıktırmak istemeyen komşulara karşı salt çoğunlukla karar nasıl alınır?</li><li><strong>Soru:</strong> Kentsel dönüşümde anlaşmayan malikin arsa payı satışı nasıl engellenir veya iptal edilir?</li>
+      </ul>
+    </div>
+
+    <!-- Resmî Yargıtay İlamı Metni -->
+    <article class="decision-text precedent-official-text" aria-label="Yargıtay İlamı Resmî Metni">
+      <h2>Yargıtay İlamı Resmî Metni</h2>
+      <div style="white-space: pre-wrap; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14.5px; line-height: 1.7; color: #1c1b18; background: #fff; padding: 24px; border: 1px solid #e8e5e0; border-radius: 6px;">3. Hukuk Dairesi 2023/2463 E. , 2024/584 K.
+
+"İçtihat Metni"MAHKEMESİ : Ankara Bölge Adliye Mahkemesi 24. Hukuk Dairesi
+SAYISI : 2022/1693 E., 2022/1610 K.
+İLK DERECE MAHKEMESİ : Ankara 13. Tüketici Mahkemesi
+SAYISI : 2021/492 E., 2022/182 K.
+
+Taraflar arasındaki geçici abonelik tesisi davasından dolayı yapılan yargılama sonunda İlk Derece Mahkemesince davanın kabulüne karar verilmiştir.
+
+Kararın davalı vekili tarafından istinaf edilmesi üzerine, Bölge Adliye Mahkemesince başvurunun esastan reddine karar verilmiştir.
+
+Bölge Adliye Mahkemesi kararı davalı vekili tarafından temyiz edilmekle; kesinlik, süre, temyiz şartı ve diğer usul eksiklikleri yönünden yapılan ön inceleme sonucunda, temyiz dilekçesinin kabulüne karar verildikten ve Tetkik Hâkimi tarafından hazırlanan rapor dinlendikten sonra dosyadaki belgeler incelenip gereği düşünüldü:
+
+I. DAVA
+Davacı; maliki olduğu evin yapıldığı sırada yüklenici müteahhit tarafından binanın iskan ruhsatının alınmamış olması nedeni ile davalı tarafından su aboneliğinin engellendiğini, bu durumun mağduriyetine sebep olduğunu belirterek, geçici su aboneliği tesisine karar verilmesini talep etmiştir.
+
+II. CEVAP
+Davalı; 3194 sayılı İmar Kanunu'nun (3194 sayılı Kanun) 31 ve Geçici 11 inci maddeleri kapsamında abonelik tesisi için davacının gerekli koşulları taşımadığını belirterek, haksız açılan davanın reddine karar verilmesini talep etmiştir. 
+III. İLK DERECE MAHKEMESİ KARARI
+İlk Derece Mahkemesinin yukarıda tarih ve sayısı belirtilen kararıyla; su aboneliği istenen yapının davacı adına kayıtlı olduğu, tarla niteliğindeki arsaya ilişkin 12.06.2019 Yapı Ruhsat Belgesinin mevcut bulunduğu, ibraz edilen diğer abonelik faturaları ve tapu kaydına göre yasada öngörülen hizmetlerden birinin götürüldüğü anlaşılmakla; 3194 sayılı Kanun'un 30, 31 ve Geçici 11 inci madde hükümleri uyarınca geçici abonelik koşullarının oluştuğu gerekçesiyle; davanın kabulüne, dava konusu bağımsız bölüme geçici su aboneliği yapı giderleri tarafından karşılanmak üzere davacı adına geçici su aboneliğinin tesisine karar vermiştir. 
+
+IV. İSTİNAF
+A. İstinaf Yoluna Başvuranlar
+İlk Derece Mahkemesinin yukarıda belirtilen kararına karşı süresi içinde davalı vekili istinaf başvurusunda bulunmuştur.
+
+B. İstinaf Sebepleri
+Davalı vekili; davacı tarafından yapı ruhsatının Mahkemeye sunulmadığını, geçici su aboneliğinin tesisine ilişkin olarak 3194 sayılı Kanun'un Geçici 11 inci maddesine dayanılmasının kanuna aykırı olduğunu, dava dosyasında mevcut arabuluculuk son tutanağından da anlaşılacağı üzere su aboneliği tesisinin talep edildiği yerin hobi bahçesi niteliğinde olduğunu, su aboneliği verilmesinin mevzuata aykırı olduğunu, davacının sunduğu yapı kayıt belgesinin geçerliliği denetlenmeden hükme esas alındığı, tarafların yasalar eliyle üzerlerine yüklenmiş olan ödev ve sorumlulukları yerine getirmeden kamu hizmetinden faydalandırılmalarının hukuka aykırı olduğunu belirterek, kararın kaldırılmasını talep etmiştir.
+
+C. Gerekçe ve Sonuç
+Bölge Adliye Mahkemesinin yukarıda tarih ve sayısı belirtilen kararıyla; 3194 sayılı Kanun'a eklenen Geçici 16 ncı madde kapsamında yapılan değerlendirme sonucunda, dava konusu taşınmaza ilişkin yapı kayıt belgesinin bulunduğu ve eldeki davanın 10.02.2021 tarihinde açıldığı, 01.07.2022 tarihinde yürürlüğe giren 7417 sayılı Kanun'un 39 uncu maddesi ile 3194 sayılı Kanun'un Geçici 11 inci maddesinde belirtilen "Bu maddenin yürürlüğe girdiği tarihe kadar" ibaresinin "01.07.2022 tarihine kadar" şeklinde, fıkrada yer alan "12.10.2004" ibaresinin "31.12.2021" şeklinde değiştirildiği; bu durumda davanın 18.01.2021'de açıldığı, İlk Derece Mahkemesinin gerekçesinde dayandığı hususlar ve ileri sürülen istinaf sebepleri dikkate alındığında, Mahkemece kurulan hükümde usul ve esas yönünden hukuka aykırılık bulunmadığı gerekçesiyle, istinaf başvurusunun reddine karar vermiştir.
+
+V. TEMYİZ
+A. Temyiz Yoluna Başvuranlar
+Bölge Adliye Mahkemesinin yukarıda belirtilen kararına karşı süresi içinde davalı temyiz isteminde bulunmuştur.
+
+B. Temyiz Sebepleri
+Davalı vekili; istinaf sebeplerini tekrar ederek, kararın bozulmasını talep etmiştir.
+
+C. Gerekçe
+1. Uyuşmazlık ve Hukuki Nitelendirme
+Uyuşmazlık, geçici su aboneliği tesisi istemine ilişkindir.
+
+2. İlgili Hukuk 
+1.18.05.2018 tarihli ve 30425 sayılı Resmi Gazete’de yayımlanarak yürürlüğe giren, 7143 sayılı Kanun ile 3194 sayılı Kanun’un değiştirilen geçici 11 inci maddesi,
+
+2.3194 sayılı kanunun 31, Geçici 11 inci maddesi, 
+
+3. Değerlendirme
+Kural olarak yapı (inşaat) ruhsatına uygun olarak inşaa edilen, yapı kullanma ruhsatı alınan yapılara elektrik, su ve doğalgaz abonelikleri yapılarak bu hizmetlerden istifade ettirilir. Ancak bazı şartların bulunması halinde yapı ruhsatı bulunmayan, yapı kullanma belgeleri olmayan yapılar "Geçici Abonelik" yapılarak aynı hizmetlerden istifade etmeleri imkanı getirilmiştir. Abonelik ve geçici abonelik işlemleriyle yapı (inşaat) ruhsatı ile yapı kullanma (iskan) ruhsatı arasındaki bağlantı ile bu konudaki mevzuatın zaman içindeki değişiminin değerlendirilmesi için 3194 sayılı kanunun ilgili hükümlerindeki değişimin gözden geçirilmesi gerekir.
+
+Yapı ruhsatı ve yapı kullanma belgesi ile abonelik işlemleri arasında 3194 sayılı kanunun 31 inci maddesinde " İnşaatın bitme günü, kullanma izninin verildiği tarihtir. Kullanma izni verilmeyen ve alınmayan yapılarda izin alınıncaya kadar elektrik, su ve kanalizasyon hizmetlerinden ve tesislerinden faydalandırılmazlar. Ancak, kullanma izni alan bağımsız bölümler bu hizmetlerden istifade ettirilir." düzenlemesiyle bağlantı kurulmuş, abonelik tesisi kural olarak yapı kullanma izninin alınmasına bağlanmıştır.
+
+Kural bu olmakla birlikte bu düzenlemenin yürürlüğe girmesi sonrasında 3194 sayılı kanuna eklenen Geçici 11. Madde ve Geçici 16. Madde hükümleriyle elektrik, su ve doğalgaz hizmetlerinden istifade için geçici abonelik kurumu düzenlenerek asıl abonelik tesisi için aranan "yapı kullanma ruhsatına" bağlılık kuralı abone lehine esnetilmiş, kurumlara abonelik tesis edilecek yapıların belli tarihler öncesinde yapılmış olmaları veya belli nitelikleri taşımaları şartıyla binalara geçici abonelik tesisi yolu ile bu hizmetlerden istifade hak ve yetkisi tanınmıştır.
+
+Geçici abonelik tesisi hakkında 3194 sayılı kanunda yapılan düzenlemeler tarih sırasıyla; 
+İlk düzenleme; 09.07.2008 tarihinde kabul edilen 5784 sayılı kanunun 25 inci maddesiyle 3194 sayılı kanuna eklenen Geçici 11 inci maddesi (ilk hali) olup bu düzenlemeye göre; " Bu maddenin yürürlüğe girdiği tarihe kadar yapı (inşaat) ruhsatı alınmış ve buna göre yapılmış olup, kullanma izni verilmeyen ve alınmayan yapılara; yol, elektrik, su, telefon, kanalizasyon, doğal gaz gibi alt yapı hizmetlerinden birinin veya birkaçının götürüldüğünün belgelenmesi halinde, ilgili yönetmelikler doğrultusunda fenni gereklerin yerine getirilmiş olması ve bu maddenin yayımı tarihinden itibaren başvurulması üzerine, kullanma izni alınıncaya kadar ilgili mevzuatta tanımlanan ait olduğu abone grubu dikkate alınarak geçici olarak su ve/veya elektrik bağlanabilir. Bu kapsamda, ilgili belediyeden dağıtım şirketlerine elektriğin kesilmesi talebinin söz konusu olması halinde aboneliği iptal edileceğinden, su ve/veya elektrik bağlanması herhangi bir kazanılmış hak teşkil etmez. Ancak, yapı (inşaat) ruhsatı alınmış ve buna göre yapılmış olma şartı 12/10/2004 tarihinden önce yapılmış olan yapılarla ilgili olarak uygulanmaz. Bu maddenin yürürlüğe girdiği tarihten önce yapılan abonelikler de ait olduğu gruba dönüştürülür." şeklindedir. Bu düzenlemeye göre 12.04.2004 tarihinden önce yapılan yapılar için "yapı ruhsatına göre yapılma " ve kullanma izni alma şartı aranmaksızın sadece yol, elektrik, su, telefon, kanalizasyon, doğal gaz gibi alt yapı hizmetlerinden birinin veya birkaçının götürüldüğünün belgelenmesi geçici abonelik tesisi için yeterli görülmüştür. Geçici abonelik düzenlemelerinde 12.04.2004 tarihi öncesi 1. Dönem olarak kabul edilebilir. 
+
+Yine 3194 sayılı kanunun 9.7.2008 tarihli 11 inci maddesindeki düzenlemeye göre 12.04.2004 tarihi ile 5784 sayılı kanunun 25 inci maddesinin yürürlüğe girdiği 26.07.2008 tarihi arasındaki dönem için ise yapının yapı ruhsatının olması aranmış yapı kullanma ruhsatının olması aranmayıp yol, elektrik, su, telefon, kanalizasyon, doğal gaz gibi alt yapı hizmetlerinden birinin veya birkaçının götürüldüğünün belgelenmesi geçici abonelik tesisi için yeterli görülmüştür. Bu dönem geçici abonelikte 2. Dönem olarak kabul edilir. 
+
+26.07.2008 tarihi sonrası dönemde ise elektrik, su ve doğalgaz abonelikleri için yapı ruhsatı ve yapı kullanma izninin alınmış olması şartı aranmış olup 18.05.2018 tarihinde 3194 sayılı kanuna 11.05.2018 tarih ve 7143 sayılı kanunun 16 maddesiyle eklenen Geçici 16. Maddesinin yürürlüğe girmesine kadar uygulanmıştır. Bu dönem geçici abonelikte 3. Dönem kabul edilebilir. 
+
+11.05.2018 tarihinde kabul edilen 7143 sayılı kanunun 16 ncı maddesiyle; 3194 sayılı kanuna eklenen Geçici 16 ncı maddesi " Afet risklerine hazırlık kapsamında ruhsatsız veya ruhsat ve eklerine aykırı yapıların kayıt altına alınması ve imar barışının sağlanması amacıyla, 31/12/2017 tarihinden önce yapılmış yapılar için Çevre ve Şehircilik Bakanlığı ve yetkilendireceği kurum ve kuruluşlara 31/10/2018 tarihine kadar başvurulması, bu maddedeki şartların yerine getirilmesi ve 31/12/2018 tarihine kadar kayıt bedelinin ödenmesi halinde Yapı Kayıt Belgesi verilebilir. Başvuruya konu yapının ve arsasının mülkiyet durumu, yapı sınıf ve grubu ve diğer hususlar Bakanlık tarafından hazırlanan Yapı Kayıt Sistemine yapı sahibinin beyanına göre kaydedilir.
+Yapının bulunduğu arsanın 29/7/1970 tarihli ve 1319 sayılı Emlak Vergisi Kanununa göre belirlenen emlak vergi değeri ile yapının Çevre ve Şehircilik Bakanlığınca belirlenen yaklaşık maliyet bedelinin toplamı üzerinden konutlarda yüzde üç, ticari kullanımlarda yüzde beş oranında alınacak kayıt bedeli başvuru sahibi tarafından genel bütçenin (B) işaretli cetveline gelir kaydedilmek üzere merkez muhasebe birimi hesabına yatırılır. 6306 sayılı Kanun kapsamında kullanılmak üzere kaydedilen gelirler karşılığı Bakanlık bütçesine ödenek eklemeye Maliye Bakanı yetkilidir. Bu ödenek, dönüşüm projeleri özel hesabına aktarılarak kullanılır. Kayıt bedeline ilişkin oranı iki katına kadar artırmaya, yarısına kadar azaltmaya, yapının niteliğine ve bölgelere göre kademelendirmeye, ayrıca başvuru ve ödeme süresini bir yıla kadar uzatmaya Bakanlar Kurulu yetkilidir.
+Yapı Kayıt Belgesi yapının kullanım amacına yöneliktir. Yapı Kayıt Belgesi alan yapılara, talep halinde ilgili mevzuatta tanımlanan ait olduğu abone grubu dikkate alınarak geçici olarak su, elektrik ve doğalgaz bağlanabilir." şeklindedir. Bu düzenlemeyle 31.12.2017 tarihi öncesinde yapı ruhsatı alınmaksızın yapılan, yapı kullanma izni bulunmayan yapılar için Çevre ve Şehircilik Bakanlığına yapı maliyet bedeli üzerinden yapılacak belli bir miktardaki ödeme karşılığında yapı sahibine "Yapı Kayıt Belgesi" verilmesiyle bu belgenin ait olduğu yapılara ise ilgili mevzuatta tanımlanan ait olduğu abone grubu dikkate alınarak başkaca hiç bir şart (yapı ruhsatı. Yapı kullanma ruhsatı vb) aranmaksızın talep halinde su, elektrik ve doğalgaz bağlanması ile geçici abonelik yapılmasına imkan sağlanmıştır. Bu 3194 sayılı kanunun geçici 16 ıncı maddesi toplumda "imar barışı" olarak bilinmektedir. Bu dönem geçici abonelikte 4. Dönem olarak kabul edilebilir. 
+
+3194 sayılı kanunun geçici 16 ncı maddesine göre 31.12.2017 tarihinden sonra yapılan yapılar için ise aynı kanunun 31 inci maddesine göre yapı ruhsatı ve yapı kullanma ruhsatının aranması 3194 sayılı kanunun geçici 11 inci maddesini değiştiren 01.07.2022 tarih ve 7417 sayılı kanunun 39. Maddesinin yürürlüğe girdiği 05.07.2022 tarihine kadar devam etmiştir. Bu dönem geçici abonelikte 5. Dönem olarak kabul edilebilir. 
+
+3194 sayılı kanunun Geçici 11 inci maddesi 05.07.2022 tarih ve 7417 sayılı kanunun 39. Maddesi ile değiştirilmiş olup Geçici 11 inci maddesi 05.07.2022 tarihi sonrasında " 1/7/2022 tarihine kadar yapı (inşaat) ruhsatı alınmış ve buna göre yapılmış olup, kullanma izni verilmeyen ve alınmayan yapılara; yol, elektrik, su, telefon, kanalizasyon, doğal gaz gibi alt yapı hizmetlerinden birinin veya birkaçının götürüldüğünün belgelenmesi halinde, ilgili yönetmelikler doğrultusunda fenni gereklerin yerine getirilmiş olması ve bu maddenin yayımı tarihinden itibaren başvurulması üzerine, kullanma izni alınıncaya kadar ilgili mevzuatta tanımlanan ait olduğu abone grubu dikkate alınarak geçici olarak su ve/veya elektrik bağlanabilir. Bu kapsamda, ilgili belediyeden dağıtım şirketlerine elektriğin kesilmesi talebinin söz konusu olması halinde aboneliği iptal edileceğinden, su ve/veya elektrik bağlanması herhangi bir kazanılmış hak teşkil etmez. Ancak, yapı (inşaat) ruhsatı alınmış ve buna göre yapılmış olma şartı 31/12/2021 tarihinden önce yapılmış olan yapılarla ilgili olarak uygulanmaz.
+Bu maddenin yürürlüğe girdiği tarihten önce yapılan abonelikler de ait olduğu gruba dönüştürülür." halini almıştır. Bu geçici 11. Madde düzenlemesinde ise : 31.12.2021 tarihinden önce yapılan yapılar bakımından yapı ruhsatının olması ve yapı ruhsatına uygun olarak inşaa edilmiş olması şartı aranmaksızın sadece yol, elektrik, su, telefon, kanalizasyon, doğal gaz gibi alt yapı hizmetlerinden birinin veya birkaçının götürülmüş olması ile fenni gereklerin yerine getirilmiş olması geçici abonelik yapılması için yeterli görülmüştür. Bu 31.12.2021 tarihi öncesi yapılan yapılar için geçici abonelikte 6. Dönem olarak kabul edilebilir. 
+
+Bu 3194 sayılı Kanun'un geçici 11 inci maddesinin son haline göre 31.12.2021 ile 01.07.2022 arası dönem bakımından ise bu tarih aralığında yapılan yapılar için yapı (inşaat) ruhsatı alınmış ve buna göre yapılmış olma ile kullanma izni verilmeyen ve alınmayan yapılara yol, elektrik, su, telefon, kanalizasyon, doğal gaz gibi alt yapı hizmetlerinden birinin veya birkaçının götürülmüş olması ile fenni gereklerin yerine getirilmiş olması geçici abonelik yapılması için yeterli görülmüştür. Geçici Abonelikte bu dönem 7. Dönem olarak kabul edilir. 
+
+01.07.2022 tarihi sonrasında yapılan yapılar bakımından ise 3194 sayılı kanunun 31 inci maddesi geçerli olup yapı (inşaat) ruhsatı ile yapı kullanma izni aranır. Bu dönem geçici abonelikte 8. Dönem olarak kabul edilir. 
+
+Yukarıda yapılan açıklamalardan da görüleceği üzere kanun düzenlemesinde elektrik, su ve doğalgaz hizmetlerinden faydalanma için temel kriter yapı (inşaat) ruhsatı ile yapı kullanma izninin bulunması ise de 2004 yılından itibaren kanun koyucu tarafından önce 3194 sayılı kanunun geçici 11 inci maddesi ve geçici 16 ncı maddesiyle yapı ruhsatı ve yapı kullanma ruhsatı aranması kriteri toplumsal ihtiyaçlar sebep gösterilerek esnetilmiş ve geçici abonelik yolu tesis edilerek hizmetlerden faydalanma imkanı yapı sahiplerine sağlanmıştır. Tüm bu geçici düzenlemelerin ortak noktası elektrik, su ve doğalgaz hizmetinden yararlanacak olan geçici aboneliğe konu binanın yapım tarihidir. 3194 sayılı kanunun geçici 11. Maddesindeki en son düzenleme uyarınca abonelik talebine konu olan binanın yapım tarihinin 31.12.2021 tarihi öncesi olduğunda binaya ilişkin yapı (inşaat) ruhsatı ve yapı kullanma ruhsatı aranmaz. Sadece yol, elektrik, su, telefon, kanalizasyon, doğal gaz gibi alt yapı hizmetlerinden birinin veya birkaçının abonelik konusu yapıya götürüldüğünün belgelenmesi, ilgili yönetmelikler doğrultusunda fenni gereklerin yerine getirilmiş olması ve bu maddenin yayımı tarihinden itibaren başvurulması yeterli görülmüştür. Bu nitelikteki binalar bu şartları sağladığında yapı kullanma izni alınıncaya kadar ilgili mevzuatta tanımlanan ait olduğu abone grubu dikkate alınarak geçici olarak su ve/veya elektrik bağlanarak bu hizmetlerden istifadesi sağlanacaktır.
+
+Somut olayda da, davacı tarafından kendisine ait bina için 3194 sayılı kanunun geçici 16 ıncı maddesi kapsamında olmak üzere iptal edildiğinden geçerli olmadığı iddia edilmeyen ve bu konuda kanıt bulunmayan 12.06.2019 tarihli ZBMMAHD sayılı Yapı Kayıt Belgesi alındığına göre 3194 sayılı kanunun Geçici 16/son maddesi uyarınca geçici su abonelik şartları gerçekleşmiştir. Bunun yanında 3194 sayılı kanunun 7417 sayılı kanunla değişik Geçici 11/1 inci maddesi uyarıncada aboneliğe konu yapının 31.12.2021 tarihinden önce yapıldığına göre geçici abonelik için yapı inşaat ruhsatı alınmış ve buna göre yapılmış olması şartının aranmayacağının anlaşılmasına göre, davalı tarafın temyiz itirazlarının reddi ile kararın onanmasına karar vermek gerekmiştir.
+
+VI. KARAR
+
+Açıklanan sebeplerle;
+
+Temyiz olunan Bölge Adliye Mahkemesi kararının 6100 sayılı Hukuk Muhakemeleri Kanunu'nun 370 inci maddesinin birinci fıkrası uyarınca ONANMASINA,
+
+Aşağıda yazılı bakiye temyiz harcının temyiz edene yükletilmesine,
+
+Dosyanın İlk Derece Mahkemesine, kararın bir örneğinin Bölge Adliye Mahkemesine gönderilmesine,
+
+13.02.2024 tarihinde oy birliğiyle karar verildi.</div>
+    </article>
+
+    <div style="margin-top: 36px; padding-top: 20px; border-top: 1px solid #e0ded9; display: flex; justify-content: space-between; align-items: center;">
+      <a href="/arama/" class="btn" style="font-size: 13px;">&larr; Site İçi Aramaya Dön</a>
+      <a href="https://karararama.yargitay.gov.tr/" target="_blank" rel="noopener" style="font-size: 13px; color: #777;">Yargıtay Resmî Karar Arama &rarr;</a>
+    </div>
+  </div>
+</section>

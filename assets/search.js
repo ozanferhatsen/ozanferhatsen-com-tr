@@ -13,7 +13,8 @@
     'karar-haritasi': 'Karar Haritası',
     'ictihat': 'İçtihat',
     'makale': 'Makale',
-    'sayfa': 'Sayfa'
+    'sayfa': 'Sayfa',
+    'karar-corpus': 'Yargıtay Kararı'
   };
 
   const LEGAL_PROTECTED_TERMS = new Set([
@@ -70,10 +71,11 @@
 
   function typeBoost(_documentId, _term, storedFields) {
     switch (storedFields && storedFields.type) {
-      case 'karar-haritasi': return 1.8;
+      case 'makale': return 2.50;
+      case 'karar-haritasi': return 2.00;
       case 'ictihat': return 1.35;
-      case 'makale': return 1.15;
-      default: return 1;
+      case 'karar-corpus': return 0.70;
+      default: return 1.0;
     }
   }
 
@@ -328,7 +330,14 @@
     });
   }
 
-  function mergeResultSets(sets) {
+  const TYPE_PRIORITY = {
+    'makale': 1,
+    'karar-haritasi': 2,
+    'ictihat': 3,
+    'karar-corpus': 4
+  };
+
+  function mergeResultSets(sets, hasExactDecisionRef) {
     const merged = new Map();
 
     sets.forEach(function (set) {
@@ -345,6 +354,13 @@
     });
 
     return Array.from(merged.values()).sort(function (a, b) {
+      if (!hasExactDecisionRef) {
+        const priorityA = TYPE_PRIORITY[a.type] || 5;
+        const priorityB = TYPE_PRIORITY[b.type] || 5;
+        if (priorityA !== priorityB) {
+          return priorityA - priorityB;
+        }
+      }
       return b.score - a.score;
     });
   }
@@ -355,6 +371,7 @@
     const query = queryWithoutQuotes(rawQuery);
     if (!query) return [];
 
+    const parsedDecision = parseDecisionQuery(rawQuery);
     const strictResults = engine.search(query, searchOptions('AND'));
     const sets = [{ results: strictResults, factor: 1 }];
     const exactDecision = exactDecisionResults(query);
@@ -372,7 +389,7 @@
       sets.push({ results: engine.search(expanded.query, searchOptions('OR')), factor: expanded.factor });
     });
 
-    const merged = mergeResultSets(sets);
+    const merged = mergeResultSets(sets, parsedDecision.hasDecisionReference);
     return phrases.length
       ? merged.filter(function (result) { return matchesExactPhrases(result, phrases); })
       : merged;
@@ -397,7 +414,8 @@
       ['all', 'Tümü'],
       ['karar-haritasi', 'Karar Haritaları'],
       ['ictihat', 'İçtihatlar'],
-      ['makale', 'Makaleler']
+      ['makale', 'Makaleler'],
+      ['karar-corpus', 'Yargıtay Kararları']
     ];
 
     filtersEl.innerHTML = types.map(function ([value, label]) {
