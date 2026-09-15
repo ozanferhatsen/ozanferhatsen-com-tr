@@ -1,13 +1,15 @@
 # Av. Ozan Ferhat Şen | Hukuk Departmanı
 
-> Gayrimenkul, inşaat, imar ve kentsel dönüşüm hukuku alanlarında mesleki çalışma, yargı kararı incelemeleri ve hukuki değerlendirmeler sunan bağımsız hukuk sitesi.
+> Gayrimenkul, inşaat, imar ve kentsel dönüşüm hukuku alanlarında mesleki çalışma, Yargıtay ve AYM karar incelemeleri ile editoryal hukuki değerlendirmeler sunan bağımsız hukuk platformu.
 
 ## Yazar ve Yayıncı Bilgisi
-- Avukat: Ozan Ferhat Şen (İstanbul Barosu)
+> Yayıncı ve yazar tescilli avukat varlığına dayanır.
+- Avukat: Ozan Ferhat Şen (İstanbul Barosu, Sicil No: 51641)
 - Biyografi & Profil: https://ozanferhatsen.com.tr/hakkimda/
 - Canonical Person ID: https://ozanferhatsen.com.tr/#ozan-ferhat-sen
 
 ## Temel Çalışma Alanları (Practice Areas)
+> Gayrimenkul, inşaat, imar, kentsel dönüşüm (6306 sayılı Kanun) ve kira hukuku alanlarındaki hukuki rehberler ve uzmanlık sayfaları.
 - Gayrimenkul Hukuku: https://ozanferhatsen.com.tr/gayrimenkul-hukuku/
 - İnşaat Hukuku: https://ozanferhatsen.com.tr/insaat-hukuku/
 - İmar Hukuku: https://ozanferhatsen.com.tr/imar-hukuku/
@@ -15,6 +17,7 @@
 - Kira Hukuku: https://ozanferhatsen.com.tr/kira-hukuku/
 
 ## Hukuki İncelemeler ve Arşivler
+> Yargıtay HGK, daire kararları ve AYM bireysel başvuru kararlarına ilişkin editoryal özetler, hukuki dayanaklar (ratio decidendi) ve karşılaştırmalı içtihat haritaları.
 - Hukuki Makaleler: https://ozanferhatsen.com.tr/makaleler/
 - Yargıtay ve AYM Kararları: https://ozanferhatsen.com.tr/ictihat/
 - Karar Haritaları: https://ozanferhatsen.com.tr/ictihat/karar-haritalari/

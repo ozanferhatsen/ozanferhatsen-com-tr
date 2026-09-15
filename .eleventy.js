@@ -185,6 +185,30 @@ export default function (eleventyConfig) {
     return { court, identifier, name };
   });
 
+  eleventyConfig.addFilter("schemaThings", (value) => {
+    if (!value) return [];
+    const arr = Array.isArray(value) ? value : [value];
+    return arr
+      .map((item) => (typeof item === "string" ? item.trim() : ""))
+      .filter(Boolean)
+      .map((name) => ({
+        "@type": /kanun|maddes?i|tbk|tmk|ttk|iyuk|hkm|tck/i.test(name) ? "Legislation" : "Thing",
+        name
+      }));
+  });
+
+  eleventyConfig.addFilter("schemaCitations", (value) => {
+    if (!value) return [];
+    const arr = Array.isArray(value) ? value : [value];
+    return arr
+      .map((item) => (typeof item === "string" ? item.trim() : ""))
+      .filter(Boolean)
+      .map((name) => ({
+        "@type": "CreativeWork",
+        name
+      }));
+  });
+
   eleventyConfig.addFilter("sameDate", (value, other) => dateKey(value) === dateKey(other));
 
   eleventyConfig.addFilter("json", (value) => {

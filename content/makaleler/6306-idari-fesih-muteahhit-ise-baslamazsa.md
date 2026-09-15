@@ -11,6 +11,12 @@ seo_title: "6306 İdari Fesih: Müteahhit Başlamazsa"
 description: "Müteahhit bir yıl işe başlamaz veya inşaatı altı ay durdurursa 6306 idari fesih nasıl işler? Çoğunluk, başvuru ve tasfiye."
 series_id: "kentsel-donusum-sozlesme-yuklenici"
 series_order: 3
+legal_review_date: "2026-09-14T10:00:00+03:00"
+about:
+  - "6306 sayılı Kentsel Dönüşüm Kanunu Madde 6"
+  - "6098 sayılı Türk Borçlar Kanunu Madde 473"
+citations:
+  - "Yargıtay HGK E. 2019/15-585 K. 2020/386"
 sources:
   - name: "6306 sayılı Kanun; özellikle m.6/14."
     url: "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.6306.pdf"
