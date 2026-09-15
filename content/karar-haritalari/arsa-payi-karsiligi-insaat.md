@@ -1,14 +1,17 @@
 ---
-seo_title: "Arsa Payı Karşılığı İnşaat ve Kentsel Dönüşüm Yargıtay Kararları | 2024–2026"
-title: "Güncel Yargıtay İçtihatları ve Doktrin Işığında Arsa Payı Karşılığı İnşaat ve Kentsel Dönüşüm Karar Haritası (2024–2026)"
-description: "Yüklenicinin temerrüdü, %90 ifa seviyesi, geriye/ileriye etkili fesih, 3. kişilerin tapu durumu, TMK 1023 iyiniyet denetimi ve 6306 idari fesih süreçlerinin 18 eksende güncel Yargıtay kararları ve doktrin ile bütünsel incelemesi."
+seo_title: "Arsa Payı Karşılığı İnşaat ve Kentsel Dönüşüm İçtihat Ontolojisi | 2024–2026"
+title: "Güncel Yargıtay Kararları ve Doktrin Işığında Arsa Payı Karşılığı İnşaat ve Kentsel Dönüşüm İçtihat Ontolojisi (2024–2026)"
+description: "Yüklenicinin temerrüdü, %90 ifa seviyesi, geriye/ileriye etkili fesih, 3. kişilerin tapu durumu, TMK 1023 iyiniyet denetimi ve 6306 idari fesih süreçlerinin 18 eksende güncel Yargıtay kararları ve doktrin ile bütünsel içtihat ontolojisi incelemesi."
 canonical: "https://ozanferhatsen.com.tr/ictihat/karar-haritalari/arsa-payi-karsiligi-insaat/"
 robots: "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
 ---
 
-# Güncel Yargıtay İçtihatları ve Doktrin Işığında Arsa Payı Karşılığı İnşaat ve Kentsel Dönüşüm Karar Haritası (2024–2026)
+# Güncel Yargıtay Kararları ve Doktrin Işığında Arsa Payı Karşılığı İnşaat ve Kentsel Dönüşüm İçtihat Ontolojisi (2024–2026)
 
 ## 📌 Hızlı AEO Özeti: Arsa Payı Karşılığı İnşaat ve Kentsel Dönüşüm Uyuşmazlıkları
+
+> **İçtihat Ontolojisi Nedir ve Neden Önemlidir?**  
+> İçtihat Ontolojisi; münferit Yargıtay kararlarını tekil özetler halinde sunmak yerine, bir uyuşmazlık alanının (örneğin kentsel dönüşüm veya arsa payı karşılığı inşaat) tüm hukuki boyutlarını, risklerini ve doktrinel esaslarını bir **semantik bilgi ağı (ontology graph)** biçiminde haritalandıran inceleme yöntemidir. Tek bir karara sıkışmak yerine uyuşmazlığın tüm yönlerini bütünsel görmeyi sağlar.
 
 > **Arsa payı karşılığı inşaat sözleşmelerinde Yargıtay ve idari yargı hangi uyuşmazlıklarda yoğunlaşmaktadır?**  
 > Güncel uyuşmazlıklar temel olarak yüklenicinin temerrüdü, %90 fiziki gerçekleşme seviyesi, geriye veya ileriye etkili fesih rejimi, yükleniciden tapu veya temlik alan üçüncü kişilerin hukuki durumu, nama ifa yetkisi, gecikme tazminatı ve 6306 sayılı Kanun kapsamındaki pay satışı ile idari fesih süreçleri üzerinde yoğunlaşmaktadır.
