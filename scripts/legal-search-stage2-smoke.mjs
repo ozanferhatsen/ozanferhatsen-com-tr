@@ -64,20 +64,42 @@ const index = JSON.parse(fs.readFileSync(indexPath, "utf8"));
 assert(Array.isArray(index) && index.length > 0, "Arama indeksi boş");
 
 const hgkUrl = "/ictihat/yargitay-hukuk-genel-kurulu-2023-648-2025-512-arsa-payi-yikim-hukuki-yarar/";
-const hgkRecord = index.find((record) => record.parentId === hgkUrl);
+const hgkRecord = index.find((record) => record.id === hgkUrl || record.url === hgkUrl);
 assert(hgkRecord, "Bilinen HGK kararı arama indeksine girmedi");
 assert(hgkRecord.esas === "2023/648", "Derlenmiş indekste HGK esas numarası yanlış");
 assert(hgkRecord.karar === "2025/512", "Derlenmiş indekste HGK karar numarası yanlış");
 assert(hgkRecord.court_code === "HGK", "Derlenmiş indekste HGK mahkeme kodu yanlış");
-assert(String(hgkRecord.decision_refs || "").includes("2023/648"), "Derlenmiş indekste decision_refs eksik");
+assert(
+  Array.isArray(hgkRecord.decision_refs)
+    ? hgkRecord.decision_refs.includes("2023/648")
+    : String(hgkRecord.decision_refs || "").includes("2023/648"),
+  "Derlenmiş indekste decision_refs eksik"
+);
 
 const chamberUrl = "/ictihat/yargitay-6-hukuk-dairesi-2025-2041-2026-1191-ucuncu-kisi-tapu/";
-const chamberRecord = index.find((record) => record.parentId === chamberUrl);
+const chamberRecord = index.find((record) => record.id === chamberUrl || record.url === chamberUrl);
 assert(chamberRecord, "Bilinen 6. HD kararı arama indeksine girmedi");
 assert(chamberRecord.esas === "2025/2041" && chamberRecord.karar === "2026/1191", "Derlenmiş 6. HD künyesi yanlış");
 assert(chamberRecord.court_code === "6. HD", "Derlenmiş 6. HD kodu yanlış");
 
-const sectionRecord = index.find((record) => record.sectionLevel === "h2" && record.sectionId && record.url.includes("#"));
-assert(sectionRecord, "Aşama 1 bölüm/anchor kayıtları Aşama 2 sonrasında korunmadı");
+// Thin index validations:
+// 1. Her kayıt tekil bir dokümandır, URL içinde '#' bölüm çapası bulunmamalıdır.
+const sectionRecord = index.find((record) => record.url && record.url.includes("#"));
+assert(!sectionRecord, "Thin search indeksi bölüm/anchor kaydı içermemeli, belge düzeyinde olmalıdır");
 
-console.log(`Legal Search v2 Stage 2 smoke: ${index.length} bölüm kaydı doğrulandı.`);
+// 2. search_version: 3 olmalı
+assert(index.every((record) => record.search_version === 3), "Tüm kayıtlarda search_version: 3 olmalıdır");
+
+// 3. Kesinlikle hiçbir kayıtta 'content' veya 'text' alanı olmamalıdır
+const leakedRecord = index.find((record) => Object.hasOwn(record, "content") || Object.hasOwn(record, "text"));
+assert(!leakedRecord, "GÜVENLİK İHLALİ: search-index.json içinde content veya text alanı bulundu!");
+
+// 4. headings dizisi korunmalıdır
+const recordWithHeadings = index.find((record) => Array.isArray(record.headings) && record.headings.length > 0);
+assert(recordWithHeadings, "Belgelerdeki headings dizisi korunamadı");
+
+// 5. Boyut kontrolü: 300 KB altında olmalıdır
+const indexSizeBytes = fs.statSync(indexPath).size;
+assert(indexSizeBytes < 300 * 1024, `Thin index boyutu 300 KB sınırını aştı: ${(indexSizeBytes / 1024).toFixed(1)} KB`);
+
+console.log(`Legal Search Thin Index smoke: ${index.length} belge kaydı (${(indexSizeBytes / 1024).toFixed(1)} KB) başarıyla doğrulandı.`);

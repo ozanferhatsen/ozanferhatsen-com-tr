@@ -32,10 +32,15 @@
 
   const SEARCH_BOOSTS = {
     title: 8,
-    legal_terms: 5,
+    legal_terms_text: 6,
     category: 4,
     summary: 3,
-    text: 1
+    headings_text: 3,
+    topics_text: 3,
+    court_terms_text: 2,
+    decision_refs_text: 2,
+    esas: 2,
+    karar: 2
   };
 
   let engine = null;
@@ -237,11 +242,14 @@
   }
 
   function foldedMetadata(document) {
+    const courtTerms = Array.isArray(document && document.court_terms)
+      ? document.court_terms.join(' ')
+      : (document && document.court_terms) || '';
     return foldTurkish([
       document && document.court,
       document && document.chamber,
       document && document.court_code,
-      document && document.court_terms
+      courtTerms
     ].filter(Boolean).join(' '));
   }
 
@@ -267,23 +275,18 @@
     const parsed = parseDecisionQuery(rawQuery);
     if (!parsed.hasDecisionReference) return [];
 
-    const byParent = new Map();
+    const results = [];
     documentLookup.forEach(function (document) {
       if (!documentMatchesDecisionQuery(document, parsed)) return;
-      const parentId = document.parentId || document.id;
-      if (byParent.has(parentId)) return;
 
-      byParent.set(parentId, {
+      results.push({
         id: document.id,
         score: 25,
-        title: document.parentTitle || document.title,
-        url: document.parentUrl || document.url,
+        title: document.title,
+        url: document.url,
         type: document.type,
         category: document.category,
         summary: document.summary,
-        parentId: parentId,
-        parentTitle: document.parentTitle,
-        sectionTitle: document.sectionTitle,
         area: document.area,
         court: document.court,
         chamber: document.chamber,
@@ -294,29 +297,41 @@
       });
     });
 
-    return Array.from(byParent.values());
+    return results;
   }
 
   function searchableDocumentText(document) {
     if (!document) return '';
     const legalTerms = Array.isArray(document.legal_terms)
       ? document.legal_terms.join(' ')
-      : String(document.legal_terms || '');
+      : String(document.legal_terms_text || document.legal_terms || '');
     const topics = Array.isArray(document.topics)
       ? document.topics.join(' ')
       : String(document.topics_text || document.topics || '');
+    const headings = Array.isArray(document.headings)
+      ? document.headings.join(' ')
+      : String(document.headings_text || document.headings || '');
+    const courtTerms = Array.isArray(document.court_terms)
+      ? document.court_terms.join(' ')
+      : String(document.court_terms_text || document.court_terms || '');
+    const decisionRefs = Array.isArray(document.decision_refs)
+      ? document.decision_refs.join(' ')
+      : String(document.decision_refs_text || document.decision_refs || '');
 
     return foldTurkish([
       document.title,
-      document.parentTitle,
-      document.sectionTitle,
       document.summary,
       document.category,
       topics,
       legalTerms,
-      document.court_terms,
-      document.decision_refs,
-      document.text
+      headings,
+      courtTerms,
+      decisionRefs,
+      document.court,
+      document.chamber,
+      document.court_code,
+      document.esas,
+      document.karar
     ].filter(Boolean).join(' ').replace(/\s+/g, ' '));
   }
 
@@ -386,7 +401,8 @@
 
     const expansions = expandedQueries(query);
     expansions.forEach(function (expanded) {
-      sets.push({ results: engine.search(expanded.query, searchOptions('OR')), factor: expanded.factor });
+      const combine = expanded.query.trim().includes(' ') ? 'AND' : 'OR';
+      sets.push({ results: engine.search(expanded.query, searchOptions(combine)), factor: expanded.factor });
     });
 
     const merged = mergeResultSets(sets, parsedDecision.hasDecisionReference);
@@ -528,23 +544,51 @@
 
       if (!response.ok) throw new Error('search-index.json yüklenemedi');
       const documents = await response.json();
-      documentLookup = new Map(documents.map(function (document) { return [document.id, document]; }));
+
+      const preparedDocuments = documents.map(function (doc) {
+        return Object.assign({}, doc, {
+          legal_terms_text: Array.isArray(doc.legal_terms) ? doc.legal_terms.join(' ') : String(doc.legal_terms || ''),
+          topics_text: Array.isArray(doc.topics) ? doc.topics.join(' ') : String(doc.topics || ''),
+          headings_text: Array.isArray(doc.headings) ? doc.headings.join(' ') : String(doc.headings || ''),
+          court_terms_text: Array.isArray(doc.court_terms) ? doc.court_terms.join(' ') : String(doc.court_terms || ''),
+          decision_refs_text: Array.isArray(doc.decision_refs) ? doc.decision_refs.join(' ') : String(doc.decision_refs || '')
+        });
+      });
+
+      documentLookup = new Map(preparedDocuments.map(function (document) { return [document.id, document]; }));
 
       engine = new window.MiniSearch({
         fields: [
-          'title', 'summary', 'legal_terms', 'category', 'text',
-          'parentTitle', 'sectionTitle', 'topics_text', 'court_terms',
-          'decision_refs', 'esas', 'karar'
+          'title',
+          'summary',
+          'legal_terms_text',
+          'category',
+          'headings_text',
+          'topics_text',
+          'court_terms_text',
+          'decision_refs_text',
+          'esas',
+          'karar'
         ],
         storeFields: [
-          'title', 'url', 'type', 'category', 'summary', 'parentId', 'parentUrl',
-          'parentTitle', 'sectionTitle', 'sectionLevel', 'area', 'topics',
-          'court', 'chamber', 'court_code', 'esas', 'karar', 'year'
+          'title',
+          'url',
+          'type',
+          'category',
+          'summary',
+          'area',
+          'topics',
+          'court',
+          'chamber',
+          'court_code',
+          'esas',
+          'karar',
+          'year'
         ],
         processTerm: processTerm,
         searchOptions: searchOptions('OR')
       });
-      engine.addAll(documents);
+      engine.addAll(preparedDocuments);
 
       const initialQuery = new URLSearchParams(window.location.search).get('q') || '';
       input.value = initialQuery;

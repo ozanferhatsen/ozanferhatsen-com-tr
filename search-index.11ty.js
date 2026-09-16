@@ -1,10 +1,57 @@
 import * as cheerio from "cheerio";
 import {
-  createHeadingIdAllocator,
   headingTextFromHtml,
   parseDecisionMetadata,
   resolveSearchArea
 } from "./lib/legal-search-utils.js";
+
+const GENERIC_HEADINGS = new Set([
+  "bilgilendirme ve arama kilavuzu",
+  "yargitay ilami resmi metni",
+  "sonuc",
+  "kisa cevap",
+  "sik sorulan sorular",
+  "i. yargilama sureci",
+  "ii. uyusmazlik",
+  "iii. gerekce",
+  "iv. sonuc",
+  "v. sonuc",
+  "iii. on sorun",
+  "iv. gerekce",
+  "davaci istemi:",
+  "davali cevabi:",
+  "davalilar cevabi:",
+  "ilk derece mahkemesi karari:",
+  "mahkeme karari:",
+  "ozel daire bozma karari:",
+  "ozel daire onama karari:",
+  "direnme karari:",
+  "direnme kararinin temyizi:",
+  "bolge adliye mahkemesi karari:",
+  "ilk derece mahkemesinin birinci karari:",
+  "ilk derece mahkemesinin ikinci karari:",
+  "ozel dairenin birinci bozma karari:",
+  "ozel dairenin ikinci bozma karari:"
+]);
+
+function isGenericHeading(h) {
+  const norm = String(h || "")
+    .toLowerCase()
+    .trim()
+    .replace(/[:—–-]$/, "")
+    .trim()
+    .replace(/ğ/g, "g")
+    .replace(/ü/g, "u")
+    .replace(/ş/g, "s")
+    .replace(/ı/g, "i")
+    .replace(/ö/g, "o")
+    .replace(/ç/g, "c");
+  return (
+    GENERIC_HEADINGS.has(norm) ||
+    GENERIC_HEADINGS.has(norm + ":") ||
+    /^(i|ii|iii|iv|v|vi)\.\s*(yargilama sureci|uyusmazlik|gerekce|sonuc|on sorun)$/.test(norm)
+  );
+}
 
 function stripHtml(value = "") {
   return String(value)
@@ -69,57 +116,35 @@ function resolveYear(item, decisionMetadata) {
   return date.getFullYear();
 }
 
-function isSectionHeading(node) {
-  if (!node || node.type !== "tag") return false;
-  const name = String(node.name || "").toLowerCase();
-  return name === "h2" || name === "h3";
+function collectHeadings(html = "") {
+  if (!html) return [];
+  const $ = cheerio.load(html, null, false);
+  const headings = $("h2, h3")
+    .toArray()
+    .map((heading) => headingTextFromHtml($(heading).html() || ""))
+    .filter((h) => h && !isGenericHeading(h));
+  return Array.from(new Set(headings));
 }
 
-function nextNodeWithinScope(node, scope) {
-  if (!node) return null;
-  if (node.children && node.children.length) return node.children[0];
-
-  let cursor = node;
-  while (cursor && cursor !== scope) {
-    if (cursor.next) return cursor.next;
-    cursor = cursor.parent;
-  }
-  return null;
-}
-
-function firstNodeAfterSubtree(node, scope) {
-  let cursor = node;
-  while (cursor && cursor !== scope) {
-    if (cursor.next) return cursor.next;
-    cursor = cursor.parent;
-  }
-  return null;
-}
-
-function collectSectionText(heading, scope) {
-  const parts = [];
-  let cursor = firstNodeAfterSubtree(heading, scope);
-
-  while (cursor) {
-    if (isSectionHeading(cursor)) break;
-    if (cursor.type === "text" && cursor.data) parts.push(cursor.data);
-    cursor = nextNodeWithinScope(cursor, scope);
-  }
-
-  return parts.join(" ").replace(/\s+/g, " ").trim();
-}
-
-function sectionScope($, heading) {
-  return $(heading).closest("article").get(0) ||
-    $(heading).closest("section").get(0) ||
-    $.root().get(0);
-}
-
-function commonRecordData(item, type, sourceText = "") {
+function buildThinRecord(item, type) {
   const data = item.data || {};
   const parentTitle = String(data.title || "").trim();
-  const legalTerms = stringList(data.legal_terms);
-  const topics = stringList(data.search_topics || data.topics);
+  const rawLegal = [
+    ...(Array.isArray(data.legal_terms) ? data.legal_terms : [data.legal_terms]),
+    data.keyword,
+    data.keywords
+  ];
+  const legalTerms = stringList(rawLegal);
+  const legalTermsSet = new Set(legalTerms.map((t) => t.toLowerCase().trim()));
+  const topics = stringList(data.search_topics || data.topics).filter(
+    (topic) => !legalTermsSet.has(topic.toLowerCase().trim())
+  );
+
+  const html = String(item.templateContent || "");
+  const headings = collectHeadings(html);
+
+  // Gövde metnini asla indekse basmıyoruz; yalnızca künye tespiti için ilk kısmı parse ediyoruz.
+  const sourceText = type === "ictihat" ? stripHtml(html).slice(0, 7000) : "";
   const decisionMetadata = parseDecisionMetadata({
     data,
     title: parentTitle,
@@ -127,98 +152,40 @@ function commonRecordData(item, type, sourceText = "") {
     type
   });
 
-  return {
-    parentId: item.url,
-    parentUrl: item.url,
-    parentTitle,
+  const courtTerms = Array.from(
+    new Set([decisionMetadata.court_code, decisionMetadata.chamber, decisionMetadata.court].filter(Boolean))
+  );
+
+  const decisionRefs = Array.from(
+    new Set([decisionMetadata.esas, decisionMetadata.karar].filter(Boolean))
+  );
+
+  const record = {
+    id: item.url,
+    title: parentTitle,
+    url: item.url,
     type,
     area: resolveSearchArea(item),
-    topics,
-    topics_text: topics.join(" "),
-    court: decisionMetadata.court,
-    chamber: decisionMetadata.chamber,
-    court_code: decisionMetadata.court_code,
-    court_terms: decisionMetadata.court_terms,
-    esas: decisionMetadata.esas || "",
-    karar: decisionMetadata.karar || "",
-    decision_refs: decisionMetadata.decision_refs,
-    year: resolveYear(item, decisionMetadata),
-    category: String(data.category || ""),
-    summary: String(data.summary || data.description || ""),
-    legal_terms: legalTerms.join(" "),
-    search_version: 2
+    summary: String(data.summary || data.description || "").trim(),
+    search_version: 3
   };
-}
 
-function documentRecord(item, type, content) {
-  const common = commonRecordData(item, type, content);
-  return {
-    id: item.url,
-    ...common,
-    sectionId: null,
-    sectionTitle: common.parentTitle,
-    sectionLevel: "h1",
-    url: item.url,
-    title: common.parentTitle,
-    content,
-    text: content
-  };
-}
+  if (data.category) record.category = String(data.category).trim();
+  if (legalTerms.length) record.legal_terms = legalTerms;
+  if (topics.length) record.topics = topics;
+  if (headings.length) record.headings = headings;
 
-function sectionRecords(item, type) {
-  if (type === "karar-corpus") {
-    const data = item.data || {};
-    const common = commonRecordData(item, type, data.summary || "");
-    const legalTerms = stringList(data.legal_terms);
-    const topics = stringList(data.search_topics || data.topics);
-    const searchText = [data.summary, ...legalTerms, ...topics].filter(Boolean).join(" ");
-    return [{
-      id: item.url,
-      ...common,
-      sectionId: null,
-      sectionTitle: common.parentTitle,
-      sectionLevel: "h1",
-      url: item.url,
-      title: common.parentTitle,
-      content: data.summary || "",
-      text: searchText
-    }];
-  }
+  if (decisionMetadata.court) record.court = decisionMetadata.court;
+  if (decisionMetadata.chamber) record.chamber = decisionMetadata.chamber;
+  if (decisionMetadata.court_code) record.court_code = decisionMetadata.court_code;
+  if (courtTerms.length) record.court_terms = courtTerms;
+  if (decisionMetadata.esas) record.esas = decisionMetadata.esas;
+  if (decisionMetadata.karar) record.karar = decisionMetadata.karar;
+  if (decisionRefs.length) record.decision_refs = decisionRefs;
+  const year = resolveYear(item, decisionMetadata);
+  if (year) record.year = year;
 
-  const html = String(item.templateContent || "");
-  const plainText = stripHtml(html);
-  const $ = cheerio.load(html, null, false);
-  const headings = $("h2, h3").toArray();
-  const common = commonRecordData(item, type, plainText);
-
-  if (!headings.length) return [documentRecord(item, type, plainText)];
-
-  const allocateId = createHeadingIdAllocator();
-
-  return headings.map((heading) => {
-    const $heading = $(heading);
-    const sectionTitle = headingTextFromHtml($heading.html() || "") || common.parentTitle;
-    const explicitId = String($heading.attr("id") || "").trim();
-    const sectionId = allocateId(sectionTitle, explicitId);
-    const level = String(heading.name || "h2").toLowerCase();
-    const scope = sectionScope($, heading);
-    const content = collectSectionText(heading, scope);
-    const title = sectionTitle === common.parentTitle
-      ? common.parentTitle
-      : `${common.parentTitle} — ${sectionTitle}`;
-
-    return {
-      id: `${item.url}#${sectionId}`,
-      ...common,
-      sectionId,
-      sectionTitle,
-      sectionLevel: level,
-      url: `${item.url}#${sectionId}`,
-      title,
-      content,
-      text: content
-    };
-  });
+  return record;
 }
 
 export const data = {
@@ -228,6 +195,7 @@ export const data = {
 
 export default function render(data) {
   const records = [];
+  const seenUrls = new Set();
 
   for (const item of data.collections?.all || []) {
     if (!item?.url || !item?.data?.title) continue;
@@ -238,7 +206,10 @@ export default function render(data) {
     const type = documentType(item);
     if (!type) continue;
 
-    records.push(...sectionRecords(item, type));
+    if (seenUrls.has(item.url)) continue;
+    seenUrls.add(item.url);
+
+    records.push(buildThinRecord(item, type));
   }
 
   return JSON.stringify(records);
