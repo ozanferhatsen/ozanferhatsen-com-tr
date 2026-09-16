@@ -2,13 +2,8 @@
 layout: base.njk
 title: "İçtihat Arşivi"
 description: "Yargıtay ve Anayasa Mahkemesi Kararları (Sayfalanmış Liste)"
-permalink: "/ictihat/liste/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
-pagination:
-  data: collections.all
-  size: 50
-  alias: kararlar
-  filter:
-    - ictihat
+permalink: false
+excludeFromSitemap: true
 ---
 {# 
   GÜVENLİK (ANTI-SCRAPING) NOTU:
