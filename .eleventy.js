@@ -83,6 +83,7 @@ function legalToc(value = "") {
 }
 
 export default function (eleventyConfig) {
+  eleventyConfig.ignores.add("docs/**");
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("CNAME");
