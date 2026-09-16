@@ -1,0 +1,52 @@
+---
+layout: base.njk
+title: "İçtihat Arşivi"
+description: "Yargıtay ve Anayasa Mahkemesi Kararları (Sayfalanmış Liste)"
+permalink: "/ictihat/liste/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
+pagination:
+  data: collections.all
+  size: 50
+  alias: kararlar
+  filter:
+    - ictihat
+---
+{# 
+  GÜVENLİK (ANTI-SCRAPING) NOTU:
+  Buradaki pagination, botların tüm 30.000 kararı sayfa sayfa gezmesini engellemek için
+  sayfalama sınırına (hard cap) tabi tutulmuştur. Örneğin sadece ilk 50 sayfayı gösterir.
+#}
+
+{% set hardCap = 50 %}
+
+<section class="section">
+  <div class="wrap">
+    <h1>İçtihat Arşivi (Tüm Kararlar)</h1>
+    <p>Aşağıda kararlar listelenmektedir. Tam listeye erişim yerine arama motorunu kullanmanızı öneririz.</p>
+    
+    <div class="precedent-list">
+      {% for page in kararlar %}
+        {% if loop.index <= hardCap * pagination.size %}
+          {% if page.url and '/ictihat/' in page.url and page.url != '/ictihat/' %}
+          <article class="precedent-row">
+            <div class="precedent-row-content">
+              <a class="precedent-row-title" href="{{ page.url }}">{{ page.data.title or page.fileSlug }}</a>
+              <p class="precedent-row-summary">{{ page.data.description }}</p>
+            </div>
+          </article>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </div>
+    
+    {# Sayfalama Navigasyonu (Cap ile) #}
+    <nav class="pagination-nav">
+      {% if pagination.href.previous %}
+        <a href="{{ pagination.href.previous }}">Önceki</a>
+      {% endif %}
+      
+      {% if pagination.pageNumber < hardCap and pagination.href.next %}
+        <a href="{{ pagination.href.next }}">Sonraki</a>
+      {% endif %}
+    </nav>
+  </div>
+</section>

@@ -53,6 +53,17 @@
     gtag('js', new Date());
     gtag('config', 'G-0K86Z2M642');
   </script>
+  {% if page.url and '/ictihat/' in page.url and page.url != '/ictihat/' %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LegalDecision",
+    "name": "{{ title | escape }}",
+    "description": "{{ description | escape }}",
+    "url": "{{ site.url }}{{ page.url }}"
+  }
+  </script>
+  {% endif %}
 </head>
 <body{% if page.url == '/' %} class="page-home"{% endif %}>
 <a class="skip-link" href="#main-content">{% if lang == 'en' %}Skip to content{% else %}İçeriğe atla{% endif %}</a>
@@ -144,5 +155,7 @@
   window.addEventListener('load', checkScroll);
 })();
 </script>
+<!-- Security Honeypot: Trap for automated scrapers -->
+<a href="/_assets/trap.php" style="position: absolute; left: -9999px; top: -9999px; width: 1px; height: 1px; overflow: hidden; z-index: -1;" tabindex="-1" aria-hidden="true" rel="nofollow">Giriş</a>
 </body>
 </html>

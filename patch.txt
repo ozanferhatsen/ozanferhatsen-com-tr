@@ -1,0 +1,11 @@
+  {% if page.url and '/ictihat/' in page.url and page.url != '/ictihat/' %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LegalDecision",
+    "name": "{{ title | escape }}",
+    "description": "{{ description | escape }}",
+    "url": "{{ site.url }}{{ page.url }}"
+  }
+  </script>
+  {% endif %}
