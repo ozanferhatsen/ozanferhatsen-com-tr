@@ -310,17 +310,6 @@ export default function (eleventyConfig) {
     if (!outputPath || !outputPath.endsWith(".html")) return content;
     return addMissingSearchHeadingIds(content);
   });
-  eleventyConfig.addCollection("sitemapPages", (collectionApi) => {
-    let all = collectionApi.getAll();
-    let ictihatCount = 0;
-    return all.filter((item) => {
-      if (item.url && item.url.startsWith("/ictihat/")) {
-        ictihatCount++;
-        return ictihatCount <= 500;
-      }
-      return true;
-    });
-  });
 
   return {
     markdownTemplateEngine: "njk",
@@ -334,4 +323,3 @@ export default function (eleventyConfig) {
     }
   };
 }
-
