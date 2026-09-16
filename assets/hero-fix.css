@@ -113,28 +113,28 @@
 /* MOBİL HUKUKÇU İŞLETİM SİSTEMİ (LEGAL OS <=760px)                 */
 /* ================================================================= */
 /* ================================================================= */
-/* MOBİL HUKUKÇU İŞLETİM SİSTEMİ (LEGAL OS <=760px)                 */
+/* MOBİL HUKUKÇU İŞLETİM SİSTEMİ (IPHONE APP GRID <=760px)           */
 /* ================================================================= */
 .mobile-legal-os { display: none; }
 
 @media(max-width: 760px) {
-  /* 1. Ana sayfada mobilde üstteki gereksiz sandviç menüyü ve site-header'ı kaldırıyoruz */
+  /* 1. Üstteki sandviç menüyü ve header'ı ana sayfada kesinlikle kaldır */
   body.page-home .site-header,
   body.page-home .mobile-header-controls,
   body.page-home .menu-btn {
     display: none !important;
   }
 
-  /* 2. Masaüstü hero-shell mobilde gizlenir */
+  /* 2. Eski hero-shell gizlenir */
   .hero-shell { display: none !important; }
   
-  /* 3. Tam ekran ferah Mobil OS kabuğu */
+  /* 3. iPhone Ana Ekran Kabuğu */
   .mobile-legal-os {
     display: block;
     position: relative;
     min-height: 100svh;
     width: 100%;
-    padding: calc(16px + env(safe-area-inset-top, 0px)) 12px calc(100px + env(safe-area-inset-bottom, 0px));
+    padding: calc(14px + env(safe-area-inset-top, 0px)) 12px calc(95px + env(safe-area-inset-bottom, 0px));
     overflow-x: hidden;
     color: #261e17;
     box-sizing: border-box;
@@ -149,87 +149,39 @@
     transform: scale(1.01);
   }
 
-  /* Warm Beige & Amber Gradient Mask */
+  /* Sıcak Bej & Amber Degradeli Işık Maskesi */
   .mos-wallpaper-overlay {
     position: absolute;
     inset: 0;
     z-index: 1;
     background:
       radial-gradient(circle at 75% 35%, rgba(255, 235, 205, 0.25) 0%, transparent 55%),
-      linear-gradient(180deg, rgba(240, 230, 215, 0.38) 0%, rgba(235, 222, 202, 0.48) 40%, rgba(35, 25, 18, 0.52) 100%);
+      linear-gradient(180deg, rgba(240, 230, 215, 0.35) 0%, rgba(235, 222, 202, 0.45) 40%, rgba(35, 25, 18, 0.50) 100%);
   }
 
-  /* Genişletilmiş ve ferahlatılmış ana kabuk */
   .mos-shell {
     position: relative;
     z-index: 2;
     width: 100%;
-    max-width: 100%;
-    margin: 0;
+    max-width: 440px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 12px;
   }
 
-  /* Üst Kimlik Barı */
-  .mos-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    min-height: 44px;
-    padding: 0 4px;
-    margin-bottom: 2px;
-  }
-  .mos-badge {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
-    color: #634724;
-  }
-  .mos-badge-dot {
-    width: 7px;
-    height: 7px;
-    border-radius: 999px;
-    background: #9e743d;
-    box-shadow: 0 0 8px rgba(158, 116, 61, 0.7);
-  }
-  .mos-title {
-    font-family: 'Cormorant Garamond', Georgia, serif;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 1.1;
-    color: #221a14;
-    margin-top: 2px;
-  }
-  .mos-icon-btn {
-    display: grid;
-    place-items: center;
-    width: 42px;
-    height: 42px;
-    border-radius: 14px;
-    background: rgba(250, 246, 239, 0.88);
-    border: 1px solid rgba(255, 255, 255, 0.75);
-    color: #3d2e20;
-    box-shadow: 0 4px 12px rgba(45, 32, 20, 0.10);
-  }
-
-  /* Geniş Spotlight Arama */
+  /* iOS Spotlight Arama Çubuğu */
   .mos-spotlight {
-    position: relative;
     display: flex;
     align-items: center;
-    gap: 12px;
-    min-height: 54px;
+    gap: 10px;
+    min-height: 50px;
     width: 100%;
     padding: 0 16px;
     border-radius: 20px;
     background: rgba(255, 253, 248, 0.94);
     border: 1px solid rgba(215, 198, 175, 0.8);
-    box-shadow: 0 10px 25px rgba(45, 32, 20, 0.12);
+    box-shadow: 0 8px 24px rgba(45, 32, 20, 0.12);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     box-sizing: border-box;
@@ -252,7 +204,7 @@
     color: #827263;
   }
   .mos-spotlight-tag {
-    padding: 3px 8px;
+    padding: 2px 7px;
     border-radius: 6px;
     background: #ebdcc9;
     border: 1px solid #cfbeaa;
@@ -261,49 +213,36 @@
     color: #63503e;
   }
 
-  /* Canlı Radar Karşılama */
-  .mos-greeting {
-    margin-top: 2px;
-    padding: 0 4px;
-  }
-  .mos-eyebrow {
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 0.15em;
-    color: #5c4328;
-    text-transform: uppercase;
-  }
-  .mos-greeting h2 {
-    font-family: 'Cormorant Garamond', Georgia, serif;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1.15;
-    color: #221810;
-    margin: 3px 0 0;
-  }
-
-  /* Ferah Cam Kartlar */
-  .mos-card {
-    width: 100%;
-    background: rgba(250, 246, 239, 0.86);
-    border: 1px solid rgba(255, 255, 255, 0.8);
-    border-radius: 22px;
-    box-shadow: 0 12px 30px rgba(45, 32, 20, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.95);
+  /* Bağımsız iPhone Kutusu (Tile) Genel Stili */
+  .mos-tile {
+    display: block;
+    background: rgba(250, 246, 239, 0.88);
+    border: 1px solid rgba(255, 255, 255, 0.90);
+    border-radius: 24px;
+    box-shadow: 0 8px 24px rgba(40, 28, 18, 0.10), inset 0 1px 0 rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(20px) saturate(140%);
     -webkit-backdrop-filter: blur(20px) saturate(140%);
+    text-decoration: none;
+    color: #221a14;
+    transition: transform 120ms ease, box-shadow 120ms ease;
     box-sizing: border-box;
   }
-
-  /* Ana Kritik Kart */
-  .mos-card-primary {
-    padding: 20px;
+  .mos-tile:active {
+    transform: scale(0.96);
+    box-shadow: 0 2px 10px rgba(40, 28, 18, 0.08);
   }
-  .mos-card-top {
+
+  /* Geniş Widget (2x1 Canlı Radar) */
+  .mos-tile-wide {
+    padding: 18px;
+    width: 100%;
+  }
+  .mos-tile-top {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  .mos-card-tag {
+  .mos-tile-badge {
     display: flex;
     align-items: center;
     gap: 6px;
@@ -312,9 +251,9 @@
     letter-spacing: 0.12em;
     text-transform: uppercase;
   }
-  .mos-card-tag.alert { color: #8f530f; }
-  .mos-status-pill {
-    padding: 3px 9px;
+  .mos-tile-badge.alert { color: #8f530f; }
+  .mos-pill-status {
+    padding: 2px 8px;
     border-radius: 999px;
     background: #ebd7bd;
     border: 1px solid #d6be9f;
@@ -322,157 +261,80 @@
     font-weight: 700;
     color: #78450a;
   }
-  .mos-card-primary h3 {
-    margin: 12px 0 8px;
-    font-size: 18px;
+  .mos-tile-wide h3 {
+    margin: 10px 0 6px;
+    font-size: 17px;
     font-weight: 700;
     line-height: 1.3;
     color: #22170f;
   }
-  .mos-card-primary p {
+  .mos-tile-wide p {
     margin: 0;
-    font-size: 14px;
-    line-height: 1.6;
+    font-size: 13px;
+    line-height: 1.55;
     color: #48392d;
   }
-  .mos-card-footer {
+  .mos-tile-action {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 16px;
-    padding-top: 14px;
-    border-top: 1px solid #dfd1bd;
-  }
-  .mos-card-meta {
-    font-size: 12px;
-    font-weight: 500;
-    color: #705b47;
-  }
-  .mos-card-link {
-    display: inline-flex;
     align-items: center;
     gap: 6px;
-    font-size: 13px;
+    margin-top: 14px;
+    padding-top: 12px;
+    border-top: 1px solid #dfd1bd;
+    font-size: 12px;
     font-weight: 700;
     color: #8a500e;
-    text-decoration: none;
   }
 
-  /* Darlığı Yok Eden Geniş İkili Kart Düzeni */
-  .mos-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  /* Bağımsız iPhone App Izgarası (App Grid) */
+  .mos-app-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
     width: 100%;
   }
-  .mos-subcard {
-    padding: 16px 18px;
+
+  /* Bağımsız Kare App Kutusu */
+  .mos-app-box {
+    padding: 16px 14px;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    justify-content: space-between;
+    min-height: 120px;
   }
-  .mos-subcard-icon {
+  .mos-app-icon {
     display: grid;
     place-items: center;
-    width: 38px;
-    height: 38px;
-    border-radius: 12px;
-    margin-bottom: 10px;
+    width: 44px;
+    height: 44px;
+    border-radius: 14px;
+    margin-bottom: 12px;
   }
-  .mos-subcard-icon.emerald {
-    background: #e3eedf;
-    color: #2b6127;
-    border: 1px solid #c3dcbd;
-  }
-  .mos-subcard-icon.sky {
-    background: #e2ecf5;
-    color: #215787;
-    border: 1px solid #c4daf0;
-  }
-  .mos-subcard-eyebrow {
-    font-size: 10px;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #2c5980;
-    margin-bottom: 2px;
-  }
-  .mos-subcard h4 {
-    margin: 0 0 6px;
-    font-size: 16px;
+  .mos-app-icon.emerald { background: #e1efe0; color: #1e561a; border: 1px solid #c0ddbd; }
+  .mos-app-icon.sky { background: #e1edf8; color: #1b4e7a; border: 1px solid #bed6ed; }
+  .mos-app-icon.amber { background: #fbf0dd; color: #8a5614; border: 1px solid #eed6b4; }
+  .mos-app-icon.rose { background: #fbe6e3; color: #8c2c1e; border: 1px solid #edd1cb; }
+  .mos-app-icon.orange { background: #fdede2; color: #944414; border: 1px solid #f3d3bf; }
+  .mos-app-icon.indigo { background: #e8eaf8; color: #2b3680; border: 1px solid #ced2ee; }
+  .mos-app-icon.gold { background: #f7f1d8; color: #776313; border: 1px solid #e6daa7; }
+  .mos-app-icon.purple { background: #f2e8f7; color: #612975; border: 1px solid #dccde4; }
+
+  .mos-app-box h4 {
+    margin: 0;
+    font-size: 15px;
     font-weight: 700;
     color: #22170f;
     line-height: 1.25;
   }
-  .mos-subcard p {
-    margin: 0;
-    font-size: 13px;
-    line-height: 1.5;
-    color: #524235;
-  }
-  .mos-subcard-link {
-    margin-top: 12px;
-    font-size: 12px;
-    font-weight: 700;
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-  }
-  .mos-subcard-link.emerald { color: #235c1f; }
-  .mos-subcard-link.sky { color: #1c5282; }
-  .mos-subcard-footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 12px;
-    padding-top: 10px;
-    border-top: 1px solid rgba(223, 209, 189, 0.6);
-  }
-  .mos-time {
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
+  .mos-app-sub {
     font-size: 11px;
-    color: #695847;
+    font-weight: 500;
+    color: #6e5c4d;
+    line-height: 1.3;
+    margin-top: 3px;
   }
 
-  /* Ferah Kısayol Hapları */
-  .mos-pills {
-    display: flex;
-    gap: 8px;
-    overflow-x: auto;
-    padding: 4px 2px;
-    scrollbar-width: none;
-    width: 100%;
-  }
-  .mos-pills::-webkit-scrollbar { display: none; }
-  .mos-pill {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    flex-shrink: 0;
-    padding: 8px 14px;
-    border-radius: 14px;
-    background: rgba(250, 246, 239, 0.90);
-    border: 1px solid rgba(255, 255, 255, 0.8);
-    font-size: 12px;
-    font-weight: 600;
-    color: #403022;
-    text-decoration: none;
-    box-shadow: 0 2px 8px rgba(45, 32, 20, 0.08);
-  }
-  .mos-pill-dot {
-    width: 6px;
-    height: 6px;
-    border-radius: 999px;
-  }
-  .mos-pill-dot.gold { background: #b0782a; }
-  .mos-pill-dot.green { background: #3b7a36; }
-  .mos-pill-dot.blue { background: #3b6c94; }
-  .mos-pill-dot.amber { background: #966d38; }
-
-  /* Ferah ve Geniş Alt Dock */
+  /* Alt Sabit iPhone Dock */
   .mos-dock {
     position: fixed;
     bottom: calc(10px + env(safe-area-inset-bottom, 0px));
@@ -486,7 +348,7 @@
     padding: 6px 6px;
     border-radius: 26px;
     background: rgba(248, 244, 236, 0.92);
-    border: 1px solid rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.90);
     box-shadow: 0 16px 40px rgba(35, 25, 15, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(28px) saturate(150%);
     -webkit-backdrop-filter: blur(28px) saturate(150%);
