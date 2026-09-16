@@ -35,7 +35,7 @@
   <meta name="twitter:title" content="{{ resolvedTitle }}">
   <meta name="twitter:description" content="{{ resolvedDescription }}">
   <link rel="stylesheet" href="/assets/styles.css?v=20260914-mobile2">
-  <link rel="stylesheet" href="/assets/hero-fix.css?v=20260916-legalos">
+  <link rel="stylesheet" href="/assets/hero-fix.css?v=20260916-wide3">
   {% if currentPractice %}<link rel="stylesheet" href="/assets/practice-areas.css?v=20260914-mobile2">{% endif %}
   {% if page_css %}<link rel="stylesheet" href="{{ page_css }}?v=20260914-mobile2">{% endif %}
   {% if schema %}<script type="application/ld+json">{{ schema | safe }}</script>{% endif %}
@@ -54,7 +54,7 @@
     gtag('config', 'G-0K86Z2M642');
   </script>
 </head>
-<body>
+<body{% if page.url == '/' %} class="page-home"{% endif %}>
 <a class="skip-link" href="#main-content">{% if lang == 'en' %}Skip to content{% else %}İçeriğe atla{% endif %}</a>
 {% include "components/site-header.njk" %}
 
