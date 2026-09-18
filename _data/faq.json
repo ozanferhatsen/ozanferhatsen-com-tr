@@ -1,0 +1,236 @@
+{
+  "title": "Sık Sorulan Sorular",
+  "description": "Kentsel dönüşüm, imar, inşaat ve gayrimenkul hukukunda sık sorulan soruların kısa cevapları ve ayrıntılı hukuki rehber bağlantıları.",
+  "sections": [
+    {
+      "id": "kentsel-donusum",
+      "title": "Kentsel Dönüşüm",
+      "practice_url": "/kentsel-donusum-hukuku/",
+      "intro": "Riskli yapı tespitinden yeni binanın yönetim planına kadar dönüşüm sürecinin en sık sorulan pratik soruları.",
+      "items": [
+        {
+          "q": "Riskli yapı tespiti nasıl yapılır?",
+          "a": "Riskli yapı tespiti, 6306 sayılı Kanun kapsamındaki teknik esaslara göre lisanslı kuruluşlarca yürütülen inceleme ile başlar. Başvuru, teknik inceleme ve raporun idari işleme dönüşmesi ayrı aşamalardır.",
+          "url": "/makaleler/riskli-yapi-tespiti-nasil-yapilir/",
+          "link": "Riskli yapı tespiti rehberi"
+        },
+        {
+          "q": "Riskli yapı tespitine kaç gün içinde itiraz edilir?",
+          "a": "İtiraz ve dava süreleri aynı şey değildir. Teknik heyete itiraz ile idari yargıda iptal davası farklı usul ve sürelerde yürür; tebliğ ve ilan tarihi ayrıca kontrol edilmelidir.",
+          "url": "/makaleler/riskli-yapi-tespitine-itiraz-iptal-davasi/",
+          "link": "İtiraz ve iptal davası rehberi"
+        },
+        {
+          "q": "6306 kapsamında tebligat nasıl yapılır?",
+          "a": "Kentsel dönüşümde ilan, e-Devlet, elektronik tebligat ve diğer bildirim yöntemleri işlemin türüne göre farklı sonuç doğurabilir. Süre hesabında bildirimin hangi hukuki işleme ait olduğu belirlenmelidir.",
+          "url": "/makaleler/6306-tebligat-bildirim-usulleri/",
+          "link": "6306 tebligat rehberi"
+        },
+        {
+          "q": "Kentsel dönüşümde malik toplantısı nasıl çağrılır?",
+          "a": "2026 sonrası uygulamada toplantı çağrısı, Ek-12 ve karar nisabı birlikte değerlendirilmelidir. Toplantının usulüne uygun çağrılması ile karar için gereken pay çoğunluğu birbirinden ayrıdır.",
+          "url": "/makaleler/kentsel-donusum-malik-toplantisi-cagri-ek-12/",
+          "link": "Malik toplantısı ve çağrı rehberi"
+        },
+        {
+          "q": "Bir malik kentsel dönüşüm sözleşmesini imzalamazsa ne olur?",
+          "a": "Bir malikin imza vermemesi süreci her durumda durdurmaz. Kanundaki şartlar oluşmuşsa hisseleri oranında salt çoğunlukla karar ve karara katılmayan pay bakımından özel satış süreci gündeme gelebilir.",
+          "url": "/makaleler/kentsel-donusum-bir-malik-imzalamazsa-pay-satisi/",
+          "link": "Salt çoğunluk ve pay satışı rehberi"
+        },
+        {
+          "q": "Pay satışında rayiç bedel nasıl belirlenir?",
+          "a": "Pay satışı yalnız çoğunluk kararından ibaret değildir; değerleme, teklif, bildirim ve ihale aşamaları ayrıca denetlenir. Rayiç bedelin hangi tarih ve verilerle belirlendiği somut dosyada önemlidir.",
+          "url": "/makaleler/kentsel-donusum-pay-satisi-degerleme-rayic-bedel/",
+          "link": "Pay satışı ve rayiç değer rehberi"
+        },
+        {
+          "q": "Kentsel dönüşüm sözleşmesinde en kritik maddeler nelerdir?",
+          "a": "Bağımsız bölüm paylaşımı, proje eki, metrekare, şerefiye, tapu devri, teminat, teknik şartname, teslim ve fesih hükümleri birlikte kurulmalıdır. Tek bir güçlü madde diğer belirsizlikleri telafi etmez.",
+          "url": "/makaleler/bagdat-caddesi-kentsel-donusum-sozlesmesi/",
+          "link": "Sözleşme kontrol rehberi"
+        },
+        {
+          "q": "Kentsel dönüşümde eski dairenin metrekaresi korunur mu?",
+          "a": "Eski dairenin yüzölçümü yeni projede otomatik olarak aynen korunmaz. Yeni imar hakkı, proje ve tarafların paylaşım sözleşmesi belirleyicidir; net ve brüt alan tanımlarının ayrıca yazılması gerekir.",
+          "url": "/makaleler/kentsel-donusumda-daire-kuculur-mu-metrekare/",
+          "link": "Metrekare ve küçülme rehberi"
+        },
+        {
+          "q": "Kentsel dönüşümde şerefiye nasıl hesaplanır?",
+          "a": "Şerefiye için kanunda bütün projelere uygulanacak tek bir formül yoktur. Kat, cephe, manzara, yön, balkon, otopark ve bağımsız bölüm konumu gibi değer unsurları ölçülebilir bir karşılaştırmaya dönüştürülmelidir.",
+          "url": "/makaleler/kentsel-donusum-serefiye-kat-cephe-deniz-manzarasi/",
+          "link": "Şerefiye rehberi"
+        },
+        {
+          "q": "Arsa payı yanlışsa kentsel dönüşümden önce düzeltilebilir mi?",
+          "a": "Arsa payı, yeni projedeki karar gücü ve ekonomik denge bakımından kritik olabilir. Hatalı payın hangi yöntemle düzeltileceği ve dönüşüm sürecine etkisi, dava zamanı ve mevcut tapu durumuyla birlikte değerlendirilmelidir.",
+          "url": "/makaleler/kentsel-donusum-arsa-payi-duzeltme-davasi/",
+          "link": "Arsa payı düzeltme rehberi"
+        },
+        {
+          "q": "Müteahhide tapu ne zaman devredilmeli?",
+          "a": "Tapu devrinin sözleşmenin başında tek seferde yapılması ile inşaat ilerlemesine bağlanan kademeli devir aynı risk düzeyini taşımaz. Devir takvimi teminat ve gerçekleşen inşaat seviyesiyle eşleştirilmelidir.",
+          "url": "/makaleler/kentsel-donusum-muteahhide-tapu-ne-zaman-devredilmeli/",
+          "link": "Tapu devri rehberi"
+        },
+        {
+          "q": "Banka teminat mektubu kentsel dönüşümde nasıl olmalı?",
+          "a": "Teminat mektubunun yalnız mevcut olması yeterli değildir. Lehtar, tutar, süre, ödeme şartı ve teminatın hangi yükümlülükleri karşıladığı açık olmalıdır.",
+          "url": "/makaleler/kentsel-donusum-banka-teminat-mektubu/",
+          "link": "Banka teminat mektubu rehberi"
+        },
+        {
+          "q": "Otopark, depo, balkon ve teras hakları yeni projede nasıl korunur?",
+          "a": "Bu unsurlar yalnız satış sunumunda değil; proje, bağımsız bölüm listesi, sözleşme, teknik şartname ve gerekiyorsa yönetim planında birbiriyle uyumlu biçimde gösterilmelidir.",
+          "url": "/makaleler/kentsel-donusum-otopark-depo-balkon-teras-hakki/",
+          "link": "Otopark, depo, balkon ve teras rehberi"
+        },
+        {
+          "q": "Yeni binada asansör ve çatı giderleri nasıl paylaştırılmalı?",
+          "a": "KMK m.20 kanuni başlangıç sistemini kurar; ancak yönetim planında giderin ekonomik niteliğine göre farklılaştırma tartışılabilir. Asansörde kullanım ve yatırım bileşeni, çatıda ise anagayrimenkulü koruyan ortak yapı niteliği özellikle ayrılmalıdır.",
+          "url": "/makaleler/kentsel-donusum-yonetim-plani-ortak-gider-asansor-cati/",
+          "link": "Yönetim planı ve ortak giderler rehberi"
+        },
+        {
+          "q": "Müteahhit teslimi geciktirirse kira veya cezai şart istenebilir mi?",
+          "a": "Sözleşmesel kira, gecikme tazminatı ve cezai şart aynı kavram değildir. Teslim süresinin başlangıcı, mücbir sebep düzeni ve gecikmenin ekonomik sonucu sözleşmede ayrı ayrı kurulmalıdır.",
+          "url": "/makaleler/kentsel-donusum-teslim-gecikmesi-kira-cezai-sart/",
+          "link": "Teslim gecikmesi rehberi"
+        }
+      ]
+    },
+    {
+      "id": "imar-hukuku",
+      "title": "İmar Hukuku",
+      "practice_url": "/imar-hukuku/",
+      "intro": "DOP, parselasyon, kök parsel, eski terkler ve yapılaşma hakkı bakımından en sık karşılaşılan sorular.",
+      "items": [
+        {
+          "q": "Aynı taşınmazdan ikinci kez DOP kesilebilir mi?",
+          "a": "İkinci bir düzenleme yapılması her durumda ikinci kez hukuka aykırı kesinti yapıldığı anlamına gelmez. Önceki düzenleme, eski terkler, kök parsel ve yeni düzenleme alanının hesabı birlikte incelenmelidir.",
+          "url": "/makaleler/ikinci-kez-dop-kesilebilir-mi/",
+          "link": "İkinci kez DOP rehberi"
+        },
+        {
+          "q": "Parselasyon planı iptal edilirse tapular ne olur?",
+          "a": "Parselasyon işleminin iptali ile tapu sicilindeki sonuçların düzeltilmesi aynı işlem değildir. İptal kararının kapsamı ve idarenin eski hukuki durumu nasıl geri kuracağı ayrıca değerlendirilir.",
+          "url": "/makaleler/parselasyon-plani-iptal-edilirse-tapular-ne-olur/",
+          "link": "Parselasyon iptali ve tapu rehberi"
+        },
+        {
+          "q": "Kök parsel nedir ve imar hakkını neden etkiler?",
+          "a": "Bugünkü parsel her zaman hesabın ilk noktası değildir. Önceki ifraz, tevhit, terk ve parselasyon işlemleri bugünkü yapılaşma hakkının hangi alan üzerinden okunacağını etkileyebilir.",
+          "url": "/makaleler/kok-parsel-nedir-emsal-imar-hakki/",
+          "link": "Kök parsel ve emsal rehberi"
+        },
+        {
+          "q": "Daha önce yapılan yol terki yeni DOP hesabında dikkate alınır mı?",
+          "a": "Eski yol veya kamu terklerinin kaynağı ve hangi işlem kapsamında yapıldığı önemlidir. Yeni düzenlemede aynı taşınmaza tekrar yük bindirilip bindirilmediği işlem zinciri üzerinden incelenmelidir.",
+          "url": "/makaleler/yol-terki-eski-terkler-imar-hakki-dop/",
+          "link": "Eski terkler ve DOP rehberi"
+        },
+        {
+          "q": "Belediyeye terk edilen yer sonradan imara açılırsa eski malik hak iddia edebilir mi?",
+          "a": "Sonuç, terkin hukuki sebebine, bedelli veya bedelsiz oluşuna ve sonradan gerçekleşen plan değişikliğine göre değişebilir. Terk işleminin kaynağı görülmeden yalnız güncel tapuya bakmak yeterli değildir.",
+          "url": "/makaleler/belediyeye-terk-edilen-yer-sonradan-imara-acilirsa/",
+          "link": "Terk edilen alanın sonradan imara açılması rehberi"
+        },
+        {
+          "q": "İmar hakkı aktarımı veya transferi nedir?",
+          "a": "İmar hakkı aktarımı, yapılaşma hakkının belirli koşullarla başka bir alanda kullanılmasına yönelik planlama aracıdır. Her taşınmaz için otomatik uygulanmaz; kanuni dayanak, plan kararı ve alıcı-verici alan ilişkisi incelenmelidir.",
+          "url": "/makaleler/imar-hakki-aktarimi-transferi-nedir/",
+          "link": "İmar hakkı aktarımı rehberi"
+        }
+      ]
+    },
+    {
+      "id": "insaat-hukuku",
+      "title": "İnşaat Hukuku",
+      "practice_url": "/insaat-hukuku/",
+      "intro": "Yüklenici sözleşmesi, teknik şartname, teminat, tapu devri ve teslim risklerine ilişkin pratik sorular.",
+      "items": [
+        {
+          "q": "Kat karşılığı inşaat sözleşmesi feshedilirse müteahhitten ev alan kişinin tapusu ne olur?",
+          "a": "Yargıtay İçtihadı Birleştirme Büyük Genel Kurulunun 2025/2 sayılı kararı, üçüncü kişinin durumunu iyiniyet ve tapu siciline güven ekseninde yeniden değerlendiren önemli bir çerçeve kurdu. Sonuç, devir zinciri ve somut iyiniyet koşullarına göre belirlenir.",
+          "url": "/makaleler/kat-karsiligi-insaat-fesih-muteahhitten-ev-alan-tapu-iptali-ibk-2025-2/",
+          "link": "İBK 2025/2 ve tapu rehberi"
+        },
+        {
+          "q": "Teknik şartnamede “1. sınıf malzeme” yazması yeterli mi?",
+          "a": "Hayır. Marka, model, performans standardı, eşdeğer ürün koşulu, uygulama biçimi ve kabul kriteri ölçülebilir değilse “1. sınıf” ifadesi uyuşmazlığı çözmek yerine büyütebilir.",
+          "url": "/makaleler/kentsel-donusum-teknik-sartname-birinci-sinif-malzeme/",
+          "link": "Teknik şartname rehberi"
+        },
+        {
+          "q": "Bina tamamlama sigortası ile banka teminat mektubu aynı şey mi?",
+          "a": "Hayır. Sigorta, banka garantisi ve diğer teminat araçlarının borçlusu, ödeme koşulu ve koruduğu risk farklıdır. Projede tek bir güvenceye dayanmak yerine teminat yapısı birlikte okunmalıdır.",
+          "url": "/makaleler/kentsel-donusum-bina-tamamlama-sigortasi-teminatlar/",
+          "link": "Bina tamamlama sigortası ve teminatlar"
+        },
+        {
+          "q": "İnşaat devam ederken tapu devri nasıl güvenceye bağlanır?",
+          "a": "Tapu devri, gerçekleşen inşaat seviyesi ve teminat mekanizmasıyla eşleştirilebilir. Erken ve karşılıksız devir, arsa sahibi veya malik bakımından geri dönüşü zor riskler yaratabilir.",
+          "url": "/makaleler/kentsel-donusum-muteahhide-tapu-ne-zaman-devredilmeli/",
+          "link": "Kademeli tapu devri rehberi"
+        },
+        {
+          "q": "Müteahhidin finansal gücü nasıl araştırılır?",
+          "a": "Sermaye veya referans proje sayısı tek başına yeterli değildir. Şirket kimliği, finansal yapı, devam eden iş yükü ve projenin kendi finansman modeli birlikte değerlendirilmelidir.",
+          "url": "/makaleler/kentsel-donusum-muteahhit-finansal-gucu/",
+          "link": "Müteahhit finansal gücü rehberi"
+        },
+        {
+          "q": "İnşaat teslimi gecikirse hangi haklar gündeme gelir?",
+          "a": "Gecikmede sözleşmesel kira, tazminat ve cezai şart ayrı kurumlar olarak değerlendirilir. Önce teslim borcunun ne zaman muaccel olduğu ve gecikmenin hangi tarafa yüklenebileceği belirlenmelidir.",
+          "url": "/makaleler/kentsel-donusum-teslim-gecikmesi-kira-cezai-sart/",
+          "link": "Teslim gecikmesi rehberi"
+        },
+        {
+          "q": "Yüklenici işe başlamaz veya işi uzun süre durdurursa ne olur?",
+          "a": "6306 kapsamındaki projelerde belirli şartlarda idari fesih mekanizması ayrıca gündeme gelebilir. Özel hukuk sözleşmesindeki fesih hakları ile 6306 kapsamındaki idari mekanizma birbirine karıştırılmamalıdır.",
+          "url": "/makaleler/6306-idari-fesih-muteahhit-ise-baslamazsa/",
+          "link": "6306 kapsamında idari fesih rehberi"
+        }
+      ]
+    },
+    {
+      "id": "gayrimenkul-hukuku",
+      "title": "Gayrimenkul Hukuku",
+      "practice_url": "/gayrimenkul-hukuku/",
+      "intro": "Tapu, taşınmaz satışı, üçüncü kişi iyiniyeti ve arsa payına ilişkin temel uyuşmazlık soruları.",
+      "items": [
+        {
+          "q": "Tapu kaydı her durumda mülkiyet uyuşmazlığını tek başına çözer mi?",
+          "a": "Hayır. Tescilin dayanağı, önceki sözleşmeler, vekâlet ilişkisi, irade sakatlığı ve üçüncü kişinin iyiniyeti tapu kaydının hukuki sonucunu etkileyebilir.",
+          "url": "/makaleler/yargitay-hukuk-genel-kurulu-kararlari-tasinmaz-satisindan-dogan-uyusmazliklar/",
+          "link": "Taşınmaz satış uyuşmazlıkları ve HGK rehberi"
+        },
+        {
+          "q": "Harici taşınmaz satışı tapu devri olmadan geçerli midir?",
+          "a": "Taşınmaz satışında şekil şartı temel önem taşır; ancak bedelin ödenmesi, zilyetliğin devri ve tarafların davranışları farklı talepler doğurabilir. Geçersizlik ile iade, tescil veya tazminat sonuçları aynı değildir.",
+          "url": "/makaleler/yargitay-hukuk-genel-kurulu-kararlari-tasinmaz-satisindan-dogan-uyusmazliklar/",
+          "link": "Harici satış ve HGK kararları"
+        },
+        {
+          "q": "Müteahhitten veya satıcıdan taşınmaz alan üçüncü kişinin iyiniyeti nasıl değerlendirilir?",
+          "a": "İyiniyet, yalnız tapuda malik görünen kişiden alım yapılmasıyla otomatik olarak kabul edilmez veya reddedilmez. Sicil, sözleşme zinciri, bilinen uyuşmazlıklar ve somut olayın koşulları birlikte değerlendirilir.",
+          "url": "/makaleler/yargitay-hukuk-genel-kurulu-kararlari-tasinmaz-satisindan-dogan-uyusmazliklar/",
+          "link": "Üçüncü kişi iyiniyeti ve HGK rehberi"
+        },
+        {
+          "q": "Vekilin taşınmazı yetkisini kötüye kullanarak devretmesi halinde tapu iptal edilebilir mi?",
+          "a": "Vekâlet yetkisinin kapsamı, vekilin sadakat borcu ve taşınmazı edinen üçüncü kişinin durumu birlikte incelenir. Vekilin davranışı kadar karşı tarafın bunu bilip bilmediği de önem taşıyabilir.",
+          "url": "/makaleler/yargitay-hukuk-genel-kurulu-kararlari-tasinmaz-satisindan-dogan-uyusmazliklar/",
+          "link": "Vekil hilesi ve taşınmaz uyuşmazlıkları"
+        },
+        {
+          "q": "Arsa payı bağımsız bölümün gerçek değerini yansıtmıyorsa ne yapılabilir?",
+          "a": "Arsa payının kuruluş tarihindeki bağımsız bölüm değerleriyle uyumsuz olduğu iddia ediliyorsa düzeltme gündeme gelebilir. Özellikle dönüşüm öncesinde yanlış pay, karar ve gider dengelerini de etkileyebilir.",
+          "url": "/makaleler/kentsel-donusum-arsa-payi-duzeltme-davasi/",
+          "link": "Arsa payı düzeltme rehberi"
+        }
+      ]
+    }
+  ]
+}
