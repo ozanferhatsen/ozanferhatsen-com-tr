@@ -19,6 +19,7 @@
 ## Hukuki İncelemeler ve Arşivler
 > Yargıtay HGK, daire kararları ve AYM bireysel başvuru kararlarına ilişkin editoryal özetler, hukuki dayanaklar (ratio decidendi) ve karşılaştırmalı içtihat haritaları.
 - Hukuki Makaleler: https://ozanferhatsen.com.tr/makaleler/
+- Sık Sorulan Sorular: https://ozanferhatsen.com.tr/sss/
 - Yargıtay ve AYM Kararları: https://ozanferhatsen.com.tr/ictihat/
 - Karar Haritaları: https://ozanferhatsen.com.tr/ictihat/karar-haritalari/
 
