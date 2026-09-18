@@ -123,7 +123,7 @@ function collectHeadings(html = "") {
     .toArray()
     .map((heading) => headingTextFromHtml($(heading).html() || ""))
     .filter((h) => h && !isGenericHeading(h));
-  return Array.from(new Set(headings));
+  return Array.from(new Set(headings)).slice(0, 16);
 }
 
 function buildThinRecord(item, type) {
