@@ -1,7 +1,8 @@
-{% set isHomepage = page.url == '/' %}
+{% set isHomepage = page.url == '/' or page.url == '/en/' %}
 <header class="site-header" data-site-header>
   <div class="wrap nav">
     {% if lang == 'en' %}
+    <a class="site-brand{% if isHomepage %} site-brand--dynamic{% endif %}" href="/en/" aria-label="Atty. Ozan Ferhat Şen home"{% if isHomepage %} data-dynamic-brand aria-hidden="true" tabindex="-1"{% endif %}>ATTY. OZAN FERHAT ŞEN</a>
     <nav class="nav-links" id="menu" aria-label="Main navigation">
       <details class="nav-dropdown">
         <summary>Practice Areas</summary>
@@ -31,7 +32,7 @@
     </nav>
     <a class="nav-cta" href="https://wa.me/905543398209">Contact in English</a>
     {% else %}
-    <a class="site-brand{% if isHomepage %} site-brand--dynamic{% endif %}" href="/" aria-label="Ozan Ferhat Şen ana sayfa"{% if isHomepage %} data-dynamic-brand aria-hidden="true" tabindex="-1"{% endif %}>OZAN FERHAT ŞEN</a>
+    <a class="site-brand{% if isHomepage %} site-brand--dynamic{% endif %}" href="/" aria-label="Av. Ozan Ferhat Şen ana sayfa"{% if isHomepage %} data-dynamic-brand aria-hidden="true" tabindex="-1"{% endif %}>AV. OZAN FERHAT ŞEN</a>
     <nav class="nav-links" id="menu" aria-label="Ana menü">
       <details class="nav-dropdown">
         <summary>Çalışma Alanları</summary>
