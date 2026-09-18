@@ -116,7 +116,7 @@ olabilir.
 
 Gizli ayıp bakımından ayıbın **ne zaman ortaya çıktığı veya makul olarak ne zaman fark edilebilir hâle geldiği** kritik önem taşır.
 
-Yargıtay HGK E.2021/539, K.2022/1267 sayılı kararda da dış cephe ve yalıtım sorunları bakımından bu tarihin somut biçimde belirlenmesi gerektiği vurgulanmıştır.
+[Yargıtay [HGK E.2021/539, K.2022/1267 sayılı karar](/ictihat/yargitay-hukuk-genel-kurulu-2021-539-2022-1267-eksik-is-gizli-ayip/)da](/ictihat/yargitay-hukuk-genel-kurulu-2021-539-2022-1267-eksik-is-gizli-ayip/) da dış cephe ve yalıtım sorunları bakımından bu tarihin somut biçimde belirlenmesi gerektiği vurgulanmıştır.
 
 Kurul, mevsim koşullarının dahi bu incelemede dikkate alınabileceğine işaret etmiştir. Örneğin bir su yalıtımı kusuru teslim günü değil, ilk yoğun yağış döneminde fark edilebilir.
 
@@ -196,7 +196,7 @@ Bildirim, sözleşmede hak sahibi olan iş sahibi veya onun yetkili temsilcisi t
 
 Özellikle çok malik bulunan yapılarda burada dikkat gerekir.
 
-Site yönetiminin yükleniciyle yaptığı yazışma her bağımsız bölüm malikinin kişisel ayıp bildirimi yerine otomatik olarak geçmeyebilir. HGK E.2021/539, K.2022/1267 sayılı kararın tartıştığı eski tüketici uyuşmazlığında da site yönetiminin veya diğer tüketicilerin bireysel tüketici adına ayıp ihbarında bulunma yetkisi ayrıca sorun olmuştur.
+Site yönetiminin yükleniciyle yaptığı yazışma her bağımsız bölüm malikinin kişisel ayıp bildirimi yerine otomatik olarak geçmeyebilir. [HGK E.2021/539, K.2022/1267 sayılı karar](/ictihat/yargitay-hukuk-genel-kurulu-2021-539-2022-1267-eksik-is-gizli-ayip/)ın tartıştığı eski tüketici uyuşmazlığında da site yönetiminin veya diğer tüketicilerin bireysel tüketici adına ayıp ihbarında bulunma yetkisi ayrıca sorun olmuştur.
 
 Arsa payı karşılığı inşaat sözleşmesinde ise temsil yetkisi, sözleşmenin tarafları ve maliklerin birlikte hareket biçimi ayrıca incelenmelidir.
 
