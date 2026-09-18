@@ -1,0 +1,78 @@
+---
+layout: base.njk
+title: "Sık Sorulan Sorular | Kentsel Dönüşüm, İmar, İnşaat ve Gayrimenkul"
+seo_title: "Sık Sorulan Sorular | Kentsel Dönüşüm ve Gayrimenkul Hukuku"
+description: "Kentsel dönüşüm, imar, inşaat ve gayrimenkul hukukunda sık sorulan sorular; kısa cevaplar ve ayrıntılı hukuki rehber bağlantıları."
+---
+<style>
+.faq-hero{padding:72px 0 42px;border-bottom:1px solid var(--line)}
+.faq-hero .page-lead{max-width:850px}
+.faq-nav{display:flex;gap:9px;flex-wrap:wrap;margin-top:26px}
+.faq-nav a{border:1px solid var(--line);padding:9px 12px;text-decoration:none;font:600 13px/1.3 Arial,sans-serif;background:var(--paper)}
+.faq-section{padding:54px 0;border-bottom:1px solid var(--line)}
+.faq-section-head{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:36px;align-items:start;margin-bottom:24px}
+.faq-section-head h2{margin:6px 0 8px}
+.faq-section-head p{margin:0;color:var(--muted);max-width:720px}
+.faq-section-head .section-link{display:inline-block;margin-top:12px;font:600 13px/1.4 Arial,sans-serif}
+.faq-list{border-top:1px solid var(--line)}
+.faq-item{border-bottom:1px solid var(--line)}
+.faq-item summary{cursor:pointer;list-style:none;display:grid;grid-template-columns:1fr 28px;gap:18px;align-items:center;padding:21px 0;font:600 18px/1.35 Georgia,"Times New Roman",serif}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary::after{content:"+";font:400 24px/1 Arial,sans-serif;text-align:center}
+.faq-item[open] summary::after{content:"−"}
+.faq-answer{padding:0 48px 22px 0;max-width:900px}
+.faq-answer p{margin:0 0 11px;line-height:1.72}
+.faq-answer a{font-weight:700;text-underline-offset:3px}
+.faq-note{padding:36px 0 64px}
+.faq-note .author-box{margin:0}
+@media(max-width:760px){.faq-hero{padding-top:48px}.faq-section-head{grid-template-columns:1fr;gap:10px}.faq-item summary{font-size:17px}.faq-answer{padding-right:0}.faq-section{padding:42px 0}}
+</style>
+
+<section class="faq-hero">
+  <div class="wrap">
+    <div class="breadcrumbs"><a href="/">Ana Sayfa</a> / Sık Sorulan Sorular</div>
+    <div class="eyebrow">SSS · Hızlı Hukuki Rehber</div>
+    <h1>Sık sorulan sorular</h1>
+    <p class="page-lead">Kısa cevap burada; hukuki gerekçe ve uygulama ayrıntısı ilgili makalede. Sorular, sitenin ana çalışma alanlarına göre gruplanmıştır.</p>
+    <nav class="faq-nav" aria-label="Sık sorulan soru kategorileri">
+      {% for section in faq.sections %}
+      <a href="#{{ section.id }}">{{ section.title }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</section>
+
+{% for section in faq.sections %}
+<section class="faq-section" id="{{ section.id }}" aria-labelledby="{{ section.id }}-baslik">
+  <div class="wrap">
+    <div class="faq-section-head">
+      <div>
+        <div class="eyebrow">Sık Sorulan Sorular</div>
+        <h2 id="{{ section.id }}-baslik">{{ section.title }}</h2>
+        <a class="section-link" href="{{ section.practice_url }}">{{ section.title }} çalışma alanına git →</a>
+      </div>
+      <p>{{ section.intro }}</p>
+    </div>
+    <div class="faq-list">
+      {% for item in section.items %}
+      <details class="faq-item">
+        <summary>{{ item.q }}</summary>
+        <div class="faq-answer">
+          <p>{{ item.a }}</p>
+          <a href="{{ item.url }}">{{ item.link }} →</a>
+        </div>
+      </details>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endfor %}
+
+<section class="faq-note">
+  <div class="wrap">
+    <div class="author-box">
+      <h2>Bu sayfa nasıl kullanılmalı?</h2>
+      <p>SSS cevapları ilk yönlendirmeyi verir. Süre, belge, tapu kaydı, proje, sözleşme veya somut işlem tarihi sonucu değiştirebildiği için ayrıntılı hukuki değerlendirme bağlantılı makalede yapılır.</p>
+    </div>
+  </div>
+</section>
