@@ -166,7 +166,7 @@ function buildThinRecord(item, type) {
     url: item.url,
     type,
     area: resolveSearchArea(item),
-    summary: String(data.summary || data.description || "").trim(),
+    summary: String(data.summary || data.description || "").trim().slice(0, 220),
     search_version: 3
   };
 
