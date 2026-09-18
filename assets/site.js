@@ -96,21 +96,58 @@ document.addEventListener('DOMContentLoaded',()=>{
       dynamicBrand.tabIndex=visible?0:-1;
     };
 
-    setBrandVisible(false);
+    const useTransfer=dynamicBrand.hasAttribute('data-brand-transfer');
 
-    if('IntersectionObserver' in window){
-      const observer=new IntersectionObserver(entries=>{
-        setBrandVisible(!entries[0].isIntersecting);
-      },{threshold:0});
-      observer.observe(heroBrand);
-    }else{
-      const updateBrand=()=>{
-        const rect=heroBrand.getBoundingClientRect();
-        setBrandVisible(rect.bottom<=0||rect.top>=window.innerHeight);
+    if(useTransfer){
+      const header=document.querySelector('[data-site-header]');
+      let ticking=false;
+
+      const updateTransfer=()=>{
+        const heroRect=heroBrand.getBoundingClientRect();
+        const headerBottom=header?header.getBoundingClientRect().bottom:0;
+        const start=headerBottom+88;
+        const end=headerBottom+18;
+        const progress=Math.max(0,Math.min(1,(start-heroRect.top)/(start-end)));
+
+        dynamicBrand.style.opacity=String(progress);
+        dynamicBrand.style.transform=`translateY(${(1-progress)*7}px)`;
+        dynamicBrand.style.pointerEvents=progress>.92?'auto':'none';
+        dynamicBrand.classList.toggle('is-visible',progress>0);
+        dynamicBrand.setAttribute('aria-hidden',String(progress<=.92));
+        dynamicBrand.tabIndex=progress>.92?0:-1;
+
+        heroBrand.style.opacity=String(1-progress);
+        heroBrand.style.transform=`translateY(${-progress*7}px)`;
+
+        ticking=false;
       };
-      updateBrand();
-      window.addEventListener('scroll',updateBrand,{passive:true});
-      window.addEventListener('resize',updateBrand);
+
+      const requestTransferUpdate=()=>{
+        if(ticking) return;
+        ticking=true;
+        window.requestAnimationFrame(updateTransfer);
+      };
+
+      updateTransfer();
+      window.addEventListener('scroll',requestTransferUpdate,{passive:true});
+      window.addEventListener('resize',requestTransferUpdate);
+    }else{
+      setBrandVisible(false);
+
+      if('IntersectionObserver' in window){
+        const observer=new IntersectionObserver(entries=>{
+          setBrandVisible(!entries[0].isIntersecting);
+        },{threshold:0});
+        observer.observe(heroBrand);
+      }else{
+        const updateBrand=()=>{
+          const rect=heroBrand.getBoundingClientRect();
+          setBrandVisible(rect.bottom<=0||rect.top>=window.innerHeight);
+        };
+        updateBrand();
+        window.addEventListener('scroll',updateBrand,{passive:true});
+        window.addEventListener('resize',updateBrand);
+      }
     }
   }
 
