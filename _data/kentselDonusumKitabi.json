@@ -8,15 +8,51 @@
       "title": "Riskli Yapı ve İdari Süreç",
       "description": "Tek bir yapının 6306 kapsamına girişinden kesinleşme, tapu kaydı, tahliye ve yıkıma uzanan idari işlem zinciri.",
       "chapters": [
-        {"title": "Riskli Yapı Tespiti Nasıl Yapılır?", "url": "/makaleler/riskli-yapi-tespiti-nasil-yapilir/", "note": "Başvuru, lisanslı kuruluş, karot ve teknik inceleme"},
-        {"title": "Riskli Yapı Tespitine İtiraz ve İptal Davası", "url": "/makaleler/riskli-yapi-tespitine-itiraz-iptal-davasi/", "note": "Teknik heyet, 15 ve 30 günlük süreler, yürütmenin durdurulması"},
-        {"title": "6306 Kapsamında Tebligat ve Bildirim Usulleri", "url": "/makaleler/6306-tebligat-bildirim-usulleri/", "note": "İlan, e-Devlet, elektronik tebligat ve noter"},
-        {"title": "Tapudaki Riskli Yapı Belirtmesi", "url": "/makaleler/tapuda-riskli-yapi-belirtmesi/", "note": "Konulması, hukuki etkisi ve 2026 sonrası terkini"},
-        {"title": "Tespit Kesinleşmeden Malik Kararı veya Sözleşme", "url": "/makaleler/riskli-yapi-kesinlesmeden-malik-karari-sozlesme/", "note": "Özel sözleşme ile 6306 çoğunluk mekanizmasının ayrımı"},
-        {"title": "Riskli Yapının Tahliyesi ve Yıkımı", "url": "/makaleler/riskli-yapi-tahliye-yikim-sureci/", "note": "Süreler, yetkili idare, kolluk ve 2026 yürütmeyi durdurma kararı"},
-        {"title": "Ağır Hasarlı Yapılar ve Kültür Varlıkları", "url": "/makaleler/agir-hasarli-yapi-kultur-varligi-donusum/", "note": "Özel afet ve koruma rejimleri"},
-        {"title": "Aynı Parselde Birden Fazla Bina", "url": "/makaleler/ayni-parselde-birden-fazla-bina-kentsel-donusum/", "note": "Site ve bloklarda risk, çoğunluk ve ruhsat"},
-        {"title": "Kentsel Dönüşümde İdari Yetki Haritası", "url": "/makaleler/kentsel-donusum-idari-yetki-haritasi/", "note": "Başkanlık, Bakanlık, belediye, vali ve kaymakam"}
+        {
+          "title": "Riskli Yapı Tespiti Nasıl Yapılır?",
+          "url": "/makaleler/riskli-yapi-tespiti-nasil-yapilir/",
+          "note": "Başvuru, lisanslı kuruluş, karot ve teknik inceleme"
+        },
+        {
+          "title": "Riskli Yapı Tespitine İtiraz ve İptal Davası",
+          "url": "/makaleler/riskli-yapi-tespitine-itiraz-iptal-davasi/",
+          "note": "Teknik heyet, 15 ve 30 günlük süreler, yürütmenin durdurulması"
+        },
+        {
+          "title": "6306 Kapsamında Tebligat ve Bildirim Usulleri",
+          "url": "/makaleler/6306-tebligat-bildirim-usulleri/",
+          "note": "İlan, e-Devlet, elektronik tebligat ve noter"
+        },
+        {
+          "title": "Tapudaki Riskli Yapı Belirtmesi",
+          "url": "/makaleler/tapuda-riskli-yapi-belirtmesi/",
+          "note": "Konulması, hukuki etkisi ve 2026 sonrası terkini"
+        },
+        {
+          "title": "Tespit Kesinleşmeden Malik Kararı veya Sözleşme",
+          "url": "/makaleler/riskli-yapi-kesinlesmeden-malik-karari-sozlesme/",
+          "note": "Özel sözleşme ile 6306 çoğunluk mekanizmasının ayrımı"
+        },
+        {
+          "title": "Riskli Yapının Tahliyesi ve Yıkımı",
+          "url": "/makaleler/riskli-yapi-tahliye-yikim-sureci/",
+          "note": "Süreler, yetkili idare, kolluk ve 2026 yürütmeyi durdurma kararı"
+        },
+        {
+          "title": "Ağır Hasarlı Yapılar ve Kültür Varlıkları",
+          "url": "/makaleler/agir-hasarli-yapi-kultur-varligi-donusum/",
+          "note": "Özel afet ve koruma rejimleri"
+        },
+        {
+          "title": "Aynı Parselde Birden Fazla Bina",
+          "url": "/makaleler/ayni-parselde-birden-fazla-bina-kentsel-donusum/",
+          "note": "Site ve bloklarda risk, çoğunluk ve ruhsat"
+        },
+        {
+          "title": "Kentsel Dönüşümde İdari Yetki Haritası",
+          "url": "/makaleler/kentsel-donusum-idari-yetki-haritasi/",
+          "note": "Başkanlık, Bakanlık, belediye, vali ve kaymakam"
+        }
       ]
     },
     {
@@ -25,9 +61,21 @@
       "title": "Maliklerin Karar Alma Mekanizması",
       "description": "4 Şubat 2026 sonrası toplantı çağrısı, pay salt çoğunluğu, karar tutanağı ve temsili birlikte kuran usul.",
       "chapters": [
-        {"title": "2026 Sonrası Malik Toplantısı ve Çağrı", "url": "/makaleler/kentsel-donusum-malik-toplantisi-cagri-ek-12/", "note": "Ek-12, toplantı nisabı, karar yeter sayısı ve gerçekte yapılmayan toplantı"},
-        {"title": "Ortak Karar Protokolü", "url": "/makaleler/kentsel-donusum-ortak-karar-protokolu/", "note": "İçerik, hukuki nitelik, yokluk ve geçersizlik"},
-        {"title": "Vekâlet, Miras, Elbirliği ve Vesayet", "url": "/makaleler/kentsel-donusum-vekalet-miras-elbirligi-vesayet/", "note": "Temsil yetkisi, miras ortaklığı ve korunması gereken malik"}
+        {
+          "title": "2026 Sonrası Malik Toplantısı ve Çağrı",
+          "url": "/makaleler/kentsel-donusum-malik-toplantisi-cagri-ek-12/",
+          "note": "Ek-12, toplantı nisabı, karar yeter sayısı ve gerçekte yapılmayan toplantı"
+        },
+        {
+          "title": "Ortak Karar Protokolü",
+          "url": "/makaleler/kentsel-donusum-ortak-karar-protokolu/",
+          "note": "İçerik, hukuki nitelik, yokluk ve geçersizlik"
+        },
+        {
+          "title": "Vekâlet, Miras, Elbirliği ve Vesayet",
+          "url": "/makaleler/kentsel-donusum-vekalet-miras-elbirligi-vesayet/",
+          "note": "Temsil yetkisi, miras ortaklığı ve korunması gereken malik"
+        }
       ]
     },
     {
@@ -36,11 +84,31 @@
       "title": "Karara Katılmayan Malik ve Pay Satışı",
       "description": "Teklif bildiriminden ilk ve sonraki açık artırmaya, rayiç değerden tapu sonucuna kadar azınlık payının özel satış rejimi.",
       "chapters": [
-        {"title": "Bir Malik İmzalamazsa Ne Olur?", "url": "/makaleler/kentsel-donusum-bir-malik-imzalamazsa-pay-satisi/", "note": "Salt çoğunluk, teklif, 15 günlük süre ve açık artırma"},
-        {"title": "Pay Satışında Değerleme", "url": "/makaleler/kentsel-donusum-pay-satisi-degerleme-rayic-bedel/", "note": "Rayiç bedel, SPK yetkili kuruluş ve yargısal denetim"},
-        {"title": "Pay Satışının İptali ve Tapu Sonucu", "url": "/makaleler/kentsel-donusum-pay-satisi-iptali-tapu/", "note": "Resen tescil, kanuni ipotek, düşük bedel ve TMK m.1023"},
-        {"title": "Satış Dosyasının İdari Denetimi ve Ruhsat", "url": "/makaleler/kentsel-donusum-pay-satisi-dosya-denetimi-ruhsat/", "note": "Belge kontrolü ve ruhsat başvurusundan önceki zorunlu sıra"},
-        {"title": "İpotekli, Hacizli veya İntifalı Pay", "url": "/makaleler/ipotekli-hacizli-intifali-pay-satisi/", "note": "Takyidatın satış bedeli üzerinde devamı"}
+        {
+          "title": "Bir Malik İmzalamazsa Ne Olur?",
+          "url": "/makaleler/kentsel-donusum-bir-malik-imzalamazsa-pay-satisi/",
+          "note": "Salt çoğunluk, teklif, 15 günlük süre ve açık artırma"
+        },
+        {
+          "title": "Pay Satışında Değerleme",
+          "url": "/makaleler/kentsel-donusum-pay-satisi-degerleme-rayic-bedel/",
+          "note": "Rayiç bedel, SPK yetkili kuruluş ve yargısal denetim"
+        },
+        {
+          "title": "Pay Satışının İptali ve Tapu Sonucu",
+          "url": "/makaleler/kentsel-donusum-pay-satisi-iptali-tapu/",
+          "note": "Resen tescil, kanuni ipotek, düşük bedel ve TMK m.1023"
+        },
+        {
+          "title": "Satış Dosyasının İdari Denetimi ve Ruhsat",
+          "url": "/makaleler/kentsel-donusum-pay-satisi-dosya-denetimi-ruhsat/",
+          "note": "Belge kontrolü ve ruhsat başvurusundan önceki zorunlu sıra"
+        },
+        {
+          "title": "İpotekli, Hacizli veya İntifalı Pay",
+          "url": "/makaleler/ipotekli-hacizli-intifali-pay-satisi/",
+          "note": "Takyidatın satış bedeli üzerinde devamı"
+        }
       ]
     },
     {
@@ -49,8 +117,16 @@
       "title": "Çoğunluk Kararının Sınırları ve Azınlık Hakları",
       "description": "Sayısal çoğunluğun yetki sınırı; adil paylaşım, şerefiye, değer kaybı, irade sakatlığı ve yıkımdan önce koruma.",
       "chapters": [
-        {"title": "Çoğunluk Kararının Sınırları", "url": "/makaleler/kentsel-donusum-cogunluk-karari-azinlik-haklari/", "note": "Mülkiyet hakkı, TMK m.691-692, denkleştirme ve sebepsiz zenginleşme"},
-        {"title": "İhtirazi Kayıt ve Yıkımdan Önce Delil Tespiti", "url": "/makaleler/kentsel-donusum-ihtirazi-kayit-delil-tespiti/", "note": "Pay satışı baskısı, çekinceli imza ve kaybolacak delil"}
+        {
+          "title": "Çoğunluk Kararının Sınırları",
+          "url": "/makaleler/kentsel-donusum-cogunluk-karari-azinlik-haklari/",
+          "note": "Mülkiyet hakkı, TMK m.691-692, denkleştirme ve sebepsiz zenginleşme"
+        },
+        {
+          "title": "İhtirazi Kayıt ve Yıkımdan Önce Delil Tespiti",
+          "url": "/makaleler/kentsel-donusum-ihtirazi-kayit-delil-tespiti/",
+          "note": "Pay satışı baskısı, çekinceli imza ve kaybolacak delil"
+        }
       ]
     },
     {
@@ -59,17 +135,61 @@
       "title": "Kentsel Dönüşüm Sözleşmeleri ve Yüklenici",
       "description": "Resmî şekilden yüklenici seçimine; teknik şartname, tapu devri, teminat, teslim ve projenin yarım kalması riskleri.",
       "chapters": [
-        {"title": "Kentsel Dönüşümde Ön Protokol ve Resmî Şekil", "url": "/makaleler/kentsel-donusum-on-protokol-resmi-sekil/", "note": "Niyet mektubu, ön sözleşme, kapora ve geçerlilik"},
-        {"title": "Kentsel Dönüşüm Sözleşmesinin 15 Kontrolü", "url": "/makaleler/bagdat-caddesi-kentsel-donusum-sozlesmesi/", "note": "Bağımsız bölüm, ruhsat, tapu, teslim ve fesih hükümleri"},
-        {"title": "Müteahhit Seçerken 20 Kritik Soru", "url": "/makaleler/kentsel-donusum-muteahhit-secerken-nelere-dikkat-edilmeli/", "note": "Yetki belgesi, referans, finansman ve kurumsal yapı"},
-        {"title": "Müteahhit Tekliflerinin Karşılaştırılması", "url": "/makaleler/kentsel-donusum-muteahhit-teklifleri-karsilastirma/", "note": "Oran yerine aynı varsayımla ekonomik ve teknik karşılaştırma"},
-        {"title": "Müteahhidin Finansal Gücü", "url": "/makaleler/kentsel-donusum-muteahhit-finansal-gucu/", "note": "Bilanço, devam eden işler ve proje finansmanı"},
-        {"title": "Müteahhide Tapu Ne Zaman Devredilmeli?", "url": "/makaleler/kentsel-donusum-muteahhide-tapu-ne-zaman-devredilmeli/", "note": "Kademeli devir ve inşaat ilerlemesi"},
-        {"title": "Bina Tamamlama Sigortası ve Teminat Araçları", "url": "/makaleler/kentsel-donusum-bina-tamamlama-sigortasi-teminatlar/", "note": "Yüzde 6 kamu teminatı, sigorta ve güvence sepeti"},
-        {"title": "Banka Teminat Mektubu", "url": "/makaleler/kentsel-donusum-banka-teminat-mektubu/", "note": "Lehtar, süre, ilk talepte ödeme ve kapsam"},
-        {"title": "Teknik Şartname", "url": "/makaleler/kentsel-donusum-teknik-sartname-birinci-sinif-malzeme/", "note": "Malzeme, performans ve kabul standardı"},
-        {"title": "Teslim Gecikmesi", "url": "/makaleler/kentsel-donusum-teslim-gecikmesi-kira-cezai-sart/", "note": "Kira, gecikme tazminatı ve cezai şart"},
-        {"title": "6306 Kapsamında İdari Fesih", "url": "/makaleler/6306-idari-fesih-muteahhit-ise-baslamazsa/", "note": "Bir yıl başlamama veya altı ay etkili faaliyet göstermeme"}
+        {
+          "title": "Kentsel Dönüşümde Ön Protokol ve Resmî Şekil",
+          "url": "/makaleler/kentsel-donusum-on-protokol-resmi-sekil/",
+          "note": "Niyet mektubu, ön sözleşme, kapora ve geçerlilik"
+        },
+        {
+          "title": "Kentsel Dönüşüm Sözleşmesinin 15 Kontrolü",
+          "url": "/makaleler/bagdat-caddesi-kentsel-donusum-sozlesmesi/",
+          "note": "Bağımsız bölüm, ruhsat, tapu, teslim ve fesih hükümleri"
+        },
+        {
+          "title": "Müteahhit Seçerken 20 Kritik Soru",
+          "url": "/makaleler/kentsel-donusum-muteahhit-secerken-nelere-dikkat-edilmeli/",
+          "note": "Yetki belgesi, referans, finansman ve kurumsal yapı"
+        },
+        {
+          "title": "Müteahhit Tekliflerinin Karşılaştırılması",
+          "url": "/makaleler/kentsel-donusum-muteahhit-teklifleri-karsilastirma/",
+          "note": "Oran yerine aynı varsayımla ekonomik ve teknik karşılaştırma"
+        },
+        {
+          "title": "Müteahhidin Finansal Gücü",
+          "url": "/makaleler/kentsel-donusum-muteahhit-finansal-gucu/",
+          "note": "Bilanço, devam eden işler ve proje finansmanı"
+        },
+        {
+          "title": "Müteahhide Tapu Ne Zaman Devredilmeli?",
+          "url": "/makaleler/kentsel-donusum-muteahhide-tapu-ne-zaman-devredilmeli/",
+          "note": "Kademeli devir ve inşaat ilerlemesi"
+        },
+        {
+          "title": "Bina Tamamlama Sigortası ve Teminat Araçları",
+          "url": "/makaleler/kentsel-donusum-bina-tamamlama-sigortasi-teminatlar/",
+          "note": "Yüzde 6 kamu teminatı, sigorta ve güvence sepeti"
+        },
+        {
+          "title": "Banka Teminat Mektubu",
+          "url": "/makaleler/kentsel-donusum-banka-teminat-mektubu/",
+          "note": "Lehtar, süre, ilk talepte ödeme ve kapsam"
+        },
+        {
+          "title": "Teknik Şartname",
+          "url": "/makaleler/kentsel-donusum-teknik-sartname-birinci-sinif-malzeme/",
+          "note": "Malzeme, performans ve kabul standardı"
+        },
+        {
+          "title": "Teslim Gecikmesi",
+          "url": "/makaleler/kentsel-donusum-teslim-gecikmesi-kira-cezai-sart/",
+          "note": "Kira, gecikme tazminatı ve cezai şart"
+        },
+        {
+          "title": "6306 Kapsamında İdari Fesih",
+          "url": "/makaleler/6306-idari-fesih-muteahhit-ise-baslamazsa/",
+          "note": "Bir yıl başlamama veya altı ay etkili faaliyet göstermeme"
+        }
       ]
     },
     {
@@ -78,18 +198,71 @@
       "title": "Ayni Haklar, Tapu ve Özel Hukuk Sorunları",
       "description": "Yıkımın mülkiyet ve sınırlı ayni haklara etkisi; arsa payı, şerefiye, ortaklık, güçlendirme, kiracı ve kayıt dışı alanlar.",
       "chapters": [
-        {"title": "Yıkımdan Sonra Kat Mülkiyeti ve Ayni Haklar", "url": "/makaleler/riskli-yapi-yikim-sonrasi-kat-mulkiyeti-ayni-haklar/", "note": "Aile konutu, intifa, sükna, ipotek ve yeni kat irtifakı"},
-        {"title": "Arsa Payı Kontrolü ve Düzeltme Davası", "url": "/makaleler/kentsel-donusum-arsa-payi-duzeltme-davasi/", "note": "Karar gücü ve yeni paylaşımın tapusal temeli"},
-        {"title": "Şerefiye: Kat, Cephe ve Manzara", "url": "/makaleler/kentsel-donusum-serefiye-kat-cephe-deniz-manzarasi/", "note": "Eski-yeni bağımsız bölümün değer dengesi"},
-        {"title": "Daire Küçülmesi ve Metrekare", "url": "/makaleler/kentsel-donusumda-daire-kuculur-mu-metrekare/", "note": "Net/brüt alan ve denkleştirme"},
-        {"title": "Ortaklığın Giderilmesi Davası Sürerken Dönüşüm", "url": "/makaleler/ortakligin-giderilmesi-davasi-kentsel-donusum/", "note": "İki satış mekanizması ve güncel dava konusu"},
-        {"title": "Riskli Yapının Güçlendirilmesi", "url": "/makaleler/riskli-yapi-guclendirme-karari-ruhsat/", "note": "KMK m.19/2, teknik mümkünlük, proje ve ruhsat"},
-        {"title": "İfraz, Tevhit, Takyidatlar ve Kamuya Teklif", "url": "/makaleler/kentsel-donusum-ifraz-tevhit-takyidat-kamuya-teklif/", "note": "2026 parsel işlemleri ve imar hakkı aktarımı"},
-        {"title": "Vergi, Harç, Ücret Muafiyetleri ve Destekler", "url": "/makaleler/6306-vergi-harc-muafiyeti-mali-destek/", "note": "1,5 kat, tevhit oranı, kira yardımı ve faiz desteği"},
-        {"title": "Kiracının Hakları ve Yeniden Kiralama", "url": "/makaleler/kiracinin-kentsel-donusum-haklari-yeniden-kiralama/", "note": "Tahliye, yardım, depozito ve TBK m.355"},
-        {"title": "Yapı Kayıt Belgesi ve Hak Sahipliği", "url": "/makaleler/yapi-kayit-belgesi-kentsel-donusum-hak-sahipligi/", "note": "Mülkiyet ve yeni imar hakkı yaratmayan geçici kayıt"},
-        {"title": "Otopark, Depo, Balkon ve Teras", "url": "/makaleler/kentsel-donusum-otopark-depo-balkon-teras-hakki/", "note": "Eklenti, ortak alan ve sözleşmesel koruma"},
-        {"title": "Mevcut Otopark Hakkının Korunması", "url": "/makaleler/kentsel-donusum-mevcut-otopark-hakki-korunur-mu/", "note": "Otopark Yönetmeliği, imar planı ve eski kullanım"}
+        {
+          "title": "Yıkımdan Sonra Kat Mülkiyeti ve Ayni Haklar",
+          "url": "/makaleler/riskli-yapi-yikim-sonrasi-kat-mulkiyeti-ayni-haklar/",
+          "note": "Aile konutu, intifa, sükna, ipotek ve yeni kat irtifakı"
+        },
+        {
+          "title": "Arsa Payı Kontrolü ve Düzeltme Davası",
+          "url": "/makaleler/kentsel-donusum-arsa-payi-duzeltme-davasi/",
+          "note": "Karar gücü ve yeni paylaşımın tapusal temeli"
+        },
+        {
+          "title": "Şerefiye: Kat, Cephe ve Manzara",
+          "url": "/makaleler/kentsel-donusum-serefiye-kat-cephe-deniz-manzarasi/",
+          "note": "Eski-yeni bağımsız bölümün değer dengesi"
+        },
+        {
+          "title": "Daire Küçülmesi ve Metrekare",
+          "url": "/makaleler/kentsel-donusumda-daire-kuculur-mu-metrekare/",
+          "note": "Net/brüt alan ve denkleştirme"
+        },
+        {
+          "title": "Ortaklığın Giderilmesi Davası Sürerken Dönüşüm",
+          "url": "/makaleler/ortakligin-giderilmesi-davasi-kentsel-donusum/",
+          "note": "İki satış mekanizması ve güncel dava konusu"
+        },
+        {
+          "title": "Riskli Yapının Güçlendirilmesi",
+          "url": "/makaleler/riskli-yapi-guclendirme-karari-ruhsat/",
+          "note": "KMK m.19/2, teknik mümkünlük, proje ve ruhsat"
+        },
+        {
+          "title": "İfraz, Tevhit, Takyidatlar ve Kamuya Teklif",
+          "url": "/makaleler/kentsel-donusum-ifraz-tevhit-takyidat-kamuya-teklif/",
+          "note": "2026 parsel işlemleri ve imar hakkı aktarımı"
+        },
+        {
+          "title": "Vergi, Harç, Ücret Muafiyetleri ve Destekler",
+          "url": "/makaleler/6306-vergi-harc-muafiyeti-mali-destek/",
+          "note": "1,5 kat, tevhit oranı, kira yardımı ve faiz desteği"
+        },
+        {
+          "title": "Kiracının Hakları ve Yeniden Kiralama",
+          "url": "/makaleler/kiracinin-kentsel-donusum-haklari-yeniden-kiralama/",
+          "note": "Tahliye, yardım, depozito ve TBK m.355"
+        },
+        {
+          "title": "Yapı Kayıt Belgesi ve Hak Sahipliği",
+          "url": "/makaleler/yapi-kayit-belgesi-kentsel-donusum-hak-sahipligi/",
+          "note": "Mülkiyet ve yeni imar hakkı yaratmayan geçici kayıt"
+        },
+        {
+          "title": "Otopark, Depo, Balkon ve Teras",
+          "url": "/makaleler/kentsel-donusum-otopark-depo-balkon-teras-hakki/",
+          "note": "Eklenti, ortak alan ve sözleşmesel koruma"
+        },
+        {
+          "title": "Mevcut Otopark Hakkının Korunması",
+          "url": "/makaleler/kentsel-donusum-mevcut-otopark-hakki-korunur-mu/",
+          "note": "Otopark Yönetmeliği, imar planı ve eski kullanım"
+        },
+        {
+          "title": "Yönetim Planı ve Ortak Giderler",
+          "url": "/makaleler/kentsel-donusum-yonetim-plani-ortak-gider-asansor-cati/",
+          "note": "Asansör, çatı, kullanım katsayısı ve hakkaniyet"
+        }
       ]
     },
     {
@@ -98,11 +271,31 @@
       "title": "Riskli Alan, Rezerv Yapı Alanı ve Alan Bazlı Dönüşüm",
       "description": "Bina bazlı 6306 uygulamasından farklı olarak alan ilanı, planlama, tarihî yenileme ve afet sonrası özel rejimler.",
       "chapters": [
-        {"title": "Riskli Yapı, Riskli Alan ve Rezerv Yapı Alanı Farkları", "url": "/makaleler/riskli-yapi-riskli-alan-rezerv-yapi-alani-farklari/", "note": "Karar mercii, coğrafi kapsam ve hukuki sonuç"},
-        {"title": "Riskli/Rezerv Yapı Alanı ve İmar Planının Denetimi", "url": "/makaleler/riskli-alan-rezerv-alan-imar-plani-iptal-davasi/", "note": "İlan, plan, dava süresi ve düzenleyici işlem"},
-        {"title": "6306, 5366 ve Belediye Kanunu m.73", "url": "/makaleler/6306-5366-belediye-kanunu-73-karsilastirma/", "note": "Afet, tarihî yenileme ve belediye dönüşüm rejimleri"},
-        {"title": "Afet Bölgesinde Dönüşüm", "url": "/makaleler/afet-bolgesinde-donusum-7452-7269-7471/", "note": "7452, 7269 ve 7471'in farklı işlevleri"},
-        {"title": "Yarısı Bizden 2027 Rehberi", "url": "/makaleler/yarisi-bizden-2027-sartlari-destek-tutarlari-basvuru/", "note": "İstanbul desteği, koşullar ve sözleşme bağlantısı"}
+        {
+          "title": "Riskli Yapı, Riskli Alan ve Rezerv Yapı Alanı Farkları",
+          "url": "/makaleler/riskli-yapi-riskli-alan-rezerv-yapi-alani-farklari/",
+          "note": "Karar mercii, coğrafi kapsam ve hukuki sonuç"
+        },
+        {
+          "title": "Riskli/Rezerv Yapı Alanı ve İmar Planının Denetimi",
+          "url": "/makaleler/riskli-alan-rezerv-alan-imar-plani-iptal-davasi/",
+          "note": "İlan, plan, dava süresi ve düzenleyici işlem"
+        },
+        {
+          "title": "6306, 5366 ve Belediye Kanunu m.73",
+          "url": "/makaleler/6306-5366-belediye-kanunu-73-karsilastirma/",
+          "note": "Afet, tarihî yenileme ve belediye dönüşüm rejimleri"
+        },
+        {
+          "title": "Afet Bölgesinde Dönüşüm",
+          "url": "/makaleler/afet-bolgesinde-donusum-7452-7269-7471/",
+          "note": "7452, 7269 ve 7471'in farklı işlevleri"
+        },
+        {
+          "title": "Yarısı Bizden 2027 Rehberi",
+          "url": "/makaleler/yarisi-bizden-2027-sartlari-destek-tutarlari-basvuru/",
+          "note": "İstanbul desteği, koşullar ve sözleşme bağlantısı"
+        }
       ]
     },
     {
@@ -111,10 +304,26 @@
       "title": "Yargısal Denetim ve Davalar",
       "description": "İdari ve adli yargıyı, özel süreleri ve geçici hukuki korumaları konu bazında birbirine bağlayan dava haritası.",
       "chapters": [
-        {"title": "Kentsel Dönüşüm Davaları Rehberi", "url": "/makaleler/kentsel-donusum-davalari-gorev-sure/", "note": "Görev, 30 günlük süre, yürütmenin durdurulması ve tedbir"},
-        {"title": "Riskli Yapı Tespitine Karşı Yargı", "url": "/makaleler/riskli-yapi-tespitine-itiraz-iptal-davasi/", "note": "Teknik heyet ve iptal davası arasındaki ilişki"},
-        {"title": "Pay Satışının İptali", "url": "/makaleler/kentsel-donusum-pay-satisi-iptali-tapu/", "note": "Tapu, bedel farkı ve sonraki işlemler"},
-        {"title": "Alan İlanı ve Planların İptali", "url": "/makaleler/riskli-alan-rezerv-alan-imar-plani-iptal-davasi/", "note": "Düzenleyici işlem, askı ve uygulama işlemi"}
+        {
+          "title": "Kentsel Dönüşüm Davaları Rehberi",
+          "url": "/makaleler/kentsel-donusum-davalari-gorev-sure/",
+          "note": "Görev, 30 günlük süre, yürütmenin durdurulması ve tedbir"
+        },
+        {
+          "title": "Riskli Yapı Tespitine Karşı Yargı",
+          "url": "/makaleler/riskli-yapi-tespitine-itiraz-iptal-davasi/",
+          "note": "Teknik heyet ve iptal davası arasındaki ilişki"
+        },
+        {
+          "title": "Pay Satışının İptali",
+          "url": "/makaleler/kentsel-donusum-pay-satisi-iptali-tapu/",
+          "note": "Tapu, bedel farkı ve sonraki işlemler"
+        },
+        {
+          "title": "Alan İlanı ve Planların İptali",
+          "url": "/makaleler/riskli-alan-rezerv-alan-imar-plani-iptal-davasi/",
+          "note": "Düzenleyici işlem, askı ve uygulama işlemi"
+        }
       ]
     }
   ]
