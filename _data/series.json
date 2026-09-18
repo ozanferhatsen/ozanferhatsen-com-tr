@@ -345,5 +345,26 @@
         "url": "/makaleler/kentsel-donusum-teslim-gecikmesi-kira-cezai-sart/"
       }
     ]
+  },
+  "insaat-eser-sozlesmesi": {
+    "title": "İnşaat Sözleşmesinde İfa, Ayıp ve Fesih",
+    "url": "/insaat-hukuku/",
+    "items": [
+      {
+        "order": 1,
+        "title": "İnşaatta Eksik İş ile Ayıplı İş Arasındaki Fark Nedir?",
+        "url": "/makaleler/insaat-eksik-is-ayipli-is-farki/"
+      },
+      {
+        "order": 2,
+        "title": "İnşaatta Ayıp İhbarı Ne Zaman ve Nasıl Yapılır? Açık Ayıp, Gizli Ayıp ve Süreler",
+        "url": "/makaleler/insaat-ayip-ihbari-suresi-nasil-yapilir/"
+      },
+      {
+        "order": 3,
+        "title": "Yüklenici Temerrüdü ve İnşaat Sözleşmesinin Feshi",
+        "url": null
+      }
+    ]
   }
 }
