@@ -1,0 +1,46 @@
+<style>
+.practice-faq{padding:56px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.practice-faq-head{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:34px;align-items:end;margin-bottom:24px}
+.practice-faq-head h2{margin:6px 0 0}
+.practice-faq-head p{margin:0;color:var(--muted);max-width:720px}
+.practice-faq-list{border-top:1px solid var(--line)}
+.practice-faq-item{border-bottom:1px solid var(--line)}
+.practice-faq-item summary{cursor:pointer;list-style:none;display:grid;grid-template-columns:1fr 26px;gap:16px;align-items:center;padding:18px 0;font:600 17px/1.4 Georgia,"Times New Roman",serif}
+.practice-faq-item summary::-webkit-details-marker{display:none}
+.practice-faq-item summary::after{content:"+";font:400 22px/1 Arial,sans-serif;text-align:center}
+.practice-faq-item[open] summary::after{content:"−"}
+.practice-faq-answer{padding:0 42px 20px 0;max-width:900px}
+.practice-faq-answer p{margin:0 0 10px;line-height:1.7}
+.practice-faq-answer a{font-weight:700;text-underline-offset:3px}
+.practice-faq-more{margin-top:20px}
+@media(max-width:760px){.practice-faq{padding:42px 0}.practice-faq-head{grid-template-columns:1fr;gap:10px}.practice-faq-answer{padding-right:0}}
+</style>
+{% for faqSection in faq.sections %}
+  {% if faqSection.practice_key == practiceKey %}
+  <section class="practice-faq" aria-labelledby="practice-faq-{{ practiceKey }}">
+    <div class="wrap">
+      <div class="practice-faq-head">
+        <div>
+          <div class="eyebrow">Sık Sorulan Sorular</div>
+          <h2 id="practice-faq-{{ practiceKey }}">{{ faqSection.title }} hakkında kısa cevaplar</h2>
+        </div>
+        <p>{{ faqSection.intro }}</p>
+      </div>
+      <div class="practice-faq-list">
+        {% for item in faqSection.items %}
+          {% if item.featured_on_practice %}
+          <details class="practice-faq-item">
+            <summary>{{ item.q }}</summary>
+            <div class="practice-faq-answer">
+              <p>{{ item.a }}</p>
+              <a href="{{ item.url }}">{{ item.link }} →</a>
+            </div>
+          </details>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <p class="practice-faq-more"><a href="/sss/#{{ faqSection.id }}"><strong>Tüm {{ faqSection.title }} sorularını gör →</strong></a></p>
+    </div>
+  </section>
+  {% endif %}
+{% endfor %}
