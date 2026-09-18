@@ -11,15 +11,15 @@ Google FAQ rich result özelliğini Mayıs 2026'da sonlandırdığı için hedef
 ## Öncelik 1 — İnşaat Hukuku
 
 ### Eksik iş ile ayıplı iş arasındaki fark nedir?
-- Eksik: bağımsız, query-intent odaklı makale.
-- Mevcut dayanak: HGK eksik iş/gizli ayıp içtihatları sitede var.
-- Araştırma ihtiyacı: TBK eser sözleşmesi hükümleri; 2024-2026 Yargıtay/HGK kararları; ihbar ve zamanaşımı ayrımı.
+- Durum: **kaynak hazır; bağımsız, query-intent odaklı makale eksik.**
+- Mevcut dayanak: HGK eksik ifa/ayıp içtihat kümesi ve taşınmaz satış uyuşmazlıkları ana makalesi sitede hazır.
+- Yazım notu: Başlık geniş biçimde “inşaatta” kurulacaksa tüketici konut satışı ile TBK eser sözleşmesi rejimi açıkça ayrılmalı; bu bir kaynak toplama eksiği değil kapsam/redaksiyon meselesidir.
 - Önerilen slug: `/makaleler/insaat-eksik-is-ayipli-is-farki/`
 
 ### Ayıp ihbarı ne zaman ve nasıl yapılır?
-- Eksik: genel inşaat/taşınmaz ayıp ihbarı makalesi.
-- Mevcut dayanak: içtihat sayfaları var, rehber makale yok.
-- Araştırma ihtiyacı: TBK m.474-478; teslim, açık/gizli ayıp; tacir/tüketici ayrımları; güncel Yargıtay uygulaması.
+- Durum: **kaynak hazır; güncel rejimleri ayıran rehber makale eksik.**
+- Mevcut dayanak: açık/gizli ayıp ve ayıp ihbarını tartışan HGK kararları, eksik ifa karar kümesi ve mevcut ana makale hazır.
+- Kritik güncellik notu: Eski HGK dosyalarının bir kısmı 4077 sayılı Kanun dönemindeki 30 günlük bildirim rejimini tartışır. 6502 sayılı TKHK döneminde tüketici satışlarında aynı 30 günlük ihbar kuralı yoktur. Makalede tüketici satışı, TBK eser sözleşmesi ve gerekiyorsa ticari iş rejimleri birbirinden ayrılmalıdır.
 - Önerilen slug: `/makaleler/insaat-ayip-ihbari-suresi-nasil-yapilir/`
 
 ### Yüklenici temerrüdü ve sözleşmenin feshi nasıl işler?
