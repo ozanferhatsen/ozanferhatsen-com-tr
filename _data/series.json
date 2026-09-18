@@ -3,102 +3,347 @@
     "title": "NCMEC, Müstehcenlik ve Dijital Delil Dosyası",
     "url": "/bilisim-hukuku/#ncmec-dijital-delil-dosyasi",
     "items": [
-      {"order":1,"title":"NCMEC Raporu Nedir? Türkiye'de NCMEC Bildirimi Sonrası Soruşturma Nasıl İlerler?","url":"/makaleler/ncmec-raporu-nedir-turkiyede-sorusturma/"},
-      {"order":2,"title":"NCMEC Raporu Tek Başına Mahkûmiyet İçin Yeterli midir?","url":"/makaleler/ncmec-raporu-tek-basina-mahkumiyet-yeterli-mi/"},
-      {"order":3,"title":"Müstehcenlik Suçu ve TCK 226: İndirme, Bulundurma, Paylaşma ve Dijital İçerikler","url":"/makaleler/mustehcenlik-sucu-tck-226-dijital-icerikler/"},
-      {"order":4,"title":"Telefonda veya Bilgisayarda Müstehcen Görüntü Bulunması Suç İçin Yeterli midir?","url":"/makaleler/telefonda-bilgisayarda-mustehcen-goruntu-bulunmasi-yeterli-mi/"},
-      {"order":5,"title":"IP Adresi Tek Başına Suçun Failini Gösterir mi?","url":"/makaleler/ip-adresi-tek-basina-sucun-failini-gosterir-mi/"},
-      {"order":6,"title":"CGNAT ve Kaynak Port Kaydı Nedir? Ceza Soruşturmasında Fail Tespiti","url":"/makaleler/cgnat-kaynak-port-kaydi-nedir-fail-tespiti/"},
-      {"order":7,"title":"CMK 134: Bilgisayar ve Telefonda Arama, Kopyalama ve El Koyma Şartları","url":"/makaleler/cmk-134-bilgisayar-telefon-arama-kopyalama-el-koyma/"},
-      {"order":8,"title":"Hukuka Aykırı Dijital Delil: Telefon ve Bilgisayar İncelemesi Mahkûmiyete Esas Alınabilir mi?","url":"/makaleler/hukuka-aykiri-dijital-delil-telefon-bilgisayar-incelemesi/"},
-      {"order":9,"title":"Adli İmaj ve Hash Değeri Nedir? Dijital Delilin Değiştirilmediği Nasıl Anlaşılır?","url":"/makaleler/adli-imaj-hash-degeri-nedir-dijital-delil-degistirildi-mi/"},
-      {"order":10,"title":"Bilgisayar veya Telefona Ne Zaman El Konulabilir? İmaj Alındıktan Sonra Cihaz İade Edilmeli midir?","url":"/makaleler/bilgisayar-telefon-el-koyma-imaj-sonrasi-cihaz-iadesi/"},
-      {"order":11,"title":"Adli Bilişim Bilirkişi Raporuna Nasıl İtiraz Edilir? Eksik İnceleme, Hash, İmaj ve Delil Bütünlüğü","url":"/makaleler/adli-bilisim-bilirkisi-raporuna-itiraz-hash-imaj-delil-butunlugu/"},
-      {"order":12,"title":"Silinmiş Dosya ve Mesajlar Ceza Davasında Dijital Delil Olabilir mi?","url":"/makaleler/silinmis-dosya-mesajlar-dijital-delil-ceza-davasi/"},
-      {"order":13,"title":"Yurt Dışındaki Sosyal Medya ve İnternet Platformlarından IP ve Hesap Bilgileri Nasıl Temin Edilir?","url":"/makaleler/yurt-disi-sosyal-medya-platform-ip-hesap-bilgileri-temini/"}
+      {
+        "order": 1,
+        "title": "NCMEC Raporu Nedir? Türkiye'de NCMEC Bildirimi Sonrası Soruşturma Nasıl İlerler?",
+        "url": "/makaleler/ncmec-raporu-nedir-turkiyede-sorusturma/"
+      },
+      {
+        "order": 2,
+        "title": "NCMEC Raporu Tek Başına Mahkûmiyet İçin Yeterli midir?",
+        "url": "/makaleler/ncmec-raporu-tek-basina-mahkumiyet-yeterli-mi/"
+      },
+      {
+        "order": 3,
+        "title": "Müstehcenlik Suçu ve TCK 226: İndirme, Bulundurma, Paylaşma ve Dijital İçerikler",
+        "url": "/makaleler/mustehcenlik-sucu-tck-226-dijital-icerikler/"
+      },
+      {
+        "order": 4,
+        "title": "Telefonda veya Bilgisayarda Müstehcen Görüntü Bulunması Suç İçin Yeterli midir?",
+        "url": "/makaleler/telefonda-bilgisayarda-mustehcen-goruntu-bulunmasi-yeterli-mi/"
+      },
+      {
+        "order": 5,
+        "title": "IP Adresi Tek Başına Suçun Failini Gösterir mi?",
+        "url": "/makaleler/ip-adresi-tek-basina-sucun-failini-gosterir-mi/"
+      },
+      {
+        "order": 6,
+        "title": "CGNAT ve Kaynak Port Kaydı Nedir? Ceza Soruşturmasında Fail Tespiti",
+        "url": "/makaleler/cgnat-kaynak-port-kaydi-nedir-fail-tespiti/"
+      },
+      {
+        "order": 7,
+        "title": "CMK 134: Bilgisayar ve Telefonda Arama, Kopyalama ve El Koyma Şartları",
+        "url": "/makaleler/cmk-134-bilgisayar-telefon-arama-kopyalama-el-koyma/"
+      },
+      {
+        "order": 8,
+        "title": "Hukuka Aykırı Dijital Delil: Telefon ve Bilgisayar İncelemesi Mahkûmiyete Esas Alınabilir mi?",
+        "url": "/makaleler/hukuka-aykiri-dijital-delil-telefon-bilgisayar-incelemesi/"
+      },
+      {
+        "order": 9,
+        "title": "Adli İmaj ve Hash Değeri Nedir? Dijital Delilin Değiştirilmediği Nasıl Anlaşılır?",
+        "url": "/makaleler/adli-imaj-hash-degeri-nedir-dijital-delil-degistirildi-mi/"
+      },
+      {
+        "order": 10,
+        "title": "Bilgisayar veya Telefona Ne Zaman El Konulabilir? İmaj Alındıktan Sonra Cihaz İade Edilmeli midir?",
+        "url": "/makaleler/bilgisayar-telefon-el-koyma-imaj-sonrasi-cihaz-iadesi/"
+      },
+      {
+        "order": 11,
+        "title": "Adli Bilişim Bilirkişi Raporuna Nasıl İtiraz Edilir? Eksik İnceleme, Hash, İmaj ve Delil Bütünlüğü",
+        "url": "/makaleler/adli-bilisim-bilirkisi-raporuna-itiraz-hash-imaj-delil-butunlugu/"
+      },
+      {
+        "order": 12,
+        "title": "Silinmiş Dosya ve Mesajlar Ceza Davasında Dijital Delil Olabilir mi?",
+        "url": "/makaleler/silinmis-dosya-mesajlar-dijital-delil-ceza-davasi/"
+      },
+      {
+        "order": 13,
+        "title": "Yurt Dışındaki Sosyal Medya ve İnternet Platformlarından IP ve Hesap Bilgileri Nasıl Temin Edilir?",
+        "url": "/makaleler/yurt-disi-sosyal-medya-platform-ip-hesap-bilgileri-temini/"
+      }
     ]
   },
   "kentsel-donusum-riskli-yapi-idari-surec": {
     "title": "Kentsel Dönüşüm Hukuku: Riskli Yapı ve İdari Süreç",
     "url": "/kentsel-donusum-hukuku/#kisim-i",
     "items": [
-      {"order":1,"title":"Riskli Yapı Tespiti Nasıl Yapılır? Başvuru, Lisanslı Kuruluş, Karot ve Teknik İnceleme","url":"/makaleler/riskli-yapi-tespiti-nasil-yapilir/"},
-      {"order":2,"title":"Riskli Yapı Tespitine İtiraz ve İptal Davası","url":"/makaleler/riskli-yapi-tespitine-itiraz-iptal-davasi/"},
-      {"order":3,"title":"6306 Kapsamında Tebligat ve Bildirim Usulleri","url":"/makaleler/6306-tebligat-bildirim-usulleri/"},
-      {"order":4,"title":"Tapudaki Riskli Yapı Belirtmesi: Konulması, Etkisi ve Terkini","url":"/makaleler/tapuda-riskli-yapi-belirtmesi/"},
-      {"order":5,"title":"Riskli Yapı Tespiti Kesinleşmeden Malik Kararı veya Müteahhit Sözleşmesi Yapılabilir mi?","url":"/makaleler/riskli-yapi-kesinlesmeden-malik-karari-sozlesme/"},
-      {"order":6,"title":"Riskli Yapının Tahliyesi ve Yıkımı: Süreler, Yetkili İdare ve Kolluk","url":"/makaleler/riskli-yapi-tahliye-yikim-sureci/"},
-      {"order":7,"title":"Ağır Hasarlı Yapılar ve Kültür Varlıklarında Dönüşüm","url":"/makaleler/agir-hasarli-yapi-kultur-varligi-donusum/"},
-      {"order":8,"title":"Aynı Parselde Birden Fazla Bina veya Site Bloğu Varsa Kentsel Dönüşüm","url":"/makaleler/ayni-parselde-birden-fazla-bina-kentsel-donusum/"},
-      {"order":9,"title":"Kentsel Dönüşümde İdari Yetki Haritası","url":"/makaleler/kentsel-donusum-idari-yetki-haritasi/"}
+      {
+        "order": 1,
+        "title": "Riskli Yapı Tespiti Nasıl Yapılır? Başvuru, Lisanslı Kuruluş, Karot ve Teknik İnceleme",
+        "url": "/makaleler/riskli-yapi-tespiti-nasil-yapilir/"
+      },
+      {
+        "order": 2,
+        "title": "Riskli Yapı Tespitine İtiraz ve İptal Davası",
+        "url": "/makaleler/riskli-yapi-tespitine-itiraz-iptal-davasi/"
+      },
+      {
+        "order": 3,
+        "title": "6306 Kapsamında Tebligat ve Bildirim Usulleri",
+        "url": "/makaleler/6306-tebligat-bildirim-usulleri/"
+      },
+      {
+        "order": 4,
+        "title": "Tapudaki Riskli Yapı Belirtmesi: Konulması, Etkisi ve Terkini",
+        "url": "/makaleler/tapuda-riskli-yapi-belirtmesi/"
+      },
+      {
+        "order": 5,
+        "title": "Riskli Yapı Tespiti Kesinleşmeden Malik Kararı veya Müteahhit Sözleşmesi Yapılabilir mi?",
+        "url": "/makaleler/riskli-yapi-kesinlesmeden-malik-karari-sozlesme/"
+      },
+      {
+        "order": 6,
+        "title": "Riskli Yapının Tahliyesi ve Yıkımı: Süreler, Yetkili İdare ve Kolluk",
+        "url": "/makaleler/riskli-yapi-tahliye-yikim-sureci/"
+      },
+      {
+        "order": 7,
+        "title": "Ağır Hasarlı Yapılar ve Kültür Varlıklarında Dönüşüm",
+        "url": "/makaleler/agir-hasarli-yapi-kultur-varligi-donusum/"
+      },
+      {
+        "order": 8,
+        "title": "Aynı Parselde Birden Fazla Bina veya Site Bloğu Varsa Kentsel Dönüşüm",
+        "url": "/makaleler/ayni-parselde-birden-fazla-bina-kentsel-donusum/"
+      },
+      {
+        "order": 9,
+        "title": "Kentsel Dönüşümde İdari Yetki Haritası",
+        "url": "/makaleler/kentsel-donusum-idari-yetki-haritasi/"
+      }
     ]
   },
   "kentsel-donusum-alan-bazli-donusum": {
     "title": "Kentsel Dönüşüm Hukuku: Alan Bazlı Dönüşüm",
     "url": "/kentsel-donusum-hukuku/#kisim-vii",
     "items": [
-      {"order":1,"title":"Riskli Yapı, Riskli Alan ve Rezerv Yapı Alanı Arasındaki Farklar","url":"/makaleler/riskli-yapi-riskli-alan-rezerv-yapi-alani-farklari/"},
-      {"order":2,"title":"Riskli Alan, Rezerv Yapı Alanı ve İmar Planlarının Yargısal Denetimi","url":"/makaleler/riskli-alan-rezerv-alan-imar-plani-iptal-davasi/"},
-      {"order":3,"title":"6306, 5366 ve Belediye Kanunu m.73 Dönüşüm Rejimlerinin Karşılaştırılması","url":"/makaleler/6306-5366-belediye-kanunu-73-karsilastirma/"},
-      {"order":4,"title":"Afet Bölgesinde Dönüşüm: 7452, 7269 ve 7471'in Farklı İşlevleri","url":"/makaleler/afet-bolgesinde-donusum-7452-7269-7471/"}
+      {
+        "order": 1,
+        "title": "Riskli Yapı, Riskli Alan ve Rezerv Yapı Alanı Arasındaki Farklar",
+        "url": "/makaleler/riskli-yapi-riskli-alan-rezerv-yapi-alani-farklari/"
+      },
+      {
+        "order": 2,
+        "title": "Riskli Alan, Rezerv Yapı Alanı ve İmar Planlarının Yargısal Denetimi",
+        "url": "/makaleler/riskli-alan-rezerv-alan-imar-plani-iptal-davasi/"
+      },
+      {
+        "order": 3,
+        "title": "6306, 5366 ve Belediye Kanunu m.73 Dönüşüm Rejimlerinin Karşılaştırılması",
+        "url": "/makaleler/6306-5366-belediye-kanunu-73-karsilastirma/"
+      },
+      {
+        "order": 4,
+        "title": "Afet Bölgesinde Dönüşüm: 7452, 7269 ve 7471'in Farklı İşlevleri",
+        "url": "/makaleler/afet-bolgesinde-donusum-7452-7269-7471/"
+      }
     ]
   },
   "kentsel-donusum-malik-kararlari-pay-satisi": {
     "title": "Kentsel Dönüşüm Hukuku: Malik Kararları ve Pay Satışı",
     "url": "/kentsel-donusum-hukuku/#kisim-ii",
     "items": [
-      {"order":1,"title":"2026 Sonrası Malik Toplantısı ve Çağrı: Ek-12, Nisap ve İspat","url":"/makaleler/kentsel-donusum-malik-toplantisi-cagri-ek-12/"},
-      {"order":2,"title":"Ortak Karar Protokolü: İçeriği, Hukuki Niteliği ve Geçersizlik Sorunları","url":"/makaleler/kentsel-donusum-ortak-karar-protokolu/"},
-      {"order":3,"title":"Vekâlet, Miras, Elbirliği Mülkiyeti ve Vesayet Altındaki Malik","url":"/makaleler/kentsel-donusum-vekalet-miras-elbirligi-vesayet/"},
-      {"order":4,"title":"Bir Malik İmzalamazsa Ne Olur? Salt Çoğunluk ve Pay Satışı","url":"/makaleler/kentsel-donusum-bir-malik-imzalamazsa-pay-satisi/"},
-      {"order":5,"title":"Pay Satışında Değerleme: Rayiç Bedel ve Yargısal Denetim","url":"/makaleler/kentsel-donusum-pay-satisi-degerleme-rayic-bedel/"},
-      {"order":6,"title":"Pay Satışının İptali: Tapu, TMK m.1023 ve Sonraki İşlemler","url":"/makaleler/kentsel-donusum-pay-satisi-iptali-tapu/"},
-      {"order":7,"title":"Pay Satışı Dosyasının İdari Denetimi ve Yapı Ruhsatı","url":"/makaleler/kentsel-donusum-pay-satisi-dosya-denetimi-ruhsat/"},
-      {"order":8,"title":"İpotekli, Hacizli veya İntifa Hakkı Bulunan Payın Satışı","url":"/makaleler/ipotekli-hacizli-intifali-pay-satisi/"},
-      {"order":9,"title":"Çoğunluk Kararının Sınırları ve Azınlık Hakları","url":"/makaleler/kentsel-donusum-cogunluk-karari-azinlik-haklari/"},
-      {"order":10,"title":"İhtirazi Kayıt ve Yıkımdan Önce Delil Tespiti","url":"/makaleler/kentsel-donusum-ihtirazi-kayit-delil-tespiti/"},
-      {"order":11,"title":"Kentsel Dönüşüm Davaları: Görev, Süre, Yürütmenin Durdurulması ve Tedbir","url":"/makaleler/kentsel-donusum-davalari-gorev-sure/"}
+      {
+        "order": 1,
+        "title": "2026 Sonrası Malik Toplantısı ve Çağrı: Ek-12, Nisap ve İspat",
+        "url": "/makaleler/kentsel-donusum-malik-toplantisi-cagri-ek-12/"
+      },
+      {
+        "order": 2,
+        "title": "Ortak Karar Protokolü: İçeriği, Hukuki Niteliği ve Geçersizlik Sorunları",
+        "url": "/makaleler/kentsel-donusum-ortak-karar-protokolu/"
+      },
+      {
+        "order": 3,
+        "title": "Vekâlet, Miras, Elbirliği Mülkiyeti ve Vesayet Altındaki Malik",
+        "url": "/makaleler/kentsel-donusum-vekalet-miras-elbirligi-vesayet/"
+      },
+      {
+        "order": 4,
+        "title": "Bir Malik İmzalamazsa Ne Olur? Salt Çoğunluk ve Pay Satışı",
+        "url": "/makaleler/kentsel-donusum-bir-malik-imzalamazsa-pay-satisi/"
+      },
+      {
+        "order": 5,
+        "title": "Pay Satışında Değerleme: Rayiç Bedel ve Yargısal Denetim",
+        "url": "/makaleler/kentsel-donusum-pay-satisi-degerleme-rayic-bedel/"
+      },
+      {
+        "order": 6,
+        "title": "Pay Satışının İptali: Tapu, TMK m.1023 ve Sonraki İşlemler",
+        "url": "/makaleler/kentsel-donusum-pay-satisi-iptali-tapu/"
+      },
+      {
+        "order": 7,
+        "title": "Pay Satışı Dosyasının İdari Denetimi ve Yapı Ruhsatı",
+        "url": "/makaleler/kentsel-donusum-pay-satisi-dosya-denetimi-ruhsat/"
+      },
+      {
+        "order": 8,
+        "title": "İpotekli, Hacizli veya İntifa Hakkı Bulunan Payın Satışı",
+        "url": "/makaleler/ipotekli-hacizli-intifali-pay-satisi/"
+      },
+      {
+        "order": 9,
+        "title": "Çoğunluk Kararının Sınırları ve Azınlık Hakları",
+        "url": "/makaleler/kentsel-donusum-cogunluk-karari-azinlik-haklari/"
+      },
+      {
+        "order": 10,
+        "title": "İhtirazi Kayıt ve Yıkımdan Önce Delil Tespiti",
+        "url": "/makaleler/kentsel-donusum-ihtirazi-kayit-delil-tespiti/"
+      },
+      {
+        "order": 11,
+        "title": "Kentsel Dönüşüm Davaları: Görev, Süre, Yürütmenin Durdurulması ve Tedbir",
+        "url": "/makaleler/kentsel-donusum-davalari-gorev-sure/"
+      }
     ]
   },
   "kentsel-donusum-sozlesme-yuklenici": {
     "title": "Kentsel Dönüşüm Hukuku: Sözleşme ve Yüklenici",
     "url": "/kentsel-donusum-hukuku/#kisim-v",
     "items": [
-      {"order":1,"title":"Kentsel Dönüşümde Ön Protokol ve Resmî Şekil","url":"/makaleler/kentsel-donusum-on-protokol-resmi-sekil/"},
-      {"order":2,"title":"Bina Tamamlama Sigortası ve Teminat Araçları","url":"/makaleler/kentsel-donusum-bina-tamamlama-sigortasi-teminatlar/"},
-      {"order":3,"title":"6306 Kapsamında İdari Fesih: Müteahhit Başlamaz veya İşi Durdurursa","url":"/makaleler/6306-idari-fesih-muteahhit-ise-baslamazsa/"}
+      {
+        "order": 1,
+        "title": "Kentsel Dönüşümde Ön Protokol ve Resmî Şekil",
+        "url": "/makaleler/kentsel-donusum-on-protokol-resmi-sekil/"
+      },
+      {
+        "order": 2,
+        "title": "Bina Tamamlama Sigortası ve Teminat Araçları",
+        "url": "/makaleler/kentsel-donusum-bina-tamamlama-sigortasi-teminatlar/"
+      },
+      {
+        "order": 3,
+        "title": "6306 Kapsamında İdari Fesih: Müteahhit Başlamaz veya İşi Durdurursa",
+        "url": "/makaleler/6306-idari-fesih-muteahhit-ise-baslamazsa/"
+      }
     ]
   },
   "kentsel-donusum-ozel-hukuk": {
     "title": "Kentsel Dönüşüm Hukuku: Tapu ve Özel Hukuk Sorunları",
     "url": "/kentsel-donusum-hukuku/#kisim-vi",
     "items": [
-      {"order":1,"title":"Yıkımdan Sonra Kat Mülkiyeti, Aile Konutu, İntifa ve Sükna Hakları","url":"/makaleler/riskli-yapi-yikim-sonrasi-kat-mulkiyeti-ayni-haklar/"},
-      {"order":2,"title":"Ortaklığın Giderilmesi Davası Sürerken Kentsel Dönüşüm","url":"/makaleler/ortakligin-giderilmesi-davasi-kentsel-donusum/"},
-      {"order":3,"title":"Riskli Yapının Güçlendirilmesi: Karar, Teknik Rapor ve Ruhsat","url":"/makaleler/riskli-yapi-guclendirme-karari-ruhsat/"},
-      {"order":4,"title":"İfraz, Tevhit, Takyidatlar ve Arsanın Kamuya Teklifi","url":"/makaleler/kentsel-donusum-ifraz-tevhit-takyidat-kamuya-teklif/"},
-      {"order":5,"title":"6306 Kapsamında Vergi, Harç ve Ücret Muafiyetleri ile Destekler","url":"/makaleler/6306-vergi-harc-muafiyeti-mali-destek/"},
-      {"order":6,"title":"Kiracının Kentsel Dönüşümde Hakları ve Yeniden Kiralama","url":"/makaleler/kiracinin-kentsel-donusum-haklari-yeniden-kiralama/"},
-      {"order":7,"title":"Yapı Kayıt Belgesi Hak Sahipliğini veya Metrekareyi Artırır mı?","url":"/makaleler/yapi-kayit-belgesi-kentsel-donusum-hak-sahipligi/"}
+      {
+        "order": 1,
+        "title": "Yıkımdan Sonra Kat Mülkiyeti, Aile Konutu, İntifa ve Sükna Hakları",
+        "url": "/makaleler/riskli-yapi-yikim-sonrasi-kat-mulkiyeti-ayni-haklar/"
+      },
+      {
+        "order": 2,
+        "title": "Ortaklığın Giderilmesi Davası Sürerken Kentsel Dönüşüm",
+        "url": "/makaleler/ortakligin-giderilmesi-davasi-kentsel-donusum/"
+      },
+      {
+        "order": 3,
+        "title": "Riskli Yapının Güçlendirilmesi: Karar, Teknik Rapor ve Ruhsat",
+        "url": "/makaleler/riskli-yapi-guclendirme-karari-ruhsat/"
+      },
+      {
+        "order": 4,
+        "title": "İfraz, Tevhit, Takyidatlar ve Arsanın Kamuya Teklifi",
+        "url": "/makaleler/kentsel-donusum-ifraz-tevhit-takyidat-kamuya-teklif/"
+      },
+      {
+        "order": 5,
+        "title": "6306 Kapsamında Vergi, Harç ve Ücret Muafiyetleri ile Destekler",
+        "url": "/makaleler/6306-vergi-harc-muafiyeti-mali-destek/"
+      },
+      {
+        "order": 6,
+        "title": "Kiracının Kentsel Dönüşümde Hakları ve Yeniden Kiralama",
+        "url": "/makaleler/kiracinin-kentsel-donusum-haklari-yeniden-kiralama/"
+      },
+      {
+        "order": 7,
+        "title": "Yapı Kayıt Belgesi Hak Sahipliğini veya Metrekareyi Artırır mı?",
+        "url": "/makaleler/yapi-kayit-belgesi-kentsel-donusum-hak-sahipligi/"
+      },
+      {
+        "order": 8,
+        "title": "Yönetim Planı ve Ortak Giderler: Asansör, Çatı ve Hakkaniyet",
+        "url": "/makaleler/kentsel-donusum-yonetim-plani-ortak-gider-asansor-cati/"
+      }
     ]
   },
   "bagdat-caddesi-kentsel-donusum": {
     "title": "Bağdat Caddesi Kentsel Dönüşüm Dosyası",
     "url": "/kentsel-donusum-hukuku/#bagdat-caddesi-dosyasi",
     "items": [
-      {"order":1,"title":"Bağdat Caddesi Kentsel Dönüşüm Rehberi: Sözleşmeden Teslime 13 Kritik Başlık","url":"/makaleler/bagdat-caddesi-kentsel-donusum-rehberi/"},
-      {"order":2,"title":"Bağdat Caddesi'nde Kentsel Dönüşüm Sözleşmesi: İmzadan Önce Kontrol Edilecek 15 Madde","url":"/makaleler/bagdat-caddesi-kentsel-donusum-sozlesmesi/"},
-      {"order":3,"title":"Kentsel Dönüşümde Şerefiye: Kat, Cephe ve Deniz Manzarası Nasıl Korunur?","url":"/makaleler/kentsel-donusum-serefiye-kat-cephe-deniz-manzarasi/"},
-      {"order":4,"title":"Eski Dairem 160 m²: Kentsel Dönüşümde Daire Küçülebilir mi?","url":"/makaleler/kentsel-donusumda-daire-kuculur-mu-metrekare/"},
-      {"order":5,"title":"Kentsel Dönüşümden Önce Arsa Payı Kontrolü ve Arsa Payı Düzeltme Davası","url":"/makaleler/kentsel-donusum-arsa-payi-duzeltme-davasi/"},
-      {"order":6,"title":"Kentsel Dönüşümde Müteahhide Tapu Ne Zaman Devredilmeli?","url":"/makaleler/kentsel-donusum-muteahhide-tapu-ne-zaman-devredilmeli/"},
-      {"order":7,"title":"Kentsel Dönüşümde Banka Teminat Mektubu Nasıl Olmalı?","url":"/makaleler/kentsel-donusum-banka-teminat-mektubu/"},
-      {"order":8,"title":"Kentsel Dönüşüm Teknik Şartnamesi: ‘1. Sınıf Malzeme’ Neden Yetmez?","url":"/makaleler/kentsel-donusum-teknik-sartname-birinci-sinif-malzeme/"},
-      {"order":9,"title":"Kentsel Dönüşümde Müteahhit Teklifleri Nasıl Karşılaştırılır?","url":"/makaleler/kentsel-donusum-muteahhit-teklifleri-karsilastirma/"},
-      {"order":10,"title":"Kentsel Dönüşümde Müteahhidin Finansal Gücü Nasıl Araştırılır?","url":"/makaleler/kentsel-donusum-muteahhit-finansal-gucu/"},
-      {"order":11,"title":"Kentsel Dönüşümde Otopark, Depo, Balkon ve Teras Hakkı Nasıl Korunur?","url":"/makaleler/kentsel-donusum-otopark-depo-balkon-teras-hakki/"},
-      {"order":12,"title":"Kentsel Dönüşümde Mevcut Otopark Hakkı Korunur mu?","url":"/makaleler/kentsel-donusum-mevcut-otopark-hakki-korunur-mu/"},
-      {"order":13,"title":"Kentsel Dönüşümde Teslim Gecikirse: Kira, Gecikme Tazminatı ve Cezai Şart","url":"/makaleler/kentsel-donusum-teslim-gecikmesi-kira-cezai-sart/"}
+      {
+        "order": 1,
+        "title": "Bağdat Caddesi Kentsel Dönüşüm Rehberi: Sözleşmeden Teslime 13 Kritik Başlık",
+        "url": "/makaleler/bagdat-caddesi-kentsel-donusum-rehberi/"
+      },
+      {
+        "order": 2,
+        "title": "Bağdat Caddesi'nde Kentsel Dönüşüm Sözleşmesi: İmzadan Önce Kontrol Edilecek 15 Madde",
+        "url": "/makaleler/bagdat-caddesi-kentsel-donusum-sozlesmesi/"
+      },
+      {
+        "order": 3,
+        "title": "Kentsel Dönüşümde Şerefiye: Kat, Cephe ve Deniz Manzarası Nasıl Korunur?",
+        "url": "/makaleler/kentsel-donusum-serefiye-kat-cephe-deniz-manzarasi/"
+      },
+      {
+        "order": 4,
+        "title": "Eski Dairem 160 m²: Kentsel Dönüşümde Daire Küçülebilir mi?",
+        "url": "/makaleler/kentsel-donusumda-daire-kuculur-mu-metrekare/"
+      },
+      {
+        "order": 5,
+        "title": "Kentsel Dönüşümden Önce Arsa Payı Kontrolü ve Arsa Payı Düzeltme Davası",
+        "url": "/makaleler/kentsel-donusum-arsa-payi-duzeltme-davasi/"
+      },
+      {
+        "order": 6,
+        "title": "Kentsel Dönüşümde Müteahhide Tapu Ne Zaman Devredilmeli?",
+        "url": "/makaleler/kentsel-donusum-muteahhide-tapu-ne-zaman-devredilmeli/"
+      },
+      {
+        "order": 7,
+        "title": "Kentsel Dönüşümde Banka Teminat Mektubu Nasıl Olmalı?",
+        "url": "/makaleler/kentsel-donusum-banka-teminat-mektubu/"
+      },
+      {
+        "order": 8,
+        "title": "Kentsel Dönüşüm Teknik Şartnamesi: ‘1. Sınıf Malzeme’ Neden Yetmez?",
+        "url": "/makaleler/kentsel-donusum-teknik-sartname-birinci-sinif-malzeme/"
+      },
+      {
+        "order": 9,
+        "title": "Kentsel Dönüşümde Müteahhit Teklifleri Nasıl Karşılaştırılır?",
+        "url": "/makaleler/kentsel-donusum-muteahhit-teklifleri-karsilastirma/"
+      },
+      {
+        "order": 10,
+        "title": "Kentsel Dönüşümde Müteahhidin Finansal Gücü Nasıl Araştırılır?",
+        "url": "/makaleler/kentsel-donusum-muteahhit-finansal-gucu/"
+      },
+      {
+        "order": 11,
+        "title": "Kentsel Dönüşümde Otopark, Depo, Balkon ve Teras Hakkı Nasıl Korunur?",
+        "url": "/makaleler/kentsel-donusum-otopark-depo-balkon-teras-hakki/"
+      },
+      {
+        "order": 12,
+        "title": "Kentsel Dönüşümde Mevcut Otopark Hakkı Korunur mu?",
+        "url": "/makaleler/kentsel-donusum-mevcut-otopark-hakki-korunur-mu/"
+      },
+      {
+        "order": 13,
+        "title": "Kentsel Dönüşümde Teslim Gecikirse: Kira, Gecikme Tazminatı ve Cezai Şart",
+        "url": "/makaleler/kentsel-donusum-teslim-gecikmesi-kira-cezai-sart/"
+      }
     ]
   }
 }
