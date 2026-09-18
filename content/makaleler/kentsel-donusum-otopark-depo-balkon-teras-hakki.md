@@ -2,7 +2,7 @@
 title: "Kentsel Dönüşümde Otopark, Depo, Balkon ve Teras Hakkı Nasıl Korunur?"
 slug: "kentsel-donusum-otopark-depo-balkon-teras-hakki"
 date: "2026-09-09T03:31:00+03:00"
-updated: "2026-09-09T03:31:00+03:00"
+updated: "2026-09-18T23:00:00+03:00"
 category: "Kentsel Dönüşüm"
 category_url: "/kentsel-donusum-hukuku/"
 keyword: "Kentsel Dönüşüm Otopark Depo Balkon Teras"
