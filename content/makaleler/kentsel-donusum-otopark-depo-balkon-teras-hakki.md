@@ -231,7 +231,7 @@ Otopark zemini, şarj altyapısı, depo kapısı, teras su yalıtımı, korkuluk
 
 ### Yönetim planında
 
-Ortak alanlardaki özel kullanım, bakım giderleri veya tahsis sistemi gerekiyorsa düzenlenir.
+Ortak alanlardaki özel kullanım, bakım giderleri veya tahsis sistemi gerekiyorsa düzenlenir. Yeni binada asansör, çatı ve diğer ortak giderlerin hangi ölçüte göre paylaşılacağı da [yönetim planı ve ortak giderler](/makaleler/kentsel-donusum-yonetim-plani-ortak-gider-asansor-cati/) başlığında ayrıca kurulmalıdır.
 
 Böylece aynı hak beş farklı belgede çelişkili biçimde değil, birbirini tamamlayacak şekilde kurulur.
 
