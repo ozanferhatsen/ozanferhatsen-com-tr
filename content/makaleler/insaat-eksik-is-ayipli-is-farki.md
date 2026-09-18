@@ -83,7 +83,7 @@ Nitelendirme;
 
 etkileyebilir.
 
-Yargıtay HGK E.2019/349, K.2022/806 sayılı kararında da, eksik ifanın ayıp kavramı içinde eritilmesinin tüketiciyi ayıp için öngörülen ihbar ve daha kısa süre rejimine tabi tutabileceğine dikkat çekilmiştir.
+[Yargıtay HGK E.2019/349, K.2022/806 sayılı kararında](/ictihat/yargitay-hukuk-genel-kurulu-2019-349-2022-806-eksik-ifa-ayip-ihbari/) da, eksik ifanın ayıp kavramı içinde eritilmesinin tüketiciyi ayıp için öngörülen ihbar ve daha kısa süre rejimine tabi tutabileceğine dikkat çekilmiştir.
 
 Bu nedenle dava dilekçesinde bütün kalemleri “eksik ve ayıplı işler” adı altında tek toplam rakama dönüştürmek çoğu zaman yeterli değildir.
 
@@ -119,7 +119,7 @@ Eksik işte problem, taahhüt edilen edimin bir bölümünün yerine getirilmeme
 
 kararlaştırılmış ancak bu iş kalemi hiç gerçekleştirilmemişse **eksik ifa** tartışması doğar.
 
-Yargıtay HGK E.2019/349, K.2022/806 sayılı kararında, sözleşme ve tanıtım materyallerinde vaat edilen bazı ortak alan ve bağımsız bölüm unsurlarının yerine getirilmemesi eksik ifa olarak değerlendirilmiştir.
+[Yargıtay HGK E.2019/349, K.2022/806 sayılı kararında](/ictihat/yargitay-hukuk-genel-kurulu-2019-349-2022-806-eksik-ifa-ayip-ihbari/), sözleşme ve tanıtım materyallerinde vaat edilen bazı ortak alan ve bağımsız bölüm unsurlarının yerine getirilmemesi eksik ifa olarak değerlendirilmiştir.
 
 Kurul özellikle, teslimi gerçekleşmemiş bir işin muayenesinin mümkün olmadığı ve eksik iş ile ayıplı işin aynı hukuki nitelikte sayılamayacağı üzerinde durmuştur.
 
@@ -156,7 +156,7 @@ Ayıp maddi olabileceği gibi hukuki veya ekonomik nitelikte de ortaya çıkabil
 
 Bu pratik ayrım başlangıç için kullanışlıdır ama her dosyayı çözmez.
 
-Yargıtay HGK E.2021/539, K.2022/1267 sayılı kararda asansör makinesi dairesi ve blok dış duvarı bakımından bazı yalıtım imalatlarının yapılmamış olması tartışılmıştır. Bu unsurlar ilk bakışta “hiç yapılmamış iş” gibi görünmesine rağmen, Kurul değerlendirmesinde **tamamlanmış yapının sahip olması gereken teknik niteliğin eksikliği** üzerinden ayıp tartışması öne çıkmıştır.
+[Yargıtay [HGK E.2021/539, K.2022/1267 sayılı karar](/ictihat/yargitay-hukuk-genel-kurulu-2021-539-2022-1267-eksik-is-gizli-ayip/)da](/ictihat/yargitay-hukuk-genel-kurulu-2021-539-2022-1267-eksik-is-gizli-ayip/) asansör makinesi dairesi ve blok dış duvarı bakımından bazı yalıtım imalatlarının yapılmamış olması tartışılmıştır. Bu unsurlar ilk bakışta “hiç yapılmamış iş” gibi görünmesine rağmen, Kurul değerlendirmesinde **tamamlanmış yapının sahip olması gereken teknik niteliğin eksikliği** üzerinden ayıp tartışması öne çıkmıştır.
 
 Bu örnek önemli bir sonuç doğurur:
 
@@ -224,7 +224,7 @@ Bu haklar birbirine karıştırılmamalıdır. Özellikle “ayıplı iş bedeli
 
 Her zaman değil.
 
-HGK E.2021/539, K.2022/1267 sayılı kararının en önemli taraflarından biri budur.
+[HGK E.2021/539, K.2022/1267 sayılı karar](/ictihat/yargitay-hukuk-genel-kurulu-2021-539-2022-1267-eksik-is-gizli-ayip/)ının en önemli taraflarından biri budur.
 
 Kararda;
 
