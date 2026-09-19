@@ -300,7 +300,7 @@ Başka bir dosyada ise taşınmaz önce bir köy tüzel kişiliği adına tapulu
 
 Böyle bir olay yalnız Orman Kanunu ve tapu sicilinin tutulmasından doğan Devlet sorumluluğu meselesi değildir. Satışın hukuki yapısına göre **satıcı belediyenin zapta karşı sorumluluğu veya sözleşmeden doğan başka sorumlulukları** da ayrıca gündeme gelebilir.
 
-Taşınmaz satışından doğan uyuşmazlıklardaki genel içtihat çerçevesi için [Yargıtay Hukuk Genel Kurulu kararları üzerinden hazırladığımız taşınmaz satış rehberine](/makaleler/yargitay-hukuk-genel-kurulu-kararlari-tasinmaz-satisindan-dogan-uyusmazliklar/) da bakılabilir.
+Taşınmaz satışından doğan uyuşmazlıklardaki genel içtihat çerçevesi için [Yargıtay Hukuk Genel Kurulu kararları üzerinden hazırladığımız taşınmaz satış rehberine](/ictihat/karar-haritalari/tasinmaz-satisi/) da bakılabilir.
 
 ## Böyle bir taşınmazı olan kişi önce hangi belgeleri kontrol etmeli?
 
