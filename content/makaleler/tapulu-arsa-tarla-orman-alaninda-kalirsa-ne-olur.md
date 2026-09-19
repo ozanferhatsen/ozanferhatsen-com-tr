@@ -1,8 +1,8 @@
 ---
 title: "Tapulu Arsa veya Tarla Orman Alanında Kalırsa Ne Olur? Orman Kadastrosu, Tapu İptali ve 2026 Ek Madde 22"
 slug: "tapulu-arsa-tarla-orman-alaninda-kalirsa-ne-olur"
-date: "2026-09-19T13:20:00+03:00"
-updated: "2026-09-19T13:20:00+03:00"
+date: "2026-09-19T11:30:00+03:00"
+updated: "2026-09-19T11:30:00+03:00"
 legal_review_date: "2026-09-19"
 category: "Gayrimenkul Hukuku"
 category_url: "/gayrimenkul-hukuku/"
@@ -372,9 +372,9 @@ Bu nedenle eski tarihli bir orman kadastrosu bulunan taşınmazda ilk yapılmas�
 
 ## Dipnotlar
 
-1. Gökçe Gençay, “Orman Kadastrosunun Güncel Sorunları Üzerinde Hukuksal İncelemeler”, 2012; Sedat Ayanoğlu, genel kadastro–orman kadastrosu ilişkisine ilişkin çalışmaları.
-2. Gökçe Gençay, “Orman Sınırları İçinde Tapu İptali Kararlarının Mülkiyet Hakkını İhlal Etmesi Sorunu”, 2016.
-3. Anayasa Mahkemesi, E.2009/31, K.2011/77, 12.05.2011; M. Kemal Oğuzman / Özer Seliçi / Saibe Oktay-Özdemir, *Eşya Hukuku*, 25. Bası, 2023.
+1. Gökçe Gençay, “Orman Kadastrosunun Güncel Sorunları Üzerinde Hukuksal İncelemeler”, 2012; Gökçe Gençay, “Orman Sınırları İçinde Tapu İptali Kararlarının Mülkiyet Hakkını İhlal Etmesi Sorunu”, 2016.
+2. Gökçe Gençay, “Orman Kadastrosunun Güncel Sorunları Üzerinde Hukuksal İncelemeler”, 2012.
+3. Anayasa Mahkemesi, E.2009/31, K.2011/77, 12.05.2011.
 4. Anayasa Mahkemesi, E.2009/31, K.2011/77, 12.05.2011.
 5. Kemal Erdoğan, “3402 Sayılı Kadastro Kanunu'nun 12'nci Maddesinin Üçüncü Fıkrasında Öngörülen On Yıllık Hak Düşürücü Sürenin Uygulama Alanı”, Türkiye Adalet Akademisi Dergisi, S.65, 2026.
 6. Alkım Aktaş, “Mülkiyet Hakkına Müdahale Kapsamında ‘Orman Şerhi’ Uygulaması”, İdare Hukuku ve İlimleri Dergisi, 2023.
