@@ -82,6 +82,11 @@ assert(chamberRecord, "Bilinen 6. HD kararı arama indeksine girmedi");
 assert(chamberRecord.esas === "2025/2041" && chamberRecord.karar === "2026/1191", "Derlenmiş 6. HD künyesi yanlış");
 assert(chamberRecord.court_code === "6. HD", "Derlenmiş 6. HD kodu yanlış");
 
+const forestArticleUrl = "/makaleler/tapulu-arsa-tarla-orman-alaninda-kalirsa-ne-olur/";
+const forestArticleRecord = index.find((record) => record.id === forestArticleUrl || record.url === forestArticleUrl);
+assert(forestArticleRecord, "Orman kadastrosu makalesi arama indeksine girmedi");
+assert(forestArticleRecord.type === "makale", "Orman kadastrosu içeriği makale türünde indekslenmedi");
+
 // Thin index validations:
 // 1. Her kayıt tekil bir dokümandır, URL içinde '#' bölüm çapası bulunmamalıdır.
 const sectionRecord = index.find((record) => record.url && record.url.includes("#"));
