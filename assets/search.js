@@ -283,7 +283,7 @@
         id: document.id,
         score: 25,
         title: document.title,
-        url: document.url,
+        url: document.url || document.id,
         type: document.type,
         category: document.category,
         summary: document.summary,
@@ -464,7 +464,7 @@
         ? '<p class="search-result-summary">' + escapeHtml(result.summary) + '</p>'
         : '';
 
-      return '<a class="search-result" href="' + escapeHtml(result.url) + '">' +
+      return '<a class="search-result" href="' + escapeHtml(result.url || result.id) + '">' +
         '<div class="search-result-meta"><span class="search-result-type">' + typeLabel + '</span>' + category + '</div>' +
         '<h2 class="search-result-title">' + escapeHtml(result.title) + '</h2>' +
         summary +
@@ -572,7 +572,6 @@
         ],
         storeFields: [
           'title',
-          'url',
           'type',
           'category',
           'summary',

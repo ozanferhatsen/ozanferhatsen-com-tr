@@ -174,7 +174,6 @@ function buildThinRecord(item, type) {
   const record = {
     id: item.url,
     title: parentTitle,
-    url: item.url,
     type,
     area: resolveSearchArea(item),
     summary: String(data.summary || data.description || "").trim().slice(0, 220),
