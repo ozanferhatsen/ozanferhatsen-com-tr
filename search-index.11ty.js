@@ -54,10 +54,13 @@ function isGenericHeading(h) {
     .replace(/ı/g, "i")
     .replace(/ö/g, "o")
     .replace(/ç/g, "c");
+  const withoutRoman = norm.replace(/^(?:i|ii|iii|iv|v|vi|vii|viii|ix|x)\.\s*/, "");
   return (
     GENERIC_HEADINGS.has(norm) ||
     GENERIC_HEADINGS.has(norm + ":") ||
-    /^(i|ii|iii|iv|v|vi)\.\s*(yargilama sureci|uyusmazlik|gerekce|sonuc|on sorun)$/.test(norm)
+    GENERIC_HEADINGS.has(withoutRoman) ||
+    GENERIC_HEADINGS.has(withoutRoman + ":") ||
+    /^(i|ii|iii|iv|v|vi|vii|viii|ix|x)\.\s*(yargilama sureci|uyusmazlik|gerekce|sonuc|on sorun)$/.test(norm)
   );
 }
 
