@@ -422,6 +422,11 @@
 
   function visibleResults() {
     if (activeFilter === 'all') return allResults;
+    if (activeFilter === 'judgments') {
+      return allResults.filter(function (result) {
+        return result.type === 'ictihat' || result.type === 'karar-corpus';
+      });
+    }
     return allResults.filter(function (result) { return result.type === activeFilter; });
   }
 
@@ -429,9 +434,8 @@
     const types = [
       ['all', 'Tümü'],
       ['karar-haritasi', 'Karar Haritaları'],
-      ['ictihat', 'İçtihatlar'],
-      ['makale', 'Makaleler'],
-      ['karar-corpus', 'Yargıtay Kararları']
+      ['judgments', 'Yargı Kararları'],
+      ['makale', 'Makaleler']
     ];
 
     filtersEl.innerHTML = types.map(function ([value, label]) {
@@ -536,7 +540,7 @@
 
     try {
       const responses = await Promise.all([
-        fetch('/search-index.json', { cache: 'force-cache' }),
+        fetch('/search-index.json', { cache: 'no-store' }),
         loadOntology()
       ]);
       const response = responses[0];
