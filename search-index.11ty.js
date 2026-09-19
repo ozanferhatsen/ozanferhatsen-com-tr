@@ -31,7 +31,15 @@ const GENERIC_HEADINGS = new Set([
   "ilk derece mahkemesinin birinci karari:",
   "ilk derece mahkemesinin ikinci karari:",
   "ozel dairenin birinci bozma karari:",
-  "ozel dairenin ikinci bozma karari:"
+  "ozel dairenin ikinci bozma karari:",
+  "hukuki sorun",
+  "yargitayin degerlendirmesi",
+  "kararin esas gerekcesi (ratio decidendi)",
+  "uygulama notu",
+  "ilgili mevzuat",
+  "anahtar kavramlar",
+  "kararin tam metni",
+  "kaynak"
 ]);
 
 function isGenericHeading(h) {
