@@ -36,6 +36,8 @@ Kentsel dönüşüm mevzuatında bütün projeler için uygulanacak tek bir “�
 
 Buradaki kritik ayrım şudur: **Şerefiye, eski dairenin her fiziksel özelliğinin yeni projede aynen tekrar edileceği garantisi değildir.** Ama değer farklarının yok sayılmaması için kullanılabilecek önemli bir paylaşım aracıdır.
 
+Eski fiziksel düzenin yeni projede artık üretilemediği durumlarda asıl mesele, bu değer farklarının maliklere nasıl dağıtılacağıdır. [Üç bina yıkılıp iki bina yapıldığında yeni dairelerin nasıl paylaştırılabileceğini](/makaleler/kentsel-donusum-yeni-daire-dagilimi-adil-paylasim/) ayrı bir yazıda inceliyoruz.
+
 ## 1. Aynı metrekare neden aynı değer değildir?
 
 Prof. Dr. Erol Köktürk'ün satışların karşılaştırılması yöntemine ilişkin çalışmasının temel mantığı, karşılaştırılacak taşınmazlar arasındaki farklılıkların görmezden gelinmemesidir. Emsaller gerçekten aynı değilse, değer karşılaştırması yapılırken nitelik farklılıkları için düzeltme gerekir.
