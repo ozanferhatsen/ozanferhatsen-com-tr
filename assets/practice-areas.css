@@ -46,17 +46,17 @@
 .problem-accordion[open] .accordion-mark::after{transform:rotate(0deg)}
 .accordion-content{padding:0 16px 17px;border-top:1px solid var(--line)}
 .accordion-content p{margin:14px 0 0;color:var(--muted);font-size:13px;line-height:1.65}
-.practice-cta-section{padding:66px 0}
-.practice-cta{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:50px;align-items:end;padding:40px;background:var(--dark);color:#f5f1eb}
-.practice-cta .eyebrow{color:#c8a87b}
-.practice-cta h2{max-width:820px;margin:9px 0 0;font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(34px,4vw,52px);line-height:1.02;letter-spacing:-.026em;font-weight:500}
-.practice-cta p{max-width:800px;margin:18px 0 0;color:#beb7af}
-.practice-cta .btn.primary{border-color:#f5f1eb;background:#f5f1eb;color:var(--dark);white-space:nowrap}
+.practice-cta-section{padding:54px 0}
+.practice-cta{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:46px;align-items:end;padding:34px 38px;background:var(--dark);color:#f7f1e8;border:1px solid #3a322c;box-shadow:0 18px 44px rgba(39,34,30,.08)}
+.practice-cta .eyebrow{color:var(--gold)}
+.practice-cta h2{max-width:820px;margin:8px 0 0;font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(32px,3.6vw,47px);line-height:1.03;letter-spacing:-.024em;font-weight:500}
+.practice-cta p{max-width:800px;margin:15px 0 0;color:#c8beb3}
+.practice-cta .btn.primary{min-height:44px;padding:10px 17px;border-color:#f2ebe2;background:#f2ebe2;color:var(--dark);white-space:nowrap}
 .practice-topics-section{padding-top:52px;padding-bottom:52px}
 .practice-section-title{max-width:840px;margin-bottom:24px}
 .practice-section-title h2{margin:8px 0 0;font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(30px,3.2vw,42px);line-height:1.04;letter-spacing:-.022em;font-weight:500}
 .topic-list{display:flex;gap:10px;flex-wrap:wrap}
-.topic-chip{display:inline-flex;align-items:center;min-height:42px;padding:9px 14px;border:1px solid var(--line);background:rgba(255,255,255,.24);font-size:13px}
+.topic-chip{display:inline-flex;align-items:center;min-height:42px;padding:9px 14px;border:1px solid var(--line);background:rgba(255,253,249,.42);font-size:13px}
 a.topic-chip:hover{border-color:var(--ink);background:rgba(255,255,255,.55)}
 #yazilar,#risk-haritasi,#kritik-sorunlar,#ilgili-basliklar,#sss{scroll-margin-top:86px}
 .section.dark.practice-areas .grid4{grid-template-columns:repeat(3,minmax(0,1fr))}
@@ -130,9 +130,9 @@ a.topic-chip:hover{border-color:var(--ink);background:rgba(255,255,255,.55)}
   .problem-points{margin-top:20px}
   .problem-accordion summary,.problem-point-static{padding:16px}
   .accordion-content{padding:0 16px 17px}
-  .practice-cta-section{padding:48px 0}
-  .practice-cta{grid-template-columns:1fr;gap:28px;padding:28px}
-  .practice-cta h2{font-size:38px}
+  .practice-cta-section{padding:42px 0}
+  .practice-cta{grid-template-columns:1fr;gap:24px;padding:26px 24px}
+  .practice-cta h2{font-size:36px}
   .practice-topics-section{padding:42px 0}
   .topic-list{display:grid;grid-template-columns:1fr}
   .topic-chip{width:100%}
