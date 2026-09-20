@@ -11,7 +11,12 @@ og_type: article
 .article-header .breadcrumbs{display:none}
 .article-header .tag{margin-bottom:14px}
 .article-header .article-summary{max-width:850px}
-.article-meta{margin-top:18px}
+.article-meta{margin-top:0}
+.article-meta-line{display:flex;align-items:center;gap:14px;margin-top:18px;flex-wrap:wrap}
+.article-pdf-link{display:inline-flex;align-items:center;justify-content:center;min-height:28px;padding:4px 9px;border:1px solid #bdb5ac;border-radius:2px;font:700 10px/1 Arial,sans-serif;letter-spacing:.11em;text-transform:uppercase;text-decoration:none;color:#4e4944;background:transparent}
+.article-pdf-link:hover{border-color:#7d746b;color:#231f1b}
+.pdf-publication-mark,.pdf-endnote{display:none}
+
 .article-layout{display:block}
 .article-body{max-width:none;margin-inline:0}
 .article-body>*:not(.article-toc){max-width:none;margin-left:0;margin-right:0}
@@ -69,8 +74,100 @@ og_type: article
 @media(max-width:620px){.article-content-sheet{padding:30px 20px 38px}.series-kicker{font-size:10px}.series-pager{margin-top:40px}.series-pager a{min-height:112px;padding:17px}.series-pager .series-pager-title,.series-pager .next .series-pager-title{font-size:20px}.article-toc{margin-bottom:30px}.article-toc summary{padding-inline:17px}.article-toc nav{padding:0 17px 16px}.article-toc a{font-size:15px}}
 @media(min-width:761px){.article-toc{margin-top:8px}}
 @media(prefers-reduced-motion:reduce){.article-toc summary::after{transition:none}}
+@media print{
+  @page{size:A4;margin:18mm 17mm 20mm}
+  html.pdf-export{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  html.pdf-export body{background:#fff!important;color:#171513!important}
+  html.pdf-export body::before{
+    content:"ozanferhatsen.com.tr";
+    position:fixed;
+    left:50%;
+    top:50%;
+    width:180mm;
+    transform:translate(-50%,-50%) rotate(-35deg);
+    text-align:center;
+    font:500 34pt/1 Georgia,"Times New Roman",serif;
+    letter-spacing:.045em;
+    color:rgba(72,60,52,.055);
+    z-index:0;
+    pointer-events:none;
+    white-space:nowrap
+  }
+  html.pdf-export .site-header,
+  html.pdf-export .site-footer,
+  html.pdf-export .skip-link,
+  html.pdf-export .article-toc,
+  html.pdf-export .sidebar,
+  html.pdf-export .article-pdf-link,
+  html.pdf-export .series-pager,
+  html.pdf-export .related-reading,
+  html.pdf-export .cta-box,
+  html.pdf-export .article-body>.author-box:not(.article-sources),
+  html.pdf-export .legal-calculator{display:none!important}
+  html.pdf-export .pdf-publication-mark,
+  html.pdf-export .pdf-endnote{display:block}
+  html.pdf-export .pdf-publication-mark{
+    position:relative;
+    z-index:1;
+    margin:0 0 10mm;
+    padding:0 0 5mm;
+    border-bottom:.35mm solid #2a2723;
+    font:700 8.5pt/1.35 Arial,sans-serif;
+    letter-spacing:.12em;
+    text-transform:uppercase
+  }
+  html.pdf-export .pdf-publication-mark span{display:block;margin-top:1.5mm;font-weight:400;letter-spacing:.06em;color:#5c5650}
+  html.pdf-export .article-header,
+  html.pdf-export .article-layout,
+  html.pdf-export .article-content-sheet,
+  html.pdf-export .article-sources,
+  html.pdf-export .pdf-endnote{position:relative;z-index:1}
+  html.pdf-export .article-header{padding:0!important;margin:0 0 8mm!important;background:transparent!important}
+  html.pdf-export .article-header .wrap,
+  html.pdf-export .article-layout{width:auto!important;max-width:none!important;margin:0!important;padding:0!important}
+  html.pdf-export .series-kicker{margin-bottom:4mm;font-size:7.5pt}
+  html.pdf-export .article-header h1{margin:0 0 4mm!important;font-size:27pt!important;line-height:1.05!important;letter-spacing:-.02em!important}
+  html.pdf-export .article-summary{max-width:none!important;margin:0!important;font-size:12pt!important;line-height:1.45!important;color:#3d3833!important}
+  html.pdf-export .article-meta-line{margin-top:4mm!important}
+  html.pdf-export .article-meta{font-size:8.5pt!important;color:#625c56!important}
+  html.pdf-export .article-body{max-width:none!important;margin:0!important}
+  html.pdf-export .article-content-sheet{
+    max-width:none!important;
+    margin:0!important;
+    padding:0!important;
+    border:0!important;
+    box-shadow:none!important;
+    background:transparent!important
+  }
+  html.pdf-export .article-content-sheet p,
+  html.pdf-export .article-content-sheet li{font-size:10.6pt!important;line-height:1.58!important}
+  html.pdf-export .article-content-sheet h2{font-size:18pt!important;line-height:1.15!important;margin:9mm 0 3.5mm!important;break-after:avoid-page}
+  html.pdf-export .article-content-sheet h3{font-size:13.5pt!important;line-height:1.2!important;margin:6mm 0 2.5mm!important;break-after:avoid-page}
+  html.pdf-export .article-content-sheet blockquote{break-inside:avoid}
+  html.pdf-export .article-content-sheet table{font-size:8.6pt!important;line-height:1.35!important;margin:5mm 0 7mm!important;break-inside:avoid}
+  html.pdf-export .article-content-sheet th,
+  html.pdf-export .article-content-sheet td{padding:2.4mm 2.7mm!important}
+  html.pdf-export .article-sources{margin-top:10mm!important;padding-top:5mm!important;border-top:.3mm solid #bdb6ae!important;background:transparent!important}
+  html.pdf-export .article-sources h2{font-size:14pt!important;margin:0 0 3mm!important}
+  html.pdf-export .article-sources li{font-size:8.7pt!important;line-height:1.45!important;margin:1.5mm 0!important}
+  html.pdf-export .pdf-endnote{
+    margin-top:8mm;
+    padding-top:4mm;
+    border-top:.25mm solid #d0c9c1;
+    font:8.3pt/1.45 Arial,sans-serif;
+    color:#5e5852
+  }
+  html.pdf-export a{color:inherit!important;text-decoration:none!important}
+}
+
 </style>
 {% set canonicalUrl = canonical or (site.url + page.url) %}
+{% set pdfSlug = slug or page.fileSlug %}
+<script>
+if (new URLSearchParams(window.location.search).get('pdf') === '1') {
+  document.documentElement.classList.add('pdf-export');
+}
+</script>
 {% set resolvedCategoryUrl = category_url or (category | categoryUrl) %}
 {% set relatedArticles = collections.makaleler | relatedByCategory(category, page.url, 3) %}
 {% set articleWordCount = content | wordCount %}
@@ -85,6 +182,7 @@ og_type: article
 {% set articleAboutThings = (about or legal_about or statutes) | schemaThings %}
 {% set articleCitations = (citations or citation or precedents) | schemaCitations %}
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":{{ (canonicalUrl + '#article') | json }},"headline":{{ title | json }},"description":{{ (description or summary) | json }},"mainEntityOfPage":{"@type":"WebPage","@id":{{ canonicalUrl | json }}},"author":{"@id":"https://ozanferhatsen.com.tr/#ozan-ferhat-sen"},"publisher":{"@id":"https://ozanferhatsen.com.tr/#ozan-ferhat-sen"},"isPartOf":[{"@id":"https://ozanferhatsen.com.tr/#website"}{% if currentSeries %},{"@type":"CollectionPage","name":{{ currentSeries.title | json }},"url":{{ (site.url + currentSeries.url) | json }}}{% endif %}],"datePublished":{{ date | isoDate | json }},"dateModified":{{ (updated or date) | isoDate | json }},{% if articleReviewDate %}"lastReviewed":{{ articleReviewDate | isoDate | json }},{% endif %}"inLanguage":"tr-TR","articleSection":{{ category | json }}{% if image %},"image":{{ (site.url + image) | json }}{% endif %}{% if articleAboutThings and articleAboutThings.length %},"about":{{ articleAboutThings | json }}{% endif %}{% if articleCitations and articleCitations.length %},"citation":{{ articleCitations | json }}{% endif %}},{"@type":"BreadcrumbList","@id":{{ (canonicalUrl + '#breadcrumb') | json }},"itemListElement":[{"@type":"ListItem","position":1,"name":"Ana Sayfa","item":"https://ozanferhatsen.com.tr/"},{"@type":"ListItem","position":2,"name":{{ category | json }},"item":{{ (site.url + resolvedCategoryUrl) | json }}},{"@type":"ListItem","position":3,"name":{{ title | json }},"item":{{ canonicalUrl | json }}}]}]}</script>
+<div class="wrap pdf-publication-mark">Av. Ozan Ferhat Şen<span>Gayrimenkul · İnşaat · İmar · Kentsel Dönüşüm Hukuku</span></div>
 <section class="article-header">
   <div class="wrap">
     <div class="breadcrumbs" aria-hidden="true"><a href="/">Ana Sayfa</a> / <a href="{{ resolvedCategoryUrl }}">{{ category }}</a> / {{ title }}</div>
@@ -95,11 +193,14 @@ og_type: article
     {% endif %}
     <h1>{{ title }}</h1>
     <p class="article-summary">{{ summary }}</p>
-    <div class="article-meta" data-word-count="{{ articleWordCount }}">{{ articleReadingTime }} dk okuma{% if articleReviewDate %} · Hukuki kontrol: {{ articleReviewDate | dateTR }}{% endif %}</div>
+    <div class="article-meta-line">
+      <div class="article-meta" data-word-count="{{ articleWordCount }}">{{ articleReadingTime }} dk okuma{% if articleReviewDate %} · Hukuki kontrol: {{ articleReviewDate | dateTR }}{% endif %}</div>
+      <a class="article-pdf-link" href="/pdf/{{ pdfSlug }}.pdf" target="_blank" rel="noopener" aria-label="{{ title }} makalesinin PDF sürümünü yeni sekmede aç">PDF</a>
+    </div>
   </div>
 </section>
 <section class="wrap article-layout">
-  <article class="article-body">
+  <article class="article-body" data-pdf-slug="{{ pdfSlug }}">
     {% if articleToc.length >= 3 %}
     <details class="article-toc">
       <summary>Bu yazıda</summary>
@@ -123,8 +224,13 @@ og_type: article
     </div>
 
     {% if sources %}
-    <section class="author-box"><h2>Kaynaklar ve hukuki dayanak</h2><ul>{% for source in sources %}<li>{{ source.name | sourceAttribution }}</li>{% endfor %}</ul></section>
+    <section class="author-box article-sources"><h2>Kaynaklar ve hukuki dayanak</h2><ul>{% for source in sources %}<li>{{ source.name | sourceAttribution }}</li>{% endfor %}</ul></section>
     {% endif %}
+
+    <div class="pdf-endnote">
+      <strong>Av. Ozan Ferhat Şen</strong><br>
+      ozanferhatsen.com.tr · Güncel sürüm: {{ canonicalUrl }}{% if articleReviewDate %}<br>Hukuki kontrol: {{ articleReviewDate | dateTR }}{% endif %}
+    </div>
 
     {% if relatedArticles.length %}
     <section class="author-box related-reading" aria-label="İlgili makaleler"><h2>İlgili makaleler</h2><ul>{% for article in relatedArticles %}<li><a href="{{ article.url }}">{{ article.data.title }}</a></li>{% endfor %}</ul></section>
