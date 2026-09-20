@@ -3,55 +3,47 @@ layout: base.njk
 og_type: article
 ---
 <style>
-/* Makale serileri: tek dosya hissi veren okuma mimarisi */
-.series-kicker{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 18px;font:700 11px/1.4 Arial,sans-serif;text-transform:uppercase;letter-spacing:.11em;color:var(--muted)}
+/* Article v2: quieter identity, editorial TOC, narrow reading measure */
+.series-kicker{margin:0 0 16px;font:700 11px/1.4 Inter,Arial,sans-serif;text-transform:uppercase;letter-spacing:.11em;color:var(--muted)}
 .series-kicker a{text-decoration:none;color:var(--accent)}
-.series-kicker .series-divider{color:#b7afa6}
-.series-kicker .series-order{color:#4f4a45}
-.series-sidebox{position:static;top:auto}
-.series-sidebox .series-label{font:700 10px/1.4 Arial,sans-serif;text-transform:uppercase;letter-spacing:.14em;color:var(--accent);margin-bottom:9px}
-.series-sidebox h3 a{text-decoration:none}
-.series-list{list-style:none;margin:18px 0 0;padding:0;border-top:1px solid var(--line)}
-.series-list li{margin:0;border-bottom:1px solid var(--line)}
-.series-list a,.series-list .series-planned{display:grid;grid-template-columns:30px 1fr;gap:9px;padding:12px 9px 12px 0;text-decoration:none;font:13px/1.45 Arial,sans-serif;color:#59544f}
-.series-list .series-num{font-size:10px;letter-spacing:.08em;color:#9a9188;padding-top:2px}
-.series-list li.is-current a{border-left:3px solid var(--accent);padding-left:10px;color:var(--ink);font-weight:700;background:rgba(122,32,48,.035)}
-.series-list li.is-current .series-num{color:var(--accent)}
-.series-list .series-planned{color:#aaa198}
-.series-list .series-planned-text{display:flex;flex-direction:column;gap:3px}
-.series-list .series-planned-badge{font:700 9px/1.3 Arial,sans-serif;text-transform:uppercase;letter-spacing:.1em;color:#b4aba2}
-.series-pager{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:14px;margin-top:52px;padding-top:24px;border-top:1px solid var(--line)}
-.series-pager a{min-height:132px;padding:20px 22px;border:1px solid var(--line);text-decoration:none;display:flex;flex-direction:column;justify-content:space-between;background:var(--paper)}
-.series-pager a:hover{border-color:#aaa198}
-.series-pager .series-pager-label{font:700 10px/1.4 Arial,sans-serif;text-transform:uppercase;letter-spacing:.13em;color:var(--muted)}
-.series-pager .series-pager-title{font-size:21px;line-height:1.22;margin-top:12px}
-.series-pager .next{background:var(--dark);color:#fff;border-color:var(--dark)}
-.series-pager .next .series-pager-label{color:#cfc8c0}
-.series-pager .next .series-pager-title{font-size:24px}
-.series-pager .prev:only-child{grid-column:1/2}
-.series-pager .next:only-child{grid-column:2/3}
-.cyber-note{margin:34px 0;padding:20px 22px;border:1px solid var(--line);background:#f1ece6;font:15px/1.65 Arial,sans-serif}
-.cyber-note strong{font-family:Georgia,"Times New Roman",serif;font-size:18px;font-weight:400}
-.related-reading{margin-top:34px}
-.related-reading ul{margin:12px 0 0;padding-left:20px}
-.related-reading li{margin:8px 0}
-.related-reading a{text-decoration-thickness:1px;text-underline-offset:3px}
-.article-toc{margin:0 0 30px;border:1px solid var(--line);background:rgba(255,255,255,.28)}
-.article-toc summary{display:flex;align-items:center;justify-content:space-between;min-height:48px;padding:0 16px;cursor:pointer;list-style:none;font:600 14px/1.4 Inter,Arial,sans-serif}
+.series-kicker .series-divider{margin:0 7px;color:#b7afa6}
+.series-kicker .series-order{color:#6b655f}
+.article-header .breadcrumbs{display:none}
+.article-header .tag{margin-bottom:14px}
+.article-header .article-summary{max-width:850px}
+.article-meta{margin-top:18px}
+.article-layout{display:block}
+.article-body{max-width:820px;margin-inline:auto}
+.article-toc{margin:4px 0 42px;border:0;background:#292622;color:#f4efe8}
+.article-toc summary{display:flex;align-items:center;justify-content:space-between;min-height:58px;padding:0 22px;cursor:pointer;list-style:none;font:700 11px/1.4 Inter,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#f4efe8}
 .article-toc summary::-webkit-details-marker{display:none}
 .article-toc summary::marker{display:none;content:""}
-.article-toc summary::after{content:"⌄";font-size:18px;line-height:1;transition:transform .16s ease}
+.article-toc summary::after{content:"⌄";font-size:18px;line-height:1;color:#c9bdb1;transition:transform .16s ease}
 .article-toc[open] summary::after{transform:rotate(180deg)}
-.article-toc nav{padding:0 16px 16px;border-top:1px solid var(--line)}
-.article-toc ol{margin:0;padding:10px 0 0;list-style:none}
-.article-toc li{margin:0}
-.article-toc li+li{border-top:1px solid rgba(216,209,201,.55)}
-.article-toc a{display:block;padding:9px 0;font-size:14px;line-height:1.4;text-decoration:none}
-.article-toc .toc-level-3 a{padding-left:16px;color:var(--muted)}
-.article-toc summary:focus-visible,.article-toc a:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.article-toc nav{padding:0 22px 20px;border-top:1px solid rgba(255,255,255,.14)}
+.article-toc ol{margin:0;padding:8px 0 0;list-style:none;counter-reset:toc}
+.article-toc li{margin:0;counter-increment:toc}
+.article-toc li+li{border-top:1px solid rgba(255,255,255,.1)}
+.article-toc a{display:grid;grid-template-columns:34px 1fr;gap:8px;padding:11px 0;font-size:14px;line-height:1.4;text-decoration:none;color:#f4efe8}
+.article-toc a::before{content:counter(toc,decimal-leading-zero);font-size:10px;letter-spacing:.08em;color:#b76b78;padding-top:3px}
+.article-toc .toc-level-3 a{padding-left:18px;color:#d8d0c8}
+.article-toc summary:focus-visible,.article-toc a:focus-visible{outline:2px solid #fff;outline-offset:2px}
 .article-body h2[id],.article-body h3[id]{scroll-margin-top:84px}
-@media(max-width:950px){.series-sidebox{position:static;top:auto}.series-pager{grid-template-columns:1fr}.series-pager .next:only-child,.series-pager .prev:only-child{grid-column:auto}.series-pager .next{order:1}.series-pager .prev{order:2}}
-@media(max-width:620px){.series-kicker{font-size:10px}.series-pager{margin-top:40px}.series-pager a{min-height:112px;padding:17px}.series-pager .series-pager-title,.series-pager .next .series-pager-title{font-size:20px}.article-toc{margin-bottom:26px}.article-toc summary{padding-inline:14px}.article-toc nav{padding:0 14px 14px}.article-toc a{font-size:15px}}
+.series-pager{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:14px;margin-top:52px;padding-top:24px;border-top:1px solid var(--line)}
+.series-pager a{min-height:132px;padding:20px 22px;border:1px solid var(--line);text-decoration:none;display:flex;flex-direction:column;justify-content:space-between;background:var(--paper)}
+.series-pager a:hover{border-color:#aaa198}.series-pager .series-pager-label{font:700 10px/1.4 Arial,sans-serif;text-transform:uppercase;letter-spacing:.13em;color:var(--muted)}
+.series-pager .series-pager-title{font-size:21px;line-height:1.22;margin-top:12px}.series-pager .next{background:var(--dark);color:#fff;border-color:var(--dark)}
+.series-pager .next .series-pager-label{color:#cfc8c0}.series-pager .next .series-pager-title{font-size:24px}
+.series-pager .prev:only-child{grid-column:1/2}.series-pager .next:only-child{grid-column:2/3}
+.cyber-note{margin:34px 0;padding:20px 22px;border:1px solid var(--line);background:#f1ece6;font:15px/1.65 Arial,sans-serif}
+.cyber-note strong{font-family:Georgia,"Times New Roman",serif;font-size:18px;font-weight:400}
+.related-reading{margin-top:34px}.related-reading ul{margin:12px 0 0;padding-left:20px}.related-reading li{margin:8px 0}.related-reading a{text-decoration-thickness:1px;text-underline-offset:3px}
+.article-layout>.sidebar{max-width:820px;margin:52px auto 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.article-layout>.sidebar .series-sidebox{display:none}
+.article-layout>.sidebar .sidebox{min-width:0}
+@media(max-width:950px){.series-pager{grid-template-columns:1fr}.series-pager .next:only-child,.series-pager .prev:only-child{grid-column:auto}.series-pager .next{order:1}.series-pager .prev{order:2}.article-layout>.sidebar{grid-template-columns:1fr}}
+@media(max-width:620px){.series-kicker{font-size:10px}.series-pager{margin-top:40px}.series-pager a{min-height:112px;padding:17px}.series-pager .series-pager-title,.series-pager .next .series-pager-title{font-size:20px}.article-toc{margin-bottom:30px}.article-toc summary{padding-inline:17px}.article-toc nav{padding:0 17px 16px}.article-toc a{font-size:15px}}
+@media(min-width:761px){.article-toc{margin-top:8px}.article-toc:not([open]) nav{display:block}.article-toc:not([open]) summary::after{display:none}}
 @media(prefers-reduced-motion:reduce){.article-toc summary::after{transition:none}}
 </style>
 {% set canonicalUrl = canonical or (site.url + page.url) %}
@@ -71,21 +63,22 @@ og_type: article
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":{{ (canonicalUrl + '#article') | json }},"headline":{{ title | json }},"description":{{ (description or summary) | json }},"mainEntityOfPage":{"@type":"WebPage","@id":{{ canonicalUrl | json }}},"author":{"@id":"https://ozanferhatsen.com.tr/#ozan-ferhat-sen"},"publisher":{"@id":"https://ozanferhatsen.com.tr/#ozan-ferhat-sen"},"isPartOf":[{"@id":"https://ozanferhatsen.com.tr/#website"}{% if currentSeries %},{"@type":"CollectionPage","name":{{ currentSeries.title | json }},"url":{{ (site.url + currentSeries.url) | json }}}{% endif %}],"datePublished":{{ date | isoDate | json }},"dateModified":{{ (updated or date) | isoDate | json }},{% if articleReviewDate %}"lastReviewed":{{ articleReviewDate | isoDate | json }},{% endif %}"inLanguage":"tr-TR","articleSection":{{ category | json }}{% if image %},"image":{{ (site.url + image) | json }}{% endif %}{% if articleAboutThings and articleAboutThings.length %},"about":{{ articleAboutThings | json }}{% endif %}{% if articleCitations and articleCitations.length %},"citation":{{ articleCitations | json }}{% endif %}},{"@type":"BreadcrumbList","@id":{{ (canonicalUrl + '#breadcrumb') | json }},"itemListElement":[{"@type":"ListItem","position":1,"name":"Ana Sayfa","item":"https://ozanferhatsen.com.tr/"},{"@type":"ListItem","position":2,"name":{{ category | json }},"item":{{ (site.url + resolvedCategoryUrl) | json }}},{"@type":"ListItem","position":3,"name":{{ title | json }},"item":{{ canonicalUrl | json }}}]}]}</script>
 <section class="article-header">
   <div class="wrap">
-    <div class="breadcrumbs"><a href="/">Ana Sayfa</a> / <a href="{{ resolvedCategoryUrl }}">{{ category }}</a> / {{ title }}</div>
+    <div class="breadcrumbs" aria-hidden="true"><a href="/">Ana Sayfa</a> / <a href="{{ resolvedCategoryUrl }}">{{ category }}</a> / {{ title }}</div>
     {% if currentSeries %}
-    <div class="series-kicker"><a href="{{ currentSeries.url }}">{{ currentSeries.title }}</a><span class="series-divider">/</span><span class="series-order">Bölüm {{ series_order }}</span></div>
+    <div class="series-kicker"><a href="{{ resolvedCategoryUrl }}">{{ category }}</a><span class="series-divider">·</span><a href="{{ currentSeries.url }}">{{ currentSeries.title }}</a><span class="series-divider">·</span><span class="series-order">{{ series_order }}/{{ currentSeries.items.length }}</span></div>
+    {% else %}
+    <div class="tag">{{ category }}</div>
     {% endif %}
-    <div class="tag">{{ category }}{% if keyword %} · {{ keyword }}{% endif %}</div>
     <h1>{{ title }}</h1>
     <p class="article-summary">{{ summary }}</p>
-    <div class="article-meta" data-word-count="{{ articleWordCount }}">{{ articleReadingTime }} dk okuma · Yayın tarihi: {{ date | dateTR }}{% if updated %}{% if not (updated | sameDate(date)) %} · Son güncelleme: {{ updated | dateTR }}{% endif %}{% endif %}{% if articleReviewDate %} · Hukuki kontrol: {{ articleReviewDate | dateTR }}{% endif %} · Av. Ozan Ferhat Şen</div>
+    <div class="article-meta" data-word-count="{{ articleWordCount }}">{{ articleReadingTime }} dk okuma{% if articleReviewDate %} · Hukuki kontrol: {{ articleReviewDate | dateTR }}{% endif %}</div>
   </div>
 </section>
 <section class="wrap article-layout">
   <article class="article-body">
     {% if articleToc.length >= 3 %}
-    <details class="article-toc">
-      <summary>İçindekiler</summary>
+    <details class="article-toc" open>
+      <summary>Bu yazıda</summary>
       <nav aria-label="Makale içindekiler">
         <ol>
           {% for item in articleToc %}
