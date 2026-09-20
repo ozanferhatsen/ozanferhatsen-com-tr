@@ -42,7 +42,7 @@ Kat Mülkiyeti Kanunu m.20'nin bir **varsayılan gider paylaşım sistemi** var.
 
 Bu nedenle mevcut bir apartmanda yalnızca “Ben giriş kattayım, asansörü kullanmıyorum” diyerek asansör giderini tek taraflı olarak sıfırlayamazsınız. Aynı şekilde “Ben ara kattayım, çatı beni ilgilendirmez” diyerek çatı giderinden de kendiliğinizden çıkamazsınız.
 
-Bu yazıda bundan sonra anlatacağım katsayılar ise **kanunda yazılı oranlar değildir.**
+Bu yazıda bundan sonra anlatacağımız katsayılar ise **kanunda yazılı oranlar değildir.**
 
 > **Bunlar, yeni bir yönetim planı hazırlanırken değerlendirilmesini önerdiğim hakkaniyet modelleridir. Geçerli biçimde kararlaştırılmadan mevcut gider hesabının yerine kendiliğinden geçmez.**
 
