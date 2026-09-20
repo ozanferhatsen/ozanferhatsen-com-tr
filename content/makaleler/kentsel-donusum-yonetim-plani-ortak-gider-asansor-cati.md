@@ -55,12 +55,12 @@ Kat Mülkiyeti Kanunu m.20, aksine anlaşma yoksa bazı giderleri eşit, bazı g
 
 Ancak yönetim planı hazırlanırken hakkaniyet bakımından daha işlevsel yaklaşım, bütün giderleri tek formüle sokmak yerine giderin ekonomik niteliğini ayırmaktır:
 
-| Giderin niteliği | Hakkaniyet bakımından uygun başlangıç ölçütü | Örnek |
+| Hangi gider? | Basitçe neye göre düşünülebilir? | Örnek |
 | --- | --- | --- |
-| Kişiye sunulan sürekli hizmet | Eşitlik | Kapıcı, kaloriferci, bahçıvan, bekçi |
-| Anagayrimenkulü koruyan yatırım ve yenileme | Arsa payı | Çatı, dış cephe, taşıyıcı sistem, büyük asansör yenilemesi |
-| Ölçülebilir kullanıma bağlı işletme gideri | Kullanım veya kullanım katsayısı | Asansör elektriği, ölçülebilen kullanım kaynaklı işletme gideri |
-| Belirli kişinin kusurundan doğan gider | Sebep olma ve rücu | Ortak alana verilen zarar |
+| Apartmanda herkese sunulan hizmetler | Daireler arasında eşit paylaşım | Kapıcı, kaloriferci, bahçıvan, bekçi |
+| Binanın tamamını koruyan büyük işler | Dairenin arsa payına göre paylaşım | Çatı, dış cephe, taşıyıcı sistem, büyük asansör yenilemesi |
+| Kullanıldıkça masraf çıkaran işler | Gerçek kullanım veya önceden belirlenmiş kullanım oranı | Asansör elektriği gibi kullanıma bağlı işletme giderleri |
+| Bir kişinin verdiği zarardan doğan masraf | Zarara sebep olan kişiden istenmesi | Ortak alana bir malik veya kullanıcının verdiği zarar |
 
 Buradaki ana fikir şudur:
 
