@@ -3,15 +3,26 @@
   <div class="wrap">
     <div class="breadcrumbs"><a href="/">Ana Sayfa</a> / {{ area.name }}</div>
     <div class="practice-label">
-      <span class="eyebrow">Çalışma Alanı</span>
-      <span class="practice-name">{{ area.name }}</span>
+      <span class="eyebrow">Çalışma Alanı · {{ area.name }}</span>
     </div>
     <h1>{{ area.h1 }}</h1>
     <p class="page-lead">{{ area.intro }}</p>
   </div>
 </section>
 
-<section class="section practice-risk-map">
+<nav class="practice-jump" aria-label="{{ area.name }} sayfa içi menüsü">
+  <div class="wrap">
+    <a href="#yazilar">Yazılar</a>
+    <a href="#risk-haritasi">Risk Haritası</a>
+    <a href="#kritik-sorunlar">Kritik Sorunlar</a>
+    <a href="#ilgili-basliklar">İlgili Başlıklar</a>
+    <a href="#sss">Sık Sorulanlar</a>
+  </div>
+</nav>
+
+{% include "components/practice-articles.njk" %}
+
+<section class="section practice-risk-map" id="risk-haritasi">
   <div class="wrap">
     <div class="section-head">
       <div>
@@ -32,7 +43,7 @@
   </div>
 </section>
 
-<section class="section soft practice-problems">
+<section class="section practice-problems" id="kritik-sorunlar">
   <div class="wrap">
     <div class="eyebrow">Üç Kritik Problem Kümesi</div>
     <div class="problem-list">
@@ -67,7 +78,8 @@
   </div>
 </section>
 
-{% include "components/practice-cta.njk" %}
+<div id="ilgili-basliklar">
 {% include "components/practice-topics.njk" %}
+</div>
 {% include "components/practice-faq.njk" %}
-{% include "components/practice-articles.njk" %}
+{% include "components/practice-cta.njk" %}
