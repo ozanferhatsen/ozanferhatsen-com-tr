@@ -20,20 +20,17 @@ about:
   - "asansör giderleri"
   - "çatı giderleri"
 citations:
-  - "Musa Furkan Şahin, Kat Maliklerinin Ortak Gidere Katılma Payının Değiştirilmesi, AÜHFD 73/1, 2024"
   - "Ahmet Ayar, Kat Mülkiyetinde Ortak Giderlerin Paylaşılması Sorunu, YÜHFD 18/2, 2021"
   - "Yargıtay 18. HD, E.2011/4849, K.2011/8903, 19.09.2011"
   - "Yargıtay 20. HD, E.2019/4681, K.2020/37, 13.01.2020"
 sources:
   - name: "634 sayılı Kat Mülkiyeti Kanunu; özellikle m.20 ve m.28."
     url: "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.634.pdf"
-  - name: "Musa Furkan Şahin, “Kat Maliklerinin Ortak Gidere Katılma Payının Değiştirilmesi”, Ankara Üniversitesi Hukuk Fakültesi Dergisi, 73/1 (2024), s.409-436."
-    url: "https://dergipark.org.tr/tr/pub/auhfd/article/1375165"
   - name: "Ahmet Ayar, “Kat Mülkiyetinde Ortak Giderlerin Paylaşılması Sorunu”, Yeditepe Üniversitesi Hukuk Fakültesi Dergisi, 18/2 (2021), s.861-873."
     url: "https://dergipark.org.tr/tr/pub/yuhfd/article/1022007"
-  - name: "Yargıtay 18. Hukuk Dairesi, E.2011/4849, K.2011/8903, 19.09.2011; Şahin (2024) tarafından aktarılan karar."
-  - name: "Yargıtay 20. Hukuk Dairesi, E.2019/4681, K.2020/37, 13.01.2020; Şahin (2024) tarafından aktarılan karar."
-  - name: "Yargıtay 18. Hukuk Dairesi, E.2014/8293, K.2014/10378, 12.06.2014; Şahin (2024) tarafından aktarılan asansör gideri örneği."
+  - name: "Yargıtay 18. Hukuk Dairesi, E.2011/4849, K.2011/8903, 19.09.2011."
+  - name: "Yargıtay 20. Hukuk Dairesi, E.2019/4681, K.2020/37, 13.01.2020."
+  - name: "Yargıtay 18. Hukuk Dairesi, E.2014/8293, K.2014/10378, 12.06.2014."
 ---
 
 ## Önce en önemli ayrım: Kanun ne diyor, biz ne öneriyoruz?
