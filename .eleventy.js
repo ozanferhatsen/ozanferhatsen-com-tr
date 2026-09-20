@@ -29,6 +29,46 @@ const sourceAttributions = [
 
 const READING_WORDS_PER_MINUTE = 180;
 
+function externalLinksOpenInNewTab(content = "") {
+  return String(content).replace(/<a\b([^>]*)>/gi, (tag, attrs) => {
+    const hrefMatch = String(attrs).match(/\bhref\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s>]+))/i);
+    if (!hrefMatch) return tag;
+
+    const href = hrefMatch[1] || hrefMatch[2] || hrefMatch[3] || "";
+    if (!/^(?:https?:)?\/\//i.test(href)) return tag;
+
+    let parsed;
+    try {
+      parsed = new URL(href.startsWith("//") ? "https:" + href : href);
+    } catch {
+      return tag;
+    }
+
+    const hostname = parsed.hostname.toLowerCase().replace(/^www\./, "");
+    if (hostname === "ozanferhatsen.com.tr" || hostname.endsWith(".ozanferhatsen.com.tr")) {
+      return tag;
+    }
+
+    let updated = String(attrs);
+
+    const existingRelMatch = updated.match(/\srel\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s>]+))/i);
+    const relTokens = new Set(
+      ((existingRelMatch && (existingRelMatch[1] || existingRelMatch[2] || existingRelMatch[3])) || "")
+        .split(/\s+/)
+        .filter(Boolean)
+    );
+    relTokens.add("noopener");
+    relTokens.add("noreferrer");
+
+    updated = updated
+      .replace(/\starget\s*=\s*(?:"[^"]*"|'[^']*'|[^\s>]+)/i, "")
+      .replace(/\srel\s*=\s*(?:"[^"]*"|'[^']*'|[^\s>]+)/i, "");
+
+    return `<a${updated} target="_blank" rel="${Array.from(relTokens).join(" ")}">`;
+  });
+}
+
+
 function visibleWordCount(value = "") {
   const text = String(value)
     .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, " ")
@@ -303,6 +343,14 @@ export default function (eleventyConfig) {
       );
     }
     return result;
+  });
+
+  // External links must never replace the current site page. Apply this at build
+  // time to every generated HTML page so current and future content follows the
+  // same rule without relying on authors to remember target/rel attributes.
+  eleventyConfig.addTransform("externalLinksNewTab", (content, outputPath) => {
+    if (!outputPath || !outputPath.endsWith(".html")) return content;
+    return externalLinksOpenInNewTab(content);
   });
 
   // Search v2 uses the same deterministic slug allocator as the search-index build.
