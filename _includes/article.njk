@@ -30,12 +30,12 @@ og_type: article
 .article-toc summary::after{content:"⌄";font-size:18px;line-height:1;color:#c9bdb1;transition:transform .16s ease}
 .article-toc[open] summary::after{transform:rotate(180deg)}
 .article-toc nav{padding:0 22px 20px;border-top:1px solid rgba(255,255,255,.14)}
-.article-toc ol{margin:0;padding:8px 0 0;list-style:none;counter-reset:toc}
-.article-toc li{margin:0;counter-increment:toc}
+.article-toc ol{margin:0;padding:8px 0 0;list-style:none}
+.article-toc li{margin:0;display:grid;grid-template-columns:34px minmax(0,1fr);gap:8px;align-items:start}
 .article-toc li+li{border-top:1px solid rgba(255,255,255,.1)}
-.article-toc a{display:grid;grid-template-columns:34px 1fr;gap:8px;padding:11px 0;font-size:14px;line-height:1.4;text-decoration:none;color:#f4efe8}
-.article-toc a::before{content:counter(toc,decimal-leading-zero);font-size:10px;letter-spacing:.08em;color:#b76b78;padding-top:3px}
-.article-toc .toc-level-3 a{padding-left:18px;color:#d8d0c8}
+.article-toc a{display:block;padding:11px 0;font-size:14px;line-height:1.4;text-decoration:none;color:#f4efe8}
+.article-toc .toc-number{padding-top:13px;font-size:10px;line-height:1.2;letter-spacing:.08em;color:#b76b78}
+.article-toc .toc-level-3 a{padding-left:18px;color:#d8d0c8}.article-toc .toc-level-3 .toc-number{visibility:hidden}
 .article-toc summary:focus-visible,.article-toc a:focus-visible{outline:2px solid #fff;outline-offset:2px}
 .article-content-sheet table{width:100%;border-collapse:collapse;border:1px solid #bdb7af;margin:26px 0 32px;background:#fff;font-size:15px;line-height:1.45}
 .article-content-sheet th,.article-content-sheet td{border:1px solid #c9c3bb;padding:11px 13px;text-align:left;vertical-align:top}
@@ -207,7 +207,7 @@ if (new URLSearchParams(window.location.search).get('pdf') === '1') {
       <nav aria-label="Makale içindekiler">
         <ol>
           {% for item in articleToc %}
-          <li class="toc-level-{{ item.level }}"><a href="#{{ item.id }}">{{ item.text }}</a></li>
+          <li class="toc-level-{{ item.level }}">{% if item.sectionNumber %}<span class="toc-number" aria-hidden="true">{{ item.sectionNumber }}</span>{% else %}<span class="toc-number" aria-hidden="true"></span>{% endif %}<a href="#{{ item.id }}">{{ item.text }}</a></li>
           {% endfor %}
         </ol>
       </nav>
