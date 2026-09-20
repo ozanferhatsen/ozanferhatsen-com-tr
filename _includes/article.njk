@@ -43,7 +43,7 @@ og_type: article
 .article-layout>.sidebar .sidebox{min-width:0}
 @media(max-width:950px){.series-pager{grid-template-columns:1fr}.series-pager .next:only-child,.series-pager .prev:only-child{grid-column:auto}.series-pager .next{order:1}.series-pager .prev{order:2}.article-layout>.sidebar{grid-template-columns:1fr}}
 @media(max-width:620px){.series-kicker{font-size:10px}.series-pager{margin-top:40px}.series-pager a{min-height:112px;padding:17px}.series-pager .series-pager-title,.series-pager .next .series-pager-title{font-size:20px}.article-toc{margin-bottom:30px}.article-toc summary{padding-inline:17px}.article-toc nav{padding:0 17px 16px}.article-toc a{font-size:15px}}
-@media(min-width:761px){.article-toc{margin-top:8px}.article-toc:not([open]) nav{display:block}.article-toc:not([open]) summary::after{display:none}}
+@media(min-width:761px){.article-toc{margin-top:8px}}
 @media(prefers-reduced-motion:reduce){.article-toc summary::after{transition:none}}
 </style>
 {% set canonicalUrl = canonical or (site.url + page.url) %}
@@ -77,7 +77,7 @@ og_type: article
 <section class="wrap article-layout">
   <article class="article-body">
     {% if articleToc.length >= 3 %}
-    <details class="article-toc" open>
+    <details class="article-toc">
       <summary>Bu yazıda</summary>
       <nav aria-label="Makale içindekiler">
         <ol>
