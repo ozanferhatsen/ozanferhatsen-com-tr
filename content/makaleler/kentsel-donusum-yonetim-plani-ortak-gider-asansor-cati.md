@@ -2,12 +2,12 @@
 title: "Ortak Giderlerde Kriz! Giriş Kat Asansörü, Ara Kat Çatıyı Neden Ödüyor?"
 slug: "kentsel-donusum-yonetim-plani-ortak-gider-asansor-cati"
 date: "2026-09-18T23:00:00+03:00"
-updated: "2026-09-18T23:00:00+03:00"
-legal_review_date: "2026-09-18"
+updated: "2026-09-20T12:00:00+03:00"
+legal_review_date: "2026-09-20"
 category: "Kentsel Dönüşüm"
 category_url: "/kentsel-donusum-hukuku/"
 keyword: "Kentsel Dönüşüm Yönetim Planı Ortak Giderler"
-summary: "“Ben giriş kattayım, neden asansör parası ödeyeyim?” ile “Ben ara kattayım, neden çatı yalıtımını ödeyeyim?” aynı soru değildir. Ortak giderlerde hakkaniyet, giderin ne için yapıldığına göre değerlendirilir."
+summary: "Kanunun varsayılan ortak gider sistemi başka, yönetim planında kurulabilecek daha adil paylaşım modelleri başka. Asansör elektriği ile çatı giderini aynı mantıkla bölmek zorunda değiliz."
 seo_title: "Ortak Giderlerde Kriz: Asansör ve Çatı Masrafını Kim Öder?"
 description: "Kentsel dönüşüm sonrası yönetim planında asansör, çatı ve ortak giderler nasıl paylaştırılmalı? KMK m.20, hakkaniyet ve katsayı modeli."
 series_id: "kentsel-donusum-ozel-hukuk"
@@ -35,340 +35,242 @@ sources:
   - name: "Yargıtay 20. Hukuk Dairesi, E.2019/4681, K.2020/37, 13.01.2020; Şahin (2024) tarafından aktarılan karar."
   - name: "Yargıtay 18. Hukuk Dairesi, E.2014/8293, K.2014/10378, 12.06.2014; Şahin (2024) tarafından aktarılan asansör gideri örneği."
 ---
-## “Ben giriş kattayım, ben neden asansör parası ödeyeyim?”
 
-**Haklısınız; bu soru sorulmalı.** Giriş kattaki bir malikin asansörden fiilen ne ölçüde yararlandığı, özellikle kullanıma bağlı işletme giderleri tartışılırken görmezden gelinmemelidir. Ancak bu, mevcut yönetim planı ve Kat Mülkiyeti Kanunu dikkate alınmadan “asansör kullanmıyorum, hiçbir gider ödemem” sonucunu kendiliğinden doğurmaz.
+## Önce en önemli ayrım: Kanun ne diyor, ben ne öneriyorum?
 
-## “Ben ara kattayım, ben neden çatı yalıtımı ödeyeyim?”
+Kat Mülkiyeti Kanunu m.20'nin bir **varsayılan gider paylaşım sistemi** var. Yönetim planında veya maliklerin geçerli anlaşmasında başka bir düzen yoksa bu sistem uygulanır.
 
-**Kusura bakmayın; burada aynı gerekçe işlemiyor.** Çatı yalnız en üst kattaki dairenin tavanı değildir; anagayrimenkulün ortak kısmıdır ve yapının tamamını korur. Çatı yalıtımı ve esaslı çatı onarımı, yalnız çatının hemen altındaki malikin kişisel kullanım gideri gibi değerlendirilemez.
+Bu nedenle mevcut bir apartmanda yalnızca “Ben giriş kattayım, asansörü kullanmıyorum” diyerek asansör giderini tek taraflı olarak sıfırlayamazsınız. Aynı şekilde “Ben ara kattayım, çatı beni ilgilendirmez” diyerek çatı giderinden de kendiliğinizden çıkamazsınız.
 
-İşte ortak gider kavgasının düğümü burada: **“Ben kullanıyor muyum?” sorusu her gider için doğru soru değildir.**
+Bu yazıda bundan sonra anlatacağım katsayılar ise **kanunda yazılı oranlar değildir.**
 
-Asansör elektriği, asansörün büyük yenilemesi, çatı yalıtımı, kapıcı, güvenlik veya ortak alandaki bir hasar aynı ekonomik nedenle doğmaz. Bu nedenle hepsine tek bir “adil paylaşım” formülü uygulamak da hakkaniyetli sonuç vermeyebilir.
+> **Bunlar, yeni bir yönetim planı hazırlanırken değerlendirilmesini önerdiğim hakkaniyet modelleridir. Geçerli biçimde kararlaştırılmadan mevcut gider hesabının yerine kendiliğinden geçmez.**
 
-Kentsel dönüşümde bu mesele bina bittikten sonra aidat toplantısında ilk kez konuşulmamalıdır. Yeni binanın **yönetim planı**, maliklerin yıllarca hangi ortak gideri hangi esasla üstleneceğini belirleyen temel belgelerden biridir.
+Bu ayrımı baştan koymak önemli. Çünkü “Kanun bugün ne emrediyor?” ile “Yeni yönetim planını hazırlarken daha adil bir sistem nasıl kurulabilir?” aynı soru değildir.
 
-## Kısa cevap: Hakkaniyet ortak giderlerde ne gerektirir?
+## Kanunun varsayılan sistemi ne?
 
-Kat Mülkiyeti Kanunu m.20, aksine anlaşma yoksa bazı giderleri eşit, bazı giderleri ise arsa payı oranında paylaştırır. Kanunun bu sistemi başlangıç noktasıdır.
+KMK m.20'ye göre, kat malikleri arasında başka türlü bir düzenleme yoksa genel olarak:
 
-Ancak yönetim planı hazırlanırken hakkaniyet bakımından daha işlevsel yaklaşım, bütün giderleri tek formüle sokmak yerine giderin ekonomik niteliğini ayırmaktır:
-
-| Hangi gider? | Basitçe neye göre düşünülebilir? | Örnek |
-| --- | --- | --- |
-| Apartmanda herkese sunulan hizmetler | Daireler arasında eşit paylaşım | Kapıcı, kaloriferci, bahçıvan, bekçi |
-| Binanın tamamını koruyan büyük işler | Dairenin arsa payına göre paylaşım | Çatı, dış cephe, taşıyıcı sistem, büyük asansör yenilemesi |
-| Kullanıldıkça masraf çıkaran işler | Gerçek kullanım veya önceden belirlenmiş kullanım oranı | Asansör elektriği gibi kullanıma bağlı işletme giderleri |
-| Bir kişinin verdiği zarardan doğan masraf | Zarara sebep olan kişiden istenmesi | Ortak alana bir malik veya kullanıcının verdiği zarar |
-
-Buradaki ana fikir şudur:
-
-> **Hakkaniyet, her ortak giderin aynı matematik formülüne tabi tutulması değildir; giderin ekonomik niteliğine uygun dağıtım anahtarının seçilmesidir.**
-
-Bu yaklaşım kanundaki varsayılan sistemi ortadan kaldırmaz. Tam tersine, kanunun hangi giderde hangi değeri koruduğunu görünür hale getirir ve farklı bir paylaşım kurulacaksa bunun gerekçesini somutlaştırır.
-
-## 1. KMK m.20 ortak giderleri nasıl paylaştırıyor?
-
-Kat Mülkiyeti Kanunu m.20'de, kat malikleri arasında başka türlü anlaşma olmadıkça;
-
-- kapıcı, kaloriferci, bahçıvan ve bekçi giderlerine **eşit olarak**,
-- anagayrimenkulün sigorta primi, ortak yerlerin bakım, koruma, güçlendirme ve onarım giderleri, yönetici aylığı gibi diğer giderler ile ortak tesislerin işletme giderlerine **arsa payı oranında**
-
-katılma sistemi kurulmuştur.
-
-Aynı madde, bir kat malikinin “ben bu ortak yeri kullanmıyorum” veya “buna ihtiyacım yok” diyerek tek taraflı biçimde ortak giderden kaçınmasını da kural olarak engeller.
-
-Dolayısıyla örneğin yönetim planında farklı bir hüküm bulunmayan sıradan bir apartmanda “zemin katta oturuyorum, asansör kullanmıyorum; hiç ödeme yapmam” sonucu kendiliğinden doğmaz.
-
-Bununla birlikte m.20'nin “aralarında başka türlü anlaşma olmadıkça” ifadesi önemlidir. Doktrinde hükmün bu yönüyle yedek hukuk kuralı olduğu ve kat maliklerinin gider paylaşımını farklı şekilde düzenleyebilecekleri kabul edilmektedir. 2021 tarihli Ahmet Ayar çalışması ile 2024 tarihli Musa Furkan Şahin çalışması bu mesele üzerinde ayrıntılı olarak durmaktadır.
-
-## 2. Yönetim planını neden kentsel dönüşüm sözleşmesinden ayrı düşünmemek gerekir?
-
-Yönetim planı, KMK m.28 uyarınca yönetim tarzını, kullanma maksat ve şeklini ve yönetime ilişkin diğer hususları düzenleyen; bütün kat maliklerini bağlayan bir belgedir.
-
-Kentsel dönüşümde bunun pratik sonucu şudur:
-
-Yeni binanın **[otopark, depo, balkon ve teras](/makaleler/kentsel-donusum-otopark-depo-balkon-teras-hakki/)** düzeni projede ne kadar dikkatle kurulursa kurulsun, bu alanların kullanımı ve bunlardan kaynaklanan giderler yönetim planında başka bir mantıkla düzenlenirse yeni bir uyuşmazlık alanı doğabilir.
-
-Bu yüzden yönetim planı;
-
-- tapu işlemlerinin sonunda hazırlanacak standart bir evrak,
-- yüklenicinin tek başına dolduracağı bir şablon,
-- yalnız yönetici seçimini ve toplantı usulünü gösteren belge
-
-olarak görülmemelidir.
-
-Özellikle yüksek işletme giderli yeni yapılarda asansör, kapalı otopark, araç asansörü, jeneratör, hidrofor, güvenlik, peyzaj, sosyal tesis, teras ve teknik hacimlerin gider sistemi daha sözleşme aşamasında düşünülmelidir.
-
-## 3. “Herkes eşit ödesin” neden her zaman hakkaniyetli değildir?
-
-Eşitlik ile hakkaniyet aynı kavram değildir.
-
-Beş bağımsız bölümün bulunduğu bir yapıda herkesin aynı tutarı ödemesi matematiksel olarak eşit olabilir. Fakat giderin oluşumuna etkileri veya korunan mülkiyet değerleri farklıysa ekonomik yük aynı ölçüde dengeli olmayabilir.
-
-Bunun tersi de geçerlidir. Her gideri arsa payına bağlamak hukuken kolay bir varsayılan sistem sağlar; fakat gerçekten kullanıma bağlı ve ölçülebilir bazı işletme giderlerinde giderin oluşma biçimini yeterince yansıtmayabilir.
-
-Şahin'in 2024 tarihli çalışması, ortak gider paylaşımında eşit dağılım ve arsa payının yanında bağımsız bölümün alanı, kullanım amacı, fiilî kullanım, konum ve değer gibi farklı unsurların tartışılabileceğini gösterir. Aynı çalışmada fiilî kullanımın esas alınabilmesi için kullanımın ölçülebilir olmasının önemi vurgulanır.
-
-Bu noktada yönetim planı için daha sağlam bir soru seti ortaya çıkar:
-
-1. Gider, bina var olduğu için mi doğuyor?
-2. Gider, kullanıldıkça mı artıyor?
-3. Gider bütün taşınmazın değerini mi koruyor?
-4. Bazı bağımsız bölümler tesisten objektif olarak hiç yararlanamıyor mu?
-5. Kullanım gerçekten ölçülebiliyor mu, yoksa yalnız varsayılıyor mu?
-6. Gider belirli bir kişinin davranışı nedeniyle mi doğdu?
-
-## 4. Asansör gideri tek kalemde değerlendirilmemeli
-
-Asansör, ortak giderlerde hakkaniyet tartışmasının en iyi örneklerinden biridir.
-
-“Asansörü üst kat daha çok kullanıyor; o halde üst kat daha çok ödesin” düşüncesi ilk bakışta makul görünür. Fakat **asansör gideri tek tür gider değildir.**
-
-Asansör için yapılan harcamaların içinde örneğin;
-
-- sistemin zorunlu yenilenmesi,
-- motor, kumanda sistemi veya ana ekipmanın değiştirilmesi,
-- periyodik kontrol ve temel bakım,
-- elektrik tüketimi,
-- kullanım yoğunluğuyla artan aşınma
-
-aynı ekonomik karaktere sahip değildir.
-
-Bu nedenle asansörün bütün maliyetini yalnız kat numarasına bağlamak da, bütün maliyeti hiçbir ayrım yapmadan aynı anahtarla paylaştırmak da tartışmaya açıktır.
-
-### Asansörde iki bileşenli model
-
-Yönetim planında farklı bir paylaşım sistemi hukuken geçerli biçimde kurulacaksa, matematiksel olarak şu tür iki bileşenli bir model düşünülebilir:
-
-**Eᵢ = S × (aᵢ / A) + K × (kᵢ / Σk)**
-
-Burada;
-
-- **Eᵢ:** i numaralı bağımsız bölümün asansör gideri,
-- **S:** asansörün varlığını ve ekonomik bütünlüğünü koruyan sabit/yatırım niteliğindeki gider havuzu,
-- **aᵢ:** ilgili bağımsız bölümün arsa payı,
-- **A:** bütün bağımsız bölümlerin toplam arsa payı,
-- **K:** kullanıma bağlı işletme gideri havuzu,
-- **kᵢ:** ilgili bağımsız bölümün kullanım katsayısıdır.
-
-Bu **kanunda yazılı bir formül değildir.** Yönetim planında hakkaniyeti görünür hale getirmek için kurulabilecek sözleşmesel bir modeldir.
-
-Avantajı şudur: “Asansör kullanımı farklı olabilir” düşüncesi kabul edilirken asansörün aynı zamanda binanın ortak bir tesis ve sermaye unsuru olduğu gerçeği de kaybolmaz.
-
-## 5. Asansör katsayısı kat numarasına göre mi belirlenmeli?
-
-Burada dikkatli olmak gerekir.
-
-Doktrinde, asansör giderini yalnız bağımsız bölümün bulunduğu kata göre artıran modeller eleştirilmiştir. Şahin'in aktardığı İsviçre öğretisindeki görüşe göre maliyeti yalnız asansörün çıktığı mesafe yaratmaz; **harekete geçme ve durma sayısı** da önemlidir.
-
-Bu nedenle “4. kat, 1. katın dört katını ödesin” gibi doğrusal bir formül teknik olarak kendiliğinden doğru değildir.
-
-En sağlam model, mümkünse **ölçülebilir kullanım verisine** dayanır. Kartlı erişim veya güvenilir kullanım kaydı olan bir sistemde gerçek kullanım daha kolay belirlenebilir.
-
-Böyle bir veri yoksa kat katsayısı yalnız bir **yaklaştırma modeli** olabilir. Örneğin sırf hesabın nasıl çalıştığını göstermek için;
-
-- 1. kat: 1,00
-- 2. kat: 1,25
-- 3. kat: 1,50
-- 4. kat: 1,75
-
-şeklinde katsayılar konulabilir. Bu oranların hukuken veya mühendislik bakımından “doğru oranlar” olduğuna ilişkin genel bir kural yoktur. Katsayının dayanağı yönetim planında açıklanmalı ve keyfî görünmemelidir.
-
-### Matematiksel örnek
-
-Dört bağımsız bölümün arsa paylarının eşit olduğunu, yıllık toplam asansör giderinin 120.000 TL olduğunu düşünelim.
-
-Bunun;
-
-- 60.000 TL'si sabit/yatırım niteliğindeki gider,
-- 60.000 TL'si kullanım ağırlıklı işletme gideri
-
-olarak ayrılmış olsun.
-
-Sabit bölümde her bağımsız bölüm 15.000 TL öder.
-
-Kullanım katsayıları 1,00 + 1,25 + 1,50 + 1,75 = **5,50** olur.
-
-Buna göre kullanım bölümünden yaklaşık olarak;
-
-| Kat | Katsayı | Kullanım payı | Sabit pay | Toplam |
-| ---: | ---: | ---: | ---: | ---: |
-| 1 | 1,00 | 10.909 TL | 15.000 TL | 25.909 TL |
-| 2 | 1,25 | 13.636 TL | 15.000 TL | 28.636 TL |
-| 3 | 1,50 | 16.364 TL | 15.000 TL | 31.364 TL |
-| 4 | 1,75 | 19.091 TL | 15.000 TL | 34.091 TL |
-
-çıkar.
-
-Bu tablo **örnek oranların tavsiyesi değildir**. Asıl gösterdiği şey, tek bir giderin iki farklı maliyet sebebine ayrılabildiğinde hakkaniyet tartışmasının daha şeffaf hale gelmesidir.
-
-## 6. Zemin kattaki malik asansör giderinden tamamen muaf tutulabilir mi?
-
-Kanunun varsayılan sisteminde yalnız “kullanmıyorum” demek muafiyet sağlamaz.
-
-Buna karşılık gider paylaşımının farklı düzenlenmesi mümkündür. Şahin'in çalışmasında da Yargıtay kararlarına konu olmuş yönetim planlarında zemin kattaki bağımsız bölümlerin asansör masraflarından muaf tutulduğu örnekler aktarılmaktadır.
-
-Ancak burada yine giderin türünü ayırmak gerekir.
-
-Zemin katın asansörün **kullanıma bağlı işletme giderinden** tamamen veya kısmen muaf tutulması ile, asansör sisteminin zorunlu ve büyük ölçekli **yenileme giderinden** muaf tutulması aynı şey değildir.
-
-Örneğin binanın bodrum otoparkına yalnız asansörle erişiliyorsa “zemin kat hiç kullanmaz” varsayımı zaten fiilen yanlış olabilir. Bu nedenle bağımsız bölümün yalnız kaçıncı katta bulunduğuna değil, binanın gerçek dolaşım şemasına bakılmalıdır.
-
-## 7. Çatı giderinde neden aynı katsayı mantığı çalışmıyor?
-
-Çatı, asansörden farklıdır.
-
-Üst kattaki malik çatının hemen altında yaşadığı için çatıdaki su kaçağından ilk ve en ağır etkilenen kişi olabilir. Fakat bundan, çatının yalnız üst kata yarar sağladığı sonucu çıkmaz.
-
-Çatı;
-
-- yapıyı yağmur ve dış etkilerden korur,
-- su ve ısı yalıtımının parçasıdır,
-- taşıyıcı ve mimari bütünlüğü korur,
-- bütün anagayrimenkulün ekonomik ömrünü etkiler.
-
-Dolayısıyla **çatıya fiziksel yakınlık ile çatıdan hukuki ve ekonomik yararlanma oranı aynı şey değildir.**
-
-Şahin'in 2024 tarihli çalışmasında aktarılan Yargıtay 18. Hukuk Dairesinin 2011/4849 E., 2011/8903 K. sayılı kararında çatı onarımı da arsa payı oranında katılınacak ortak giderler arasında sayılmıştır. Aynı çalışmada aktarılan Yargıtay 20. Hukuk Dairesinin 2019/4681 E., 2020/37 K. sayılı kararında da çatı yaptırılması gideri bakımından arsa payı esası belirtilmiştir.
-
-Bu nedenle normal eskime, yalıtım yenilemesi veya yapısal çatı onarımında hakkaniyet bakımından en güçlü başlangıç formülü şudur:
-
-**Çᵢ = Ç × (aᵢ / A)**
-
-Yani olağan çatı gideri, aksine geçerli bir düzenleme yoksa arsa payı ekseninde düşünülür.
-
-## 8. Terası yalnız son kat kullanıyorsa çatı gideri yine ortak mı?
-
-Burada “teras kullanımı” ile “çatının bina koruma işlevi” ayrılmalıdır.
-
-[Kentsel dönüşümde teras hakkını](/makaleler/kentsel-donusum-otopark-depo-balkon-teras-hakki/) düzenlerken yalnız kimin kullanacağını yazmak yeterli değildir. Yönetim planında giderin hangi kısmının özel kullanımdan, hangi kısmının ortak yapı unsurundan kaynaklandığı da ayrılmalıdır.
-
-Örneğin şu sınıflandırma daha tutarlı olabilir:
-
-| Gider | Hakkaniyet bakımından yaklaşım |
+| Gider | Kanundaki başlangıç noktası |
 | --- | --- |
-| Çatı taşıyıcı sistemi | Ortak yapı yatırımı → arsa payı |
-| Ana su yalıtımı ve membranın ekonomik ömrü | Ortak yapı koruması → arsa payı |
-| Yağmur suyu tahliye sisteminin ana unsurları | Ortak yapı koruması → arsa payı |
-| Özel teras kullanımından doğan yüzeysel bakım | Yönetim planındaki özel kullanım rejimine göre ayrıca düzenlenebilir |
-| Kullanıcının kusuruyla oluşan zarar | Kusur ve sebep olma → rücu gündeme gelir |
-| Özel kullanıcının eklediği dekoratif unsur | Kural olarak özel kullanım maliyeti olarak ayrıca düzenlenebilir |
+| Kapıcı, kaloriferci, bahçıvan ve bekçi giderleri | Eşit paylaşım |
+| Ortak yerlerin bakım, koruma, güçlendirme ve onarımı | Arsa payı |
+| Ortak tesislerin işletme giderleri | Arsa payı |
+| Bir malikin kusuruyla doğan zarar | Şartları varsa sorumlu kişiye dönülmesi gündeme gelir |
 
-Bu ayrım sayesinde “teras yalnız onun, her şeyi o ödesin” gibi kaba bir sonuçtan da, özel kullanımın yarattığı bütün maliyeti diğer maliklere dağıtmaktan da kaçınılabilir.
+Kanun ayrıca “Ben kullanmıyorum” denilerek ortak giderden kaçınılmasını da kural olarak kabul etmez.
 
-KMK m.20'nin kusurlu davranışla gider doğması halinde rücuya ilişkin düzenlemesi de burada ayrıca önem taşır.
+Fakat m.20'deki **“aralarında başka türlü anlaşma olmadıkça”** ifadesi önemlidir. Gider paylaşımının geçerli biçimde farklı düzenlenebilmesi mümkündür. Kentsel dönüşümde yönetim planı hazırlanırken asıl fırsat da burada ortaya çıkar.
 
-## 9. Yönetim planında ortak gider maddesi nasıl kurulmalı?
+## Asansör: Giriş kat neden 6. katla aynı elektrik parasını ödesin?
 
-İyi bir gider maddesi yalnız “giderler eşit bölünür” veya “arsa payına göre ödenir” cümlesinden oluşmamalıdır.
+Asansörde iki ayrı şeyi birbirine karıştırmamak gerekir.
 
-En az şu katmanlar düşünülmelidir:
+**Birincisi kullanım gideridir:** elektrik gibi, asansör çalıştıkça artan masraf.
 
-1. **Gider sınıfları tanımlanmalı.** Hizmet, işletme, bakım, büyük yenileme ve kusur kaynaklı gider birbirinden ayrılmalıdır.
-2. **Her sınıfın dağıtım anahtarı yazılmalı.** Eşitlik, arsa payı, ölçülen kullanım veya katsayıdan hangisinin uygulanacağı açık olmalıdır.
-3. **Asansör gibi karma giderler bölünebilmeli.** Sermaye/yatırım kısmı ile kullanıma bağlı işletme kısmı tek kalem yapılmamalıdır.
-4. **Katsayı cetveli ek yapılmalı.** Katsayı kullanılacaksa oran, hesap yöntemi ve hangi gider kalemlerine uygulanacağı yönetici takdirine bırakılmamalıdır.
-5. **Objektif yararlanamama halleri tanımlanmalı.** Dükkan, zemin kat, ayrı girişli bölüm veya belirli tesise fiziksel erişimi olmayan bölüm bakımından özel durum varsa açıkça düzenlenmelidir.
-6. **Çatı ve özel teras ayrımı yapılmalı.** Yapısal koruma gideri ile özel kullanım gideri birbirine karıştırılmamalıdır.
-7. **Kusur kaynaklı gider için rücu mekanizması yazılmalı.** Ortak bütçeden yapılan ödemenin sorumlu kişiye nasıl döndürüleceği belirsiz bırakılmamalıdır.
-8. **Giderin yanlış sınıflandırılmasını önleyen kural kurulmalı.** Örneğin büyük yenileme giderinin sırf bütçe tekniğiyle “işletme gideri” adı altında başka katsayıya sokulması engellenmelidir.
+**İkincisi ise asansörün binada bulunmasının ve çalışır halde tutulmasının maliyetidir:** motor değişimi, büyük yenileme, ana ekipman değişimi gibi giderler.
 
-Bu sistem, aidatı karmaşıklaştırmak için değil; giderin neden doğduğunu görünür kılmak için kurulmalıdır.
+Ben özellikle **kullanıma bağlı asansör giderlerinde** kat yükseldikçe katsayının artmasını daha adil buluyorum.
 
-## 10. Yönetim planı sonradan 4/5 çoğunlukla değiştirilebilir mi?
+Örneğin yönetim planı hazırlanırken şu başlangıç modeli kullanılabilir:
 
-Bu başlıkta tek cümlelik cevap vermek doğru değildir.
+| Bulunduğu kat | Önerilen kullanım katsayısı |
+| --- | ---: |
+| Giriş kat | 0 |
+| 1. kat | 1 |
+| 2. kat | 2 |
+| 3. kat | 3 |
+| 4. kat | 4 |
+| 5. kat | 5 |
+| 6. kat | 6 |
 
-KMK m.28, genel olarak yönetim planının değiştirilmesi için kat maliklerinin **beşte dördünün oyunu** arar. Ancak ortak gider payının değiştirilmesinde KMK m.20'deki “aralarında başka türlü anlaşma olmadıkça” ifadesinin hangi çoğunluğu gerektirdiği doktrinde tartışmalıdır.
+Mantık basit: kişi evine ulaşmak için asansörle ne kadar yukarı çıkıyorsa kullanım payı da o ölçüde artar.
 
-Şahin'in 2024 tarihli çalışması tartışmayı açık biçimde ortaya koyar:
+### 2.100 TL'lik asansör elektriği örneği
 
-- bir görüş, yönetim planı değişikliği olduğu için **4/5 çoğunluğun** yeterli olduğunu savunur;
-- diğer görüş, ortak gider paylaşımını değiştirmek için KMK m.20 anlamında **oybirliği/anlaşma** gerektiğini kabul eder.
+Her katta bir daire olduğunu ve asansör elektriğinin o ay **2.100 TL** geldiğini düşünelim.
 
-Şahin, ortak gider katılma payının değiştirilmesinde oybirliği gerektiği görüşünü savunmaktadır. Ayar'ın 2021 tarihli çalışmasında ise yönetim planının değiştirilmesi ekseninde farklı değerlendirmelere yer verilmektedir.
+Katsayıların toplamı 21'dir. Buna göre her bir katsayı 100 TL'ye karşılık gelir:
 
-Bu tartışma kentsel dönüşüm açısından çok önemli bir pratik sonuç doğurur:
+| Kat | Katsayı | Önerilen elektrik payı |
+| --- | ---: | ---: |
+| Giriş | 0 | 0 TL |
+| 1. kat | 1 | 100 TL |
+| 2. kat | 2 | 200 TL |
+| 3. kat | 3 | 300 TL |
+| 4. kat | 4 | 400 TL |
+| 5. kat | 5 | 500 TL |
+| 6. kat | 6 | 600 TL |
+| **Toplam** | **21** | **2.100 TL** |
 
-**Adil gider sistemini yeni bina kurulduktan sonra düzeltmeye güvenmek yerine, yeni yönetim planı hazırlanırken kurmak daha güvenlidir.**
+Bu tablo **kanunun emrettiği hesap değildir.** Yönetim planı hazırlanırken kullanım giderleri için önerdiğim örnek bir katsayı modelidir.
 
-Çünkü bugün “sonra değiştiririz” denilen bir hüküm, yarın hem çoğunluk hem kazanılmış ekonomik denge hem de tapuya bağlanan yönetim planı bakımından ciddi uyuşmazlığa dönüşebilir.
+Binanın bodrum otoparkı varsa, giriş kattaki daire de asansörü düzenli kullanıyorsa veya bazı bağımsız bölümlerin ayrı girişi bulunuyorsa katsayıların buna göre değiştirilmesi gerekir.
 
-## 11. Yönetim planı dönüşüm sözleşmesine nasıl bağlanmalı?
+### Kendi binanız için asansör hesabını deneyin
 
-En güvenli belge mimarisinde yönetim planı, dönüşüm sözleşmesinden bağımsız ve sonradan sürpriz şekilde ortaya çıkan bir belge olmamalıdır.
+<div class="legal-calculator" data-elevator-calculator>
+  <div class="legal-calculator__title">Asansör kullanım gideri hesaplayıcısı</div>
+  <p class="legal-calculator__note">Bu araç yalnız kullanıma bağlı giderler için örnek modeldir. Motor değişimi veya büyük yenileme gibi giderleri kapsamaz.</p>
+  <div class="legal-calculator__inputs">
+    <label>Toplam gider
+      <span><input type="number" min="0" step="100" value="2100" data-elevator-total> TL</span>
+    </label>
+    <label>En yüksek kat
+      <input type="number" min="1" max="30" step="1" value="6" data-elevator-floor-count>
+    </label>
+  </div>
+  <div class="legal-calculator__tablewrap">
+    <table>
+      <thead><tr><th>Kat</th><th>Daire sayısı</th><th>Katsayı</th><th>Bir dairenin payı</th><th>Kat toplamı</th></tr></thead>
+      <tbody data-elevator-rows></tbody>
+      <tfoot><tr><th colspan="4">Toplam</th><th data-elevator-check>—</th></tr></tfoot>
+    </table>
+  </div>
+  <p class="legal-calculator__foot">Daire sayısını ve katsayıyı değiştirebilirsiniz. Giriş katın varsayılan katsayısı 0, diğer katların katsayısı kat numarasıdır.</p>
+</div>
 
-Sözleşmede en azından;
+### Peki asansörün motoru değişirse?
 
-- yeni yönetim planı taslağının maliklere hangi aşamada sunulacağı,
-- ortak gider esaslarının hangi temel ilkelere bağlı olacağı,
-- özel kullanım alanlarının gider rejimi,
-- asansör/otopark/teras gibi tesislerin hangi gider sınıfına gireceği,
-- taslağın maliklerin bilgisi ve gerekli iradesi dışında esaslı biçimde değiştirilemeyeceği
+Burada aynı hesabı otomatik olarak kullanmam.
 
-düzenlenebilir.
+Asansör elektriği, kullanım arttıkça artar. Fakat motorun veya ana sistemin yenilenmesi yalnız “kaç kat çıktınız?” sorusuyla açıklanamaz. Bu, binanın ortak tesisinin büyük gideridir.
 
-Özellikle **[arsa payı](/makaleler/kentsel-donusum-arsa-payi-duzeltme-davasi/)** üzerinden paylaştırılacak giderler bakımından yeni projedeki arsa paylarının doğru kurulması ayrıca önemlidir. Arsa payındaki bir dengesizlik yalnız mülkiyet oranını değil, yıllarca ödenecek bazı ortak giderleri de etkileyebilir.
+Bu nedenle yönetim planında **asansörün kullanım gideri ile büyük bakım ve yenileme giderini ayrı başlıklarda düzenlemek** daha sağlıklı olur.
 
-## 12. Hakkaniyet için en kullanışlı test: “gider sürücüsü” nedir?
+## Çatı: Ara kat neden ödüyor, en üst kat neden biraz daha fazla ödeyebilir?
 
-Yönetim planı hazırlanırken her kalemin yanına şu soru yazılabilir:
+Çatı yalnız en üst kattaki dairenin tavanı değildir.
 
-**Bu gideri artıran temel unsur nedir?**
+Çatı binanın tamamını yağmurdan, sudan ve dış etkilerden korur. Bu yüzden ara kattaki malik için “Ben çatıyı kullanmıyorum, hiç ödemem” yaklaşımını doğru bulmuyorum.
 
-- İnsan sayısı mı?
-- Bağımsız bölüm sayısı mı?
-- Arsa payı/mülkiyet değeri mi?
-- Gerçek kullanım mı?
-- Kat edilen mesafe mi?
-- Sistemin yalnız var olması mı?
-- Büyük bir sermaye yenilemesi mi?
-- Belirli kişinin kusuru mu?
+Ama işin diğer tarafını da görmezden gelmemek gerekir:
 
-Ekonomide buna “cost driver”, yani **gider sürücüsü** denilebilir.
+**En üst kattaki daire çatıdan diğer dairelere göre daha doğrudan yararlanır.** Çatı akarsa ilk zarar gören, ısı ve su yalıtımından en doğrudan etkilenen bağımsız bölüm genellikle odur.
 
-Hukuki hakkaniyet analizi ile matematiksel dağıtım modeli tam burada buluşur. Formül, hukuki gerekçenin yerine geçmez. Önce doğru gider sürücüsü belirlenir; matematik bundan sonra gelir.
+Bu nedenle yönetim planı hazırlanırken çatı giderinin tamamını yalnız üst kata yüklemek yerine, üst kata **sınırlı bir ilave pay** verilmesi bana daha dengeli geliyor.
+
+### Önerdiğim başlangıç modeli: %80 + %20
+
+Ben örnek hesaplamalarda şu modeli başlangıç noktası olarak kullanıyorum:
+
+- **Çatı giderinin %80'i:** binanın tamamını koruduğu için bütün maliklere, tercihen arsa payları dikkate alınarak dağıtılır.
+- **Çatı giderinin %20'si:** çatının hemen altındaki bağımsız bölümlere ilave pay olarak ayrılır.
+
+> **%20 kanunda yazılı bir oran değildir.** Yönetim planı hazırlanırken değerlendirilmesini önerdiğim varsayılan başlangıç oranıdır. Binanın yapısına, teras kullanımına ve bağımsız bölümlerin durumuna göre değiştirilebilir.
+
+Örneğin çatı yenilemesi **300.000 TL** ise:
+
+| Pay | Tutar | Nasıl dağıtılır? |
+| --- | ---: | --- |
+| Genel bina payı — %80 | 240.000 TL | Bütün maliklere |
+| Çatı altı ilave pay — %20 | 60.000 TL | Çatının hemen altındaki bağımsız bölümlere |
+| **Toplam** | **300.000 TL** | |
+
+### Çatı giderini deneyin
+
+<div class="legal-calculator" data-roof-calculator>
+  <div class="legal-calculator__title">Çatı gideri örnek paylaşım aracı</div>
+  <p class="legal-calculator__note">Varsayılan model %80 genel bina payı + %20 çatı altı ilave payıdır. %20 oranını değiştirebilirsiniz.</p>
+  <div class="legal-calculator__inputs">
+    <label>Toplam çatı gideri
+      <span><input type="number" min="0" step="1000" value="300000" data-roof-total> TL</span>
+    </label>
+    <label>Çatı altı ilave payı
+      <span><input type="number" min="0" max="100" step="1" value="20" data-roof-special> %</span>
+    </label>
+  </div>
+  <div class="legal-calculator__results">
+    <div><span>Genel bina payı</span><strong data-roof-general>—</strong></div>
+    <div><span>Çatı altı ilave payı</span><strong data-roof-extra>—</strong></div>
+  </div>
+  <p class="legal-calculator__foot">Bu araç tutarı iki havuza ayırır. Genel bina payının bağımsız bölümler arasındaki dağılımında yönetim planı, arsa payları ve somut yapının özellikleri ayrıca dikkate alınmalıdır.</p>
+</div>
+
+## Terası yalnız son kat kullanıyorsa ne değişir?
+
+Özel teras kullanımı ile çatının binayı koruyan kısmını ayırmak gerekir.
+
+Terası yalnız bir dairenin kullanması, çatının taşıyıcı sisteminin veya ana su yalıtımının bir anda yalnız o dairenin gideri haline gelmesi anlamına gelmez.
+
+Buna karşılık yalnız özel kullanımdan doğan bazı giderlerin ayrıca o kullanıcıya bırakılması düşünülebilir.
+
+| Gider | Yönetim planında nasıl ele alınabilir? |
+| --- | --- |
+| Çatının taşıyıcı sistemi | Ortak bina gideri |
+| Ana su yalıtımı | Ortak bina gideri |
+| Ana yağmur suyu sistemi | Ortak bina gideri |
+| Özel terasın günlük/yüzeysel bakımı | Özel kullanıcıya bırakılabilir |
+| Kullanıcının verdiği zarar | Sorumlu kişiden istenebilir |
+| Kullanıcının eklediği özel/dekoratif unsur | Özel kullanıcı gideri olarak düzenlenebilir |
+
+## Yönetim planında neyi açık açık yazmak gerekir?
+
+Ortak gider maddesi “herkes eşit öder” veya “arsa payına göre ödenir” deyip geçmemeli.
+
+En azından şu ayrımlar açık olmalı:
+
+1. **Asansör elektriği nasıl paylaşılacak?**
+2. **Asansörün büyük bakım ve yenilemesi nasıl paylaşılacak?**
+3. **Giriş kat, dükkân veya ayrı girişli bölüm için özel kural var mı?**
+4. **Çatı giderinin ne kadarı genel, ne kadarı çatı altı ilave payı?**
+5. **Özel terasın bakım gideri kime ait?**
+6. **Bir kişinin verdiği zararın bedeli nasıl geri alınacak?**
+7. **Katsayılar değiştirilecekse hangi usul izlenecek?**
+
+Katsayı kullanılacaksa rakamları yöneticiye sonradan bırakmak yerine **yönetim planında veya ekindeki cetvelde baştan göstermek** daha güvenlidir.
+
+## “Sonra değiştiririz” demek neden riskli?
+
+KMK m.28 yönetim planının değiştirilmesi için genel olarak kat maliklerinin **beşte dördünün oyunu** arar. Ortak gider paylaşımının değiştirilmesinde ise m.20'deki “aralarında başka türlü anlaşma olmadıkça” ifadesi nedeniyle öğretide ve uygulamada ayrıca tartışmalar vardır.
+
+Vatandaş açısından önemli sonuç şu:
+
+> **Yeni binanın gider sistemini “nasıl olsa sonra düzeltiriz” diye bırakmak gereksiz bir risk yaratır.**
+
+Kentsel dönüşüm sözleşmesi hazırlanırken yeni yönetim planının ne zaman görüleceği, ortak giderlerin hangi temel kurallara göre paylaşılacağı ve asansör/çatı/teras gibi kalemlerin nasıl ele alınacağı da konuşulmalıdır.
+
+## Kısacası benim önerdiğim model ne?
+
+| Konu | Başlangıç önerim |
+| --- | --- |
+| Asansör elektriği ve kullanıma bağlı gider | Giriş 0; 1. kat 1; 2. kat 2; devamında kat numarası kadar katsayı |
+| Asansörün büyük yenilemesi | Kullanım giderinden ayrı değerlendirme |
+| Çatı gideri | %80 genel bina payı + %20 çatı altı ilave payı |
+| Özel teras gideri | Ortak yapı gideri ile özel kullanım giderini ayırma |
+| Bir kişinin verdiği zarar | Mümkünse sorumlu kişiye yükleme |
+
+Bunların hiçbiri **“Kanunda bu oran yazıyor”** anlamına gelmez.
+
+Benim yaklaşımım şu: Yönetim planı hazırlanırken herkesin yıllarca ödeyeceği giderleri tek cümleyle geçmek yerine, **masrafın gerçekten nereden çıktığına ve kimin ne ölçüde yararlandığına bakmak** gerekir.
 
 ## Sık sorulan sorular
 
-### Kentsel dönüşümde yeni yönetim planını kim hazırlamalı?
+### Giriş kattaki malik asansör gideri ödemek zorunda mı?
 
-Kanunun aradığı hukuki irade ve usul saklı olmak üzere, taslak yalnız yüklenicinin teknik belgesi gibi bırakılmamalıdır. Maliklerin avukatı, proje ekibi ve gerekiyorsa mali/teknik uzmanlar özellikle ortak gider, özel kullanım ve yüksek maliyetli tesis maddelerini birlikte kontrol etmelidir.
+Mevcut yönetim planında farklı ve geçerli bir düzenleme yoksa yalnız “kullanmıyorum” denilerek ortak giderden kendiliğinden çıkılamaz. Bu yazıdaki sıfır katsayısı, yeni yönetim planı hazırlanırken kullanıma bağlı giderler için önerdiğim örnek modeldir.
 
-### Zemin kat asansör gideri ödemek zorunda mı?
+### 5. kattaki malik 1. kattakinin beş katı asansör parası mı ödemek zorunda?
 
-Aksine geçerli bir düzenleme yoksa, yalnız “asansörü kullanmıyorum” denilerek ortak giderden kaçınılamaz. Yönetim planında farklı bir gider rejimi kurulmuşsa somut hüküm ayrıca değerlendirilir.
+Kanunen böyle hazır bir oran yoktur. Buradaki 1–2–3–4–5 sistemi, özellikle elektrik gibi kullanıma bağlı giderler için önerilen bir yönetim planı modelidir.
 
-### Asansör gideri katlara göre farklı paylaştırılabilir mi?
+### Çatı masrafını yalnız son kat mı öder?
 
-Kat maliklerinin geçerli biçimde farklı bir paylaşım sistemi kurmaları mümkündür. Ancak kanunda “kat başına şu katsayı uygulanır” şeklinde hazır bir formül yoktur. Kat katsayısı kullanılacaksa bunun hangi giderleri kapsadığı ve neden o oranların seçildiği açık olmalıdır.
+Kural olarak hayır. Çatı binanın tamamını koruyan ortak yapı unsurudur. Bu yazıdaki %20 ilave pay da kanuni oran değil, yeni yönetim planı hazırlanırken değerlendirilebilecek bir hakkaniyet önerisidir.
 
-### Çatı masrafını yalnız son kattaki malik mi öder?
+### Çatıdaki %20 neden %20?
 
-Kural olarak hayır. Olağan çatı bakım ve onarımı anagayrimenkulü koruyan ortak gider niteliğindedir. Yönetim planında geçerli farklı bir düzenleme veya belirli kişinin kusurundan kaynaklanan zarar varsa sonuç değişebilir.
+Bu oran kanundan veya zorunlu bir mühendislik hesabından gelmiyor. Amaç çatının esas olarak bütün binayı koruduğunu kabul ederken, çatı altındaki bağımsız bölümün daha doğrudan yararını da tamamen yok saymamaktır. Somut binada %10, %15, %25 veya başka bir oran daha uygun olabilir.
 
-### Terası yalnız bir daire kullanıyorsa bütün çatı giderleri ona yüklenebilir mi?
+### Yönetim planındaki gider sistemi sonradan değiştirilebilir mi?
 
-Özel teras kullanım gideri ile çatının taşıyıcı, su yalıtımı ve bina koruma işlevi birbirinden ayrılmalıdır. Yalnız özel kullanım bulunması, bütün yapısal çatı giderlerinin otomatik olarak o malike ait olduğu anlamına gelmez.
-
-### Yönetim planındaki gider paylaşımı 4/5 ile değiştirilebilir mi?
-
-Yönetim planı değişikliklerinde KMK m.28'de 4/5 kuralı vardır; ancak ortak gider katılma payının değiştirilmesinde KMK m.20 nedeniyle oybirliği gerekip gerekmediği doktrinde tartışmalıdır. Bu nedenle somut plan hükmü ve değişikliğin niteliği ayrıca incelenmelidir.
+Değişiklik mümkündür; ancak gerekli çoğunluk ve ortak gider paylaşımının değiştirilmesine ilişkin hukuki şartlar somut düzenlemeye göre ayrıca değerlendirilmelidir. Bu nedenle en güvenli yol gider sistemini yeni yönetim planı hazırlanırken açık kurmaktır.
 
 ## Sonuç
 
-Kentsel dönüşümde yönetim planı, yeni binanın “aidat cetveli” değildir. Mülkiyet hakkının gündelik ekonomik kullanımını yıllarca şekillendiren temel belgelerden biridir.
+Ortak giderlerde tek bir formül her problemi çözmüyor.
 
-Bu nedenle hakkaniyet;
+**Asansör elektriğinde kullanım**, **çatıda bütün binanın korunması**, **özel terasta kişisel kullanım**, **zararda ise zarara kimin sebep olduğu** farklı sorular.
 
-- her şeyi eşit bölmek,
-- her şeyi arsa payına bağlamak,
-- üst katlara otomatik olarak daha fazla yük yüklemek
-
-anlamına gelmez.
-
-Daha tutarlı yaklaşım, **giderin ekonomik niteliği ile hukuki niteliğini birlikte belirlemek** ve dağıtım anahtarını bundan sonra seçmektir.
-
-Asansörde kullanım ile yatırım bileşenleri ayrılabilir. Çatıda ise olağan bakım ve yenilemenin bütün binayı koruyan yatırım niteliği ağır basar. Kusur varsa sebep olma ilkesi devreye girer. Böyle kurulan bir yönetim planı, yalnız matematiksel olarak şeffaf değil; hukuken gerekçelendirilebilir bir gider sistemi de yaratır.
+Kentsel dönüşümde yönetim planı hazırlanırken bu ayrımlar baştan kurulursa, yeni bina teslim edildikten sonra çıkacak aidat tartışmalarının önemli bir bölümü daha başlamadan önlenebilir.
