@@ -274,3 +274,88 @@ Ortak giderlerde tek bir formül her problemi çözmüyor.
 **Asansör elektriğinde kullanım**, **çatıda bütün binanın korunması**, **özel terasta kişisel kullanım**, **zararda ise zarara kimin sebep olduğu** farklı sorular.
 
 Kentsel dönüşümde yönetim planı hazırlanırken bu ayrımlar baştan kurulursa, yeni bina teslim edildikten sonra çıkacak aidat tartışmalarının önemli bir bölümü daha başlamadan önlenebilir.
+
+<script>
+(function(){
+  var money = new Intl.NumberFormat('tr-TR', { style: 'currency', currency: 'TRY', maximumFractionDigits: 0 });
+
+  var elevator = document.querySelector('[data-elevator-calculator]');
+  if (elevator) {
+    var totalInput = elevator.querySelector('[data-elevator-total]');
+    var floorCountInput = elevator.querySelector('[data-elevator-floor-count]');
+    var rows = elevator.querySelector('[data-elevator-rows]');
+    var check = elevator.querySelector('[data-elevator-check]');
+
+    function calculateElevator() {
+      var total = Math.max(0, Number(totalInput.value) || 0);
+      var weightedTotal = 0;
+      var items = [];
+      rows.querySelectorAll('tr').forEach(function(tr){
+        var units = Math.max(1, Number(tr.querySelector('[data-units]').value) || 1);
+        var coeff = Math.max(0, Number(tr.querySelector('[data-coeff]').value) || 0);
+        var weight = units * coeff;
+        weightedTotal += weight;
+        items.push({tr: tr, units: units, coeff: coeff, weight: weight});
+      });
+      var distributed = 0;
+      items.forEach(function(item){
+        var floorTotal = weightedTotal > 0 ? total * item.weight / weightedTotal : 0;
+        var perUnit = item.units > 0 ? floorTotal / item.units : 0;
+        distributed += floorTotal;
+        item.tr.querySelector('[data-per-unit]').textContent = money.format(perUnit);
+        item.tr.querySelector('[data-floor-total]').textContent = money.format(floorTotal);
+      });
+      check.textContent = money.format(distributed);
+    }
+
+    function buildRows() {
+      var current = {};
+      rows.querySelectorAll('tr').forEach(function(tr){
+        current[tr.dataset.floor] = {
+          units: tr.querySelector('[data-units]') ? tr.querySelector('[data-units]').value : '1',
+          coeff: tr.querySelector('[data-coeff]') ? tr.querySelector('[data-coeff]').value : tr.dataset.floor
+        };
+      });
+      var top = Math.max(1, Math.min(30, Number(floorCountInput.value) || 1));
+      rows.innerHTML = '';
+      for (var floor = 0; floor <= top; floor++) {
+        var saved = current[String(floor)] || {};
+        var label = floor === 0 ? 'Giriş' : floor + '. kat';
+        var tr = document.createElement('tr');
+        tr.dataset.floor = floor;
+        tr.innerHTML =
+          '<td>' + label + '</td>' +
+          '<td><input type="number" min="1" step="1" value="' + (saved.units || 1) + '" data-units aria-label="' + label + ' daire sayısı"></td>' +
+          '<td><input type="number" min="0" step="0.1" value="' + (saved.coeff !== undefined ? saved.coeff : floor) + '" data-coeff aria-label="' + label + ' katsayısı"></td>' +
+          '<td data-per-unit>—</td><td data-floor-total>—</td>';
+        rows.appendChild(tr);
+      }
+      calculateElevator();
+    }
+
+    floorCountInput.addEventListener('change', buildRows);
+    totalInput.addEventListener('input', calculateElevator);
+    rows.addEventListener('input', calculateElevator);
+    buildRows();
+  }
+
+  var roof = document.querySelector('[data-roof-calculator]');
+  if (roof) {
+    var roofTotalInput = roof.querySelector('[data-roof-total]');
+    var specialInput = roof.querySelector('[data-roof-special]');
+    var generalOut = roof.querySelector('[data-roof-general]');
+    var extraOut = roof.querySelector('[data-roof-extra]');
+
+    function calculateRoof() {
+      var total = Math.max(0, Number(roofTotalInput.value) || 0);
+      var special = Math.max(0, Math.min(100, Number(specialInput.value) || 0));
+      extraOut.textContent = money.format(total * special / 100);
+      generalOut.textContent = money.format(total * (100 - special) / 100);
+    }
+
+    roofTotalInput.addEventListener('input', calculateRoof);
+    specialInput.addEventListener('input', calculateRoof);
+    calculateRoof();
+  }
+})();
+</script>
