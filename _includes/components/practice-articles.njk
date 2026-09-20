@@ -1,14 +1,14 @@
 {% set posts = collections.makaleler | byCategory(area.category) %}
 {% set relatedPosts = posts | limit(6) %}
 {% if relatedPosts.length %}
-<section class="section soft practice-articles" aria-labelledby="{{ practiceKey }}-ilgili-makaleler">
+<section class="section practice-articles" id="yazilar" aria-labelledby="{{ practiceKey }}-ilgili-makaleler">
   <div class="wrap">
     <div class="section-head">
       <div>
-        <div class="eyebrow">İlgili Makaleler</div>
-        <h2 id="{{ practiceKey }}-ilgili-makaleler">Bu çalışma alanını derinleştiren içerikler</h2>
+        <div class="eyebrow">Yazılar</div>
+        <h2 id="{{ practiceKey }}-ilgili-makaleler">{{ area.name }} yazıları</h2>
       </div>
-      <p>Somut alt sorunları belge, içtihat ve uygulama riski üzerinden ayrıntılı ele alan içerikler.</p>
+      <p>{{ area.name }} kapsamındaki güncel sorunları, uygulamayı ve içtihatları ayrıntılı ele alan yazılar.</p>
     </div>
     <div class="article-grid{% if relatedPosts.length < 3 %} article-grid-sparse{% endif %}">
       {% for post in relatedPosts %}
