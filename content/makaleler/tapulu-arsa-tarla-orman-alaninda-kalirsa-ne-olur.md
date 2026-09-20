@@ -2,14 +2,14 @@
 title: "Tapulu Arsa veya Tarla Orman Alanında Kalırsa Ne Olur? Orman Kadastrosu, Tapu İptali ve 2026 Ek Madde 22"
 slug: "tapulu-arsa-tarla-orman-alaninda-kalirsa-ne-olur"
 date: "2026-09-19T11:30:00+03:00"
-updated: "2026-09-19T11:30:00+03:00"
-legal_review_date: "2026-09-19"
+updated: "2026-09-20T10:30:00+03:00"
+legal_review_date: "2026-09-20"
 category: "Gayrimenkul Hukuku"
 category_url: "/gayrimenkul-hukuku/"
 keyword: "Tapulu Arsa Orman Çıkarsa Ne Olur"
-summary: "Tapuda arsa veya tarla görünen bir taşınmazın orman kadastrosu içinde kalması; tapu iptali, tazminat, 2/B ve 2026 tarihli Orman Kanunu Ek Madde 22 bakımından ayrı ayrı incelenmelidir."
+summary: "Orman gerekçesiyle tapusu iptal edilen veya orman şerhi bulunan taşınmaz geri alınabilir mi? 2026 Ek Madde 22, tapu iadesi, tazminat, 2/B ve başvuru koşulları birlikte incelenmektedir."
 seo_title: "Tapulu Arsa Orman Çıkarsa Ne Olur? Tapu İptali ve Tazminat"
-description: "Tapulu arsa veya tarla orman alanında kalırsa ne olur? Orman kadastrosu, tapu iptali, tazminat, 2/B ve 2026 Ek Madde 22 rehberi."
+description: "Ormana giden tapu geri alınabilir mi? 2026 Ek Madde 22 kapsamında tapu iadesi, orman şerhi, tapu iptali, tazminat ve 2/B koşulları."
 about:
   - "6831 sayılı Orman Kanunu"
   - "3402 sayılı Kadastro Kanunu"
@@ -43,9 +43,15 @@ sources:
   - name: "Gökçe Gençay, Orman Kadastrosunun Güncel Sorunları Üzerinde Hukuksal İncelemeler, 2012."
 ---
 
-Tapuda **arsa**, **tarla**, **bağ** veya başka bir özel mülkiyet vasfıyla kayıtlı bir taşınmazın daha sonra Devlet ormanı sınırları içinde kaldığının ileri sürülmesi ilk bakışta çelişkili görünür. Oysa Türkiye'de genel kadastro ile orman kadastrosunun uzun yıllar farklı zamanlarda ve farklı teknik süreçlerle yürütülmesi, tapu sicilindeki kayıt ile kesinleşmiş orman sınırının birbiriyle uyuşmadığı dosyalar ortaya çıkarmıştır.¹
+**Orman gerekçesiyle tapusu iptal edilen taşınmaz geri alınabilir mi?**
 
-Bu uyuşmazlıklarda artık yalnız eski tapu iptali içtihatlarına bakmak yeterli değildir. **20 Haziran 2026'da yürürlüğe giren yeni düzenleme**, belirli şartları taşıyan taşınmazlarda mevcut tapunun geçerli kabul edilmesini veya daha önce iptal edilmiş tapunun eski malik ya da halefine iadesini mümkün kılan yeni bir yol açmıştır.
+20 Haziran 2026'da yürürlüğe giren yeni düzenleme, geçmişte kesinleşmiş orman kadastrosu nedeniyle tapusu sorunlu hâle gelen bazı taşınmazlar bakımından önemli bir imkân getirdi. Şartları taşıyan taşınmazlarda **mevcut tapunun geçerli kabul edilmesi, orman şerhinin kaldırılması ve bazı durumlarda daha önce iptal edilerek Hazine adına tescil edilmiş tapunun eski malik veya halefine iadesi** mümkün olabilir.
+
+Ancak bu imkân her orman uyuşmazlığına otomatik olarak uygulanmaz. Tapunun hâlen malik adına olup olmadığı, tapu iptal kararının kesinleşip kesinleşmediği, kararın tapuda infaz edilip edilmediği, daha önce taşınmaz karşılığı ödeme yapılıp yapılmadığı ve taşınmazın kanundaki kapsam dışı hâllerden birine girip girmediği sonucu değiştirir.
+
+Bu nedenle **“tapum ormana gitti, geri alabilir miyim?”, “orman şerhi nasıl kaldırılır?”, “Ek Madde 22 kapsamında ne yapılır?” ve “tapusu iptal edilen taşınmaz geri verilir mi?”** soruları aynı dosyanın farklı aşamalarını ifade edebilir.
+
+> **Dosyanız hangi aşamada?** Tapu hâlen adınıza kayıtlıysa önce orman kadastrosunun dayanağı ve şerh durumu; tapu iptal kararı kesinleşmişse kararın infaz edilip edilmediği; taşınmaz Hazine adına tescil edilmişse iade için öngörülen özel başvuru rejimi incelenmelidir.
 
 ## Önce temel çerçeve
 
