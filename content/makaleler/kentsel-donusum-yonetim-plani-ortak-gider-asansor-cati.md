@@ -1,5 +1,5 @@
 ---
-title: "Kentsel Dönüşümde Yönetim Planı ve Ortak Giderler: Asansör, Çatı ve Hakkaniyet Nasıl Düzenlenmeli?"
+title: "Ortak Giderlerde Kriz! Giriş Kat Asansörü, Ara Kat Çatıyı Neden Ödüyor?"
 slug: "kentsel-donusum-yonetim-plani-ortak-gider-asansor-cati"
 date: "2026-09-18T23:00:00+03:00"
 updated: "2026-09-18T23:00:00+03:00"
@@ -7,8 +7,8 @@ legal_review_date: "2026-09-18"
 category: "Kentsel Dönüşüm"
 category_url: "/kentsel-donusum-hukuku/"
 keyword: "Kentsel Dönüşüm Yönetim Planı Ortak Giderler"
-summary: "Yeni binanın yönetim planı yalnız yönetici seçimini değil, yıllarca uygulanacak ortak gider dağılımını da belirler. Asansör ve çatı aynı ekonomik mantıkla çalışmadığı için hakkaniyet, her gideri tek formüle bağlamak yerine giderin niteliğine uygun dağıtım anahtarı kurulmasını gerektirir."
-seo_title: "Kentsel Dönüşümde Yönetim Planı ve Ortak Giderler"
+summary: "“Ben giriş kattayım, neden asansör parası ödeyeyim?” ile “Ben ara kattayım, neden çatı yalıtımını ödeyeyim?” aynı soru değildir. Ortak giderlerde hakkaniyet, giderin ne için yapıldığına göre değerlendirilir."
+seo_title: "Ortak Giderlerde Kriz: Asansör ve Çatı Masrafını Kim Öder?"
 description: "Kentsel dönüşüm sonrası yönetim planında asansör, çatı ve ortak giderler nasıl paylaştırılmalı? KMK m.20, hakkaniyet ve katsayı modeli."
 series_id: "kentsel-donusum-ozel-hukuk"
 series_order: 8
@@ -35,14 +35,19 @@ sources:
   - name: "Yargıtay 20. Hukuk Dairesi, E.2019/4681, K.2020/37, 13.01.2020; Şahin (2024) tarafından aktarılan karar."
   - name: "Yargıtay 18. Hukuk Dairesi, E.2014/8293, K.2014/10378, 12.06.2014; Şahin (2024) tarafından aktarılan asansör gideri örneği."
 ---
+## “Ben giriş kattayım, ben neden asansör parası ödeyeyim?”
 
-Kentsel dönüşüm görüşmelerinde yeni dairenin metrekaresi, katı, cephesi, otoparkı ve teslim tarihi uzun uzun tartışılır. Oysa yeni bina teslim edildikten sonra maliklerin yıllarca yaşayacağı ekonomik düzeni başka bir belge belirler: **yönetim planı**.
+**Haklısınız; bu soru sorulmalı.** Giriş kattaki bir malikin asansörden fiilen ne ölçüde yararlandığı, özellikle kullanıma bağlı işletme giderleri tartışılırken görmezden gelinmemelidir. Ancak bu, mevcut yönetim planı ve Kat Mülkiyeti Kanunu dikkate alınmadan “asansör kullanmıyorum, hiçbir gider ödemem” sonucunu kendiliğinden doğurmaz.
 
-Yönetim planında ortak giderler düşünülmeden tek kalıba bağlanırsa, dönüşüm sırasında dikkatle kurulan değer dengesi bina işletmeye geçtiği gün yeniden bozulabilir. Aynı büyüklükte iki bağımsız bölüm için her gideri eşit bölmek de, her gideri yalnız arsa payına bağlamak da her durumda aynı sonucu vermez.
+## “Ben ara kattayım, ben neden çatı yalıtımı ödeyeyim?”
 
-Bu nedenle temel soru “hangi formül daha adil?” değildir. Önce şu soru sorulmalıdır:
+**Kusura bakmayın; burada aynı gerekçe işlemiyor.** Çatı yalnız en üst kattaki dairenin tavanı değildir; anagayrimenkulün ortak kısmıdır ve yapının tamamını korur. Çatı yalıtımı ve esaslı çatı onarımı, yalnız çatının hemen altındaki malikin kişisel kullanım gideri gibi değerlendirilemez.
 
-**Bu gider neden doğuyor?**
+İşte ortak gider kavgasının düğümü burada: **“Ben kullanıyor muyum?” sorusu her gider için doğru soru değildir.**
+
+Asansör elektriği, asansörün büyük yenilemesi, çatı yalıtımı, kapıcı, güvenlik veya ortak alandaki bir hasar aynı ekonomik nedenle doğmaz. Bu nedenle hepsine tek bir “adil paylaşım” formülü uygulamak da hakkaniyetli sonuç vermeyebilir.
+
+Kentsel dönüşümde bu mesele bina bittikten sonra aidat toplantısında ilk kez konuşulmamalıdır. Yeni binanın **yönetim planı**, maliklerin yıllarca hangi ortak gideri hangi esasla üstleneceğini belirleyen temel belgelerden biridir.
 
 ## Kısa cevap: Hakkaniyet ortak giderlerde ne gerektirir?
 
