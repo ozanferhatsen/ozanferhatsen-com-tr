@@ -33,12 +33,78 @@ page_css: "/assets/home.css"
       </picture>
     </section>
 
-    <aside class="featured-study" aria-labelledby="featured-study-title">
-      <div class="featured-study-label">Kentsel Dönüşüm Rehberi</div>
-      <h2 id="featured-study-title">Müteahhide Tapu Ne Zaman Devredilmeli?</h2>
-      <p>Tapu devri, teminat ve üçüncü kişi risklerini imzadan önce kontrol edin.</p>
-      <a href="/makaleler/kentsel-donusum-muteahhide-tapu-ne-zaman-devredilmeli/">Tapu devri risklerini incele →</a>
+    <aside class="featured-study featured-study-slider" aria-label="Öne çıkan kentsel dönüşüm rehberleri">
+      <div class="featured-study-label">Kentsel Dönüşüm Rehberleri</div>
+      <div class="featured-study-viewport" tabindex="0">
+        <div class="featured-study-track">
+          <article class="featured-study-slide">
+            <h2>Müteahhide Tapu Ne Zaman Devredilmeli?</h2>
+            <p>Tapu devri, teminat ve üçüncü kişi risklerini imzadan önce kontrol edin.</p>
+            <a href="/makaleler/kentsel-donusum-muteahhide-tapu-ne-zaman-devredilmeli/">Tapu devri risklerini incele →</a>
+          </article>
+          <article class="featured-study-slide">
+            <h2>Kentsel Dönüşümde Müteahhit Nasıl Seçilmeli?</h2>
+            <p>Teklif oranından önce şirketin mali gücünü, teminatını ve tamamlanmış işlerini sorgulayın.</p>
+            <a href="/makaleler/kentsel-donusum-muteahhit-secerken-nelere-dikkat-edilmeli/">20 kritik soruyu incele →</a>
+          </article>
+          <article class="featured-study-slide">
+            <h2>Bir Malik İmzalamazsa Ne Olur?</h2>
+            <p>Salt çoğunluk, bildirim ve anlaşmayan malikin payının satış sürecini öğrenin.</p>
+            <a href="/makaleler/kentsel-donusum-bir-malik-imzalamazsa-pay-satisi/">Pay satışı sürecini incele →</a>
+          </article>
+          <article class="featured-study-slide">
+            <h2>Kentsel Dönüşümde Daire Küçülebilir mi?</h2>
+            <p>Eski metrekare ile yeni projedeki net ve brüt alanın neden aynı olmayabileceğini görün.</p>
+            <a href="/makaleler/kentsel-donusumda-daire-kuculur-mu-metrekare/">Metrekare riskini incele →</a>
+          </article>
+        </div>
+      </div>
+      <div class="featured-study-controls" aria-label="Rehberler arasında gezin">
+        <button class="featured-study-prev" type="button" aria-label="Önceki rehber">←</button>
+        <div class="featured-study-dots" aria-hidden="true"></div>
+        <button class="featured-study-next" type="button" aria-label="Sonraki rehber">→</button>
+      </div>
     </aside>
+    <script>
+      (() => {
+        const slider = document.querySelector('.featured-study-slider');
+        if (!slider) return;
+        const viewport = slider.querySelector('.featured-study-viewport');
+        const slides = [...slider.querySelectorAll('.featured-study-slide')];
+        const dots = slider.querySelector('.featured-study-dots');
+        let index = 0;
+        let timer;
+        slides.forEach((_, i) => {
+          const dot = document.createElement('span');
+          dot.className = 'featured-study-dot' + (i === 0 ? ' is-active' : '');
+          dots.appendChild(dot);
+        });
+        const paint = () => {
+          viewport.scrollTo({ left: viewport.clientWidth * index, behavior: 'smooth' });
+          [...dots.children].forEach((dot, i) => dot.classList.toggle('is-active', i === index));
+        };
+        const go = step => { index = (index + step + slides.length) % slides.length; paint(); };
+        const start = () => {
+          if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+          clearInterval(timer);
+          timer = setInterval(() => go(1), 6500);
+        };
+        slider.querySelector('.featured-study-prev').addEventListener('click', () => { go(-1); start(); });
+        slider.querySelector('.featured-study-next').addEventListener('click', () => { go(1); start(); });
+        viewport.addEventListener('scroll', () => {
+          const next = Math.round(viewport.scrollLeft / Math.max(1, viewport.clientWidth));
+          if (next !== index && next >= 0 && next < slides.length) {
+            index = next;
+            [...dots.children].forEach((dot, i) => dot.classList.toggle('is-active', i === index));
+          }
+        }, { passive: true });
+        slider.addEventListener('mouseenter', () => clearInterval(timer));
+        slider.addEventListener('mouseleave', start);
+        slider.addEventListener('focusin', () => clearInterval(timer));
+        slider.addEventListener('focusout', start);
+        start();
+      })();
+    </script>
   </div>
 
   <section class="mobile-legal-os" aria-label="Mobil hukuk ana ekranı">
