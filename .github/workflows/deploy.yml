@@ -38,8 +38,6 @@ jobs:
           file assets/hero-office-family.png
       - name: Build site and run SEO audit
         run: npm run build
-      - name: Generate branded article PDFs
-        run: node scripts/generate-article-pdfs.mjs
       - name: Configure Pages
         if: github.event_name != 'pull_request'
         uses: actions/configure-pages@v5
