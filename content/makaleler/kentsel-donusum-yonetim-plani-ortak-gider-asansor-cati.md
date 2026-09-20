@@ -1,5 +1,5 @@
 ---
-title: "Ortak Giderlerde Kriz! Giriş Kat Asansörü, Ara Kat Çatıyı Neden Ödüyor?"
+title: "Ortak Giderlerde Kriz! Giriş Kat, Asansörü; Ara Kat, Çatıyı Neden Ödüyor?"
 slug: "kentsel-donusum-yonetim-plani-ortak-gider-asansor-cati"
 date: "2026-09-18T23:00:00+03:00"
 updated: "2026-09-20T12:00:00+03:00"
@@ -8,7 +8,7 @@ category: "Kentsel Dönüşüm"
 category_url: "/kentsel-donusum-hukuku/"
 keyword: "Kentsel Dönüşüm Yönetim Planı Ortak Giderler"
 summary: "Kanunun varsayılan ortak gider sistemi başka, yönetim planında kurulabilecek daha adil paylaşım modelleri başka. Asansör elektriği ile çatı giderini aynı mantıkla bölmek zorunda değiliz."
-seo_title: "Ortak Giderlerde Kriz: Asansör ve Çatı Masrafını Kim Öder?"
+seo_title: "Ortak Giderlerde Kriz: Giriş Kat Asansörü, Ara Kat Çatıyı Neden Ödüyor?"
 description: "Kentsel dönüşüm sonrası yönetim planında asansör, çatı ve ortak giderler nasıl paylaştırılmalı? KMK m.20, hakkaniyet ve katsayı modeli."
 series_id: "kentsel-donusum-ozel-hukuk"
 series_order: 8
