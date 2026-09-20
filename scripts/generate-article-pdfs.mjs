@@ -45,6 +45,7 @@ async function waitForServer(url, attempts = 50) {
   for (let i = 0; i < attempts; i++) {
     try {
       const response = await fetch(url);
+      await response.arrayBuffer();
       if (response.ok) return;
     } catch {}
     await new Promise((resolve) => setTimeout(resolve, 120));
