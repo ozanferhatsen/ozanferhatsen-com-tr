@@ -360,3 +360,59 @@
   .mos-tile,.mos-dock-item{transition:none!important}
   .mos-tile:active,.mos-dock-item:active{transform:none!important}
 }
+
+
+/* Desktop hero: compact, self-contained urban-transformation carousel */
+@media(min-width:761px){
+  .featured-study-slider{overflow:hidden}
+  .featured-study-viewport{
+    width:100%;
+    overflow-x:auto;
+    scroll-snap-type:x mandatory;
+    scrollbar-width:none;
+    overscroll-behavior-x:contain;
+  }
+  .featured-study-viewport::-webkit-scrollbar{display:none}
+  .featured-study-track{display:flex;width:100%}
+  .featured-study-slide{
+    flex:0 0 100%;
+    min-width:0;
+    scroll-snap-align:start;
+  }
+  .featured-study-slide h2{margin-top:0}
+  .featured-study-controls{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+    margin-top:16px;
+    padding-top:12px;
+    border-top:1px solid rgba(255,255,255,.16);
+  }
+  .featured-study-prev,.featured-study-next{
+    display:grid;
+    place-items:center;
+    width:30px;
+    height:30px;
+    padding:0;
+    border:1px solid currentColor;
+    border-radius:50%;
+    background:transparent;
+    color:inherit;
+    font:600 16px/1 Arial,sans-serif;
+    cursor:pointer;
+    opacity:.72;
+  }
+  .featured-study-prev:hover,.featured-study-next:hover,
+  .featured-study-prev:focus-visible,.featured-study-next:focus-visible{opacity:1}
+  .featured-study-dots{display:flex;align-items:center;justify-content:center;gap:6px}
+  .featured-study-dot{
+    display:block;
+    width:5px;
+    height:5px;
+    border-radius:50%;
+    background:currentColor;
+    opacity:.28;
+  }
+  .featured-study-dot.is-active{opacity:.9}
+}
