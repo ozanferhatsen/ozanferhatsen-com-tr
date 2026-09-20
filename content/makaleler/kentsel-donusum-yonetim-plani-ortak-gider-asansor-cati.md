@@ -36,7 +36,7 @@ sources:
   - name: "Yargıtay 18. Hukuk Dairesi, E.2014/8293, K.2014/10378, 12.06.2014; Şahin (2024) tarafından aktarılan asansör gideri örneği."
 ---
 
-## Önce en önemli ayrım: Kanun ne diyor, ben ne öneriyorum?
+## Önce en önemli ayrım: Kanun ne diyor, biz ne öneriyoruz?
 
 Kat Mülkiyeti Kanunu m.20'nin bir **varsayılan gider paylaşım sistemi** var. Yönetim planında veya maliklerin geçerli anlaşmasında başka bir düzen yoksa bu sistem uygulanır.
 
@@ -47,6 +47,8 @@ Bu yazıda bundan sonra anlatacağım katsayılar ise **kanunda yazılı oranlar
 > **Bunlar, yeni bir yönetim planı hazırlanırken değerlendirilmesini önerdiğim hakkaniyet modelleridir. Geçerli biçimde kararlaştırılmadan mevcut gider hesabının yerine kendiliğinden geçmez.**
 
 Bu ayrımı baştan koymak önemli. Çünkü “Kanun bugün ne emrediyor?” ile “Yeni yönetim planını hazırlarken daha adil bir sistem nasıl kurulabilir?” aynı soru değildir.
+
+> **Eşitlik ile adalet aynı şey değildir.** Herkese aynı faturayı çıkarmak eşit olabilir; fakat giderin nasıl doğduğunu ve kimin ne ölçüde yararlandığını hiç hesaba katmıyorsa her zaman adil olmayabilir.
 
 ## Kanunun varsayılan sistemi ne?
 
@@ -71,7 +73,7 @@ Asansörde iki ayrı şeyi birbirine karıştırmamak gerekir.
 
 **İkincisi ise asansörün binada bulunmasının ve çalışır halde tutulmasının maliyetidir:** motor değişimi, büyük yenileme, ana ekipman değişimi gibi giderler.
 
-Ben özellikle **kullanıma bağlı asansör giderlerinde** kat yükseldikçe katsayının artmasını daha adil buluyorum.
+Biz özellikle **kullanıma bağlı asansör giderlerinde** kat yükseldikçe katsayının artmasını daha adil buluyoruz.
 
 Örneğin yönetim planı hazırlanırken şu başlangıç modeli kullanılabilir:
 
@@ -143,17 +145,17 @@ Bu nedenle yönetim planında **asansörün kullanım gideri ile büyük bakım 
 
 Çatı yalnız en üst kattaki dairenin tavanı değildir.
 
-Çatı binanın tamamını yağmurdan, sudan ve dış etkilerden korur. Bu yüzden ara kattaki malik için “Ben çatıyı kullanmıyorum, hiç ödemem” yaklaşımını doğru bulmuyorum.
+Çatı binanın tamamını yağmurdan, sudan ve dış etkilerden korur. Bu yüzden ara kattaki malik için “Ben çatıyı kullanmıyorum, hiç ödemem” yaklaşımını doğru bulmuyoruz.
 
 Ama işin diğer tarafını da görmezden gelmemek gerekir:
 
 **En üst kattaki daire çatıdan diğer dairelere göre daha doğrudan yararlanır.** Çatı akarsa ilk zarar gören, ısı ve su yalıtımından en doğrudan etkilenen bağımsız bölüm genellikle odur.
 
-Bu nedenle yönetim planı hazırlanırken çatı giderinin tamamını yalnız üst kata yüklemek yerine, üst kata **sınırlı bir ilave pay** verilmesi bana daha dengeli geliyor.
+Bu nedenle yönetim planı hazırlanırken çatı giderinin tamamını yalnız üst kata yüklemek yerine, üst kata **sınırlı bir ilave pay** verilmesini daha dengeli buluyoruz.
 
 ### Önerdiğim başlangıç modeli: %80 + %20
 
-Ben örnek hesaplamalarda şu modeli başlangıç noktası olarak kullanıyorum:
+Biz örnek hesaplamalarda şu modeli başlangıç noktası olarak kullanıyoruz:
 
 - **Çatı giderinin %80'i:** binanın tamamını koruduğu için bütün maliklere, tercihen arsa payları dikkate alınarak dağıtılır.
 - **Çatı giderinin %20'si:** çatının hemen altındaki bağımsız bölümlere ilave pay olarak ayrılır.
@@ -231,7 +233,7 @@ Vatandaş açısından önemli sonuç şu:
 
 Kentsel dönüşüm sözleşmesi hazırlanırken yeni yönetim planının ne zaman görüleceği, ortak giderlerin hangi temel kurallara göre paylaşılacağı ve asansör/çatı/teras gibi kalemlerin nasıl ele alınacağı da konuşulmalıdır.
 
-## Kısacası benim önerdiğim model ne?
+## Kısacası önerdiğimiz model ne?
 
 | Konu | Başlangıç önerim |
 | --- | --- |
@@ -243,7 +245,7 @@ Kentsel dönüşüm sözleşmesi hazırlanırken yeni yönetim planının ne zam
 
 Bunların hiçbiri **“Kanunda bu oran yazıyor”** anlamına gelmez.
 
-Benim yaklaşımım şu: Yönetim planı hazırlanırken herkesin yıllarca ödeyeceği giderleri tek cümleyle geçmek yerine, **masrafın gerçekten nereden çıktığına ve kimin ne ölçüde yararlandığına bakmak** gerekir.
+Bizim yaklaşımımız şu: Yönetim planı hazırlanırken herkesin yıllarca ödeyeceği giderleri tek cümleyle geçmek yerine, **masrafın gerçekten nereden çıktığına ve kimin ne ölçüde yararlandığına bakmak** gerekir.
 
 ## Sık sorulan sorular
 
