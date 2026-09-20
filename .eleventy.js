@@ -29,6 +29,27 @@ const sourceAttributions = [
 
 const READING_WORDS_PER_MINUTE = 180;
 
+
+function legislationLinksAsText(content = "") {
+  return String(content).replace(/<a\b([^>]*)>([\s\S]*?)<\/a>/gi, (full, attrs, inner) => {
+    const hrefMatch = String(attrs).match(/\bhref\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s>]+))/i);
+    if (!hrefMatch) return full;
+
+    const href = hrefMatch[1] || hrefMatch[2] || hrefMatch[3] || "";
+    if (!/^(?:https?:)?\/\//i.test(href)) return full;
+
+    let parsed;
+    try {
+      parsed = new URL(href.startsWith("//") ? "https:" + href : href);
+    } catch {
+      return full;
+    }
+
+    const hostname = parsed.hostname.toLowerCase().replace(/^www\./, "");
+    return hostname === "mevzuat.gov.tr" ? inner : full;
+  });
+}
+
 function externalLinksOpenInNewTab(content = "") {
   return String(content).replace(/<a\b([^>]*)>/gi, (tag, attrs) => {
     const hrefMatch = String(attrs).match(/\bhref\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s>]+))/i);
@@ -343,6 +364,13 @@ export default function (eleventyConfig) {
       );
     }
     return result;
+  });
+
+  // Legislation references remain visible as citations, but official Mevzuat
+  // URLs are deliberately not clickable anywhere on the public site.
+  eleventyConfig.addTransform("legislationLinksAsText", (content, outputPath) => {
+    if (!outputPath || !outputPath.endsWith(".html")) return content;
+    return legislationLinksAsText(content);
   });
 
   // External links must never replace the current site page. Apply this at build
