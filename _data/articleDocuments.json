@@ -1,0 +1,50 @@
+{
+  "İmar Hukuku": [
+    "Tapu kaydı ve güncel takyidat bilgileri",
+    "İmar durumu, plan paftası ve plan notları",
+    "Parselasyon planı, dağıtım ve tahsis cetvelleri",
+    "Kadastral çap, kök parsel ve eski ifraz/tevhit kayıtları",
+    "Eski yol veya kamu terkine ilişkin belgeler",
+    "Belediye kararları, tebligatlar ve ilgili başvuru evrakı"
+  ],
+  "Kentsel Dönüşüm": [
+    "Tapu kaydı, arsa payları ve bağımsız bölüm bilgileri",
+    "Riskli yapı tespiti, tebligat ve kesinleşme evrakı",
+    "Malik toplantısı çağrısı, karar ve imza belgeleri",
+    "Müteahhit teklifi, protokol ve sözleşme taslakları",
+    "Yeni proje, bağımsız bölüm dağılımı ve şerefiye çalışmaları",
+    "Varsa değerleme, pay satışı, teminat ve ruhsat belgeleri"
+  ],
+  "İnşaat Hukuku": [
+    "Sözleşme ve tüm ekleri",
+    "Teknik şartname, proje ve ruhsat belgeleri",
+    "Hakediş, ilerleme ve ödeme kayıtları",
+    "Teslim, tespit ve kabul tutanakları",
+    "İhtarlar, yazışmalar ve taraf bildirimleri",
+    "Fotoğraf, video, bilirkişi veya teknik tespit kayıtları"
+  ],
+  "Gayrimenkul Hukuku": [
+    "Tapu kaydı ve takyidat bilgileri",
+    "Satış, satış vaadi veya diğer sözleşmeler",
+    "Ödeme dekontları ve bedel akışını gösteren kayıtlar",
+    "Vekâletname, devir ve noterlik belgeleri",
+    "Varsa proje, broşür ve teslim belgeleri",
+    "Önceki ihtar, dava, takip veya resmi başvuru evrakı"
+  ],
+  "Kira Hukuku": [
+    "Kira sözleşmesi ve ek protokoller",
+    "Banka dekontları ve kira ödeme kayıtları",
+    "İhtarname ve tebligat belgeleri",
+    "Varsa icra takibi veya dava evrakı",
+    "Kiralananın teslimi ve kullanımına ilişkin tutanaklar",
+    "Taraflar arasındaki yazışmalar ve bildirimler"
+  ],
+  "Bilişim Hukuku": [
+    "Soruşturma veya kovuşturma evrakı",
+    "Platform, NCMEC veya hesap kayıtları",
+    "IP, CGNAT, kaynak port ve zaman kayıtları",
+    "Arama, el koyma, imaj alma ve hash tutanakları",
+    "Bilirkişi ve adli bilişim inceleme raporları",
+    "Cihaz, hesap ve kullanıcı bağlantısını gösteren diğer teknik kayıtlar"
+  ]
+}
