@@ -135,9 +135,10 @@ function legalToc(value = "") {
       const explicitId = idMatch ? (idMatch[1] || idMatch[2] || idMatch[3] || "") : "";
       const id = allocateId(text, explicitId);
 
-      const sectionMatch = text.match(/^(\d+)\.\s+(.+)$/);
+      const headingLevel = Number(level);
+      const sectionMatch = headingLevel === 2 ? text.match(/^(\d+)\.\s+(.+)$/) : null;
       items.push({
-        level: Number(level),
+        level: headingLevel,
         id,
         text: sectionMatch ? sectionMatch[2] : text,
         sectionNumber: sectionMatch ? sectionMatch[1].padStart(2, "0") : ""
