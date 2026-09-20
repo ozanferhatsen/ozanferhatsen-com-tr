@@ -6,7 +6,7 @@
     "audit:output": "node scripts/audit-output.mjs",
     "audit:search": "node --check assets/search.js && node scripts/legal-search-stage2-smoke.mjs",
     "optimize:assets": "node scripts/optimize-assets.mjs",
-    "build": "npm run audit:seo && npm run audit:security && npm run optimize:assets && eleventy && npm run audit:search && npm run audit:output"
+    "build": "npm run audit:seo && npm run audit:security && npm run optimize:assets && eleventy && npm run audit:search && node scripts/generate-article-pdfs.mjs && npm run audit:output"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.1.2",
