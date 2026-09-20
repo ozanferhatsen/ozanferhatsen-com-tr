@@ -416,3 +416,20 @@
   }
   .featured-study-dot.is-active{opacity:.9}
 }
+
+@media(min-width:761px){
+  .featured-study-category{
+    margin-bottom:8px;
+    font:700 9px/1.25 Inter,Arial,sans-serif;
+    letter-spacing:.11em;
+    text-transform:uppercase;
+    opacity:.58;
+  }
+  .featured-study-progress{
+    min-width:52px;
+    text-align:center;
+    font:600 10px/1 Inter,Arial,sans-serif;
+    letter-spacing:.08em;
+    opacity:.58;
+  }
+}
