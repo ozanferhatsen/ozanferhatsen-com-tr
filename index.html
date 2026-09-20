@@ -34,22 +34,22 @@ page_css: "/assets/home.css"
     </section>
 
     <aside class="featured-study featured-study-slider" aria-label="Hukuki rehberler">
-      <div class="featured-study-label">Hukuki Rehberler</div>
+      <div class="featured-study-label">Kentsel Dönüşüm Rehberleri</div>
       <div class="featured-study-viewport" tabindex="0">
         <div class="featured-study-track">
-          {% for article in collections.makaleler %}
+          {% for article in collections.makaleler %}{% if article.data.category == "Kentsel Dönüşüm" or article.data.category == "Kentsel Dönüşüm Hukuku" %}
           <article class="featured-study-slide">
             <div class="featured-study-category">{{ article.data.category }}</div>
             <h2>{{ article.data.title }}</h2>
             <p>{{ article.data.summary or article.data.description }}</p>
             <a href="{{ article.url }}">Rehberi incele →</a>
           </article>
-          {% endfor %}
+          {% endif %}{% endfor %}
         </div>
       </div>
       <div class="featured-study-controls" aria-label="Rehberler arasında gezin">
         <button class="featured-study-prev" type="button" aria-label="Önceki rehber">←</button>
-        <div class="featured-study-progress" aria-live="polite"><span class="featured-study-current">1</span> / <span class="featured-study-total">{{ collections.makaleler.length }}</span></div>
+        <div class="featured-study-progress" aria-live="polite"><span class="featured-study-current">1</span> / <span class="featured-study-total">0</span></div>
         <button class="featured-study-next" type="button" aria-label="Sonraki rehber">→</button>
       </div>
     </aside>
@@ -60,9 +60,11 @@ page_css: "/assets/home.css"
         const viewport = slider.querySelector('.featured-study-viewport');
         const slides = [...slider.querySelectorAll('.featured-study-slide')];
         const current = slider.querySelector('.featured-study-current');
+        const total = slider.querySelector('.featured-study-total');
         let index = 0;
         let timer;
         if (!slides.length) return;
+        total.textContent = String(slides.length);
         const updateCounter = () => { current.textContent = String(index + 1); };
         const paint = () => {
           viewport.scrollTo({ left: viewport.clientWidth * index, behavior: 'smooth' });
