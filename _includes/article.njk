@@ -15,6 +15,9 @@ og_type: article
 .article-layout{display:block}
 .article-body{max-width:none;margin-inline:0}
 .article-body>*:not(.article-toc){max-width:none;margin-left:0;margin-right:0}
+.article-content-sheet{max-width:794px;margin:0 auto;padding:76px 72px 84px;background:#fff;border:1px solid #ded8d0;box-shadow:0 12px 32px rgba(43,38,32,.07)}
+.article-content-sheet>*:first-child{margin-top:0}
+.article-content-sheet>*:last-child{margin-bottom:0}
 .article-toc{margin:4px 0 42px;border:0;background:#292622;color:#f4efe8}
 .article-toc summary{display:flex;align-items:center;justify-content:space-between;min-height:58px;padding:0 22px;cursor:pointer;list-style:none;font:700 11px/1.4 Inter,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#f4efe8}
 .article-toc summary::-webkit-details-marker{display:none}
@@ -43,7 +46,7 @@ og_type: article
 .article-layout>.sidebar .series-sidebox{display:none}
 .article-layout>.sidebar .sidebox{min-width:0}
 @media(max-width:950px){.series-pager{grid-template-columns:1fr}.series-pager .next:only-child,.series-pager .prev:only-child{grid-column:auto}.series-pager .next{order:1}.series-pager .prev{order:2}.article-layout>.sidebar{grid-template-columns:1fr}}
-@media(max-width:620px){.series-kicker{font-size:10px}.series-pager{margin-top:40px}.series-pager a{min-height:112px;padding:17px}.series-pager .series-pager-title,.series-pager .next .series-pager-title{font-size:20px}.article-toc{margin-bottom:30px}.article-toc summary{padding-inline:17px}.article-toc nav{padding:0 17px 16px}.article-toc a{font-size:15px}}
+@media(max-width:860px){.article-content-sheet{max-width:none;padding:44px 34px 52px}}\n@media(max-width:620px){.article-content-sheet{padding:30px 20px 38px}.series-kicker{font-size:10px}.series-pager{margin-top:40px}.series-pager a{min-height:112px;padding:17px}.series-pager .series-pager-title,.series-pager .next .series-pager-title{font-size:20px}.article-toc{margin-bottom:30px}.article-toc summary{padding-inline:17px}.article-toc nav{padding:0 17px 16px}.article-toc a{font-size:15px}}
 @media(min-width:761px){.article-toc{margin-top:8px}}
 @media(prefers-reduced-motion:reduce){.article-toc summary::after{transition:none}}
 </style>
@@ -89,12 +92,15 @@ og_type: article
       </nav>
     </details>
     {% endif %}
+    <div class="article-content-sheet">
     {% if image %}<p><img src="{{ image }}" alt="{{ image_alt or title }}" loading="eager" decoding="async" style="width:100%;height:auto"></p>{% endif %}
     {{ content | safe }}
 
     {% if page.url == '/makaleler/yargitay-hukuk-genel-kurulu-kararlari-tasinmaz-satisindan-dogan-uyusmazliklar/' %}
       {% include "hgk-tasinmaz-final-redaksiyon.njk" %}
     {% endif %}
+
+    </div>
 
     {% if sources %}
     <section class="author-box"><h2>Kaynaklar ve hukuki dayanak</h2><ul>{% for source in sources %}<li>{% if source.url %}<a href="{{ source.url }}" rel="noopener">{{ source.name | sourceAttribution }}</a>{% else %}{{ source.name | sourceAttribution }}{% endif %}</li>{% endfor %}</ul></section>
