@@ -135,7 +135,13 @@ function legalToc(value = "") {
       const explicitId = idMatch ? (idMatch[1] || idMatch[2] || idMatch[3] || "") : "";
       const id = allocateId(text, explicitId);
 
-      items.push({ level: Number(level), id, text });
+      const sectionMatch = text.match(/^(\d+)\.\s+(.+)$/);
+      items.push({
+        level: Number(level),
+        id,
+        text: sectionMatch ? sectionMatch[2] : text,
+        sectionNumber: sectionMatch ? sectionMatch[1].padStart(2, "0") : ""
+      });
       return full;
     }
   );
