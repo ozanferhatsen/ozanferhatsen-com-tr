@@ -20,10 +20,10 @@ og_type: article
 .article-layout{display:block}
 .article-body{max-width:none;margin-inline:0}
 .article-body>*:not(.article-toc){max-width:none;margin-left:0;margin-right:0}
-.article-content-sheet{max-width:794px;margin:0 auto;padding:76px 72px 84px;background:#fff;border:1px solid #ded8d0;box-shadow:0 12px 32px rgba(43,38,32,.07)}
+.article-content-sheet{max-width:794px;margin:0 auto;padding:76px 72px 84px;background:var(--paper);border:1px solid var(--line);box-shadow:0 12px 32px rgba(43,38,32,.07)}
 .article-content-sheet>*:first-child{margin-top:0}
 .article-content-sheet>*:last-child{margin-bottom:0}
-.article-toc{margin:4px 0 42px;border:0;background:#292622;color:#f4efe8}
+.article-toc{margin:4px 0 42px;border:0;background:var(--dark);color:#f4efe8}
 .article-toc summary{display:flex;align-items:center;justify-content:space-between;min-height:58px;padding:0 22px;cursor:pointer;list-style:none;font:700 11px/1.4 Inter,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#f4efe8}
 .article-toc summary::-webkit-details-marker{display:none}
 .article-toc summary::marker{display:none;content:""}
@@ -34,14 +34,14 @@ og_type: article
 .article-toc li{margin:0;display:grid;grid-template-columns:34px minmax(0,1fr);gap:8px;align-items:start}
 .article-toc li+li{border-top:1px solid rgba(255,255,255,.1)}
 .article-toc a{display:block;padding:11px 0;font-size:14px;line-height:1.4;text-decoration:none;color:#f4efe8}
-.article-toc .toc-number{padding-top:13px;font-size:10px;line-height:1.2;letter-spacing:.08em;color:#b76b78}
+.article-toc .toc-number{padding-top:13px;font-size:10px;line-height:1.2;letter-spacing:.08em;color:var(--gold)}
 .article-toc .toc-level-3 a{padding-left:18px;color:#d8d0c8}.article-toc .toc-level-3 .toc-number{visibility:hidden}
 .article-toc summary:focus-visible,.article-toc a:focus-visible{outline:2px solid #fff;outline-offset:2px}
-.article-content-sheet table{width:100%;border-collapse:collapse;border:1px solid #bdb7af;margin:26px 0 32px;background:#fff;font-size:15px;line-height:1.45}
+.article-content-sheet table{width:100%;border-collapse:collapse;border:1px solid #bdb7af;margin:26px 0 32px;background:var(--paper);font-size:15px;line-height:1.45}
 .article-content-sheet th,.article-content-sheet td{border:1px solid #c9c3bb;padding:11px 13px;text-align:left;vertical-align:top}
-.article-content-sheet th{background:#ece8e2;font-weight:700}
-.article-content-sheet tbody tr:nth-child(even){background:#faf8f5}
-.legal-calculator{margin:30px 0 36px;padding:22px;border:1px solid #c9c3bb;background:#f7f4ef}
+.article-content-sheet th{background:#eee7df;font-weight:700}
+.article-content-sheet tbody tr:nth-child(even){background:#f8f3ed}
+.legal-calculator{margin:30px 0 36px;padding:22px;border:1px solid #c9c3bb;background:#f4eee6}
 .legal-calculator__title{font:700 18px/1.25 Georgia,"Times New Roman",serif;margin-bottom:8px}
 .legal-calculator__note,.legal-calculator__foot{margin:0;color:#625d57;font-size:14px;line-height:1.55}
 .legal-calculator__inputs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:18px 0}
@@ -52,7 +52,7 @@ og_type: article
 .article-content-sheet .legal-calculator table{margin:0;min-width:620px}
 .article-content-sheet .legal-calculator td input{min-width:72px;padding:7px 8px;font-size:14px}
 .legal-calculator__results{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:18px 0}
-.legal-calculator__results div{border:1px solid #c9c3bb;background:#fff;padding:14px}
+.legal-calculator__results div{border:1px solid #c9c3bb;background:var(--paper);padding:14px}
 .legal-calculator__results span{display:block;font-size:12px;color:#6a645e;margin-bottom:5px}
 .legal-calculator__results strong{display:block;font-size:22px;font-weight:600}
 @media(max-width:620px){.legal-calculator{padding:17px}.legal-calculator__inputs,.legal-calculator__results{grid-template-columns:1fr}}
