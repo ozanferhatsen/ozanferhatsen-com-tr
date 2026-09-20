@@ -41,7 +41,7 @@ Bu nedenle mevcut bir apartmanda yalnızca “Ben giriş kattayım, asansörü k
 
 Bu yazıda bundan sonra anlatacağımız katsayılar ise **kanunda yazılı oranlar değildir.**
 
-> **Bunlar, yeni bir yönetim planı hazırlanırken değerlendirilmesini önerdiğim hakkaniyet modelleridir. Geçerli biçimde kararlaştırılmadan mevcut gider hesabının yerine kendiliğinden geçmez.**
+> **Bunlar, yeni bir yönetim planı hazırlanırken değerlendirilmesini önerdiğimiz hakkaniyet modelleridir. Geçerli biçimde kararlaştırılmadan mevcut gider hesabının yerine kendiliğinden geçmez.**
 
 Bu ayrımı baştan koymak önemli. Çünkü “Kanun bugün ne emrediyor?” ile “Yeni yönetim planını hazırlarken daha adil bir sistem nasıl kurulabilir?” aynı soru değildir.
 
@@ -103,7 +103,7 @@ Katsayıların toplamı 21'dir. Buna göre her bir katsayı 100 TL'ye karşılı
 | 6. kat | 6 | 600 TL |
 | **Toplam** | **21** | **2.100 TL** |
 
-Bu tablo **kanunun emrettiği hesap değildir.** Yönetim planı hazırlanırken kullanım giderleri için önerdiğim örnek bir katsayı modelidir.
+Bu tablo **kanunun emrettiği hesap değildir.** Yönetim planı hazırlanırken kullanım giderleri için önerdiğimiz örnek bir katsayı modelidir.
 
 Binanın bodrum otoparkı varsa, giriş kattaki daire de asansörü düzenli kullanıyorsa veya bazı bağımsız bölümlerin ayrı girişi bulunuyorsa katsayıların buna göre değiştirilmesi gerekir.
 
@@ -150,14 +150,14 @@ Ama işin diğer tarafını da görmezden gelmemek gerekir:
 
 Bu nedenle yönetim planı hazırlanırken çatı giderinin tamamını yalnız üst kata yüklemek yerine, üst kata **sınırlı bir ilave pay** verilmesini daha dengeli buluyoruz.
 
-### Önerdiğim başlangıç modeli: %80 + %20
+### Önerdiğimiz başlangıç modeli: %80 + %20
 
-Biz örnek hesaplamalarda şu modeli başlangıç noktası olarak kullanıyoruz:
+Önerdiğimiz başlangıç modeli şu:
 
 - **Çatı giderinin %80'i:** binanın tamamını koruduğu için bütün maliklere, tercihen arsa payları dikkate alınarak dağıtılır.
 - **Çatı giderinin %20'si:** çatının hemen altındaki bağımsız bölümlere ilave pay olarak ayrılır.
 
-> **%20 kanunda yazılı bir oran değildir.** Yönetim planı hazırlanırken değerlendirilmesini önerdiğim varsayılan başlangıç oranıdır. Binanın yapısına, teras kullanımına ve bağımsız bölümlerin durumuna göre değiştirilebilir.
+> **%20 kanunda yazılı bir oran değildir.** Yönetim planı hazırlanırken değerlendirilmesini önerdiğimiz varsayılan başlangıç oranıdır. Binanın yapısına, teras kullanımına ve bağımsız bölümlerin durumuna göre değiştirilebilir.
 
 Örneğin çatı yenilemesi **300.000 TL** ise:
 
@@ -232,7 +232,7 @@ Kentsel dönüşüm sözleşmesi hazırlanırken yeni yönetim planının ne zam
 
 ## Kısacası önerdiğimiz model ne?
 
-| Konu | Başlangıç önerim |
+| Konu | Önerdiğimiz başlangıç modeli |
 | --- | --- |
 | Asansör elektriği ve kullanıma bağlı gider | Giriş 0; 1. kat 1; 2. kat 2; devamında kat numarası kadar katsayı |
 | Asansörün büyük yenilemesi | Kullanım giderinden ayrı değerlendirme |
@@ -248,7 +248,7 @@ Bizim yaklaşımımız şu: Yönetim planı hazırlanırken herkesin yıllarca �
 
 ### Giriş kattaki malik asansör gideri ödemek zorunda mı?
 
-Mevcut yönetim planında farklı ve geçerli bir düzenleme yoksa yalnız “kullanmıyorum” denilerek ortak giderden kendiliğinden çıkılamaz. Bu yazıdaki sıfır katsayısı, yeni yönetim planı hazırlanırken kullanıma bağlı giderler için önerdiğim örnek modeldir.
+Mevcut yönetim planında farklı ve geçerli bir düzenleme yoksa yalnız “kullanmıyorum” denilerek ortak giderden kendiliğinden çıkılamaz. Bu yazıdaki sıfır katsayısı, yeni yönetim planı hazırlanırken kullanıma bağlı giderler için önerdiğimiz örnek modeldir.
 
 ### 5. kattaki malik 1. kattakinin beş katı asansör parası mı ödemek zorunda?
 
