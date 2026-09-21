@@ -51,3 +51,12 @@ Ancak buradan otomatik olarak:
 **“Kanunda yazmıyor, o hâlde para vadesiz biçimde beklesin.”**
 
 sonucu çıkmamalıdır.
+
+
+İstanbul Bölge Adliye Mahkemesi 22. Hukuk Dairesi de 2018 tarihli bir kararında, tehiri icra amacıyla icra dosyasına yatırılan paranın nemalandırılmasına ilişkin açık düzenleme bulunmadığını; fakat bunu yasaklayan bir hüküm de olmadığını belirterek paranın nemalandırılmasının hem alacaklının hem borçlunun yararına olduğunu kabul etti.
+
+Bizce hukuki başlangıç noktası da bu olmalıdır:
+
+**Açık hüküm varsa uygulanır. Diyelim ki somut para türü bakımından uygulanabilir açık hüküm yok. Bu durumda hukuk susmuş sayılmaz.**
+
+Türk Medenî Kanunu m.1/2, kanunda uygulanabilir hüküm bulunmadığında hâkimin önce örf ve âdet hukukuna, o da yoksa **kanun koyucu olsaydı koyacağı kurala göre** karar vereceğini düzenler. Hâkim ayrıca Türk hukukunu resen uygular.
