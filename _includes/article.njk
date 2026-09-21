@@ -93,6 +93,24 @@ og_type: article
     color:#000!important;
   }
   html.pdf-export body::before{display:none!important;content:none!important}
+  html.pdf-export .pdf-publication-mark{
+    display:block!important;
+    margin:0 0 10mm!important;
+    padding:0 0 5mm!important;
+    border-bottom:.35mm solid #000!important;
+    color:#000!important;
+    background:#fff!important;
+    font:700 8.5pt/1.35 Arial,sans-serif!important;
+    letter-spacing:.12em!important;
+    text-transform:uppercase!important;
+  }
+  html.pdf-export .pdf-publication-mark span{
+    display:block!important;
+    margin-top:1.5mm!important;
+    color:#000!important;
+    font-weight:400!important;
+    letter-spacing:.06em!important;
+  }
   html.pdf-export .site-header,
   html.pdf-export .site-footer,
   html.pdf-export .footer,
@@ -256,6 +274,7 @@ if (new URLSearchParams(window.location.search).get('pdf') === '1') {
 {% set articleAboutThings = (about or legal_about or statutes) | schemaThings %}
 {% set articleCitations = (citations or citation or precedents) | schemaCitations %}
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":{{ (canonicalUrl + '#article') | json }},"headline":{{ title | json }},"description":{{ (description or summary) | json }},"mainEntityOfPage":{"@type":"WebPage","@id":{{ canonicalUrl | json }}},"author":{"@id":"https://ozanferhatsen.com.tr/#ozan-ferhat-sen"},"publisher":{"@id":"https://ozanferhatsen.com.tr/#ozan-ferhat-sen"},"isPartOf":[{"@id":"https://ozanferhatsen.com.tr/#website"}{% if currentSeries %},{"@type":"CollectionPage","name":{{ currentSeries.title | json }},"url":{{ (site.url + currentSeries.url) | json }}}{% endif %}],"datePublished":{{ date | isoDate | json }},"dateModified":{{ (updated or date) | isoDate | json }},{% if articleReviewDate %}"lastReviewed":{{ articleReviewDate | isoDate | json }},{% endif %}"inLanguage":"tr-TR","articleSection":{{ category | json }}{% if image %},"image":{{ (site.url + image) | json }}{% endif %}{% if articleAboutThings and articleAboutThings.length %},"about":{{ articleAboutThings | json }}{% endif %}{% if articleCitations and articleCitations.length %},"citation":{{ articleCitations | json }}{% endif %}},{"@type":"BreadcrumbList","@id":{{ (canonicalUrl + '#breadcrumb') | json }},"itemListElement":[{"@type":"ListItem","position":1,"name":"Ana Sayfa","item":"https://ozanferhatsen.com.tr/"},{"@type":"ListItem","position":2,"name":{{ category | json }},"item":{{ (site.url + resolvedCategoryUrl) | json }}},{"@type":"ListItem","position":3,"name":{{ title | json }},"item":{{ canonicalUrl | json }}}]}]}</script>
+<div class="wrap pdf-publication-mark">Av. Ozan Ferhat Şen<span>Gayrimenkul · İnşaat · İmar · Kentsel Dönüşüm Hukuku</span></div>
 <section class="article-header">
   <div class="wrap">
     <div class="breadcrumbs" aria-hidden="true"><a href="/">Ana Sayfa</a> / <a href="{{ resolvedCategoryUrl }}">{{ category }}</a> / {{ title }}</div>
