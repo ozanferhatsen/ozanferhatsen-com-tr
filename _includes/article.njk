@@ -106,8 +106,6 @@ og_type: article
   html.pdf-export .related-reading,
   html.pdf-export .cta-box,
   html.pdf-export .article-documents,
-  html.pdf-export .pdf-publication-mark,
-  html.pdf-export .pdf-endnote,
   html.pdf-export .article-body>.author-box:not(.article-sources),
   html.pdf-export .legal-calculator{display:none!important}
 
@@ -258,7 +256,6 @@ if (new URLSearchParams(window.location.search).get('pdf') === '1') {
 {% set articleAboutThings = (about or legal_about or statutes) | schemaThings %}
 {% set articleCitations = (citations or citation or precedents) | schemaCitations %}
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":{{ (canonicalUrl + '#article') | json }},"headline":{{ title | json }},"description":{{ (description or summary) | json }},"mainEntityOfPage":{"@type":"WebPage","@id":{{ canonicalUrl | json }}},"author":{"@id":"https://ozanferhatsen.com.tr/#ozan-ferhat-sen"},"publisher":{"@id":"https://ozanferhatsen.com.tr/#ozan-ferhat-sen"},"isPartOf":[{"@id":"https://ozanferhatsen.com.tr/#website"}{% if currentSeries %},{"@type":"CollectionPage","name":{{ currentSeries.title | json }},"url":{{ (site.url + currentSeries.url) | json }}}{% endif %}],"datePublished":{{ date | isoDate | json }},"dateModified":{{ (updated or date) | isoDate | json }},{% if articleReviewDate %}"lastReviewed":{{ articleReviewDate | isoDate | json }},{% endif %}"inLanguage":"tr-TR","articleSection":{{ category | json }}{% if image %},"image":{{ (site.url + image) | json }}{% endif %}{% if articleAboutThings and articleAboutThings.length %},"about":{{ articleAboutThings | json }}{% endif %}{% if articleCitations and articleCitations.length %},"citation":{{ articleCitations | json }}{% endif %}},{"@type":"BreadcrumbList","@id":{{ (canonicalUrl + '#breadcrumb') | json }},"itemListElement":[{"@type":"ListItem","position":1,"name":"Ana Sayfa","item":"https://ozanferhatsen.com.tr/"},{"@type":"ListItem","position":2,"name":{{ category | json }},"item":{{ (site.url + resolvedCategoryUrl) | json }}},{"@type":"ListItem","position":3,"name":{{ title | json }},"item":{{ canonicalUrl | json }}}]}]}</script>
-<div class="wrap pdf-publication-mark">Av. Ozan Ferhat Şen<span>Gayrimenkul · İnşaat · İmar · Kentsel Dönüşüm Hukuku</span></div>
 <section class="article-header">
   <div class="wrap">
     <div class="breadcrumbs" aria-hidden="true"><a href="/">Ana Sayfa</a> / <a href="{{ resolvedCategoryUrl }}">{{ category }}</a> / {{ title }}</div>
@@ -302,11 +299,6 @@ if (new URLSearchParams(window.location.search).get('pdf') === '1') {
     {% if sources %}
     <section class="author-box article-sources"><h2>Kaynaklar ve hukuki dayanak</h2><ul>{% for source in sources %}<li>{{ source.name | sourceAttribution }}</li>{% endfor %}</ul></section>
     {% endif %}
-
-    <div class="pdf-endnote">
-      <strong>Av. Ozan Ferhat Şen</strong><br>
-      ozanferhatsen.com.tr · Güncel sürüm: {{ canonicalUrl }}{% if articleReviewDate %}<br>Hukuki kontrol: {{ articleReviewDate | dateTR }}{% endif %}
-    </div>
 
     {% if relatedArticles.length %}
     <section class="author-box related-reading" aria-label="İlgili makaleler"><h2>İlgili makaleler</h2><ul>{% for article in relatedArticles %}<li><a href="{{ article.url }}">{{ article.data.title }}</a></li>{% endfor %}</ul></section>
