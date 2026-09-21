@@ -234,17 +234,78 @@ page_css: "/assets/home.css"
       <aside class="home-legal-updates" aria-labelledby="home-legal-updates-title">
         <div class="eyebrow">Güncel hukuk</div>
         <h2 id="home-legal-updates-title">Hukuki Gelişmeler</h2>
-        <div class="home-legal-updates-list">
-          {% for update in updates | limit(2) %}
-          <a class="home-legal-update" href="/hukuki-gelismeler/#{{ update.id }}">
-            <div class="home-legal-update-meta">{{ update.date | dateTR }}{% if update.tag %} · {{ update.tag }}{% endif %}</div>
-            <h3>{{ update.homeTitle or update.title }}</h3>
-            <p>{{ update.homeSummary or update.summary }}</p>
-          </a>
-          {% endfor %}
+        <div class="home-legal-updates-viewport" data-legal-updates-viewport>
+          <div class="home-legal-updates-list" data-legal-updates-track>
+            {% for update in updates | limit(5) %}
+            <a class="home-legal-update" href="/hukuki-gelismeler/#{{ update.id }}">
+              <div class="home-legal-update-meta">{{ update.date | dateTR }}{% if update.tag %} · {{ update.tag }}{% endif %}</div>
+              <h3>{{ update.homeTitle or update.title }}</h3>
+              <p>{{ update.homeSummary or update.summary }}</p>
+            </a>
+            {% endfor %}
+          </div>
         </div>
         <a class="home-legal-updates-all" href="/hukuki-gelismeler/">Tüm hukuki gelişmeler →</a>
       </aside>
+      <script>
+        (() => {
+          const viewport = document.querySelector('[data-legal-updates-viewport]');
+          const track = document.querySelector('[data-legal-updates-track]');
+          if (!viewport || !track) return;
+
+          const items = [...track.querySelectorAll('.home-legal-update')];
+          const visibleCount = 2;
+          if (items.length <= visibleCount) return;
+
+          items.slice(0, visibleCount).forEach(item => {
+            const clone = item.cloneNode(true);
+            clone.setAttribute('aria-hidden', 'true');
+            clone.setAttribute('tabindex', '-1');
+            track.appendChild(clone);
+          });
+
+          let index = 0;
+          let timer = null;
+          const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+          const move = () => {
+            index += 1;
+            track.style.transition = 'transform 650ms cubic-bezier(.22,.61,.36,1)';
+            track.style.transform = `translateY(-${index * 168}px)`;
+
+            if (index === items.length) {
+              window.setTimeout(() => {
+                track.style.transition = 'none';
+                index = 0;
+                track.style.transform = 'translateY(0)';
+                void track.offsetHeight;
+              }, 700);
+            }
+          };
+
+          const start = () => {
+            if (reduceMotion.matches) return;
+            window.clearInterval(timer);
+            timer = window.setInterval(move, 4200);
+          };
+
+          const stop = () => window.clearInterval(timer);
+
+          viewport.addEventListener('mouseenter', stop);
+          viewport.addEventListener('mouseleave', start);
+          viewport.addEventListener('focusin', stop);
+          viewport.addEventListener('focusout', start);
+          reduceMotion.addEventListener?.('change', () => {
+            stop();
+            index = 0;
+            track.style.transition = 'none';
+            track.style.transform = 'translateY(0)';
+            start();
+          });
+
+          start();
+        })();
+      </script>
     </div>
   </div>
 </section>
