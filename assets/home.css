@@ -487,15 +487,22 @@
   font-size:clamp(34px,3.2vw,46px);
   line-height:1.05;
 }
-.home-legal-updates-list{
+.home-legal-updates-viewport{
+  height:336px;
+  overflow:hidden;
   border-top:1px solid var(--line);
+}
+.home-legal-updates-list{
+  will-change:transform;
 }
 .home-legal-update{
   display:block;
+  height:168px;
   padding:18px 0;
   border-bottom:1px solid var(--line);
   color:var(--ink);
   text-decoration:none;
+  overflow:hidden;
 }
 .home-legal-update-meta{
   margin-bottom:7px;
@@ -508,6 +515,10 @@
 }
 .home-legal-update h3{
   margin:0;
+  display:-webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:2;
+  overflow:hidden;
   font-family:'Cormorant Garamond',Georgia,serif;
   font-size:24px;
   font-weight:600;
@@ -515,6 +526,10 @@
 }
 .home-legal-update p{
   margin:8px 0 0;
+  display:-webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:2;
+  overflow:hidden;
   color:var(--muted);
   font-size:12.5px;
   line-height:1.55;
