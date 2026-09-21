@@ -433,3 +433,110 @@
     opacity:.58;
   }
 }
+
+
+/* Homepage practice areas + legal updates */
+.practice-news-layout{
+  display:grid;
+  grid-template-columns:minmax(0,2fr) minmax(290px,1fr);
+  gap:34px;
+  align-items:start;
+}
+.practice-area-heading{
+  max-width:760px;
+  margin-bottom:28px;
+}
+.practice-area-heading h2,
+.home-legal-updates h2{
+  font-family:'Cormorant Garamond',Georgia,serif;
+  font-weight:500;
+  letter-spacing:-.025em;
+}
+.practice-area-heading h2{
+  margin:8px 0 0;
+  font-size:clamp(38px,4.4vw,60px);
+  line-height:1.03;
+}
+.practice-card-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:14px;
+}
+.practice-card-grid .area-card{
+  min-height:203px;
+  padding:20px;
+}
+.practice-card-grid .area-card h3{
+  margin:15px 0 11px;
+  font-size:24px;
+}
+.practice-card-grid .area-card p{
+  font-size:13px;
+}
+.practice-card-grid .area-card .arrow{
+  margin-top:16px;
+  font-size:11px;
+}
+.home-legal-updates{
+  min-width:0;
+  padding-left:28px;
+  border-left:1px solid var(--line);
+}
+.home-legal-updates h2{
+  margin:8px 0 22px;
+  font-size:clamp(32px,3vw,43px);
+  line-height:1.05;
+}
+.home-legal-updates-list{
+  border-top:1px solid var(--line);
+}
+.home-legal-update{
+  display:block;
+  padding:18px 0;
+  border-bottom:1px solid var(--line);
+  color:var(--ink);
+  text-decoration:none;
+}
+.home-legal-update-meta{
+  margin-bottom:7px;
+  color:var(--accent);
+  font-size:10px;
+  font-weight:600;
+  letter-spacing:.08em;
+  line-height:1.4;
+  text-transform:uppercase;
+}
+.home-legal-update h3{
+  margin:0;
+  font-family:'Cormorant Garamond',Georgia,serif;
+  font-size:23px;
+  font-weight:600;
+  line-height:1.08;
+}
+.home-legal-update p{
+  margin:8px 0 0;
+  color:var(--muted);
+  font-size:12px;
+  line-height:1.5;
+}
+.home-legal-update:hover h3{
+  color:var(--accent);
+}
+.home-legal-updates-all{
+  display:inline-block;
+  margin-top:17px;
+  font-size:12px;
+  font-weight:600;
+  letter-spacing:.03em;
+}
+@media(max-width:1000px){
+  .practice-news-layout{grid-template-columns:1fr;gap:42px}
+  .home-legal-updates{padding:28px 0 0;border-left:0;border-top:1px solid var(--line)}
+}
+@media(max-width:760px){
+  .practice-area-heading{margin-bottom:22px}
+  .practice-area-heading h2{font-size:36px}
+  .practice-card-grid{grid-template-columns:1fr}
+  .practice-card-grid .area-card{min-height:183px}
+  .home-legal-updates h2{font-size:34px}
+}
