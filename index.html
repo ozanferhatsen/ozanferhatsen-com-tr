@@ -211,21 +211,40 @@ page_css: "/assets/home.css"
 
 <section class="section dark practice-areas" id="alanlar">
   <div class="wrap">
-    <div class="section-head">
-      <div><div class="eyebrow">Ana çalışma alanları</div><h2>İmar, inşaat, dönüşüm ve mülkiyet çoğu zaman aynı dosyada kesişir.</h2></div>
-      <p>Bir imar kararı mülkiyet hakkını, bir dönüşüm sözleşmesi tapuyu, bir inşaat uyuşmazlığı taşınmazın değerini etkileyebilir. Bu nedenle hukuki meseleler, birbirinden bağımsız başlıklar olarak değil, aynı dosyanın birbirini etkileyen parçaları olarak ele alınır.</p>
-    </div>
-    <div class="grid4">
-      {% for key, area in practiceAreas %}
-      {% if key != 'kira' and area.navGroup == 'property' %}
-      <a class="area-card" href="{{ area.url }}">
-        <div class="tag">0{{ loop.index }}</div>
-        <h3>{{ area.name }}</h3>
-        <p>{{ area.homeSummary }}</p>
-        <span class="arrow">{{ area.homeArrow }}</span>
-      </a>
-      {% endif %}
-      {% endfor %}
+    {% set updates = hukukiGelismeler | sortByDate %}
+    {% set orderedAreas = [practiceAreas.imar, practiceAreas.kentsel, practiceAreas.gayrimenkul, practiceAreas.insaat] %}
+    <div class="practice-news-layout">
+      <div class="practice-area-panel">
+        <div class="practice-area-heading">
+          <div class="eyebrow">Ana çalışma alanları</div>
+          <h2>İmar, inşaat ve mülkiyet çoğu zaman aynı dosyada kesişir.</h2>
+        </div>
+        <div class="practice-card-grid">
+          {% for area in orderedAreas %}
+          <a class="area-card" href="{{ area.url }}">
+            <div class="tag">0{{ loop.index }}</div>
+            <h3>{{ area.name }}</h3>
+            <p>{{ area.homeSummary }}</p>
+            <span class="arrow">{{ area.homeArrow }}</span>
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+
+      <aside class="home-legal-updates" aria-labelledby="home-legal-updates-title">
+        <div class="eyebrow">Güncel hukuk</div>
+        <h2 id="home-legal-updates-title">Hukuki Gelişmeler</h2>
+        <div class="home-legal-updates-list">
+          {% for update in updates | limit(2) %}
+          <a class="home-legal-update" href="/hukuki-gelismeler/#{{ update.id }}">
+            <div class="home-legal-update-meta">{{ update.date | dateTR }}{% if update.tag %} · {{ update.tag }}{% endif %}</div>
+            <h3>{{ update.homeTitle or update.title }}</h3>
+            <p>{{ update.homeSummary or update.summary }}</p>
+          </a>
+          {% endfor %}
+        </div>
+        <a class="home-legal-updates-all" href="/hukuki-gelismeler/">Tüm hukuki gelişmeler →</a>
+      </aside>
     </div>
   </div>
 </section>
