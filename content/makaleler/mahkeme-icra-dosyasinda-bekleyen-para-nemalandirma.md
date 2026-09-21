@@ -73,3 +73,12 @@ HMK m.30, hâkime yargılamanın makul sürede ve düzenli yürütülmesini ve *
 Buna rağmen pratikte şu zincirle karşılaşılabiliyor:
 
 **Para yatırılıyor → nemalandırma talep ediliyor → talep reddediliyor → icra hukuk mahkemesine şikâyet ediliyor.**
+
+
+Zarar zaten doğmuşsa, şartları oluştuğunda **İİK m.5 kapsamında idarenin tazminat sorumluluğu** da ayrıca gündeme gelebilir. Bunun yargı kararlarında örneği vardır. Yargıtay 4. Hukuk Dairesinin 2019 tarihli bir kararında, icra müdürlüğünce ihale bedelinin nemalandırılmaması nedeniyle İİK m.5 kapsamında açılan maddi tazminat davası incelenmiştir. Bununla birlikte bu yol, uygulamada nemalandırma sorunlarının olağan çözüm biçimi olarak sık karşılaşılan bir mekanizma değildir.
+
+Bizce mesele, vatandaşın veya avukatın paranın yalnızca değerini korumak için yeni bir uyuşmazlık üretmesine varmadan çözülmelidir.
+
+> **Mahkeme veya icra dairesi parayı sahibine hemen ödeyemiyorsa, ekonomik değerinin korunması ayrıca dava konusu hâline gelmemelidir.**
+
+Enflasyonun yüksek olduğu bir ekonomide bu yalnız faiz hesabı değildir. Mülkiyet hakkının gerçek değerini koruma meselesidir.
