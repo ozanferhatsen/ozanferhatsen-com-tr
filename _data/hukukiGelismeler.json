@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-09-18",
+    "category": "Gayrimenkul Hukuku",
+    "id": "aym-onalim-bedeli-nemalandirma-enflasyon-2026",
+    "title": "AYM: Önalım bedelinin nemalandırılmaması mülkiyet hakkını ihlal etti",
+    "summary": "Anayasa Mahkemesi, 2022/86882 başvuru numaralı dosyada önalım hakkına dayalı tapu iptali ve tescil davasında yatırılan önalım bedelinin nemalandırılmayarak enflasyon karşısında değer kaybına uğratılmasını mülkiyet hakkının ihlali saydı. Karar, dava süresince mahkeme veya veznede bekleyen paranın ekonomik değerinin korunması bakımından önem taşıyor.",
+    "homeTitle": "AYM: Önalım bedeli enflasyon karşısında değer kaybedemez",
+    "homeSummary": "Önalım davasında yatırılan bedelin nemalandırılmaması nedeniyle ekonomik değer kaybına uğraması mülkiyet hakkı ihlali sayıldı.",
+    "sourceUrl": "https://anayasa.gov.tr/tr/mahkeme-gundemi/birinci-bolum/16-eylul-2026-bolum-toplantisi-gundemi-ve-sonuclari",
+    "sourceLabel": "AYM resmî kaynağı →",
+    "tag": "Önalım Hakkı"
+  },
+  {
+    "date": "2026-09-21",
+    "category": "Gayrimenkul Hukuku",
+    "id": "aym-kamulastirma-bedeli-odenmeden-hak-dusurucu-sure-2026",
+    "title": "AYM: Kamulaştırma bedeli ödenmeden taşınmaza el konulmuşsa hak düşürücü süre tek başına yeterli değil",
+    "summary": "21 Eylül 2026 tarihli Resmî Gazete’de yayımlanan 2020/38884 başvuru numaralı kararda Anayasa Mahkemesi, kamulaştırıldığı ileri sürülen taşınmazın bedelinin gerçekten ödenip ödenmediği incelenmeden tazminat davasının hak düşürücü süre gerekçesiyle reddedilmesini mülkiyet hakkına aykırı buldu. Karar yeniden yargılama yapılmasını gerektiriyor.",
+    "homeTitle": "AYM: Kamulaştırma bedeli ödenmemişse süre itirazı tek başına yeterli değil",
+    "homeSummary": "Bedelin gerçekten ödenip ödenmediği incelenmeden davanın hak düşürücü süre gerekçesiyle reddedilmesi mülkiyet hakkını ihlal etti.",
+    "sourceUrl": "https://anayasa.gov.tr/tr/mahkeme-gundemi/ikinci-bolum/22-nisan-2026-bolum-toplantisi-gundemi-ve-sonuclari",
+    "sourceLabel": "AYM resmî kaynağı →",
+    "tag": "Kamulaştırma"
+  },
+  {
     "date": "2026-09-05",
     "category": "Gayrimenkul Hukuku",
     "id": "dijital-tasinmaz-ilanlari-gib-bildirim-2026",
