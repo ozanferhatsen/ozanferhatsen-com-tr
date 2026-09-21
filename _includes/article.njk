@@ -88,6 +88,7 @@ og_type: article
   @page{size:A4;margin:18mm 17mm 20mm}
   html.pdf-export{-webkit-print-color-adjust:economy;print-color-adjust:economy}
   html.pdf-export body{
+    margin:0!important;
     background:#fff!important;
     color:#000!important;
   }
@@ -96,9 +97,11 @@ og_type: article
   html.pdf-export .site-footer,
   html.pdf-export .footer,
   html.pdf-export .skip-link,
+  html.pdf-export .breadcrumbs,
   html.pdf-export .article-toc,
   html.pdf-export .sidebar,
   html.pdf-export .article-pdf-link,
+  html.pdf-export .article-meta-line,
   html.pdf-export .series-pager,
   html.pdf-export .related-reading,
   html.pdf-export .cta-box,
@@ -107,16 +110,60 @@ og_type: article
   html.pdf-export .pdf-endnote,
   html.pdf-export .article-body>.author-box:not(.article-sources),
   html.pdf-export .legal-calculator{display:none!important}
+
   html.pdf-export main,
   html.pdf-export .article-header,
   html.pdf-export .article-layout,
+  html.pdf-export .article-body,
   html.pdf-export .article-content-sheet,
   html.pdf-export .article-sources{
     background:#fff!important;
     color:#000!important;
     box-shadow:none!important;
   }
-  html.pdf-export .article-header *,
+
+  html.pdf-export .article-header{
+    padding:0!important;
+    margin:0 0 8mm!important;
+    border:0!important;
+  }
+  html.pdf-export .article-header .wrap,
+  html.pdf-export .article-layout{
+    width:auto!important;
+    max-width:none!important;
+    margin:0!important;
+    padding:0!important;
+  }
+  html.pdf-export .series-kicker{
+    margin:0 0 4mm!important;
+    color:#000!important;
+    font-size:7.5pt!important;
+  }
+  html.pdf-export .article-header h1{
+    margin:0 0 4mm!important;
+    color:#000!important;
+    font-size:27pt!important;
+    line-height:1.05!important;
+    letter-spacing:-.02em!important;
+  }
+  html.pdf-export .article-summary{
+    max-width:none!important;
+    margin:0!important;
+    color:#000!important;
+    font-size:12pt!important;
+    line-height:1.45!important;
+  }
+
+  html.pdf-export .article-body{max-width:none!important;margin:0!important}
+  html.pdf-export .article-content-sheet{
+    max-width:none!important;
+    margin:0!important;
+    padding:0!important;
+    border:0!important;
+    background:#fff!important;
+    color:#000!important;
+    box-shadow:none!important;
+  }
   html.pdf-export .article-content-sheet *,
   html.pdf-export .article-sources *{
     color:#000!important;
@@ -124,58 +171,69 @@ og_type: article
     box-shadow:none!important;
     text-shadow:none!important;
   }
-  html.pdf-export .article-content-sheet img{filter:grayscale(1)!important}
-  html.pdf-export .pdf-publication-mark{
-    position:relative;
-    z-index:1;
-    margin:0 0 10mm;
-    padding:0 0 5mm;
-    border-bottom:.35mm solid #2a2723;
-    font:700 8.5pt/1.35 Arial,sans-serif;
-    letter-spacing:.12em;
-    text-transform:uppercase
-  }
-  html.pdf-export .pdf-publication-mark span{display:block;margin-top:1.5mm;font-weight:400;letter-spacing:.06em;color:#5c5650}
-  html.pdf-export .article-header,
-  html.pdf-export .article-layout,
-  html.pdf-export .article-content-sheet,
-  html.pdf-export .article-sources,
-  html.pdf-export .article-header{padding:0!important;margin:0 0 8mm!important;background:transparent!important}
-  html.pdf-export .article-header .wrap,
-  html.pdf-export .article-layout{width:auto!important;max-width:none!important;margin:0!important;padding:0!important}
-  html.pdf-export .series-kicker{margin-bottom:4mm;font-size:7.5pt}
-  html.pdf-export .article-header h1{margin:0 0 4mm!important;font-size:27pt!important;line-height:1.05!important;letter-spacing:-.02em!important}
-  html.pdf-export .article-summary{max-width:none!important;margin:0!important;font-size:12pt!important;line-height:1.45!important;color:#3d3833!important}
-  html.pdf-export .article-meta-line{margin-top:4mm!important}
-  html.pdf-export .article-meta{font-size:8.5pt!important;color:#625c56!important}
-  html.pdf-export .article-body{max-width:none!important;margin:0!important}
-  html.pdf-export .article-content-sheet{
-    max-width:none!important;
-    margin:0!important;
-    padding:0!important;
-    border:0!important;
-    box-shadow:none!important;
-    background:transparent!important
-  }
   html.pdf-export .article-content-sheet p,
-  html.pdf-export .article-content-sheet li{font-size:10.6pt!important;line-height:1.58!important}
-  html.pdf-export .article-content-sheet h2{font-size:18pt!important;line-height:1.15!important;margin:9mm 0 3.5mm!important;break-after:avoid-page}
-  html.pdf-export .article-content-sheet h3{font-size:13.5pt!important;line-height:1.2!important;margin:6mm 0 2.5mm!important;break-after:avoid-page}
-  html.pdf-export .article-content-sheet blockquote{break-inside:avoid}
-  html.pdf-export .article-content-sheet table{font-size:8.6pt!important;line-height:1.35!important;margin:5mm 0 7mm!important;break-inside:avoid}
-  html.pdf-export .article-content-sheet th,
-  html.pdf-export .article-content-sheet td{padding:2.4mm 2.7mm!important}
-  html.pdf-export .article-sources{margin-top:10mm!important;padding-top:5mm!important;border-top:.3mm solid #bdb6ae!important;background:transparent!important}
-  html.pdf-export .article-sources h2{font-size:14pt!important;margin:0 0 3mm!important}
-  html.pdf-export .article-sources li{font-size:8.7pt!important;line-height:1.45!important;margin:1.5mm 0!important}
-  html.pdf-export .pdf-endnote{
-    margin-top:8mm;
-    padding-top:4mm;
-    border-top:.25mm solid #d0c9c1;
-    font:8.3pt/1.45 Arial,sans-serif;
-    color:#5e5852
+  html.pdf-export .article-content-sheet li{
+    color:#000!important;
+    font-size:10.6pt!important;
+    line-height:1.58!important;
   }
-  html.pdf-export a{color:inherit!important;text-decoration:none!important}
+  html.pdf-export .article-content-sheet h2{
+    color:#000!important;
+    font-size:18pt!important;
+    line-height:1.15!important;
+    margin:9mm 0 3.5mm!important;
+    break-after:avoid-page;
+  }
+  html.pdf-export .article-content-sheet h3{
+    color:#000!important;
+    font-size:13.5pt!important;
+    line-height:1.2!important;
+    margin:6mm 0 2.5mm!important;
+    break-after:avoid-page;
+  }
+  html.pdf-export .article-content-sheet blockquote{
+    break-inside:avoid;
+    border-color:#000!important;
+    background:#fff!important;
+  }
+  html.pdf-export .article-content-sheet table{
+    color:#000!important;
+    background:#fff!important;
+    font-size:8.6pt!important;
+    line-height:1.35!important;
+    margin:5mm 0 7mm!important;
+    break-inside:avoid;
+  }
+  html.pdf-export .article-content-sheet th,
+  html.pdf-export .article-content-sheet td{
+    padding:2.4mm 2.7mm!important;
+    color:#000!important;
+    background:#fff!important;
+    border-color:#000!important;
+  }
+  html.pdf-export .article-content-sheet img{
+    filter:grayscale(1)!important;
+  }
+
+  html.pdf-export .article-sources{
+    margin-top:10mm!important;
+    padding-top:5mm!important;
+    border-top:.3mm solid #000!important;
+    background:#fff!important;
+    color:#000!important;
+  }
+  html.pdf-export .article-sources h2{
+    margin:0 0 3mm!important;
+    color:#000!important;
+    font-size:14pt!important;
+  }
+  html.pdf-export .article-sources li{
+    margin:1.5mm 0!important;
+    color:#000!important;
+    font-size:8.7pt!important;
+    line-height:1.45!important;
+  }
+  html.pdf-export a{color:#000!important;text-decoration:none!important}
 }
 
 </style>
