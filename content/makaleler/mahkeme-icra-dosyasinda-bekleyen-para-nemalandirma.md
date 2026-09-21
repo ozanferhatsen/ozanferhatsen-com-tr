@@ -60,3 +60,16 @@ Bizce hukuki başlangıç noktası da bu olmalıdır:
 **Açık hüküm varsa uygulanır. Diyelim ki somut para türü bakımından uygulanabilir açık hüküm yok. Bu durumda hukuk susmuş sayılmaz.**
 
 Türk Medenî Kanunu m.1/2, kanunda uygulanabilir hüküm bulunmadığında hâkimin önce örf ve âdet hukukuna, o da yoksa **kanun koyucu olsaydı koyacağı kurala göre** karar vereceğini düzenler. Hâkim ayrıca Türk hukukunu resen uygular.
+
+
+Cebri icra hukukunun şekle sıkı bağlı yapısı nedeniyle her boşluğun sınırsız kıyasla doldurulabileceği elbette söylenemez. Fakat kişinin kendi parasının kamu otoritesinin kontrolünde beklerken ekonomik değerini kaybetmesi karşısında “açık hüküm yok” gerekçesi tek başına tatmin edici değildir.
+
+## Vatandaş parasını korumak için ikinci bir dava açmak zorunda kalmamalı
+
+Sorunun usul ekonomisi boyutu da var.
+
+HMK m.30, hâkime yargılamanın makul sürede ve düzenli yürütülmesini ve **gereksiz gider yapılmamasını sağlama** görevi verir. Anayasa m.141 de davaların mümkün olan süratle ve en az giderle sonuçlandırılmasını yargının görevi olarak kabul eder.
+
+Buna rağmen pratikte şu zincirle karşılaşılabiliyor:
+
+**Para yatırılıyor → nemalandırma talep ediliyor → talep reddediliyor → icra hukuk mahkemesine şikâyet ediliyor.**
