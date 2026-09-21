@@ -438,13 +438,13 @@
 /* Homepage practice areas + legal updates */
 .practice-news-layout{
   display:grid;
-  grid-template-columns:minmax(0,2fr) minmax(290px,1fr);
+  grid-template-columns:minmax(0,1.5fr) minmax(320px,1fr);
   gap:34px;
   align-items:start;
 }
 .practice-area-heading{
-  max-width:760px;
-  margin-bottom:28px;
+  max-width:684px;
+  margin-bottom:25px;
 }
 .practice-area-heading h2,
 .home-legal-updates h2{
@@ -454,37 +454,37 @@
 }
 .practice-area-heading h2{
   margin:8px 0 0;
-  font-size:clamp(38px,4.4vw,60px);
+  font-size:clamp(34px,4vw,54px);
   line-height:1.03;
 }
 .practice-card-grid{
   display:grid;
   grid-template-columns:repeat(2,minmax(0,1fr));
-  gap:14px;
+  gap:13px;
 }
 .practice-card-grid .area-card{
-  min-height:203px;
-  padding:20px;
+  min-height:183px;
+  padding:18px;
 }
 .practice-card-grid .area-card h3{
-  margin:15px 0 11px;
-  font-size:24px;
+  margin:14px 0 10px;
+  font-size:22px;
 }
 .practice-card-grid .area-card p{
-  font-size:13px;
+  font-size:12px;
 }
 .practice-card-grid .area-card .arrow{
-  margin-top:16px;
-  font-size:11px;
+  margin-top:14px;
+  font-size:10.5px;
 }
 .home-legal-updates{
   min-width:0;
-  padding-left:28px;
+  padding-left:32px;
   border-left:1px solid var(--line);
 }
 .home-legal-updates h2{
   margin:8px 0 22px;
-  font-size:clamp(32px,3vw,43px);
+  font-size:clamp(34px,3.2vw,46px);
   line-height:1.05;
 }
 .home-legal-updates-list{
@@ -509,15 +509,15 @@
 .home-legal-update h3{
   margin:0;
   font-family:'Cormorant Garamond',Georgia,serif;
-  font-size:23px;
+  font-size:24px;
   font-weight:600;
   line-height:1.08;
 }
 .home-legal-update p{
   margin:8px 0 0;
   color:var(--muted);
-  font-size:12px;
-  line-height:1.5;
+  font-size:12.5px;
+  line-height:1.55;
 }
 .home-legal-update:hover h3{
   color:var(--accent);
