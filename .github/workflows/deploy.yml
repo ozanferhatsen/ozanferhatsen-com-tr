@@ -24,6 +24,28 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v5
+        with:
+          fetch-depth: 2
+      - name: Create source backup archive
+        if: github.event_name != 'pull_request'
+        shell: bash
+        run: |
+          SOURCE_SHA="$(git rev-parse HEAD^)"
+          SHORT_SHA="$(git rev-parse --short=12 "$SOURCE_SHA")"
+          BACKUP_NAME="ozanferhatsen-com-tr_backup_cms-deneme_2026-09-21_${SHORT_SHA}.zip"
+          git archive --format=zip --output="$BACKUP_NAME" "$SOURCE_SHA"
+          printf "Repository: ozanferhatsen/ozanferhatsen-com-tr\nBranch: cms-deneme\nCommit: %s\nBackup date: 2026-09-21\n" "$SOURCE_SHA" > BACKUP_INFO.txt
+          zip -q "$BACKUP_NAME" BACKUP_INFO.txt
+          rm BACKUP_INFO.txt
+          echo "BACKUP_NAME=$BACKUP_NAME" >> "$GITHUB_ENV"
+      - name: Upload source backup
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-backup
+          path: ${{ env.BACKUP_NAME }}
+          if-no-files-found: error
+          retention-days: 3
       - name: Setup Node
         uses: actions/setup-node@v5
         with:
