@@ -86,25 +86,15 @@ og_type: article
 @media(prefers-reduced-motion:reduce){.article-toc summary::after{transition:none}}
 @media print{
   @page{size:A4;margin:18mm 17mm 20mm}
-  html.pdf-export{-webkit-print-color-adjust:exact;print-color-adjust:exact}
-  html.pdf-export body{background:#fff!important;color:#171513!important}
-  html.pdf-export body::before{
-    content:"ozanferhatsen.com.tr";
-    position:fixed;
-    left:50%;
-    top:50%;
-    width:180mm;
-    transform:translate(-50%,-50%) rotate(-35deg);
-    text-align:center;
-    font:500 34pt/1 Georgia,"Times New Roman",serif;
-    letter-spacing:.045em;
-    color:rgba(72,60,52,.055);
-    z-index:0;
-    pointer-events:none;
-    white-space:nowrap
+  html.pdf-export{-webkit-print-color-adjust:economy;print-color-adjust:economy}
+  html.pdf-export body{
+    background:#fff!important;
+    color:#000!important;
   }
+  html.pdf-export body::before{display:none!important;content:none!important}
   html.pdf-export .site-header,
   html.pdf-export .site-footer,
+  html.pdf-export .footer,
   html.pdf-export .skip-link,
   html.pdf-export .article-toc,
   html.pdf-export .sidebar,
@@ -112,10 +102,29 @@ og_type: article
   html.pdf-export .series-pager,
   html.pdf-export .related-reading,
   html.pdf-export .cta-box,
+  html.pdf-export .article-documents,
+  html.pdf-export .pdf-publication-mark,
+  html.pdf-export .pdf-endnote,
   html.pdf-export .article-body>.author-box:not(.article-sources),
   html.pdf-export .legal-calculator{display:none!important}
-  html.pdf-export .pdf-publication-mark,
-  html.pdf-export .pdf-endnote{display:block}
+  html.pdf-export main,
+  html.pdf-export .article-header,
+  html.pdf-export .article-layout,
+  html.pdf-export .article-content-sheet,
+  html.pdf-export .article-sources{
+    background:#fff!important;
+    color:#000!important;
+    box-shadow:none!important;
+  }
+  html.pdf-export .article-header *,
+  html.pdf-export .article-content-sheet *,
+  html.pdf-export .article-sources *{
+    color:#000!important;
+    background:transparent!important;
+    box-shadow:none!important;
+    text-shadow:none!important;
+  }
+  html.pdf-export .article-content-sheet img{filter:grayscale(1)!important}
   html.pdf-export .pdf-publication-mark{
     position:relative;
     z-index:1;
@@ -131,7 +140,6 @@ og_type: article
   html.pdf-export .article-layout,
   html.pdf-export .article-content-sheet,
   html.pdf-export .article-sources,
-  html.pdf-export .pdf-endnote{position:relative;z-index:1}
   html.pdf-export .article-header{padding:0!important;margin:0 0 8mm!important;background:transparent!important}
   html.pdf-export .article-header .wrap,
   html.pdf-export .article-layout{width:auto!important;max-width:none!important;margin:0!important;padding:0!important}
